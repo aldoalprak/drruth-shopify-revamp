@@ -1,0 +1,890 @@
+{
+  "sections": {
+    "38f049c4-4422-4841-bdbc-18cc13f4d40e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-0",
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-1",
+        "template--14862046068801__38f049c4-4422-4841-bdbc-18cc13f4d40e-1675713064eb28e6f1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mycodog.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>MYCODOG - THE BEST MUSHROOM SUPPLEMENTS FOR DOGS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>MycoDog founder<\/strong>, <a href=\"https:\/\/angelaardolino.com\/\" target=\"_blank\"><strong>Angela Ardolino<\/strong><\/a><strong>, <\/strong> is proud to introduce her line of dog supplements that uses medicinal mushrooms and other adaptogens to help dogs thrive<\/p><p>“<em>By combining different types of medicinal mushrooms for our pets, we can harness the unique therapeutic properties each has to offer, while benefiting from the synergistic relationship between different species of mushrooms and other adaptogens<\/em>.” <\/p><p><strong>- Angela Ardolino<\/strong><\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 8,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16443635858774eb64": {
+      "type": "rich-text",
+      "blocks": {
+        "1644363585f56cc491-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Mushroom tinctures for dogs can be administered orally – directly in their mouth, on their food, or with a treat. <\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1644363585f56cc491-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Check out each product’s page to see the recommended mushroom dosage for dogs. <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644363585f56cc491-0",
+        "1644363585f56cc491-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5bd2c24f-83bb-4252-a004-06da2190d5b9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Angela Ardolino,  Our MycoDog founder",
+            "heading_size": "h2"
+          }
+        },
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>is proud to introduce her line of dog supplements that uses medicinal mushrooms and other adaptogens to help dogs thrive<\/p><p>“<em>By combining different types of medicinal mushrooms for our pets, we can harness the unique therapeutic properties each has to offer, while benefiting from the synergistic relationship between different species of mushrooms and other adaptogens<\/em>.” <\/p><p><strong>- Angela Ardolino<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More about Angie",
+            "button_link": "https:\/\/angelaardolino.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-0",
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-1",
+        "template--14862046068801__5bd2c24f-83bb-4252-a004-06da2190d5b9-1675713083ea886f77-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/angela_ardolino_mycodog_founder.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b35ef76d-79f4-44e4-b210-d627139ac9f5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14862046068801__b35ef76d-79f4-44e4-b210-d627139ac9f5-1673288324eab372f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why Does Your Dog Need MycoDog Mushrooms?<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__b35ef76d-79f4-44e4-b210-d627139ac9f5-1673288324eab372f3-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "5adca303-4162-490e-8880-1bdb31bff59e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d6c0b24f-783f-4b43-9ba7-c482ea244964.jpg",
+            "title": "",
+            "text": "<p>Our Reishi and Turkey Tail mushrooms are dual extracted using water (2-3 times) and alcohol to get all of the medicinal compounds out from only the fruiting bodies of fungi.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_0e3a4a31-605d-4a8c-be46-fda6e797b232.jpg",
+            "title": "",
+            "text": "<p>MycoDog is proud to partner with local sustainable farmers who believe in letting nature do its thing. Cultivated and wild-harvested in the Pacific Northwest, grown outside, naturally, with no grains or fillers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_e1652e5d-3f5b-43b9-a828-c707bb2abbd3.jpg",
+            "title": "",
+            "text": "<p>Our organic glycerin tinctures are preserved in a way that keeps them fresher tasting and smelling than mushroom extracts. They’re also more bio-available, so you can get more of the good stuff in each serving.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "092babbb-8f90-4b8b-9ca2-52d9e9ac33d8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_f47b1415-e5fb-4002-9f8b-51630f03557b.jpg",
+            "title": "",
+            "text": "<p>MycoDog mushroom extracts are made with the finest, all-natural ingredients — no artificial flavors, colors or binders. Dogs love the naturally sweet taste!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3b2def91-082b-4cd1-9ac6-6edac0365c77": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-e1668708314482-294x300.png",
+            "title": "",
+            "text": "<p>Selected as the <a href=\"https:\/\/cbddoghealth.com\/in-the-press-mycodog-awarded-natural-dog-supplement-product-of-the-year-award\/\" target=\"_blank\">Natural Dog Vitamin\/Supplement Product of the Year Award <\/a>in the 2022 Independent Pet Innovation Awards.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-0",
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-1",
+        "template--14862046068801__5adca303-4162-490e-8880-1bdb31bff59e-167328609157b6a926-2",
+        "092babbb-8f90-4b8b-9ca2-52d9e9ac33d8",
+        "3b2def91-082b-4cd1-9ac6-6edac0365c77"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "56650363-7304-4c41-808b-a7771fba6bea": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14862046068801__56650363-7304-4c41-808b-a7771fba6bea-1673288324eab372f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HOW MYCODOG HELPED ANGELA’S DOGS<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__56650363-7304-4c41-808b-a7771fba6bea-1673288324eab372f3-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CLARITY FOR DAISIE & POTATO",
+            "heading_size": "h2"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clarity was designed to support your dog’s cognitive disorder, nervous system, mental and emotional health, formulated with a proprietary water extract of Lion’s Mane, Reishi and Cordyceps, with Bacopa Monnieri and Ashwagandha.<\/p><p>“<em>I lost two of my dogs, Potato and Daisie, to dementia, to CCD, canine cognitive dysfunction, which is Alzheimer’s for dogs. So knowing the power of Lion’s Mane and Reishi mushrooms for dogs, I knew what they could do for these geriatric dogs. Odie, my senior mini-schnauzer, was turning 16 soon and I wanted to be able to support him as best as I could. I have literally watched Odie, my senior dog, go from having no interest in eating to taking his mushrooms and eating like a monster the next day<\/em>.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Consult Dr. Ruth Now",
+            "button_link": "shopify:\/\/products\/holistic-wellness-package-optimal-health-1"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_16655905-f61a-40ba-8cda-072b76c8a7e2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d8bee012-0b27-4bd0-8271-1011ebd6a7ce": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14862046068801__d8bee012-0b27-4bd0-8271-1011ebd6a7ce-16732860917073dd0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BREATHE FOR ODIE",
+            "heading_size": "h2"
+          }
+        },
+        "template--14862046068801__d8bee012-0b27-4bd0-8271-1011ebd6a7ce-16732860917073dd0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Breathe was designed to help your dog’s respiratory and cardiovascular systems, formulated with proprietary water extract of Cordyceps, Reishi, Artist Conk and Chaga, with Ashwagandha.<\/p><p>“<em>I also created Breathe for Odie because in his old age he suffers from collapsing trachea, a heart murmur, and CHF, according to his last integrative vet. I just see him getting old and needing extra cardiovascular and respiratory support. After formulating my MycoDog mushroom blends for dogs, I literally can see a difference in my dog’s behavior and health by giving them these mushrooms<\/em>.”<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__d8bee012-0b27-4bd0-8271-1011ebd6a7ce-16732860917073dd0d-0",
+        "template--14862046068801__d8bee012-0b27-4bd0-8271-1011ebd6a7ce-16732860917073dd0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_447ff9d9-d322-4b44-9201-c4704bee31ea.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "96886d29-1864-4c1d-ac95-982a65607c36": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14862046068801__96886d29-1864-4c1d-ac95-982a65607c36-16732860917073dd0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VITALITY FOR NINA",
+            "heading_size": "h2"
+          }
+        },
+        "template--14862046068801__96886d29-1864-4c1d-ac95-982a65607c36-16732860917073dd0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vitality was formulated as a mushroom supplement for dogs dealing with Cancer, Autoimmune Disease, Liver issues and Respiratory issues. Vitality is formulated with a proprietary water extract of Turkey Tail, Reishi, Shiitake, Maitake, Chaga, Artist Conk and Red Belted Conk, with Astragalus Root and Ashwagandha.<\/p><p>“<em>If you’ve been following me, you’ve heard about Nina, my doberman who beat all odds against bone cancer by surviving 26 months past her prognosis. When Nina was diagnosed with Osteosarcoma, I researched the best medicinal mushrooms for dogs to help Nina’s body fight the cancer, and I formulated Vitality with other adaptogenic herbs that make this tincture even more powerful<\/em>!”<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__96886d29-1864-4c1d-ac95-982a65607c36-16732860917073dd0d-0",
+        "template--14862046068801__96886d29-1864-4c1d-ac95-982a65607c36-16732860917073dd0d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_b796b6ea-2983-4979-a72e-0edf0aad0910.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "709f988b-5106-47a1-b8b0-4c3cadfcc81e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14862046068801__709f988b-5106-47a1-b8b0-4c3cadfcc81e-167328609135fef951-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>THE BENEFITS OF MEDICINAL MUSHROOMS FOR DOGS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14862046068801__709f988b-5106-47a1-b8b0-4c3cadfcc81e-167328609135fef951-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>AND ADAPTOGENS!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__709f988b-5106-47a1-b8b0-4c3cadfcc81e-167328609135fef951-0",
+        "template--14862046068801__709f988b-5106-47a1-b8b0-4c3cadfcc81e-167328609135fef951-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "636d8bbf-230f-4217-a3da-ad50d8c72b9c": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Turkey-Tail.webp",
+            "title": "TURKEY TAIL",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Reishi.webp",
+            "title": "REISHI",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shiitake.webp",
+            "title": "SHIITAKE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "03c3d91b-844e-4747-8359-18276f259210": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Maitake.webp",
+            "title": "MAITAKE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "64b14fa7-f478-449c-84b9-0407c0cf0718": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chaga.webp",
+            "title": "CHAGA",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d2409201-89eb-4ed4-9abd-2ab82903713d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artist-Conk.webp",
+            "title": "ARTIST CONK",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "18cb1752-6147-4689-90d8-c6392b167e3c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Red_Belted_Conk.webp",
+            "title": "RED BELTED CONK",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f3fe05e4-d72b-4b20-a822-b6fd14e64d81": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LionsMane.webp",
+            "title": "LION'S MANE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "136861a7-1c3a-4365-a3da-b42ef20c452a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cordeyceps.webp",
+            "title": "CORDYCEPS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "282674cb-391a-48a6-b92f-5b352198e6c9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ashwagandha.png",
+            "title": "ASHWAGANDA",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "11483e3e-05cf-4336-8faa-130da8d374d7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bacopa-Monnieri.png",
+            "title": "BACOPA MONNIERI",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "af3c9f0f-e9a9-4b1a-a17c-162ce3125ff2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Astragalus-Root.png",
+            "title": "ASTRALAGUS ROOT",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-0",
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-1",
+        "template--14862046068801__636d8bbf-230f-4217-a3da-ad50d8c72b9c-167328609157b6a926-2",
+        "03c3d91b-844e-4747-8359-18276f259210",
+        "64b14fa7-f478-449c-84b9-0407c0cf0718",
+        "d2409201-89eb-4ed4-9abd-2ab82903713d",
+        "18cb1752-6147-4689-90d8-c6392b167e3c",
+        "f3fe05e4-d72b-4b20-a822-b6fd14e64d81",
+        "136861a7-1c3a-4365-a3da-b42ef20c452a",
+        "282674cb-391a-48a6-b92f-5b352198e6c9",
+        "11483e3e-05cf-4336-8faa-130da8d374d7",
+        "af3c9f0f-e9a9-4b1a-a17c-162ce3125ff2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f9a6dc66-beff-415d-8083-46a2923816a5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14862046068801__f9a6dc66-beff-415d-8083-46a2923816a5-1673290551f63b1fff-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1447046_YNDMushroomGuide_01-without-web_100722-1583x2048.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14862046068801__f9a6dc66-beff-415d-8083-46a2923816a5-1673290551f63b1fff-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1447046_YNDMushroomGuide_02-without-web_100722-1583x2048.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__f9a6dc66-beff-415d-8083-46a2923816a5-1673290551f63b1fff-0",
+        "template--14862046068801__f9a6dc66-beff-415d-8083-46a2923816a5-1673290551f63b1fff-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "716a9eb7-a09e-4e08-bc84-fc507c161c9d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14862046068801__716a9eb7-a09e-4e08-bc84-fc507c161c9d-167328609135fef951-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>MYCODOG - MUSHROOM EXTRACTS FOR DOGS<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14862046068801__716a9eb7-a09e-4e08-bc84-fc507c161c9d-167328609135fef951-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Angela Ardolino, the founder of CBD Dog Health and a holistic pet expert, created MycoDog, a sustainable line of mushroom extract tinctures for dogs. Angela knew that dog owners deserved to be offered mushroom supplements for dogs that included a blend of the most beneficial medicinal mushroom extracts and complementary adaptogens. Medicinal mushrooms for dogs that can aid in the treatment of common but severe pet ailments such as cancer, autoimmune disease, IVDD, CCD, respiratory problems, cardiovascular problems, kidney and liver support, and immune support.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14862046068801__716a9eb7-a09e-4e08-bc84-fc507c161c9d-167328609135fef951-0",
+        "template--14862046068801__716a9eb7-a09e-4e08-bc84-fc507c161c9d-167328609135fef951-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "1645140795e31deed7": {
+      "type": "collection-list",
+      "blocks": {
+        "1645140795cfde58e6-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "allergy-support-supplement"
+          }
+        },
+        "1645140795cfde58e6-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anxiety-support-protocol"
+          }
+        },
+        "1645140795cfde58e6-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "0574c7aa-73e1-4698-bf97-1ee564ef6732": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cancer-support"
+          }
+        },
+        "be130b3e-47c3-4b08-802f-4115a3ccdb14": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gastrointestinal-support"
+          }
+        },
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "general-detox-protocol"
+          }
+        },
+        "a569004b-959f-4f42-a602-2283001e3d5d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keep-my-pet-healthy-protocol-1"
+          }
+        },
+        "99543df5-f1be-456d-bfb0-730b21137132": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kidney-support"
+          }
+        },
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liver-support"
+          }
+        },
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "post-surgical-care-collection"
+          }
+        },
+        "e8ce74eb-32c0-48d4-b1ae-2cc9289f0e65": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vaccine-heartworm-detox-protocol"
+          }
+        },
+        "30ace9bc-a71f-4064-b63a-5467239cc6b6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dr-ruth-roberts-supplements"
+          }
+        }
+      },
+      "block_order": [
+        "1645140795cfde58e6-0",
+        "1645140795cfde58e6-1",
+        "1645140795cfde58e6-2",
+        "0574c7aa-73e1-4698-bf97-1ee564ef6732",
+        "be130b3e-47c3-4b08-802f-4115a3ccdb14",
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3",
+        "a569004b-959f-4f42-a602-2283001e3d5d",
+        "99543df5-f1be-456d-bfb0-730b21137132",
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3",
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250",
+        "e8ce74eb-32c0-48d4-b1ae-2cc9289f0e65",
+        "30ace9bc-a71f-4064-b63a-5467239cc6b6"
+      ],
+      "settings": {
+        "title": "Are you looking for supplements for a specific need? Check it out on our other collections:",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1675715890674599c5": {
+      "type": "apps",
+      "blocks": {
+        "ad921292-4030-4dab-a23b-58e937d88e8e": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "title": "Real Reviews from Real Customers",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "#08708a",
+            "color_star": "#ff9900",
+            "color_text": "#2e2a39",
+            "color_link": "#08708a",
+            "review_ids": "",
+            "product_ids": "6935395762241, 6935399039041, 6935398613057",
+            "category": "",
+            "product_brand": "Your Natural Dog",
+            "tags": "",
+            "min_rating": "4",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
+        }
+      },
+      "block_order": [
+        "ad921292-4030-4dab-a23b-58e937d88e8e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "58435396-8ece-4826-838f-c68f85aa6512": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-auto-play=\"true\" data-product-brand=\"Your Natural Dog\" data-min-rating=\"5\" data-with-photos=\"true\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "164514111230637097": {
+      "type": "rich-text",
+      "blocks": {
+        "164514111261d9da74-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact Us!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "164514111261d9da74-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+          }
+        },
+        "164514111261d9da74-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164514111261d9da74-0",
+        "164514111261d9da74-1",
+        "164514111261d9da74-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "38f049c4-4422-4841-bdbc-18cc13f4d40e",
+    "banner",
+    "164434556097d46afd",
+    "product-grid",
+    "16443635858774eb64",
+    "5bd2c24f-83bb-4252-a004-06da2190d5b9",
+    "b35ef76d-79f4-44e4-b210-d627139ac9f5",
+    "5adca303-4162-490e-8880-1bdb31bff59e",
+    "56650363-7304-4c41-808b-a7771fba6bea",
+    "1644361594fa530990",
+    "d8bee012-0b27-4bd0-8271-1011ebd6a7ce",
+    "96886d29-1864-4c1d-ac95-982a65607c36",
+    "709f988b-5106-47a1-b8b0-4c3cadfcc81e",
+    "636d8bbf-230f-4217-a3da-ad50d8c72b9c",
+    "f9a6dc66-beff-415d-8083-46a2923816a5",
+    "716a9eb7-a09e-4e08-bc84-fc507c161c9d",
+    "1645140795e31deed7",
+    "1675715890674599c5",
+    "58435396-8ece-4826-838f-c68f85aa6512",
+    "164514111230637097"
+  ]
+}

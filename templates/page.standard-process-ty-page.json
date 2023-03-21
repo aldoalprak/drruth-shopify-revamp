@@ -1,0 +1,345 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1657820818877efff2": {
+      "type": "video",
+      "settings": {
+        "heading": "Keep The Momentum Going!",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/FB_LIVE_COVERS_706a339d-9f47-4588-aa85-088c3f0dfa92.jpg",
+        "video_url": "https:\/\/vimeo.com\/730119420",
+        "description": "Dr Ruth Roberts.   America's most love pet health coach.  Welcomes Standard Process Customers",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165781997276dff547": {
+      "type": "rich-text",
+      "blocks": {
+        "1657819972513fdac1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Congratulations on taking a step towards you and your pet's best and healthiest life. <\/p><p>Use the code below to get your discount upon check-out.<\/p>"
+          }
+        },
+        "254eca4e-8a0e-48c9-ace6-cc61b18569fe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SPTHANKYOU<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "1657819972513fdac1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https:\/\/shop.drruthroberts.com\/discount\/SPTHANKYOU",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657819972513fdac1-1",
+        "254eca4e-8a0e-48c9-ace6-cc61b18569fe",
+        "1657819972513fdac1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165781969467085437": {
+      "type": "multicolumn",
+      "blocks": {
+        "1657819694a605846a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Allergy Support Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Allergy+SUpport+Protocol+2.pdf"
+          }
+        },
+        "1657819694a605846a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Anxiety Support Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/anxiety+support+protocol.pdf"
+          }
+        },
+        "1657819694a605846a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Cancer Support Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Cancer+Support+protocol.pdf"
+          }
+        },
+        "25f2bb0f-6879-4ff2-bb96-c80655898512": {
+          "type": "column",
+          "settings": {
+            "title": "Bone & Joint Support",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/bone+%26+joint+support.pdf"
+          }
+        },
+        "fa22329d-1c1f-4052-9b8b-ae29f871efe5": {
+          "type": "column",
+          "settings": {
+            "title": "G.I. Support Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/G.I+Support+protocol.pdf"
+          }
+        },
+        "e5ca9879-f231-43b2-a264-e0b85615824c": {
+          "type": "column",
+          "settings": {
+            "title": "Liver Support",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Liver+Support+Protocols.pdf"
+          }
+        },
+        "1d773bc2-58c4-4b1b-9904-ee43aeb1e007": {
+          "type": "column",
+          "settings": {
+            "title": "Keep My Pet Healthy Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/keep+my+pet+health+protocol.pdf"
+          }
+        },
+        "eb11b600-3ee0-4887-aa56-17889ff49c5d": {
+          "type": "column",
+          "settings": {
+            "title": "Kidney Support Protocol",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/kidney+Support+protocol.pdf"
+          }
+        },
+        "6107aca8-a10a-45a8-820b-ccfdfc95ded4": {
+          "type": "column",
+          "settings": {
+            "title": "Detox, Vaccine & Heartworm Prevention",
+            "text": "",
+            "link_label": "Download Free Guide",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657819694a605846a-0",
+        "1657819694a605846a-1",
+        "1657819694a605846a-2",
+        "25f2bb0f-6879-4ff2-bb96-c80655898512",
+        "fa22329d-1c1f-4052-9b8b-ae29f871efe5",
+        "e5ca9879-f231-43b2-a264-e0b85615824c",
+        "1d773bc2-58c4-4b1b-9904-ee43aeb1e007",
+        "eb11b600-3ee0-4887-aa56-17889ff49c5d",
+        "6107aca8-a10a-45a8-820b-ccfdfc95ded4"
+      ],
+      "settings": {
+        "title": "These collections of supplements hand-picked by Dr. Ruth Roberts who is an expert in Veterinary Science to empower pet owners to care for their animals in the same way they care for themselves. We, pet parents, have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Visit Free Pet Care Protocols",
+        "button_link": "https:\/\/drruthroberts.com\/courses\/dr-ruths-holistic-pet-health-protocols\/",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165774264419e522a6": {
+      "type": "rich-text",
+      "blocks": {
+        "1657742644a866698d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>STANDARD PROCESS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1657742644a866698d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1657742644a866698d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657742644a866698d-0",
+        "1657742644a866698d-1",
+        "1657742644a866698d-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165774240958426509": {
+      "type": "rich-text",
+      "blocks": {
+        "165774240967788465-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>High-Quality, Whole Food-Based Nutritional Supplements<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "165774240967788465-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand the essential role assessments and consultations play in successfully pairing the right nutritional supplements with individual health needs. Learn more about our holistic approach to advancing health.Standard Process is a visionary leader in high-quality, whole food-based nutritional supplements. From soil to supplement, we control every step of the process to ensure our ingredients are nutrient rich – the way nature intendedStandard Process deliver high-quality products that are safe and work the way nature intended.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165774240967788465-0",
+        "165774240967788465-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16577427438ce2f971": {
+      "type": "image-with-text",
+      "blocks": {
+        "16577427436b9a84c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good Nutrition Starts with Whole Foods Since 1929,",
+            "heading_size": "h2"
+          }
+        },
+        "16577427436b9a84c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standard Process has been dedicated to the field of nutritional supplements and the whole food philosophy introduced by Dr. Royal Lee. His goal was to provide nutrients as they are found in nature – in a whole food state where he believed their natural potency and efficacy would be realized. Based on this philosophy, we start with whole foods and prepare these ingredients in a way that safeguards their nutritional value. We apply a holistic approach to how we farm, manufacture, and quality-assure our products. This comprehensive approach ensures that our nutritional supplements deliver their complex nutrients as nature intended.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16577427436b9a84c7-0",
+        "16577427436b9a84c7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FB-Production-6.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657753470fdb01367": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "If you need help with selecting products for specific conditions, please fill out the form below and type in the comment box the product or condition you are looking for. You can also contact us via call or text at +213 394 2923 \/ email drruthroberts@drruthroberts.com",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16578189320b6340ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657818932759c77bd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms & Conditions:",
+            "heading_size": "h2"
+          }
+        },
+        "1657818932759c77bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Discount applies to all in-store purchases.<\/p><p>2. Discount can only be used once.<\/p><p>3. Discount cannot be used when there are ongoing promotions.<\/p><p>4. Only one discount can be used per order.<\/p><p>5. This discount is only issued to<strong> Dr. Ruth Roberts<\/strong> Customers.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1657818932759c77bd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657818932759c77bd-0",
+        "1657818932759c77bd-1",
+        "1657818932759c77bd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SP_VET_56603d8c-2b3d-45ce-94e5-42b1b92d11e7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657820818877efff2",
+    "165781997276dff547",
+    "165781969467085437",
+    "165774264419e522a6",
+    "165774240958426509",
+    "16577427438ce2f971",
+    "1657753470fdb01367",
+    "16578189320b6340ed"
+  ]
+}

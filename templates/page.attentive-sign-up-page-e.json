@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "617afdcf-ba45-403a-93fa-a7ed99d1940b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/drruthroberts.attn.tv\/p\/KTU\/landing-page\" style=\"min-height: 800px;\" width=\"100%\"\n        height=\"100%\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "617afdcf-ba45-403a-93fa-a7ed99d1940b"
+  ]
+}

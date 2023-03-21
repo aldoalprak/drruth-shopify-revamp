@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "165896116618d15e99": {
+      "type": "rich-text",
+      "blocks": {
+        "165896116698d10275-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Get a FREE $10 Gift Card by sending us a short video review of Dr. Ruth Roberts Products!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "165896116698d10275-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We will send you a <strong>$10 Gift Card<\/strong> to our store in return for just a <strong>20 to 50 second video review<\/strong> of our product! <\/p><p><\/p><p>Get started now by following these simple steps below:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165896116698d10275-0",
+        "165896116698d10275-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1658960057813c9204": {
+      "type": "image-with-text",
+      "blocks": {
+        "16589600575612d0f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "STEP 1:",
+            "heading_size": "h2"
+          }
+        },
+        "16589600575612d0f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Grab a Smartphone or a Tablet that can record video. <\/strong>(iPhone, Samsung, ipad, etc.)<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16589600575612d0f7-0",
+        "16589600575612d0f7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_9df02cdb-a7c0-4dc1-93c4-817839b504c4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1658960423a50521ff": {
+      "type": "image-with-text",
+      "blocks": {
+        "1658960423f55b50de-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step 2:",
+            "heading_size": "h2"
+          }
+        },
+        "1658960423f55b50de-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Record your video review <\/strong>(Must be 20-50 seconds long)<\/p><p>*We suggest you ask a friend or family member to record you…<br\/><\/p><p><strong>VIDEO REQUIREMENTS<\/strong><\/p><p>TO QUALIFY FOR THE GIFT CARD, YOU MUST INCLUDE<br\/>THE FOLLOWING <strong>3 ELEMENTS<\/strong> IN YOUR VIDEO:<\/p><p>1.)Mention our company name: Dr. Ruth Roberts<\/p><p>2.) Clearly show You, Your Pet and Our Product if possible<\/p><p>3.) Review both Our Product and Your Shopping Experience<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1658960423f55b50de-0",
+        "1658960423f55b50de-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_ca8c1f0d-ae64-479f-98b7-235dd64f7a1a.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165896105013a62170": {
+      "type": "image-with-text",
+      "blocks": {
+        "165896105004d01114-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Step 3:",
+            "heading_size": "h2"
+          }
+        },
+        "165896105004d01114-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Email us your video<\/strong><\/p><p>(From the device your recorded it on)<br\/><\/p><p>USE SUBJECT LINE:Dr. Ruth Roberts Video Review.<\/p><p><\/p><p><strong>SEND YOUR VIDEO TO:<\/strong><\/p><p><a href=\"mailto:DrRuthRoberts@DrRuthRoberts.com\" target=\"_blank\">DrRuthRoberts@DrRuthRoberts.com<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "165896105004d01114-0",
+        "165896105004d01114-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_349bb758-e663-4572-afbb-e1ebf9a59f04.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "165896116618d15e99",
+    "1658960057813c9204",
+    "1658960423a50521ff",
+    "165896105013a62170",
+    "main"
+  ]
+}

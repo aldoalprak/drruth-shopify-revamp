@@ -1,0 +1,382 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "de5b580a-4af6-4649-b73a-1c3435f66540": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n<\/span>\n<!-- Stamped - End Star Rating Badge --><br>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "c5e06765-1683-43f5-a7a8-82249d1a1521": {
+          "type": "text",
+          "settings": {
+            "text": "Choose a Purchase Plan:",
+            "text_style": "body"
+          }
+        },
+        "e9848660-1c8b-4f0f-b8c1-c38dce78f164": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "collapsible-content-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "plant",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Direction for Use",
+            "icon": "chat_bubble",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "content": "<p>Standard Shipping 3-5 business days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Return policy",
+            "icon": "return",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "de5b580a-4af6-4649-b73a-1c3435f66540",
+        "price",
+        "quantity_selector",
+        "c5e06765-1683-43f5-a7a8-82249d1a1521",
+        "e9848660-1c8b-4f0f-b8c1-c38dce78f164",
+        "buy_buttons",
+        "variant_picker",
+        "description",
+        "caption",
+        "share",
+        "collapsible-content-0",
+        "collapsible-content-1",
+        "collapsible-content-2",
+        "collapsible-content-3"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
+    },
+    "16539373096ff3b953": {
+      "type": "image-with-text",
+      "blocks": {
+        "1653937309ae676e60-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields._1_badge_text_2.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "1653937309ae676e60-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields._2_image_with_text_top_title.value }}<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1653937309ae676e60-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653937309ae676e60-0",
+        "1653937309ae676e60-1",
+        "1653937309ae676e60-2"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields._1_badge_image_2.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1674853390771188d0": {
+      "type": "apps",
+      "blocks": {
+        "fdd6f050-619d-41ba-b395-2d158d378a4f": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "72366",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "fdd6f050-619d-41ba-b395-2d158d378a4f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "165394107800f68426": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165393918003bb0892": {
+      "type": "multicolumn",
+      "blocks": {
+        "16539391804c74a7ac-0": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields._2_image_with_text_image.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16539391804c74a7ac-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields._1_image_with_text_image.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16539391804c74a7ac-2": {
+          "type": "column",
+          "settings": {
+            "image": "{{ product.metafields.my_fields._1_badge_image_1.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16539391804c74a7ac-0",
+        "16539391804c74a7ac-1",
+        "16539391804c74a7ac-2"
+      ],
+      "settings": {
+        "title": "Satisfied Pet Parents",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16539373096ff3b953",
+    "1674853390771188d0",
+    "165394107800f68426",
+    "165393918003bb0892",
+    "related-products",
+    "rich-text",
+    "video",
+    "newsletter"
+  ]
+}

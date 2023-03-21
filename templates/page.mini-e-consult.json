@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "41eb832c-e264-49db-8d5d-eb22d3d4e1df": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"js-cluster-wrapper zpa-html-block-117-v1-dynamic zpa-html-block-117 cluster-padding-medium zp ba-7637249\" data-id=\"7637249\" id=\"7637249\">\n<div class=\"js-cluster zp cac-7637249 zpa-container\">\n<div class=\"flex-row\" data-row-id=\"207675\">\n<div class=\"xs-12\" data-column-id=\"207675\">\n<div class=\"klaviyo-form-Xv4n97\"><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "41eb832c-e264-49db-8d5d-eb22d3d4e1df"
+  ]
+}

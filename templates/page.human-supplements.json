@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "dd0627fe-0396-47f2-aa7d-c437fbf15907": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Human Health Supplements",
+            "heading_size": "h0"
+          }
+        },
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Scroll down to find the right products for you and your family",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-0",
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-1",
+        "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/root-vegetable-salad.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "c6767648-a18a-4eec-82a2-197092e54e0e": {
+      "type": "rich-text",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "blocks": {
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-human-products"
+          }
+        },
+        "e71c75f9-57a0-4683-831a-f2ea43f38552": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "most-recommended"
+          }
+        },
+        "d61e3e26-227a-4c6a-80e6-6517b0a99a71": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "best-supplement-for-him"
+          }
+        },
+        "e4646ded-9668-4678-b11c-11c81d329099": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "detox-purification"
+          }
+        },
+        "99519c9a-e545-46e7-ae13-2be0fd0eaed5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens-health"
+          }
+        },
+        "da61acd0-bfa7-4aac-9600-38e2211c1908": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "renal-support-for-humans"
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-2",
+        "e71c75f9-57a0-4683-831a-f2ea43f38552",
+        "d61e3e26-227a-4c6a-80e6-6517b0a99a71",
+        "e4646ded-9668-4678-b11c-11c81d329099",
+        "99519c9a-e545-46e7-ae13-2be0fd0eaed5",
+        "da61acd0-bfa7-4aac-9600-38e2211c1908"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d9814347-ec3a-4357-bb8f-c4423922c28b": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Holistic Pet Health Consultation",
+            "heading_size": "h1"
+          }
+        },
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Through our Wellness Guides and Holistic pet health consultations you can discover all-natural ways to keep your pets happy, healthy and living a long life.",
+            "text_style": "body"
+          }
+        },
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book A Consult",
+            "button_link_1": "https:\/\/drruthroberts.com\/certified-holistic-pet-health-coaches\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-0",
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-1",
+        "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman_and_dog_on_the_beach.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "a1dcd6d6-0738-402f-bfec-56f09d6583b8": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "allergy-support-supplement"
+          }
+        },
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anxiety-support-protocol"
+          }
+        },
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bone-and-joint-health-protocol"
+          }
+        },
+        "5dc2cf41-fd54-4ec7-b08f-2778ee4cc4ed": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cancer-support"
+          }
+        },
+        "cc99839f-4fdf-45ca-9ee6-e6b0ef2d6d3e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gastrointestinal-support"
+          }
+        },
+        "c9e247fc-2246-47e6-83f4-ca0158ebd80f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "general-detox-protocol"
+          }
+        },
+        "a6827429-7fc0-43ce-b2cd-e6fc87f5ff89": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kidney-support"
+          }
+        },
+        "ae17aca3-2f84-45ce-baa4-765f11f0acf7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liver-support"
+          }
+        },
+        "3fedfc9a-3bd7-4e28-b4dd-cc42212a5760": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "post-surgical-care-collection"
+          }
+        },
+        "c8255492-a9a3-4eaf-ae83-f68f86f67dd6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keep-my-pet-healthy-protocol-1"
+          }
+        },
+        "7e42e020-8ffe-44af-b5a5-aa468086ae14": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "supplements-for-senior-dog"
+          }
+        }
+      },
+      "block_order": [
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-0",
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-1",
+        "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-2",
+        "5dc2cf41-fd54-4ec7-b08f-2778ee4cc4ed",
+        "cc99839f-4fdf-45ca-9ee6-e6b0ef2d6d3e",
+        "c9e247fc-2246-47e6-83f4-ca0158ebd80f",
+        "a6827429-7fc0-43ce-b2cd-e6fc87f5ff89",
+        "ae17aca3-2f84-45ce-baa4-765f11f0acf7",
+        "3fedfc9a-3bd7-4e28-b4dd-cc42212a5760",
+        "c8255492-a9a3-4eaf-ae83-f68f86f67dd6",
+        "7e42e020-8ffe-44af-b5a5-aa468086ae14"
+      ],
+      "settings": {
+        "title": "Here's a collection of all our pet care protocols, from Allergy, G.I problems, Kidney Disease, Liver Disease, Cancer and many more. We made it easy for you to know what type of support you and your pet should get based on his\/her current condition.",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1c47f32e-aaec-450a-b8dd-b07b56bbf055": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact Us:<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you need help selecting the products for a specific condition, email support@drruthroberts.com or call 213-394-2923<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-0",
+        "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "dd0627fe-0396-47f2-aa7d-c437fbf15907",
+    "c6767648-a18a-4eec-82a2-197092e54e0e",
+    "main",
+    "1655751929e34d4e57",
+    "d9814347-ec3a-4357-bb8f-c4423922c28b",
+    "a1dcd6d6-0738-402f-bfec-56f09d6583b8",
+    "1c47f32e-aaec-450a-b8dd-b07b56bbf055"
+  ]
+}

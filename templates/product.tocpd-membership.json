@@ -1,0 +1,506 @@
+{
+  "sections": {
+    "794671bb-b79a-4d7c-b6c0-a3701dae4236": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Join Thousands of Pet Parents in the Patented CrockPet Cooking Revolution! Created by a Vet to Reduce Illness, Balance Hormones, Maintain Health For Your Pet.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-0",
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-1",
+        "template--14819057205313__794671bb-b79a-4d7c-b6c0-a3701dae4236-1665697087165deb86-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b5aa1bf5-4a86-4b19-872d-4e4655121ae8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields._1_badge_text_1.value }}",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "5adda2de-d77e-4de4-8212-bd7114ce8a8e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields._1_badge_text_2.value }}",
+            "text_style": "body"
+          }
+        },
+        "de5b580a-4af6-4649-b73a-1c3435f66540": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/stamped.io\/inc\/image\/stars.png?apikey=pubkey-13zDzEV1x0q2TI3H6oAmcGk50659AR&sId=188290&productId=1363549683777\" \/>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "collapsible-content-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields._1_badge_text_3.value }}",
+            "icon": "clipboard",
+            "content": "<p>{{ product.metafields.my_fields._1_image_with_text_description | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields._1_badge_text_4.value }}",
+            "icon": "chat_bubble",
+            "content": "<p>{{ product.metafields.my_fields._2_image_with_text_description | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields._2_image_with_text_top_title.value }}",
+            "icon": "lock",
+            "content": "<p>{{ product.metafields.my_fields._1_video_description | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-content-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Return policy",
+            "icon": "return",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "b5aa1bf5-4a86-4b19-872d-4e4655121ae8",
+        "buy_buttons",
+        "caption",
+        "5adda2de-d77e-4de4-8212-bd7114ce8a8e",
+        "de5b580a-4af6-4649-b73a-1c3435f66540",
+        "share",
+        "collapsible-content-1",
+        "collapsible-content-0",
+        "collapsible-content-2",
+        "collapsible-content-3"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "d4af899c-7677-4540-9a5f-7c4b1dc8314d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2f385a87-d847-4394-8811-beeefa091a15.jpg",
+            "title": "Weekly Live Q&A Session",
+            "text": "<p>Our certified holistic pet health coach Michael James Daly visits this group each week in a live broadcast, Tuesdays at 1:00 PM EST to answer your questions about recipes. ingredients or product substitution, and share latest thoughts, strategies, inspirations, and program information.<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c60ee83d-8a4c-439a-8507-28e4c1cfcfe7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_8687ea36-ab4f-4ef0-a56b-7e06a1511a7e.jpg",
+            "title": "Angela Ardolino's Plant Medicine Guide",
+            "text": "<p>This plant-based supplement guide by Angela Ardolino is a must-read. This guide covers everything from the practical side of how to use mushroom extracts & full spectrum products to all the different benefits of using them for our pets.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_4ab3d644-1b7c-40e1-9f4a-4b3cc689b652.jpg",
+            "title": "Bonus course: Introduction to Gut Health",
+            "text": "<p><strong>Discover how to improve your pet’s digestion and immunity with this crash course that reveals little-known facts about your dog or cat’s dietary needs.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_cb809411-437d-4819-8826-d7909c5bf044.jpg",
+            "title": "Massive Library Of Contents",
+            "text": "<p>Once you become a member, you can access our previous Q&A session. You will be able to download the audio file, transcripts, and recipes in PDF format <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-1",
+        "c60ee83d-8a4c-439a-8507-28e4c1cfcfe7",
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-0",
+        "template--14819057205313__d4af899c-7677-4540-9a5f-7c4b1dc8314d-1665698185001e58d6-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "715677ee-9d3b-4640-9588-2738be3f07e3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tocpd_community.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tocpd_community_2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tocpd_community_3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6d02f847-957e-4c8d-89bd-ad32a5d16278": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tocpd_community.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-0",
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-1",
+        "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-2",
+        "6d02f847-957e-4c8d-89bd-ad32a5d16278"
+      ],
+      "settings": {
+        "title": "Here's a sneak peek inside the crockpet diet community",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Join The Crockpet Diet Community",
+        "button_link": "https:\/\/www.facebook.com\/groups\/1608933619359938",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "add51e18-dc7f-4273-a60d-07a28f597fe0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "}<\/style><div class=\"color-background-1 gradient\">\n  <div class=\"section-template--14560760234049__16546275057c091ee6-padding\">\n    <!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"1363549683777\"   \ndata-name=\"The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts\"   \ndata-url=\"https:\/\/shop.drruthroberts.com\/products\/the-original-crockpet-diet-for-dogs-and-cats-membership-only-1\"   \ndata-image-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0017\/5443\/1553\/products\/TheoriginalcrockpetdietrecipebyDr.RuthRoberts_large.jpg%3Fv=1657135428\" \ndata-description=\"&lt;p data-mce-fragment=&quot;1&quot;&gt;&lt;span data-mce-fragment=&quot;1&quot;&gt;The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth&#39;s patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.&lt;br&gt;&lt;\/span&gt;&lt;\/p&gt;\n&lt;h2 class=&quot;h4 accordion__title&quot;&gt;Lifetime Subscription&lt;br&gt;\n&lt;\/h2&gt;\n&lt;p data-mce-fragment=&quot;1&quot;&gt;This exclusive digital membership gives you lifetime access to The Original CrockPet Diet online. You can access it via your phone, tablet, or computer. You&#39;ll get immediate online access to the ebook, TOCPD recipe, and its many variations, including Keto versions, Dr. Ruth&#39;s recipe for pets with kidney disease, holiday recipes, and more!&lt;\/p&gt;\n&lt;div class=&quot;summary__title&quot;&gt;\n&lt;h2 class=&quot;h4 accordion__title&quot;&gt;Weekly Q&amp;amp;A Session&lt;\/h2&gt;\n&lt;\/div&gt;\n&lt;p data-mce-fragment=&quot;1&quot;&gt;&lt;span&gt;Michael Daly, a certified premier pet health coach, visits this group each week in a live broadcast to answer your questions about recipes. Ingredients or product substitution, share her latest thoughts, strategies, inspirations, and program information here.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p data-mce-fragment=&quot;1&quot;&gt;The Original CrockPet Diet team is dedicated to supporting you through a lifetime of healthy pets and home cooking for your furry friends.&lt;\/p&gt;\n&lt;div class=&quot;summary__title&quot;&gt;\n&lt;h2 class=&quot;h4 accordion__title&quot;&gt;The Original Crockpet Diet eBook&lt;\/h2&gt;\n&lt;\/div&gt;\n&lt;p data-mce-fragment=&quot;1&quot;&gt;&lt;span&gt;Learn more about the history and science behind The Original Crockpet Diet, the foods that go into it, and how you can optimize each back for your pet&#39;s best health.&lt;\/span&gt;&lt;\/p&gt;\n&lt;p data-mce-fragment=&quot;1&quot;&gt; &lt;\/p&gt;\"   \ndata-product-sku=\"the-original-crockpet-diet-for-dogs-and-cats-membership-only-1\"\ndata-product-title=\"The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts\" \ndata-product-type=\"DIY Holistic Health Course\">   \n<link href=\"\/\/cdn1.stamped.io\/files\/widget.min.css\" rel=\"stylesheet\" type=\"text\/css\"  media=\"all\" \/>\n<div class=\"stamped-container\" data-count=\"16\" data-widget-style=\"standard2\" data-widget-language=\"\" data-widget-sort=\"highest-rating\" data-widget-type=\"standard2\" data-widget-show-graph=\"true\" data-widget-show-summary-photo=\"true\" data-widget-show-sort=\"true\" data-widget-show-summary-recommend=\"true\" data-widget-show-tab-reviews=\"true\" data-widget-show-avatar=\"true\" data-widget-show-location=\"true\" data-widget-show-verified=\"true\" data-widget-show-date=\"true\" data-widget-show-share=\"true\" data-widget-show-votes=\"true\" data-widget-show-qna=\"true\" data-widget-show-product-variant=\"true\" data-widget-show-filter-custom-forms=\"true\" data-widget-show-filter-search=\"true\" data-widget-load-type=\"continue\"  data-version=\"2\">      \n\t<div class=\"stamped-header-title\"> Customer Reviews <\/div>      \n\t<div class=\"stamped-header\">          <meta itemprop='bestRating' content='5' \/><meta itemprop='worstRating' content='1' \/><meta itemprop='ratingValue' content='4.8' \/> <meta itemprop='reviewCount' content='16' \/>          \n\t\t<div class=\"stamped-summary\" data-count=\"16\">             \n\t\t\t<div style=\"width:200px;float:left;\" class=\"summary-overview\">                  \n\t\t\t\t<span class=\"stamped-summary-caption stamped-summary-caption-1\">                      \n\t\t\t\t\t<span class=\"stamped-summary-text-1\" data-count=\"16\" data-rating=\"4.8\"><strong>4.8<\/strong><\/span>                    \n\t\t\t\t<\/span>                  \n\t\t\t\t<span class=\"stamped-starrating stamped-summary-starrating\" aria-hidden=\"true\"> <i class=\"stamped-fa stamped-fa-star\" aria-hidden=\"true\"><\/i><i class=\"stamped-fa stamped-fa-star\" aria-hidden=\"true\"><\/i><i class=\"stamped-fa stamped-fa-star\" aria-hidden=\"true\"><\/i><i class=\"stamped-fa stamped-fa-star\" aria-hidden=\"true\"><\/i><i class=\"stamped-fa stamped-fa-star\" aria-hidden=\"true\"><\/i> <\/span>                  \n\t\t\t\t<span class=\"stamped-summary-caption stamped-summary-caption-2\">                      \n\t\t\t\t\t<span class=\"stamped-summary-text\" data-count=\"16\" data-rating=\"4.8\">Based on 16 Reviews<\/span>                  \n\t\t\t\t<\/span>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-summary-ratings\" data-count=\"16\" style=\"\">                  \n\t\t\t\t<div class=\"summary-rating\" data-count=\"14\">                      \n\t\t\t\t\t<div class=\"summary-rating-title\">5 ★<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-bar\" data-rating=\"5\" aria-label=\"5-Star Ratings\">                         \n\t\t\t\t\t\t<div class=\"summary-rating-bar-content\" style=\"width:88%;\" data-rating=\"88\">88%&nbsp;<\/div>                      \n\t\t\t\t\t<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-count\">14<\/div>                  \n\t\t\t\t<\/div>                  \n\t\t\t\t<div class=\"summary-rating\" data-count=\"1\">                      \n\t\t\t\t\t<div class=\"summary-rating-title\">4 ★<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-bar\" data-rating=\"4\" aria-label=\"4-Star Ratings\">                          \n\t\t\t\t\t\t<div class=\"summary-rating-bar-content\" style=\"width:6%;\" data-rating=\"6\">6%&nbsp;<\/div>                      \n\t\t\t\t\t<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-count\">1<\/div>                  \n\t\t\t\t<\/div>                  \n\t\t\t\t<div class=\"summary-rating\" data-count=\"0\">                      \n\t\t\t\t\t<div class=\"summary-rating-title\">3 ★<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-bar\" data-rating=\"3\" aria-label=\"3-Star Ratings\">                          \n\t\t\t\t\t\t<div class=\"summary-rating-bar-content\" style=\"width:0%;\" data-rating=\"0\">0%&nbsp;<\/div>                      \n\t\t\t\t\t<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-count\">0<\/div>                  \n\t\t\t\t<\/div>                  \n\t\t\t\t<div class=\"summary-rating\" data-count=\"1\">                      \n\t\t\t\t\t<div class=\"summary-rating-title\">2 ★<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-bar\" data-rating=\"2\" aria-label=\"2-Star Ratings\">                          \n\t\t\t\t\t\t<div class=\"summary-rating-bar-content\" style=\"width:6%;\" data-rating=\"6\">6%&nbsp;<\/div>                      \n\t\t\t\t\t<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-count\">1<\/div>                  \n\t\t\t\t<\/div>                 \n\t\t\t\t<div class=\"summary-rating\" data-count=\"0\">                      \n\t\t\t\t\t<div class=\"summary-rating-title\">1 ★<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-bar\" data-rating=\"1\" aria-label=\"1-Star Ratings\">                         \n\t\t\t\t\t\t<div class=\"summary-rating-bar-content\" style=\"width:0%;\" data-rating=\"0\">0%&nbsp;<\/div>                      \n\t\t\t\t\t<\/div>                      \n\t\t\t\t\t<div class=\"summary-rating-count\">0<\/div>                  \n\t\t\t\t<\/div>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-summary-photos stamped-summary-photos-container\" style=\"display:none;\" tabindex=\"-1\">                  \n\t\t\t\t<div class=\"stamped-photos-title\"> Customer Photos <\/div>                  \n\t\t\t\t<div style=\"position:relative;overflow: hidden;\">                     \n\t\t\t\t\t<div class=\"stamped-photos-carousel\" data-total=\"0\">                          \n\t\t\t\t\t\t<div>  <\/div>                      \n\t\t\t\t\t<\/div>                  \n\t\t\t\t<\/div>                  \n\t\t\t\t<div class=\"stamped-photos-carousel-btn-left\"> \n\t\t\t\t\t<span class=\"btn-slide-left\" data-direction=\"left\"><i class=\"fa fa-chevron-left\"><\/i><\/span> \n\t\t\t\t<\/div>                 \n\t\t\t\t<div class=\"stamped-photos-carousel-btn-right\"> \n\t\t\t\t\t<span class=\"btn-slide-right\" data-direction=\"right\">\n\t\t\t\t\t\t<i class=\"fa fa-chevron-right\"><\/i>\n\t\t\t\t\t<\/span> \n\t\t\t\t<\/div>              \n\t\t\t<\/div>              \n\t\t\t                            \n\t\t\t<span class=\"stamped-summary-actions\">                  \n\t\t\t\t<span class=\"stamped-summary-actions-newreview\" role=\"button\" onclick=\"StampedFn.toggleForm('review','1363549683777');return false;\" onkeydown=\"StampedFn.toggleForm('review','1363549683777');return false;\" style=\"cursor: pointer;\" tabindex=\"0\">Write a Review<\/span>                  \n\t\t\t\t<span class=\"stamped-summary-actions-newquestion\" role=\"button\" style=\"cursor: pointer;\" onclick=\"StampedFn.toggleForm('question', '1363549683777');return false;\" onkeydown=\"StampedFn.toggleForm('question', '1363549683777');return false;\" tabindex=\"0\">Ask a Question<\/span>              \n\t\t\t<\/span>          \n\t\t<\/div>      \n\t<\/div>      \n\t<div class=\"stamped-content\">\n<div class=\"stamped-tab-container\" style=\"\">      \n\t<ul class=\"stamped-tabs\" role=\"tablist\">          \n\t\t<li id=\"tab-reviews\" role=\"tab\" aria-selected=\"true\"  class=\"active\" data-type=\"reviews\" data-count=\"16\" aria-label=\"Reviews\" tabindex=\"0\">Reviews<\/li>          \n\t\t<li id=\"tab-questions\" role=\"tab\" aria-selected=\"false\"  data-type=\"questions\" style=\"\" data-count=\"1\" aria-label=\"Questions\" tabindex=\"0\" data-new-tab>Questions<\/li>            \n\t\t      \n\t<\/ul>  \n<\/div>    \n<form method=\"post\" id=\"new-review-form_1363549683777\" class=\"new-review-form\" aria-expanded=\"false\" onsubmit=\"event.preventDefault(); StampedFn.submitForm(this);\" style=\"display: none;border: 1px solid #dddddd4d;padding: 15px\">      \n\t<input type=\"hidden\" name=\"productId\" value=\"1363549683777\" \/>      \n\t<div class=\"stamped-form-title\" style=\" display:none;\">Write a review<\/div>      \n\t<fieldset class=\"stamped-form-contact\">          \n\t\t<legend style=\"display:none;\">Author<\/legend>          \n\t\t<div class=\"stamped-form-contact-name\">              \n\t\t\t<label class=\"stamped-form-label\" for=\"review_author_1363549683777\">Name<\/label>              \n\t\t\t<input class=\"stamped-form-input stamped-form-input-text \" id=\"review_author_1363549683777\" type=\"text\" name=\"author\" required value=\"\" placeholder=\"Enter your name\" autocomplete=\"name\" \/>          \n\t\t<\/div>          \n\t\t<div class=\"stamped-form-contact-email\">              \n\t\t\t<label class=\"stamped-form-label\" for=\"review_email_1363549683777\">Email<\/label>              \n\t\t\t<input class=\"stamped-form-input stamped-form-input-email \" id=\"review_email_1363549683777\" type=\"email\" name=\"email\" required value=\"\" placeholder=\"john.smith@example.com\" autocomplete=\"email\" \/>          \n\t\t<\/div>          \n\t\t<div class=\"stamped-form-contact-location\">              \n\t\t\t<label class=\"stamped-form-label\" for=\"review_location_1363549683777\">Location<\/label>              \n\t\t\t<input class=\"stamped-form-input stamped-form-input-text \" id=\"review_location_1363549683777\" type=\"text\" name=\"location\" value=\"\" placeholder=\"e.g Paris, France\" autocomplete=\"shipping country\" \/>   \n\t\t<\/div>      \n\t<\/fieldset>      \n\t<fieldset class=\"stamped-form-review\">          \n\t\t<legend style=\"display:none;\">Rating<\/legend>          \n\t\t<div class=\"stamped-form-review-rating\">              \n\t\t\t<label class=\"stamped-form-label\" for=\"reviewRating\">Rating<\/label>              \n\t\t\t<input type=\"text\" id=\"reviewRating\" name=\"reviewRating\" style=\"font-size: 0px; border: none; height: 1px; width: 1px; margin: 0; padding: 0; line-height: 0px; min-height: 0px;\" required \/>          \n\t\t\t<div class=\"stamped-form-input stamped-starrating\">               \n\t\t\t\t<a href=\"#\" onclick=\"StampedFn.setRating(this);return false;\" onkeydown=\"StampedFn.setRating(this);return false;\" role=\"button\" tabindex=\"0\" class=\"stamped-fa stamped-fa-star-o\" data-value=\"1\"><span style=\"display:none;\">1<\/span><\/a>              \n\t\t\t\t<a href=\"#\" onclick=\"StampedFn.setRating(this);return false;\" onkeydown=\"StampedFn.setRating(this);return false;\" role=\"button\" tabindex=\"0\" class=\"stamped-fa stamped-fa-star-o\" data-value=\"2\"><span style=\"display:none;\">2<\/span><\/a>          \n\t\t\t\t<a href=\"#\" onclick=\"StampedFn.setRating(this);return false;\" onkeydown=\"StampedFn.setRating(this);return false;\" role=\"button\" tabindex=\"0\" class=\"stamped-fa stamped-fa-star-o\" data-value=\"3\"><span style=\"display:none;\">3<\/span><\/a>            \n\t\t\t\t<a href=\"#\" onclick=\"StampedFn.setRating(this);return false;\" onkeydown=\"StampedFn.setRating(this);return false;\" role=\"button\" tabindex=\"0\" class=\"stamped-fa stamped-fa-star-o\" data-value=\"4\"><span style=\"display:none;\">4<\/span><\/a>       \n\t\t\t\t<a href=\"#\" onclick=\"StampedFn.setRating(this);return false;\" onkeydown=\"StampedFn.setRating(this);return false;\" role=\"button\" tabindex=\"0\" class=\"stamped-fa stamped-fa-star-o\" data-value=\"5\"><span style=\"display:none;\">5<\/span><\/a>           \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"stamped-form-review-title\">              \n\t\t\t<label class=\"stamped-form-label\" for=\"review_title_1363549683777\">Title of Review<\/label>             \n\t\t\t<input class=\"stamped-form-input stamped-form-input-text\" id=\"review_title_1363549683777\" type=\"text\" name=\"reviewTitle\" required value=\"\" placeholder=\"Give your review a title\" \/>      \n\t\t<\/div>        \n\t\t<div class=\"stamped-form-review-body\">            \n\t\t\t<label class=\"stamped-form-label\" for=\"review_body_1363549683777\">How was your overall experience?<\/label>             \n\t\t\t<div class=\"stamped-form-input\">                  \n\t\t\t\t<textarea class=\"stamped-form-input stamped-form-input-textarea\" id=\"review_body_1363549683777\" data-product-id=\"1363549683777\" name=\"reviewMessage\" required rows=\"10\" maxlength=\"5000\"><\/textarea>           \n\t\t\t<\/div>        \n\t\t<\/div>     \n\t<\/fieldset>     \n\t<fieldset class=\"stamped-form-custom-questions\">          \n\t\t<legend style=\"display:none;\">Questions<\/legend>          \n\t\t      \n\t<\/fieldset>     \n\t<fieldset class=\"stamped-form-actions\">          \n\t\t<legend style=\"display:none;\">Photos<\/legend>          \n\t\t<span class=\"stamped-file-holder\">            <\/span>          \n\t\t<span class=\"stamped-file-uploader\" style=\"display:none;\">              \n\t\t\t<label for=\"stamped-file-uploader-input\">                  \n\t\t\t\t<span style=\"display:none;\">Upload<\/span>                  \n\t\t\t\t<input id=\"stamped-file-uploader-input\" type=\"file\" name=\"stamped-file-uploader-input\" class=\"stamped-file-uploader-input\" multiple data-product-id=\"1363549683777\" style=\"display:none;\" \/>      \n\t\t\t\t<span class=\"stamped-file-uploader-btn\" style=\"border:1px solid #333;padding: 6px 10px; font-size:13px; border-radius: .3em;\">              \n\t\t\t\t\t<i class=\"stamped-fa stamped-fa-camera\"><\/i>                      \n\t\t\t\t\t<span class=\"stamped-file-uploader-btn-label2\"><\/span>                  \n\t\t\t\t<\/span>              \n\t\t\t<\/label>          \n\t\t<\/span>          \n\t\t<span class=\"stamped-file-loading hide\" style=\"display:none;\">              \n\t\t\t<i class=\"fa fa-spinner fa-spin\"><\/i>         \n\t\t<\/span>            \n\t\t<input id=\"stamped-button-submit\" type=\"submit\" class=\"stamped-button stamped-button-primary button button-primary btn btn-primary\" value=\"Submit\">      \n\t<\/fieldset>  \n<\/form><div class=\"stamped-messages\"><div class=\"stamped-thank-you\"><p>Thank you for submitting a review!<\/p><p>Your input is very much appreciated. Share it with your friends so they can enjoy it too!<\/p><div class=\"stamped-share-links\"><a class=\"facebook\" href=\"#\" ><span><i class=\"stamped-fa stamped-fa-facebook\"><\/i>Facebook<\/span><\/a><a class=\"twitter\" href=\"#\" ><span><i class=\"stamped-fa stamped-fa-twitter\"><\/i>Twitter<\/span><\/a><\/div><\/div><div class=\"stamped-empty-state\" style=\"display:none;\"><div>Be the first to review this item<\/div><\/div><\/div><div class=\"stamped-reviews-filter\" id=\"stamped-reviews-filter\" data-show-filters=\"part\">      <span class=\"stamped-sort-select-wrapper\">          <select id=\"stamped-sort-select\" class=\"stamped-sort-select\" onchange=\"StampedFn.sortReviews(this);\" aria-label=\"Sort reviews\" tabindex=\"0\">              <option value=\"featured\" selected>Sort<\/option>              <option value=\"recent\" >Most Recent<\/option>              <option value=\"highest-rating\">Highest Rating<\/option>              <option value=\"lowest-rating\">Lowest Rating<\/option>              <option value=\"most-votes\">Most Helpful<\/option>          <\/select>      <\/span>        <div class=\"stamped-reviews-filter-label\">Filter Reviews:<\/div>        <div class=\"stamped-reviews-search-text\" style=\"display:none;\">          <span class=\"stamped-reviews-search-icon stamped-fa stamped-fa-search\" aria-hidden=\"true\"><\/span>          <input id=\"stamped-reviews-search-input\" class=\"stamped-reviews-search-input\" type=\"text\" placeholder=\"Search Reviews\" aria-label=\"Search reviews input\">          <span class=\"stamped-reviews-search-button\"><\/span>          <span class=\"stamped-reviews-search-clear\" tabindex=\"0\" aria-label=\"Clear search input\" role=\"button\" style=\"display:none;\">×<\/span>      <\/div>        <div class=\"stamped-filters-wrapper\">          <div class=\"stamped-summary-keywords\">              <ul class=\"stamped-summary-keywords-list\">                                <\/ul>          <\/div>            <div class=\"stamped-filter-selects\">                            <span class=\"stamped-sort-select2-wrapper\" style=\"display:none;\">                  <select id=\"stamped-sort-select2\" class=\"stamped-sort-select\" onchange=\"StampedFn.sortReviews(this);\" aria-label=\"Sort reviews and ratings\" tabindex=\"0\" style=\"display:none;\">                      <option value=\"featured\" selected>Sort<\/option>                      <option value=\"recent\" >Most Recent<\/option>                      <option value=\"highest-rating\">Highest Rating<\/option>                      <option value=\"lowest-rating\">Lowest Rating<\/option>                      <option value=\"most-votes\">Most Helpful<\/option>                  <\/select>              <\/span>          <\/div>      <\/div>        <div class=\"stamped-summary-actions-clear\" tabindex=\"0\" role=\"button\" aria-label=\"Clear all filters\" style=\"cursor: pointer;display:none;\">Clear filter<\/div>        <div class=\"stamped-summary-actions-mobile-filter\" tabindex=\"0\" role=\"button\" aria-label=\"Show all filters\" style=\"cursor: pointer;display:none;\"><i class=\"stamped-fa stamped-fa-params\"><\/i> More Filters<\/div>  <\/div><div id=\"stamped-reviews-tab\" class=\"stamped-reviews\" role=\"tabpanel\" aria-labelledby=\"tab-reviews\" tabindex=\"-1\"><div class=\"stamped-review\" id=\"stamped-review-85172647\" data-product-id=\"1363549683777\" data-rating=\"5\" data-verified=\"buyer\">      \n\t<div class=\"stamped-review-header\">          \n\t\t<div class=\"stamped-review-avatar\" style=\"padding:0;\" data-avatar=\"false\">              \n\t\t\t              \n\t\t\t<div class=\"stamped-review-avatar-content\">                  \n\t\t\t\tMA              \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"created\">08\/11\/2022<\/div>          \n\t\t<strong class=\"author\">maria a.<\/strong> <span class=\"stamped-verified-badge\" data-type=\"buyer\" data-verified-label=\"Verified Buyer\"><\/span>          \n\t\t<div class=\"review-location\"><span data-location='United States'>United States<\/span><\/div>          \n\t\t<div><\/div>      \n\t<\/div>      \n\t<div class=\"stamped-review-content\">          \n\t\t<div class=\"stamped-review-recommend\" data-is-recommend=\"\"><\/div>          \n\t\t<div class=\"stamped-review-body\">                \n\t\t\t<span class=\"stamped-starratings stamped-review-header-starratings\" role=\"list\" data-rating=\"5\" aria-label=\"5-Star Rating Review\"> <i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i> <\/span>              \n\t\t\t<h3 class=\"stamped-review-header-title\">change<\/h3>              \n\t\t\t<p class=\"stamped-review-content-body\">it was a game change to my dog and I to know the CrockPet Diet . I am very happy and he is eating very satisfied.<\/p>            \n\t\t<div class=\"stamped-review-options\"><\/div>              \n\t\t\t<div class=\"stamped-review-image\">                  \n\t\t\t\t              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-product\" style=\"display:none;\"><a href='https:\/\/stamped.io\/go\/d3xXaWRnZXRNYWlufDE4ODI5MHxyfDg1MTcyNjQ30' rel=\"nofollow\" target='_top'>The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts<\/a><\/div>              \n\t\t\t<div class=\"stamped-review-variant\" style=\"display:none;\"><\/div>              \n\t\t\t<div class=\"stamped-review-footer\">                  \n\t\t\t\t<div class=\"stamped-review-share\">\n<div class=\"stamped-share-wrapper\">   \n\t<span class=\"stamped-share-icon\" aria-label=\"Share\" role=\"button\" tabindex=\"0\" rel=\"nofollow noopener\"><i class=\"stamped-fa stamped-fa-share-alt\"><\/i> Share<\/span>   \n\t<span class=\"stamped-share-links\" style=\"\"> &nbsp; | &nbsp;&nbsp;<a href=\"https:\/\/www.facebook.com\/dialog\/share?app_id=222664514734026&amp;display=popup&amp;href=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ffacebookpost%3freviewId%3d85172647&amp;redirect_uri=https:\/\/stamped.io\/shares?review_id=85172647\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Facebook\">Facebook<\/a> &nbsp;•&nbsp; <a href=\"https:\/\/twitter.com\/intent\/tweet?text=it%20was%20a%20game%20change%20to%20my%20dog%20and%20I%20to%20know%20the%20CrockPet%20Diet%20.%20I%20am%20very%20happy%20and%20he%20is%20eating%20very%20satisfied.&amp;url=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ftwittercard%3freviewId%3d85172647\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Twitter\">Twitter<\/a><\/span>  \n<\/div><\/div>                  \n\t\t\t\t<div class=\"stamped-review-vote\"><div class=\"stamped-rating-holder\">Was this helpful? <a class=\"stamped-thumbs-up\" data-rating=\"1\" data-review-id=\"85172647\" tabindex=\"0\" aria-label=\"Rate review as helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-up\">&nbsp;0<\/i><\/a><span>&nbsp;&nbsp;&nbsp;<\/span><a class=\"stamped-thumbs-down\" data-rating=\"-1\" data-review-id=\"85172647\" tabindex=\"0\" aria-label=\"Rate review as not helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-down\">&nbsp;0<\/i><\/a><\/div>\n<\/div>              \n\t\t\t<\/div>              \n\t\t\t          \n\t\t<\/div>      \n\t<\/div>  \n<\/div><div class=\"stamped-review\" id=\"stamped-review-43435927\" data-product-id=\"1363549683777\" data-rating=\"5\" data-verified=\"buyer\" data-is-featured=\"true\">      \n\t<div class=\"stamped-review-header\">          \n\t\t<div class=\"stamped-review-avatar\" style=\"padding:0;\" data-avatar=\"false\">              \n\t\t\t              \n\t\t\t<div class=\"stamped-review-avatar-content\">                  \n\t\t\t\tKH              \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"created\">01\/11\/2021<\/div>          \n\t\t<strong class=\"author\">Kathleen H.<\/strong> <span class=\"stamped-verified-badge\" data-type=\"buyer\" data-verified-label=\"Verified Buyer\"><\/span>          \n\t\t<div class=\"review-location\"><\/div>          \n\t\t<div><\/div>      \n\t<\/div>      \n\t<div class=\"stamped-review-content\">          \n\t\t<div class=\"stamped-review-recommend\" data-is-recommend=\"\"><\/div>          \n\t\t<div class=\"stamped-review-body\">                \n\t\t\t<span class=\"stamped-starratings stamped-review-header-starratings\" role=\"list\" data-rating=\"5\" aria-label=\"5-Star Rating Review\"> <i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i> <\/span>              \n\t\t\t<h3 class=\"stamped-review-header-title\">From a dog’s point of view<\/h3>              \n\t\t\t<p class=\"stamped-review-content-body\">Koda’s thrilled. He likes the flavor and variety. He seems more relaxed and calmer. He’s drinking less water because the food has a high moisture content. He’s having less **** gland problems because of the quantity and roughage with the high fiber content from the veggies. He only leaves anything in his dish if I’ve accidentally given him too much. &#55356;<\/p>            \n\t\t<div class=\"stamped-review-options\"><\/div>              \n\t\t\t<div class=\"stamped-review-image\">                  \n\t\t\t\t              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-product\" style=\"display:none;\"><a href='https:\/\/stamped.io\/go\/d3xXaWRnZXRNYWlufDE4ODI5MHxyfDQzNDM1OTI30' rel=\"nofollow\" target='_top'>The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts<\/a><\/div>              \n\t\t\t<div class=\"stamped-review-variant\" style=\"display:none;\"><\/div>              \n\t\t\t<div class=\"stamped-review-footer\">                  \n\t\t\t\t<div class=\"stamped-review-share\">\n<div class=\"stamped-share-wrapper\">   \n\t<span class=\"stamped-share-icon\" aria-label=\"Share\" role=\"button\" tabindex=\"0\" rel=\"nofollow noopener\"><i class=\"stamped-fa stamped-fa-share-alt\"><\/i> Share<\/span>   \n\t<span class=\"stamped-share-links\" style=\"\"> &nbsp; | &nbsp;&nbsp;<a href=\"https:\/\/www.facebook.com\/dialog\/share?app_id=222664514734026&amp;display=popup&amp;href=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ffacebookpost%3freviewId%3d43435927&amp;redirect_uri=https:\/\/stamped.io\/shares?review_id=43435927\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Facebook\">Facebook<\/a> &nbsp;•&nbsp; <a href=\"https:\/\/twitter.com\/intent\/tweet?text=Koda%E2%80%99s%20thrilled.%20He%20likes%20the%20flavor%20and%20variety.%20He%20seems%20more%20relaxed%20and%20calmer.%20He%E2%80%99s%20drinking%20less%20water%20because%20the%20food%20has%20a%20high%20moi&amp;url=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ftwittercard%3freviewId%3d43435927\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Twitter\">Twitter<\/a><\/span>  \n<\/div><\/div>                  \n\t\t\t\t<div class=\"stamped-review-vote\"><div class=\"stamped-rating-holder\">Was this helpful? <a class=\"stamped-thumbs-up\" data-rating=\"1\" data-review-id=\"43435927\" tabindex=\"0\" aria-label=\"Rate review as helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-up\">&nbsp;0<\/i><\/a><span>&nbsp;&nbsp;&nbsp;<\/span><a class=\"stamped-thumbs-down\" data-rating=\"-1\" data-review-id=\"43435927\" tabindex=\"0\" aria-label=\"Rate review as not helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-down\">&nbsp;1<\/i><\/a><\/div>\n<\/div>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-reply\">      <div id=\"stamped-review-1363549683777\">          <div class=\"stamped-review-header\">              <div class=\"stamped-review-avatar\"><\/div>              <div class=\"created\">01\/14\/2021<\/div>              <h3 class=\"stamped-review-header-title\">Dr. Ruth Roberts<\/h3>          <\/div>          <div class=\"stamped-review-content\">              <p class=\"stamped-review-content-body\">we're thrilled to learn your dog is loving it! Thank you so much for leaving us a positive review!<\/p>              <div class=\"stamped-review-footer\"> <\/div>          <\/div>      <\/div>  <\/div>          \n\t\t<\/div>      \n\t<\/div>  \n<\/div><div class=\"stamped-review\" id=\"stamped-review-43435900\" data-product-id=\"1363549683777\" data-rating=\"5\" data-verified=\"buyer\" data-is-featured=\"true\">      \n\t<div class=\"stamped-review-header\">          \n\t\t<div class=\"stamped-review-avatar\" style=\"padding:0;\" data-avatar=\"false\">              \n\t\t\t              \n\t\t\t<div class=\"stamped-review-avatar-content\">                  \n\t\t\t\tLS              \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"created\">06\/22\/2020<\/div>          \n\t\t<strong class=\"author\">Lori S.<\/strong> <span class=\"stamped-verified-badge\" data-type=\"buyer\" data-verified-label=\"Verified Buyer\"><\/span>          \n\t\t<div class=\"review-location\"><\/div>          \n\t\t<div><\/div>      \n\t<\/div>      \n\t<div class=\"stamped-review-content\">          \n\t\t<div class=\"stamped-review-recommend\" data-is-recommend=\"\"><\/div>          \n\t\t<div class=\"stamped-review-body\">                \n\t\t\t<span class=\"stamped-starratings stamped-review-header-starratings\" role=\"list\" data-rating=\"5\" aria-label=\"5-Star Rating Review\"> <i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i> <\/span>              \n\t\t\t<h3 class=\"stamped-review-header-title\">Great comprehensive supplement<\/h3>              \n\t\t\t<p class=\"stamped-review-content-body\">My dogs are doing so well on CrockPet Diet and Holistic Total Body Support! So much healthier for them than commercial dog food.<\/p>            \n\t\t<div class=\"stamped-review-options\"><\/div>              \n\t\t\t<div class=\"stamped-review-image\">                  \n\t\t\t\t              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-product\" style=\"display:none;\"><a href='https:\/\/stamped.io\/go\/d3xXaWRnZXRNYWlufDE4ODI5MHxyfDQzNDM1OTAw0' rel=\"nofollow\" target='_top'>The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts<\/a><\/div>              \n\t\t\t<div class=\"stamped-review-variant\" style=\"display:none;\"><\/div>              \n\t\t\t<div class=\"stamped-review-footer\">                  \n\t\t\t\t<div class=\"stamped-review-share\">\n<div class=\"stamped-share-wrapper\">   \n\t<span class=\"stamped-share-icon\" aria-label=\"Share\" role=\"button\" tabindex=\"0\" rel=\"nofollow noopener\"><i class=\"stamped-fa stamped-fa-share-alt\"><\/i> Share<\/span>   \n\t<span class=\"stamped-share-links\" style=\"\"> &nbsp; | &nbsp;&nbsp;<a href=\"https:\/\/www.facebook.com\/dialog\/share?app_id=222664514734026&amp;display=popup&amp;href=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ffacebookpost%3freviewId%3d43435900&amp;redirect_uri=https:\/\/stamped.io\/shares?review_id=43435900\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Facebook\">Facebook<\/a> &nbsp;•&nbsp; <a href=\"https:\/\/twitter.com\/intent\/tweet?text=My%20dogs%20are%20doing%20so%20well%20on%20CrockPet%20Diet%20and%20Holistic%20Total%20Body%20Support%21%20So%20much%20healthier%20for%20them%20than%20commercial%20dog%20food.&amp;url=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ftwittercard%3freviewId%3d43435900\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Twitter\">Twitter<\/a><\/span>  \n<\/div><\/div>                  \n\t\t\t\t<div class=\"stamped-review-vote\"><div class=\"stamped-rating-holder\">Was this helpful? <a class=\"stamped-thumbs-up\" data-rating=\"1\" data-review-id=\"43435900\" tabindex=\"0\" aria-label=\"Rate review as helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-up\">&nbsp;0<\/i><\/a><span>&nbsp;&nbsp;&nbsp;<\/span><a class=\"stamped-thumbs-down\" data-rating=\"-1\" data-review-id=\"43435900\" tabindex=\"0\" aria-label=\"Rate review as not helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-down\">&nbsp;0<\/i><\/a><\/div>\n<\/div>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-reply\">      <div id=\"stamped-review-1363549683777\">          <div class=\"stamped-review-header\">              <div class=\"stamped-review-avatar\"><\/div>              <div class=\"created\"><\/div>              <h3 class=\"stamped-review-header-title\">Dr. Ruth Roberts<\/h3>          <\/div>          <div class=\"stamped-review-content\">              <p class=\"stamped-review-content-body\">NULL<\/p>              <div class=\"stamped-review-footer\"> <\/div>          <\/div>      <\/div>  <\/div>          \n\t\t<\/div>      \n\t<\/div>  \n<\/div><div class=\"stamped-review\" id=\"stamped-review-43435887\" data-product-id=\"1363549683777\" data-rating=\"5\" data-verified=\"buyer\" data-is-featured=\"true\">      \n\t<div class=\"stamped-review-header\">          \n\t\t<div class=\"stamped-review-avatar\" style=\"padding:0;\" data-avatar=\"false\">              \n\t\t\t              \n\t\t\t<div class=\"stamped-review-avatar-content\">                  \n\t\t\t\tMS              \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"created\">03\/15\/2020<\/div>          \n\t\t<strong class=\"author\">Michelle S.<\/strong> <span class=\"stamped-verified-badge\" data-type=\"buyer\" data-verified-label=\"Verified Buyer\"><\/span>          \n\t\t<div class=\"review-location\"><\/div>          \n\t\t<div><\/div>      \n\t<\/div>      \n\t<div class=\"stamped-review-content\">          \n\t\t<div class=\"stamped-review-recommend\" data-is-recommend=\"\"><\/div>          \n\t\t<div class=\"stamped-review-body\">                \n\t\t\t<span class=\"stamped-starratings stamped-review-header-starratings\" role=\"list\" data-rating=\"5\" aria-label=\"5-Star Rating Review\"> <i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i> <\/span>              \n\t\t\t<h3 class=\"stamped-review-header-title\">my dogs love all the<\/h3>              \n\t\t\t<p class=\"stamped-review-content-body\">my dogs love all the recipes<\/p>            \n\t\t<div class=\"stamped-review-options\"><\/div>              \n\t\t\t<div class=\"stamped-review-image\">                  \n\t\t\t\t              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-product\" style=\"display:none;\"><a href='https:\/\/stamped.io\/go\/d3xXaWRnZXRNYWlufDE4ODI5MHxyfDQzNDM1ODg30' rel=\"nofollow\" target='_top'>The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts<\/a><\/div>              \n\t\t\t<div class=\"stamped-review-variant\" style=\"display:none;\"><\/div>              \n\t\t\t<div class=\"stamped-review-footer\">                  \n\t\t\t\t<div class=\"stamped-review-share\">\n<div class=\"stamped-share-wrapper\">   \n\t<span class=\"stamped-share-icon\" aria-label=\"Share\" role=\"button\" tabindex=\"0\" rel=\"nofollow noopener\"><i class=\"stamped-fa stamped-fa-share-alt\"><\/i> Share<\/span>   \n\t<span class=\"stamped-share-links\" style=\"\"> &nbsp; | &nbsp;&nbsp;<a href=\"https:\/\/www.facebook.com\/dialog\/share?app_id=222664514734026&amp;display=popup&amp;href=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ffacebookpost%3freviewId%3d43435887&amp;redirect_uri=https:\/\/stamped.io\/shares?review_id=43435887\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Facebook\">Facebook<\/a> &nbsp;•&nbsp; <a href=\"https:\/\/twitter.com\/intent\/tweet?text=my%20dogs%20love%20all%20the%20recipes&amp;url=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ftwittercard%3freviewId%3d43435887\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Twitter\">Twitter<\/a><\/span>  \n<\/div><\/div>                  \n\t\t\t\t<div class=\"stamped-review-vote\"><div class=\"stamped-rating-holder\">Was this helpful? <a class=\"stamped-thumbs-up\" data-rating=\"1\" data-review-id=\"43435887\" tabindex=\"0\" aria-label=\"Rate review as helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-up\">&nbsp;0<\/i><\/a><span>&nbsp;&nbsp;&nbsp;<\/span><a class=\"stamped-thumbs-down\" data-rating=\"-1\" data-review-id=\"43435887\" tabindex=\"0\" aria-label=\"Rate review as not helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-down\">&nbsp;0<\/i><\/a><\/div>\n<\/div>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-reply\">      <div id=\"stamped-review-1363549683777\">          <div class=\"stamped-review-header\">              <div class=\"stamped-review-avatar\"><\/div>              <div class=\"created\">03\/16\/2020<\/div>              <h3 class=\"stamped-review-header-title\">Dr. Ruth Roberts<\/h3>          <\/div>          <div class=\"stamped-review-content\">              <p class=\"stamped-review-content-body\">Awesome! We're happy to know your Dogs are enjoying our recipes!<\/p>              <div class=\"stamped-review-footer\"> <\/div>          <\/div>      <\/div>  <\/div>          \n\t\t<\/div>      \n\t<\/div>  \n<\/div><div class=\"stamped-review\" id=\"stamped-review-43435882\" data-product-id=\"1363549683777\" data-rating=\"5\" data-verified=\"buyer\" data-is-featured=\"true\">      \n\t<div class=\"stamped-review-header\">          \n\t\t<div class=\"stamped-review-avatar\" style=\"padding:0;\" data-avatar=\"false\">              \n\t\t\t              \n\t\t\t<div class=\"stamped-review-avatar-content\">                  \n\t\t\t\tSH              \n\t\t\t<\/div>          \n\t\t<\/div>          \n\t\t<div class=\"created\">02\/10\/2020<\/div>          \n\t\t<strong class=\"author\">Sara H.<\/strong> <span class=\"stamped-verified-badge\" data-type=\"buyer\" data-verified-label=\"Verified Buyer\"><\/span>          \n\t\t<div class=\"review-location\"><\/div>          \n\t\t<div><\/div>      \n\t<\/div>      \n\t<div class=\"stamped-review-content\">          \n\t\t<div class=\"stamped-review-recommend\" data-is-recommend=\"\"><\/div>          \n\t\t<div class=\"stamped-review-body\">                \n\t\t\t<span class=\"stamped-starratings stamped-review-header-starratings\" role=\"list\" data-rating=\"5\" aria-label=\"5-Star Rating Review\"> <i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i><i class='stamped-fa stamped-fa-star '><\/i> <\/span>              \n\t\t\t<h3 class=\"stamped-review-header-title\">Love it<\/h3>              \n\t\t\t<p class=\"stamped-review-content-body\">Very helpful with lots of information. Easy to follow! Thank you.<\/p>            \n\t\t<div class=\"stamped-review-options\"><\/div>              \n\t\t\t<div class=\"stamped-review-image\">                  \n\t\t\t\t              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-product\" style=\"display:none;\"><a href='https:\/\/stamped.io\/go\/d3xXaWRnZXRNYWlufDE4ODI5MHxyfDQzNDM1ODgy0' rel=\"nofollow\" target='_top'>The Original CrockPET Diet for Dogs and Cats | Dr. Ruth Roberts<\/a><\/div>              \n\t\t\t<div class=\"stamped-review-variant\" style=\"display:none;\"><\/div>              \n\t\t\t<div class=\"stamped-review-footer\">                  \n\t\t\t\t<div class=\"stamped-review-share\">\n<div class=\"stamped-share-wrapper\">   \n\t<span class=\"stamped-share-icon\" aria-label=\"Share\" role=\"button\" tabindex=\"0\" rel=\"nofollow noopener\"><i class=\"stamped-fa stamped-fa-share-alt\"><\/i> Share<\/span>   \n\t<span class=\"stamped-share-links\" style=\"\"> &nbsp; | &nbsp;&nbsp;<a href=\"https:\/\/www.facebook.com\/dialog\/share?app_id=222664514734026&amp;display=popup&amp;href=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ffacebookpost%3freviewId%3d43435882&amp;redirect_uri=https:\/\/stamped.io\/shares?review_id=43435882\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Facebook\">Facebook<\/a> &nbsp;•&nbsp; <a href=\"https:\/\/twitter.com\/intent\/tweet?text=Very%20helpful%20with%20lots%20of%20information.%20Easy%20to%20follow%21%20Thank%20you.&amp;url=https%3a%2f%2fshop.drruthroberts.com%2fa%2freview%2ftwittercard%3freviewId%3d43435882\" target=\"_blank\" rel=\"nofollow noopener\" aria-label=\"Share review on Twitter\">Twitter<\/a><\/span>  \n<\/div><\/div>                  \n\t\t\t\t<div class=\"stamped-review-vote\"><div class=\"stamped-rating-holder\">Was this helpful? <a class=\"stamped-thumbs-up\" data-rating=\"1\" data-review-id=\"43435882\" tabindex=\"0\" aria-label=\"Rate review as helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-up\">&nbsp;0<\/i><\/a><span>&nbsp;&nbsp;&nbsp;<\/span><a class=\"stamped-thumbs-down\" data-rating=\"-1\" data-review-id=\"43435882\" tabindex=\"0\" aria-label=\"Rate review as not helpful\" role=\"button\"><i class=\"stamped-fa stamped-fa-thumbs-down\">&nbsp;0<\/i><\/a><\/div>\n<\/div>              \n\t\t\t<\/div>              \n\t\t\t<div class=\"stamped-review-reply\">      <div id=\"stamped-review-1363549683777\">          <div class=\"stamped-review-header\">              <div class=\"stamped-review-avatar\"><\/div>              <div class=\"created\">02\/11\/2020<\/div>              <h3 class=\"stamped-review-header-title\">Dr. Ruth Roberts<\/h3>          <\/div>          <div class=\"stamped-review-content\">              <p class=\"stamped-review-content-body\">Glad you love it!<\/p>              <div class=\"stamped-review-footer\"> <\/div>          <\/div>      <\/div>  <\/div>          \n\t\t<\/div>      \n\t<\/div>  \n<\/div><ul aria-label=\"Reviews Pagination\" role=\"list\" class=\"stamped-pagination stamped-reviews-ul\"><li class=\"previous\"><a href=\"#\" data-page=\"0\" onclick=\"StampedFn.pageReviews('0', '', this); return false;\" role=\"button\" aria-label=\"Previous page\" tabindex=\"0\" rel=\"nofollow\" class=\"stamped-link-disabled\">&lt;<\/a><\/li><li class=\"first\"><a href=\"#\" data-page=\"1\" onclick=\"StampedFn.pageReviews('1', '', this); return false;\" role=\"button\" aria-label=\"First page\" tabindex=\"0\">&lt;&lt;<\/a><\/li><li class=\"page active\"><a href=\"#\" data-page=\"1\" onclick=\"StampedFn.pageReviews('1', '', this); return false;\" aria-label=\"Page 1\" tabindex=\"\">1<\/a><\/li><li class=\"page\"><a href=\"#\" data-page=\"2\" onclick=\"StampedFn.pageReviews('2', '', this); return false;\" aria-label=\"Page 2\" tabindex=\"\">2<\/a><\/li><li class=\"page\"><a href=\"#\" data-page=\"3\" onclick=\"StampedFn.pageReviews('3', '', this); return false;\" aria-label=\"Page 3\" tabindex=\"\">3<\/a><\/li><li class=\"page stamped-hide-mobile\"><a href=\"#\" data-page=\"4\" onclick=\"StampedFn.pageReviews('4', '', this); return false;\" aria-label=\"Page 4\" tabindex=\"\">4<\/a><\/li><li class=\"last\"><a href=\"#\" data-page=\"4\" onclick=\"StampedFn.pageReviews('4', '', this); return false;\" role=\"button\" aria-label=\"Last page\" tabindex=\"0\">&gt;&gt;<\/a><\/li><li class=\"next\"><a href=\"#\" data-page=\"2\" onclick=\"StampedFn.pageReviews('2', '', this); return false;\" role=\"button\" aria-label=\"Next page\" tabindex=\"0\">&gt;<\/a><\/li><\/ul><\/div><div id=\"stamped-questions-tab\" class=\"stamped-questions\" role=\"tabpanel\" aria-labelledby=\"tab-questions\" tabindex=\"-1\" style=\"display:none;\"><\/div><style>.stamped-summary-recommend-percent { background: #05718d !important; }\n.summary-rating-bar>div { background: #05718d !important; color: #fff !important; }\n.stamped-review-avatar { background: #05718d !important; color: white !important; }\nul.stamped-tabs li.active { border-color: #05718d !important ;color: #05718d !important; }\n.stamped-summary-actions-newquestion:before, .stamped-summary-actions-newreview:before, .stamped-summary-actions-mobile-filter i:before, .stamped-summary-actions-clear:before { color: #05718d; }\n.fa-star, .fa-star-o, .fa-star-half-o, .stamped-fa-star, .stamped-fa-star-o, .stamped-fa-star-half-o { color: #ff9900 !important; }\ndiv[data-load-type=continue] ul.stamped-pagination li.next a:before, div[data-widget-load-type=continue] ul.stamped-pagination li.next a:before { content: 'Load More Reviews' !important; }\n[data-widget-style=profile] .stamped-review-product:before { content: 'Reviewing: ' !important; }\na.stamped-review-read-more { font-size: 0px; }\na.stamped-review-read-more:before { content: 'Read more'; font-size: 13px !important; }\n.stamped-file-uploader-btn-label2:before { content: ' Add Photos' !important; }\n<\/style><\/div>  \n<\/div>   \n<\/div>\n<!-- Stamped - End Main Widget -->\n  <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "794671bb-b79a-4d7c-b6c0-a3701dae4236",
+    "main",
+    "rich-text",
+    "multicolumn",
+    "video",
+    "related-products",
+    "newsletter",
+    "d4af899c-7677-4540-9a5f-7c4b1dc8314d",
+    "715677ee-9d3b-4640-9588-2738be3f07e3",
+    "add51e18-dc7f-4273-a60d-07a28f597fe0"
+  ]
+}

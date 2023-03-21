@@ -1,0 +1,489 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "5f787237-7ab8-4dd1-8f92-55e74a275b53": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "GIVINGBACK10",
+            "button_link_1": "https:\/\/shop.drruthroberts.com\/discount\/GIVINGBACK10",
+            "button_style_secondary_1": true,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-0",
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-1",
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BFCM_SALE_2_7a454232-6b23-41f3-a39f-7d8ab8ffed66.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "a7aeba3d-757c-4979-b093-2611f67ccaa3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Here's Your Black Friday Treat 🎉<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These Are The Deals You’ve Been Waiting For <\/p><p>Use code<strong> GIVINGBACK10<\/strong> upon checkout to get 10% off our holistic supplements & courses! <\/p>"
+          }
+        },
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-0",
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-1",
+        "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "71d2e1f7-132b-4230-bffc-2711fb42fe54": {
+      "type": "featured-product",
+      "blocks": {
+        "9403355b-6b46-41fe-bdf4-a3ab1bc4e274": {
+          "type": "text",
+          "settings": {
+            "text": "25% OFF",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "9403355b-6b46-41fe-bdf4-a3ab1bc4e274",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-0",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-1",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-2",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-3",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-4",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-5",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-6",
+        "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-7"
+      ],
+      "settings": {
+        "product": "holistic-total-body-support-for-cats-dogs",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c5202985-92b6-458e-9df1-9a8886eeb8e6": {
+      "type": "featured-product",
+      "blocks": {
+        "1307da9a-db46-405b-b63b-046ff40d5aad": {
+          "type": "text",
+          "settings": {
+            "text": "25% OFF",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1307da9a-db46-405b-b63b-046ff40d5aad",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-0",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-1",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-2",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-3",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-5",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-6",
+        "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-7"
+      ],
+      "settings": {
+        "product": "the-original-crockpet-diet-membership",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17f3f27c-96bb-461c-aeaf-de6801eb573c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fidospore_b5b5e1b7-cc6b-4c35-90bf-6e91ba16b834.jpg",
+            "title": "FidoSpore",
+            "text": "<p>FidoSpore™ is the first probiotic supplement clinically shown to support digestive health in dogs.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/fidospore?_pos=1&_sid=ff1c5ae4c&_ss=r"
+          }
+        },
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_3.jpg",
+            "title": "Arthri-Pawz",
+            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/arthrosoothe-120-vcaps?_pos=1&_psq=art&_ss=e&_v=1.0"
+          }
+        },
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_2.jpg",
+            "title": "Hista-Paws",
+            "text": "<p>The best selling allergy relief supplement for cats & dogs that contains quercetin & nettles that works better than apoquel.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0",
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1",
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2"
+      ],
+      "settings": {
+        "title": "Other Pet Parents Favorites at 10% Off *use code GIVINGBACK10",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2a3d594f-9bfc-4483-b6a2-01aa624e8306": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-feline-collection"
+          }
+        },
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sp-canine-collection"
+          }
+        },
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-human-products"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-0",
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-1",
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2"
+      ],
+      "settings": {
+        "title": "Give your pet the goodness of wholly balanced nutrition w\/ our top-grade multivitamins from Standard Process.",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "712125b3-cd0e-4275-9812-86d6b479720a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Header_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-1_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
+          }
+        },
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-2_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews?_pos=1&_sid=9a0c389c5&_ss=r"
+          }
+        },
+        "c5318569-8288-4701-8a2b-c395252eb4fa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-3_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/standardprocess-pneumotrophin-pmg-6900?_pos=1&_psq=pneum&_ss=e&_v=1.0"
+          }
+        },
+        "dbb4c90f-3c91-4275-954f-23f3af6a04f6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-4_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/standardprocess-adrenal-desiccated-0850?_pos=1&_psq=adrenal&_ss=e&_v=1.0"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-0",
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1",
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2",
+        "c5318569-8288-4701-8a2b-c395252eb4fa",
+        "dbb4c90f-3c91-4275-954f-23f3af6a04f6"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "59dfd687-de26-41ea-851d-c7d92cd63a13": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-0",
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-1",
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BFCM-Open-C.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5f787237-7ab8-4dd1-8f92-55e74a275b53",
+    "a7aeba3d-757c-4979-b093-2611f67ccaa3",
+    "71d2e1f7-132b-4230-bffc-2711fb42fe54",
+    "c5202985-92b6-458e-9df1-9a8886eeb8e6",
+    "17f3f27c-96bb-461c-aeaf-de6801eb573c",
+    "2a3d594f-9bfc-4483-b6a2-01aa624e8306",
+    "712125b3-cd0e-4275-9812-86d6b479720a",
+    "59dfd687-de26-41ea-851d-c7d92cd63a13"
+  ]
+}

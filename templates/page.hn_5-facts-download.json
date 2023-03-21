@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166267087604ff6c49": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "166267087683db5022-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "166267087683db5022-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "166267087683db5022-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "166267087683db5022-0",
+        "166267087683db5022-1",
+        "166267087683db5022-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16626709144c8e7699": {
+      "type": "apps",
+      "blocks": {
+        "33ca6bcd-cd8d-44ef-bac2-b1128b59e712": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-TPqVzZ\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "33ca6bcd-cd8d-44ef-bac2-b1128b59e712"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166267087604ff6c49",
+    "16626709144c8e7699"
+  ]
+}

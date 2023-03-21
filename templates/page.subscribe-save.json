@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "285179e0-0d32-48ed-abcb-632c9ed4eef6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe & save",
+            "heading_size": "h1"
+          }
+        },
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Love your pet's favorite product?<\/strong><\/p><p>Sign up for Subscribe & Save to make it easy!<\/p><p>You'll get free shipping on orders $100 above plus 5% off every time you shop, and the comfort of knowing that your pet's favorite product will arrive month after month.<\/p><p><strong>Subscribe & Save today!<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe & Save",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-0",
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-1",
+        "template--14874397245505__285179e0-0d32-48ed-abcb-632c9ed4eef6-167467833214fa9a89-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bundlesubscribe_Save.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "32ba5116-94b0-4538-a10b-81183c67f254": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14874397245505__32ba5116-94b0-4538-a10b-81183c67f254-167468111154d13b57-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How does it work?<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14874397245505__32ba5116-94b0-4538-a10b-81183c67f254-167468111154d13b57-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4262fc81-2758-42e2-aa0c-429e424b2275": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_cf0d7d5b-5091-45ba-9a38-dc0e7eaa2443.png",
+            "title": "5% Off Every Order",
+            "text": "<p>Subscribe & save and never pay full price again. Save 5% on every order when you keep your subscription, plus receive exclusive offers and discounts.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_a001f915-2ba7-49b6-b1a6-9b92826ee00f.png",
+            "title": "FREE Shipping",
+            "text": "<p>Get free shipping every time you order online! If your total for all items in your Subscribe & Save order is over $100, we will ship them at no extra cost. Never miss a shipment again.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_bc7ec690-9617-4419-b459-4977deb87178.png",
+            "title": "Sit & Wait",
+            "text": "<p>Our Subscribe & Save program delivers a convenient way for you to save money and never worry about running out of your favorite products.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-0",
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-1",
+        "template--14874397245505__4262fc81-2758-42e2-aa0c-429e424b2275-1674678350ce32b698-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "43998685-e0fa-4385-8779-e9c1c0fbe312": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14874397245505__43998685-e0fa-4385-8779-e9c1c0fbe312-167468111154d13b57-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SUBSCRIBE TO ANY PRODUCT<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14874397245505__43998685-e0fa-4385-8779-e9c1c0fbe312-167468111154d13b57-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "41a1a68a-44eb-40dd-b151-e6621a6334b7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_Copy.png",
+            "title": "Vitality - Mushrooms For Dogs | Cancer, Autoimmune Diseases, Liver & Respiratory Support",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": "shopify:\/\/products\/vitality-mushrooms-for-dogs"
+          }
+        },
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22_021ec101-093c-4b42-b781-feabf8925764-opt.jpg",
+            "title": "Holistic Total Body Support For Cats & Dogs | Glandular Multivitamin",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": ""
+          }
+        },
+        "139b1272-473b-47ce-824d-2312f70c5ee3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ClarityBottle.png",
+            "title": "Clarity - Mushrooms For Dogs | CCD, Mental & Emotional Support",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": "shopify:\/\/products\/clarity-mushrooms-for-dogs-mushroom-extract-adaptogen-tincture"
+          }
+        },
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-opt.jpg",
+            "title": "Hista-Paws For Cats And Dogs (Quercetin & Nettles) | Allergy Relief",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": "shopify:\/\/products\/quercetin-nettles-90-caps"
+          }
+        },
+        "bb13bac1-a6f3-48c2-8258-d4cd5d1e0a38": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Breathe_Bottle.png",
+            "title": "Breathe - Mushrooms For Dog | Respiratory & Cardiovascular Support",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": "shopify:\/\/products\/breathe-mushrooms-for-dog-mushroom-extract-adaptogen-tincture"
+          }
+        },
+        "bba2c412-c96d-40d8-9c3f-b3e18d14de37": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Arthri_New.jpg",
+            "title": "Arthri-Pawz (Glucosamine & Boswellia Extract) | Powerful Joint Support",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<\/p><p>Save 5% off + FREE SHIPPING $100+<\/p>",
+            "link_label": "Subscribe & Save",
+            "link": "shopify:\/\/products\/arthrosoothe-120-vcaps"
+          }
+        }
+      },
+      "block_order": [
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-2",
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-0",
+        "139b1272-473b-47ce-824d-2312f70c5ee3",
+        "template--14874397245505__41a1a68a-44eb-40dd-b151-e6621a6334b7-1674678350ce32b698-1",
+        "bb13bac1-a6f3-48c2-8258-d4cd5d1e0a38",
+        "bba2c412-c96d-40d8-9c3f-b3e18d14de37"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "MORE PRODUCTS AVAILABLE",
+        "button_link": "shopify:\/\/collections\/all",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "285179e0-0d32-48ed-abcb-632c9ed4eef6",
+    "32ba5116-94b0-4538-a10b-81183c67f254",
+    "4262fc81-2758-42e2-aa0c-429e424b2275",
+    "43998685-e0fa-4385-8779-e9c1c0fbe312",
+    "41a1a68a-44eb-40dd-b151-e6621a6334b7"
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "sections": {
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Detox Support Protocol",
+            "heading_size": "h1"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A General Detox Program can prevent a host of issues for your pet by reducing cell damage from environmental pollutants in the food, air, and water. But getting rid of all that garbage can make your pet feel worse, so introduce this protocol slowly. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Detox & Vaccine Brochure",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/vaccine+%26+detox+brochure.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/13.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The General Detox Protocol Help your pet flush out environmental toxins, by supporting liver function & enhancing Gut detoxification<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I use the products below for all my consulting clients, to get fantastic health outcomes. <\/p><p>I've recommended them for years, and use them for my own pets to keep their health and immune function top notch. <br\/><\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "settings": {
+        "title": "SHOP MORE",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1644346673ab5cde9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644346673215909db-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22_021ec101-093c-4b42-b781-feabf8925764-opt.jpg",
+            "title": "Multivitamin ",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/holistic-total-body-support-for-cats-dogs"
+          }
+        },
+        "1644346673215909db-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RuthNewFishOil-1.webp",
+            "title": "Fish Oil",
+            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/crockpet-fish-oil-supplement"
+          }
+        },
+        "1644346673215909db-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20.jpg",
+            "title": "Probiotics",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/fidospore"
+          }
+        },
+        "7e2f260b-9426-4f80-b237-654daa7af150": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_Copy.png",
+            "title": "Antioxidants",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/clarity-mushrooms-for-dogs-mushroom-extract-adaptogen-tincture"
+          }
+        },
+        "851298dd-4488-4c37-bd0a-47c632e1f888": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/turmeric_with_bioperine.jpg",
+            "title": "Turmeric",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/turmeric-with-bioperine®-organic-coconut-oil-for-cats-dogs-60-chews"
+          }
+        }
+      },
+      "block_order": [
+        "1644346673215909db-0",
+        "1644346673215909db-1",
+        "1644346673215909db-2",
+        "7e2f260b-9426-4f80-b237-654daa7af150",
+        "851298dd-4488-4c37-bd0a-47c632e1f888"
+      ],
+      "settings": {
+        "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16451372445fbe7db4": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "1645137244617a2009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be one of our VIP Clients",
+            "heading_size": "h1"
+          }
+        },
+        "1645137244617a2009-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1645137244617a2009-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645137244617a2009-0",
+        "1645137244617a2009-1",
+        "1645137244617a2009-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1645140795e31deed7": {
+      "type": "collection-list",
+      "blocks": {
+        "1645140795cfde58e6-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "allergy-support-supplement"
+          }
+        },
+        "1645140795cfde58e6-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anxiety-support-protocol"
+          }
+        },
+        "1645140795cfde58e6-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "0574c7aa-73e1-4698-bf97-1ee564ef6732": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cancer-support"
+          }
+        },
+        "be130b3e-47c3-4b08-802f-4115a3ccdb14": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gastrointestinal-support"
+          }
+        },
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "general-detox-protocol"
+          }
+        },
+        "a569004b-959f-4f42-a602-2283001e3d5d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keep-my-pet-healthy-protocol-1"
+          }
+        },
+        "99543df5-f1be-456d-bfb0-730b21137132": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kidney-support"
+          }
+        },
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liver-support"
+          }
+        },
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "post-surgical-care-collection"
+          }
+        },
+        "e8ce74eb-32c0-48d4-b1ae-2cc9289f0e65": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vaccine-heartworm-detox-protocol"
+          }
+        },
+        "30ace9bc-a71f-4064-b63a-5467239cc6b6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dr-ruth-roberts-supplements"
+          }
+        }
+      },
+      "block_order": [
+        "1645140795cfde58e6-0",
+        "1645140795cfde58e6-1",
+        "1645140795cfde58e6-2",
+        "0574c7aa-73e1-4698-bf97-1ee564ef6732",
+        "be130b3e-47c3-4b08-802f-4115a3ccdb14",
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3",
+        "a569004b-959f-4f42-a602-2283001e3d5d",
+        "99543df5-f1be-456d-bfb0-730b21137132",
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3",
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250",
+        "e8ce74eb-32c0-48d4-b1ae-2cc9289f0e65",
+        "30ace9bc-a71f-4064-b63a-5467239cc6b6"
+      ],
+      "settings": {
+        "title": "Are you looking for supplements for a specific need? Check it out on our other collections:",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "164514111230637097": {
+      "type": "rich-text",
+      "blocks": {
+        "164514111261d9da74-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact Us!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "164514111261d9da74-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+          }
+        },
+        "164514111261d9da74-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164514111261d9da74-0",
+        "164514111261d9da74-1",
+        "164514111261d9da74-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1644361594fa530990",
+    "product-grid",
+    "banner",
+    "164434556097d46afd",
+    "1631859338560c9b4a",
+    "1644346673ab5cde9c",
+    "16451372445fbe7db4",
+    "1645140795e31deed7",
+    "164514111230637097"
+  ]
+}

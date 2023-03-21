@@ -1,0 +1,59 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "New! Shop MycoDog Mushrooms For Your Dog",
+            "color_scheme": "accent-1",
+            "link": "https:\/\/shop.drruthroberts.com\/collections\/mycodog-mushrooms-for-dogs"
+          }
+        },
+        "e1770a70-d299-486e-8192-16f36df50528": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "159f6696-b0fe-4f83-8c66-b372b30b0e45": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "e1770a70-d299-486e-8192-16f36df50528",
+        "159f6696-b0fe-4f83-8c66-b372b30b0e45"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "background-1",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "show_line_separator": false,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

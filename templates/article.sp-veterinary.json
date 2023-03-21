@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false
+      }
+    },
+    "1645138074eb7eac59": {
+      "type": "image-with-text",
+      "blocks": {
+        "164513807442a683d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "You would do anything for the health of your pet."
+          }
+        },
+        "164513807442a683d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth's holistic wellness store offers Standard Process Veterinary products that help fill nutritional gaps in animals. <\/p><p>These veterinary supplements empower pet owners to care for their animals in the same way they care for themselves. We have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.<\/p><p><\/p>"
+          }
+        },
+        "164513807442a683d3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164513807442a683d3-0",
+        "164513807442a683d3-1",
+        "164513807442a683d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/242217249_10160285733418690_8318218123004700986_n.jpg",
+        "height": "adapt",
+        "layout": "image_first",
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sp-canine-collection"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-feline-collection"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-human-products"
+          }
+        },
+        "2da0902d-0935-4c65-abe6-98ef650caa77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-immune-collection"
+          }
+        },
+        "61ed9610-5469-4ee0-97b7-9fcf6e9e22a5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-liver-support-collection"
+          }
+        },
+        "870e57d8-fe83-4ff2-a79a-5217229765c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-renal-support-collection"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2",
+        "2da0902d-0935-4c65-abe6-98ef650caa77",
+        "61ed9610-5469-4ee0-97b7-9fcf6e9e22a5",
+        "870e57d8-fe83-4ff2-a79a-5217229765c2"
+      ],
+      "settings": {
+        "title": "Are you looking for supplements for a specific need? Check it out on our other collections.",
+        "image_ratio": "adapt",
+        "color_scheme": "accent-1",
+        "show_view_all": false,
+        "swipe_on_mobile": true
+      }
+    },
+    "16451381264ffdaa6a": {
+      "type": "rich-text",
+      "blocks": {
+        "16451381268ca1da6a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Learn more about Standard Process<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "16451381268ca1da6a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.<\/p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.<\/p><p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+          }
+        },
+        "16451381268ca1da6a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16451381268ca1da6a-0",
+        "16451381268ca1da6a-1",
+        "16451381268ca1da6a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "large"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "1645138074eb7eac59",
+    "product-grid",
+    "1631859338560c9b4a",
+    "16451381264ffdaa6a"
+  ]
+}

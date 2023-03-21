@@ -1,0 +1,19 @@
+{% if content_for_header contains 'rapid-search-static-abffarbufmhgche6.z01.azurefd.net' %}
+
+  {% assign settings = shop.metafields.rapid-search.rpsSettings %}
+
+  {% if content_for_header contains 'adminBarInjector' or content_for_header contains 'previewBarInjector'  %}
+    {% assign isAdmin = true %}
+  {% else %}
+    {% assign isAdmin = false %}
+  {% endif %}
+
+  {% if settings != '-' and isAdmin == false %}
+    <script type="text/javascript">
+      try {
+        window.RapidSearchSettings = {{ settings | json }};
+      } catch (error) {}
+    </script>
+  {% endif %}
+
+{% endif %}

@@ -1,0 +1,69 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "ABOUT DR. RUTH",
+            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p><p><a href=\"https:\/\/drruthroberts.com\/about\/\" title=\"https:\/\/drruthroberts.com\/about\/\">\"Learn More About Me\"<\/a><\/p><p>email us at support@drruthroberts.com<\/p><p>or call us at<\/p><p>+1 213 394 2923<\/p>"
+          }
+        },
+        "image": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 200,
+            "alignment": "center"
+          }
+        },
+        "c79de260-1d0a-478c-9f24-40bf9c7f5c47": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer-menu-2"
+          }
+        },
+        "linklist": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SUPPORT",
+            "menu": "footer"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Disclaimer",
+            "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.<\/p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-1",
+        "image",
+        "c79de260-1d0a-478c-9f24-40bf9c7f5c47",
+        "linklist",
+        "text-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

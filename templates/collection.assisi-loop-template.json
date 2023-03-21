@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "settings": {
+        "title": "SHOP MORE",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": true
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What is the Assisi Loop Good For?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What's fantastic about the Assisi Loop is that it was created, studied, and shown to reduce inflammation, and it can be used for a variety of purposes.<\/p><p>From pain and inflammation to separation anxiety and other behavior disorders, <strong>Assisi Loop<\/strong> and <strong>Calmer Canine®<\/strong>products use time-tested <a href=\"https:\/\/assisianimalhealth.com\/technology\/\"><strong>tPEMF™ technology<\/strong><\/a> to accelerate healing and improve well-being.<\/p><p>The flagship product of the Assisi line of tPEMF therapy devices, Assisi LOOP®, provides safe and effective management of pain and inflammation at home or on-the-go.<\/p><p>With two sizes to choose from, Assisi Loop is easy to position, making it perfect for every pet, regardless of size. The electromagnetic pulses penetrate through wraps, dressings, and casts, ensuring efficacy even if your pet is healing from an injury. <\/p><p>This state-of-the-art system combines science with technology to deliver much-needed relief to your pet. Whether their symptoms are mental or physical, the technology behind the Assisi Loop guarantees improvement for your pet. <\/p><p><strong>Does the Assisi Dog Loop Work?<\/strong><\/p><p>No one knows your pet better than you. And as you begin using the Assisi Loop, you’ll know that your dog’s attitude is changing. <\/p><p>But don’t take my word for it.<\/p><p>With the Assisi Loop, you choose which when and where is the right time for your pet to receive inflammation treatment that can minimize any and all maladies.  <\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1644346095cd24241d": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1644346095baa0f523-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1644346095baa0f523-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1644346095baa0f523-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1644346095baa0f523-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1644346095baa0f523-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1644346095baa0f523-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1644346095baa0f523-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1644346095baa0f523-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1644346095baa0f523-0",
+        "1644346095baa0f523-1",
+        "1644346095baa0f523-2",
+        "1644346095baa0f523-3",
+        "1644346095baa0f523-4",
+        "1644346095baa0f523-5",
+        "1644346095baa0f523-6",
+        "1644346095baa0f523-7"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1644346130793eb8de": {
+      "type": "multicolumn",
+      "blocks": {
+        "16443461309a91353f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/299095_Package-scaled_1.jpg",
+            "title": "Manual",
+            "text": "<p>Turns off after each 15-minute treatment<\/p>"
+          }
+        },
+        "16443461309a91353f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Assisi_Loop2.0Auto20cm_PkgMockup_042221-scaled__35480.1633711221.jpg",
+            "title": "Auto-Cycle",
+            "text": "<p>Stays on to deliver preprogrammed 15-minute treatments every two hours<\/p>"
+          }
+        },
+        "16443461309a91353f-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16443461309a91353f-0",
+        "16443461309a91353f-1",
+        "16443461309a91353f-2"
+      ],
+      "settings": {
+        "title": "Assisi LOOP® is available in two versions:",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16443463329bfd0b19": {
+      "type": "rich-text",
+      "blocks": {
+        "1644346332f0f3e92c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644346332f0f3e92c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you need help selecting the sizes or need an expert recommendation, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/p><p><\/p><p> *Assisi LOOP and Calmer Canine products are Non-Pharmaceutical Anti-Inflammatory Devices (NPAID).<\/p>"
+          }
+        },
+        "1644346332f0f3e92c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644346332f0f3e92c-0",
+        "1644346332f0f3e92c-1",
+        "1644346332f0f3e92c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1631859338560c9b4a",
+    "164434556097d46afd",
+    "1644346095cd24241d",
+    "1644346130793eb8de",
+    "16443463329bfd0b19"
+  ]
+}

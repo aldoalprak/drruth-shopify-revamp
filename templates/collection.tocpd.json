@@ -1,0 +1,423 @@
+{
+  "sections": {
+    "f4156b02-58f8-4813-b327-a53a91c7ff6e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-0",
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-1",
+        "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tocpdd_1440_x_560_px_1-opt.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a77fe201-e779-4f85-ac95-8134b40498d8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good Health - The best gift you can give.",
+            "heading_size": "h2"
+          }
+        },
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your best friend's dog deserves the healthiest diet, just like everyone else in his family. Dogs & cats love the Original Crockpet recipes, and we’re thrilled to share them with your best friends. <\/p><p>The Original Crockpet Diet is a complete and balanced diet that provides high-quality nutrition for dogs & cats of all sizes and breeds, no matter their activity level or age.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now!",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-0",
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-1",
+        "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/38470326_10216934414214374_593562569046753280_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9e977c56-a2e6-4f78-acbb-4b99ab67e1da": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TOCPD20<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*use the code upon check-out.<\/p>"
+          }
+        },
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "https:\/\/shop.drruthroberts.com\/discount\/TOCPD20?redirect=%2Fcollections%2Fcrockpet-diet",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-0",
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-1",
+        "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f0abf99c-d232-49ec-9e05-6ddec20debed": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-0",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-1",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-2",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-3",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-5",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-6",
+        "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-7"
+      ],
+      "settings": {
+        "product": "the-original-crockpet-diet-membership",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "088e1906-2943-47c5-a516-e118d48e5877": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/starter_kit.jpg",
+            "title": "TOCPC Starter Kit For Cat & Dog",
+            "text": "<p>Let’s enhance the health of your pets with tailored recipes and specially selected supplements, all required for a balanced diet. Order your 150-days to a year’s worth of supplies of supplements and vitamins and become the best furrbaby parent.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/the-complete-crockpet-diet-starter-kit-for-cats"
+          }
+        },
+        "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refill_kit.jpg",
+            "title": "TOCPD Refill Kit for Cats & Dog",
+            "text": "<p>The Complete CrockPet Refill Kit is a fast and efficient way to keep your furry friend's diet on target and complete & balanced, with the best possible ingredients and supplements needed to balance it. <\/p><p> (Does not include slow cooker)<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/the-complete-crockpet-refill-kit-for-cats-dogs"
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-0",
+        "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-1"
+      ],
+      "settings": {
+        "title": "Boost Your Pets' Health with our Starter Kits at 20% off. *use code TOCPD20",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "97f68048-498f-4269-aaa9-cc7e97cdcf37": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Optimize your pet’s best health and achieve wholly balanced nutrition. <\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Holistic Total Body Support is perfectly formulated to complement The Original CrockPET Diet & is also a recommended supplement for dogs eating any other diet.<\/p>"
+          }
+        },
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-0",
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-1",
+        "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c84599a7-55cb-438e-8419-61f78398d203": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-0",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-1",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-2",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-3",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-4",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-5",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-6",
+        "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-7"
+      ],
+      "settings": {
+        "product": "holistic-total-body-support-for-cats-dogs",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ac39471c-3aad-4261-954a-849a01372618": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ensure overall health of your furry family member w\/ our top-grade supplement bundles.",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "dr-ruths-holiday-bundles",
+        "products_to_show": 3,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "f4156b02-58f8-4813-b327-a53a91c7ff6e",
+    "main-collection-banner",
+    "main-collection-product-grid",
+    "a77fe201-e779-4f85-ac95-8134b40498d8",
+    "9e977c56-a2e6-4f78-acbb-4b99ab67e1da",
+    "f0abf99c-d232-49ec-9e05-6ddec20debed",
+    "088e1906-2943-47c5-a516-e118d48e5877",
+    "97f68048-498f-4269-aaa9-cc7e97cdcf37",
+    "c84599a7-55cb-438e-8419-61f78398d203",
+    "ac39471c-3aad-4261-954a-849a01372618"
+  ]
+}

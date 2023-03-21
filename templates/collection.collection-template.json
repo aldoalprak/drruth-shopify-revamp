@@ -1,0 +1,295 @@
+{
+  "sections": {
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Holistic Veterinary Care Packages"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you love your pets like I love mine, you want the very best and safest way to treat and prevent disease in your four-legged family members. If your pet has been sick or has a terrible diagnosis, I bet you’ve been scouring the internet for information on your pet’s health issues. Your search has no doubt left you feeling overwhelmed.<\/p>"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1637847310-DR_carousel_1121_002_05_1.jpg",
+        "height": "small",
+        "layout": "image_first",
+        "color_scheme": "background-1"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "settings": {
+        "title": "SHOP MORE",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": true
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nutrition and Supplements for Holistic Veterinary Care<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While it’s natural to view your pet as a member of your family, do you view their health needs in the same manner you view yours?<\/p><p>As a human dedicated to a healthier lifestyle, you take a daily vitamin and may supplement that routine with different additions, be it fish oil or Vitamin C. <\/p><p>In this regard, your pet is no different from you. To ensure that your beloved animal is getting the nutrients and she needs, here are five supplements you can consider adding to your pet’s routine. <\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1644346673ab5cde9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644346673215909db-0": {
+          "type": "column",
+          "settings": {
+            "title": "Multivitamin ",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>"
+          }
+        },
+        "1644346673215909db-1": {
+          "type": "column",
+          "settings": {
+            "title": "Fish Oil",
+            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>"
+          }
+        },
+        "1644346673215909db-2": {
+          "type": "column",
+          "settings": {
+            "title": "Probiotics",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>"
+          }
+        },
+        "7e2f260b-9426-4f80-b237-654daa7af150": {
+          "type": "column",
+          "settings": {
+            "title": "Antioxidants",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>"
+          }
+        },
+        "851298dd-4488-4c37-bd0a-47c632e1f888": {
+          "type": "column",
+          "settings": {
+            "title": "Turmeric",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644346673215909db-0",
+        "1644346673215909db-1",
+        "1644346673215909db-2",
+        "7e2f260b-9426-4f80-b237-654daa7af150",
+        "851298dd-4488-4c37-bd0a-47c632e1f888"
+      ],
+      "settings": {
+        "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1644362911e27a17cd": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1644362911ff49262e-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "1644362911ff49262e-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        },
+        "1644362911ff49262e-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1644362911ff49262e-0",
+        "1644362911ff49262e-1",
+        "1644362911ff49262e-2",
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b"
+      ],
+      "settings": {
+        "title": "Holistic Veterinary Care Packages",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16443635858774eb64": {
+      "type": "rich-text",
+      "blocks": {
+        "1644363585f56cc491-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>I'm Your Pet's Ally - A trusted source of information for you & your pet.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1644363585f56cc491-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You might question whether a holistic veterinary care approach is the right one or if it’ll even work. Yet, you can’t shake that feeling in the pit of your stomach that <em>there might just be a better, safer way to care for your animal.<\/em><\/p><p>In my practice, I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.<\/p><p>I combine scientific facts, decades of clinical work, and a holistic, integrative approach to help you find solutions that’ll nurture your furry friend back to optimum health.<\/p>"
+          }
+        },
+        "1644363585f56cc491-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1644363585f56cc491-0",
+        "1644363585f56cc491-1",
+        "1644363585f56cc491-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1644361594fa530990",
+    "banner",
+    "product-grid",
+    "1631859338560c9b4a",
+    "164434556097d46afd",
+    "1644346673ab5cde9c",
+    "1644362911e27a17cd",
+    "16443635858774eb64"
+  ]
+}
