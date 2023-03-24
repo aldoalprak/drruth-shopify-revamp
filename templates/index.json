@@ -769,89 +769,6 @@
         "padding_bottom": 0
       }
     },
-    "31b42b62-65c6-4a78-bbbe-3df2f89d00b8": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--14539827511361__31b42b62-65c6-4a78-bbbe-3df2f89d00b8-16748287497f365e7d-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--14539827511361__31b42b62-65c6-4a78-bbbe-3df2f89d00b8-16748287497f365e7d-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--14539827511361__31b42b62-65c6-4a78-bbbe-3df2f89d00b8-16748287497f365e7d-0",
-        "template--14539827511361__31b42b62-65c6-4a78-bbbe-3df2f89d00b8-16748287497f365e7d-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Pure_and_Real_products_for_your_pet._1366_x_500_px_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "36095dc9-2792-4a21-a3f0-07b8c23746f3": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Catch The Latest Your Natural Dog Podcast Episode...<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-0",
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-1",
-        "template--14539827511361__36095dc9-2792-4a21-a3f0-07b8c23746f3-1675780793f3d91c91-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 0
-      }
-    },
     "cac22a88-7300-4462-83f4-0fd8b4d0af1b": {
       "type": "custom-liquid",
       "disabled": true,
@@ -905,32 +822,198 @@
         "include_margins": true
       }
     },
-    "16591226785e64af89": {
-      "type": "apps",
-      "disabled": true,
+    "42a0c8a2-518d-4af7-81cd-2253cf91765e": {
+      "type": "rx-image-banner",
       "blocks": {
-        "5b0825db-c4d7-47c2-8c14-29ffd9f15e5c": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-0": {
+          "type": "heading",
           "settings": {
-            "formId": ""
+            "heading": "Become A Holistic Pet Health Coach",
+            "heading_size": "h2"
+          }
+        },
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life",
+            "text_style": "body"
+          }
+        },
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LEARN MORE",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": ""
           }
         }
       },
       "block_order": [
-        "5b0825db-c4d7-47c2-8c14-29ffd9f15e5c"
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-0",
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-1",
+        "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-2"
       ],
       "settings": {
-        "include_margins": true
+        "image_2": "shopify:\/\/shop_images\/Rectangle_10.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "left",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
-    "16591228594fb7629f": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "2758b93a-1c5e-4890-87a5-086ee9572e15": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Dr. Ruth",
+            "heading_size": "h1"
+          }
+        },
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY STORY",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-0",
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1",
+        "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2"
+      ],
       "settings": {
-        "custom_liquid": "",
+        "image": "shopify:\/\/shop_images\/about.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "imgText-bg-color": "#f5f8f1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "35a9f240-35c6-4509-b3d7-77ac0c08d41c": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486050881__35a9f240-35c6-4509-b3d7-77ac0c08d41c-1679662670bc156e16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Blogs<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "d3ea151d-ed27-4901-9e22-3897a246a581": {
+          "type": "caption",
+          "settings": {
+            "caption": "The most useful pet advice news.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__35a9f240-35c6-4509-b3d7-77ac0c08d41c-1679662670bc156e16-0",
+        "d3ea151d-ed27-4901-9e22-3897a246a581"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "1d7acd25-827c-4f3c-8845-e495b1105759": {
+      "type": "rx-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a22eed67-71d2-4d24-9266-adb3dc0550e6": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "273f2ad7-1d0c-4f2b-86a1-64a99e0d6315": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to take care of your pet to the next level ?",
+            "heading_size": "h2"
+          }
+        },
+        "6085d0d3-71f3-4366-984a-a5310a2b767b": {
+          "type": "text",
+          "settings": {
+            "text": "Pet care has never been easier.",
+            "text_style": "body"
+          }
+        },
+        "58c0ab15-5522-4246-a61a-904c858c8e90": {
+          "type": "text",
+          "settings": {
+            "text": "Book a consultation with one of our holistic pet health coaches",
+            "text_style": "body"
+          }
+        },
+        "6b48371e-cc6c-4dd7-8e0c-ddc176e616fc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BOOK CONSULTATION",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "273f2ad7-1d0c-4f2b-86a1-64a99e0d6315",
+        "6085d0d3-71f3-4366-984a-a5310a2b767b",
+        "58c0ab15-5522-4246-a61a-904c858c8e90",
+        "6b48371e-cc6c-4dd7-8e0c-ddc176e616fc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dog-banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "left",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
@@ -952,11 +1035,12 @@
     "834798fa-67f8-45d9-bed3-95764eb1bdf4",
     "rich-text",
     "359ba47e-a2e3-4eaa-b116-ecec2008067d",
-    "31b42b62-65c6-4a78-bbbe-3df2f89d00b8",
-    "36095dc9-2792-4a21-a3f0-07b8c23746f3",
     "cac22a88-7300-4462-83f4-0fd8b4d0af1b",
     "16751843409387bdf2",
-    "16591226785e64af89",
-    "16591228594fb7629f"
+    "42a0c8a2-518d-4af7-81cd-2253cf91765e",
+    "2758b93a-1c5e-4890-87a5-086ee9572e15",
+    "35a9f240-35c6-4509-b3d7-77ac0c08d41c",
+    "1d7acd25-827c-4f3c-8845-e495b1105759",
+    "a22eed67-71d2-4d24-9266-adb3dc0550e6"
   ]
 }

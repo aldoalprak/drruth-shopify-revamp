@@ -5,19 +5,19 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text-1": {
-          "type": "text",
-          "settings": {
-            "heading": "ABOUT DR. RUTH",
-            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p><p><a href=\"https:\/\/drruthroberts.com\/about\/\" title=\"https:\/\/drruthroberts.com\/about\/\">\"Learn More About Me\"<\/a><\/p><p>email us at support@drruthroberts.com<\/p><p>or call us at<\/p><p>+1 213 394 2923<\/p>"
-          }
-        },
         "image": {
           "type": "image",
           "disabled": true,
           "settings": {
             "image_width": 200,
             "alignment": "center"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "ABOUT DR. RUTH",
+            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p>"
           }
         },
         "c79de260-1d0a-478c-9f24-40bf9c7f5c47": {
@@ -43,8 +43,8 @@
         }
       },
       "block_order": [
-        "text-1",
         "image",
+        "text-1",
         "c79de260-1d0a-478c-9f24-40bf9c7f5c47",
         "linklist",
         "text-0"
