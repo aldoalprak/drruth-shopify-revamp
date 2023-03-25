@@ -1,0 +1,396 @@
+{% include 'ultimate-settings' %}
+
+{{ 'ultimate-testimonial.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'ultimate-testimonial.js' | asset_url }}" defer="defer"></script>
+
+<style>
+  {{ section.settings.title_font | font_face }}
+  {{ section.settings.font | font_face }}
+  {{ section.settings.font | font_modify: 'weight', 'bolder' | font_face }}
+
+  #shopify-section-{{ section.id }} .ultimate-wrapper {
+    max-width: {{ section.settings.desktopMaxWidth }};
+  }
+
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} .ultimate-wrapper {
+      max-width: {{ section.settings.tabletMaxWidth }};
+    }
+  }
+
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} .ultimate-wrapper {
+      max-width: {{ section.settings.mobileMaxWidth }};
+    }
+  }
+
+  #shopify-section-{{ section.id }} ultimate-slider .ultimate-slider-item {
+    width: calc(100% / {{ section.settings.desktopColumns }});
+    flex: 0 0 calc(100% / {{ section.settings.desktopColumns }});
+  }
+  
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} ultimate-slider .ultimate-slider-item {
+      width: calc(100% / {{ section.settings.tabletColumns }});
+      flex: 0 0 calc(100% / {{ section.settings.tabletColumns }});
+    }
+  }
+  
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} ultimate-slider .ultimate-slider-item {
+      width: calc(100% / {{ section.settings.mobileColumns }});
+      flex: 0 0 calc(100% / {{ section.settings.mobileColumns }});
+    }
+  }
+
+  {%- if section.settings.empty_star_color != blank -%}
+  #shopify-section-{{ section.id }} .ultimate-testimonial-rating .ultimate-testimonial-item-star-list--empty .ultimate-testimonial-item-star-icon svg {
+    fill: {{ section.settings.empty_star_color }};
+  }
+  {% endif %}
+
+  {%- if section.settings.filled_star_color != blank -%}
+  #shopify-section-{{ section.id }} .ultimate-testimonial-rating .ultimate-testimonial-item-star-list--filled .ultimate-testimonial-item-star-icon svg {
+    fill: {{ section.settings.filled_star_color }};
+  }
+  {% endif %}
+
+  {%- if section.settings.css != blank -%}
+  {{ section.settings.css }}
+  {% endif %}
+</style>
+
+<ultimate-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="ultimate-sections ultimate-wrapper ultimate-testimonial ultimate-testimonial-style1{% if section.settings.auto_hide_arrow %} ultimate-slider-auto-hide-arrow{% endif %} {{section.settings.class}}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="{{section.settings.mobileColumns}}"{% if section.settings.autoPlay %} data-auto-play="true"{% if section.settings.smoothAutoPlay %} data-smooth-auto-play="true"{% endif %}{% endif %}>
+  {%- if section.settings.title != blank -%}
+  <h3 class="ultimate-testimonial-title" style="--us-font-family: {{ section.settings.title_font.family | escape }}, {{ section.settings.title_font.fallback_families | escape }}; --us-font-weight: {{ section.settings.title_font.weight }}; --us-font-size: {{ section.settings.title_font_size }}px">{{ section.settings.title | escape }}</h3>
+  {% endif %}
+
+  <div class="ultimate-testimonial-list-container">
+    <div class="ultimate-slider-list ultimate-testimonial-list">
+      {%- for block in section.blocks -%}
+        <div class="ultimate-slider-item ultimate-testimonial-item" {{ block.shopify_attributes }}>
+          <div class="ultimate-testimonial-item-inner">
+            <div class="ultimate-testimonial-item-image">
+              {%- if block.settings.reviewer_image != blank -%}
+                <img 
+                  src="{{ block.settings.reviewer_image | image_url: width: 200, height: 200 }}"
+                  alt="{{ block.settings.reviewer_image.alt | escape }}"
+                  loading="lazy"
+                  width="200"
+                  height="200"
+                >
+              {%- endif -%}
+            </div>
+
+            <div class="ultimate-testimonial-rating">
+              <div class="ultimate-testimonial-item-star-list ultimate-testimonial-item-star-list--empty">
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="ultimate-testimonial-item-star-list ultimate-testimonial-item-star-list--filled"
+                style="width: calc({{ block.settings.rating }} / 5 * 100%)"
+              >
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              
+                <div class="ultimate-testimonial-item-star-icon">
+                  <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.52447 0.463524C9.67415 0.00286901 10.3259 0.00287008 10.4755 0.463525L12.3574 6.25532C12.4243 6.46133 12.6163 6.60081 12.8329 6.60081H18.9228C19.4071 6.60081 19.6085 7.22062 19.2167 7.50532L14.2899 11.0848C14.1146 11.2122 14.0413 11.4379 14.1082 11.6439L15.9901 17.4357C16.1398 17.8963 15.6125 18.2794 15.2207 17.9947L10.2939 14.4152C10.1186 14.2878 9.88135 14.2878 9.70611 14.4152L4.77931 17.9947C4.38745 18.2794 3.86021 17.8963 4.00989 17.4357L5.89176 11.6439C5.9587 11.4379 5.88537 11.2122 5.71012 11.0848L0.783326 7.50532C0.39147 7.22062 0.592859 6.60081 1.07722 6.60081H7.16708C7.38369 6.60081 7.57567 6.46133 7.6426 6.25532L9.52447 0.463524Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            
+            {%- if block.settings.title != blank -%}
+            <div class="ultimate-testimonial-item-title">{{ block.settings.title }}</div>
+            {%- endif -%}
+            
+            {%- if block.settings.testimonial != blank -%}
+            <div class="ultimate-testimonial-item-testimonial">{{ block.settings.testimonial }}</div>
+            {%- endif -%}
+            
+            {%- if block.settings.reviewer_name != blank -%}
+            <div class="ultimate-testimonial-item-reviewer">
+              <span class="ultimate-testimonial-item-reviewer-name">{{ block.settings.reviewer_name }}</span>
+              {%- if block.settings.reviewer_position != blank -%}
+              &nbsp;- <span class="ultimate-testimonial-item-reviewer-position">{{ block.settings.reviewer_position }}</span>
+              {%- endif -%}
+            </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</ultimate-slider>
+
+{% schema %}
+{
+  "name": "Ulti Testimonial",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "What Our Customers Say" 
+    },
+    {
+      "type": "font_picker",
+      "id": "title_font",
+      "label": "Title Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "label": "Title Font Size",
+      "default": 40,
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "font_picker",
+      "id": "font",
+      "label": "Text Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "number",
+      "id": "desktopColumns",
+      "default": 3,
+      "label": "Columns on desktop"
+    },
+    {
+      "type": "number",
+      "id": "tabletColumns",
+      "label": "Columns on tablet",
+      "default": 2
+    },
+    {
+      "type": "number",
+      "id": "mobileColumns",
+      "label": "Columns on mobile",
+      "default": 1
+    },
+    {
+      "type": "text",
+      "id": "desktopMaxWidth",
+      "default": "100%",
+      "label": "Max width on desktop",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "tabletMaxWidth",
+      "label": "Max width on tablet",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "mobileMaxWidth",
+      "label": "Max width on mobile",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoPlay",
+      "default": false,
+      "label": "Auto Play"
+    },
+    {
+      "type": "checkbox",
+      "id": "smoothAutoPlay",
+      "default": false,
+      "label": "Smooth Auto Play"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_hide_arrow",
+      "default": false,
+      "label": "Auto hide arrow"
+    },
+    {
+      "type": "color",
+      "id": "filled_star_color",
+      "label": "Filled Star Color"
+    },
+    {
+      "type": "color",
+      "id": "empty_star_color",
+      "label": "Empty Star Color"
+    },
+    {
+      "type": "text",
+      "id": "class",
+      "label": "CSS class",
+      "info": "Add class to this section, for example: my-class-1 my-class-2"
+    },
+    {
+      "type": "textarea",
+      "id": "css",
+      "label": "Custom CSS",
+      "info": "Add custom CSS to this section"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Best Product"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial",
+          "label": "Testimonial",
+          "default": "<p>Review Text</p>"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer Name",
+          "default": "Reviewer Name"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_position",
+          "label": "Reviewer Position",
+          "default": "CEO",
+          "info": "For example: CEO"
+        },
+        {
+          "type": "image_picker",
+          "id": "reviewer_image",
+          "label": "Reviewer Image"
+        },
+        {
+          "type": "select",
+          "id": "rating",
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2" 
+            },
+            {
+              "value": "3",
+              "label": "3" 
+            },
+            {
+              "value": "4",
+              "label": "4" 
+            },
+            {
+              "value": "5",
+              "label": "5" 
+            }
+          ],
+          "default": "5",
+          "label": "Rating"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ulti Testimonial",
+      "category": "An_ultimate_section",
+      "blocks": [
+        {
+          "type": "title"
+        },
+        {
+          "type": "title"
+        },
+        {
+          "type": "title"
+        },
+        {
+          "type": "title"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
