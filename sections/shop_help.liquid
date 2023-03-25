@@ -1,0 +1,117 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<div class="shpo_space">
+    <div class="shopheap">
+        <h2 class="shophead">{{section.settings.shop_head}}</h2>
+    </div>
+    <div>
+        <div class="slideflex">
+        {% for block in section.blocks %}
+                <div class="slidebg" data-type="{{block.settings.slide_type}}" data-val="{{block.settings.slide_val}}">
+                    <h4 class="slidecontent">{{block.settings.slide_text}}<i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+                    <h2 class="slidetype">{{block.settings.slide_type}}</h2>
+                  <h2 class="slidevalue">{{block.settings.slide_val}}</h2>
+                </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "shop_help",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shop_head",
+      "label": "Heading"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "slider",
+    "name": "slider",
+    "settings": [
+       {
+    "type": "text",
+    "id": "slide_text",
+    "label": "Slider Heading"
+      }
+      , {
+    "type": "text",
+    "id": "slide_type",
+    "label": "Slider Type"
+      },
+       {
+    "type": "text",
+    "id": "slide_val",
+    "label": "Slider Value"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "shop_help"
+    }
+  ]
+}
+
+{% endschema %}
+<script>
+
+    $('.slideflex').slick({
+       speed: 500,
+        autoplaySpeed: 2000,
+      arrows: true,
+       dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+    nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+       responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 420,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+    $(document).ready(function() {
+  $('.slidebg').on('click',function(event){
+    event.preventDefault();
+var text1=$(this).attr('data-type');
+    var sliderindex=$(this).attr('data-val');
+    console.log(sliderindex)
+    // Find the checkbox element with a specific value attribute
+const checkbox = $('input[type="checkbox"][value="'+sliderindex +'"]');
+
+// Set the checkbox to checked
+checkbox.prop('checked', true);
+});
+});
+</script>

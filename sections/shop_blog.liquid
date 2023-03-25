@@ -1,0 +1,60 @@
+<div class="shpo_space">
+    <div class="shop_block">
+            {% for block in section.blocks %}
+                    <div class="shop_content">
+                       <div class="shopheadcon">
+                       <div>
+                        {%- if block.settings.delivery != blank -%}
+                           <img class="deliveryicon" src="{{  block.settings.delivery  | img_url: 'medium' }}" />
+                        {%- endif -%}
+                        </div>
+                          <h3 class="shopbhead">{{block.settings.bhead}}</h3>
+                          <p class="shopdes">{{block.settings.bdes}}</p>
+                       </div>
+                    </div>
+            {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+  "name": "shop_blog",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shop_head",
+      "label": "Heading"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "blogs",
+    "name": "blogs",
+    "limit":3,
+    "settings": [
+        { "type": "image_picker",
+          "id": "delivery",
+          "label": "Image"
+        },
+       {
+    "type": "text",
+    "id": "bhead",
+    "label": "Heading"
+      },
+      {
+        "type":"text",
+        "id":"bdes",
+        "label":"Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "shop_blog"
+    }
+  ]
+}
+
+{% endschema %}

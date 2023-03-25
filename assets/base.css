@@ -2993,3 +2993,229 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+/* cls015 */
+
+.slidecontent{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+ padding:0 15px; 
+}
+.shophead{
+font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+color: #1E1E1E;
+}
+.shopheap{
+  text-align: center;
+}
+.slideflex{
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+}
+.slidebg{
+background: #F5F8F1;
+border-radius: 24px;
+  margin:0 7px;
+}
+.shopbhead{
+  font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+text-transform: capitalize;
+color: #1E1E1E;
+      text-align: center;
+}
+.shopdes{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #1E1E1E;
+}
+.shop_block{
+  display: flex;
+  justify-content: space-between;
+      width: 80%;
+    margin: 0 auto;
+}
+.shop_content{
+  background: #F5F8F1;
+border-radius: 24px;
+width: 31.33%;
+}
+.shpo_space{
+  padding:0 5rem;
+}
+button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+  font-size:22px;
+  left: -2%;
+}
+button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    right: -2.5%;
+    top: 40%;
+    background: none;
+    border: none; 
+  font-size:22px;
+}
+.banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
+    background: transparent;
+}
+h2.banner__heading.h1 span {
+    font-family: 'Caliway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.banner__text.body span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+a.button.button--primary {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: transparent;
+   border-radius: 24px;
+    border: 1px solid #fff!important;
+    padding: 8px 60px;
+  opacity: 1;
+}
+.shopheadcon {
+    padding: 22px;
+}
+.slidevalue,.slidetype{
+  display:none;
+}
+footer.footer.color-background-1.gradient.section-sections--14899501498433__footer-padding {
+  background: #F5F8F1!important;
+}
+.banner__content .button ::after{
+border-radius: 24px;
+box-shadow: none!important;
+}
+a.button.button--primary{
+  border: 2px solid #FFFFFF!important;
+}
+.button:before ,.button:after{
+  box-shadow: unset;
+}
+img.logoicon {
+  width: 120px;
+  height: auto;
+}
+.footer-block.grid__item:last-child .logoicon{
+  display: none;
+}
+.footer-block.grid__item:first-child .footer-block__heading {
+  display: none;
+}
+i.fa.fa-long-arrow-right {
+  font-size: 23px;
+  padding-left: 50%;
+  text-align: center;
+}
+label.facet-checkbox {
+  display: flex;
+  align-items: center;
+}
+.facet-checkbox > svg{
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    border: 1px solid black;
+}
+.facet-checkbox .icon-checkmark{
+  left: 0rem!important;
+  top: 1.4rem!important;
+}
+h1.collection-hero__title {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1E1E1E;
+  text-align: center;
+}
+.product-count-vertical.light {
+  display: none;
+}
+.facets__disclosure-vertical.js-filter .spantext ,.pricetext{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color: #1E1E1E;
+}
+@media screen and (max-width: 850px) {
+  .shop_block{
+    flex-wrap: wrap;
+  }
+  .shop_content {
+    width: 46%;
+    margin: 10px auto;
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .shopdes {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .shopbhead{
+    font-size: 22px;
+  }
+  .shopheadcon {
+    padding: 15px;
+}
+}
+@media screen and (max-width: 748px) {
+  .banner__content span ,.banner__content .button {
+    color: black!important;
+} 
+.banner__content .button ::after{
+border-radius: 24px;
+}
+a.button.button--primary{
+  border: 2px solid #000!important;
+}
+}
+@media screen and (max-width: 520px) {
+  .shop_block{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .shop_content {
+    width: 98%;
+  }
+}
