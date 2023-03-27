@@ -724,51 +724,6 @@
         "padding_bottom": 0
       }
     },
-    "359ba47e-a2e3-4eaa-b116-ecec2008067d": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Build Your Pet's Meals At Home",
-            "heading_size": "h1"
-          }
-        },
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Build a better diet for your pet with veterinarian formulated recipes. Dr. Ruth Roberts guides you through, step-by-step, to make nutritionally complete meals for your pet, without the headache. Homemade meals don't have to be complicated, they can be catered to your pet's health needs, right in your own kitchen!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get The Recipes Here >>",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-1"
-          }
-        }
-      },
-      "block_order": [
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-0",
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-1",
-        "template--14539827511361__359ba47e-a2e3-4eaa-b116-ecec2008067d-1674829301eebfdf71-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/The_Original_Crockpet_Diet_recipe_ebook_2.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "cac22a88-7300-4462-83f4-0fd8b4d0af1b": {
       "type": "custom-liquid",
       "disabled": true,
@@ -779,47 +734,48 @@
         "padding_bottom": 28
       }
     },
-    "16751843409387bdf2": {
-      "type": "apps",
-      "disabled": true,
+    "40e124d8-821b-4b01-8eb8-2482449db53a": {
+      "type": "rx-product-list",
       "blocks": {
-        "f4735690-3e70-4dc7-b7ab-6bd4bb7979ad": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0": {
+          "type": "Product",
           "settings": {
-            "title": "Real Reviews from Real Customers",
-            "auto_play": true,
-            "auto_play_speed": 5,
-            "take": 30,
-            "color_title": "#2e2a39",
-            "color_star": "#ff9900",
-            "color_text": "#2e2a39",
-            "color_link": "#08708a",
-            "review_ids": "",
-            "product_ids": "",
-            "category": "",
-            "product_brand": "",
-            "tags": "",
-            "limit_words": 100,
-            "min_rating": "none",
-            "fill_empty": true,
-            "random": false,
-            "with_photos": false
+            "product_block": "the-original-crockpet-diet-membership"
           }
         },
-        "a9fdd4bc-bd73-4b67-873b-ee290a00bca3": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/top-rated\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
+          "type": "Product",
           "settings": {
-            "color_star": "#ff9900",
-            "color_link": "#08708a"
+            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
+          }
+        },
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
+          "type": "Product",
+          "settings": {
+            "product_block": "the-comprehensive-kidney-health-program-for-dogs-and-cats"
           }
         }
       },
       "block_order": [
-        "f4735690-3e70-4dc7-b7ab-6bd4bb7979ad",
-        "a9fdd4bc-bd73-4b67-873b-ee290a00bca3"
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2"
       ],
       "settings": {
-        "include_margins": true
+        "title_font": "assistant_n4",
+        "title_font_size": 40,
+        "font": "assistant_n4",
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "90%",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": ""
       }
     },
     "42a0c8a2-518d-4af7-81cd-2253cf91765e": {
@@ -911,6 +867,71 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "c07243a3-5fee-499e-a09b-241b56f0595c": {
+      "type": "rx-testimonial",
+      "blocks": {
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-0": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor",
+            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
+            "reviewer_name": "John Doe",
+            "rating": "4"
+          }
+        },
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-1": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor",
+            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
+            "reviewer_name": "Jane Doe",
+            "rating": "5"
+          }
+        },
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-2": {
+          "type": "title",
+          "settings": {
+            "title": "Awesome!",
+            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
+            "reviewer_name": "John Doe",
+            "rating": "5"
+          }
+        },
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-3": {
+          "type": "title",
+          "settings": {
+            "title": "This is great!",
+            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
+            "reviewer_name": "Jane Doe",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-0",
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-1",
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-2",
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-3"
+      ],
+      "settings": {
+        "title": "Our Happy Clients Say",
+        "title_font": "harmonia_sans_n6",
+        "title_font_size": 40,
+        "font": "assistant_n4",
+        "desktopColumns": "2",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "70%",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": true,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#f5f8f1",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "#184b44",
+        "empty_star_color": ""
       }
     },
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c": {
@@ -1034,11 +1055,11 @@
     "17e2e5c9-26ec-4471-a4b5-63d458001b3e",
     "834798fa-67f8-45d9-bed3-95764eb1bdf4",
     "rich-text",
-    "359ba47e-a2e3-4eaa-b116-ecec2008067d",
     "cac22a88-7300-4462-83f4-0fd8b4d0af1b",
-    "16751843409387bdf2",
+    "40e124d8-821b-4b01-8eb8-2482449db53a",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
+    "c07243a3-5fee-499e-a09b-241b56f0595c",
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c",
     "1d7acd25-827c-4f3c-8845-e495b1105759",
     "a22eed67-71d2-4d24-9266-adb3dc0550e6"
