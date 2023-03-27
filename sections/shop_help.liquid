@@ -10,7 +10,7 @@
         <div class="slideflex">
         {% for block in section.blocks %}
                 <div class="slidebg" data-type="{{block.settings.slide_type}}" data-val="{{block.settings.slide_val}}">
-                    <h4 class="slidecontent">{{block.settings.slide_text}}<i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+                       <h4 class="slidecontent">{{block.settings.slide_text}}{% render 'email-arrow' %}</h4>
                     <h2 class="slidetype">{{block.settings.slide_type}}</h2>
                   <h2 class="slidevalue">{{block.settings.slide_val}}</h2>
                 </div>
@@ -85,14 +85,14 @@
       }
     },
     {
-      breakpoint: 540,
+      breakpoint: 620,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
       }
     },
     {
-      breakpoint: 420,
+      breakpoint: 520,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

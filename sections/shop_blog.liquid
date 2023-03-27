@@ -8,8 +8,10 @@
                            <img class="deliveryicon" src="{{  block.settings.delivery  | img_url: 'medium' }}" />
                         {%- endif -%}
                         </div>
-                          <h3 class="shopbhead">{{block.settings.bhead}}</h3>
-                          <p class="shopdes">{{block.settings.bdes}}</p>
+                          <div class=" shop-pos">
+                              <h3 class="shopbhead">{{block.settings.bhead}}</h3>
+                              <p class="shopdes">{{block.settings.bdes}}</p>
+                          </div>
                        </div>
                     </div>
             {% endfor %}
