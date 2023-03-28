@@ -27,6 +27,14 @@
     text-decoration: none;
   }
 
+  .rx-product-description .rx-product-title {
+    color: {{section.settings.title_color}}
+  }
+
+  .rx-product-description .rx-product-price {
+    color: {{section.settings.price_color}}
+  }
+
   @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
     #shopify-section-{{ section.id }} .rx-wrapper {
       max-width: {{ section.settings.tabletMaxWidth }};
@@ -58,21 +66,11 @@
     }
   }
 
-  {%- if section.settings.empty_star_color != blank -%}
-  #shopify-section-{{ section.id }} .rx-product-list-rating .rx-product-list-item-star-list--empty .rx-product-list-item-star-icon svg {
-    fill: {{ section.settings.empty_star_color }};
-  }
-  {% endif %}
-
-  {%- if section.settings.filled_star_color != blank -%}
-  #shopify-section-{{ section.id }} .rx-product-list-rating .rx-product-list-item-star-list--filled .rx-product-list-item-star-icon svg {
-    fill: {{ section.settings.filled_star_color }};
-  }
-  {% endif %}
+  
 </style>
 
 <div class="rx-product-list-container">
-  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-product-list rx-product-list-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1"{% if section.settings.autoPlay %} data-auto-play="true"{% if section.settings.smoothAutoPlay %} data-smooth-auto-play="true"{% endif %}{% endif %}>
+  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-product-list rx-product-list-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1"{% if section.settings.autoPlay %} data-auto-play="true"{% endif %}>
 
     <div class="rx-product-list-list-container">
       <div class="rx-slider-list rx-product-list-list">
@@ -90,8 +88,12 @@
                   {{ 'product-5' | placeholder_svg_tag }}
                 {%- endif -%}
                 
+                <div class="rx-thinkific-circle">
+                  <p>THINKFIC</p>
+                </div>
+
                 <div class="rx-product-description">
-                  <div>
+                  <div class="rx-product-title">
                     {% if block.settings.product_block.title %}
                       {{ block.settings.product_block.title }}
                     {% else %}
@@ -99,7 +101,7 @@
                     {% endif %}
                   </div>
                   
-                  <div>
+                  <div class="rx-product-price">
                     {% if block.settings.product_block.price %}
                       {{ cart.currency.symbol }} {{ block.settings.product_block.price }}
                     {% else %}
@@ -219,12 +221,6 @@
     },
     {
       "type": "checkbox",
-      "id": "smoothAutoPlay",
-      "default": false,
-      "label": "Smooth Auto Play"
-    },
-    {
-      "type": "checkbox",
       "id": "auto_hide_arrow",
       "default": false,
       "label": "Auto hide arrow"
@@ -237,13 +233,15 @@
     },
     {
       "type": "color",
-      "id": "filled_star_color",
-      "label": "Filled Star Color"
+      "id": "title_color",
+      "default": "#000",
+      "label": "Title Color"
     },
     {
       "type": "color",
-      "id": "empty_star_color",
-      "label": "Empty Star Color"
+      "id": "price_color",
+      "default": "#000",
+      "label": "Price Color"
     }
   ],
   "blocks": [

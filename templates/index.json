@@ -771,11 +771,10 @@
         "tabletMaxWidth": "100%",
         "mobileMaxWidth": "100%",
         "autoPlay": false,
-        "smoothAutoPlay": false,
         "auto_hide_arrow": false,
         "container_bgcolor": "#ffffff",
-        "filled_star_color": "",
-        "empty_star_color": ""
+        "title_color": "#1e1e1e",
+        "price_color": "#184b44"
       }
     },
     "42a0c8a2-518d-4af7-81cd-2253cf91765e": {
