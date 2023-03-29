@@ -9,6 +9,8 @@
 .rx-product-list-item-inner img {
   border-radius: 16px;
   margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .rx-thinkific-circle {

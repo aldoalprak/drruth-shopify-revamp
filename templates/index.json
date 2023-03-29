@@ -418,7 +418,7 @@
         "imgText-bg-color": "#f5f8f1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 88
       }
     },
     "fe69d8d2-7a41-4da1-9758-1429c56db22d": {
@@ -767,7 +767,7 @@
         "font": "assistant_n4",
         "desktopColumns": "3",
         "tabletColumns": "2",
-        "desktopMaxWidth": "90%",
+        "desktopMaxWidth": "80%",
         "tabletMaxWidth": "100%",
         "mobileMaxWidth": "100%",
         "autoPlay": false,
