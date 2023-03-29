@@ -1,7 +1,6 @@
 {% include 'rx-testimonial-settings' %}
 
-{{ 'rx-product-list.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'rx-product-list.js' | asset_url }}" defer="defer"></script>
+{{ 'rx-podcast-list.css' | asset_url | stylesheet_tag }}
 
 <style>
   {{ section.settings.title_font | font_face }}
@@ -12,14 +11,14 @@
     max-width: {{ section.settings.desktopMaxWidth }};
   }
 
-  .rx-product-list-container {
+  .rx-podcast-list-container {
     padding-top: 5px;
     padding-bottom: 50px;
     background-color: {{section.settings.container_bgcolor}};
   }
 
 
-  .rx-product-list-item-testimonial {
+  .rx-podcast-list-item-testimonial {
     text-align: left;
   }
 
@@ -31,7 +30,7 @@
     color: {{section.settings.title_color}}
   }
 
-  .rx-product-description .rx-product-price {
+  .rx-product-description .rx-published-date {
     color: {{section.settings.price_color}}
   }
 
@@ -69,50 +68,52 @@
   
 </style>
 
-<div class="rx-product-list-container">
-  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-product-list rx-product-list-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1"{% if section.settings.autoPlay %} data-auto-play="true"{% endif %}>
+<div class="rx-podcast-list-container">
+  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-podcast-list rx-podcast-list-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1">
 
-    <div class="rx-product-list-list-container">
-      <div class="rx-slider-list rx-product-list-list">
+    <div class="rx-podcast-list-list-container">
+      <div class="rx-slider-list rx-podcast-list-list">
         {%- for block in section.blocks -%}
-          <div class="rx-slider-item rx-product-list-item" {{ block.shopify_attributes }}>
+          <div class="rx-slider-item rx-podcast-list-item" {{ block.shopify_attributes }}>
             {% capture slide_content %}
-              <div class="rx-product-list-item-inner">   
-                {%- if block.settings.product_block.featured_image -%}
-                  {{
+              <div class="rx-podcast-list-item-inner">   
+                {%- if block.settings.image -%}
+                  {% comment %} {{
                     block.settings.product_block.featured_image
-                    | image_url: width: 300, height: 300
+                    | image_url: width: 338, height: 190
                     | image_tag: loading: 'lazy', class: 'cover-image', alt: block.settings.product_block.title
-                  }}
+                  }} {% endcomment %}
+                  <img 
+                    src="{{block.settings.image | image_url: width: 338, height: 190}}"
+                    sizes="100%"
+                    loading="lazy"
+                  >
                 {%- else -%}
                   {{ 'product-5' | placeholder_svg_tag }}
                 {%- endif -%}
                 
-                <div class="rx-thinkific-circle">
-                  <p>THINKFIC</p>
-                </div>
 
                 <div class="rx-product-description">
                   <div class="rx-product-title">
-                    {% if block.settings.product_block.title %}
-                      {{ block.settings.product_block.title }}
+                    {% if block.settings.podcast_title %}
+                      {{ block.settings.podcast_title }}
                     {% else %}
-                      Product Title
+                      Podcast Title
                     {% endif %}
                   </div>
                   
-                  <div class="rx-product-price">
-                    {% if block.settings.product_block.price %}
-                      {{ cart.currency.symbol }} {{ block.settings.product_block.price }}
+                  <div class="rx-published-date">
+                    {% if block.settings.published_date %}
+                      {{ block.settings.published_date }}
                     {% else %}
-                      Price
+                      Published Date
                     {% endif %}
                   </div>
                 </div>
               </div>
             {% endcapture%}
-            {% if block.settings.product_block  .url != blank %}
-              <a class="slider-links" href="{{block.settings.product_block.url}}">
+            {% if block.settings.podcast_url != blank %}
+              <a class="slider-links" href="{{block.settings.podcast_url}}" target="_blank">
                 {{ slide_content }}
               </a>
             {% else %}
@@ -127,7 +128,7 @@
 
 {% schema %}
 {
-  "name": "RX-Products-List",
+  "name": "RX-Podcast",
   "tag": "section",
   "settings": [
     {
@@ -169,7 +170,7 @@
           "label": "3"
         }
       ],
-      "default": "2",
+      "default": "3",
       "label": "Columns on desktop"
     },
     {
@@ -215,12 +216,6 @@
     },
     {
       "type": "checkbox",
-      "id": "autoPlay",
-      "default": false,
-      "label": "Auto Play"
-    },
-    {
-      "type": "checkbox",
       "id": "auto_hide_arrow",
       "default": false,
       "label": "Auto hide arrow"
@@ -246,29 +241,47 @@
   ],
   "blocks": [
     {
-      "type": "Product",
-      "name": "Product Item",
+      "type": "Podcast",
+      "name": "Podcast Item",
       "settings": [
         {
-          "type": "product",
-          "id": "product_block",
-          "label": "Product"
+          "type": "image_picker",
+          "id": "image",
+          "label": "Upload image",
+          "info": "Tips: use 338px x 190px image size"
+        },
+        {
+          "type": "text",
+          "id": "podcast_title",
+          "label": "Title",
+          "default": "Podcast Title"
+        },
+        {
+          "type": "text",
+          "id": "published_date",
+          "label": "Published Date",
+          "default": "Published Date"
+        },
+        {
+          "type": "text",
+          "id": "podcast_url",
+          "label": "Podcast URL"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "RX-Products-List",
+      "name": "RX-Podcast",
       "blocks": [
         {
-          "type": "Product"
+          "type": "Podcast"
         },
         {
-          "type": "Product"
+          "type": "Podcast"
         },
         {
-          "type": "Product"
+          "type": "Podcast"
         }
       ]
     }
