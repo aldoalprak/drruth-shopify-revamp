@@ -686,7 +686,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "section_bg_color": "#fff",
+        "section_bg_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -737,7 +737,6 @@
         "desktopMaxWidth": "100%",
         "tabletMaxWidth": "100%",
         "mobileMaxWidth": "100%",
-        "autoPlay": false,
         "auto_hide_arrow": false,
         "container_bgcolor": "#ffffff",
         "title_color": "#000000",
