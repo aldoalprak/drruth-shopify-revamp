@@ -62,7 +62,7 @@
 
 {% endschema %}
 <script>
-
+$(document).ready(function() {
     $('.slideflex').slick({
        speed: 500,
         autoplaySpeed: 2000,
@@ -101,17 +101,25 @@
    
   ]
   });
-    $(document).ready(function() {
-  $('.slidebg').on('click',function(event){
+    
+    $('.slidebg').on('click',function(event){
     event.preventDefault();
-var text1=$(this).attr('data-type');
+    var text1=$(this).attr('data-type');
     var sliderindex=$(this).attr('data-val');
-    console.log(sliderindex)
-    // Find the checkbox element with a specific value attribute
-const checkbox = $('input[type="checkbox"][value="'+sliderindex +'"]');
-
-// Set the checkbox to checked
-checkbox.prop('checked', true);
+    const checkbox = $('input[type="checkbox"][value="'+sliderindex +'"]');
+    checkbox.prop('checked', true);
+    });
+  $(".slidebg").click(function() {
+       var text1=$(this).attr('data-type');
+      $(".facets__disclosure-vertical").each(function(){
+        var thisObbj = this;
+        if($(this).attr('pro-id') == text1){
+              $('html,body').animate({scrollTop: $("#"+$(this).attr("id")).offset().top},'slow'); 
+        }
+    
 });
+     
+      
+  });
 });
 </script>

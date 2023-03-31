@@ -3043,6 +3043,7 @@ color: #1E1E1E;
 background: #F5F8F1;
 border-radius: 24px;
   margin:0 7px;
+  cursor: pointer;
 }
 .shopbhead{
   font-family: 'BLT-Heirloom';
@@ -3257,6 +3258,7 @@ element.style {
 }
 .slidecontent svg{
   margin-left: 25%;
+  cursor:pointer;
 }
 img.deliveryicon {
   opacity: 0;
