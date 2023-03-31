@@ -3009,3 +3009,15 @@ details-disclosure > details {
   src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Caliway.woff?v=1679906015") format("woff"),
   url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/MiConv.com__Caliway.woff2?v=1679906015")format("woff2");
 }
+
+.header__inline-menu {
+  font-family: "Josefin Sans";
+  font-size: 11px;
+  color: #1E1E1E;
+  margin: 0;
+}
+
+.header__inline-menu  a {
+  font-size: 11px;
+  margin-right: 3px;
+}

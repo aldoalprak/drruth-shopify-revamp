@@ -27,8 +27,32 @@
     font-family: "BLT-Heirloom";
     font-weight: 300;
     font-size: 30px;
+    color: #1E1E1E;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .rx-img-with-text__content {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 30px;
+  }
+
+  .rx-img-with-text__btn {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+    box-sizing: border-box;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 7px 50px;
+    border-color: #184B44;
+    text-align: left;
   }
 
   @media screen and (min-width: 750px) {
@@ -75,30 +99,25 @@
               <p class="rx-img-with-text__heading" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
               </p>
-            {%- when 'caption' -%}
-              <p
-                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
-                {{ block.shopify_attributes }}
-              >
-                {{ block.settings.caption | escape }}
-              </p>
+            
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="rx-img-with-text__content">
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
-                <a
-                  {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label | escape }}
-                </a>
+                <div class="rx-img-with-text__btn" >
+                  <a
+                    {% if block.settings.button_link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link }}"
+                    {% endif %}
+                              
+                  >
+                    {{ block.settings.button_label | escape }}
+                  </a>
+              </div>
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
@@ -331,55 +350,6 @@
           "id": "heading",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-        }
-      ]
-    },
-    {
-      "type": "caption",
-      "name": "t:sections.image-with-text.blocks.caption.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "caption",
-          "default": "Add a tagline",
-          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "subtitle",
-              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
-            },
-            {
-              "value": "caption-with-letter-spacing",
-              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
-            }
-          ],
-          "default": "caption-with-letter-spacing",
-          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
-        },
-        {
-          "type": "select",
-          "id": "text_size",
-          "options": [
-            {
-              "value": "small",
-              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
-            },
-            {
-              "value": "medium",
-              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
-            },
-            {
-              "value": "large",
-              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
-            }
-          ],
-          "default": "medium",
-          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
         }
       ]
     },

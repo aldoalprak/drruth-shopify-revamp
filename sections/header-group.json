@@ -9,6 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "New! Shop MycoDog Mushrooms For Your Dog",
+            "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": "https:\/\/shop.drruthroberts.com\/collections\/mycodog-mushrooms-for-dogs"
           }
@@ -18,6 +19,7 @@
           "disabled": true,
           "settings": {
             "text": "",
+            "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": ""
           }
@@ -27,6 +29,7 @@
           "disabled": true,
           "settings": {
             "text": "Welcome to our store",
+            "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": ""
           }
@@ -45,10 +48,14 @@
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "main-menu-revamp",
         "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "margin_bottom": 0
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
