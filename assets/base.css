@@ -2993,3 +2993,95 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* coaching page start */
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff2?v=1679905146")format("woff2");
+}
+@font-face {
+  font-family: "BLT-Heirloom";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff?v=1679906015") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff2?v=1679906015")format("woff2");
+}
+@font-face {
+  font-family: "Caliway";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Caliway.woff?v=1679906015") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/MiConv.com__Caliway.woff2?v=1679906015")format("woff2");
+}
+.cblogtext{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3C4467;
+  text-align: center;
+}
+.blogdes{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #3C4467;
+padding: 0 2%;
+
+}
+.cmax_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.c_flex ,.benefit_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexwidth {
+  width: 23%;
+}
+h2.bhead {
+  font-family: 'Corinthia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 54px;
+  color: #49AF78;
+}
+p.bdes {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #131620;
+}
+.benefitblog {
+  width: 33%;
+  background: #F5F8F1;
+  border-radius: 25px;
+  padding: 3%;
+}
+h3.benefithead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+p.benefitdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #3C4467;
+}
+/* coaching page end */
