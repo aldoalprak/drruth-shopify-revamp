@@ -8,7 +8,7 @@
 
     #rx-{{ section.id }} .container {
       margin: auto;
-      max-width: 90rem;
+      max-width: 100rem;
     }
 
     #rx-{{ section.id }} .box {
@@ -26,18 +26,19 @@
       height: 90px;
       display: flex;
       text-decoration: none;
-      width: 90%;
+      width: 84%;
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       background-color: {{ section.settings.card_color }};
       color: {{ section.settings.text_color }};
       border-radius: 24px;
       margin: auto;
+      padding: 12px;
     }
 
     #rx-{{ section.id }} #rx-col-icon,
     #rx-{{ section.id }} svg {
-      width: 50px;
-      height: 50px;
+      width: 48px;
+      height: 49px;
       margin: auto 20px;
     }
 
@@ -45,13 +46,23 @@
     #rx-{{ section.id }} .collection-2-name-box {
       display: flex;
       align-items: center;
+      width: 248px;
+    }
+
+    #rx-{{ section.id }} .collection-2-name-box p {
+      font-family: "Josefin Sans";
+      font-weight: 500;
+      font-size: 18px;
+      color: #1E1E1E;
+      line-height: 20px;
     }
 
     #rx-{{ section.id }} #rx-arrow-btn {
-      width: 30px;
-      height: 5px;
-      margin: auto;
+      width: 49px;
+      height: 7px;
+      margin: auto 5px;
     }
+
 
     .rx-row:after {
       content: "";
@@ -96,12 +107,13 @@
             {%- endif -%}
 
             <div class="collection-2-name-box">
-              <{{ section.settings.heading_tag }}>
+              <p>
                 {{ block.settings.collection_title }}
-              </{{ section.settings.heading_tag }}>
+              </p>
             </div>
-            
+        
             <img id="rx-arrow-btn" src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Arrow_2.png?v=1679486420">
+           
           </a>
         </div>
       {%- endfor -%}
@@ -118,49 +130,6 @@
     {
       "type": "header",
       "content": "Main settings"
-    },
-    {
-      "type": "select",
-      "id": "heading_tag",
-      "label": "Heading tag",
-      "options": [
-        {
-          "value": "h2",
-          "label": "H2"
-        },
-        {
-          "value": "h3",
-          "label": "H3"
-        },
-        {
-          "value": "h4",
-          "label": "H4"
-        },
-        {
-          "value": "h5",
-          "label": "H5"
-        },
-        {
-          "value": "h6",
-          "label": "H6"
-        },
-        {
-          "value": "div",
-          "label": "Div"
-        }
-      ],
-      "default": "h5",
-      "info": "Title font size"
-    },
-    {
-      "type": "range",
-      "id": "position",
-      "min": -50,
-      "max": 50,
-      "step": 1,
-      "unit": "px",
-      "label": "Image position",
-      "default": -20
     },
     {
       "type": "color",

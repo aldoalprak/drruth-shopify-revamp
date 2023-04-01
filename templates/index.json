@@ -50,8 +50,7 @@
         "template--14898486050881__519a28f3-c4ef-4319-9853-c8d825c82db3-1679459498aff81436-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Natural Products<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Natural Products<\/p>"
           }
         },
         "template--14898486050881__519a28f3-c4ef-4319-9853-c8d825c82db3-1679459498aff81436-1": {
@@ -70,8 +69,8 @@
         "content_alignment": "center",
         "section_bg_color": "#f5f8f1",
         "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 40
+        "padding_top": 40,
+        "padding_bottom": 12
       }
     },
     "b4714d06-abcd-4096-947f-125116149229": {
@@ -94,7 +93,7 @@
           "settings": {
             "feature_title": "Formulated for pets",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector.png",
+            "feature_image": "shopify:\/\/shop_images\/formulated.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
@@ -106,7 +105,7 @@
           "settings": {
             "feature_title": "Ingredient transparency",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector.png",
+            "feature_image": "shopify:\/\/shop_images\/Vector_4.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
@@ -118,7 +117,7 @@
           "settings": {
             "feature_title": "Pet-parent approved",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector.png",
+            "feature_image": "shopify:\/\/shop_images\/Vector_8.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
@@ -130,7 +129,7 @@
           "settings": {
             "feature_title": "Responsible partners",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector.png",
+            "feature_image": "shopify:\/\/shop_images\/Vector_5.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
@@ -142,7 +141,7 @@
           "settings": {
             "feature_title": "Standard Process approved supplier",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector.png",
+            "feature_image": "shopify:\/\/shop_images\/Vector_7.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
@@ -169,28 +168,27 @@
         "section_bg_color": "#f5f8f1",
         "row_on_mobile": false,
         "max_container_width": "120rem",
-        "padding_top": 24,
+        "padding_top": 12,
         "padding_bottom": 28
       }
     },
-    "758f368b-ad09-44e1-8598-f3777c02075b": {
-      "type": "rich-text",
+    "914ef044-a3b1-4773-91ae-f1b36874354b": {
+      "type": "rx-rich-text",
       "blocks": {
-        "template--14898486050881__758f368b-ad09-44e1-8598-f3777c02075b-16794623161675a67b-0": {
+        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Store<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Our Store<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14898486050881__758f368b-ad09-44e1-8598-f3777c02075b-16794623161675a67b-0"
+        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "section_bg_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -249,8 +247,7 @@
         "5c2b799d-6baf-49d2-9c59-ef0c6b2dcc6e": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Shop<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Our Shop<\/p>"
           }
         },
         "c4c36141-1f4e-4acb-bb64-f70c7da21b48": {
@@ -281,23 +278,7 @@
           "settings": {
             "collection": "post-surgical-care-collection",
             "collection_title": "Shop Post-Surgery Support",
-            "image": "shopify:\/\/shop_images\/Group.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1": {
-          "type": "Collection",
-          "settings": {
-            "collection": "immunity",
-            "collection_title": "Shop Daily Immune Support",
-            "image": "shopify:\/\/shop_images\/Group.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2": {
-          "type": "Collection",
-          "settings": {
-            "collection": "supplements-for-senior-dog",
-            "collection_title": "Shop Senior Care Support",
-            "image": "shopify:\/\/shop_images\/Group.png"
+            "image": "shopify:\/\/shop_images\/Frame_1.png"
           }
         },
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-3": {
@@ -305,7 +286,15 @@
           "settings": {
             "collection": "joint-pain-mobility",
             "collection_title": "Shop Pain Management & Joint Support",
-            "image": "shopify:\/\/shop_images\/Group.png"
+            "image": "shopify:\/\/shop_images\/Frame_4.png"
+          }
+        },
+        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1": {
+          "type": "Collection",
+          "settings": {
+            "collection": "immunity",
+            "collection_title": "Shop Daily Immune Support",
+            "image": "shopify:\/\/shop_images\/Frame_2.png"
           }
         },
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-4": {
@@ -313,7 +302,15 @@
           "settings": {
             "collection": "new-pet-care",
             "collection_title": "Shop New Pet Starter Kits",
-            "image": "shopify:\/\/shop_images\/Group.png"
+            "image": "shopify:\/\/shop_images\/Group_1.png"
+          }
+        },
+        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2": {
+          "type": "Collection",
+          "settings": {
+            "collection": "supplements-for-senior-dog",
+            "collection_title": "Shop Senior Care Support",
+            "image": "shopify:\/\/shop_images\/Frame_3.png"
           }
         },
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-5": {
@@ -321,21 +318,19 @@
           "settings": {
             "collection": "allergies",
             "collection_title": "Shop Itchy Pet & Allergy Products",
-            "image": "shopify:\/\/shop_images\/Group.png"
+            "image": "shopify:\/\/shop_images\/Frame_5.png"
           }
         }
       },
       "block_order": [
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-0",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2",
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-3",
+        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1",
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-4",
+        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2",
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-5"
       ],
       "settings": {
-        "heading_tag": "h6",
-        "position": -20,
         "background_color": "rgba(0,0,0,0)",
         "card_color": "#f5f8f1",
         "text_color": "#000000",
@@ -623,8 +618,7 @@
         "template--14898486050881__35a9f240-35c6-4509-b3d7-77ac0c08d41c-1679662670bc156e16-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Blogs<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Our Blogs<\/p>"
           }
         },
         "d3ea151d-ed27-4901-9e22-3897a246a581": {
@@ -672,8 +666,7 @@
         "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Podcast<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Our Podcast<\/p>"
           }
         }
       },
@@ -799,7 +792,7 @@
     "745fe7da-4576-486b-b400-3c9f3079872e",
     "519a28f3-c4ef-4319-9853-c8d825c82db3",
     "b4714d06-abcd-4096-947f-125116149229",
-    "758f368b-ad09-44e1-8598-f3777c02075b",
+    "914ef044-a3b1-4773-91ae-f1b36874354b",
     "16751816500272c7d1",
     "657d84fe-a7d4-4a71-870c-da064e537889",
     "0816fc52-33ac-4b35-81ac-4c842628750a",

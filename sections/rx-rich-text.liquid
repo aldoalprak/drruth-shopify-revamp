@@ -11,6 +11,25 @@
     background-color: {{ section.settings.section_bg_color }};
   }
 
+  .rx_rich-text__heading {
+    font-family: "Oakley Script";
+    font-weight: 400;
+    color: #184B44;
+    font-size: 64px;
+  }
+
+  .rx_rich-text__text {
+    margin:0;
+    font-family: "BLT-Heirloom";
+    font-weight: 300;
+    color: #1E1E1E;
+    font-size: 30px;
+  }
+
+  .rx_rich-text__text p {
+    margin:0;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -27,7 +46,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="rx_rich-text__heading" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | replace: 'p>', 'span>' }}
               </h2>
             {%- when 'caption' -%}
@@ -38,7 +57,7 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
+              <div class="rx_rich-text__text" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
@@ -176,30 +195,6 @@
           "id": "heading",
           "default": "<p>Talk about your brand</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            },
-            {
-              "value": "hxl",
-              "label": "t:sections.all.heading_size.options__4.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
         }
       ]
     },
