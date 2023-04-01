@@ -462,25 +462,20 @@
         "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Become A Holistic Pet Health Coach",
-            "heading_size": "h2"
+            "heading": "Become A Holistic Pet Health Coach"
           }
         },
         "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-1": {
           "type": "text",
           "settings": {
-            "text": "Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life",
-            "text_style": "body"
+            "text": "Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life"
           }
         },
         "template--14898486050881__42a0c8a2-518d-4af7-81cd-2253cf91765e-1679661306817b050b-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "LEARN MORE",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": ""
+            "button_link_1": ""
           }
         }
       },
@@ -546,6 +541,28 @@
         "padding_bottom": 40
       }
     },
+    "41def7a6-c370-4591-a416-a22b442ac6d4": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486050881__41def7a6-c370-4591-a416-a22b442ac6d4-1680361175b29958ce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our happy clients say<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__41def7a6-c370-4591-a416-a22b442ac6d4-1680361175b29958ce-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "section_bg_color": "#f5f8f1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 4
+      }
+    },
     "c07243a3-5fee-499e-a09b-241b56f0595c": {
       "type": "rx-testimonial",
       "blocks": {
@@ -593,14 +610,10 @@
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-3"
       ],
       "settings": {
-        "title": "Our Happy Clients Say",
-        "title_font": "harmonia_sans_n6",
-        "title_font_size": 40,
-        "font": "assistant_n4",
         "desktopColumns": "2",
         "tabletColumns": "2",
-        "desktopMaxWidth": "70%",
-        "tabletMaxWidth": "100%",
+        "desktopMaxWidth": "1100px",
+        "tabletMaxWidth": "1100px",
         "mobileMaxWidth": "100%",
         "autoPlay": true,
         "smoothAutoPlay": false,
@@ -738,32 +751,26 @@
         "273f2ad7-1d0c-4f2b-86a1-64a99e0d6315": {
           "type": "heading",
           "settings": {
-            "heading": "Want to take care of your pet to the next level ?",
-            "heading_size": "h2"
+            "heading": "Want to take care of your pet to the next level ?"
           }
         },
         "6085d0d3-71f3-4366-984a-a5310a2b767b": {
           "type": "text",
           "settings": {
-            "text": "Pet care has never been easier.",
-            "text_style": "body"
+            "text": "Pet care has never been easier."
           }
         },
         "58c0ab15-5522-4246-a61a-904c858c8e90": {
           "type": "text",
           "settings": {
-            "text": "Book a consultation with one of our holistic pet health coaches",
-            "text_style": "body"
+            "text": "Book a consultation with one of our holistic pet health coaches"
           }
         },
         "6b48371e-cc6c-4dd7-8e0c-ddc176e616fc": {
           "type": "buttons",
           "settings": {
             "button_label_1": "BOOK CONSULTATION",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": ""
+            "button_link_1": ""
           }
         }
       },
@@ -801,6 +808,7 @@
     "40e124d8-821b-4b01-8eb8-2482449db53a",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
+    "41def7a6-c370-4591-a416-a22b442ac6d4",
     "c07243a3-5fee-499e-a09b-241b56f0595c",
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c",
     "1d7acd25-827c-4f3c-8845-e495b1105759",
