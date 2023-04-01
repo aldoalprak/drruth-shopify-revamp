@@ -340,17 +340,16 @@
         "section_padding_bottom_mobile": 50
       }
     },
-    "473d2ac4-6d82-4eb8-880a-20b12ad37a63": {
-      "type": "rich-text",
+    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56": {
+      "type": "rx-rich-text",
       "blocks": {
-        "template--14898486050881__473d2ac4-6d82-4eb8-880a-20b12ad37a63-16794959753fa8fee4-0": {
+        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Courses<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Our Courses<\/p>"
           }
         },
-        "template--14898486050881__473d2ac4-6d82-4eb8-880a-20b12ad37a63-16794959753fa8fee4-1": {
+        "db509ab9-94ab-4abd-94b9-baa7751b5546": {
           "type": "text",
           "settings": {
             "text": "<p>The right holistic path to healing and caring for your pet.<\/p>"
@@ -358,16 +357,16 @@
         }
       },
       "block_order": [
-        "template--14898486050881__473d2ac4-6d82-4eb8-880a-20b12ad37a63-16794959753fa8fee4-0",
-        "template--14898486050881__473d2ac4-6d82-4eb8-880a-20b12ad37a63-16794959753fa8fee4-1"
+        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0",
+        "db509ab9-94ab-4abd-94b9-baa7751b5546"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 20
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d": {
@@ -447,8 +446,8 @@
         "font": "assistant_n4",
         "desktopColumns": "3",
         "tabletColumns": "2",
-        "desktopMaxWidth": "80%",
-        "tabletMaxWidth": "100%",
+        "desktopMaxWidth": "1100px",
+        "tabletMaxWidth": "1100px",
         "mobileMaxWidth": "100%",
         "autoPlay": false,
         "auto_hide_arrow": false,
@@ -797,7 +796,7 @@
     "657d84fe-a7d4-4a71-870c-da064e537889",
     "0816fc52-33ac-4b35-81ac-4c842628750a",
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
-    "473d2ac4-6d82-4eb8-880a-20b12ad37a63",
+    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
     "40e124d8-821b-4b01-8eb8-2482449db53a",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
