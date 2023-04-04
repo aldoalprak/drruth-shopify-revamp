@@ -127,22 +127,7 @@
               {{ article.title | truncate: 50 | escape }}
             </a>
           </h3>
-          {%- if show_excerpt -%}
-            {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-              <p class="article-card__excerpt rte-width">
-                {%- if article.excerpt.size > 0 -%}
-                  {{ article.excerpt | strip_html | truncatewords: 30 }}
-                {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 30 }}
-                {%- endif -%}
-              </p>
-            {%- endif -%}
-            <div class="article-card__footer">
-              {%- if article.comments_count > 0 and blog.comments_enabled? -%}
-                <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
+          
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
@@ -153,10 +138,15 @@
       <div class="rx_read_more">
         <a
           href="{{ article.url }}"
-          class="blog__button button"
+          class="rx_read_more_btn_green"
         >
           READ MORE
+          <img 
+            id="rx_read_more_arrow_black"
+            src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
+          >
         </a>
+
       </div>
     </div>
     

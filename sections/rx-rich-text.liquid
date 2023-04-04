@@ -72,9 +72,13 @@
                     {% else %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                    class="rx_read_more_btn_green"
                   >
                     {{- block.settings.button_label | escape -}}
+                    <img 
+                      id="rx_read_more_arrow_black"
+                      src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
+                    >
                   </a>
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}

@@ -110,7 +110,7 @@
                   
                   <div class="rx-product-price">
                     {% if block.settings.product_block.price %}
-                      {{ cart.currency.symbol }} {{ block.settings.product_block.price }}
+                      <span style="text-decoration: line-through">{{ block.settings.product_block.compare_at_price | money}}</span> {{ block.settings.product_block.price | money}}
                     {% else %}
                       Price
                     {% endif %}

@@ -34,7 +34,7 @@
 
 .rx-product-list-item-inner .rx-product-description {
   text-align: left;
-  transform: translateY(-20%);
+  transform: translateY(-30%);
 }
 
 .rx-product-list-style1 .rx-product-list-item .rx-product-list-item-image img{display:inline-block;border-radius:50%;max-width:100px;height:auto}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating{display:inline-block;position:relative;margin-top:10px;width:110px;height:22px}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating svg{display:block;width:96%;height:96%}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating .rx-product-list-item-star-list{display:grid;grid-template-columns:repeat(5, 22px);position:absolute;top:0;left:0}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating .rx-product-list-item-star-list--empty .rx-product-list-item-star-icon{display:flex;align-items:center;justify-content:center}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating .rx-product-list-item-star-list--empty .rx-product-list-item-star-icon svg{fill:#d2d5d9}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating .rx-product-list-item-star-list--filled{overflow:hidden}.rx-product-list-style1 .rx-product-list-item .rx-product-list-rating .rx-product-list-item-star-list--filled svg{fill:#f4af28}.rx-product-list-style1 .rx-product-list-item .rx-product-list-item-title{margin-top:5px;font-weight:700}.rx-product-list-style1 .rx-product-list-item 

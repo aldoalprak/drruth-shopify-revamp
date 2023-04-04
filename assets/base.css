@@ -2993,7 +2993,8 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
-/* custom font */
+
+/* custom font by developer */
 @font-face {
   font-family: "Josefin Sans";
   src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
@@ -3027,3 +3028,37 @@ details-disclosure > details {
   margin-right: 3px;
   color: #1E1E1E;
 }
+
+.rx_read_more_btn_green {
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1E1E1E;
+  box-sizing: border-box;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  border-color: #184B44;
+  padding: 12px 20px;
+  letter-spacing: 0.2em;
+}
+
+#rx_read_more_arrow_black {
+  margin-left: 25px;
+}
+
+.rx_read_more_btn_white {
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 25.5px;
+  border-color: #FFFFFF;
+  padding: 12px 20px;
+  letter-spacing: 0.2em;
+}
+
+

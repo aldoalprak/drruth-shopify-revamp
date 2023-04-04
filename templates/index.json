@@ -12,15 +12,14 @@
         "6ebf0dcb-bf41-4a48-b22c-94f9a660ac66": {
           "type": "text",
           "settings": {
-            "text": "<p>Meet Dr. Ruth Roberts and Angela Ardolino. Together this female dream duo have created a supportive and natural pet health destination for pet parents like you!<\/p>",
-            "text_style": "body"
+            "text": "<p>Meet Dr. Ruth Roberts and Angela Ardolino. Together this female dream duo have created a supportive and natural pet health destination for pet parents like you!<\/p>"
           }
         },
         "9595813e-6667-48b4-aa12-1452080b757b": {
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/about-us"
           }
         }
       },
@@ -34,10 +33,10 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_title_alignment": "center",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "grid_type": "type1",
         "imgText-bg-color": "#f5f8f1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -214,15 +213,15 @@
         "include_margins": false
       }
     },
-    "657d84fe-a7d4-4a71-870c-da064e537889": {
-      "type": "rich-text",
+    "da93e544-9b93-4abc-a278-b99d780db5d3": {
+      "type": "rx-rich-text",
       "blocks": {
-        "template--14898486050881__657d84fe-a7d4-4a71-870c-da064e537889-16794623161675a67b-2": {
+        "template--14898486050881__da93e544-9b93-4abc-a278-b99d780db5d3-168056391628fea81c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -230,15 +229,15 @@
         }
       },
       "block_order": [
-        "template--14898486050881__657d84fe-a7d4-4a71-870c-da064e537889-16794623161675a67b-2"
+        "template--14898486050881__da93e544-9b93-4abc-a278-b99d780db5d3-168056391628fea81c-2"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "section_bg_color": "#fff",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 32
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "0816fc52-33ac-4b35-81ac-4c842628750a": {
@@ -266,7 +265,7 @@
         "content_alignment": "center",
         "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -381,8 +380,7 @@
         "template--14898486050881__4add22ab-e9ac-4adc-9d80-f5ec5ac0302d-167949693262966e94-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Build a better diet for your pet with veterinarian formulated recipes. Dr. Ruth Roberts guides you through, step-by-step, to make nutritionally complete meals for your pet, without the headache. Homemade meals don't have to be complicated, they can be catered to your pet's health needs, right in your own kitchen!<\/p>",
-            "text_style": "body"
+            "text": "<p>Build a better diet for your pet with veterinarian formulated recipes. Dr. Ruth Roberts guides you through, step-by-step, to make nutritionally complete meals for your pet, without the headache. Homemade meals don't have to be complicated, they can be catered to your pet's health needs, right in your own kitchen!<\/p>"
           }
         },
         "template--14898486050881__4add22ab-e9ac-4adc-9d80-f5ec5ac0302d-167949693262966e94-2": {
@@ -403,10 +401,10 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_title_alignment": "left",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "grid_type": "type2",
         "imgText-bg-color": "#f5f8f1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
@@ -425,7 +423,7 @@
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
           "type": "Product",
           "settings": {
-            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
+            "product_block": "the-original-crockpet-diet-membership"
           }
         },
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
@@ -509,8 +507,7 @@
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>",
-            "text_style": "body"
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>"
           }
         },
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2": {
@@ -531,10 +528,10 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_title_alignment": "left",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "grid_type": "type2",
         "imgText-bg-color": "#f5f8f1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -633,18 +630,16 @@
             "heading": "<p>Our Blogs<\/p>"
           }
         },
-        "d3ea151d-ed27-4901-9e22-3897a246a581": {
-          "type": "caption",
+        "4b0582b7-196c-42c7-8c5b-98627f6ca006": {
+          "type": "text",
           "settings": {
-            "caption": "The most useful pet advice news.",
-            "text_style": "subtitle",
-            "text_size": "medium"
+            "text": "<p>The most useful pet advice news.<\/p>"
           }
         }
       },
       "block_order": [
         "template--14898486050881__35a9f240-35c6-4509-b3d7-77ac0c08d41c-1679662670bc156e16-0",
-        "d3ea151d-ed27-4901-9e22-3897a246a581"
+        "4b0582b7-196c-42c7-8c5b-98627f6ca006"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -668,12 +663,13 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 52
       }
     },
     "8960ec65-5cef-4d84-b887-aa69c09a76a9": {
       "type": "rx-rich-text",
+      "disabled": true,
       "blocks": {
         "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0": {
           "type": "heading",
@@ -696,6 +692,7 @@
     },
     "e3511e10-8d71-4ec1-a035-4c3a079b8d90": {
       "type": "rx-podcast-list",
+      "disabled": true,
       "blocks": {
         "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-0": {
           "type": "Podcast",
@@ -800,7 +797,7 @@
     "b4714d06-abcd-4096-947f-125116149229",
     "914ef044-a3b1-4773-91ae-f1b36874354b",
     "16751816500272c7d1",
-    "657d84fe-a7d4-4a71-870c-da064e537889",
+    "da93e544-9b93-4abc-a278-b99d780db5d3",
     "0816fc52-33ac-4b35-81ac-4c842628750a",
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
