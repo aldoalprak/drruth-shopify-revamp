@@ -17,6 +17,13 @@
 {%- style -%}
   .footer {
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    font-family: "Josefin Sans" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+
   }
 
   .section-{{ section.id }}-padding {
@@ -24,7 +31,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .rx-brand-info .store-email .store-phone {
+  .rx-brand-info .rx-store-email .store-phone {
     padding-bottom: 10px
 
   }
@@ -40,8 +47,18 @@
   .rx-social-icon img {
     margin-right: 10px;
   }
+
   .rx-social-icon a {
     text-decoration: none;
+  }
+
+  .rx-store-email, .store-phone {
+    font-size: 16px
+  }
+
+  .rx-custom-font {
+    font-size: 18px !important;
+    color: #1E1E1E !important;
   }
 
   @media screen and (min-width: 750px) {
@@ -64,6 +81,11 @@
     .rx-email-footer-signup img {
       width:524px;
       height: 62px;
+    }
+
+    .rx_footer_grid__item {
+      width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+      max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
     }
   }
 {%- endstyle -%}
@@ -98,9 +120,9 @@
           -%}
           <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
             {%- for block in section.blocks -%}
-              <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
+              <div class="footer-block rx_footer_grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
+                  <p class="footer-block__heading">{{- block.settings.heading | escape -}}</p>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -115,7 +137,7 @@
                       <ul class="footer-block__details-content list-unstyled">
                         {%- for link in block.settings.menu.links -%}
                           <li>
-                            <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                            <a href="{{ link.url }}" class="rx-custom-font link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
                               {{ link.title }}
                             </a>
                           </li>
@@ -176,7 +198,7 @@
                           </div>
                         {%- endif -%}
                         {%- if block.settings.rx_store_email != blank -%}
-                          <div class="store-email">
+                          <div class="rx-store-email">
                             <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/email-icon.png?v=1680074997">
                             <span>{{block.settings.rx_store_email}}</span>
                           </div>
@@ -216,8 +238,8 @@
                 {%- endif -%}
                 {%- form 'customer', id: 'ContactFooter', class: '  ' -%}
                   <input type="hidden" name="contact[tags]" value="newsletter">
-                  <div class="newsletter-form__field-wrapper">
-                    <div class="field">
+                  <div>
+                    <div class="field rx_read_more_btn_green">
                       <input
                         id="NewsletterForm--{{ section.id }}"
                         type="email"
@@ -302,7 +324,7 @@
                     <ul id="FooterCountryList" role="list" class="disclosure__list list-unstyled">
                       {%- for country in localization.available_countries -%}
                         <li class="disclosure__item" tabindex="-1">
-                          <a class="link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
+                          <a class="rx-custom-font link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
                             {{ country.name }} <span class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
                           </a>
                         </li>
@@ -347,7 +369,7 @@
                     <ul id="FooterLanguageList" role="list" class="disclosure__list list-unstyled">
                       {%- for language in localization.available_languages -%}
                         <li class="disclosure__item" tabindex="-1">
-                          <a class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
+                          <a class="rx-custom-font link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
                             {{ language.endonym_name | capitalize }}
                           </a>
                         </li>

@@ -124,10 +124,29 @@
   @media screen and (max-width: 750px) {
     #RX_ImageWithText--{{ section.id }} {
       background-color: {{ section.settings.imgText-bg-color }};
-      padding-right: 10px;
-      padding-left: 10px;
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
+    .rx_read_more_arrow_img_with_text {
+      display: none;
+    }
+
+    .rx-img-with-text__content {
+      text-align: center;
+    }
+
+    .rx-heading-text-alignment-center, 
+    .rx-heading-text-alignment-right, 
+    .rx-heading-text-alignment-left {
+      align-self: center;
+      text-align: center;
+    }
+
+    .rx_img_with_text_button {
+      margin-right: auto;
+      margin-left: auto;
+    }
 
   }
 {%- endstyle -%}
@@ -175,7 +194,7 @@
               </div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
-                <div>
+                <div class="rx_img_with_text_button">
                   <a
                     {% if block.settings.button_link == blank %}
                       role="link" aria-disabled="true"
@@ -187,6 +206,7 @@
                     {{ block.settings.button_label | escape }}
                     <img 
                       id="rx_read_more_arrow_black"
+                      class="rx_read_more_arrow_img_with_text"
                       src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
                     >
                   </a>
