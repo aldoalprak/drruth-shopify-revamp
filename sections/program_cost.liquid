@@ -1,0 +1,80 @@
+<div class="publickbg">
+    <div class="cmax_container">
+            <div class="costcontent">
+                    <h2 class="pcosthead">{{section.settings.pro_head}}</h2>
+                    <p class="pcostdes">{{section.settings.pro_desc}}</p<
+            </div>
+            <div class="pcostflex">
+                {%- for block in section.blocks -%}
+                    <div class="costpart">
+                        <h2>{{block.settings.cost_head}} </h2>
+                        <h3>{{block.settings.cost_price}}</h3>
+                        <p>{{block.settings.cost_desc}}</p>
+                        <div class="blogbodr">
+                            <a href="{{ block.settings.cost_btnurl }}" class="btnspace">{{ block.settings.cost_btn }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
+                            </svg></a>
+                        </div> 
+                    </div>
+                {%- endfor -%}
+            </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Program cost",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pro_head",
+      "label": "Heading"
+    },{
+         "type": "text",
+      "id": "pro_desc",
+      "label": "Description"
+    }
+  ],
+     "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+        {
+    "type": "text",
+    "id": "cost_head",
+    "label": "Heading"
+      },
+      
+          {
+    "type": "text",
+    "id": "cost_price",
+    "label": "Price"
+      },
+       {
+    "type": "text",
+    "id": "cost_desc",
+    "label": "Description"
+       },
+       {
+        "type": "text",
+    "id": "cost_btn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "cost_btnurl",
+    "label": "Button Link"
+       }
+
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "Program cost"
+    }
+  ]
+}
+{% endschema %}

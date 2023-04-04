@@ -93,21 +93,21 @@
       }}
     </div>
   {%- endif -%}
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
+  <div class=" banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
+              <span class="imghead">{{ block.settings.heading | escape }}</span>
             </h2>
           {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.text | escape }}</span>
+              <span class="imagedes">{{ block.settings.text | escape }}</span>
             </div>
           {%- when 'buttons' -%}
             <div
-              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+              class="img_btn banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
@@ -118,8 +118,11 @@
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                >
+                > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
+                  </svg>
                   {{- block.settings.button_label_1 | escape -}}
+                 
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
@@ -131,6 +134,9 @@
                   {% endif %}
                   class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
                 >
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
+                  </svg>
                   {{- block.settings.button_label_2 | escape -}}
                 </a>
               {%- endif -%}

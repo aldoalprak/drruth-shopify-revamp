@@ -1,0 +1,64 @@
+<div>
+    <div>
+        <div class="numberimage" style="background-image:url('{{section.settings.backimg |img_url:'medium' }}');">
+        
+      
+        <h2  class="numbercontent">{{section.settings.number_head}}</h2>
+        <div class="cmax_container">
+            <div class="numpart">
+                {%- for block in section.blocks -%}
+                    <div class="numberwidth">
+                        <h2 class="numbernum">{{ block.settings.numid}}</h2>
+                        <h3 class="numcontent">{{ block.settings.nubcontent}}</h3>
+                    </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% schema %} 
+{
+  "name": "the_number",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "number_head",
+      "label": "Heading"
+    }
+    ,   {
+        "type":"image_picker",
+        "id":"backimg",
+        "label":"Image"
+      }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+    
+       {
+    "type": "text",
+    "id": "numid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "nubcontent",
+    "label": "Sub Heading"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "the_number"
+    }
+  ]
+}
+{% endschema %}

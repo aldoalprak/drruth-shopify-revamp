@@ -1,0 +1,33 @@
+<div class="publickbg">
+    <div class="cmax_container">
+        <div class="">
+            <h2 class="previewhead">{{section.settings.p_head}}</h2>
+            <p class="previewdes">{{section.settings.p_desc}}</p>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Public review",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "p_head",
+      "label": "Heading"
+    },{
+         "type": "text",
+      "id": "p_desc",
+      "label": "Description"
+    }
+  ],
+  
+ "presets": [
+    {
+      "name": "Public review"
+    }
+  ]
+}
+{% endschema %}
