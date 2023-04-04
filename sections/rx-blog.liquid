@@ -21,12 +21,42 @@
 
   .rx_blog_card_content {
     text-align: center;
-    border-radius: 20px;
+    border-radius: 24px;
     border: 1px solid white;
-    transform: translateY(-5%);
+    transform: translateY(-15%);
     margin: 0 10%;
     max-width: 80%;
     background-color: #fff;
+  }
+
+  .rx_article_card_info_caption {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .rx_card__heading {
+    margin-top: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+
+  .rx_article_card_info_caption {
+    padding-top: 10px;
+  }
+
+  #rx_blog_cover_image {
+    border-radius: 20px;
   }
 
   @media screen and (min-width: 750px) {
@@ -85,7 +115,7 @@
                 show_image: section.settings.show_image,
                 show_date: section.settings.show_date,
                 show_author: section.settings.show_author,
-                show_excerpt: true
+                show_excerpt: false
               %}
             </li>
         

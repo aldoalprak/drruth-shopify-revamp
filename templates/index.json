@@ -234,7 +234,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "section_bg_color": "#fff",
+        "section_bg_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -662,7 +662,7 @@
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "padding_top": 24,
         "padding_bottom": 52
       }

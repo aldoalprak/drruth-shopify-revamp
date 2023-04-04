@@ -68,6 +68,7 @@
                 {% endunless %}
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
+                id="rx_blog_cover_image"
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
             </div>
@@ -113,20 +114,20 @@
         </div>
       </div>
       <div class="card__content rx_blog_card_content">
-        <div class="card__information">
-          <div class="article-card__info caption-with-letter-spacing h5">
+        <div class="rx_card__information">
+          <div class="rx_article_card_info_caption">
             {%- if show_date -%}
-              <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
+              <span class="circle-divider"><span style="text-transform: uppercase;">{{ article.handle | split: '/' | first }}</span> | {{ article.published_at | time_tag: format: 'date' }}</span>
             {%- endif -%}
             {%- if show_author -%}
               <span>{{ article.author }}</span>
             {%- endif -%}
           </div>
-          <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+          <p class="rx_card__heading">
             <a href="{{ article.url }}" class="full-unstyled-link">
               {{ article.title | truncate: 50 | escape }}
             </a>
-          </h3>
+          </p>
           
         </div>
         {%- if show_badge -%}
