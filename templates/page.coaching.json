@@ -304,6 +304,43 @@
     },
     "2f6fd057-f6ae-4b15-a28b-0d6fcc973492": {
       "type": "program_cost",
+      "blocks": {
+        "636721ac-9785-4de0-a204-a08bde25a3e2": {
+          "type": "block",
+          "settings": {
+            "cost_head": "One Time Payment",
+            "cost_price": "5000$",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        },
+        "85b6891b-760a-47a8-955f-2c9e8f94605e": {
+          "type": "block",
+          "settings": {
+            "cost_head": "4 <br>installments",
+            "cost_price": "1.250$ <span>\/ month <\/span>",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        },
+        "dfaf855a-4d63-455c-a98e-6b5fa6e58e85": {
+          "type": "block",
+          "settings": {
+            "cost_head": "16  <br> Installaments",
+            "cost_price": "312$ <span>\/ month <\/span>",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "636721ac-9785-4de0-a204-a08bde25a3e2",
+        "85b6891b-760a-47a8-955f-2c9e8f94605e",
+        "dfaf855a-4d63-455c-a98e-6b5fa6e58e85"
+      ],
       "settings": {
         "pro_head": "Program Cost",
         "pro_desc": "The value you get in return is more than that"
