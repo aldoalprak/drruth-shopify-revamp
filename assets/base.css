@@ -3071,7 +3071,8 @@ p.bdes {
   line-height: 40px;
   text-align: center;
   color: #131620;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .benefitblog {
   width: 32.5%;
@@ -3221,7 +3222,7 @@ p.pcostdes {
   line-height: 40px;
   text-align: center;
   color: #131620;
-  margin: 10px;
+  margin: 10px 0 25px 0;
 
 }
 .pcostflex {
@@ -3300,7 +3301,7 @@ h2.pcosthead {
   margin: 0;
 }
 .blogbodr {
-  padding-bottom: 10%;
+  padding-bottom: 12%;
 }
 svg {
   margin-left: 10px;
@@ -3431,7 +3432,7 @@ h3.workshead {
   line-height: 40px;
   color: #131620;
   text-align: center;
-  margin: 5px 0;
+  margin: 5px 0 25px 0;
 }
 .work_content {
   margin-top: 6%;
@@ -3611,6 +3612,8 @@ iframe#video {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: -5%;
+
 }
 .testvideo {
   width: 32.5%;
@@ -3663,12 +3666,17 @@ h3.testsubhead {
   font-size: 28px;
   line-height: 40px;
   text-align: center;
-  margin: 0;
+  margin: 10px 0 25px 0;
   color: #131620;
+}
+.image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet.image-with-text__grid--reverse{
+  margin: 4% 0;
 }
 /* slider start */
 .parterimg{
   display: flex;
+  border-top: 1px solid #CCEBDB;
+  padding-top: 4%;
 }
 .parterimg h3 {
   margin-left: 15px;
@@ -3953,3 +3961,15 @@ h3.bannersub ,h3.peviewsub ,h3.peviewsub ,h3.peviewsub{
 }
 }
 /* coaching page end */
+.banner__box.content-container.content-container--full-width-mobile.color-inverse.gradient {
+  background: transparent;
+}
+.c_flex {
+  margin-top: 7%;
+}
+.course_flex{
+  margin: 6% 0;
+}
+.numberimage{
+  margin: 5% 0;
+}
