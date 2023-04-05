@@ -660,6 +660,14 @@
         "number_head": "The numbers",
         "backimg": "shopify:\/\/shop_images\/Rectangle_17_5cd46d43-a4d9-4c39-9d45-1fe0db1569be.png"
       }
+    },
+    "3fda3ebc-fcc4-491d-b8d7-58472145d1e6": {
+      "type": "public_review",
+      "disabled": true,
+      "settings": {
+        "p_head": "",
+        "p_desc": ""
+      }
     }
   },
   "order": [
@@ -678,6 +686,7 @@
     "8f1dd386-70e7-4807-b51b-853290f6ea71",
     "08bd4137-1e8d-4d49-b887-227278ef56c4",
     "d21f02ea-62bd-46c6-8076-7176048dba79",
-    "347490cc-e819-4deb-b25f-a0dea83866ce"
+    "347490cc-e819-4deb-b25f-a0dea83866ce",
+    "3fda3ebc-fcc4-491d-b8d7-58472145d1e6"
   ]
 }
