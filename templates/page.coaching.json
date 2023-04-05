@@ -449,6 +449,59 @@
       ],
       "settings": {
       }
+    },
+    "db2d9524-4734-4624-b9ee-87aaa9024165": {
+      "type": "image-with-text",
+      "blocks": {
+        "50f665d1-da96-48f8-a946-63ba685194ee": {
+          "type": "caption",
+          "settings": {
+            "caption": "About",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr.Ruth",
+            "heading_size": "h1"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "50f665d1-da96-48f8-a946-63ba685194ee",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-0",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-1",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_8.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -462,6 +515,7 @@
     "2f6fd057-f6ae-4b15-a28b-0d6fcc973492",
     "e64f7efe-6139-4263-b9f8-16419150f58c",
     "e07772b4-950c-4165-b739-b426614c98b4",
-    "944007ca-ba62-403f-b576-35fbc3bf3b6c"
+    "944007ca-ba62-403f-b576-35fbc3bf3b6c",
+    "db2d9524-4734-4624-b9ee-87aaa9024165"
   ]
 }
