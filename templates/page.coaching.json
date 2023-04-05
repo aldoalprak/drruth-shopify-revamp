@@ -107,12 +107,59 @@
         "bannerurl": "",
         "video_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA"
       }
+    },
+    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb": {
+      "type": "coaching_blog",
+      "blocks": {
+        "07127d75-a3ed-476f-80be-c69bd17297c8": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Vector_932f735e-b894-4f88-82f5-52cc25e425e9.png",
+            "c_head": "Become an expert in pet health",
+            "c_desc": "By taking a health pet coach course, you can gain the knowledge and skills necessary to become an expert in pet health."
+          }
+        },
+        "0b9f9eaf-68e4-4a92-bb3a-1b15a355386e": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Vector_932f735e-b894-4f88-82f5-52cc25e425e9.png",
+            "c_head": "Make a positive impact",
+            "c_desc": "Working as a health pet coach can be a fulfilling career that allows individuals to make a positive impact on the lives of pets and their owners."
+          }
+        },
+        "63507159-9680-4ce3-8341-622f0c62be7e": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Vector_932f735e-b894-4f88-82f5-52cc25e425e9.png",
+            "c_head": "Growing industry",
+            "c_desc": "As more pet owners prioritize the health and well-being of their pets, the demand for health pet coaches is likely to grow."
+          }
+        },
+        "fa86129e-8588-4d2e-a95a-ca14cd4380c0": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Vector_932f735e-b894-4f88-82f5-52cc25e425e9.png",
+            "c_head": "Affordable investment",
+            "c_desc": "By gaining the knowledge and skills necessary to become a health pet coach, users can potentially earn a good living doing something they love."
+          }
+        }
+      },
+      "block_order": [
+        "07127d75-a3ed-476f-80be-c69bd17297c8",
+        "0b9f9eaf-68e4-4a92-bb3a-1b15a355386e",
+        "63507159-9680-4ce3-8341-622f0c62be7e",
+        "fa86129e-8588-4d2e-a95a-ca14cd4380c0"
+      ],
+      "settings": {
+        "c_head": ""
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
     "1655751929e34d4e57",
-    "fce23f7e-28b3-405c-9a54-2f6af4058e92"
+    "fce23f7e-28b3-405c-9a54-2f6af4058e92",
+    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb"
   ]
 }
