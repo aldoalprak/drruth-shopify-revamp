@@ -388,7 +388,14 @@
       "type": "public_review",
       "settings": {
         "p_head": "Public Reviews",
-        "p_desc": "From our happy clients"
+        "p_desc": "From our happy clients",
+        "reviewimg": "shopify:\/\/shop_images\/Rectangle_12.png",
+        "prevhead": "This is life-changing",
+        "prevdes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+        "prevdes1": "Michael Daily",
+        "prevdes2": "Certified Pet Health Coach",
+        "previwbtn": "APPLY NOW",
+        "previwurl": ""
       }
     },
     "944007ca-ba62-403f-b576-35fbc3bf3b6c": {
@@ -666,7 +673,13 @@
       "disabled": true,
       "settings": {
         "p_head": "",
-        "p_desc": ""
+        "p_desc": "",
+        "prevhead": "",
+        "prevdes": "",
+        "prevdes1": "",
+        "prevdes2": "",
+        "previwbtn": "",
+        "previwurl": ""
       }
     }
   },
