@@ -3071,7 +3071,7 @@ p.bdes {
   line-height: 40px;
   text-align: center;
   color: #131620;
-  margin: 0;
+  /* margin: 0; */
 }
 .benefitblog {
   width: 32.5%;
@@ -3221,7 +3221,7 @@ p.pcostdes {
   line-height: 40px;
   text-align: center;
   color: #131620;
-  margin: 10px;
+  margin: 20px;
 
 }
 .pcostflex {
@@ -3464,6 +3464,9 @@ img.workimg ,.previewimg img {
   align-items: center;
   padding: 0 5%;
 }
+.c_flex{
+  margin-top:7%;
+}
 .cworkimg {
   padding: 2%;
 }
@@ -3549,6 +3552,7 @@ h3.numcontent {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  margin:5% 0;
 }
 .bannerflex {
   display: flex;
@@ -3663,12 +3667,14 @@ h3.testsubhead {
   font-size: 28px;
   line-height: 40px;
   text-align: center;
-  margin: 0;
+  margin-top: 0;
   color: #131620;
 }
 /* slider start */
 .parterimg{
   display: flex;
+  border-top: 1px solid #CCEBDB;
+  padding-top: 12px;
 }
 .parterimg h3 {
   margin-left: 15px;
@@ -3716,6 +3722,7 @@ button.drag.dogarrow2.slick-next.pull-right.slick-arrow,button.drag.dogarrow1.sl
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 7%;
 }
 .course_detail {
   width: 15%;
@@ -3897,6 +3904,7 @@ position: relative;
   }
   .flexwidth {
     width: 46%;
+    margin: 10px 0;
 }
 
 }
