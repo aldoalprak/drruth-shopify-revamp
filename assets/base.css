@@ -3699,6 +3699,9 @@ button.courseprev.slick-prev.pull-left.slick-arrow ,button.coursenext.slick-next
   padding: 0 3%;
  
 }
+.banner__box.content-container.content-container--full-width-mobile.color-inverse.gradient {
+    background: transparent;
+}
 h3.slidertext{
   font-family: 'Josefin Sans';
 font-style: normal;
