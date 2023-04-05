@@ -218,6 +218,89 @@
         "bhead": "Benefits",
         "bsubhead": "What you will definitely achieve in this course"
       }
+    },
+    "d0ddca7e-3a18-471b-86c5-787bb70a9335": {
+      "type": "coaching_work",
+      "blocks": {
+        "63b738a5-99a7-41a9-aa86-09f55ceb315a": {
+          "type": "block",
+          "settings": {
+            "stepid": "step 1",
+            "stepcontent": "Apply ONLINE",
+            "btnurl": ""
+          }
+        },
+        "71f07bc5-3c9b-4168-8dba-d8c9fca474b2": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_38dd097b-4d95-4674-adf4-217ce760326e.png",
+            "stepid": "step 2",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "fac135f7-9986-4fdd-bfc2-2ed55d73eb7a": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_1_19395330-692b-4c40-a698-eaf5bcab7533.png",
+            "stepid": "step 3",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "489440f5-9c44-4594-9057-dada0cc53e02": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_2_e1442272-4856-42b1-aedc-24debd315439.png",
+            "stepid": "step 4",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "cc25ff37-7346-4dde-b1ee-a8f21673bd19": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_3_c5951f47-4bf6-4bd2-97f4-0a6618229d73.png",
+            "stepid": "step 5",
+            "stepcontent": "Coaching",
+            "btnurl": ""
+          }
+        },
+        "dde36976-d2e0-40a2-b955-bb3b86313983": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_4_77878c52-de4b-42b6-b41a-f0548f54bd58.png",
+            "stepid": "step 6",
+            "stepcontent": "TAKE THE FINAL EXAM",
+            "btnurl": ""
+          }
+        },
+        "7ebcd55f-cfb4-4c07-aa13-efcff76b24ba": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_4_77878c52-de4b-42b6-b41a-f0548f54bd58.png",
+            "stepid": "step 7",
+            "stepcontent": "Graduate",
+            "btnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "63b738a5-99a7-41a9-aa86-09f55ceb315a",
+        "71f07bc5-3c9b-4168-8dba-d8c9fca474b2",
+        "fac135f7-9986-4fdd-bfc2-2ed55d73eb7a",
+        "489440f5-9c44-4594-9057-dada0cc53e02",
+        "cc25ff37-7346-4dde-b1ee-a8f21673bd19",
+        "dde36976-d2e0-40a2-b955-bb3b86313983",
+        "7ebcd55f-cfb4-4c07-aa13-efcff76b24ba"
+      ],
+      "settings": {
+        "w_head": "How it works",
+        "w_subhead": "Be a part of Holistic Pet Health Coach",
+        "workiimg": "shopify:\/\/shop_images\/Rectangle_11.png",
+        "workbtn": "apply now",
+        "workbtnurl": ""
+      }
     }
   },
   "order": [
@@ -226,6 +309,7 @@
     "1655751929e34d4e57",
     "fce23f7e-28b3-405c-9a54-2f6af4058e92",
     "b39c1adc-a690-45c5-a39e-c5e47b2d8acb",
-    "0b2b993d-62f4-4b29-8ab4-1ea759935f23"
+    "0b2b993d-62f4-4b29-8ab4-1ea759935f23",
+    "d0ddca7e-3a18-471b-86c5-787bb70a9335"
   ]
 }
