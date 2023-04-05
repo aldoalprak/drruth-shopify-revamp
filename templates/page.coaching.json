@@ -625,6 +625,41 @@
         "coursehead": "General Course Outline",
         "coursedes": "What you will be taught in the course"
       }
+    },
+    "347490cc-e819-4deb-b25f-a0dea83866ce": {
+      "type": "the_number",
+      "blocks": {
+        "9900eaeb-3fbf-4620-8c19-606a22287808": {
+          "type": "block",
+          "settings": {
+            "numid": "+30 YEARS",
+            "nubcontent": "YEARS OF PERSONAL TRAINING"
+          }
+        },
+        "a3e8fdf8-e008-4a31-8f75-5d258dbe65e8": {
+          "type": "block",
+          "settings": {
+            "numid": "+500",
+            "nubcontent": "SUCCESSFUL COACHES GRADUATED"
+          }
+        },
+        "4450a464-8772-490c-886f-19dbb5a9ee01": {
+          "type": "block",
+          "settings": {
+            "numid": "300",
+            "nubcontent": "Pet served"
+          }
+        }
+      },
+      "block_order": [
+        "9900eaeb-3fbf-4620-8c19-606a22287808",
+        "a3e8fdf8-e008-4a31-8f75-5d258dbe65e8",
+        "4450a464-8772-490c-886f-19dbb5a9ee01"
+      ],
+      "settings": {
+        "number_head": "The numbers",
+        "backimg": "shopify:\/\/shop_images\/Rectangle_17_5cd46d43-a4d9-4c39-9d45-1fe0db1569be.png"
+      }
     }
   },
   "order": [
@@ -642,6 +677,7 @@
     "db2d9524-4734-4624-b9ee-87aaa9024165",
     "8f1dd386-70e7-4807-b51b-853290f6ea71",
     "08bd4137-1e8d-4d49-b887-227278ef56c4",
-    "d21f02ea-62bd-46c6-8076-7176048dba79"
+    "d21f02ea-62bd-46c6-8076-7176048dba79",
+    "347490cc-e819-4deb-b25f-a0dea83866ce"
   ]
 }
