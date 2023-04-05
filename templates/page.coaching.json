@@ -388,15 +388,66 @@
       "type": "public_review",
       "settings": {
         "p_head": "Public Reviews",
-        "p_desc": "From our happy clients",
-        "reviewimg": "shopify:\/\/shop_images\/Rectangle_12.png",
-        "prevhead": "This is life-changing",
-        "prevdes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
-        "prevdes1": "Michael Daily",
-        "prevdes2": "Certified Pet Health Coach",
-        "previwbtn": "apply now",
-        "previwurl": "",
-        "video_url": ""
+        "p_desc": "From our happy clients"
+      }
+    },
+    "944007ca-ba62-403f-b576-35fbc3bf3b6c": {
+      "type": "coaching_slider",
+      "blocks": {
+        "f4f37548-4a1d-44c8-967b-0724c73a3dfc": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "I love it!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "94631850-a986-43a2-83c4-ec003cde2ce9": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Appreciated!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "e901e247-0b7d-4dae-a4d2-45bcc21a7a83": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Always remember!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "6284f2d0-b1d2-4063-b41f-63b5e184ce54": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "I love it!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "2cc90de5-7ea6-42ae-a101-0c59d1a6ff67": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Appreciated!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        }
+      },
+      "block_order": [
+        "f4f37548-4a1d-44c8-967b-0724c73a3dfc",
+        "94631850-a986-43a2-83c4-ec003cde2ce9",
+        "e901e247-0b7d-4dae-a4d2-45bcc21a7a83",
+        "6284f2d0-b1d2-4063-b41f-63b5e184ce54",
+        "2cc90de5-7ea6-42ae-a101-0c59d1a6ff67"
+      ],
+      "settings": {
       }
     }
   },
@@ -410,6 +461,7 @@
     "d0ddca7e-3a18-471b-86c5-787bb70a9335",
     "2f6fd057-f6ae-4b15-a28b-0d6fcc973492",
     "e64f7efe-6139-4263-b9f8-16419150f58c",
-    "e07772b4-950c-4165-b739-b426614c98b4"
+    "e07772b4-950c-4165-b739-b426614c98b4",
+    "944007ca-ba62-403f-b576-35fbc3bf3b6c"
   ]
 }
