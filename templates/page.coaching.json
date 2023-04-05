@@ -345,6 +345,44 @@
         "pro_head": "Program Cost",
         "pro_desc": "The value you get in return is more than that"
       }
+    },
+    "e64f7efe-6139-4263-b9f8-16419150f58c": {
+      "type": "testimonial",
+      "blocks": {
+        "7ec0be87-673f-42fe-8d1a-62102309c5ba": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        },
+        "596ad6d2-d17a-4f5a-9877-ee37b361fa8a": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        },
+        "0a3596b8-fd43-4cd5-ba4a-d6d3af2c492e": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        }
+      },
+      "block_order": [
+        "7ec0be87-673f-42fe-8d1a-62102309c5ba",
+        "596ad6d2-d17a-4f5a-9877-ee37b361fa8a",
+        "0a3596b8-fd43-4cd5-ba4a-d6d3af2c492e"
+      ],
+      "settings": {
+        "testhead": "Testimonies",
+        "testdes": "DOCTOR OF VETERINARY MEDICINE"
+      }
     }
   },
   "order": [
@@ -355,6 +393,7 @@
     "b39c1adc-a690-45c5-a39e-c5e47b2d8acb",
     "0b2b993d-62f4-4b29-8ab4-1ea759935f23",
     "d0ddca7e-3a18-471b-86c5-787bb70a9335",
-    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492"
+    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492",
+    "e64f7efe-6139-4263-b9f8-16419150f58c"
   ]
 }
