@@ -301,6 +301,13 @@
         "workbtn": "apply now",
         "workbtnurl": ""
       }
+    },
+    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492": {
+      "type": "program_cost",
+      "settings": {
+        "pro_head": "Program Cost",
+        "pro_desc": "The value you get in return is more than that"
+      }
     }
   },
   "order": [
@@ -310,6 +317,7 @@
     "fce23f7e-28b3-405c-9a54-2f6af4058e92",
     "b39c1adc-a690-45c5-a39e-c5e47b2d8acb",
     "0b2b993d-62f4-4b29-8ab4-1ea759935f23",
-    "d0ddca7e-3a18-471b-86c5-787bb70a9335"
+    "d0ddca7e-3a18-471b-86c5-787bb70a9335",
+    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492"
   ]
 }
