@@ -502,6 +502,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8f1dd386-70e7-4807-b51b-853290f6ea71": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The opportunity to become a professional pet Pet Health Coach  has come very close to you",
+            "heading_size": "h1"
+          }
+        },
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-1": {
+          "type": "text",
+          "settings": {
+            "text": "Pet care has never been easier.",
+            "text_style": "body"
+          }
+        },
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE COURSE",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-0",
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-1",
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_16.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -516,6 +563,7 @@
     "e64f7efe-6139-4263-b9f8-16419150f58c",
     "e07772b4-950c-4165-b739-b426614c98b4",
     "944007ca-ba62-403f-b576-35fbc3bf3b6c",
-    "db2d9524-4734-4624-b9ee-87aaa9024165"
+    "db2d9524-4734-4624-b9ee-87aaa9024165",
+    "8f1dd386-70e7-4807-b51b-853290f6ea71"
   ]
 }
