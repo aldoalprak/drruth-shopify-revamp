@@ -3201,7 +3201,6 @@ p.previewdes {
   order: 1;
   flex-grow: 0;
   margin: 0;
-  margin-bottom: 7%;
 }
 .h2.pcosthead {
   font-family: 'Corinthia';
@@ -3345,7 +3344,7 @@ span.imagedes {
   line-height: 54px;
   color: #49AF78;
 }
-/* .second_imgcontent h2.image-with-text__heading.h1 {
+.second_imgcontent h2.image-with-text__heading.h1 {
   font-family: 'BLT-Heirloom';
   font-style: normal;
   font-weight: 300;
@@ -3353,62 +3352,14 @@ span.imagedes {
   line-height: 40px;
   text-align: center;
   color: #000000;
-} */
-/* .second_imgcontent .image-with-text__text.rte.body {
+}
+.second_imgcontent .image-with-text__text.rte.body {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #3C4467;
-} */
-.review40 {
-  width: 40%;
-}
-.review60 {
-  width: 58%;
-    padding: 2%;
-    position: relative;
-    right: 5%;
-    background: #fff;
-    margin: auto 0;
-    border-radius: 30px;
-    padding-right: 10%;
-}
-h2.previewtext {
-  font-family: 'BLT-Heirloom';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: left;
-  color: #000000;
-}
-h3.peviewsub {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #3C4467;
-}
-h3.peviewsub1 {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
-  margin: 0;
-  color: #3C4467;
-}
-h3.peviewsub2 {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #3C4467;
-  margin: 0;
 }
 .second_imgcontent{
   padding: 0 20% 0 5%;
@@ -3431,10 +3382,6 @@ h3.workshead {
   line-height: 40px;
   color: #131620;
   text-align: center;
-  margin: 5px 0;
-}
-.work_content {
-  margin-top: 6%;
 }
 .workflex {
   display: flex;
@@ -3447,7 +3394,7 @@ h3.workshead {
 .work60 {
   width: 60%;
 }
-img.workimg ,.previewimg img {
+img.workimg {
   width: 100%;
 }
 .workblock {
@@ -3456,7 +3403,7 @@ img.workimg ,.previewimg img {
   margin: 2% 0;
 }
 .c_workcontent {
-  padding: 0px 10% 0 4%;
+  padding: 0 10%;
 }
 .workspace {
   display: flex;
@@ -3550,6 +3497,14 @@ h3.numcontent {
   background-position: bottom;
   background-size: cover;
 }
+p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+}
 .bannerflex {
   display: flex;
   flex-wrap: wrap;
@@ -3582,7 +3537,6 @@ h3.bannersub {
   font-size: 16px;
   line-height: 28px;
   color: #3C4467;
-  margin-top: -18px;
 }
 iframe#video {
   width: 100%;
@@ -3605,7 +3559,6 @@ iframe#video {
 }
 .bannerbtn {
   margin-bottom: 5%;
-  margin-top: 25px;
 }
 .testimonialflex {
   display: flex;
@@ -3804,9 +3757,6 @@ position: relative;
   .c_workcontent {
     padding: 0 2%;
 }
-.review60{
-  right: 0%;
-}
 }
 @media only screen and (max-width: 991px) {
   .pcostflex {
@@ -3851,7 +3801,7 @@ position: relative;
     width: 45%;
     padding: 0 5%;
 }
-.banner40 ,.banner60 ,.review60 ,.review40{
+.banner40 ,.banner60{
   width: 100%;
 }
 .banner60{
@@ -3859,7 +3809,6 @@ position: relative;
 }
 .banner40{
   order:2;
-  padding-right: 6%;
 }
 }
 @media only screen and (max-width: 749px) {
@@ -3908,12 +3857,6 @@ position: relative;
   width: 96%;
   margin: 0 auto;
 }
-h2.previewhead{
-  font-size: 52px;
-}
-p.previewdes{
-  font-size: 22px;
-}
 }
 @media only screen and (max-width: 420px) {
  
@@ -3924,15 +3867,6 @@ p.previewdes{
   .workspace {
     flex-direction: column;
 }
-h2.step_detail, h3.stepsubhead{
-  margin: 0;
-}
-h3.stepsubhead{
-  line-height: 18px;
-}
-.workbordbtn{
-  justify-content: center;
-}
 .numberwidth {
   width: 95%;
   padding: 0 5%;
@@ -3942,14 +3876,6 @@ h3.stepsubhead{
 }
 .flexwidth {
   width: 100%;
-}
-h2.bannerhead ,h2.previewtext{
-  font-size: 32px;
-  line-height: 38px;
-}
-h3.bannersub ,h3.peviewsub ,h3.peviewsub ,h3.peviewsub{
-  font-size: 14px;
-  line-height: 22px;
 }
 }
 /* coaching page end */
