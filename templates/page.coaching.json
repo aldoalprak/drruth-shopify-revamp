@@ -153,6 +153,13 @@
       "settings": {
         "c_head": ""
       }
+    },
+    "0b2b993d-62f4-4b29-8ab4-1ea759935f23": {
+      "type": "benefits",
+      "settings": {
+        "bhead": "Benefits",
+        "bsubhead": "What you will definitely achieve in this course"
+      }
     }
   },
   "order": [
@@ -160,6 +167,7 @@
     "newsletter",
     "1655751929e34d4e57",
     "fce23f7e-28b3-405c-9a54-2f6af4058e92",
-    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb"
+    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb",
+    "0b2b993d-62f4-4b29-8ab4-1ea759935f23"
   ]
 }
