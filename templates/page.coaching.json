@@ -156,6 +156,64 @@
     },
     "0b2b993d-62f4-4b29-8ab4-1ea759935f23": {
       "type": "benefits",
+      "blocks": {
+        "f0242a03-ae91-4490-9d86-cab0b1cb59e8": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "The science of pet health and illness",
+            "benefit_desc": "Learn why dogs and cats have cancer and other chronic diseases at alarming rates, with up-to-date information that makes a massive impact on pet health without harming them later."
+          }
+        },
+        "b8f5a422-a545-4be6-9238-0bdc293545ef": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Using food as a healing tool",
+            "benefit_desc": "Food is more than just fuel, and knowing how to give the right kind of fuel, nutrients, and combinations for an individual dog or cat is critical to their health. A pet's best health starts in the bowl."
+          }
+        },
+        "3f54386b-e0bd-4705-8e29-84580b65ea6f": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Dr. Ruth's 30+ years of knowledge",
+            "benefit_desc": "Use Dr. Ruth's 30+ years of knowledge in Traditional Chinese Medicine, Functional Medicine, and conventional veterinary medicine to support your client's pets. Dr. Ruth will have your bach during the program and afterward with coaching calls."
+          }
+        },
+        "bfcdb2a1-1ae3-4d82-892e-e57ab7e93e0e": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Easy-to-follow written plans for your clients",
+            "benefit_desc": "Learn how to develop lifestyle action plans in easy-to-follow and implement steps for your client's pet. Dr. Ruth's proprietary protocols will be at your disposal to make simple, clear, and easy-to-follow written plans for your clients."
+          }
+        },
+        "37036987-acdf-470a-9c13-88becd59238e": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Supplement plans",
+            "benefit_desc": "Learn how to develop safe and effective supplement plans for specific health struggles, using high-quality products at the optimal dose."
+          }
+        },
+        "0909c1a4-1cb2-4061-a9e2-0195769b11ec": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Business Blueprint",
+            "benefit_desc": "You are building a business that serves you and your clients. You'll get a business blueprint with step-by-step guides to set up your coaching practice, market, and create the life you have always wanted."
+          }
+        }
+      },
+      "block_order": [
+        "f0242a03-ae91-4490-9d86-cab0b1cb59e8",
+        "b8f5a422-a545-4be6-9238-0bdc293545ef",
+        "3f54386b-e0bd-4705-8e29-84580b65ea6f",
+        "bfcdb2a1-1ae3-4d82-892e-e57ab7e93e0e",
+        "37036987-acdf-470a-9c13-88becd59238e",
+        "0909c1a4-1cb2-4061-a9e2-0195769b11ec"
+      ],
       "settings": {
         "bhead": "Benefits",
         "bsubhead": "What you will definitely achieve in this course"
