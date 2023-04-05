@@ -549,6 +549,82 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "08bd4137-1e8d-4d49-b887-227278ef56c4": {
+      "type": "coaching_work",
+      "disabled": true,
+      "settings": {
+        "w_head": "",
+        "w_subhead": "",
+        "workbtn": "",
+        "workbtnurl": ""
+      }
+    },
+    "d21f02ea-62bd-46c6-8076-7176048dba79": {
+      "type": "course_slider",
+      "blocks": {
+        "8ffb80ec-b436-41fa-a65c-0ddd927be993": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "See more"
+          }
+        },
+        "28738869-2355-42f1-afec-6608ddbae845": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        },
+        "ffdfdbf7-c8cf-4ce5-af6e-c64559f23021": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        },
+        "92f70e15-b18f-4e27-b4a4-715cac301f4c": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "See more"
+          }
+        },
+        "56db5721-def0-413a-8cdd-dbcb55f150b2": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        }
+      },
+      "block_order": [
+        "8ffb80ec-b436-41fa-a65c-0ddd927be993",
+        "28738869-2355-42f1-afec-6608ddbae845",
+        "ffdfdbf7-c8cf-4ce5-af6e-c64559f23021",
+        "92f70e15-b18f-4e27-b4a4-715cac301f4c",
+        "56db5721-def0-413a-8cdd-dbcb55f150b2"
+      ],
+      "settings": {
+        "coursehead": "General Course Outline",
+        "coursedes": "What you will be taught in the course"
+      }
     }
   },
   "order": [
@@ -564,6 +640,8 @@
     "e07772b4-950c-4165-b739-b426614c98b4",
     "944007ca-ba62-403f-b576-35fbc3bf3b6c",
     "db2d9524-4734-4624-b9ee-87aaa9024165",
-    "8f1dd386-70e7-4807-b51b-853290f6ea71"
+    "8f1dd386-70e7-4807-b51b-853290f6ea71",
+    "08bd4137-1e8d-4d49-b887-227278ef56c4",
+    "d21f02ea-62bd-46c6-8076-7176048dba79"
   ]
 }
