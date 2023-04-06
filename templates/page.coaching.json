@@ -457,8 +457,20 @@
       "settings": {
       }
     },
+    "c2ff712b-ca33-4c77-b74c-a17e8c5e65fd": {
+      "type": "about_image",
+      "settings": {
+        "ahead": "About",
+        "asubhead": "Dr.Ruth",
+        "aboutdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "bannerbtn": "learn more",
+        "bannerurl": "",
+        "aboutimg": "shopify:\/\/shop_images\/Rectangle_8.png"
+      }
+    },
     "db2d9524-4734-4624-b9ee-87aaa9024165": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "50f665d1-da96-48f8-a946-63ba685194ee": {
           "type": "caption",
@@ -695,6 +707,7 @@
     "e64f7efe-6139-4263-b9f8-16419150f58c",
     "e07772b4-950c-4165-b739-b426614c98b4",
     "944007ca-ba62-403f-b576-35fbc3bf3b6c",
+    "c2ff712b-ca33-4c77-b74c-a17e8c5e65fd",
     "db2d9524-4734-4624-b9ee-87aaa9024165",
     "8f1dd386-70e7-4807-b51b-853290f6ea71",
     "08bd4137-1e8d-4d49-b887-227278ef56c4",
