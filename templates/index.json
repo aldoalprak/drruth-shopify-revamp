@@ -224,7 +224,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -427,13 +427,13 @@
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
           "type": "Product",
           "settings": {
-            "product_block": "the-original-crockpet-diet-membership"
+            "product_block": "1986957"
           }
         },
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
           "type": "Product",
           "settings": {
-            "product_block": "the-comprehensive-kidney-health-program-for-dogs-and-cats"
+            "product_block": "the-complete-crockpet-starter-kit-for-large-dogs-1"
           }
         }
       },
@@ -518,7 +518,7 @@
           "type": "button",
           "settings": {
             "button_label": "MY STORY",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/about-us"
           }
         }
       },
@@ -662,7 +662,6 @@
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
-        "color_scheme": "background-1",
         "show_image": true,
         "show_date": true,
         "show_author": false,
