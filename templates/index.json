@@ -69,7 +69,7 @@
         "section_bg_color": "#f5f8f1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 12
+        "padding_bottom": 0
       }
     },
     "b4714d06-abcd-4096-947f-125116149229": {
@@ -209,6 +209,10 @@
       "block_order": [
         "76dc7e44-e714-452c-90af-3dbe388436bb"
       ],
+      "custom_css": [
+        ".rebuy-widget .rebuy-product-block .rebuy-product-actions {display: none; margin: 0 !important;}",
+        ".rebuy-widget {padding: 0 !important;}"
+      ],
       "settings": {
         "include_margins": true
       }
@@ -236,7 +240,7 @@
         "content_alignment": "center",
         "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
@@ -364,7 +368,7 @@
         "content_alignment": "center",
         "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },

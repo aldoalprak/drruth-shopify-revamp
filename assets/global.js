@@ -1051,3 +1051,9 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+// Custom code by 3rd party dev
+const elements = document.getElementsByClassName("powered-by-rebuy");
+while(elements.length > 0){
+  elements[0].parentNode.removeChild(elements[0]);
+}

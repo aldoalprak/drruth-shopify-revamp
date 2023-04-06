@@ -2994,7 +2994,7 @@ details-disclosure > details {
   }
 }
 
-/* custom font by developer */
+/* Custom code by 3rd party dev */
 @font-face {
   font-family: "Josefin Sans";
   src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
@@ -3039,7 +3039,7 @@ details-disclosure > details {
   border: 2px solid #184B44;
   border-radius: 25.5px;
   border-color: #184B44;
-  padding: 12px 20px;
+  padding: 15px 20px;
   letter-spacing: 0.2em;
 }
 
@@ -3061,4 +3061,17 @@ details-disclosure > details {
   letter-spacing: 0.2em;
 }
 
+.rebuy-product-info {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
 
+.rx-icon-cart {
+  width: 2.5rem;
+  height: 2.5rem;
+}
