@@ -121,11 +121,19 @@
     }
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 1000px) {
     #RX_ImageWithText--{{ section.id }} {
       background-color: {{ section.settings.imgText-bg-color }};
       padding-right: 15px;
       padding-left: 15px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    #RX_ImageWithText--{{ section.id }} {
+      background-color: {{ section.settings.imgText-bg-color }};
+      padding-right: 10px;
+      padding-left: 10px;
     }
 
     .rx_read_more_arrow_img_with_text {
