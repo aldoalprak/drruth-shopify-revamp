@@ -200,7 +200,7 @@
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "72530",
+            "id": "82543",
             "product_id_enabled": true,
             "collection_id_enabled": false
           }
@@ -210,7 +210,7 @@
         "76dc7e44-e714-452c-90af-3dbe388436bb"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     },
     "da93e544-9b93-4abc-a278-b99d780db5d3": {
