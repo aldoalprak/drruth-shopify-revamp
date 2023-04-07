@@ -136,8 +136,8 @@
       padding-left: 10px;
     }
 
-    .rx_read_more_arrow_img_with_text {
-      display: none;
+    #RX_ImageWithText--{{ section.id }} .rx_read_more_arrow_img_with_text {
+      display: {% if section.settings.show_arrow_mobile == "no" %} none {% endif %};
     }
 
     .rx-img-with-text__content {
@@ -382,6 +382,22 @@
     {
       "type": "header",
       "content": "Mobile layout"
+    },
+    {
+      "type": "select",
+      "id": "show_arrow_mobile",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "yes",
+      "label": "Show arrow on mobile"
     },
     {
       "type": "select",
