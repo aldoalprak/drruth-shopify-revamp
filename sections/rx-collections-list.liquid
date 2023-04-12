@@ -1,0 +1,257 @@
+
+  <style>
+    #rx-{{ section.id }} {
+      background-color: {{section.settings.background_color}};
+      padding-top: {{section.settings.section_padding_top}}px;
+      padding-bottom: {{section.settings.section_padding_bottom}}px;;
+    }
+
+    #rx-{{ section.id }} .container {
+      margin: auto;
+      max-width: 100rem;
+    }
+
+    #rx-{{ section.id }} .box {
+      transition: all 0.2s;
+      margin-bottom: 30px;
+      width: 50%;
+      float: left;
+    }
+
+    #rx-{{ section.id }} .box:hover {
+      transform: scale(1.05);
+    }
+
+    #rx-{{ section.id }} .box a {
+      height: 90px;
+      display: flex;
+      text-decoration: none;
+      width: 84%;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      background-color: {{ section.settings.card_color }};
+      color: {{ section.settings.text_color }};
+      border-radius: 24px;
+      margin: auto;
+      padding: 12px;
+    }
+
+    #rx-{{ section.id }} #rx-col-icon,
+    #rx-{{ section.id }} svg {
+      width: 48px;
+      height: 49px;
+      margin: auto 20px;
+    }
+
+
+    #rx-{{ section.id }} .collection-2-name-box {
+      display: flex;
+      align-items: center;
+      width: 248px;
+    }
+
+    #rx-{{ section.id }} .collection-2-name-box p {
+      font-family: "Josefin Sans";
+      font-weight: 500;
+      font-size: 18px;
+      color: #1E1E1E;
+      line-height: 20px;
+    }
+
+    #rx-{{ section.id }} #rx-arrow-btn {
+      width: 49px;
+      height: 7px;
+      margin: auto 5px;
+    }
+
+
+    .rx-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 767px) {
+      #rx-{{ section.id }} {
+        padding-top: {{section.settings.section_padding_top_mobile}}px;
+        padding-bottom: {{section.settings.section_padding_bottom_mobile}}px;
+      }
+
+      #rx-{{ section.id }} .box {
+        width: 100%;
+      }
+
+      #rx-{{ section.id }} .box a {
+        width: 80%;
+      }
+    }
+  </style>
+
+<div id="rx-{{ section.id }}" class="rx-{{ section.id }} rx-section rx-collection-collection-02">
+  <div class="container">
+    <div class="rx-row">
+      {%- for block in section.blocks -%}
+        <div class="box">
+          <a href="{{ block.settings.collection.url }}">
+            {%- if block.settings.image -%}
+              <img
+                id="rx-col-icon"
+                src="{{ block.settings.image | img_url: '1080x1080', crop: 'center' }}"
+                alt="{{ block.settings.collection.title  }}"
+                sizes="100%"
+                loading="lazy"
+                width="500"
+                height="500"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%}
+
+            <div class="collection-2-name-box">
+              <p>
+                {{ block.settings.collection_title }}
+              </p>
+            </div>
+        
+            <img id="rx-arrow-btn" src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Arrow_2.png?v=1679486420">
+           
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "RX-Collection List",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card color",
+      "default": "#fafafa"
+    },
+    {
+      "type": "color",
+      "label": "Text color",
+      "id": "text_color",
+      "default": "#000"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Collection",
+      "name": "collection item",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Slide Collection"
+        },
+        {
+          "type": "text",
+          "id": "collection_title",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+
+        {
+          "type": "header",
+          "content": "Tips: Upload transparent and squared image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Upload image",
+          "info": "Tips: Use transparent png images (ratio 1:1 ) for best effect. Equal sized are recommended."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "RX-Collection List",
+      "blocks": [
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,290 @@
+{% include 'rx-testimonial-settings' %}
+
+{{ 'rx-podcast-list.css' | asset_url | stylesheet_tag }}
+
+<style>
+  {{ section.settings.title_font | font_face }}
+  {{ section.settings.font | font_face }}
+  {{ section.settings.font | font_modify: 'weight', 'bolder' | font_face }}
+
+  #shopify-section-{{ section.id }} .rx-wrapper {
+    max-width: {{ section.settings.desktopMaxWidth }};
+  }
+
+  .rx-podcast-list-container {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: {{section.settings.container_bgcolor}};
+  }
+
+
+  .rx-podcast-list-item-testimonial {
+    text-align: left;
+  }
+
+  .slider-links {
+    text-decoration: none;
+  }
+
+  .rx-product-description .rx-product-title {
+    color: {{section.settings.title_color}}
+  }
+
+  .rx-product-description .rx-published-date {
+    color: {{section.settings.price_color}}
+  }
+
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} .rx-wrapper {
+      max-width: {{ section.settings.tabletMaxWidth }};
+    }
+  }
+
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} .rx-wrapper {
+      max-width: {{ section.settings.mobileMaxWidth }};
+    }
+  }
+
+  #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+    width: calc(100% / {{ section.settings.desktopColumns }});
+    flex: 0 0 calc(100% / {{ section.settings.desktopColumns }});
+  }
+  
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+      width: calc(100% / {{ section.settings.tabletColumns }});
+      flex: 0 0 calc(100% / {{ section.settings.tabletColumns }});
+    }
+  }
+  
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+      width: calc(100% / 1);
+      flex: 0 0 calc(100% / 1);
+    }
+  }
+
+  
+</style>
+
+<div class="rx-podcast-list-container">
+  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-podcast-list rx-podcast-list-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1">
+
+    <div class="rx-podcast-list-list-container">
+      <div class="rx-slider-list rx-podcast-list-list">
+        {%- for block in section.blocks -%}
+          <div class="rx-slider-item rx-podcast-list-item" {{ block.shopify_attributes }}>
+            {% capture slide_content %}
+              <div class="rx-podcast-list-item-inner">   
+                {%- if block.settings.image -%}
+                  {% comment %} {{
+                    block.settings.product_block.featured_image
+                    | image_url: width: 338, height: 190
+                    | image_tag: loading: 'lazy', class: 'cover-image', alt: block.settings.product_block.title
+                  }} {% endcomment %}
+                  <img 
+                    src="{{block.settings.image | image_url: width: 338, height: 190}}"
+                    sizes="100%"
+                    loading="lazy"
+                  >
+                {%- else -%}
+                  {{ 'product-5' | placeholder_svg_tag }}
+                {%- endif -%}
+                
+
+                <div class="rx-product-description">
+                  <div class="rx-product-title">
+                    {% if block.settings.podcast_title %}
+                      {{ block.settings.podcast_title }}
+                    {% else %}
+                      Podcast Title
+                    {% endif %}
+                  </div>
+                  
+                  <div class="rx-published-date">
+                    {% if block.settings.published_date %}
+                      {{ block.settings.published_date }}
+                    {% else %}
+                      Published Date
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endcapture%}
+            {% if block.settings.podcast_url != blank %}
+              <a class="slider-links" href="{{block.settings.podcast_url}}" target="_blank">
+                {{ slide_content }}
+              </a>
+            {% else %}
+              {{ slide_content }}
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </rx-slider>
+</div>
+
+{% schema %}
+{
+  "name": "RX-Podcast",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "font_picker",
+      "id": "title_font",
+      "label": "Title Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "label": "Title Font Size",
+      "default": 40,
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "font_picker",
+      "id": "font",
+      "label": "Text Font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "select",
+      "id": "desktopColumns",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "default": "3",
+      "label": "Columns on desktop"
+    },
+    {
+      "type": "select",
+      "id": "tabletColumns",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "label": "Columns on tablet",
+      "default": "2"
+    },
+    {
+      "type": "text",
+      "id": "desktopMaxWidth",
+      "default": "100%",
+      "label": "Max width on desktop",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "tabletMaxWidth",
+      "label": "Max width on tablet",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "mobileMaxWidth",
+      "label": "Max width on mobile",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_hide_arrow",
+      "default": false,
+      "label": "Auto hide arrow"
+    },
+    {
+      "type": "color",
+      "id": "container_bgcolor",
+      "default": "#fff",
+      "label": "Container Background Color"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "default": "#000",
+      "label": "Title Color"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "default": "#000",
+      "label": "Price Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Podcast",
+      "name": "Podcast Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Upload image",
+          "info": "Tips: use 338px x 190px image size"
+        },
+        {
+          "type": "text",
+          "id": "podcast_title",
+          "label": "Title",
+          "default": "Podcast Title"
+        },
+        {
+          "type": "text",
+          "id": "published_date",
+          "label": "Published Date",
+          "default": "Published Date"
+        },
+        {
+          "type": "text",
+          "id": "podcast_url",
+          "label": "Podcast URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "RX-Podcast",
+      "blocks": [
+        {
+          "type": "Podcast"
+        },
+        {
+          "type": "Podcast"
+        },
+        {
+          "type": "Podcast"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
