@@ -205,6 +205,70 @@
         "textdesc3": "By becoming a certified Holistic Pet Health Coach, you  may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting pets with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each pet, and lifestyle coaching to help pets thrive and live healthier, happier lives.Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
         "about2img2": "shopify:\/\/shop_images\/Image_2.png"
       }
+    },
+    "8bf8345c-cddb-467d-a299-f38120a69953": {
+      "type": "coachingmainblog",
+      "blocks": {
+        "e2ed60d1-59d8-4ab5-b7de-2a43e2c3232a": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Comprehensive Training",
+            "c_desc": "We help you develop the knowledge and skills you need to provide effective and compassionate care for pets."
+          }
+        },
+        "b45b8fa9-605d-470a-9432-323811a80330": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Personalized Learning",
+            "c_desc": "We can help you develop a unique niche in the field and differentiate yourself from other professionals.​"
+          }
+        },
+        "3cf0b3be-eee0-4e6b-ac2f-1ed312372317": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "One-to-One Mentorship",
+            "c_desc": "We support you through the program by offering weekly mentorship sessions over the duration of the program (16 weeks) with the mentor assigned to you by Dr.Ruth."
+          }
+        },
+        "6a1a089f-6303-414e-9bc9-438fde3ad06d": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Networking Opportunities",
+            "c_desc": "Network with other professionals in the field and build relationships that can help you grow your business and advance your career."
+          }
+        },
+        "0f2ed1d8-a230-44df-89e7-5b2f784e11e1": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Personal Fulfillment",
+            "c_desc": "Help pets live healthier, happier lives, and provide owners with the guidance and support they need to make informed decisions about their pets' health."
+          }
+        },
+        "75212e61-ef38-4323-b6ce-d70e8a0a5b3a": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "In-Demand Career",
+            "c_desc": "As pet ownership continues to rise, so does the demand for qualified professionals who can offer holistic, integrative approaches to pet health."
+          }
+        }
+      },
+      "block_order": [
+        "e2ed60d1-59d8-4ab5-b7de-2a43e2c3232a",
+        "b45b8fa9-605d-470a-9432-323811a80330",
+        "3cf0b3be-eee0-4e6b-ac2f-1ed312372317",
+        "6a1a089f-6303-414e-9bc9-438fde3ad06d",
+        "0f2ed1d8-a230-44df-89e7-5b2f784e11e1",
+        "75212e61-ef38-4323-b6ce-d70e8a0a5b3a"
+      ],
+      "settings": {
+        "c_head": ""
+      }
     }
   },
   "order": [
@@ -214,6 +278,7 @@
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
-    "5d6ce464-4822-4265-978d-865c15a291eb"
+    "5d6ce464-4822-4265-978d-865c15a291eb",
+    "8bf8345c-cddb-467d-a299-f38120a69953"
   ]
 }
