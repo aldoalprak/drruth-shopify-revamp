@@ -377,6 +377,43 @@
     },
     "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05": {
       "type": "program_fees",
+      "blocks": {
+        "af39ebc3-112c-49f9-ab4d-8d7a17a1de26": {
+          "type": "block",
+          "settings": {
+            "cost_head": "1<br>Advanced Payment",
+            "cost_price": "$5000",
+            "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
+            "cost_btn": "Apply Now",
+            "cost_btnurl": ""
+          }
+        },
+        "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
+          "type": "block",
+          "settings": {
+            "cost_head": "4<br>Monthly Installments",
+            "cost_price": "$1500 \/ 4 months",
+            "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
+            "cost_btn": "Apply Now",
+            "cost_btnurl": ""
+          }
+        },
+        "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
+          "type": "block",
+          "settings": {
+            "cost_head": "16<br>Weekly Installments",
+            "cost_price": "$367 \/ 15 week",
+            "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
+            "cost_btn": "Apply Now",
+            "cost_btnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "af39ebc3-112c-49f9-ab4d-8d7a17a1de26",
+        "04fdc4ce-fab1-4f25-aeb0-b2f038700b89",
+        "5840cdfe-58d3-4503-87a5-a0b4415826dd"
+      ],
       "settings": {
         "pro_head": "Program Fees ",
         "pro_desc": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints.",
