@@ -306,6 +306,74 @@
         "moduledesc": "Learn how to use a variety of modalities and resources to find the right healing protocol for each pet. This certification will qualify you to work with animals in the holistic health sector by promoting a more natural approach to wellness and health. As a certified holistic pet health coach, you will have the skills and knowledge to create customized wellness plans for pets and their owners and help them achieve optimal health through natural methods and remedies. ",
         "moduledesc1": "In addition to the coursework, you'll participate in two integration weeks, where you'll have the opportunity to practice your skills to develop your knowledge and understanding of holistic pet care. These integration weeks provide a valuable opportunity to gain hands-on experience in the field."
       }
+    },
+    "fad21f59-0695-4b4c-bb8a-ce71573b549d": {
+      "type": "pet_advice",
+      "disabled": true,
+      "blocks": {
+        "412e195d-9ccf-45bf-8988-0f2c0db9f77b": {
+          "type": "collection",
+          "settings": {
+            "courtext": "",
+            "linktext": "",
+            "linkiid": "",
+            "linktextbtn": ""
+          }
+        }
+      },
+      "block_order": [
+        "412e195d-9ccf-45bf-8988-0f2c0db9f77b"
+      ],
+      "settings": {
+        "coursehead": "",
+        "moreadviceid": "",
+        "moreadvicebtn": ""
+      }
+    },
+    "2baece1e-b3a3-41f8-b488-7eb4762ccade": {
+      "type": "Certified_Coaches",
+      "blocks": {
+        "38195b89-c865-4325-9e62-7666ddf91009": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "Michael Daly"
+          }
+        },
+        "604c309d-b3da-4af9-96fe-bd624e1c5de9": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "Jessica Fisher"
+          }
+        },
+        "a99c73b3-f826-4c94-b567-dbe5fb4d43e3": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "Amanda Delgado"
+          }
+        },
+        "862bb4c9-9a88-4417-b839-8bcef59174be": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "Michael Daly"
+          }
+        }
+      },
+      "block_order": [
+        "38195b89-c865-4325-9e62-7666ddf91009",
+        "604c309d-b3da-4af9-96fe-bd624e1c5de9",
+        "a99c73b3-f826-4c94-b567-dbe5fb4d43e3",
+        "862bb4c9-9a88-4417-b839-8bcef59174be"
+      ],
+      "settings": {
+        "testhead": "Our Certified Coaches",
+        "testdes": "Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. ",
+        "coachbtn": "Book A Consultation",
+        "coachurl": ""
+      }
     }
   },
   "order": [
@@ -318,6 +386,8 @@
     "5d6ce464-4822-4265-978d-865c15a291eb",
     "8bf8345c-cddb-467d-a299-f38120a69953",
     "4757daba-bf88-4168-8ec3-278701d02b56",
-    "956967f3-b758-4069-9de9-97161c47dbc6"
+    "956967f3-b758-4069-9de9-97161c47dbc6",
+    "fad21f59-0695-4b4c-bb8a-ce71573b549d",
+    "2baece1e-b3a3-41f8-b488-7eb4762ccade"
   ]
 }
