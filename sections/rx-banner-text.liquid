@@ -1,22 +1,24 @@
 <style>
   .rx-{{section.id}} {
     max-width: 100%; 
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .rx-{{section.id}} .container {
     display: flex;
+    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%}
   }
 
   .rx-{{section.id}} .container .rx-image {
     max-width: 600px;
-    width: 40%;
+    width: 45%;
   }
 
   .rx-{{section.id}} .container .rx-text {
-    width: 60%;
+    width: 55%;
     padding-left: 40px;
-    padding-right: 15rem;
+    padding-right: 10rem;
+    margin: auto;
   }
 
   .rx-{{section.id}}  .rx-text .heading {
@@ -48,6 +50,7 @@
     line-height: 30px;
     color: #1E1E1E;
     margin: 0;
+    text-align: justify;
   }
 
   @media screen and (max-width: 770px) {
@@ -76,7 +79,13 @@
 
 <div class="rx-{{section.id}}">
   <div class="container">
-    <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/>
+    <img
+      class="rx-image"
+      src="{{ section.settings.rx_image_banner | img_url: '1080x1080', crop: 'center' }}"
+      sizes="100%"
+      loading="lazy"
+    >
+    {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
       
     <div class="rx-text">
       <p class="heading">{{section.settings.heading}}</p>
@@ -110,9 +119,26 @@
         "label": "Caption"
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "content",
         "label": "Content"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "image_first",
+            "label": "Image First"
+          },
+          {
+            "value": "text_first",
+            "label": "Text First"
+          }
+        ],
+        "default": "image_first",
+        "label": "Layout",
+        "info": "t:sections.image-with-text.settings.layout.info"
       }
     ],
     "presets": [

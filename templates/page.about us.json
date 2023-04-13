@@ -106,7 +106,8 @@
         "rx_image_banner": "shopify:\/\/shop_images\/aboutRuth.jpg",
         "heading": "Meet Dr. Ruth",
         "caption": "The Holistic Pet Coach Who is Changing the Way We Care for Our Furry Friends",
-        "content": "After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine."
+        "content": "<p>After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine.<\/p>",
+        "layout": "image_first"
       }
     },
     "81fb0bf7-19b9-4a02-8459-cc96b63dea4f": {
@@ -159,6 +160,56 @@
       ],
       "settings": {
       }
+    },
+    "f60fcd36-95e3-42dc-83ea-518aef727035": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A Holistic Approach to Veterinary Medicine<\/p>"
+          }
+        },
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>My goal is to revolutionize pet care and change the way we approach animal health. With my expertise and compassionate approach, I am dedicated to helping all of my furry patients live their best lives.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0",
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "c14f4184-291e-442c-8c6f-30a2abebcd37": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth1.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>As a veterinarian, I have always been driven by a passion for animal health and wellness. However, it became clear to me that relying solely on traditional Western Medicine was not enough to fully address all of my furry patients' health issues. This realization led me to specialize in acupuncture for pets and Eastern Veterinary Medicine. During my journey, I also created The Original CrockPET Diet™, a healthy pet food diet that I recommend to all my clients.<br\/><br\/>My approach to holistic veterinary care is based on natural, holistic remedies, such as acupuncture, herbal therapy, and food therapy. These alternative methods have allowed me to successfully treat a wide range of ailments and help many pets recover and maintain optimal health. While I recognize the importance of Western Medicine, I also use it only when necessary to treat infections and illnesses that cannot be resolved with natural remedies.<\/p>",
+        "layout": "image_first"
+      }
+    },
+    "ad2b506a-a006-4757-abea-111ff8635172": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth1.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>I am passionate about sharing my knowledge and experience of holistic veterinary medicine with other veterinary professionals and dogs and cats’ parents. That's why I have created courses and a coaching program to share my knowledge and experience, with the aim of reaching more people and helping more pets. The courses are designed to provide comprehensive training for veterinarians, veterinary technicians, and pet owners who want to learn about holistic veterinary medicine and how to integrate it into their pets' care.<\/p>",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -166,6 +217,9 @@
     "1a5dedc7-619e-4d76-af24-3059fc78e784",
     "4c92241d-f2d2-456b-8160-4fa8e392484c",
     "09b0af44-a9f1-4a92-a2d0-9addd848789b",
-    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f"
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f",
+    "f60fcd36-95e3-42dc-83ea-518aef727035",
+    "c14f4184-291e-442c-8c6f-30a2abebcd37",
+    "ad2b506a-a006-4757-abea-111ff8635172"
   ]
 }
