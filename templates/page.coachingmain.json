@@ -374,6 +374,14 @@
         "coachbtn": "Book A Consultation",
         "coachurl": ""
       }
+    },
+    "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05": {
+      "type": "program_fees",
+      "settings": {
+        "pro_head": "Program Fees ",
+        "pro_desc": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints.",
+        "pro_desc1": "By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!"
+      }
     }
   },
   "order": [
@@ -388,6 +396,7 @@
     "4757daba-bf88-4168-8ec3-278701d02b56",
     "956967f3-b758-4069-9de9-97161c47dbc6",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
-    "2baece1e-b3a3-41f8-b488-7eb4762ccade"
+    "2baece1e-b3a3-41f8-b488-7eb4762ccade",
+    "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05"
   ]
 }
