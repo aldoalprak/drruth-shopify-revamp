@@ -153,6 +153,48 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "b13a7b3e-709c-47aa-b070-2d93f659adca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Become a Certified Holistic Pet Health Coach Dr. Ruth Roberts. <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Guide pet owners towards natural and holistic health solutions for their beloved animals as a certified pet health coach.<\/p>"
+          }
+        },
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-0",
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-1",
+        "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -160,6 +202,7 @@
     "newsletter",
     "1655751929e34d4e57",
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
-    "2681002e-3476-48db-92c0-2576d4ecdb80"
+    "2681002e-3476-48db-92c0-2576d4ecdb80",
+    "b13a7b3e-709c-47aa-b070-2d93f659adca"
   ]
 }
