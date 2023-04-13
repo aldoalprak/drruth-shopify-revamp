@@ -40,6 +40,16 @@
     word-break: break-word;
   }
 
+  .rx_rich-text__caption {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    text-align: {{section.settings.caption_alignment}} !important;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -61,7 +71,7 @@
               </h2>
             {%- when 'caption' -%}
               <p
-                class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}"
+                class="rx_rich-text__caption"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
@@ -108,6 +118,22 @@
         {%- endfor -%}
       </div>
     </div>
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'image_picker' -%}
+          {%- if block.settings.image != blank -%}
+            <div class="page-width">
+              {{
+                block.settings.image
+                | image_url: width: 1000
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+              }}
+          </div>
+          {%- endif -%}
+      {%- endcase -%}
+  {%- endfor -%}
   </div>
 </div>
 
@@ -160,6 +186,26 @@
       ],
       "default": "center",
       "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "caption_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "Caption Alignment"
     },
     {
       "type": "color",
@@ -222,42 +268,6 @@
           "id": "caption",
           "default": "Add a tagline",
           "label": "t:sections.rich-text.blocks.caption.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "subtitle",
-              "label": "t:sections.rich-text.blocks.caption.settings.text_style.options__1.label"
-            },
-            {
-              "value": "caption-with-letter-spacing",
-              "label": "t:sections.rich-text.blocks.caption.settings.text_style.options__2.label"
-            }
-          ],
-          "default": "caption-with-letter-spacing",
-          "label": "t:sections.rich-text.blocks.caption.settings.text_style.label"
-        },
-        {
-          "type": "select",
-          "id": "text_size",
-          "options": [
-            {
-              "value": "small",
-              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__1.label"
-            },
-            {
-              "value": "medium",
-              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__2.label"
-            },
-            {
-              "value": "large",
-              "label": "t:sections.rich-text.blocks.caption.settings.caption_size.options__3.label"
-            }
-          ],
-          "default": "medium",
-          "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
         }
       ]
     },
@@ -313,6 +323,18 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
         }
       ]
     }
