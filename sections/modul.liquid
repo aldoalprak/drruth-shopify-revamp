@@ -1,0 +1,42 @@
+  <div class="cmax_container">
+         <div class="modulecontent">
+                <h2 class="moduletext">{{section.settings.m_head}}</h2>
+                <h2 class="moduledesc">{{section.settings.m_des}}</h2>
+         </div>
+           <div class="flex-fees">
+                   <p class="pfeesdec">{{section.settings.moduledesc}}</p>
+                   <p class="pfeesdec">{{section.settings.moduledesc1}}</p>
+            </div>
+  </div>
+{% schema %}
+  {
+    "name": "module",
+    "settings": [
+          {
+    "type": "text",
+    "id": "m_head",
+    "label": "Heading"
+      },   {
+    "type": "text",
+    "id": "m_des",
+    "label": "Description"
+      },
+      {
+         "type": "text",
+      "id": "moduledesc",
+      "label": "Description"
+    },{
+         "type": "text",
+      "id": "moduledesc1",
+      "label": "Description"
+    }
+      
+    ],
+   
+    "presets": [
+    {
+    "name": "module"
+    }
+    ]
+  }
+{% endschema %}

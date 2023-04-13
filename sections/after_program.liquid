@@ -1,0 +1,66 @@
+<div class="publickbg">
+    <div class="cmax_container publicflex">
+        <div class="programtext">
+            <h2>{{section.settings.programhead}}</h2>
+        </div>
+        <div class="programflex">
+             {% for block in section.blocks %}
+                <div class="program50">
+                    <h2 class="programheadtext">{{block.settings.aftertext}}</h2>
+                    <p class="programdestext">{{block.settings.afterdesc}}</p>
+                </div>
+               {% endfor %}
+        </div>
+        <div class="blogbodrafter">
+            <a href="{{section.settings.program_link }}" class="btnspace">{{section.settings.pro_btn }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#1E1E1E"/>
+            </svg></a>
+        </div> 
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "after_program",
+    "settings": [
+          {
+    "type": "text",
+    "id": "programhead",
+    "label": "Heading"
+      },
+      {
+        "type": "text",
+    "id": "pro_btn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "program_link",
+    "label": "Button Link"
+       }
+    ],
+    "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+     
+         {
+    "type": "text",
+    "id": "aftertext",
+    "label": "Heading"
+      },
+       {
+    "type": "text",
+    "id": "afterdesc",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "after_program"
+    }
+    ]
+  }
+{% endschema %}

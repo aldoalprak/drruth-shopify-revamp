@@ -3604,7 +3604,7 @@ iframe#video {
 
 }
 i.fa.fa-angle-left ,i.fa.fa-angle-right{
-  font-size: 25px;
+  font-size: 40px;
   color: #3C4467;
 }
 .bannerbtn {
@@ -3620,6 +3620,7 @@ margin-top: 4%;
 }
 .testvideo {
   width: 32.5%;
+  position: relative;
 }
 iframe#testvideo {
   width: 100%;
@@ -3627,12 +3628,13 @@ iframe#testvideo {
   border-radius: 12px;
 }
 .testwidth {
-  position: relative;
+  position: absolute;
   background: #FFFFFF;
   border-radius: 24px 24px 0px 0px;
   width: 80%;
   margin: 0 auto;
-  bottom: 16%;
+  bottom:-3%;
+  left:15%;
 }
 h3.testides {
   font-family: 'Josefin Sans';
@@ -4145,4 +4147,359 @@ color: #131620;
 .workblock{
   transition: all 0.2s;
   box-shadow: rgba(149, 157, 165, 0.2)0px 8px 14px;
+}
+/*coaching main page start*/
+.mbannerimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+h2.mbannertext{
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+h2.mbannerdes{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.textspace {
+  width: 70%;
+  margin: 0 0 0 auto;
+  padding: 10% 13%;
+}
+.imgdflex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.text60 {
+  width: 60%;
+}
+.text40 {
+  width: 40%;
+}
+p.certified ,p.certified2 {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+  padding: 3% 10%;
+}
+p.certified2 {
+  padding-top: 0;
+}
+.c_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexwidth2 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+.flex-fees {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+p.pfeesdec {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+    text-align: left;
+    margin: 15px 0 25px 0;
+    padding: 0px 4%;
+    width: 50%;
+}
+.costpart1 h2 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E1E1E;
+  border-bottom: 1px solid #184B44;
+}
+.costpart1 h3 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  color: #184B44;
+  text-align: center;
+}
+.costpart1 p {
+ font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+}
+.blogbodr1 a {
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  padding: 14px 26px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.costpart1 {
+  background: #FFFFFF;
+  border: 2px solid #184B44;
+  border-radius: 24px;
+  padding: 2% 4%;
+  width: 30%;
+  position: relative;
+}
+.blogbodr1 {
+  position: absolute;
+  bottom: 10%;
+}
+.course_detail1 {
+  font-family: 'Oakley Script';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 57px;
+letter-spacing: 0.02em;
+color: #184B44;
+    text-align: center;
+}
+.course_flex{
+  width: 90%;
+  margin: 0 auto;
+}
+.advice_btn {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+}
+a.linkpagge {
+  text-decoration: none;
+  padding-left: 8%;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.programtext h2 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  color: #184B44;
+  padding: 4% 0 0% 0;
+  text-align: center;
+}
+.program50 {
+  background: #FFFFFF;
+  border-radius: 24px;
+  width: 46%;
+  margin: 0 auto;
+  padding: 2%;
+}
+h2.programheadtext {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #184B44;
+}
+p.programdestext {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+  padding: 2% 7%;
+}
+  .programflex {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.blogbodrafter {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    display: inline-block;
+    margin: 3% 0;
+    padding: 5px 20px;
+}
+.blogbodrafter a.btnspace {
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  padding: 20px 20px;
+}
+.publicflex{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2.moduletext {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  text-align: center;
+}
+h2.moduledesc {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  color: #184B44;
+  text-align: center;
+}
+.testimonialflex1{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.testvideo{
+  margin: 0 20px;
+}
+button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
+  top: 30%;
+  position: absolute;
+  left: -4%;
+}
+button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+  background: none;
+  border: none;
+}
+button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+  position: absolute;
+  top: 30%;
+  right: -4%;
+}
+h3.certifiedtext{
+    width: 70%;
+    margin: 2% auto;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E1E1E;
+}
+.blogbodr2 a {
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  padding: 14px 26px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.blogbodr2 {
+  position: relative;
+  bottom: 10%;
+  padding: 3% 0;
+  display: flex;
+  justify-content: center;
+}
+h2.previewtext1 {
+ 
+  text-align: left;
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+}
+h3.peviewsub1 {
+
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #1E1E1E;
+}
+.bannerbtn1 a {
+
+  text-decoration: none;
+
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.bannerbtn1 {
+ display: inline;
+ padding: 10px 26px;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+}
+@media only screen and (max-width: 620px) {
+  p.pfeesdec{
+    width: 100%;
+  }
 }
