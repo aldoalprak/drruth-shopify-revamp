@@ -195,6 +195,16 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5d6ce464-4822-4265-978d-865c15a291eb": {
+      "type": "img_with_text2",
+      "settings": {
+        "textdesc": "Certified Holistic Pet Health Coaches are trained professionals who specialize in providing guidance and support to pet owners in achieving optimal health and well-being for their pets using holistic, integrative and natural approaches. These coaches have an understanding of the various factors that impact pet health, such as nutrition, exercise, emotional health, and environmental factors. ",
+        "about2img": "shopify:\/\/shop_images\/Image_1.png",
+        "textdesc2": "",
+        "textdesc3": "By becoming a certified Holistic Pet Health Coach, you  may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting pets with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each pet, and lifestyle coaching to help pets thrive and live healthier, happier lives.Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
+        "about2img2": "shopify:\/\/shop_images\/Image_2.png"
+      }
     }
   },
   "order": [
@@ -203,6 +213,7 @@
     "1655751929e34d4e57",
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
-    "b13a7b3e-709c-47aa-b070-2d93f659adca"
+    "b13a7b3e-709c-47aa-b070-2d93f659adca",
+    "5d6ce464-4822-4265-978d-865c15a291eb"
   ]
 }
