@@ -108,12 +108,64 @@
         "caption": "The Holistic Pet Coach Who is Changing the Way We Care for Our Furry Friends",
         "content": "After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine."
       }
+    },
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f": {
+      "type": "rx-list-component",
+      "blocks": {
+        "ca8dfa28-dce9-4131-bd91-675d5427991e": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "a753ac19-9be2-475d-8234-62bc15299e62": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "9fe41f38-6a53-4888-a340-72395aaa6d91": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "a9939e24-aee4-4635-8a36-de8ef251bae5": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        }
+      },
+      "block_order": [
+        "ca8dfa28-dce9-4131-bd91-675d5427991e",
+        "a753ac19-9be2-475d-8234-62bc15299e62",
+        "9fe41f38-6a53-4888-a340-72395aaa6d91",
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5",
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b",
+        "a9939e24-aee4-4635-8a36-de8ef251bae5"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "3e98218a-fd5c-46db-9414-adedcca49c46",
     "1a5dedc7-619e-4d76-af24-3059fc78e784",
     "4c92241d-f2d2-456b-8160-4fa8e392484c",
-    "09b0af44-a9f1-4a92-a2d0-9addd848789b"
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b",
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f"
   ]
 }
