@@ -99,11 +99,21 @@
       ],
       "settings": {
       }
+    },
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/aboutRuth.jpg",
+        "heading": "Meet Dr. Ruth",
+        "caption": "The Holistic Pet Coach Who is Changing the Way We Care for Our Furry Friends",
+        "content": "After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine."
+      }
     }
   },
   "order": [
     "3e98218a-fd5c-46db-9414-adedcca49c46",
     "1a5dedc7-619e-4d76-af24-3059fc78e784",
-    "4c92241d-f2d2-456b-8160-4fa8e392484c"
+    "4c92241d-f2d2-456b-8160-4fa8e392484c",
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b"
   ]
 }
