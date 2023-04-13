@@ -297,6 +297,15 @@
         "pro_btn": "Apply Now",
         "program_link": ""
       }
+    },
+    "956967f3-b758-4069-9de9-97161c47dbc6": {
+      "type": "modul",
+      "settings": {
+        "m_head": "What Will You Learn ",
+        "m_des": "Program modules",
+        "moduledesc": "Learn how to use a variety of modalities and resources to find the right healing protocol for each pet. This certification will qualify you to work with animals in the holistic health sector by promoting a more natural approach to wellness and health. As a certified holistic pet health coach, you will have the skills and knowledge to create customized wellness plans for pets and their owners and help them achieve optimal health through natural methods and remedies. ",
+        "moduledesc1": "In addition to the coursework, you'll participate in two integration weeks, where you'll have the opportunity to practice your skills to develop your knowledge and understanding of holistic pet care. These integration weeks provide a valuable opportunity to gain hands-on experience in the field."
+      }
     }
   },
   "order": [
@@ -308,6 +317,7 @@
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
     "5d6ce464-4822-4265-978d-865c15a291eb",
     "8bf8345c-cddb-467d-a299-f38120a69953",
-    "4757daba-bf88-4168-8ec3-278701d02b56"
+    "4757daba-bf88-4168-8ec3-278701d02b56",
+    "956967f3-b758-4069-9de9-97161c47dbc6"
   ]
 }
