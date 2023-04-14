@@ -10,15 +10,17 @@
   }
 
   .rx-{{section.id}} .container .rx-image {
-    max-width: 600px;
+    max-width: 630px;
+    max-height: 430px;
     width: 45%;
   }
 
   .rx-{{section.id}} .container .rx-text {
     width: 55%;
-    padding-left: 40px;
-    padding-right: 10rem;
+    padding-left: {% if section.settings.layout == "text_first" %} 10rem {%else%} 40px {%endif%};
+    padding-right: {% if section.settings.layout == "text_first" %} 40px {%else%} 10rem {%endif%};;
     margin: auto;
+    text-align: justify;
   }
 
   .rx-{{section.id}}  .rx-text .heading {
@@ -50,10 +52,9 @@
     line-height: 30px;
     color: #1E1E1E;
     margin: 0;
-    text-align: justify;
   }
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 950px) {
     .rx-{{section.id}} .container {
       flex-direction: column;
     } 
@@ -81,20 +82,21 @@
   <div class="container">
     <img
       class="rx-image"
-      src="{{ section.settings.rx_image_banner | img_url: '1080x1080', crop: 'center' }}"
+      src="{{ section.settings.rx_image_banner | image_url: width: 1500, crop: 'center' }}"
       sizes="100%"
       loading="lazy"
     >
     {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
       
     <div class="rx-text">
-      <p class="heading">{{section.settings.heading}}</p>
+      <p class="heading">{{section.settings.heading }}</p>
       <p class="caption">{{section.settings.caption}}</p>
-      <p class="content">{{section.settings.content}}</p>
+      <p class="content">{{section.settings.content | replace: 'p>', 'span>'}}</p>
+      <br>
+      <p class="content">{{section.settings.content2 | replace: 'p>', 'span>'}}</p>
     </div>
   </div>
 </div>
-
 
 
 {% schema %}
@@ -121,7 +123,12 @@
       {
         "type": "richtext",
         "id": "content",
-        "label": "Content"
+        "label": "First Content"
+      },
+      {
+        "type": "richtext",
+        "id": "content2",
+        "label": "Second Content"
       },
       {
         "type": "select",
