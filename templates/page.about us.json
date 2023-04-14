@@ -67,24 +67,24 @@
         "padding_bottom": 20
       }
     },
-    "4c92241d-f2d2-456b-8160-4fa8e392484c": {
-      "type": "celebration",
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b": {
+      "type": "rx-celebration",
       "blocks": {
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-0": {
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0": {
           "type": "text",
           "settings": {
             "rx_celeb_textbox_1": "35+",
             "rx_celeb_textbox_2": "Years of saving pet live"
           }
         },
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-1": {
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1": {
           "type": "text",
           "settings": {
             "rx_celeb_textbox_1": "100+",
             "rx_celeb_textbox_2": "Successful Students"
           }
         },
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-2": {
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2": {
           "type": "text",
           "settings": {
             "rx_celeb_textbox_1": "30.000+",
@@ -93,9 +93,9 @@
         }
       },
       "block_order": [
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-0",
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-1",
-        "template--14898486247489__4c92241d-f2d2-456b-8160-4fa8e392484c-16813722391ba3950d-2"
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2"
       ],
       "settings": {
       }
@@ -123,31 +123,25 @@
         "a753ac19-9be2-475d-8234-62bc15299e62": {
           "type": "text",
           "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
+            "maintext": "Certified Veterinary Food Therapy (CVFT)"
           }
         },
         "9fe41f38-6a53-4888-a340-72395aaa6d91": {
           "type": "text",
           "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
+            "maintext": "Certified Veterinary Acupuncturist (CVA)"
           }
         },
         "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5": {
           "type": "text",
           "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
+            "maintext": "Natural Animal Nutrition (NAN)"
           }
         },
         "40f8a5be-52bb-4753-848a-d6031b4ce24b": {
           "type": "text",
           "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
-          }
-        },
-        "a9939e24-aee4-4635-8a36-de8ef251bae5": {
-          "type": "text",
-          "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
+            "maintext": "Certified Veterinary Chinese Herbology (CVH)"
           }
         }
       },
@@ -156,8 +150,7 @@
         "a753ac19-9be2-475d-8234-62bc15299e62",
         "9fe41f38-6a53-4888-a340-72395aaa6d91",
         "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5",
-        "40f8a5be-52bb-4753-848a-d6031b4ce24b",
-        "a9939e24-aee4-4635-8a36-de8ef251bae5"
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b"
       ],
       "settings": {
       }
@@ -224,17 +217,41 @@
         "content2": "<p>By completing this program, graduates can become certified holistic pet health coaches and help pet parents create customized health and wellness plans for their pet pals. I am excited to continue spreading the knowledge and benefits of holistic veterinary medicine to help more pets live their best lives.<\/p>",
         "layout": "text_first"
       }
+    },
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a": {
+      "type": "rx-banner-text-v2",
+      "blocks": {
+        "61aab889-2c05-483a-9481-38422110e130": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "61aab889-2c05-483a-9481-38422110e130"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth3.jpg",
+        "heading": "",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<br\/><\/p>",
+        "content2": "",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "3e98218a-fd5c-46db-9414-adedcca49c46",
     "1a5dedc7-619e-4d76-af24-3059fc78e784",
-    "4c92241d-f2d2-456b-8160-4fa8e392484c",
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b",
     "09b0af44-a9f1-4a92-a2d0-9addd848789b",
     "81fb0bf7-19b9-4a02-8459-cc96b63dea4f",
     "f60fcd36-95e3-42dc-83ea-518aef727035",
     "bd7ea1b0-5c57-4106-a7e6-a09658dca609",
     "ad2b506a-a006-4757-abea-111ff8635172",
-    "c9a2c67f-3a6d-403f-878a-60e098bc9d55"
+    "c9a2c67f-3a6d-403f-878a-60e098bc9d55",
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a"
   ]
 }

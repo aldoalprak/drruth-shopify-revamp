@@ -1,7 +1,6 @@
 <style>
   .rx-{{section.id}} {
-    max-width: 100%; 
-    margin-bottom: 70px;
+    max-width: 100%;
   }
 
   .rx-{{section.id}} .container {
@@ -10,17 +9,18 @@
   }
 
   .rx-{{section.id}} .container .rx-image {
-    max-width: 630px;
+    max-width: 900px;
     max-height: 430px;
-    width: 45%;
+    width: 40%;
   }
 
   .rx-{{section.id}} .container .rx-text {
-    {% comment %} width: 55%; {% endcomment %}
-    padding-left: {% if section.settings.layout == "text_first" %} 110px {%else%} 50px {%endif%};
-    padding-right: {% if section.settings.layout == "text_first" %} 50px {%else%} 110px {%endif%};;
-    {% comment %} margin: auto; {% endcomment %}
+    width: 60%;
+    padding-left: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: justify;
+    background-color: #F5F8F1;
   }
 
   .rx-{{section.id}} .container .rx-text .rx-text-desc {
@@ -45,7 +45,8 @@
     font-size: 30px;
     line-height: 40px;
     color: #1E1E1E;
-    margin: 0;
+    margin-bottom: 0;
+    margin-right: 200px;
   }
 
   .rx-{{section.id}}  .rx-text .content {
@@ -56,6 +57,7 @@
     line-height: 30px;
     color: #1E1E1E;
     margin: 0;
+    padding-top: 10px;
   }
 
   @media screen and (max-width: 950px) {
@@ -65,7 +67,6 @@
 
     .rx-{{section.id}} .container .rx-image {
       width: 100%;
-      margin-bottom: 30px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -75,13 +76,15 @@
       text-align: center;
       padding-left: 30px;
       padding-right: 30px;
-      margin: auto;
     }
-
+    
     .rx-{{section.id}} .container .rx-text .rx-text-desc {
       margin: auto;
     }
-  
+
+    .rx-{{section.id}}  .rx-text .caption {
+      margin-right: auto;
+    }
   }
   
 </style>
@@ -97,14 +100,39 @@
     >
     {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
       
-    <div class="rx-text"> 
+    <div class="rx-text">
       <div class="rx-text-desc">
         <p class="heading">{{section.settings.heading }}</p>
         <p class="caption">{{section.settings.caption}}</p>
         <p class="content">{{section.settings.content | replace: 'p>', 'span>'}}</p>
         <br>
         <p class="content">{{section.settings.content2 | replace: 'p>', 'span>'}}</p>
-      </div>
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'button' -%}
+              {%- if block.settings.button_label != blank -%}
+                <div class="rx_img_with_text_button">
+                  <a
+                    {% if block.settings.button_link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link }}"
+                    {% endif %}
+                    class="rx_read_more_btn_green"
+                  >
+                    {{ block.settings.button_label | escape }}
+                    <img 
+                      id="rx_read_more_arrow_black"
+                      class="rx_read_more_arrow_img_with_text"
+                      src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
+                    >
+                  </a>
+              </div>
+              {%- endif -%}
+          {%- endcase -%}
+        {% endfor %}
+      <div>
+     
     </div>
   </div>
 </div>
@@ -112,7 +140,7 @@
 
 {% schema %}
   {
-    "name": "RX-Banner-Text",
+    "name": "RX-Banner-Text-V2",
     "tag": "section",
     "class": "section",
     "settings": [
@@ -159,9 +187,30 @@
         "info": "t:sections.image-with-text.settings.layout.info"
       }
     ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button",
+            "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+            "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
-        "name": "RX-Banner-Text"
+        "name": "RX-Banner-Text-V2"
       }
     ]
   }

@@ -2,6 +2,8 @@
   .rx-{{section.id}}{
     background-color: #f5f6f0;
     margin-bottom:60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .rx-{{section.id}} .rx-row:after {
@@ -34,17 +36,10 @@
   }
   
 
-  span.textline {
-    border-bottom: 4px solid #ffffff;
-    text-transform: capitalize;
-    font-size: 32px;
-    font-weight: 500;
-}
-
 
   @media screen and (max-width: 768px){
-    .maintext {
-    max-width: 100%;
+    .text_description {
+      max-width: 100%;
     }
 
   }
@@ -59,7 +54,7 @@
     {% for block in section.blocks %} 
       <div class="column-content">
        <img class="checked-img" src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/checked.png?v=1681397070" />
-        <p>{{block.settings.maintext }}</p>
+        <p>{{block.settings.text_description }}</p>
       </div>
     {% endfor %}
 
@@ -75,7 +70,7 @@
     "settings": [
         {
         "type": "text",
-        "id": "maintext",
+        "id": "text_description",
         "label": "Description",
         "default": "Doctor of Veterinary Medicine (DVM)"
       }
