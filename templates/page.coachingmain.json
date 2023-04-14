@@ -797,6 +797,53 @@
       "settings": {
         "mbannerhead": "FAQS"
       }
+    },
+    "39e112cd-4e94-4716-a728-90d799f169b4": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "APPLY TO THE PROGRAM",
+            "heading_size": "h1"
+          }
+        },
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE PROGRAM",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-0",
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1",
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -821,6 +868,7 @@
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
     "30ace1ca-bbad-44e0-a045-05023c6a4cf3",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
-    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa"
+    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa",
+    "39e112cd-4e94-4716-a728-90d799f169b4"
   ]
 }
