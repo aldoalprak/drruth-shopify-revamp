@@ -202,7 +202,7 @@
         "textdesc": "Certified Holistic Pet Health Coaches are trained professionals who specialize in providing guidance and support to pet owners in achieving optimal health and well-being for their pets using holistic, integrative and natural approaches. These coaches have an understanding of the various factors that impact pet health, such as nutrition, exercise, emotional health, and environmental factors. ",
         "about2img": "shopify:\/\/shop_images\/Image_1.png",
         "textdesc2": "",
-        "textdesc3": "By becoming a certified Holistic Pet Health Coach, you  may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting pets with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each pet, and lifestyle coaching to help pets thrive and live healthier, happier lives.Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
+        "textdesc3": "By becoming a certified Holistic Pet Health Coach, you may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting dogs and cats with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits through AAVSB.<br>Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
         "about2img2": "shopify:\/\/shop_images\/Image_2.png"
       }
     },
@@ -270,6 +270,82 @@
         "c_head": ""
       }
     },
+    "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
+      "type": "workcoachingmain",
+      "blocks": {
+        "3d6d8abb-f241-420e-b1d2-5d14ce3bed9c": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "1. Apply",
+            "bworkdes": "Fill out our application form and let us know why you’re a good fit for the program."
+          }
+        },
+        "964d01fa-7375-43f7-8968-884a404d8fb1": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "2. Application Review",
+            "bworkdes": "We will review your application and assess your qualifications and suitability for the program."
+          }
+        },
+        "0b3f00f9-5e31-4d97-8147-1e5581686963": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "3. Interview",
+            "bworkdes": "If your application is accepted, you'll have the opportunity to discuss your goals and motivations for becoming a Certified Holistic Pet Health Coach."
+          }
+        },
+        "94d66a4c-5db1-491c-aa63-7e6140c2533f": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "4. Acceptance",
+            "bworkdes": "After the interview, the team will notify you of your acceptance into the program."
+          }
+        },
+        "37947623-2b83-4ac1-b272-7b63ca892446": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "5. Coaching",
+            "bworkdes": "You'll begin the coaching 16 sessions where you'll learn about a variety of topics related to pet health with Dr. Ruth Roberts"
+          }
+        },
+        "4898ecbc-a7ce-4aa9-b40d-d47463038923": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "6. Mentorship",
+            "bworkdes": "16  sessions with experienced professionals in the field for personalized guidance and support as you work towards completing the program."
+          }
+        },
+        "5256d39b-de66-4ee4-92ea-42ca578c28d5": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "7. Exam",
+            "bworkdes": "After completing the coaching sessions, you'll take an exam to assess your understanding of the material covered in the program."
+          }
+        },
+        "d2374833-7a00-4a74-9aeb-5722d0d93572": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/Group_1_9e6792c8-e705-45ec-ab7f-f34a652c7afe.png",
+            "bworkhead": "8. Graduate",
+            "bworkdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+          }
+        }
+      },
+      "block_order": [
+        "3d6d8abb-f241-420e-b1d2-5d14ce3bed9c",
+        "964d01fa-7375-43f7-8968-884a404d8fb1",
+        "0b3f00f9-5e31-4d97-8147-1e5581686963",
+        "94d66a4c-5db1-491c-aa63-7e6140c2533f",
+        "37947623-2b83-4ac1-b272-7b63ca892446",
+        "4898ecbc-a7ce-4aa9-b40d-d47463038923",
+        "5256d39b-de66-4ee4-92ea-42ca578c28d5",
+        "d2374833-7a00-4a74-9aeb-5722d0d93572"
+      ],
+      "settings": {
+        "workhead1": "How it Works ",
+        "worksub": "During the program"
+      }
+    },
     "4757daba-bf88-4168-8ec3-278701d02b56": {
       "type": "after_program",
       "blocks": {
@@ -305,6 +381,65 @@
         "m_des": "Program modules",
         "moduledesc": "Learn how to use a variety of modalities and resources to find the right healing protocol for each pet. This certification will qualify you to work with animals in the holistic health sector by promoting a more natural approach to wellness and health. As a certified holistic pet health coach, you will have the skills and knowledge to create customized wellness plans for pets and their owners and help them achieve optimal health through natural methods and remedies. ",
         "moduledesc1": "In addition to the coursework, you'll participate in two integration weeks, where you'll have the opportunity to practice your skills to develop your knowledge and understanding of holistic pet care. These integration weeks provide a valuable opportunity to gain hands-on experience in the field."
+      }
+    },
+    "73b30236-98d9-438e-82e6-6c1d743b0091": {
+      "type": "modulearrow",
+      "blocks": {
+        "0ae4d3be-10a5-4b2e-aa89-24c5ad567f0c": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 8: Endocrine ",
+            "arrowdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+          }
+        },
+        "cc988c70-c407-41a6-91be-284d9adea322": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 9: Business Logistics\/Essentials",
+            "arrowdes": "You'll learn about the business side of pet health coaching, including legal and financial considerations."
+          }
+        },
+        "ca3009d9-bba7-41c0-b65a-c8e4f369d55c": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 10: Skin ",
+            "arrowdes": "This module will cover common skin issues in pets and how to support healthy skin through nutrition and other holistic approaches."
+          }
+        },
+        "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 11: Musculoskeletal  ",
+            "arrowdes": "You'll learn about the musculoskeletal system and how to support healthy bones, joints, and muscles in pets."
+          }
+        },
+        "ff04dba7-725e-4dc4-957e-2948743e1b40": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions ",
+            "arrowdes": "This module will cover the complex relationship between pet behavior and health, including strategies for addressing common behavioral issues."
+          }
+        },
+        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "8. Graduate",
+            "arrowdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+          }
+        }
+      },
+      "block_order": [
+        "0ae4d3be-10a5-4b2e-aa89-24c5ad567f0c",
+        "cc988c70-c407-41a6-91be-284d9adea322",
+        "ca3009d9-bba7-41c0-b65a-c8e4f369d55c",
+        "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40",
+        "ff04dba7-725e-4dc4-957e-2948743e1b40",
+        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
+      ],
+      "settings": {
+        "arrowid": "",
+        "arrowtextbtn": "Apply Now"
       }
     },
     "2baece1e-b3a3-41f8-b488-7eb4762ccade": {
@@ -397,6 +532,49 @@
         "pro_desc1": "By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!"
       }
     },
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
+      "type": "star_review",
+      "blocks": {
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        },
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Bea Swasey, HPH, NTP"
+          }
+        },
+        "80539b50-d492-44be-94f7-623318e7d7b7": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D_482b473b-c778-4aea-9e4f-bad945d3f59f.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        }
+      },
+      "block_order": [
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824",
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
+        "80539b50-d492-44be-94f7-623318e7d7b7"
+      ],
+      "settings": {
+        "starreviewhead": "What our graduates say"
+      }
+    },
     "ce91651f-d904-47c1-8141-db2c7becf9a1": {
       "type": "about_coachingmain",
       "settings": {
@@ -405,6 +583,124 @@
         "prevdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
         "previwbtn": "Apply Now",
         "previwurl": ""
+      }
+    },
+    "39e112cd-4e94-4716-a728-90d799f169b4": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "APPLY TO THE PROGRAM",
+            "heading_size": "h1"
+          }
+        },
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE PROGRAM",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-0",
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1",
+        "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "38bceb66-17fa-4539-8d15-e78489d9a302": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>More Resources from Dr. Ruth Roberts <br\/><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-0",
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-1",
+        "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "143fd103-6dd8-40ee-a3e0-7880c57cdbec": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Dr. Ruth Pet Wellness Courses ",
+        "heading_size": "h1",
+        "description": "<p>Dr. Ruth Roberts is passionate about promoting holistic health and wellness for pets, and she offers a range of resources beyond the certified holistic pet health coach program. Explore her courses and discover how you can further your education and passion for pet wellness.<br\/><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "fad21f59-0695-4b4c-bb8a-ce71573b549d": {
@@ -452,12 +748,101 @@
         "moreadvicebtn": "More Pet Advice"
       }
     },
+    "30ace1ca-bbad-44e0-a045-05023c6a4cf3": {
+      "type": "Legacy",
+      "blocks": {
+        "726aff34-506f-4fd1-9a97-fea2447ab27d": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "35+",
+            "numtext": "Years of Saving Pet Lives"
+          }
+        },
+        "397d9678-611b-4419-bc44-d5d5a64f819f": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "100+",
+            "numtext": "Successful Students"
+          }
+        },
+        "0af2e652-cf0e-47c7-81e6-ed39917a1a62": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "30,000+",
+            "numtext": "Happy Tails"
+          }
+        }
+      },
+      "block_order": [
+        "726aff34-506f-4fd1-9a97-fea2447ab27d",
+        "397d9678-611b-4419-bc44-d5d5a64f819f",
+        "0af2e652-cf0e-47c7-81e6-ed39917a1a62"
+      ],
+      "settings": {
+        "numhead": "Honoring a Legacy of Compassionate Care"
+      }
+    },
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db": {
       "type": "coaching_mainbanner",
       "settings": {
         "mbannerhead": "- Dr. Ruth",
         "mbannerdes": "“If you have a strong purpose in life, you don’t have to be pushed. Your passion will drive you there.” ",
         "mbannerimg": "shopify:\/\/shop_images\/Rectangle.png"
+      }
+    },
+    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa": {
+      "type": "faq",
+      "blocks": {
+        "492b13c9-3577-4748-bf9b-be89d133fe19": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.E-commerce supplement business: Create an e-commerce business selling supplements for pets.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.Influencer: Build a following on social media and become an influencer in the pet health industry.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqid": "",
+            "faqbtn": "What will I learn from this certification?"
+          }
+        },
+        "90a7e8c3-d1b1-4bc5-b701-62703e8fd38d": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.E-commerce supplement business: Create an e-commerce business selling supplements for pets.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.Influencer: Build a following on social media and become an influencer in the pet health industry.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        },
+        "0c402c11-3358-45bb-8046-921224f28492": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.E-commerce supplement business: Create an e-commerce business selling supplements for pets.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.Influencer: Build a following on social media and become an influencer in the pet health industry.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqid": "",
+            "faqbtn": "What is one-to-one mentorship work? "
+          }
+        },
+        "befddf47-7829-4037-89e2-b0ee3ac326a6": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.E-commerce supplement business: Create an e-commerce business selling supplements for pets.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.Influencer: Build a following on social media and become an influencer in the pet health industry.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqid": "",
+            "faqbtn": "What are the Q&A Weekly sessions? "
+          }
+        },
+        "0a857dad-e342-4738-baa6-fec93ce79ecf": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.E-commerce supplement business: Create an e-commerce business selling supplements for pets.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.Influencer: Build a following on social media and become an influencer in the pet health industry.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        }
+      },
+      "block_order": [
+        "492b13c9-3577-4748-bf9b-be89d133fe19",
+        "90a7e8c3-d1b1-4bc5-b701-62703e8fd38d",
+        "0c402c11-3358-45bb-8046-921224f28492",
+        "befddf47-7829-4037-89e2-b0ee3ac326a6",
+        "0a857dad-e342-4738-baa6-fec93ce79ecf"
+      ],
+      "settings": {
+        "mbannerhead": "FAQS"
       }
     }
   },
@@ -470,12 +855,20 @@
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
     "5d6ce464-4822-4265-978d-865c15a291eb",
     "8bf8345c-cddb-467d-a299-f38120a69953",
+    "00f4763c-eed7-470b-8ccb-45e5f7d30179",
     "4757daba-bf88-4168-8ec3-278701d02b56",
     "956967f3-b758-4069-9de9-97161c47dbc6",
+    "73b30236-98d9-438e-82e6-6c1d743b0091",
     "2baece1e-b3a3-41f8-b488-7eb4762ccade",
     "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05",
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521",
     "ce91651f-d904-47c1-8141-db2c7becf9a1",
+    "39e112cd-4e94-4716-a728-90d799f169b4",
+    "38bceb66-17fa-4539-8d15-e78489d9a302",
+    "143fd103-6dd8-40ee-a3e0-7880c57cdbec",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
-    "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db"
+    "30ace1ca-bbad-44e0-a045-05023c6a4cf3",
+    "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
+    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa"
   ]
 }
