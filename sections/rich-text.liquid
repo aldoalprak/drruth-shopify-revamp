@@ -53,7 +53,9 @@
                     {% endif %}
                     class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                   >
-                    {{- block.settings.button_label | escape -}}
+                    {{- block.settings.button_label | escape -}}<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
                   </a>
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
