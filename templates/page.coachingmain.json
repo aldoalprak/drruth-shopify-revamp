@@ -532,6 +532,49 @@
         "pro_desc1": "By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!"
       }
     },
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
+      "type": "star_review",
+      "blocks": {
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        },
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Bea Swasey, HPH, NTP"
+          }
+        },
+        "80539b50-d492-44be-94f7-623318e7d7b7": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D_482b473b-c778-4aea-9e4f-bad945d3f59f.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        }
+      },
+      "block_order": [
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824",
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
+        "80539b50-d492-44be-94f7-623318e7d7b7"
+      ],
+      "settings": {
+        "starreviewhead": "What our graduates say"
+      }
+    },
     "ce91651f-d904-47c1-8141-db2c7becf9a1": {
       "type": "about_coachingmain",
       "settings": {
@@ -595,47 +638,22 @@
         "mbannerimg": "shopify:\/\/shop_images\/Rectangle.png"
       }
     },
-    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
-      "type": "star_review",
+    "6bfe9370-9676-4c57-bb7d-98402e96ccd6": {
+      "type": "Legacy",
       "blocks": {
-        "25cdfea5-748a-4e15-86a8-11f7e44d0824": {
-          "type": "block",
+        "3dad62b1-1d0d-4288-b8c0-35990a6f5b99": {
+          "type": "Blog",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/D.png",
-            "rating": 4,
-            "confimed": "lorem ipsum dolor",
-            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
-            "signtext": "Dlorah Devore, HPHC, FNTP"
-          }
-        },
-        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2": {
-          "type": "block",
-          "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B.png",
-            "rating": 4,
-            "confimed": "lorem ipsum dolor",
-            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
-            "signtext": "Bea Swasey, HPH, NTP"
-          }
-        },
-        "80539b50-d492-44be-94f7-623318e7d7b7": {
-          "type": "block",
-          "settings": {
-            "mainimage": "shopify:\/\/shop_images\/D_482b473b-c778-4aea-9e4f-bad945d3f59f.png",
-            "rating": 4,
-            "confimed": "lorem ipsum dolor",
-            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
-            "signtext": "Dlorah Devore, HPHC, FNTP"
+            "numhead": "",
+            "numtext": ""
           }
         }
       },
       "block_order": [
-        "25cdfea5-748a-4e15-86a8-11f7e44d0824",
-        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
-        "80539b50-d492-44be-94f7-623318e7d7b7"
+        "3dad62b1-1d0d-4288-b8c0-35990a6f5b99"
       ],
       "settings": {
-        "starreviewhead": "What our graduates say"
+        "numhead": ""
       }
     }
   },
@@ -654,9 +672,10 @@
     "73b30236-98d9-438e-82e6-6c1d743b0091",
     "2baece1e-b3a3-41f8-b488-7eb4762ccade",
     "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05",
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521",
     "ce91651f-d904-47c1-8141-db2c7becf9a1",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
-    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521"
+    "6bfe9370-9676-4c57-bb7d-98402e96ccd6"
   ]
 }
