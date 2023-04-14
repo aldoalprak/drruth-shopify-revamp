@@ -172,6 +172,7 @@
         },
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Apply Now",
             "button_link": "",
