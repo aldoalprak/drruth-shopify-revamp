@@ -763,6 +763,40 @@
       "settings": {
         "mbannerhead": "FAQS"
       }
+    },
+    "30ace1ca-bbad-44e0-a045-05023c6a4cf3": {
+      "type": "Legacy",
+      "blocks": {
+        "726aff34-506f-4fd1-9a97-fea2447ab27d": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "35+",
+            "numtext": "Years of Saving Pet Lives"
+          }
+        },
+        "397d9678-611b-4419-bc44-d5d5a64f819f": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "100+",
+            "numtext": "Successful Students"
+          }
+        },
+        "0af2e652-cf0e-47c7-81e6-ed39917a1a62": {
+          "type": "Blog",
+          "settings": {
+            "numhead": "30,000+",
+            "numtext": "Happy Tails"
+          }
+        }
+      },
+      "block_order": [
+        "726aff34-506f-4fd1-9a97-fea2447ab27d",
+        "397d9678-611b-4419-bc44-d5d5a64f819f",
+        "0af2e652-cf0e-47c7-81e6-ed39917a1a62"
+      ],
+      "settings": {
+        "numhead": "Honoring a Legacy of Compassionate Care"
+      }
     }
   },
   "order": [
@@ -786,6 +820,7 @@
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
-    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa"
+    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa",
+    "30ace1ca-bbad-44e0-a045-05023c6a4cf3"
   ]
 }
