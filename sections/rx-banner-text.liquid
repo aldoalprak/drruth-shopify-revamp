@@ -1,0 +1,169 @@
+<style>
+  .rx-{{section.id}} {
+    max-width: 100%; 
+    margin-bottom: 70px;
+  }
+
+  .rx-{{section.id}} .container {
+    display: flex;
+    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%}
+  }
+
+  .rx-{{section.id}} .container .rx-image {
+    max-width: 630px;
+    max-height: 430px;
+    width: 45%;
+  }
+
+  .rx-{{section.id}} .container .rx-text {
+    {% comment %} width: 55%; {% endcomment %}
+    padding-left: {% if section.settings.layout == "text_first" %} 110px {%else%} 50px {%endif%};
+    padding-right: {% if section.settings.layout == "text_first" %} 50px {%else%} 110px {%endif%};;
+    {% comment %} margin: auto; {% endcomment %}
+    text-align: justify;
+  }
+
+  .rx-{{section.id}} .container .rx-text .rx-text-desc {
+    max-width: 600px;
+  }
+
+  .rx-{{section.id}}  .rx-text .heading {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    margin: 0;
+  }
+
+  .rx-{{section.id}}  .rx-text .caption {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1E1E1E;
+    margin: 0;
+  }
+
+  .rx-{{section.id}}  .rx-text .content {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 950px) {
+    .rx-{{section.id}} .container {
+      flex-direction: column;
+    } 
+
+    .rx-{{section.id}} .container .rx-image {
+      width: 100%;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .rx-{{section.id}} .container .rx-text {
+      width: 100%;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: auto;
+    }
+
+    .rx-{{section.id}} .container .rx-text .rx-text-desc {
+      margin: auto;
+    }
+  
+  }
+  
+</style>
+
+
+<div class="rx-{{section.id}}">
+  <div class="container">
+    <img
+      class="rx-image"
+      src="{{ section.settings.rx_image_banner | image_url: width: 1500, crop: 'center' }}"
+      sizes="100%"
+      loading="lazy"
+    >
+    {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
+      
+    <div class="rx-text"> 
+      <div class="rx-text-desc">
+        <p class="heading">{{section.settings.heading }}</p>
+        <p class="caption">{{section.settings.caption}}</p>
+        <p class="content">{{section.settings.content | replace: 'p>', 'span>'}}</p>
+        <br>
+        <p class="content">{{section.settings.content2 | replace: 'p>', 'span>'}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "RX-Banner-Text",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "rx_image_banner",
+        "label": "image"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "First Content"
+      },
+      {
+        "type": "richtext",
+        "id": "content2",
+        "label": "Second Content"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "image_first",
+            "label": "Image First"
+          },
+          {
+            "value": "text_first",
+            "label": "Text First"
+          }
+        ],
+        "default": "image_first",
+        "label": "Layout",
+        "info": "t:sections.image-with-text.settings.layout.info"
+      }
+    ],
+    "presets": [
+      {
+        "name": "RX-Banner-Text"
+      }
+    ]
+  }
+
+{% endschema %}

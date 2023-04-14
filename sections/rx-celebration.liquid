@@ -1,0 +1,120 @@
+<style>
+  .rx-{{section.id}} {
+    margin-bottom: 100px;
+  }
+
+  .rx-{{section.id}} .rx-box-celebration {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .rx-{{section.id}} .rx-text-box {
+    background-color: #F5F8F1;
+    border-radius: 24px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rx-{{section.id}} .rx-text-box p {
+    margin: 0;
+  }
+
+  .rx-{{section.id}} .rx-text-box p:first-child {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+  }
+
+  .rx-{{section.id}} .rx-text-box p:last-child {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+
+  @media screen and (max-width: 767px) {
+    .rx-box-celebration {
+      flex-direction: column
+    }
+
+    .rx-text-box {
+      margin: 10px 0;
+    }
+
+  }
+
+  
+
+</style>
+
+<div class="page-width rx-{{section.id}}">
+  <div class="rx-box-celebration">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when "text" -%}
+          <div class="rx-text-box">
+            <p>{{block.settings.rx_celeb_textbox_1}}</p>
+            <p>{{block.settings.rx_celeb_textbox_2}}</p>
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "RX-Celebration",
+    "tag": "section",
+    "class": "section",
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Text Box",
+        "limit": 5,
+        "settings": [
+          {
+            "type": "text",
+            "id": "rx_celeb_textbox_1",
+            "default": "35+",
+            "label": "Text 1"
+          },
+          {
+            "type": "text",
+            "id": "rx_celeb_textbox_2",
+            "default": "Years of saving pet live",
+            "label": "Text 2"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "RX-Celebration",
+        "blocks": [
+          {
+            "type": "text"
+          },
+          {
+            "type": "text"
+          },
+          {
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+
+{% endschema %}
