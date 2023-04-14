@@ -594,6 +594,49 @@
         "mbannerdes": "“If you have a strong purpose in life, you don’t have to be pushed. Your passion will drive you there.” ",
         "mbannerimg": "shopify:\/\/shop_images\/Rectangle.png"
       }
+    },
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
+      "type": "star_review",
+      "blocks": {
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        },
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Bea Swasey, HPH, NTP"
+          }
+        },
+        "80539b50-d492-44be-94f7-623318e7d7b7": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/D_482b473b-c778-4aea-9e4f-bad945d3f59f.png",
+            "rating": 4,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
+            "signtext": "Dlorah Devore, HPHC, FNTP"
+          }
+        }
+      },
+      "block_order": [
+        "25cdfea5-748a-4e15-86a8-11f7e44d0824",
+        "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
+        "80539b50-d492-44be-94f7-623318e7d7b7"
+      ],
+      "settings": {
+        "starreviewhead": "What our graduates say"
+      }
     }
   },
   "order": [
@@ -613,6 +656,7 @@
     "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05",
     "ce91651f-d904-47c1-8141-db2c7becf9a1",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
-    "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db"
+    "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
+    "d6fe8d30-271b-4552-b3ee-3cd7d95fc521"
   ]
 }
