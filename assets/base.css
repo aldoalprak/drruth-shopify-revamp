@@ -1356,7 +1356,7 @@ button.shopify-payment-button__button--unbranded {
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
 }
-
+/*
 .button:after,
 .shopify-challenge__button:after,
 .customer button:after,
@@ -1372,7 +1372,7 @@ button.shopify-payment-button__button--unbranded {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
-}
+}*/
 
 .button:not([disabled]):hover::after,
 .shopify-challenge__button:hover::after,
@@ -3828,7 +3828,8 @@ padding-left: 8%;
     margin: -10% auto 0;
 }
 .linkslide{
-  margin-top: 4%;
+  /*margin-top: 4%;
+  padding: 6%  0;*/
 }
 /* course slider end */
 .benefittext {
@@ -4303,6 +4304,25 @@ color: #184B44;
 .advice_btn {
   border: 2px solid #184B44;
   border-radius: 25.5px;
+  display: inline;
+  padding: 10px 20px;
+  margin: 0% 17%;
+}
+.advicemax_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.advice_btn1 {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  display: inline;
+  width: 24%;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 a.linkpagge {
   text-decoration: none;
@@ -4492,12 +4512,123 @@ h3.peviewsub1 {
   text-transform: uppercase;
   color: #1E1E1E;
 }
+.arrow_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bannerbtn1 {
  display: inline;
  padding: 10px 26px;
   border: 2px solid #184B44;
   border-radius: 25.5px;
 }
+.arrowheight {
+  width: 55%;
+  margin: 0 auto;
+  min-height: 400px;
+  overflow-y: scroll;
+}
+.arrorrad {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 10px;
+  margin: 12px;
+}
+h2.arrowtext {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #184B44;
+}
+h2.arrowheaddes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+}
+a.arrowlink {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.arroww_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.collered {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.workcontent {
+  text-align: center;
+}
+.slideimage {
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+}
+.cworkhead{
+  font-family: 'Oakley Script';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #184B44;
+}
+.cworkdes{
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #184B44;
+  padding-bottom: 5%;
+}
+.cworkflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cworkfle25{
+  width: 25%;
+  padding: 0 3%;
+}
+.imgflexxx{
+  display: flex;
+}
+.cworkflex .cworkfle25:nth-child(-n+4) .imgflexxx{
+  margin-top: -28%;
+}
+.cworkflex .cworkfle25:nth-last-child(-n+4) .imgflexxx {
+margin-top: 14%;}
+
 @media only screen and (max-width: 620px) {
   p.pfeesdec{
     width: 100%;

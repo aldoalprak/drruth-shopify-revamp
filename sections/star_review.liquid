@@ -1,0 +1,548 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="customercontainer">
+  <div class="customreviewside">
+    <h2 class="starheadreview">{{section.settings.starreviewhead}}</h2>
+    <div class="ratinconain multipleitems">
+      {% for block in section.blocks %}
+        
+        <div class="reviestep">
+        
+          <div class="customerdetail">
+               
+        <div class="starflex">
+  <h1 class="confirmedetail">{{ block.settings.confimed }}</h1>
+            <div class="stardiv">
+               {% if block.settings.rating == 5 %}
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               {% endif %}
+               {% if block.settings.rating == 4 %}
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               {% endif %}
+               {% if block.settings.rating == 3 %}
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               {% endif %}
+               {% if block.settings.rating == 2 %}
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               {% endif %}
+               {% if block.settings.rating == 1 %}
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               {% endif %}
+            </div>
+           
+        </div>
+            <p class="">{{ block.settings.confimedp }}</p>
+          <div class="starflex1">
+            <div class="starbg"><img src="{{ block.settings.mainimage |img_url: '800x' }}"></div>
+            <h2 class="starthead"> {{ block.settings.signtext }}</h2>
+        </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "star_review",
+
+"settings": [
+{
+     "type": "text",
+    "id": "starreviewhead",
+    "label": "starheadreview"
+}
+],
+"blocks":[
+{
+"type" : "block",
+"name" : "block",
+"settings" : [
+               {
+    "type": "image_picker",
+    "id": "mainimage",
+    "label": "Image"
+      },
+{
+            "type": "range",
+            "id": "rating",
+            "min": 0,
+            "max": 5,
+            "step": 1,
+            "label": "Rating",
+            "info": "Set less than '1' to disable Rating.",
+            "default": 5
+          },
+    {
+        "id" : "confimed",
+        "type" : "text",
+        "label" : "Revie Detail"
+      },
+  {
+        "id" : "confimedp",
+        "type" : "text",
+        "label" : "Revie Detail"
+      },
+  {
+        "id" : "signtext",
+        "type" : "text",
+        "label" : "text"
+      }
+]
+}
+
+],
+"presets" : [
+{
+  "name" : "star_review ",
+  "category" : "Testimonials"
+
+  }
+]
+}
+{% endschema %}
+
+<style>
+h2.starheadreview {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #184B44;
+}
+h2.starthead{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+}
+  .customreviewside {
+    max-width: 1000px;
+    margin: auto;
+}
+span.fa.fa-star.checked {
+    color:#184B44;
+    font-size: 40px;
+  border:none;
+}
+span.fa.fa-star{
+    borde-color:#184B44;
+    background:none;
+}
+.starflex{
+    display:flex;
+    justify-content:space-between;
+   align-items: center;
+   margin-top: 20%;
+}
+.starflex1{
+    display:flex;
+    justify-content:space-between;
+   align-items: center;
+       margin-top: -5%;
+}
+  i.fa.fa-quote-right {
+      color: rgb(203 202 181);
+}
+  i.fa.fa-quote-right {
+    font-size: 60px;
+}
+  .reviestep {
+    max-width: 50%;
+    margin: 0 15px;
+}
+.starbg{
+    width: 67px;
+    height: 66px;
+    background: #F5F8F1;
+    border-radius: 50%;
+    display:flex;
+}
+ .ratinconain {
+    max-width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+}
+  i.fa.fa-angle-right, i.fa.fa-angle-left {
+    color: #184B44;
+}
+ 
+  .customerdetail {
+    text-align: center;
+    padding: 3% 10%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,transparent 0%,transparent 6vw,#ffffff 6vw,#ffffff 100%);
+    
+  }
+  .customerdetail img {
+    margin: auto;
+}
+    h1.confirmedetail {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #1E1E1E;
+    }
+    .customerdetail p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    }
+      .buttondiv{
+            text-align: center;
+        padding-top: 4%;
+      }
+  .buttondiv a{
+      border: 1px solid #1229471f;
+      padding: 15px 20px;
+      font-size: 12px;
+        letter-spacing: 1px;
+  }
+/*   .customreviewside {
+      padding-bottom: 5%;
+  } */
+      .buttondiv a:hover {
+      background-color: #283953;
+      color: #fff;
+      transform: translateY(-1px);
+  }
+  .customercontainer {
+     background-color:#F5F8F1;
+           padding: 5% 0;
+  }
+  .stardiv {
+    margin-top: 10px;
+}
+  button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
+    background: transparent;
+    z-index: 1;
+    border: unset;
+    position: absolute;
+    left: -5%;
+  }
+      button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+   position: absolute;
+    right: -5%;
+            background: transparent;
+            border: unset;
+  }
+
+
+
+  	.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .slick-list:focus {
+      outline: none; }
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand; }
+
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block; }
+    .slick-track:before, .slick-track:after {
+      content: "";
+      display: table; }
+    .slick-track:after {
+      clear: both; }
+    .slick-loading .slick-track {
+      visibility: hidden; }
+
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none; }
+    [dir="rtl"] .slick-slide {
+      float: right; }
+    .slick-slide img {
+      display: block; }
+    .slick-slide.slick-loading img {
+      display: none; }
+    .slick-slide.dragging img {
+      pointer-events: none; }
+    .slick-initialized .slick-slide {
+      display: block; }
+    .slick-loading .slick-slide {
+      visibility: hidden; }
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent; }
+
+  .slick-arrow.slick-hidden {
+    display: none; }
+
+  /*================ Slick Slider Theme ================*/
+  .slick-loading .slick-list {
+    background: #fff var(--slick-img-url) center center no-repeat; }
+
+  / Icons /
+  / Arrows /
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none; }
+    .slick-prev:hover, .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus {
+      background: transparent;
+      color: transparent; }
+      .slick-prev:hover:before, .slick-prev:focus:before,
+      .slick-next:hover:before,
+      .slick-next:focus:before {
+        opacity: 1; }
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+      opacity: 0.25; }
+    .slick-prev:before,
+    .slick-next:before {
+      font-family: "slick-icons, sans-serif";
+      font-size: 20px;
+      line-height: 1;
+      color: #000;
+      opacity: 0.75;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+
+  .slick-prev {
+    left: -2%; }
+    [dir="rtl"] .slick-prev {
+      left: auto;
+      right: -25px; }
+    .slick-prev:before {
+      content: "←"; }
+      [dir="rtl"] .slick-prev:before {
+        content: "→"; }
+
+  .slick-next {
+    right: -2%; }
+    [dir="rtl"] .slick-next {
+      left: -25px;
+
+      right: auto; }
+    .slick-next:before {
+      content: "→"; }
+      [dir="rtl"] .slick-next:before {
+        content: "←"; }
+
+  / Dots /
+  .slick-dotted.slick-slider {
+    margin-bottom: 30px; }
+
+  .slick-dots {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top:2%;
+    }
+    .slick-dots li {
+      position: relative;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      margin: 0 5px;
+      padding: 0;
+      cursor: pointer; }
+      .slick-dots li button, .slick-dots li a {
+        border: 0;
+        background: transparent;
+        display: block;
+        height: 20px;
+        width: 20px;
+        line-height: 0px;
+        font-size: 0px;
+        color: transparent;
+        padding: 5px;
+        cursor: pointer; }
+        .slick-dots li button:hover:before, .slick-dots li button:focus:before, .slick-dots li a:hover:before, .slick-dots li a:focus:before {
+          opacity: 1; }
+        .slick-dots li button:before, .slick-dots li a:before {
+          position: absolute;
+          top: -20px;
+          left: 0;
+          content: "•";
+          width: 20px;
+          height: 20px;
+          font-family: "slick-icons, sans-serif";
+          font-size: 30px;
+          line-height: 20px;
+          text-align: center;
+          color: #000;
+          opacity: 0.25;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
+      .slick-dots li.slick-active button:before {
+        color: #000;
+        opacity: 0.75; }
+  .multipleitems .slick-prev:before {
+      content: "";
+
+  }
+      .multipleitems .slick-next:before {
+      content: "";
+
+  }
+      .multipleitems .slick-next{
+              top: 38%;
+      }
+      .multipleitems .slick-prev{
+        top: 39%;
+      }
+
+      .drag {
+      font-size: 30px;
+            position: absolute;
+  }
+      .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+      background: transparent;
+      color: #fff;
+  }
+    @media(max-width:1049px){
+      h1.confirmedetail{
+        font-size: 16px;
+      }
+}
+    @media(max-width: 767px){
+.component-review-carousel .carousel-container .carousel-item .quote {
+    font-size: calc((100vw - 360px) * (28 - 24) / (767 - 360) + 24px);
+}
+      .multipleitems .slick-prev {
+    top: 70%;
+}
+      .multipleitems .slick-next {
+    top: 70%;
+}
+      .slick-prev {
+    left: 30px;
+}
+      .slick-next {
+    right: 30px;
+}
+      h1.confirmedetail{
+        max-width: 90%;
+
+      }
+      .ratinconain {
+    max-width: 90%;
+      }
+    }
+</style>
+
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script>
+    $('.multipleitems').slick({
+      arrows: true,
+       dots: true,
+    infinite: true,
+    slidesToShow: 2,
+      speed: 2500,
+    slidesToScroll: 1,
+       autoplay: true,
+      prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+              nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+           responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1  ,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+</script>
