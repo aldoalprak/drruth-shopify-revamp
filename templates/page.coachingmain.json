@@ -850,19 +850,20 @@
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "“If you have a strong purpose in life, you don’t have to be pushed. Your passion will drive you there.” ",
             "heading_size": "h1"
           }
         },
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "- Dr. Ruth",
             "text_style": "body"
           }
         },
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
