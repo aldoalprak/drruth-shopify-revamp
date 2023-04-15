@@ -194,7 +194,7 @@
       "custom_css": [
         ".rich-text__buttons a.button.button--primary {background: transparent; border: 2px solid #184b44; border-radius: 25.5px; cursor: pointer; opacity: 1; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1e1e1e;}",
         "h2.rich-text__heading.rte.h1 span {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; text-align: center; color: #1e1e1e; margin: 0;}",
-        "p {margin-top: -2%; opacity:1; color:#1E1E1E;}"
+        "p {margin-top: -2%; opacity: 1; color: #1e1e1e;}"
       ],
       "settings": {
         "desktop_content_position": "center",
