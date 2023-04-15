@@ -9,22 +9,22 @@
 
   #RX_ImageWithText--{{ section.id }} {
     background-color: {{ section.settings.imgText-bg-color }};
-    padding: 50px 45px;
+    padding: 95px 65px;
   }
 
-  .image-with-text--overlap .image-with-text__media-item--top {
+  .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--top {
     align-self: auto !important;
   }
 
-  .image-with-text--overlap .image-with-text__media-item--middle {
+  .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--middle {
     align-self: auto !important;
   }
 
-  .image-with-text--overlap .image-with-text__media-item--bottom {
+  .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--bottom {
     align-self: auto !important;
   }
 
-  .rx-img-with-text__heading {
+  .section-{{ section.id }} .rx-img-with-text__heading {
     font-family: "BLT-Heirloom";
     font-weight: 300;
     font-size: 30px;
@@ -34,22 +34,8 @@
     margin-bottom:0;
   }
 
-  .rx-heading-text-alignment-left {
-    align-self: flex-start;
-    text-align: left;
-  }
 
-  .rx-heading-text-alignment-right {
-    align-self: flex-end;
-    text-align: right;
-  }
-
-  .rx-heading-text-alignment-center {
-    align-self: center;
-    text-align: center;
-  }
-
-  .rx-img-with-text__content {
+  .section-{{ section.id }} .rx-img-with-text__content {
     font-family: "Josefin Sans";
     font-weight: 400;
     font-size: 16px;
@@ -59,7 +45,7 @@
     line-height: 30px;
   }
 
-  .rx-img-with-text__btn {
+  .section-{{ section.id }} .rx-img-with-text__btn {
     font-family: "Josefin Sans";
     font-weight: 500;
     font-size: 14px;
@@ -84,6 +70,12 @@
     max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
     max-width: 100%;
     width: 100%;
+  }
+
+  .section-{{ section.id }} .rx_img_with_text_button {
+    margin-right: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
+    margin-left: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
+    text-align: {{section.settings.desktop_button_alignment}};
   }
 
   @media screen and (min-width: 750px) {
@@ -119,6 +111,21 @@
       flex-grow: 1;
       flex-shrink: 0;
     }
+
+    .section-{{ section.id }} .rx-heading-text-alignment-left {
+      align-self: flex-start;
+      text-align: left;
+    }
+
+    .section-{{ section.id }} .rx-heading-text-alignment-right {
+      align-self: flex-end;
+      text-align: right;
+    }
+
+    .section-{{ section.id }} .rx-heading-text-alignment-center {
+      align-self: center;
+      text-align: center;
+    }
   }
 
   @media screen and (max-width: 1000px) {
@@ -144,14 +151,16 @@
       text-align: center;
     }
 
-    .rx-heading-text-alignment-center, 
+    .section-{{ section.id }} .rx-heading-text-alignment-center, 
     .rx-heading-text-alignment-right, 
     .rx-heading-text-alignment-left {
-      align-self: center;
+      /* align-self: center; */
       text-align: center;
+      margin-right: auto;
+      margin-left: auto;
     }
 
-    .rx_img_with_text_button {
+    .section-{{ section.id }} .rx_img_with_text_button {
       margin-right: auto;
       margin-left: auto;
     }
@@ -159,7 +168,7 @@
   }
 {%- endstyle -%}
 
-<div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %} section-{{ section.id }}-padding">
+<div class="section-{{ section.id }} image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %} section-{{ section.id }}-padding">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} rx_grid__item_img-{{section.settings.grid_type}}">
       <div
@@ -341,6 +350,22 @@
       ],
       "default": "left",
       "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_button_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "left"
+        },
+        {
+          "value": "center",
+          "label": "center"
+        }
+      ],
+      "default": "center",
+      "label": "Desktop button alignment"
     },
     {
       "type": "select",
