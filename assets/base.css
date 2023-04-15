@@ -4517,7 +4517,7 @@ button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2
 button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   position: absolute;
   top: 30%;
-  right: 0%;
+  right: -2%;
 }
 h3.certifiedtext{
     width: 70%;
@@ -4820,7 +4820,7 @@ section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f6
   text-align: center;
   margin: -2% auto;
 }
-.rich-text__buttons  a.button.button--primary{
+section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary{
   background: transparent;
     color: #000;
     border: 2px solid #184B44;
@@ -4828,7 +4828,7 @@ section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f6
     margin-top: 6%;
     cursor: pointer;
 }
-.rich-text__buttons a.button.button--primary {
+section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 600;
@@ -4837,9 +4837,6 @@ section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f6
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #1E1E1E;
-}
-span.fa.fa-star-o{
-  color: #184B44;
 }
 .text40:nth-child(1) .text40img img{
   min-height: 420px;
