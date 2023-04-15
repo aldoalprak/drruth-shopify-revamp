@@ -142,13 +142,13 @@
         "template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80-1681376700e830d692-2"
       ],
       "custom_css": [
-        "span.imagedes {font-family: 'Josefin Sans'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #E2E4E9;}",
-        ".imghead {font-family: 'Oakley Script'; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #FFFFFF;}"
+        "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
+        ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image.png",
+        "image": "shopify:\/\/shop_images\/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -192,15 +192,16 @@
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2"
       ],
       "custom_css": [
-        ".rich-text__buttons a.button.button--primary {background: transparent; border: 2px solid #184b44; border-radius: 25.5px; cursor: pointer; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1e1e1e;}",
-        "h2.rich-text__heading.rte.h1 span {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #1e1e1e; margin: 0;}"
+        ".rich-text__buttons a.button.button--primary {background: transparent; border: 2px solid #184b44; border-radius: 25.5px; cursor: pointer; opacity: 1; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1e1e1e;}",
+        "h2.rich-text__heading.rte.h1 span {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; text-align: center; color: #1e1e1e; margin: 0;}",
+        "p {margin-top: -2%; opacity: 1; color: #1e1e1e;}"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 36,
         "padding_bottom": 52
       }
     },
@@ -209,8 +210,8 @@
       "settings": {
         "textdesc": "Certified Holistic Pet Health Coaches are trained professionals who specialize in providing guidance and support to pet owners in achieving optimal health and well-being for their pets using holistic, integrative and natural approaches. These coaches have an understanding of the various factors that impact pet health, such as nutrition, exercise, emotional health, and environmental factors. ",
         "about2img": "shopify:\/\/shop_images\/Image_1.png",
-        "textdesc2": "",
-        "textdesc3": "By becoming a certified Holistic Pet Health Coach, you may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting dogs and cats with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits through AAVSB.Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
+        "textdesc2": "By becoming a certified Holistic Pet Health Coach, you may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. They may also offer a range of services, the science behind Functional Medicine, supporting dogs and cats with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits through AAVSB.",
+        "textdesc3": "Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
         "about2img2": "shopify:\/\/shop_images\/Image_2.png"
       }
     },
@@ -503,7 +504,7 @@
         "af39ebc3-112c-49f9-ab4d-8d7a17a1de26": {
           "type": "block",
           "settings": {
-            "cost_head": "1<br>Advanced Payment",
+            "cost_head": "1Advanced Payment",
             "cost_price": "$5000",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
             "cost_btn": "Apply Now",
@@ -513,8 +514,8 @@
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
           "type": "block",
           "settings": {
-            "cost_head": "4<br>Monthly Installments",
-            "cost_price": "$1500 \/ 4 months",
+            "cost_head": "4Monthly Installments",
+            "cost_price": "$1500 <span>\/ 4 months<\/span>",
             "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
             "cost_btn": "Apply Now",
             "cost_btnurl": ""
@@ -523,8 +524,8 @@
         "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
           "type": "block",
           "settings": {
-            "cost_head": "16<br>Weekly Installments",
-            "cost_price": "$367 \/ 15 week",
+            "cost_head": "16Weekly Installments",
+            "cost_price": "$367 <span>\/ 15 week<\/span>",
             "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
             "cost_btn": "Apply Now",
             "cost_btnurl": ""
@@ -591,7 +592,7 @@
         "reviewimg": "shopify:\/\/shop_images\/Image_3.png",
         "prevhead": "About Dr. Ruth",
         "prevdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
-        "previwbtn": "Apply Now",
+        "previwbtn": "my story",
         "previwurl": ""
       }
     },
@@ -835,6 +836,10 @@
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-0",
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-1",
         "template--14909520412737__abac2943-5dc6-496b-8f08-447111465127-1681539651a82d8a88-2"
+      ],
+      "custom_css": [
+        "span.imagedes {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #ffffff;}",
+        "span.imghead{font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 40px;line-height: 40px;text-align: center;color: #FFFFFF;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/drruth3.jpg",
