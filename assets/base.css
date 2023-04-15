@@ -3020,7 +3020,11 @@ details-disclosure > details {
   src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/DancingScript-Regular.woff?v=1680694720") format("woff"),
   url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/DancingScript-Regular.woff2?v=1680694720")format("woff2");
 }
-
+@font-face {
+  font-family: 'Oakley Script';
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript_55cadd4d-d08a-48c8-8440-ef1c0b9cfa69.woff?v=1681561193") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript_9cabb162-8317-4d42-9949-2db0fe5ae16e.woff2?v=1681561210")format("woff2");
+}
 .cblogtext{
  
     margin-bottom: 6px;
@@ -3904,6 +3908,9 @@ h2.abhead {
   line-height: 54px;
   margin-bottom: -4%;
   color: #49AF78;
+}
+.banner__box {
+  max-width: 65rem!important;
 }
 h2.aboutsub {
   font-family: 'BLT-Heirloom';
@@ -5073,6 +5080,9 @@ p.bworkdess {
   }
 }
 @media only screen and (max-width: 748px) {
+  .banner__box {
+    max-width: 90rem;
+}
   span.imagedes{
     font-size: 34px;
     line-height: 41px;

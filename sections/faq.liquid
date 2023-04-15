@@ -135,7 +135,9 @@ color: #1E1E1E;
 </style>
 <script>
 $(document).ready(function() {
-  $(".set > a").on("click", function() {
+   
+  $(".set > a").on("click", function(e) {
+     e.preventDefault();
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");
       $(this)  .siblings(".content") .slideUp(200);
