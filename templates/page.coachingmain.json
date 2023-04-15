@@ -187,6 +187,9 @@
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-1",
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2"
       ],
+      "custom_css": [
+        ".rich-text__buttons a.button.button--primary {background: transparent; color: #000; border: 2px solid #184b44; border-radius: 25.5px; margin-top: 6%; cursor: pointer; font-family: 'Josefin Sans'; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1E1E1E;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
