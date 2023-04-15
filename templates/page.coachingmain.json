@@ -187,6 +187,10 @@
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-1",
         "template--14909520412737__b13a7b3e-709c-47aa-b070-2d93f659adca-16813768484ef1ecab-2"
       ],
+      "custom_css": [
+        ".rich-text__buttons a.button.button--primary {background: transparent; border: 2px solid #184b44; border-radius: 25.5px; cursor: pointer; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1e1e1e;}",
+        "h2.rich-text__heading.rte.h1 span {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #1e1e1e; margin: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -267,7 +271,9 @@
         "75212e61-ef38-4323-b6ce-d70e8a0a5b3a"
       ],
       "settings": {
-        "c_head": ""
+        "c_head": "",
+        "pro_btn1": "apply now",
+        "program_link1": ""
       }
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
@@ -891,6 +897,7 @@
         "0a857dad-e342-4738-baa6-fec93ce79ecf"
       ],
       "settings": {
+        "mfaqhead": ""
       }
     }
   },
