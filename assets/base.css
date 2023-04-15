@@ -3377,7 +3377,7 @@ cursor: pointer;
   width: 55%;
     padding: 2%;
     position: relative;
-    right: 5%;
+    right: 3%;
     margin: auto 0;
     border-radius: 30px;
     padding-right: 8%;
@@ -3675,14 +3675,16 @@ h3.testides {
   text-align: center;
 }
 h2.testihead {
-  font-family: 'BLT-Heirloom';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  color: #000000;
+ text-align: center;
   padding-top: 5%;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color: #1E1E1E;
+
 }
 h2.testheadd {
   font-family: 'Oakley Script';
@@ -3704,6 +3706,7 @@ h3.testsubhead {
   margin: 10px 0 25px 0;
   color: #131620;
 }
+
 .image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet.image-with-text__grid--reverse{
   margin: 6% 0;
 }
@@ -4244,6 +4247,7 @@ color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 1%;
 }
 .text60 {
   width: 60%;
@@ -4315,6 +4319,16 @@ p.pfeesdec {
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
+  line-height: 40px;
+  color: #184B44;
+  text-align: center;
+  margin: 0;
+}
+.costpart1 h3 span{
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
   line-height: 40px;
   color: #184B44;
   text-align: center;
@@ -4394,6 +4408,7 @@ h2.courseheadd {
 }
 .advice_btn1 {
  text-align: center;
+ padding-top: 3%;
 }
 a.linkpagge1{
   border: 2px solid #184B44;
@@ -4508,7 +4523,7 @@ h2.moduledesc {
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
   top: 50%;
   position: absolute;
-  left: 0%;
+  left: -4%;
 }
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   background: none;
@@ -4517,7 +4532,10 @@ button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2
 button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   position: absolute;
   top: 50%;
-  right: -2%;
+  right: -5%;
+}
+.set a svg {
+  float: right;
 }
 h3.certifiedtext{
     width: 70%;
@@ -4703,6 +4721,7 @@ margin-bottom: 0;
   line-height: 40px;
   text-align: center;
   color: #184B44;
+  margin: 8px;
 }
 .cworkflex {
   display: flex;
@@ -4759,6 +4778,7 @@ h2.bworkhedd {
 p.bworkdess {
   /* border-top: 1px solid #000; */
   border-top: 2px solid #184B44;
+  border-image: linear-gradient(to right, #fff 5%);
 }
 .imgflexxx{
   display: flex;
@@ -4875,10 +4895,12 @@ section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c5
 }
 .text40img img{
   width:100%;
+  display: flex;
 }
 .blogbodrafter1 {
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
+    padding-top: 2%;
 }
 a.btnspace1 {
   font-family: 'Josefin Sans';
@@ -4949,6 +4971,15 @@ font-size: 64px;
 line-height: 57px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+}
+ .cworkfle25:first-child  p.bworkdess{
+  width: 92%;
+  margin-left: auto;
+}
+
+.cworkfle25:last-child  p.bworkdess{
+  width: 92%;
+  margin-right: auto;
 }
 @media only screen and (max-width: 1324px) {
   .bworkdess{
@@ -5027,7 +5058,7 @@ p.bworkdess {
 }
 @media only screen and (max-width: 768px) {
   h2.previewtext1, section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead,
-  h2.numhead ,h2.starheadreview ,h2.courseheadd,h2.faqhead ,
+  h2.numhead ,h2.starheadreview ,h2.courseheadd,h2.faqhead ,h2.testheadd ,
   section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span ,.cworkhead ,
   section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span,
   div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead{
@@ -5042,13 +5073,21 @@ p.bworkdess {
   }
 }
 @media only screen and (max-width: 748px) {
+  span.imagedes{
+    font-size: 34px;
+    line-height: 41px;
+  }
   section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead ,
-  section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead{
+  section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead,span.imagedes{
     color:#000;
   }
  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead ,
  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4  .img_btn.banner__buttons a {
     color: #000;
+  }
+  .img_btn.banner__buttons a{
+    color: #000;
+    border: 2px solid #000;
   }
   .cworkfle25{
     width: 48%;
@@ -5064,6 +5103,12 @@ p.bworkdess {
   p.pfeesdec{
     width: 100%;
   }
+  .cslidedetail{
+    width: 100%;
+  }
+  .accordion-container{
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 520px) {
   .flexwidth2{
@@ -5078,9 +5123,26 @@ p.bworkdess {
   .arrowheight {
     width: 100%;
 }
+.collection__description.body.rte p{
+  width: 100%;
+}
 }
 @media only screen and (max-width: 420px) {
   .cworkfle25{
     width: 98%;
+  }
+  button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+   
+    right: -7%;
+  }
+h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead, h2.numhead, h2.starheadreview, h2.courseheadd, h2.faqhead, section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, .cworkhead, section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead {
+    font-size: 30px!important;
+    line-height: 40px;
+}
+}
+@media only screen and (max-width: 340px) {
+  a.linkpagge1{
+    padding: 12px 25px;
+    font-size: 11px;
   }
 }

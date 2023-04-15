@@ -13,7 +13,17 @@
         {% for block in section.blocks %}
   <div class="set">
     <a href="{{block.settings.faqid}}">{{block.settings.faqbtn}}
-     <i class="fa fa-plus"></i>
+     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+<g clip-path="url(#clip0_1086_4962)">
+<path d="M0.806641 10.6445H24.1937" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round"/>
+<path d="M12.0977 21.2877V0.707031" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1086_4962">
+<rect width="25" height="22" fill="white"/>
+</clipPath>
+</defs>
+</svg>
     
     </a>
     <div class="content">
@@ -101,6 +111,7 @@ font-size: 18px;
 line-height: 30px;
 text-transform: uppercase;
 color: #1E1E1E;
+    padding: 4% 4%;
 }
 .set > a i {
     float: right;
@@ -114,6 +125,7 @@ color: #1E1E1E;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   display:none;
+  padding:0 5%;
 }
 .content p{
   padding: 10px 15px;
