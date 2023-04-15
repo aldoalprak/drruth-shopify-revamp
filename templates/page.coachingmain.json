@@ -142,7 +142,7 @@
         "template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80-1681376700e830d692-2"
       ],
       "custom_css": [
-        "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9; width:50%;}",
+        "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
         ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}"
       ],
       "settings": {
