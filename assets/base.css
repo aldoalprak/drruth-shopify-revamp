@@ -5089,11 +5089,11 @@ p.bworkdess {
   }
   section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead ,
   section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead,span.imagedes{
-    color:#000;
+    color:#000!important;
   }
  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead ,
  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4  .img_btn.banner__buttons a {
-    color: #000;
+    color: #000!important;
   }
   .img_btn.banner__buttons a{
     color: #000;
