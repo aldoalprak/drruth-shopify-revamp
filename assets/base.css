@@ -4046,7 +4046,7 @@ h3.aboutdes {
 }
 @media only screen and (max-width: 749px) {
  
-  span.imghead {
+  span.imghead ,#shopify-section-template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead {
     color: #000;
     /* font-size: 50px; */
 }
