@@ -5,7 +5,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<div>
+  <h2 class="faqhead">{{section.settings.mfaqhead}}</h2>
+</div>
 <div class="accordion-container">
 
         {% for block in section.blocks %}
@@ -29,7 +31,7 @@
   "settings": [
     {
       "type": "text",
-      "id": "mbannerhead",
+      "id": "mfaqhead",
       "label": "Heading"
     }
   ],
@@ -67,7 +69,7 @@
 <style>
 .accordion-container{
   position: relative;
- width:50%;
+ width:60%;
   height: auto;
   margin: 10px auto;
 }
@@ -89,7 +91,7 @@ margin: 3%;
 }
 .set > a{
   display: block;
-     padding: 20px 10px;
+     padding: 30px 30px;
   text-decoration: none;
   transition:all 0.2s linear;
   font-family: 'Josefin Sans';

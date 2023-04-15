@@ -3022,26 +3022,29 @@ details-disclosure > details {
 }
 
 .cblogtext{
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
-  color: #3C4467;
-  text-align: center;
-  margin-bottom: 6px;
-  margin-top: 12%;
+ 
+    margin-bottom: 6px;
+    /* margin-top: 12%; */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
 }
+
 .blogdes{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #3C4467;
-padding: 0 2%;
+padding: 0 6%;
 margin: 4px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #1E1E1E;
 }
 .cmax_container {
   max-width: 1400px;
@@ -3240,6 +3243,7 @@ p.pcostdes {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 5%;
+  padding-top: 4%;
 }
 .costpart {
   background: #FFFFFF;
@@ -3299,15 +3303,16 @@ p.pcostdes {
   color: #3C4467;
 }
 h2.pcosthead {
-  font-family: 'Corinthia';
+  font-family: 'Oakley Script';
   font-style: normal;
   font-weight: 400;
-  font-size: 62px;
-  line-height: 54px;
-  text-align: center;
-  color: #49AF78;
+  font-size: 64px;
+  line-height: 57px;
+ text-align: center;
+  letter-spacing: 0.02em;
+  color: #184B44;
   padding-top: 4%;
-  margin: 0;
+  margin-bottom: 2%;
 }
 .blogbodr {
   padding-bottom: 12%;
@@ -3315,14 +3320,19 @@ h2.pcosthead {
 svg {
   margin-left: 10px;
 }
-span.imghead {
+.arrow_flex svg{
+  margin-left: 0px;
+  width: 16px;
+  margin-right: 10px;
+}
+/* span.imghead {
   font-family: 'Corinthia';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 57px;
   color: #FFFFFF;
-}
+} */
 span.imagedes {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -3368,11 +3378,11 @@ cursor: pointer;
     padding: 2%;
     position: relative;
     right: 5%;
-    background: #fff;
     margin: auto 0;
     border-radius: 30px;
-    padding-right: 9%;
+    padding-right: 8%;
     padding-left: 5%;
+    padding-bottom: 8%;
 }
 h2.previewtext {
   font-family: 'BLT-Heirloom';
@@ -3567,6 +3577,9 @@ h3.numcontent {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 5%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 0;
 }
 .banner40 {
     width: 35%;
@@ -4095,6 +4108,7 @@ p.previewdes{
 .num-bor {
   border-right:none;
 }
+
 .textspace {
   width: 100%;}
 h2.step_detail, h3.stepsubhead{
@@ -4241,7 +4255,10 @@ p.certified ,p.certified2 {
   font-size: 18px;
   line-height: 30px;
   color: #1E1E1E;
-  padding: 3% 10%;
+  padding: 2% 10% 0 10%;
+}
+.text60:nth-child(2) {
+  border-bottom: 2px solid #F5F8F1;
 }
 p.certified2 {
   padding-top: 0;
@@ -4250,17 +4267,20 @@ p.certified2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
 .flexwidth2 {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0;
+  margin: 3% 0;
 }
 .flex-fees {
   display: flex;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -4273,8 +4293,9 @@ p.pfeesdec {
   color: #1E1E1E;
     text-align: left;
     margin: 15px 0 25px 0;
-    padding: 0px 4%;
+    padding: 0px 3%;
     width: 50%;
+    padding-bottom: 3%;
 }
 .costpart1 h2 {
   font-family: 'BLT-Heirloom';
@@ -4325,7 +4346,7 @@ p.pfeesdec {
   background: #FFFFFF;
   border: 2px solid #184B44;
   border-radius: 24px;
-  padding: 2% 4%;
+  padding: 2% 3%;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -4345,6 +4366,16 @@ line-height: 57px;
 letter-spacing: 0.02em;
 color: #184B44;
     text-align: center;
+    border-top: 2px solid #F5F8F1;
+}
+h2.courseheadd {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
 }
 .course_flex{
   width: 90%;
@@ -4383,7 +4414,7 @@ color: #1E1E1E;
   font-size: 30px;
   line-height: 40px;
   color: #184B44;
-  padding: 4% 0 0% 0;
+  padding: 10% 0 5% 0;
   text-align: center;
 }
 .program50 {
@@ -4433,7 +4464,7 @@ p.programdestext {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 150%;
+  line-height: 30px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #1E1E1E;
@@ -4474,7 +4505,7 @@ h2.moduledesc {
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
   top: 30%;
   position: absolute;
-  left: -4%;
+  left: 0%;
 }
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   background: none;
@@ -4483,7 +4514,7 @@ button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2
 button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   position: absolute;
   top: 30%;
-  right: -4%;
+  right: 0%;
 }
 h3.certifiedtext{
     width: 70%;
@@ -4538,6 +4569,16 @@ h3.peviewsub1 {
   line-height: 30px;
   text-transform: capitalize;
   color: #1E1E1E;
+  padding-bottom: 5%;
+}
+section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
 }
 .bannerbtn1 a {
 
@@ -4568,7 +4609,7 @@ h3.peviewsub1 {
   margin: 0 auto;
   min-height: 400px;
   overflow-y: scroll;
-  height: 800px;
+  height: 750px;
 }
 .arrorrad {
   background: #FFFFFF;
@@ -4584,6 +4625,7 @@ h2.arrowtext {
   line-height: 30px;
   text-transform: uppercase;
   color: #184B44;
+  margin: 0;
 }
 h2.arrowheaddes {
   font-family: 'Josefin Sans';
@@ -4592,6 +4634,7 @@ h2.arrowheaddes {
   font-size: 18px;
   line-height: 30px;
   color: #1E1E1E;
+  margin: 0;
 }
 a.arrowlink {
   border: 2px solid #184B44;
@@ -4611,6 +4654,11 @@ a.arrowlink {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 4%;
+}
+.testimonialflex1{
+  width: 90%;
+  max-width: 0 auto;
 }
 a.collered {
   border: 2px solid #184B44;
@@ -4626,6 +4674,7 @@ a.collered {
 }
 .workcontent {
   text-align: center;
+  border-top: 2px solid #F5F8F1;
 }
 .slideimage {
   background-repeat: no-repeat;
@@ -4641,6 +4690,7 @@ line-height: 57px;
 text-align: center;
 letter-spacing: 0.02em;
 color: #184B44;
+margin-bottom: 0;
 }
 .cworkdes{
   font-family: 'BLT-Heirloom';
@@ -4663,10 +4713,10 @@ color: #184B44;
   border-radius: 0px 0px 85px 0px;
 }
 .cworkfle25:nth-child(5) .imgflexxx {
-  border-left: 1px solid #000; 
+  border-left: 2px solid #184B44;
    border-radius: 50px 0 0 50px;
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
+  border-bottom: 2px solid #184B44;
+  border-top: 2px solid #184B44;
 }
 .cworkfle25:nth-child(5) p.bworkdess {
   border-top: none;
@@ -4694,17 +4744,18 @@ h2.bworkhedd {
   color: #184B44;
 }
 .cworkfle25 {
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #184B44;
 }
 .cworkfle25:nth-child(4) .bworkdess{
-  border-right: 1px solid #000;
+  border-right: 2px solid #184B44;
   border-radius: 0px 85px 85px 0px;
 }
 /* .paddingdev{
   padding: 0 3%;
 } */
 p.bworkdess {
-  border-top: 1px solid #000;
+  /* border-top: 1px solid #000; */
+  border-top: 2px solid #184B44;
 }
 .imgflexxx{
   display: flex;
@@ -4713,16 +4764,21 @@ p.bworkdess {
   padding-bottom: 10%;
 }
 .arrowpaddingspace{
-  padding: 5% 0;
+  padding: 3% 0;
 }
 .cworkfle25:nth-last-child(-n+4){
   border-bottom: none; 
 }
-/* .cworkflex .cworkfle25:nth-child(-n+4) .imgflexxx{
-  margin-top: -28%;
-} */
-/* .cworkflex .cworkfle25:nth-last-child(-n+4) .imgflexxx {
-margin-top: 14%;} */
+h2.faqhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  text-align: center;
+}
 section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .banner__box {
   max-width: 80rem!important;
 }
@@ -4739,7 +4795,7 @@ color: #FFFFFF;
 section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca .rich-text__blocks{
   max-width: 100rem;
 }
-section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca h2.rich-text__heading.rte.h1 {
+section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca h2.rich-text__heading.rte.h1 span{
   font-family: 'BLT-Heirloom';
   font-style: normal;
   font-weight: 300;
@@ -4749,21 +4805,41 @@ section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f6
   color: #1E1E1E;
   margin: 0;
 }
-section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca .rich-text__text.rte {
-font-family: 'BLT-Heirloom';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-margin: 0;
-line-height: 40px;
-text-align: center;
-color: #1E1E1E;
+section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca .rich-text__text.rte p {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #1E1E1E;
+  width: 75%;
+  text-align: center;
+  margin: -2% auto;
 }
 section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary{
   background: transparent;
     color: #000;
     border: 2px solid #184B44;
     border-radius: 25.5px;
+    margin-top: 6%;
+    cursor: pointer;
+}
+section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.text40:nth-child(1) .text40img img{
+  min-height: 420px;
+}
+.text60:nth-child(1){
+  border-top: 2px solid #F5F8F1;
 }
 section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span {
   font-family: 'Oakley Script';
@@ -4797,6 +4873,24 @@ section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c5
 .text40img img{
   width:100%;
 }
+.blogbodrafter1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+a.btnspace1 {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  text-decoration: none;
+  padding: 15px 25px;
+  color: #1E1E1E;
+}
 section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead {
   font-family: 'BLT-Heirloom';
   font-style: normal;
@@ -4814,6 +4908,45 @@ p.bworkdess {
   line-height: 30px;
   color: #1E1E1E;
 }
+section#shopify-section-template--14909103046721__143fd103-6dd8-40ee-a3e0-7880c57cdbec h2.title.h1{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #1E1E1E;
+margin-top: -4%;
+}
+div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+section#shopify-section-template--14909103046721__143fd103-6dd8-40ee-a3e0-7880c57cdbec .collection__description.body.rte p{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center; 
+color: #1E1E1E;
+width: 66%;
+    margin: 0 auto;
+}
+div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead .banner__text.body span.imagedes{
+  font-family: 'Oakley Script';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 57px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
 @media only screen and (max-width: 1324px) {
   .bworkdess{
     padding: 10px 19px 49px;
@@ -4830,6 +4963,9 @@ p.bworkdess {
   }
 }
 @media only screen and (max-width: 991px) {
+  .arrowheight{
+    width: 75%;
+  }
   .text60 ,.text40{
     width: 100%;
   }
@@ -4885,8 +5021,10 @@ p.bworkdess {
 }
 @media only screen and (max-width: 768px) {
   h2.previewtext1, section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead,
-  h2.numhead ,h2.starheadreview ,
-  section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span ,.cworkhead{
+  h2.numhead ,h2.starheadreview ,h2.courseheadd,h2.faqhead ,
+  section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span ,.cworkhead ,
+  section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span,
+  div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead{
     font-size: 50px!important;;
   }
   .program50{
