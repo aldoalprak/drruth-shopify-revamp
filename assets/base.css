@@ -4506,7 +4506,7 @@ h2.moduledesc {
   margin: 0 20px;
 }
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
-  top: 30%;
+  top: 50%;
   position: absolute;
   left: 0%;
 }
@@ -4516,7 +4516,7 @@ button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2
 }
 button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   position: absolute;
-  top: 30%;
+  top: 50%;
   right: -2%;
 }
 h3.certifiedtext{
