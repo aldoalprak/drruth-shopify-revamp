@@ -143,7 +143,8 @@
       ],
       "custom_css": [
         "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
-        ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}"
+        ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}",
+        ".banner__box {max-width: 70rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
@@ -839,7 +840,7 @@
       ],
       "custom_css": [
         "span.imagedes {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #ffffff;}",
-        "span.imghead{font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 40px;line-height: 40px;text-align: center;color: #FFFFFF;}"
+        "span.imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 40px; line-height: 40px; text-align: center; color: #ffffff;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/drruth3.jpg",
