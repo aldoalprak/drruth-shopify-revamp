@@ -3981,6 +3981,9 @@ h3.aboutdes {
   .review60 ,.review40{
     width:100%;
   }
+  .imgorder .imgdflex:nth-child(1) .text60{
+    order:1
+  }
   .review60{
     right: 0;
   }
@@ -4035,7 +4038,7 @@ h3.aboutdes {
  
   span.imghead {
     color: #000;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
     span.imagedes{
       color: #414245;
@@ -4961,6 +4964,9 @@ color: #FFFFFF;
   h2.bworkhedd{
     font-size: 14px;
   }
+  .ratinconain.multipleitems.slick-initialized.slick-slider.slick-dotted{
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 991px) {
   .arrowheight{
@@ -5040,9 +5046,19 @@ p.bworkdess {
   section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead{
     color:#000;
   }
+ div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead ,
+ div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4  .img_btn.banner__buttons a {
+    color: #000;
+  }
   .cworkfle25{
     width: 48%;
   }
+  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 .img_btn.banner__buttons a{
+    border: 2px solid #000;
+  }
+  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 .img_btn.banner__buttons a path {
+    stroke: #000;
+}
   }
 @media only screen and (max-width: 620px) {
   p.pfeesdec{
@@ -5059,6 +5075,9 @@ p.bworkdess {
   .accordion-container{
     width: 92%;
   }
+  .arrowheight {
+    width: 100%;
+}
 }
 @media only screen and (max-width: 420px) {
   .cworkfle25{
