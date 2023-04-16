@@ -336,25 +336,25 @@
             "box_display_2": true,
             "collection_title_3": "Collection Title",
             "url_link_3": "",
-            "box_display_3": false,
+            "box_display_3": true,
             "collection_title_4": "Collection Title",
             "url_link_4": "",
-            "box_display_4": false,
+            "box_display_4": true,
             "collection_title_5": "Collection Title",
             "url_link_5": "",
-            "box_display_5": false,
+            "box_display_5": true,
             "collection_title_6": "Collection Title",
             "url_link_6": "",
-            "box_display_6": false,
+            "box_display_6": true,
             "collection_title_7": "Collection Title",
             "url_link_7": "",
-            "box_display_7": false,
+            "box_display_7": true,
             "collection_title_8": "Collection Title",
             "url_link_8": "",
-            "box_display_8": false,
+            "box_display_8": true,
             "collection_title_9": "Collection Title",
             "url_link_9": "",
-            "box_display_9": false
+            "box_display_9": true
           }
         }
       },
@@ -363,13 +363,7 @@
         "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-1"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "desktopMaxWidth": "1200px"
       }
     },
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4": {
@@ -906,6 +900,58 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "8dbddfcd-face-4277-9b9c-52c9806099a9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-0",
+        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -929,6 +975,7 @@
     "1d7acd25-827c-4f3c-8845-e495b1105759",
     "8960ec65-5cef-4d84-b887-aa69c09a76a9",
     "e3511e10-8d71-4ec1-a035-4c3a079b8d90",
-    "a22eed67-71d2-4d24-9266-adb3dc0550e6"
+    "a22eed67-71d2-4d24-9266-adb3dc0550e6",
+    "8dbddfcd-face-4277-9b9c-52c9806099a9"
   ]
 }
