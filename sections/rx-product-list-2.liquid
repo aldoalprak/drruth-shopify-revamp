@@ -9,7 +9,7 @@
   }
   
   /* Hide the images by default */
-  .rx-{{section.id}} .mySlides:not(.mySlides:nth-of-type(1)) {
+  .rx-{{section.id}} .prodList-slides:not(.prodList-slides:nth-of-type(1)) {
     display: none;
   }
   
@@ -105,13 +105,13 @@
     text-align: center;  
   }
 
-  .rx-{{ section.id }} .slides-group .mySlides{
+  .rx-{{ section.id }} .slides-group .prodList-slides{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .rx-{{ section.id }} .slides-group .mySlides .box{
+  .rx-{{ section.id }} .slides-group .prodList-slides .box{
     margin: 10px 30px;
   }
 
@@ -131,11 +131,11 @@
   }
 
   @media screen and (max-width: 750px) {
-    .rx-{{ section.id }} .slides-group .mySlides .box{
+    .rx-{{ section.id }} .slides-group .prodList-slides .box{
       margin: 5px 10px;
     }
 
-    .rx-{{ section.id }} .slides-group .mySlides .box img{
+    .rx-{{ section.id }} .slides-group .prodList-slides .box img{
       display: none;
     }
 
@@ -148,7 +148,7 @@
       margin: auto;
     }
 
-    .rx-{{ section.id }} .slides-group .mySlides .box svg{
+    .rx-{{ section.id }} .slides-group .prodList-slides .box svg{
       display: none;
     }
 
@@ -160,11 +160,11 @@
   <!-- Full-width images with number and caption text -->
   <div class= "slides-group">
     {%- for block in section.blocks -%}
-      {% comment %} <div class="mySlides fade">
+      {% comment %} <div class="prodList-slides fade">
         <p>hello1</p>
       </div> {% endcomment %}
   
-      <div class="mySlides rx-animate-left">
+      <div class="prodList-slides rx-animate-left">
 
         {%- if block.settings.box_display_1 -%}
           <a class="box" href="{{block.settings.url_link_1}}">
@@ -372,8 +372,12 @@
   </div>
 
   <!-- Next and previous buttons -->
-  <a id="rx-prev-prodList2" onclick="plusSlides(-1)">&#10094;</a>
-  <a id="rx-next-prodList2" onclick="plusSlides(1)">&#10095;</a>
+  <a id="rx-prev-prodList2" onclick="plusSlides(-1)">
+    <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/arrow_left.png?v=1681670270" alt="arrow_left"/>
+  </a>
+  <a id="rx-next-prodList2" onclick="plusSlides(1)">
+    <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/arrow_right.png?v=1681670270" alt="arrow_right">
+  </a>
 </div>
 <br>
 
@@ -388,7 +392,7 @@
     showSlides(slideIndex += n);
   }
 
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("prodList-slides");
   console.log("==sli===",slides.length)
   if(slides.length === 1) {
     let arrowNext = document.getElementById("rx-next-prodList2");
@@ -400,7 +404,7 @@
 
   function showSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
+    let slides = document.getElementsByClassName("prodList-slides");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {

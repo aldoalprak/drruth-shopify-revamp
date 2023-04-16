@@ -1,7 +1,61 @@
 {
   "sections": {
+    "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
+      "type": "rx-img-with-text-slider",
+      "blocks": {
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "imgText-bg-color": "",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Transform Your Pet's Health",
+            "description": "<p>Discover the power of holistic pet care with our expert coaching and support<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        },
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
+          "type": "slide",
+          "settings": {
+            "height": "adapt",
+            "desktop_image_width": "medium",
+            "layout": "image_first",
+            "desktop_title_alignment": "left",
+            "desktop_content_alignment": "left",
+            "desktop_button_alignment": "center",
+            "content_layout": "no-overlap",
+            "grid_type": "type1",
+            "imgText-bg-color": "",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "left",
+            "heading": "Image with text",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0",
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1"
+      ],
+      "settings": {
+        "desktopMaxWidth": "100%"
+      }
+    },
     "745fe7da-4576-486b-b400-3c9f3079872e": {
       "type": "rx-img-with-text",
+      "disabled": true,
       "blocks": {
         "c01b4b51-d767-424e-bc41-445ac521fb38": {
           "type": "heading",
@@ -900,61 +954,10 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "8dbddfcd-face-4277-9b9c-52c9806099a9": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-0",
-        "template--14898486050881__8dbddfcd-face-4277-9b9c-52c9806099a9-168165675773279948-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
+    "e8ef76fe-7f25-4f27-98ea-830e37605e09",
     "745fe7da-4576-486b-b400-3c9f3079872e",
     "519a28f3-c4ef-4319-9853-c8d825c82db3",
     "b4714d06-abcd-4096-947f-125116149229",
@@ -975,7 +978,6 @@
     "1d7acd25-827c-4f3c-8845-e495b1105759",
     "8960ec65-5cef-4d84-b887-aa69c09a76a9",
     "e3511e10-8d71-4ec1-a035-4c3a079b8d90",
-    "a22eed67-71d2-4d24-9266-adb3dc0550e6",
-    "8dbddfcd-face-4277-9b9c-52c9806099a9"
+    "a22eed67-71d2-4d24-9266-adb3dc0550e6"
   ]
 }
