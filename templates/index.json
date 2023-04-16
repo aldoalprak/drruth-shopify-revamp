@@ -180,12 +180,19 @@
         "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Shop<\/p>"
+            "heading": "<p>Our Store<\/p>"
+          }
+        },
+        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer a range of high-quality natural supplements for dogs and cats that are designed to support their overall health and well-being<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0"
+        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0",
+        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -252,22 +259,22 @@
     "0816fc52-33ac-4b35-81ac-4c842628750a": {
       "type": "rx-rich-text",
       "blocks": {
-        "5c2b799d-6baf-49d2-9c59-ef0c6b2dcc6e": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Our Shop<\/p>"
-          }
-        },
         "c4c36141-1f4e-4acb-bb64-f70c7da21b48": {
           "type": "text",
           "settings": {
-            "text": "<p>Shop by health concern and life stages.<\/p>"
+            "text": "<p>Comprehensive Health Solutions for Dogs and Cats<\/p>"
+          }
+        },
+        "1f8faab7-16f5-4eb9-bf48-a61f071a1827": {
+          "type": "caption",
+          "settings": {
+            "caption": "Dr, Ruth Roberts understands that pets, like humans, can face a wide range of health concerns. That's why we offer products that address a variety of health issues primarily for dogs and cats, including joint health, immune system function, digestive health, and skin and coat health."
           }
         }
       },
       "block_order": [
-        "5c2b799d-6baf-49d2-9c59-ef0c6b2dcc6e",
-        "c4c36141-1f4e-4acb-bb64-f70c7da21b48"
+        "c4c36141-1f4e-4acb-bb64-f70c7da21b48",
+        "1f8faab7-16f5-4eb9-bf48-a61f071a1827"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -279,8 +286,95 @@
         "padding_bottom": 0
       }
     },
+    "df6ff21b-835d-453a-ab12-a99160479690": {
+      "type": "rx-product-list-2",
+      "blocks": {
+        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-0": {
+          "type": "slide",
+          "settings": {
+            "collection_title_1": " Allergy Support",
+            "image_1": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
+            "url_link_1": "",
+            "box_display_1": true,
+            "collection_title_2": "Inflammation Support",
+            "image_2": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
+            "url_link_2": "",
+            "box_display_2": true,
+            "collection_title_3": "Cancer Support",
+            "image_3": "shopify:\/\/shop_images\/Group_3.png",
+            "url_link_3": "",
+            "box_display_3": true,
+            "collection_title_4": "Digestive (GI) Support",
+            "image_4": "shopify:\/\/shop_images\/Group_4.png",
+            "url_link_4": "",
+            "box_display_4": true,
+            "collection_title_5": "Collection Title",
+            "url_link_5": "",
+            "box_display_5": true,
+            "collection_title_6": "Collection Title",
+            "url_link_6": "",
+            "box_display_6": true,
+            "collection_title_7": "Collection Title",
+            "url_link_7": "",
+            "box_display_7": true,
+            "collection_title_8": "Collection Title",
+            "url_link_8": "",
+            "box_display_8": true,
+            "collection_title_9": "Collection Title",
+            "url_link_9": "",
+            "box_display_9": true
+          }
+        },
+        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-1": {
+          "type": "slide",
+          "settings": {
+            "collection_title_1": "Collection Title",
+            "url_link_1": "",
+            "box_display_1": true,
+            "collection_title_2": "Collection Title",
+            "url_link_2": "",
+            "box_display_2": true,
+            "collection_title_3": "Collection Title",
+            "url_link_3": "",
+            "box_display_3": false,
+            "collection_title_4": "Collection Title",
+            "url_link_4": "",
+            "box_display_4": false,
+            "collection_title_5": "Collection Title",
+            "url_link_5": "",
+            "box_display_5": false,
+            "collection_title_6": "Collection Title",
+            "url_link_6": "",
+            "box_display_6": false,
+            "collection_title_7": "Collection Title",
+            "url_link_7": "",
+            "box_display_7": false,
+            "collection_title_8": "Collection Title",
+            "url_link_8": "",
+            "box_display_8": false,
+            "collection_title_9": "Collection Title",
+            "url_link_9": "",
+            "box_display_9": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-0",
+        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4": {
       "type": "rx-collections-list",
+      "disabled": true,
       "blocks": {
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-0": {
           "type": "Collection",
@@ -822,6 +916,7 @@
     "16751816500272c7d1",
     "da93e544-9b93-4abc-a278-b99d780db5d3",
     "0816fc52-33ac-4b35-81ac-4c842628750a",
+    "df6ff21b-835d-453a-ab12-a99160479690",
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
