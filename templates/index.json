@@ -15,7 +15,6 @@
             "desktop_button_alignment": "center",
             "content_layout": "overlap",
             "grid_type": "type1",
-            "imgText-bg-color": "",
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "center",
             "heading": "Transform Your Pet's Health",
@@ -27,30 +26,52 @@
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
           "type": "slide",
           "settings": {
-            "height": "adapt",
+            "image": "shopify:\/\/shop_images\/drruth2.jpg",
+            "height": "medium",
             "desktop_image_width": "medium",
             "layout": "image_first",
-            "desktop_title_alignment": "left",
-            "desktop_content_alignment": "left",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
             "desktop_button_alignment": "center",
-            "content_layout": "no-overlap",
+            "content_layout": "overlap",
             "grid_type": "type1",
-            "imgText-bg-color": "",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "center",
+            "heading": "Join a Community of Pet Lovers",
+            "description": "<p>Connect with other like-minded pet owners and receive ongoing support and guidance.<\/p>",
+            "button_label": "JOIN THE COMMUNITY",
+            "button_link": ""
+          }
+        },
+        "2548be85-ca59-4cac-91f4-82dd357a90d6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "image_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
             "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "left",
-            "heading": "Image with text",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button",
+            "mobile_content_alignment": "center",
+            "heading": "Tune in to Our Holistic Pet Care Podcast",
+            "description": "<p>Stay up-to-date on the latest trends and insights in holistic pet care with our informative and engaging podcast.<\/p>",
+            "button_label": "LISTEN NOW",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0",
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1"
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1",
+        "2548be85-ca59-4cac-91f4-82dd357a90d6"
       ],
       "settings": {
-        "desktopMaxWidth": "100%"
+        "desktopMaxWidth": "100%",
+        "auto_play": true
       }
     },
     "745fe7da-4576-486b-b400-3c9f3079872e": {
@@ -362,51 +383,65 @@
             "image_4": "shopify:\/\/shop_images\/Group_4.png",
             "url_link_4": "",
             "box_display_4": true,
-            "collection_title_5": "Collection Title",
+            "collection_title_5": "Brain\/ Cognitive Support",
+            "image_5": "shopify:\/\/shop_images\/Group_5.png",
             "url_link_5": "",
             "box_display_5": true,
-            "collection_title_6": "Collection Title",
+            "collection_title_6": "Bone & Joint Support",
+            "image_6": "shopify:\/\/shop_images\/Group_6.png",
             "url_link_6": "",
             "box_display_6": true,
-            "collection_title_7": "Collection Title",
+            "collection_title_7": "General Immune Support",
+            "image_7": "shopify:\/\/shop_images\/Group_4.png",
             "url_link_7": "",
             "box_display_7": true,
-            "collection_title_8": "Collection Title",
+            "collection_title_8": "Skin and Coat Support",
+            "image_8": "shopify:\/\/shop_images\/Group_3.png",
             "url_link_8": "",
             "box_display_8": true,
-            "collection_title_9": "Collection Title",
+            "collection_title_9": "Heart Support",
+            "image_9": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
             "url_link_9": "",
             "box_display_9": true
           }
         },
-        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-1": {
+        "607723a1-805f-444f-ad81-2e30fb753def": {
           "type": "slide",
           "settings": {
-            "collection_title_1": "Collection Title",
+            "collection_title_1": "Respiratory Support",
+            "image_1": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
             "url_link_1": "",
             "box_display_1": true,
-            "collection_title_2": "Collection Title",
+            "collection_title_2": "Liver support",
+            "image_2": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
             "url_link_2": "",
             "box_display_2": true,
-            "collection_title_3": "Collection Title",
+            "collection_title_3": "Kidney support",
+            "image_3": "shopify:\/\/shop_images\/Group_3.png",
             "url_link_3": "",
             "box_display_3": true,
-            "collection_title_4": "Collection Title",
+            "collection_title_4": "Vaccinosis Support",
+            "image_4": "shopify:\/\/shop_images\/Group_4.png",
             "url_link_4": "",
             "box_display_4": true,
-            "collection_title_5": "Collection Title",
+            "collection_title_5": "Oral Health Support",
+            "image_5": "shopify:\/\/shop_images\/Group_5.png",
             "url_link_5": "",
             "box_display_5": true,
-            "collection_title_6": "Collection Title",
+            "collection_title_6": "Energy Support",
+            "image_6": "shopify:\/\/shop_images\/Group_6.png",
             "url_link_6": "",
             "box_display_6": true,
-            "collection_title_7": "Collection Title",
+            "collection_title_7": "Thyroid Support",
+            "image_7": "shopify:\/\/shop_images\/Group_4.png",
             "url_link_7": "",
             "box_display_7": true,
-            "collection_title_8": "Collection Title",
+            "collection_title_8": "Urinary Tract Support",
+            "image_8": "shopify:\/\/shop_images\/Group_3.png",
             "url_link_8": "",
             "box_display_8": true,
-            "collection_title_9": "Collection Title",
+            "collection_title_9": "Ear Support",
+            "image_9": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
             "url_link_9": "",
             "box_display_9": true
           }
@@ -414,7 +449,7 @@
       },
       "block_order": [
         "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-0",
-        "template--14898486050881__df6ff21b-835d-453a-ab12-a99160479690-168163801178d725f4-1"
+        "607723a1-805f-444f-ad81-2e30fb753def"
       ],
       "settings": {
         "desktopMaxWidth": "1200px"
@@ -665,7 +700,7 @@
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>"
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>"
           }
         },
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2": {
@@ -727,36 +762,27 @@
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-0": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor",
-            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
-            "reviewer_name": "John Doe",
+            "title": "Mind Blowing!",
+            "testimonial": "<p>\"As a holistic health coach for humans, I already knew some of the material. Still, Dr. Ruth blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats. Her knowledge and teaching of Traditional Chinese Veterinary Medicine is the perfect complement to address issues beyond what functional medicine teaches (also mind-blowing!).\"<\/p>",
+            "reviewer_name": "Dlorah Devore, HPHC, FNTP",
             "rating": "5"
           }
         },
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-1": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor",
-            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
-            "reviewer_name": "Jane Doe",
-            "rating": "4"
+            "title": "Dr. Ruth is an open book",
+            "testimonial": "<p>“Dr. Ruth is an open book, she provides proven, practical advice and her guidance and continuous support throughout and after the course is invaluable. I highly recommend this Holistic Pet Health Coaching program to health practitioners looking to expand their business, pet-enthusiasts looking for a rewarding career and any animal lover looking to support their own fur babies to live a long, happy and healthy life.”<\/p>",
+            "reviewer_name": "Bea Swasey, HPH, NTP",
+            "rating": "5"
           }
         },
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-2": {
           "type": "title",
           "settings": {
-            "title": "Awesome!",
-            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
-            "reviewer_name": "John Doe",
-            "rating": "5"
-          }
-        },
-        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-3": {
-          "type": "title",
-          "settings": {
-            "title": "This is great!",
-            "testimonial": "<p>“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”<\/p>",
-            "reviewer_name": "Jane Doe",
+            "title": "This is a Great Program!",
+            "testimonial": "<p>“If you want to help others and more importantly help your own fur family live longer, healthier and reduce your vet bills this course is for you. Not only can you begin a career in helping others but you can also apply your new knowledge to your human lifestyle for a healthier YOU!”<\/p>",
+            "reviewer_name": "Leah Bookhamer HPHC, NTP, MRWP",
             "rating": "5"
           }
         }
@@ -764,8 +790,7 @@
       "block_order": [
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-0",
         "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-1",
-        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-2",
-        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-3"
+        "template--14898486050881__c07243a3-5fee-499e-a09b-241b56f0595c-167974247994f79e17-2"
       ],
       "settings": {
         "desktopColumns": "2",
