@@ -284,6 +284,7 @@
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
       "type": "workcoachingmain",
+      "disabled": true,
       "blocks": {
         "3d6d8abb-f241-420e-b1d2-5d14ce3bed9c": {
           "type": "blogs",
