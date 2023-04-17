@@ -5156,3 +5156,6 @@ h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721_
     font-size: 11px;
   }
 }
+.displaynone{
+  display: none;
+}

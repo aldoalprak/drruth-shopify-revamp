@@ -1,10 +1,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div>
   <h2 class="faqhead">{{section.settings.mfaqhead}}</h2>
 </div>
@@ -13,18 +10,15 @@
         {% for block in section.blocks %}
   <div class="set">
     <a href="{{block.settings.faqid}}">{{block.settings.faqbtn}}
-     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none" class="clsicon pluscls">
 <g clip-path="url(#clip0_1086_4962)">
-<path d="M0.806641 10.6445H24.1937" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.806641 10.6445H24.1937" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round" class="plusss"/>
 <path d="M12.0977 21.2877V0.707031" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round"/>
-</g>
-<defs>
-<clipPath id="clip0_1086_4962">
-<rect width="25" height="22" fill="white"/>
-</clipPath>
-</defs>
+</g><defs><clipPath id="clip0_1086_4962"><rect width="25" height="22" fill="white"/></clipPath></defs></svg>
+   
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="3" viewBox="0 0 25 3" fill="none" class="clsicon minuscls displaynone">
+<path d="M0.806641 1.64453L24.1937 1.64453" stroke="#CBCAB5" stroke-width="2" stroke-linecap="round"/>
 </svg>
-    
     </a>
     <div class="content">
       <p>{{block.settings.faqdes}}</p>
@@ -120,6 +114,9 @@ color: #1E1E1E;
 .set > a.active{
   background-color:#3399cc;
   color: #fff;
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .content{
   background-color: #fff;
@@ -139,19 +136,19 @@ $(document).ready(function() {
   $(".set > a").on("click", function(e) {
      e.preventDefault();
     if ($(this).hasClass("active")) {
+      console.log('in active');
       $(this).removeClass("active");
       $(this)  .siblings(".content") .slideUp(200);
-      $(".set > a i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
+      $(this).closest('.set').find('.clsicon.pluscls').removeClass("displaynone");
+      $(this).closest('.set').find('.clsicon.minuscls').addClass("displaynone");
     } else {
-      $(".set > a i")
-        .removeClass("fa-minus")
-        .addClass("fa-plus");
-      $(this)
-        .find("i")
-        .removeClass("fa-plus")
-        .addClass("fa-minus");
+         console.log('not in active');
+      $(".set > a .clsicon.minuscls")
+        .addClass("displaynone");
+      $(".set > a .clsicon.pluscls")
+        .removeClass("displaynone");
+       $(this).closest('.set').find('.clsicon.minuscls').removeClass("displaynone");
+      $(this).closest('.set').find('.clsicon.pluscls').addClass("displaynone");
       $(".set > a").removeClass("active");
       $(this).addClass("active");
       $(".content").slideUp(200);

@@ -1,0 +1,205 @@
+<div class="cmax_container">
+
+    <div class="workcontent">
+        <h2 class="cworkhead">{{section.settings.workhead1 }}</h2>
+        <h2 class="cworkdes">{{section.settings.worksub}}</h2>
+    </div> 
+      
+       <div class="workbackimg" style="background-image:url('{{section.settings.workback | img_url:'master'}}');">                  
+    <div class="cworkfleximg">
+        {% for block in section.blocks %}
+           
+              
+                    <div class="cworkfle25img">
+                       <div class="imgflexxximg">
+                            <h2 class="bworkheddimg">{{block.settings.bworkhead}}</h2> 
+                            {% if block.settings.workimg !=blank %}
+                                 <img src="{{block.settings.workimg |img_url:'800x'}}" class="paetimg">
+                            {% endif %}
+                        </div>
+                        <p class="bworkdessimg">{{block.settings.bworkdes}}</p>
+                        </div>
+                    
+        {% endfor %}
+                 
+  </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "work coachingmainimg",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "workhead1",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "worksub",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "workback",
+    "label": "Image"
+      }
+  ],
+"blocks": [
+  {
+    "type": "blogs",
+    "name": "blogs",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"workimg",
+        "label":"Image"
+      },
+         
+       {
+    "type": "text",
+    "id": "bworkhead",
+    "label": "Blog Heading"
+      },
+      
+       {
+    "type": "text",
+    "id": "bworkdes",
+    "label": "Blog Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "work coachingmainimg"
+    }
+  ]
+}
+
+{% endschema %}
+<style>
+.cworkfle25:nth-last-child(-n+4) p.bworkdess{
+  padding-top: 50px;
+}
+.workbackimg {
+  background-attachment: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -5%;
+}
+.cworkfleximg {
+    display: flex;
+    flex-wrap: wrap;
+      padding-top: 35px
+    /* justify-content: space-between; */
+}
+h2.bworkheddimg {
+    padding-left: 33px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #184B44;
+}
+.imgflexxximg {
+    display: flex;
+        margin-top: 20%;
+}
+.cworkfle25img {
+    width: 25%;
+}
+p.bworkdessimg {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1E1E1E;
+}
+.cworkfle25img:nth-last-child(-n+4) p.bworkdessimg{
+  padding-top: 50px;
+}
+cworkfle25img:nth-last-child(-n+4) .imgflexxximg {
+    padding-top: 40px;
+}
+.bworkdessimg {
+  margin: 0px;
+  padding: 10px 30px 45px;
+  height: 175px;
+}
+ .cworkfle25img:first-child p.bworkdessimg {
+    width: 92%;
+    margin-left: auto;
+}
+@media only screen and (max-width: 1260px) {
+  p.bworkdessimg{
+       padding-top: 35px;
+    line-height: 24px;
+  }
+ 
+}
+@media only screen and (max-width: 1120px) {
+  .cworkfle25img:nth-child(4) .bworkdessimg {
+  
+    padding-right: 24px;
+}
+}
+@media only screen and (max-width: 1100px) {
+  p.bworkdessimg {
+    padding-top: 55px;
+    line-height: 22px;
+}
+img.paetimg {
+    margin-bottom: 12px;
+}
+.bworkdessimg{
+  padding: 10px 12px 35px;
+    height: 170px;
+}
+.cworkfle25img:nth-last-child(-n+4) p.bworkdessimg {
+    padding-top: 10px;
+}
+   }
+@media only screen and (max-width: 1033px) {
+  p.bworkdessimg {
+    padding-top: 72px;
+    line-height: 18px;
+    font-size:13px;
+}
+.imgflexxximg {
+    display: flex;
+    margin-top: 10%;
+}
+}
+@media only screen and (max-width: 991px) {
+  .workbackimg{
+      background-image: none!important;
+  }
+  p.bworkdessimg {
+    padding-top: 15px;
+    line-height: 24px;
+    font-size: 14px;
+}
+  }
+  @media only screen and (max-width: 800px) {
+    .cworkfle25img {
+    width: 33%;
+}
+  }
+    @media only screen and (max-width: 748px) {
+    .cworkfle25img {
+    width: 48%;
+}
+  }
+  @media only screen and (max-width:420px) {
+    .cworkfle25img {
+    width: 98%;
+}
+  }
+</style>  
