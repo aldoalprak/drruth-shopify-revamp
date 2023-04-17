@@ -86,6 +86,16 @@
     position:relative;
     animation:animateleft 0.4s;
   }
+
+  .rx-animate-right{
+    position:relative;
+    animation:animateright 0.4s
+  }
+  
+  @keyframes animateright{
+    from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}
+  }
   
   @keyframes animateleft{
     from{left:-300px;opacity:0} 
@@ -267,7 +277,7 @@
   <!-- Full-width images with number and caption text -->
   <div class= "slides-group">
     {%- for block in section.blocks -%}
-    <div class="imgWithText-slides rx-animate-left">
+    <div class="imgWithText-slides rx-animate-right">
       
       <div class="section-{{ section.id }} image-with-text image-with-text--{{ block.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %} section-{{ section.id }}-padding">
         <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if block.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if block.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
@@ -425,7 +435,7 @@
     slides[autoSlideIndex_IWT-1].style.display = "block";
     dots[autoSlideIndex_IWT-1].className += " active";
 
-    setTimeout(autoShowSlides_IWT, 3000); // Change image every 2 seconds
+    setTimeout(autoShowSlides_IWT, 5000); // Change image every 5 seconds
   }
 
 </script>

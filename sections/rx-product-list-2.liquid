@@ -92,7 +92,7 @@
     border-radius: 24px;
     background-color: #F5F8F1;
     color: black;
-    padding: 20px 15px 5px;
+    padding: 20px 15px 20px;
   }
 
   .rx-{{ section.id }} .box p{ 
@@ -119,6 +119,17 @@
     position:relative;
     animation:animateleft 0.4s;
   }
+
+  .rx-animate-right{
+    position:relative;
+    animation:animateright 0.4s
+  }
+  
+  @keyframes animateright{
+    from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}
+  }
+
   
   @keyframes animateleft{
     from{left:-300px;opacity:0} 
@@ -141,7 +152,7 @@
 
     .rx-{{ section.id }} .box {
       width: 145px;
-      height: 75px;
+      height: 85px;
     }
 
     .rx-{{ section.id }} .box p {
@@ -164,7 +175,7 @@
         <p>hello1</p>
       </div> {% endcomment %}
   
-      <div class="prodList-slides rx-animate-left">
+      <div class="prodList-slides rx-animate-right">
 
         {%- if block.settings.box_display_1 -%}
           <a class="box" href="{{block.settings.url_link_1}}">
