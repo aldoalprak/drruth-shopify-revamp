@@ -5005,6 +5005,9 @@ color: #FFFFFF;
   .ratinconain.multipleitems.slick-initialized.slick-slider.slick-dotted{
     width: 90%;
   }
+  img.paetimg {
+    margin-top: -6%;
+}
 }
 @media only screen and (max-width: 991px) {
   .arrowheight{
