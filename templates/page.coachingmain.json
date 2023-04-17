@@ -358,6 +358,83 @@
         "worksub": "During the program"
       }
     },
+    "604b8ec4-1860-43f8-99e9-4f9668e40979": {
+      "type": "workcoachingimg",
+      "blocks": {
+        "a98da83f-f38a-4362-9de6-6f2bf8043818": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "1. Apply",
+            "bworkdes": "Fill out our application form and let us know why you’re a good fit for the program."
+          }
+        },
+        "cbed2f15-1f80-4f1f-a09b-f52d0c7593b1": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "2. Application Review",
+            "bworkdes": "We will review your application and assess your qualifications and suitability for the program."
+          }
+        },
+        "c88dd278-5d6a-470f-b72a-4e063264dfc9": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "3. Interview",
+            "bworkdes": "If your application is accepted, you'll have the opportunity to discuss your goals and motivations for becoming a Certified Holistic Pet Health Coach."
+          }
+        },
+        "fa67fe51-6081-44ab-b5ca-3d347b68f59c": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "4. Acceptance",
+            "bworkdes": "After the interview, the team will notify you of your acceptance into the program."
+          }
+        },
+        "e490ff70-e85a-4057-b5f0-96b760e26638": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "5. Coaching",
+            "bworkdes": "You'll begin the coaching 16 sessions where you'll learn about a variety of topics related to pet health with Dr. Ruth Roberts"
+          }
+        },
+        "9f14c083-97f4-4d54-8615-40176cc4c234": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "6. Mentorship",
+            "bworkdes": "16  sessions with experienced professionals in the field for personalized guidance and support as you work towards completing the program."
+          }
+        },
+        "ae32819f-4325-4726-a3b8-aff8450e78c5": {
+          "type": "blogs",
+          "settings": {
+            "bworkhead": "7. Exam",
+            "bworkdes": "After completing the coaching sessions, you'll take an exam to assess your understanding of the material covered in the program."
+          }
+        },
+        "38438828-3fae-4207-b1b4-2a65e3093ed5": {
+          "type": "blogs",
+          "settings": {
+            "workimg": "shopify:\/\/shop_images\/Group_1_9e6792c8-e705-45ec-ab7f-f34a652c7afe.png",
+            "bworkhead": "8. Graduate",
+            "bworkdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+          }
+        }
+      },
+      "block_order": [
+        "a98da83f-f38a-4362-9de6-6f2bf8043818",
+        "cbed2f15-1f80-4f1f-a09b-f52d0c7593b1",
+        "c88dd278-5d6a-470f-b72a-4e063264dfc9",
+        "fa67fe51-6081-44ab-b5ca-3d347b68f59c",
+        "e490ff70-e85a-4057-b5f0-96b760e26638",
+        "9f14c083-97f4-4d54-8615-40176cc4c234",
+        "ae32819f-4325-4726-a3b8-aff8450e78c5",
+        "38438828-3fae-4207-b1b4-2a65e3093ed5"
+      ],
+      "settings": {
+        "workhead1": "How it Works ",
+        "worksub": "During the program",
+        "workback": "shopify:\/\/shop_images\/Vector_3.png"
+      }
+    },
     "4757daba-bf88-4168-8ec3-278701d02b56": {
       "type": "after_program",
       "blocks": {
@@ -921,6 +998,7 @@
     "5d6ce464-4822-4265-978d-865c15a291eb",
     "8bf8345c-cddb-467d-a299-f38120a69953",
     "00f4763c-eed7-470b-8ccb-45e5f7d30179",
+    "604b8ec4-1860-43f8-99e9-4f9668e40979",
     "4757daba-bf88-4168-8ec3-278701d02b56",
     "956967f3-b758-4069-9de9-97161c47dbc6",
     "73b30236-98d9-438e-82e6-6c1d743b0091",
