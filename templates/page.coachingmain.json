@@ -528,6 +528,7 @@
         "af39ebc3-112c-49f9-ab4d-8d7a17a1de26": {
           "type": "block",
           "settings": {
+            "cost_num": "1",
             "cost_head": "Advanced Payment",
             "cost_price": "$5000",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
@@ -538,8 +539,9 @@
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
           "type": "block",
           "settings": {
-            "cost_head": "4Monthly Installments",
-            "cost_price": "$1500 <span>\/ 4 months<\/span>",
+            "cost_num": "4",
+            "cost_head": "Monthly Installments",
+            "cost_price": "$1500 \/ 4 months",
             "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
             "cost_btn": "Apply Now",
             "cost_btnurl": ""
@@ -548,8 +550,9 @@
         "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
           "type": "block",
           "settings": {
-            "cost_head": "16Weekly Installments",
-            "cost_price": "$367 <span>\/ 15 week<\/span>",
+            "cost_num": "16",
+            "cost_head": "Weekly Installments",
+            "cost_price": "$367 \/ 15 week",
             "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
             "cost_btn": "Apply Now",
             "cost_btnurl": ""
