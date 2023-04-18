@@ -43,61 +43,6 @@
         "padding_bottom": 52
       }
     },
-    "1655751929e34d4e57": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "16557519296bd204f0-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "herbsmith-products"
-          }
-        },
-        "16557519296bd204f0-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "standard-process-collection"
-          }
-        },
-        "16557519296bd204f0-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "animalbiome"
-          }
-        },
-        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "assisi-loop-calmer-canine®"
-          }
-        },
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16557519296bd204f0-0",
-        "16557519296bd204f0-1",
-        "16557519296bd204f0-2",
-        "aa1c3c69-2ce2-435d-81c8-18b114024961",
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "fab95617-1970-4910-b24c-2af5f2aa16b1": {
       "type": "coaching_mainbanner",
       "disabled": true,
@@ -919,7 +864,7 @@
       "custom_css": [
         "span.imagedes {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #ffffff;}",
         "span.imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 40px; line-height: 40px; text-align: center; color: #ffffff;}",
-        ".banner__box {max-width: 91rem!important;}"
+        ".banner__box {max-width: 91rem !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/drruth3.jpg",
@@ -993,7 +938,6 @@
   "order": [
     "main",
     "newsletter",
-    "1655751929e34d4e57",
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
