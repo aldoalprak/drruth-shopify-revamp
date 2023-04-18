@@ -583,7 +583,7 @@
         "af39ebc3-112c-49f9-ab4d-8d7a17a1de26": {
           "type": "block",
           "settings": {
-            "cost_head": "1Advanced Payment",
+            "cost_head": "Advanced Payment",
             "cost_price": "$5000",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
             "cost_btn": "Apply Now",
