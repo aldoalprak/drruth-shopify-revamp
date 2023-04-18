@@ -1,0 +1,714 @@
+<style>
+  .rx-{{section.id}} {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .rx-slideshow-product-list2 {
+    max-width: {{section.settings.desktopMaxWidth}};
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .rx-{{section.id}} .prodList-slides:not(.prodList-slides:nth-of-type(1)) {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .rx-{{section.id}} #rx-prev-prodList2, .rx-{{section.id}} #rx-next-prodList2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .rx-{{section.id}} #rx-next-prodList2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .rx-{{section.id}} #rx-prev-prodList2:hover, #rx-next-prodList2:hover {
+    {% comment %} background-color: rgba(0,0,0,0.8); {% endcomment %}
+  }
+  
+  /* Caption text */
+  .rx-{{section.id}} .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .rx-{{section.id}} .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .rx-{{section.id}} .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .rx-{{section.id}} .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .rx-{{section.id}} .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .rx-{{ section.id }} .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 136px;
+    width: 175px;
+    text-decoration: none;
+    border-radius: 24px;
+    background-color: #F5F8F1;
+    color: black;
+    padding: 20px 15px 20px;
+  }
+
+  .rx-{{ section.id }} .box p{ 
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1E1E1E;
+    text-align: center;  
+  }
+
+  .rx-{{ section.id }} .slides-group .prodList-slides{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rx-{{ section.id }} .slides-group .prodList-slides .box{
+    margin: 10px 30px;
+  }
+
+  .rx-animate-left {
+    position:relative;
+    animation:animateleft 0.4s;
+  }
+
+  .rx-animate-right{
+    position:relative;
+    animation:animateright 0.4s
+  }
+  
+  @keyframes animateright{
+    from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}
+  }
+
+  
+  @keyframes animateleft{
+    from{left:-300px;opacity:0} 
+    to{left:0;opacity:1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @media screen and (max-width: 750px) {
+    .rx-{{ section.id }} .slides-group .prodList-slides .box{
+      margin: 5px 10px;
+    }
+
+    .rx-{{ section.id }} .slides-group .prodList-slides .box img{
+      display: none;
+    }
+
+    .rx-{{ section.id }} .box {
+      width: 145px;
+      height: 85px;
+    }
+
+    .rx-{{ section.id }} .box p {
+      margin: auto;
+    }
+
+    .rx-{{ section.id }} .slides-group .prodList-slides .box svg{
+      display: none;
+    }
+
+  }
+  </style>
+
+<div class="rx-{{section.id}} rx-slideshow-product-list2">
+  
+  <!-- Full-width images with number and caption text -->
+  <div class= "slides-group">
+    {%- for block in section.blocks -%}
+      {% comment %} <div class="prodList-slides fade">
+        <p>hello1</p>
+      </div> {% endcomment %}
+  
+      <div class="prodList-slides rx-animate-right">
+
+        {%- if block.settings.box_display_1 -%}
+          <a class="box" href="{{block.settings.url_link_1}}">
+            {%- if block.settings.image_1 -%}
+              <img
+                id="rx-col-icon"
+                src="{{ block.settings.image_1 | image_url: width:50, crop: 'center' }}"
+                alt="{{ block.settings.collection_title_1 }}"
+                sizes="100%"
+                loading="lazy"
+                width="35"
+                height="45"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%} 
+            
+              <p>
+                {{ block.settings.collection_title_1 }}
+              </p>
+            
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_2 -%}
+          <a class="box" href="">
+            {%- if block.settings.image_2 -%}
+              <img
+                id="rx-col-icon"
+                src="{{ block.settings.image_2 | image_url: width:50, crop: 'center' }}"
+                alt="{{ block.settings.collection_title_2}}"
+                sizes="100%"
+                loading="lazy"
+                width="35"
+                height="45"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%} 
+            
+              <p>
+                {{ block.settings.collection_title_2 }}
+              </p>
+          </a>
+        {%- endif -%}
+           {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_3 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_3 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_3 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_3 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_3 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_4 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_4 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_4 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_4 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_4 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_5 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_5 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_5 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_5 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_5 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_6 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_6 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_6 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_6 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_6 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_7 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_7 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_7 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_7 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_7 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_8 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_8 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_8 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_8 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_8 }}
+            </p>
+          </a>
+        {%- endif -%}
+          {% comment %} =================== {% endcomment %}
+        {%- if block.settings.box_display_9 -%}
+          <a class="box" href="">
+          {%- if block.settings.image_9 -%}
+            <img
+              id="rx-col-icon"
+              src="{{ block.settings.image_9 | image_url: width:50, crop: 'center' }}"
+              alt="{{ block.settings.collection_title_9 }}"
+              sizes="100%"
+              loading="lazy"
+              width="35"
+              height="45"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag }}
+          {%- endif -%} 
+          
+            <p>
+              {{ block.settings.collection_title_9 }}
+            </p>
+          </a>
+        {%- endif -%}
+       
+      </div>
+    {%- endfor -%}
+   
+
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a id="rx-prev-prodList2" onclick="plusSlides(-1)">
+    <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/arrow_left.png?v=1681670270" alt="arrow_left"/>
+  </a>
+  <a id="rx-next-prodList2" onclick="plusSlides(1)">
+    <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/arrow_right.png?v=1681670270" alt="arrow_right">
+  </a>
+</div>
+<br>
+
+
+<script>
+
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  let slides = document.getElementsByClassName("prodList-slides");
+  console.log("==sli===",slides.length)
+  if(slides.length === 1) {
+    let arrowNext = document.getElementById("rx-next-prodList2");
+    let arrowPrevious = document.getElementById("rx-prev-prodList2");
+
+    arrowNext.style.display = "none";
+    arrowPrevious.style.display = "none";
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("prodList-slides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+
+    slides[slideIndex-1].style.display = "flex";
+  }
+
+</script>
+
+
+
+{% schema %}
+{
+  "name": "RX-Product-List-2",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "desktopMaxWidth",
+      "default": "100%",
+      "label": "Max width on desktop",
+      "info": "For example: 80% or 1000px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "collection item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Collection Title 1"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_1",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_1",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_1",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 2"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_2",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_2",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_2",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 3"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_3",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_3",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_3",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 4"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_4",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_4",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_4",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_4",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 5"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_5",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_5",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_5",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_5",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 6"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_6",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_6",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_6",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_6",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 7"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_7",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_7",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_7",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_7",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 8"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_8",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_8",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_8",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_8",
+          "default": true,
+          "label": "Visibility"
+        },
+
+        {
+          "type": "header",
+          "content": "Collection Title 9"
+        },
+        {
+          "type": "text",
+          "id": "collection_title_9",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_9",
+          "label": "Upload image"
+        },
+        {
+          "type": "url",
+          "id": "url_link_9",
+          "label": "URL link"
+        },
+        {
+          "type": "checkbox",
+          "id": "box_display_9",
+          "default": true,
+          "label": "Visibility"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "RX-Product-List-2",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

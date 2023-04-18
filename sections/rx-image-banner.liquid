@@ -27,7 +27,7 @@
         max-width: 56rem;
         min-width: 45rem;
       }
-}
+    }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -36,7 +36,7 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 
-  .rx_banner__heading {
+  .section-{{section.id}} .rx_banner__heading {
     font-family: "BLT-Heirloom";
     font-weight: 300;
     font-size: 30px;
@@ -45,7 +45,7 @@
     margin: 0;
   }
 
-  .rx_banner__text {
+  .section-{{section.id}} .rx_banner__text {
     font-family: "Josefin Sans";
     font-weight: 400;
     font-size: 18px;
@@ -54,7 +54,7 @@
     color: {{section.settings.text_color}}
   }
 
-  .rx_banner__buttons {
+  .section-{{section.id}} .rx_banner__buttons {
     font-family: "Josefin Sans";
     font-weight: 500;
     font-size: 14px;
@@ -68,6 +68,37 @@
     margin:0;
   }
 
+
+  @media screen and (min-width: 750px) {
+    .section-{{section.id}} .banner--desktop-transparent .rx_banner__box {
+      background: transparent;
+      --color-foreground: 255, 255, 255;
+      --color-button: 255, 255, 255;
+      --color-button-text: 0, 0, 0;
+      max-width: 89rem;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .section-{{section.id}} .rx_banner__box.rx-container-bg {
+      background-color: {% if section.settings.show_text_box == true %} {{section.settings.container_bg}} {% endif %}
+    }
+
+    .section-{{section.id}} .custom-box.rx_banner__box {
+      width: auto;
+      max-width: 66rem;
+      min-width: 45rem;
+      padding: {% if section.settings.show_text_box == true %} 50px {% endif %};
+    }
+
+  }
+
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} .rx_read_more_arrow_img_banner {
+      display: {% if section.settings.show_arrow_mobile == "no" %} none {% endif %};
+    }
+  }
 
 
 {%- endstyle -%}
@@ -136,8 +167,8 @@
       }}
     </div>
   {%- endif -%}
-  <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-    <div class="custom-box rx_banner__box content-container content-container--full-width-mobile">
+  <div class="section-{{section.id}} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
+    <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
@@ -159,12 +190,13 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class="rx_read_more_btn_white"
+                  class="{% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
                   <img 
                     id="rx_read_more_arrow_black"
-                    src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711"
+                    src="{% if section.settings.show_text_box == false %} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 {% else%} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191 {%endif%}"
+                    class="rx_read_more_arrow_img_banner"
                   >
                 </a>
               {%- endif -%}
@@ -273,12 +305,18 @@
       "default": "middle-center",
       "label": "t:sections.image-banner.settings.desktop_content_position.label"
     },
-   /* {
+    {
       "type": "checkbox",
       "id": "show_text_box",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_box.label"
-    },*/
+    },
+    {
+      "type": "color",
+      "id": "container_bg",
+      "label": "Container Background Color",
+      "default": "#fff"
+    },
     {
       "type": "select",
       "id": "desktop_content_alignment",
@@ -314,6 +352,22 @@
     {
       "type": "header",
       "content": "t:sections.image-banner.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "show_arrow_mobile",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "yes",
+      "label": "Show arrow on mobile"
     },
     {
       "type": "select",

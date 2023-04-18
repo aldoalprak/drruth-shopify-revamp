@@ -1,0 +1,312 @@
+{% include 'rx-testimonial-settings' %}
+
+{{ 'rx-testimonial.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'rx-testimonial.js' | asset_url }}" defer="defer"></script>
+
+<style>
+  {{ section.settings.title_font | font_face }}
+  {{ section.settings.font | font_face }}
+  {{ section.settings.font | font_modify: 'weight', 'bolder' | font_face }}
+
+  #shopify-section-{{ section.id }} .rx-wrapper {
+    max-width: {{ section.settings.desktopMaxWidth }};
+  }
+
+  .rx-{{section.id}} {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: {{section.settings.container_bgcolor}};
+  }
+
+  .rx-testimonial-item-inner {
+    background-color: {{section.settings.card_bgcolor}};
+
+  }
+
+  .rx-container-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rx-{{ section.id }} .box {
+    display: flex;
+  }
+
+  .rx-{{ section.id }} .box a {
+    height: 90px;
+    text-decoration: none;
+    display: flex;
+    max-width: 180px;
+    {% comment %} width: 84%; {% endcomment %}
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: {{ section.settings.card_color }};
+    color: {{ section.settings.text_color }};
+    border-radius: 24px;
+    margin: auto;
+    padding: 12px;
+  }
+
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} .rx-wrapper {
+      max-width: {{ section.settings.tabletMaxWidth }};
+    }
+  }
+
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} .rx-wrapper {
+      max-width: {{ section.settings.mobileMaxWidth }};
+    }
+    .rx-container-title {
+      display: block;
+    }
+  }
+
+  #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+    width: calc(100% / {{ section.settings.desktopColumns }});
+    flex: 0 0 calc(100% / {{ section.settings.desktopColumns }});
+  }
+  
+  @media (min-width: {{ minTabletSize }}px) and (max-width: {{ maxTabletSize }}px) {
+    #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+      width: calc(100% / {{ section.settings.tabletColumns }});
+      flex: 0 0 calc(100% / {{ section.settings.tabletColumns }});
+    }
+  }
+  
+  @media (max-width: {{ maxMobileSize }}px) {
+    #shopify-section-{{ section.id }} rx-slider .rx-slider-item {
+      width: calc(100% / 1);
+      flex: 0 0 calc(100% / 1);
+    }
+
+    .rx-testimonial-style1 .rx-testimonial-item .rx-testimonial-item-title {
+      text-align: center;
+    }
+  }
+
+  {%- if section.settings.empty_star_color != blank -%}
+  #shopify-section-{{ section.id }} .rx-testimonial-rating .rx-testimonial-item-star-list--empty .rx-testimonial-item-star-icon svg {
+    fill: {{ section.settings.empty_star_color }};
+  }
+  {% endif %}
+
+  {%- if section.settings.filled_star_color != blank -%}
+  #shopify-section-{{ section.id }} .rx-testimonial-rating .rx-testimonial-item-star-list--filled .rx-testimonial-item-star-icon svg {
+    fill: {{ section.settings.filled_star_color }};
+  }
+  {% endif %}
+</style>
+
+<div class="rx-{{ section.id }}">
+  <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-testimonial rx-testimonial-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1"{% if section.settings.autoPlay %} data-auto-play="true"{% if section.settings.smoothAutoPlay %} data-smooth-auto-play="true"{% endif %}{% endif %}>
+    <div class="rx-testimonial-list-container">
+      <div class="rx-slider-list rx-testimonial-list">
+        {%- for block in section.blocks -%}
+          <div class="rx-slider-item rx-testimonial-item" {{ block.shopify_attributes }}>
+            <div class="box">
+              <a href="">
+                {%- if block.settings.image -%}
+                  <img
+                    id="rx-col-icon"
+                    src="{{ block.settings.image | image_url: widht:500, crop: 'center' }}"
+                    alt="{{ block.settings.collection_title }}"
+                    sizes="100%"
+                    loading="lazy"
+                    width="500"
+                    height="500"
+                  >
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag }}
+                {%- endif -%}
+                <div class="collection-2-name-box">
+                  <p>
+                    {{ block.settings.collection_title }}
+                  </p>
+                </div>
+              </a>
+             
+            </div>
+            <div class="box">
+              <a href="">
+                {%- if block.settings.image -%}
+                  <img
+                    id="rx-col-icon"
+                    src="{{ block.settings.image | image_url: widht:500, crop: 'center' }}"
+                    alt="{{ block.settings.collection_title }}"
+                    sizes="100%"
+                    loading="lazy"
+                    width="500"
+                    height="500"
+                  >
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag }}
+                {%- endif -%}
+                <div class="collection-2-name-box">
+                  <p>
+                    {{ block.settings.collection_title }}
+                  </p>
+                </div>
+              </a>
+             
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </rx-slider>
+</div>
+
+{% schema %}
+{
+  "name": "RX-Product-List-V2",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "desktopColumns",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "5",
+          "label": "5"
+        }
+      ],
+      "default": "5",
+      "label": "Columns on desktop"
+    },
+    {
+      "type": "select",
+      "id": "tabletColumns",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "label": "Columns on tablet",
+      "default": "2"
+    },
+    {
+      "type": "text",
+      "id": "desktopMaxWidth",
+      "default": "100%",
+      "label": "Max width on desktop",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "tabletMaxWidth",
+      "label": "Max width on tablet",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "text",
+      "id": "mobileMaxWidth",
+      "label": "Max width on mobile",
+      "default": "100%",
+      "info": "For example: 80% or 1000px"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoPlay",
+      "default": false,
+      "label": "Auto Play"
+    },
+    {
+      "type": "checkbox",
+      "id": "smoothAutoPlay",
+      "default": false,
+      "label": "Smooth Auto Play"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_hide_arrow",
+      "default": false,
+      "label": "Auto hide arrow"
+    },
+    {
+      "type": "color",
+      "id": "container_bgcolor",
+      "default": "#fff",
+      "label": "Container Background Color"
+    },
+    {
+      "type": "color",
+      "id": "card_bgcolor",
+      "default": "#fff",
+      "label": "Card Background Color"
+    },
+    {
+      "type": "color",
+      "id": "filled_star_color",
+      "label": "Filled Star Color"
+    },
+    {
+      "type": "color",
+      "id": "empty_star_color",
+      "label": "Empty Star Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Collection",
+      "name": "collection item",
+      "settings": [
+
+        {
+          "type": "text",
+          "id": "collection_title",
+          "default": "Collection Title",
+          "label": "Collection Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Upload image",
+          "info": "Tips: Use transparent png images (ratio 1:1 ) for best effect. Equal sized are recommended."
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "RX-Product-List-V2",
+      "blocks": [
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        },
+        {
+          "type": "Collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

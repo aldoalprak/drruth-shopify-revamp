@@ -2994,7 +2994,7 @@ details-disclosure > details {
   }
 }
 
-/* Custom code by 3rd party dev */
+/* ==========Custom code by 3rd party dev========== */
 @font-face {
   font-family: "Josefin Sans";
   src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
@@ -3032,7 +3032,7 @@ details-disclosure > details {
 .rx_read_more_btn_green {
   font-family: "Josefin Sans";
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   color: #1E1E1E;
   box-sizing: border-box;
@@ -3044,13 +3044,13 @@ details-disclosure > details {
 }
 
 #rx_read_more_arrow_black {
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 .rx_read_more_btn_white {
   font-family: "Josefin Sans";
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   color: #FFFFFF;
   box-sizing: border-box;
