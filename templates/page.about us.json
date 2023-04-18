@@ -1,104 +1,257 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
+    "3e98218a-fd5c-46db-9414-adedcca49c46": {
+      "type": "rx-rich-text",
       "blocks": {
-        "heading": {
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading": "<p>My Philosophy<\/p>"
           }
         },
-        "paragraph": {
-          "type": "paragraph",
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-1": {
+          "type": "text",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>I am committed to helping pet parents and their furry companions live their happiest, healthiest lives.<\/p>"
           }
         },
-        "email-form": {
-          "type": "email_form",
+        "c3ae5a9f-8687-4e07-b256-7f5792eaa16c": {
+          "type": "caption",
           "settings": {
+            "caption": "My philosophy is simple: pets are family too, and they deserve the best care possible. As a pet wellness coach with a holistic, integrative approach, I'm all about natural and preventative care to keep your pet pals feeling their absolute best. Let's work together to keep those tails wagging!"
+          }
+        },
+        "8df0526e-6023-4918-a9f4-d3bd5f7283f3": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mystory.jpg"
           }
         }
       },
       "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-0",
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-1",
+        "c3ae5a9f-8687-4e07-b256-7f5792eaa16c",
+        "8df0526e-6023-4918-a9f4-d3bd5f7283f3"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "left",
+        "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 68,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1a5dedc7-619e-4d76-af24-3059fc78e784": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "7bf4d7c4-baad-4696-9536-dec284d0706c": {
+          "type": "caption",
+          "settings": {
+            "caption": "CELEBRATING MY JOURNEY"
+          }
+        }
+      },
+      "block_order": [
+        "7bf4d7c4-baad-4696-9536-dec284d0706c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b": {
+      "type": "rx-celebration",
+      "blocks": {
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "35+",
+            "rx_celeb_textbox_2": "Years of saving pet live"
+          }
+        },
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "100+",
+            "rx_celeb_textbox_2": "Successful Students"
+          }
+        },
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "30.000+",
+            "rx_celeb_textbox_2": "Happy Tails"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2"
+      ],
+      "settings": {
+      }
+    },
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/aboutRuth.jpg",
+        "heading": "Meet Dr. Ruth",
+        "caption": "The Holistic Pet Coach Who is Changing the Way We Care for Our Furry Friends",
+        "content": "<p>After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine.<\/p>",
+        "content2": "",
+        "layout": "image_first"
+      }
+    },
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f": {
+      "type": "rx-list-component",
+      "blocks": {
+        "ca8dfa28-dce9-4131-bd91-675d5427991e": {
+          "type": "text",
+          "settings": {
+            "maintext": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "a753ac19-9be2-475d-8234-62bc15299e62": {
+          "type": "text",
+          "settings": {
+            "maintext": "Certified Veterinary Food Therapy (CVFT)"
+          }
+        },
+        "9fe41f38-6a53-4888-a340-72395aaa6d91": {
+          "type": "text",
+          "settings": {
+            "maintext": "Certified Veterinary Acupuncturist (CVA)"
+          }
+        },
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5": {
+          "type": "text",
+          "settings": {
+            "maintext": "Natural Animal Nutrition (NAN)"
+          }
+        },
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b": {
+          "type": "text",
+          "settings": {
+            "maintext": "Certified Veterinary Chinese Herbology (CVH)"
+          }
+        }
+      },
+      "block_order": [
+        "ca8dfa28-dce9-4131-bd91-675d5427991e",
+        "a753ac19-9be2-475d-8234-62bc15299e62",
+        "9fe41f38-6a53-4888-a340-72395aaa6d91",
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5",
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b"
+      ],
+      "settings": {
+      }
+    },
+    "f60fcd36-95e3-42dc-83ea-518aef727035": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A Holistic Approach to Veterinary Medicine<\/p>"
+          }
+        },
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>My goal is to revolutionize pet care and change the way we approach animal health. With my expertise and compassionate approach, I am dedicated to helping all of my furry patients live their best lives.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0",
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
-    "1655751929e34d4e57": {
-      "type": "collection-list",
+    "bd7ea1b0-5c57-4106-a7e6-a09658dca609": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth2.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>As a veterinarian, I have always been driven by a passion for animal health and wellness. However, it became clear to me that relying solely on traditional Western Medicine was not enough to fully address all of my furry patients' health issues. This realization led me to specialize in acupuncture for pets and Eastern Veterinary Medicine. During my journey, I also created The Original CrockPET Diet™, a healthy pet food diet that I recommend to all my clients.<\/p>",
+        "content2": "<p>My approach to holistic veterinary care is based on natural, holistic remedies, such as acupuncture, herbal therapy, and food therapy. These alternative methods have allowed me to successfully treat a wide range of ailments and help many pets recover and maintain optimal health. While I recognize the importance of Western Medicine, I also use it only when necessary to treat infections and illnesses that cannot be resolved with natural remedies.<\/p>",
+        "layout": "text_first"
+      }
+    },
+    "ad2b506a-a006-4757-abea-111ff8635172": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth1.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>I am passionate about sharing my knowledge and experience of holistic veterinary medicine with other veterinary professionals and dogs and cats’ parents. That's why I have created courses and a coaching program to share my knowledge and experience, with the aim of reaching more people and helping more pets. The courses are designed to provide comprehensive training for veterinarians, veterinary technicians, and pet owners who want to learn about holistic veterinary medicine and how to integrate it into their pets' care.<\/p>",
+        "content2": "",
+        "layout": "image_first"
+      }
+    },
+    "c9a2c67f-3a6d-403f-878a-60e098bc9d55": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth4_4475c1e4-4589-4d7e-9eb6-38ebc3bea3fd.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>Through my courses, I hope to empower others to take a more active role in their pets' wellness and health. By sharing my experience and expertise, I believe that we can all work together to create a happier, healthier life for our furry friends. I am proud to offer a Certified Holistic Pet Health Coaching program, which is designed to teach individuals how to become experts in holistic pet health and wellness. This program covers a range of topics, including holistic nutrition, herbal therapy, and lifestyle modifications to improve pets' health and wellness. <\/p>",
+        "content2": "<p>By completing this program, graduates can become certified holistic pet health coaches and help pet parents create customized health and wellness plans for their pet pals. I am excited to continue spreading the knowledge and benefits of holistic veterinary medicine to help more pets live their best lives.<\/p>",
+        "layout": "text_first"
+      }
+    },
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a": {
+      "type": "rx-banner-text-v2",
       "blocks": {
-        "16557519296bd204f0-0": {
-          "type": "featured_collection",
+        "61aab889-2c05-483a-9481-38422110e130": {
+          "type": "button",
           "settings": {
-            "collection": "herbsmith-products"
-          }
-        },
-        "16557519296bd204f0-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "standard-process-collection"
-          }
-        },
-        "16557519296bd204f0-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "animalbiome"
-          }
-        },
-        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "assisi-loop-calmer-canine®"
-          }
-        },
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "button_label": "LEARN MORE",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "16557519296bd204f0-0",
-        "16557519296bd204f0-1",
-        "16557519296bd204f0-2",
-        "aa1c3c69-2ce2-435d-81c8-18b114024961",
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+        "61aab889-2c05-483a-9481-38422110e130"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "rx_image_banner": "shopify:\/\/shop_images\/drruth3.jpg",
+        "heading": "",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<br\/><\/p>",
+        "content2": "",
+        "layout": "image_first"
       }
     }
   },
   "order": [
-    "main",
-    "newsletter",
-    "1655751929e34d4e57"
+    "3e98218a-fd5c-46db-9414-adedcca49c46",
+    "1a5dedc7-619e-4d76-af24-3059fc78e784",
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b",
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b",
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f",
+    "f60fcd36-95e3-42dc-83ea-518aef727035",
+    "bd7ea1b0-5c57-4106-a7e6-a09658dca609",
+    "ad2b506a-a006-4757-abea-111ff8635172",
+    "c9a2c67f-3a6d-403f-878a-60e098bc9d55",
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a"
   ]
 }

@@ -21,12 +21,42 @@
 
   .rx_blog_card_content {
     text-align: center;
-    border-radius: 20px;
+    border-radius: 24px;
     border: 1px solid white;
-    transform: translateY(-5%);
+    transform: translateY(-15%);
     margin: 0 10%;
     max-width: 80%;
     background-color: #fff;
+  }
+
+  .rx_article_card_info_caption {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .rx_card__heading {
+    margin-top: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+
+  .rx_article_card_info_caption {
+    padding-top: 10px;
+  }
+
+  .article-card__image-wrapper.card__media {
+    border-radius: 20px !important;
   }
 
   @media screen and (min-width: 750px) {
@@ -45,7 +75,7 @@
   endif
 -%}
 
-<div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
@@ -85,7 +115,7 @@
                 show_image: section.settings.show_image,
                 show_date: section.settings.show_date,
                 show_author: section.settings.show_author,
-                show_excerpt: true
+                show_excerpt: false
               %}
             </li>
         
@@ -206,35 +236,6 @@
       "step": 1,
       "default": 3,
       "label": "t:sections.featured-blog.settings.columns_desktop.label"
-    },
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info"
     },
     {
       "type": "checkbox",

@@ -638,13 +638,14 @@
       {%- endif -%}
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        {%- liquid
+        {% comment %} {%- liquid
           if cart == empty
             render 'icon-cart-empty'
           else
             render 'icon-cart'
           endif
-        -%}
+        -%} {% endcomment %}
+          {%- render 'rx-icon-cart' -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
