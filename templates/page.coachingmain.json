@@ -918,7 +918,8 @@
       ],
       "custom_css": [
         "span.imagedes {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #ffffff;}",
-        "span.imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 40px; line-height: 40px; text-align: center; color: #ffffff;}"
+        "span.imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 40px; line-height: 40px; text-align: center; color: #ffffff;}",
+        ".banner__box {max-width: 91rem!important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/drruth3.jpg",
