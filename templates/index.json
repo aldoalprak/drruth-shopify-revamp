@@ -723,7 +723,7 @@
         "layout": "image_first",
         "desktop_title_alignment": "left",
         "desktop_content_alignment": "left",
-        "desktop_button_alignment": "center",
+        "desktop_button_alignment": "left",
         "content_layout": "overlap",
         "grid_type": "type2",
         "imgText-bg-color": "#f5f8f1",
