@@ -3666,7 +3666,7 @@ iframe#testvideo {
   border-radius: 24px 24px 0px 0px;
   width: 80%;
   margin: 0 auto;
-  bottom:-3%;
+  bottom:-7%;
   left:15%;
 }
 h3.testides {
@@ -3680,7 +3680,7 @@ h3.testides {
 }
 h2.testihead {
  text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
   font-family: 'Josefin Sans';
 font-style: normal;
 font-weight: 500;
@@ -4270,6 +4270,7 @@ p.certified ,p.certified2 {
   line-height: 30px;
   color: #1E1E1E;
   padding: 2% 10% 0 10%;
+  padding-right: 16%;
 }
 .text60:nth-child(2) {
   border-bottom: 2px solid #F5F8F1;
@@ -4526,6 +4527,7 @@ h2.moduledesc {
 }
 .testvideo{
   margin: 0 20px;
+ 
 }
 button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
   top: 50%;
@@ -4866,7 +4868,7 @@ section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f6
   color: #1E1E1E;
 }
 .text40:nth-child(1) .text40img img{
-  min-height: 420px;
+  min-height: 500px;
 }
 .text60:nth-child(1){
   border-top: 2px solid #F5F8F1;
@@ -5161,4 +5163,8 @@ h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721_
 }
 .displaynone{
   display: none;
+}
+.costpart1 h2:first-child {
+  border-bottom: none;
+  margin-bottom: -28px;
 }

@@ -1,0 +1,97 @@
+<div class="cmax_container">
+        <div class="appbg">
+                <div class="appcontent">
+                        <h2 class="apconhead">{{section.settings.apphead}}</h2>
+                        <h2 class="apconhead2">{{section.settings.appdesc}}</h2>
+                </div>
+        </div>
+        <div class="appflex">
+                <div class="app40">
+                </div>
+                <div class="app60">
+                    <p class="appcontctdes">{{section.settings.appcontctdes}}</p>
+                </div>
+        </div>
+        <div class="appbtn">
+            <a href="{{ section.settings.appbtnurl }}" class="btnspace1">{{ section.settings.applbtn }} 
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+                </svg>
+            </a>
+        </div> 
+</div>
+
+{% schema %}
+  {
+    "name": "application",
+    "settings": [
+          {
+    "type": "text",
+    "id": "apphead",
+    "label": "Heading"
+      },
+          {
+    "type": "text",
+    "id": "appdesc",
+    "label": "Description"
+      },
+      {
+    "type": "text",
+    "id": "appcontctdes",
+    "label": "Description"
+      },
+      {
+        "type": "text",
+    "id": "applbtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "appbtnurl",
+    "label": "Button Link"
+       }
+    ],
+    
+    "presets": [
+    {
+    "name": "application"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+.appbg {
+    background: #F5F8F1;
+    border-radius: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+h2.apconhead ,h2.apconhead2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    margin:0;
+}
+.appcontent {
+    padding: 3% 0;
+}
+.appflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.app60 {
+    width: 60%;
+}
+.app40 {
+    width: 40%;
+}
+h2.apconhead2{
+        font-size: 18px;
+        line-height: 22px;
+}
+</style>

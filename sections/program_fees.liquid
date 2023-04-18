@@ -14,6 +14,7 @@
             <div class="pcostflex">
                 {%- for block in section.blocks -%}
                     <div class="costpart1">
+                        <h2>{{block.settings.cost_num}} </h2>
                         <h2>{{block.settings.cost_head}} </h2>
                         <h3>{{block.settings.cost_price}}</h3>
                         <p>{{block.settings.cost_desc}}</p>
@@ -54,6 +55,11 @@
     "type": "block",
     "name": "block",
     "settings": [
+        {
+    "type": "text",
+    "id": "cost_num",
+    "label": "Number"
+      },
         {
     "type": "text",
     "id": "cost_head",
