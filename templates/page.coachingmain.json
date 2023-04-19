@@ -590,7 +590,8 @@
       ],
       "custom_css": [
         "h1.confirmedetail {text-align: left;}",
-        ".customerdetail{text-align:left;}"
+        ".customerdetail {text-align: left;}",
+        ".starflex{align-items: baseline;}"
       ],
       "settings": {
         "starreviewhead": "What our graduates say"
