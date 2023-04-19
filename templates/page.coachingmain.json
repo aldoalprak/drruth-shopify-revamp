@@ -370,7 +370,7 @@
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
       "custom_css": [
-        "p.programdestext{padding: 2% 9%;}"
+        "p.programdestext {padding: 2% 9%;}"
       ],
       "settings": {
         "programhead": "After the program ",
@@ -380,6 +380,9 @@
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
       "type": "modul",
+      "custom_css": [
+        "p.pfeesdec{padding: 0 4% 3%;}"
+      ],
       "settings": {
         "m_head": "What Will You Learn ",
         "m_des": "",
