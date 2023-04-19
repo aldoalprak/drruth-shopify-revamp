@@ -8,41 +8,6 @@
         "padding_bottom": 36
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
     "fab95617-1970-4910-b24c-2af5f2aa16b1": {
       "type": "coaching_mainbanner",
       "disabled": true,
@@ -89,7 +54,8 @@
       "custom_css": [
         "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
         ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}",
-        ".banner__box {max-width: 70rem;}"
+        ".banner__box {max-width: 70rem;}",
+        "h2.banner__heading.h1{text-align:left;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
@@ -940,7 +906,6 @@
   },
   "order": [
     "main",
-    "newsletter",
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
