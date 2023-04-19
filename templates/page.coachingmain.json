@@ -709,6 +709,9 @@
     },
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec": {
       "type": "featured-collection",
+      "custom_css": [
+        ".rich-text__blocks{max-width:90rem;}"
+      ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
         "heading_size": "h1",
