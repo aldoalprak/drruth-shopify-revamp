@@ -444,6 +444,9 @@
         "ff04dba7-725e-4dc4-957e-2948743e1b40",
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
       ],
+      "custom_css": [
+        ".arrowheight{height: 600px}"
+      ],
       "settings": {
         "arrowid": "",
         "arrowtextbtn": "Apply Now"
