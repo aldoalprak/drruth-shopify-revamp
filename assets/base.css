@@ -4467,7 +4467,7 @@ p.programdestext {
   font-size: 18px;
   line-height: 30px;
   color: #1E1E1E;
-  padding: 2% 7%;
+  padding: 2% 9%;
 }
   .programflex {
     display: flex;
@@ -4547,7 +4547,7 @@ button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
   float: right;
 }
 h3.certifiedtext{
-    width: 70%;
+    width: 68%;
     margin: 2% auto;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -4639,7 +4639,7 @@ section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489
   margin: 0 auto;
   min-height: 400px;
   overflow-y: scroll;
-  height: 750px;
+  height: 600px;
 }
 .arrorrad {
   background: #FFFFFF;
@@ -4794,6 +4794,7 @@ p.bworkdess {
 }
 .linkslide {
   padding-bottom: 10%;
+  margin-top: -4%;
 }
 .arrowpaddingspace{
   padding: 3% 0;
@@ -5176,3 +5177,20 @@ h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721_
   min-height: 300px;
   width: 100%;
 }
+.py{
+  
+  padding: 5% 0 4% 0;
+
+}
+.color-background-1.isolate.gradient {
+  margin-top: -3%;
+  padding-top: 0;
+}
+
+p.pfeesdec {
+  padding: 0 4% 3%;
+}
+.slick-dots {
+  margin: 7% 0 0 0;
+}
+
