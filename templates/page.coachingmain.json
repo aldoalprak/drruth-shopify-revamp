@@ -8,41 +8,6 @@
         "padding_bottom": 36
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
     "fab95617-1970-4910-b24c-2af5f2aa16b1": {
       "type": "coaching_mainbanner",
       "disabled": true,
@@ -89,7 +54,8 @@
       "custom_css": [
         "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
         ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}",
-        ".banner__box {max-width: 70rem;}"
+        ".banner__box {width: 50rem;}",
+        "h2.banner__heading.h1 {text-align: left;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
@@ -167,7 +133,7 @@
         "e2ed60d1-59d8-4ab5-b7de-2a43e2c3232a": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/1_0e64bddc-9c86-41eb-ad93-427aade6bec5.png",
             "c_head": "Comprehensive Training",
             "c_desc": "We help you develop the knowledge and skills you need to provide effective and compassionate care for pets."
           }
@@ -175,7 +141,7 @@
         "b45b8fa9-605d-470a-9432-323811a80330": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/2_f622af07-45c0-41cc-a2f0-2925c53aac0b.png",
             "c_head": "Personalized Learning",
             "c_desc": "We can help you develop a unique niche in the field and differentiate yourself from other professionals.​"
           }
@@ -183,7 +149,7 @@
         "3cf0b3be-eee0-4e6b-ac2f-1ed312372317": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/5_efde9c8c-99da-470e-b83f-c68c7a72250e.png",
             "c_head": "One-to-One Mentorship",
             "c_desc": "We support you through the program by offering weekly mentorship sessions over the duration of the program (16 weeks) with the mentor assigned to you by Dr.Ruth."
           }
@@ -191,7 +157,7 @@
         "6a1a089f-6303-414e-9bc9-438fde3ad06d": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/6_b5a2add1-dba5-4eb0-b9a1-59923111fb50.png",
             "c_head": "Networking Opportunities",
             "c_desc": "Network with other professionals in the field and build relationships that can help you grow your business and advance your career."
           }
@@ -199,7 +165,7 @@
         "0f2ed1d8-a230-44df-89e7-5b2f784e11e1": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/3_e1df1fa8-c5a2-4422-871c-a45439cecfde.png",
             "c_head": "Personal Fulfillment",
             "c_desc": "Help pets live healthier, happier lives, and provide owners with the guidance and support they need to make informed decisions about their pets' health."
           }
@@ -207,7 +173,7 @@
         "75212e61-ef38-4323-b6ce-d70e8a0a5b3a": {
           "type": "block",
           "settings": {
-            "blogimg": "shopify:\/\/shop_images\/Group_2.png",
+            "blogimg": "shopify:\/\/shop_images\/4_89e06684-ce80-4f43-86e0-b4de47cd6191.png",
             "c_head": "In-Demand Career",
             "c_desc": "As pet ownership continues to rise, so does the demand for qualified professionals who can offer holistic, integrative approaches to pet health."
           }
@@ -403,6 +369,9 @@
         "f4f7e819-b6ed-475b-8375-53027b24b976",
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
+      "custom_css": [
+        "p.programdestext {padding: 2% 9%;}"
+      ],
       "settings": {
         "programhead": "After the program ",
         "pro_btn": "Apply Now",
@@ -411,6 +380,9 @@
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
       "type": "modul",
+      "custom_css": [
+        "p.pfeesdec {padding: 0 4% 3%;}"
+      ],
       "settings": {
         "m_head": "What Will You Learn ",
         "m_des": "",
@@ -472,6 +444,9 @@
         "ff04dba7-725e-4dc4-957e-2948743e1b40",
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
       ],
+      "custom_css": [
+        ".arrowheight {height: 600px;}"
+      ],
       "settings": {
         "arrowid": "",
         "arrowtextbtn": "Apply Now"
@@ -514,6 +489,10 @@
         "604c309d-b3da-4af9-96fe-bd624e1c5de9",
         "a99c73b3-f826-4c94-b567-dbe5fb4d43e3",
         "862bb4c9-9a88-4417-b839-8bcef59174be"
+      ],
+      "custom_css": [
+        "h3.certifiedtext {width: 68%;}",
+        ".slick-dots {margin: 7% 0 0 0;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
@@ -578,7 +557,7 @@
           "settings": {
             "mainimage": "shopify:\/\/shop_images\/D.png",
             "rating": 4,
-            "confimed": "lorem ipsum dolor",
+            "confimed": "I highly recommend this program",
             "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
             "signtext": "Dlorah Devore, HPHC, FNTP"
           }
@@ -588,7 +567,7 @@
           "settings": {
             "mainimage": "shopify:\/\/shop_images\/B.png",
             "rating": 4,
-            "confimed": "lorem ipsum dolor",
+            "confimed": "Dr. Ruth is an open book",
             "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
             "signtext": "Bea Swasey, HPH, NTP"
           }
@@ -598,7 +577,7 @@
           "settings": {
             "mainimage": "shopify:\/\/shop_images\/D_482b473b-c778-4aea-9e4f-bad945d3f59f.png",
             "rating": 4,
-            "confimed": "lorem ipsum dolor",
+            "confimed": "I highly recommend this program",
             "confimedp": "Dr. Ruth’s Pet Health Coaching program is well worth the time and energy to learn more about pets’ health requirements and their nutritional needs. As a holistic health coach for humans, I already knew some of the material. Still, she blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats..",
             "signtext": "Dlorah Devore, HPHC, FNTP"
           }
@@ -609,8 +588,22 @@
         "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
         "80539b50-d492-44be-94f7-623318e7d7b7"
       ],
+      "custom_css": [
+        "h1.confirmedetail {text-align: left; width: 70%;}",
+        ".starflex {align-items: baseline;}"
+      ],
       "settings": {
         "starreviewhead": "What our graduates say"
+      }
+    },
+    "2716545e-36c5-4506-88db-ba56fdea439b": {
+      "type": "application",
+      "settings": {
+        "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program: A",
+        "appdesc": "Comprehensive Training in Pet Health and Wellness",
+        "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
+        "applbtn": "Apply Now",
+        "appbtnurl": ""
       }
     },
     "ce91651f-d904-47c1-8141-db2c7becf9a1": {
@@ -618,7 +611,7 @@
       "settings": {
         "reviewimg": "shopify:\/\/shop_images\/Image_3.png",
         "prevhead": "About Dr. Ruth",
-        "prevdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "prevdes": "My goal is to revolutionize pet care and change the way we approach animal health. With my expertise and compassionate approach, I am dedicated to helping all of my furry patients live their best lives.",
         "previwbtn": "Read My Story",
         "previwurl": ""
       }
@@ -705,6 +698,9 @@
         "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-1",
         "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-2"
       ],
+      "custom_css": [
+        ".rich-text__blocks{max-width:90rem;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -716,6 +712,9 @@
     },
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec": {
       "type": "featured-collection",
+      "custom_css": [
+        ".rich-text__blocks {max-width: 90rem;}"
+      ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
         "heading_size": "h1",
@@ -940,7 +939,6 @@
   },
   "order": [
     "main",
-    "newsletter",
     "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
@@ -954,6 +952,7 @@
     "2baece1e-b3a3-41f8-b488-7eb4762ccade",
     "6e50e8ed-d65d-4d2c-af60-4c8eaae33b05",
     "d6fe8d30-271b-4552-b3ee-3cd7d95fc521",
+    "2716545e-36c5-4506-88db-ba56fdea439b",
     "ce91651f-d904-47c1-8141-db2c7becf9a1",
     "39e112cd-4e94-4716-a728-90d799f169b4",
     "38bceb66-17fa-4539-8d15-e78489d9a302",
