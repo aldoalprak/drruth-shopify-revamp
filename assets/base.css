@@ -3583,7 +3583,7 @@ h3.numcontent {
   margin-top: 5%;
   width: 90%;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 2% 0;
 }
 .banner40 {
     width: 35%;
@@ -5158,6 +5158,19 @@ h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721_
     font-size: 30px!important;
     line-height: 40px;
 }
+.bworkdessimg {
+  padding: 10px 12px 35px;
+  height: 100px;
+}
+h3.certifiedtext{
+  width: 96%;
+}
+section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c57cdbec .collection__description.body.rte p{
+  width: 90%;
+}
+.accordion-container{
+  width: 90%;
+}
 }
 @media only screen and (max-width: 340px) {
   a.linkpagge1{
@@ -5179,7 +5192,7 @@ h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721_
 }
 .py{
   
-  padding: 5% 0 4% 0;
+  padding: 5% 0 0% 0;
 
 }
 .color-background-1.isolate.gradient {
