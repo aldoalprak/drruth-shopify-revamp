@@ -369,6 +369,9 @@
         "f4f7e819-b6ed-475b-8375-53027b24b976",
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
+      "custom_css": [
+        "p.programdestext{padding: 2% 9%;}"
+      ],
       "settings": {
         "programhead": "After the program ",
         "pro_btn": "Apply Now",
