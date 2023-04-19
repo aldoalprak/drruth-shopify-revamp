@@ -108,9 +108,55 @@
     },
     "06254890-8859-4072-878e-fd3ab04f8c0e": {
       "type": "describe",
+      "blocks": {
+        "5a0574aa-6034-4e22-be28-6c0ca86dd095": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "I am a pet owner looking to improve the health and wellness of my own pets."
+          }
+        },
+        "279c01a9-2895-497b-a06a-442ae878c2a4": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "I am a professional working in the pet care industry (e.g. veterinarian, pet sitter, dog walker, groomer, pet day care, etc.)"
+          }
+        },
+        "d7f97c88-54e0-447c-8baf-18798b9dbcad": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "I am a pet trainer or behaviorist.I am interested in pursuing a career as a pet health coach."
+          }
+        },
+        "c2ffa4b3-99ca-4afa-8977-e3c40a851db7": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "I am a holistic health practitioner looking to expand my knowledge to include pet health."
+          }
+        },
+        "aed22c5f-d1a9-4d31-b402-29161ccdb58c": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "I am a volunteer at an animal shelter or rescue organization."
+          }
+        },
+        "2fe8c114-cf35-4578-a454-97d8a935a5d0": {
+          "type": "Radio",
+          "settings": {
+            "describeradio": "Other (please specify)."
+          }
+        }
+      },
+      "block_order": [
+        "5a0574aa-6034-4e22-be28-6c0ca86dd095",
+        "279c01a9-2895-497b-a06a-442ae878c2a4",
+        "d7f97c88-54e0-447c-8baf-18798b9dbcad",
+        "c2ffa4b3-99ca-4afa-8977-e3c40a851db7",
+        "aed22c5f-d1a9-4d31-b402-29161ccdb58c",
+        "2fe8c114-cf35-4578-a454-97d8a935a5d0"
+      ],
       "settings": {
-        "describehead": "",
-        "describedesa": ""
+        "describehead": "What best describes you?",
+        "describedesa": "please check all that apply"
       }
     },
     "ec94e658-1ab6-44e6-a402-a75a0cf3a6fb": {
