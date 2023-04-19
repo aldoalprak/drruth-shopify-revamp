@@ -210,8 +210,33 @@
     },
     "4f1db962-97e6-4066-925a-9cb0f9e19033": {
       "type": "questionradio",
+      "blocks": {
+        "7c44fa4f-6e23-4d44-9443-620e4291a44d": {
+          "type": "Radio",
+          "settings": {
+            "qradio": "Yes, this program will be essential to enhance my career and day-to-day activities"
+          }
+        },
+        "7fd376d1-bb8e-4288-b165-3d62d1332e99": {
+          "type": "Radio",
+          "settings": {
+            "qradio": "No, I just want to learn how to help my own pets"
+          }
+        },
+        "115742cf-17d4-4f4a-8aba-daede1d06bb5": {
+          "type": "Radio",
+          "settings": {
+            "qradio": " I’m not sure yet "
+          }
+        }
+      },
+      "block_order": [
+        "7c44fa4f-6e23-4d44-9443-620e4291a44d",
+        "7fd376d1-bb8e-4288-b165-3d62d1332e99",
+        "115742cf-17d4-4f4a-8aba-daede1d06bb5"
+      ],
       "settings": {
-        "labelque": ""
+        "labelque": "Are you pursuing a career improvement out of this program? "
       }
     },
     "8053426d-378c-4dc3-af26-5331b415c7cb": {
