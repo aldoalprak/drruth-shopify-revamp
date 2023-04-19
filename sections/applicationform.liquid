@@ -1,0 +1,175 @@
+<div class="cmax_container py">
+        <div class="appbg">
+                <div class="appcontent">
+                        <h2 class="apconhead">{{section.settings.apphead}}</h2>
+                        <h2 class="apconhead2">{{section.settings.appdesc}}</h2>
+                </div>
+        </div>
+        <div class="appflex">
+                <div class="app40">
+                    <label for="name"><input type="text" id="name" placeholder="Name"></label>
+                    <label for="email"><input type="email" id="email" placeholder="Email"></label>
+                    <label for="phone"><input type="number" id="phone" placeholder="Phone Number"></label>
+                </div>
+                <div class="app60">
+                    <p class="appcontctdes">{{section.settings.appcontctdes}}</p>
+                </div>
+        </div>
+        
+</div>
+
+{% schema %}
+  {
+    "name": "applicationform",
+    "settings": [
+          {
+    "type": "text",
+    "id": "apphead",
+    "label": "Heading"
+      },
+          {
+    "type": "text",
+    "id": "appdesc",
+    "label": "Description"
+      },
+      {
+    "type": "text",
+    "id": "appcontctdes",
+    "label": "Description"
+      }
+    ],
+    
+    "presets": [
+    {
+    "name": "applicationform"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+.appbg {
+    background: #F5F8F1;
+    border-radius: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+h2.apconhead ,h2.apconhead2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    margin:0;
+}
+.appcontent {
+    padding: 3% 0;
+}
+.appflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.app60 {
+    width: 60%;
+}
+.app40 {
+    width: 40%;
+}
+h2.apconhead2{
+        font-size: 18px;
+        line-height: 22px;
+}
+.app40 input{
+  border-radius: 24px;
+  border: 1px solid #184B44;
+  padding: 12px 200px 12px 27px
+}
+input:focus-visible {
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+}
+.app40 label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+  align-items: center;
+}
+.app40 input::placeholder{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+}
+.appbtn {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 5% 0;
+}
+
+p.appcontctdes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+        padding: 0px 6%;
+}
+@media only screen and (max-width: 1100px) {
+    p.appcontctdes{
+        padding-left: 6%;
+    padding-right: 0%;
+    }
+    .app40{  
+          height: auto;
+    margin: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .app40 {
+        width:100%;
+    }
+    .app40 label{
+        margin: 2% auto;
+    }
+    .app60{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+     .app60{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .app40 input{
+            padding: 12px 130px 12px 27px
+    }
+    .h2.apconhead2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h2.apconhead{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    p.appcontctdes{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .app40 input {
+    padding: 12px 100px 12px 12px;
+    }
+}
+</style>

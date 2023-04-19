@@ -1,0 +1,62 @@
+<div class="cmax_container py">
+        <div class="answerwidth" >
+            {% for block in section.blocks %}
+                <div class="ansterm">
+                    <ul>
+                            <li>{{block.settings.ansteram}}</li>
+                        </ul>
+                </div>
+            {% endfor %}
+        </div>
+</div>
+
+{% schema %}
+  {
+    "name": "answertearms",
+    "settings": [
+       
+    ],
+    "blocks": [
+  {
+    "type": "condition",
+    "name": "condition",
+    "settings": [
+     
+       {
+    "type": "text",
+    "id": "ansteram",
+    "label": "content"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "answertearms"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+    .ansterm ul li {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: #1E1E1E;
+    }
+    .ansterm {
+    padding: 0 2%;
+}
+
+.answerwidth {
+    width: 90%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 420px) {
+    .answerwidth {
+    width: 100%;
+    }
+}
+</style>
