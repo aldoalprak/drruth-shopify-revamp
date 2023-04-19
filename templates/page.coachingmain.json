@@ -588,6 +588,9 @@
         "c6dfcf0a-c71c-4e05-bee7-8080860e88a2",
         "80539b50-d492-44be-94f7-623318e7d7b7"
       ],
+      "custom_css": [
+        "h1.confirmedetail{text-align:left;}"
+      ],
       "settings": {
         "starreviewhead": "What our graduates say"
       }
