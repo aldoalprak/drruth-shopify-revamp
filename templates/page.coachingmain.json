@@ -919,6 +919,16 @@
       "settings": {
         "mfaqhead": "FAQS"
       }
+    },
+    "2716545e-36c5-4506-88db-ba56fdea439b": {
+      "type": "application",
+      "settings": {
+        "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program: A",
+        "appdesc": "Comprehensive Training in Pet Health and Wellness",
+        "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
+        "applbtn": "Apply Now",
+        "appbtnurl": ""
+      }
     }
   },
   "order": [
@@ -944,6 +954,7 @@
     "30ace1ca-bbad-44e0-a045-05023c6a4cf3",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
     "abac2943-5dc6-496b-8f08-447111465127",
-    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa"
+    "d2c02960-c108-41cc-a12e-2fdcbb7ecbaa",
+    "2716545e-36c5-4506-88db-ba56fdea439b"
   ]
 }
