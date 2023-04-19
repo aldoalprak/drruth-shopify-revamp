@@ -54,8 +54,8 @@
       "custom_css": [
         "span.imagedes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 400; font-size: 16px; line-height: 28px; color: #e2e4e9;}",
         ".imghead {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; text-align: center; letter-spacing: 0.02em; color: #ffffff;}",
-        ".banner__box {max-width: 70rem;}",
-        "h2.banner__heading.h1{text-align:left;}"
+        ".banner__box {max-width: 50rem;}",
+        "h2.banner__heading.h1 {text-align: left;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
