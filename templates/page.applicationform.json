@@ -1,104 +1,150 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-page",
-        "settings": {
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "newsletter": {
-        "type": "newsletter",
-        "blocks": {
-          "heading": {
-            "type": "heading",
-            "settings": {
-              "heading": "Subscribe to our emails",
-              "heading_size": "h1"
-            }
-          },
-          "paragraph": {
-            "type": "paragraph",
-            "settings": {
-              "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-            }
-          },
-          "email-form": {
-            "type": "email_form",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "heading",
-          "paragraph",
-          "email-form"
-        ],
-        "settings": {
-          "color_scheme": "background-2",
-          "full_width": true,
-          "padding_top": 68,
-          "padding_bottom": 52
-        }
-      },
-      "1655751929e34d4e57": {
-        "type": "collection-list",
-        "blocks": {
-          "16557519296bd204f0-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "herbsmith-products"
-            }
-          },
-          "16557519296bd204f0-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "standard-process-collection"
-            }
-          },
-          "16557519296bd204f0-2": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "animalbiome"
-            }
-          },
-          "aa1c3c69-2ce2-435d-81c8-18b114024961": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "assisi-loop-calmer-canine®"
-            }
-          },
-          "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": ""
-            }
-          }
-        },
-        "block_order": [
-          "16557519296bd204f0-0",
-          "16557519296bd204f0-1",
-          "16557519296bd204f0-2",
-          "aa1c3c69-2ce2-435d-81c8-18b114024961",
-          "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
-        ],
-        "settings": {
-          "title": "",
-          "heading_size": "h1",
-          "image_ratio": "square",
-          "columns_desktop": 3,
-          "color_scheme": "background-1",
-          "show_view_all": false,
-          "columns_mobile": "1",
-          "swipe_on_mobile": false,
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "order": [
-      "main",
-      "newsletter",
-      "1655751929e34d4e57"
-    ]
-  }
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9cddaf55-c319-4648-a846-296e9c62ca16": {
+      "type": "applicationform",
+      "settings": {
+        "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program:",
+        "appdesc": "A Comprehensive Training in Pet Health and Wellness",
+        "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness."
+      }
+    },
+    "06254890-8859-4072-878e-fd3ab04f8c0e": {
+      "type": "describe",
+      "settings": {
+        "describehead": "",
+        "describedesa": ""
+      }
+    },
+    "ec94e658-1ab6-44e6-a402-a75a0cf3a6fb": {
+      "type": "question",
+      "settings": {
+      }
+    },
+    "4f1db962-97e6-4066-925a-9cb0f9e19033": {
+      "type": "questionradio",
+      "settings": {
+        "labelque": ""
+      }
+    },
+    "8053426d-378c-4dc3-af26-5331b415c7cb": {
+      "type": "questionradio",
+      "settings": {
+        "labelque": ""
+      }
+    },
+    "3d5a2ef1-1ae7-4948-b4fa-0075a4ba96fd": {
+      "type": "answertearms",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "9cddaf55-c319-4648-a846-296e9c62ca16",
+    "06254890-8859-4072-878e-fd3ab04f8c0e",
+    "ec94e658-1ab6-44e6-a402-a75a0cf3a6fb",
+    "4f1db962-97e6-4066-925a-9cb0f9e19033",
+    "8053426d-378c-4dc3-af26-5331b415c7cb",
+    "3d5a2ef1-1ae7-4948-b4fa-0075a4ba96fd"
+  ]
+}
