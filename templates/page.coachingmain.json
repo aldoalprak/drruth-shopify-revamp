@@ -445,7 +445,7 @@
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
       ],
       "custom_css": [
-        ".arrowheight{height: 600px}"
+        ".arrowheight {height: 600px;}"
       ],
       "settings": {
         "arrowid": "",
@@ -489,6 +489,9 @@
         "604c309d-b3da-4af9-96fe-bd624e1c5de9",
         "a99c73b3-f826-4c94-b567-dbe5fb4d43e3",
         "862bb4c9-9a88-4417-b839-8bcef59174be"
+      ],
+      "custom_css": [
+        "h3.certifiedtext{width: 68%;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
