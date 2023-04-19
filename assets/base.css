@@ -5171,6 +5171,9 @@ section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c5
 .accordion-container{
   width: 90%;
 }
+  .set{
+        margin: 3% 0px;
+  }
 }
 @media only screen and (max-width: 340px) {
   a.linkpagge1{
