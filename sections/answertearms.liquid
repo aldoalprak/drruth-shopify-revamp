@@ -1,4 +1,4 @@
-<div class="cmax_container py">
+<div class="cmax_container ">
         <div class="answerwidth" >
             {% for block in section.blocks %}
                 <div class="ansterm">
@@ -7,6 +7,16 @@
                         </ul>
                 </div>
             {% endfor %}
+
+        </div>
+        <div class="alignbtn">
+            <div class="appbtnss">
+                <a href="{{ section.settings.formurl }}" class="appbtnspacess">{{ section.settings.formbtn }} 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                        <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div> 
         </div>
 </div>
 
@@ -14,7 +24,16 @@
   {
     "name": "answertearms",
     "settings": [
-       
+        {
+        "type": "text",
+    "id": "formbtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "formurl",
+    "label": "Button Link"
+       }
     ],
     "blocks": [
   {
@@ -53,6 +72,32 @@
 .answerwidth {
     width: 90%;
     margin: 0 auto;
+}
+a.appbtnspacess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    display: flex;
+        padding: 15px 20px;
+    align-items: center;
+}
+.appbtnss {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+}
+.alignbtn{
+        display: flex;
+    justify-content: center;
+}
+.appbtnspacess svg{
+   
+    margin-left: 70px;
 }
 @media only screen and (max-width: 420px) {
     .answerwidth {
