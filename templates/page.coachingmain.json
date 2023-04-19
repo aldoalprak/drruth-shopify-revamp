@@ -589,7 +589,8 @@
         "80539b50-d492-44be-94f7-623318e7d7b7"
       ],
       "custom_css": [
-        "h1.confirmedetail{text-align:left;}"
+        "h1.confirmedetail {text-align: left;}",
+        ".customerdetail{text-align:left;}"
       ],
       "settings": {
         "starreviewhead": "What our graduates say"
