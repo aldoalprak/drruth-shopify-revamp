@@ -698,6 +698,9 @@
         "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-1",
         "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-2"
       ],
+      "custom_css": [
+        ".rich-text__blocks{max-width:90rem;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -710,7 +713,7 @@
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec": {
       "type": "featured-collection",
       "custom_css": [
-        ".rich-text__blocks{max-width:90rem;}"
+        ".rich-text__blocks {max-width: 90rem;}"
       ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
