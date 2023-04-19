@@ -272,6 +272,31 @@
     },
     "3d5a2ef1-1ae7-4948-b4fa-0075a4ba96fd": {
       "type": "answertearms",
+      "blocks": {
+        "64a5bedd-8d0b-4f8d-b587-ab15e98597d4": {
+          "type": "condition",
+          "settings": {
+            "ansteram": "Terms and Conditions: By checking this box, I agree to abide by the terms and conditions of this program, as outlined in the program agreement. I understand that failure to comply with these terms and conditions may result in termination of my participation in the program without a refund."
+          }
+        },
+        "00844289-9324-48ee-9586-a12c6ed64fd3": {
+          "type": "condition",
+          "settings": {
+            "ansteram": "Privacy Policy: By checking this box, I acknowledge that I have read, understood, and agree to the Privacy Policy of this program. I understand that my personal information will be collected, used, and disclosed in accordance with the Privacy Policy. I further consent to receiving marketing materials and updates from the program."
+          }
+        },
+        "f2f997a4-9f57-46a2-9910-bb0e2242d7a4": {
+          "type": "condition",
+          "settings": {
+            "ansteram": "SMS\/MMS Policy: By checking this box, I consent to receiving SMS\/MMS messages from the program regarding program updates, marketing materials, and other communications related to the program. I understand that standard messaging rates may apply depending on my mobile carrier plan, and I am responsible for any charges incurred. I also understand that I can opt out of these messages at any time by replying with the word \"STOP\" to the received message."
+          }
+        }
+      },
+      "block_order": [
+        "64a5bedd-8d0b-4f8d-b587-ab15e98597d4",
+        "00844289-9324-48ee-9586-a12c6ed64fd3",
+        "f2f997a4-9f57-46a2-9910-bb0e2242d7a4"
+      ],
       "settings": {
       }
     }
