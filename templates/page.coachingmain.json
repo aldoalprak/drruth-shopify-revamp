@@ -491,7 +491,8 @@
         "862bb4c9-9a88-4417-b839-8bcef59174be"
       ],
       "custom_css": [
-        "h3.certifiedtext{width: 68%;}"
+        "h3.certifiedtext {width: 68%;}",
+        ".slick-dots{margin: 7% 0 0 0;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
