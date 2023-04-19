@@ -5152,7 +5152,7 @@ p.bworkdess {
     right: -7%;
   }
   .accordion-container{
-    width: 90%;
+    width: 90%!important;
   }
 h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead, h2.numhead, h2.starheadreview, h2.courseheadd, h2.faqhead, section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, .cworkhead, section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead {
     font-size: 40px!important;
@@ -5171,6 +5171,9 @@ section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c5
 .accordion-container{
   width: 90%;
 }
+  .set{
+        margin: 3% 0px!important;
+  }
 }
 @media only screen and (max-width: 340px) {
   a.linkpagge1{
