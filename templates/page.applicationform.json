@@ -241,8 +241,33 @@
     },
     "8053426d-378c-4dc3-af26-5331b415c7cb": {
       "type": "questionradio",
+      "blocks": {
+        "561acda7-f0e2-4ec0-8543-a7c4f76a5809": {
+          "type": "Radio",
+          "settings": {
+            "qradio": "I can pay the full program cost in advance"
+          }
+        },
+        "df6d2424-ab68-4397-9886-2c42a092dc96": {
+          "type": "Radio",
+          "settings": {
+            "qradio": " I prefer the 4 monthly payments installment program "
+          }
+        },
+        "f03eb4fd-6a9c-4371-8207-6f960ee0f1d5": {
+          "type": "Radio",
+          "settings": {
+            "qradio": "I prefer the 16 weekly payments installment program "
+          }
+        }
+      },
+      "block_order": [
+        "561acda7-f0e2-4ec0-8543-a7c4f76a5809",
+        "df6d2424-ab68-4397-9886-2c42a092dc96",
+        "f03eb4fd-6a9c-4371-8207-6f960ee0f1d5"
+      ],
       "settings": {
-        "labelque": ""
+        "labelque": "Which of the following financial options is the best fit for you? *"
       }
     },
     "3d5a2ef1-1ae7-4948-b4fa-0075a4ba96fd": {
