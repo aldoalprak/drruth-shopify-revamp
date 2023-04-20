@@ -1,5 +1,5 @@
 <div class="cmax_container ">
-        <div class="answerwidth tearms" >
+        <div class="answerwidth terams" >
             {% for block in section.blocks %}
                 <div class="ansterm">
                     <ul>
@@ -69,12 +69,18 @@
   padding-left: 2%;
     padding-right: 6%;
 }
+.ansterm ul {
+    margin: 4px 0;
+}
 
-.answerwidth.tearms {
-    width: 90%;
+.answerwidth {
+    width: 85%;
       margin: 0 auto;
 }
- 
+ .answerwidth.terams{
+    width:90%;
+    margin-top: 15px;
+ }
 a.appbtnspacess {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -104,6 +110,13 @@ a.appbtnspacess {
 }
 @media only screen and (max-width: 420px) {
     .answerwidth {
+    width: 100%;
+    }
+    .ansterm{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+     .answerwidth.terams {
     width: 100%;
     }
 }
