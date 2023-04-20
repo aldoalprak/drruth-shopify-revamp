@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width rx-section-{{ section.id }} section-{{ section.id }}-padding"
+  class="page-width rx-{{section.id}}  section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -18,27 +18,24 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     
-    .rx-section-{{ section.id }} .rx-product-tab {
-      margin-top: 80px;
-    }
-
-    .rx-review-price {
+    .rx-{{section.id}} .rx-review-price {
       display: flex;
       justify-content: space-between;
       margin-bottom: 50px;
     }
 
-    .rx-qty-selector {
+    .rx-{{section.id}} .rx-qty-selector {
       display: flex;
       justify-content: space-between;
     }
-    .rx-buy-button-qty {
+
+    .rx-{{section.id}} .rx-buy-button-qty {
       width: 100%;
       margin-left: 20px;
       margin-top: auto;
     }
 
-    .rx-buy-button-qty .product-form {
+    .rx-{{section.id}} .rx-buy-button-qty .product-form {
       margin: 0;
     }
 
@@ -46,48 +43,58 @@
       flex: 0 0 0;
     }
 
-    .rx-product-title-tab {
+    /* ===============Tab section============= */
+
+    .rx-{{section.id}} .rx-product-title-tab {
       display: flex;
       justify-content: space-between;
-      background-color: #f1f1f1;
+    }
+
+     /* Change background color of buttons on hover */
+    .rx-{{section.id}} .rx-product-title-tab button:hover {
+      border: 2px solid #184B44;
+      border-radius: 24px;
+    }
+
+    /* Create an active/current tablink class */
+    .rx-{{section.id}} .rx-product-title-tab button.active {
+      border: 2px solid #184B44;
+      border-radius: 24px;
     }
 
     /* Style the buttons inside the tab */
-    .rx-product-title-tab button {
+    .rx-{{section.id}} .rx-product-title-tab button {
       background-color: inherit;
       float: left;
       border: none;
       outline: none;
       cursor: pointer;
-      padding: 14px 16px;
-      transition: 0.3s;
-      font-size: 17px;
-    }
-
-    /* Change background color of buttons on hover */
-    .rx-product-title-tab button:hover {
-      background-color: #ddd;
-    }
-
-    /* Create an active/current tablink class */
-    .rx-product-title-tab button.active {
-      background-color: #ccc;
+      padding: 14px 28px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #1E1E1E;
     }
 
     /* hide content for initial view */
-    /* .rx-{{section.id}} .tabcontent:not(.tabcontent:nth-of-type(1)) {
+    .rx-{{section.id}} .tabcontent:not(.tabcontent:nth-of-type(2)) {
       display: none;
-    } */
+    }
 
     .rx-{{section.id}} .tabcontent {
-      padding: 6px 12px;
+      padding: 30px 60px;
     }
 
-    .rx-product-tab .product_tab_content {
-      text-align: left;
-      margin-top: 30px;
+    .rx-{{section.id}} .rx-product-tab {
+      margin-top: 90px;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #1E1E1E;
     }
-
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
@@ -426,7 +433,7 @@
     
     <div class="rx-product-tab">
       <div class="rx-product-title-tab">
-        <button class="tablinks" onclick="openCity(event, 'Description')">PRODUCT DESCRIPTION</button>
+        <button class="tablinks active" onclick="openCity(event, 'Description')">PRODUCT DESCRIPTION</button>
         <button class="tablinks" onclick="openCity(event, 'Ingredients')">INGREDIENTS</button>
         <button class="tablinks" onclick="openCity(event, 'Instructions')">INSTRUCTIONS</button>
         <button class="tablinks" onclick="openCity(event, 'Shipping')">SHIPPING</button>
