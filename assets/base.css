@@ -3482,6 +3482,20 @@ border-radius: 24px;
   height: 2.5rem;
 }
 
+/* Stamped io  */
+
+.stamped-badge-caption {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #5F5E66;
+}
+
+/* end Stamped io */
+
 @media (min-width: 1024px) {
   .product--thumbnail_slider {
     position: relative;

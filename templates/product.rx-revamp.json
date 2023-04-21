@@ -22,6 +22,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "dropdown"
           }
@@ -94,6 +95,7 @@
     },
     "165394107800f68426": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
         "color_scheme": "background-1",
@@ -101,8 +103,61 @@
         "padding_bottom": 52
       }
     },
+    "7da66150-f3e5-4a3d-97dc-ffd0ffc9de45": {
+      "type": "rx-review",
+      "settings": {
+      }
+    },
+    "0160467d-6f81-456d-840c-d702483cbcf3": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>You may also like<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "168197142519de76d5": {
+      "type": "apps",
+      "blocks": {
+        "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "84689",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d"
+      ],
+      "custom_css": [
+        ".rebuy-widget .rebuy-product-block .rebuy-product-actions {display: none; margin: 0 !important;}",
+        ".rebuy-widget {padding: 0 !important;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -117,11 +172,114 @@
         "padding_top": 36,
         "padding_bottom": 24
       }
+    },
+    "1d09831f-d45e-4ae3-8c1d-489ed483a3a4": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "2710cfd8-d296-47f6-99ee-3c193be58794": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our courses<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2710cfd8-d296-47f6-99ee-3c193be58794"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "37d355bc-1320-4afc-b381-56eecc54e273": {
+      "type": "rx-product-list",
+      "blocks": {
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-2": {
+          "type": "Product",
+          "settings": {
+            "product_block": "the-original-crockpet-diet-membership"
+          }
+        },
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-0": {
+          "type": "Product",
+          "settings": {
+            "product_block": "1986957"
+          }
+        },
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1": {
+          "type": "Product",
+          "settings": {
+            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
+          }
+        },
+        "785b1a70-42f4-4ec9-ad76-4a0d37da8b36": {
+          "type": "Product",
+          "settings": {
+            "product_block": "gut-instincts-natural-digestion-gi-health"
+          }
+        }
+      },
+      "block_order": [
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-2",
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-0",
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1",
+        "785b1a70-42f4-4ec9-ad76-4a0d37da8b36"
+      ],
+      "settings": {
+        "title_font": "assistant_n4",
+        "title_font_size": 40,
+        "font": "assistant_n4",
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "1200px",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": true,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "title_color": "#000000",
+        "price_color": "#000000"
+      }
+    },
+    "1681974759178e6e05": {
+      "type": "apps",
+      "blocks": {
+        "28250fc9-f6d7-471e-89e5-0dfbbbd3ed94": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 2,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "28250fc9-f6d7-471e-89e5-0dfbbbd3ed94"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "165394107800f68426",
-    "related-products"
+    "7da66150-f3e5-4a3d-97dc-ffd0ffc9de45",
+    "0160467d-6f81-456d-840c-d702483cbcf3",
+    "168197142519de76d5",
+    "related-products",
+    "1d09831f-d45e-4ae3-8c1d-489ed483a3a4",
+    "37d355bc-1320-4afc-b381-56eecc54e273",
+    "1681974759178e6e05"
   ]
 }

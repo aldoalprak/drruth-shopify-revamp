@@ -1,0 +1,186 @@
+<style>
+  .rx-{{section.id}}  {
+    margin-top: 0 !important;
+  }
+  .rx-{{section.id}} .stamped-header-title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    line-height: 50px;
+    color: #1E1E1E;
+  }
+
+  .rx-{{section.id}} .stamped-header, .stamped-summary-text-1 strong {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #1E1E1E;
+  }
+
+  .stamped-summary-caption .stamped-summary-text {
+    font-size: 18px !important;
+    line-height: 30px;
+  }
+
+  .rx-{{section.id}} .stamped-summary-caption {
+    color: #5F5E66;
+  }
+
+  .rx-{{section.id}} .stamped-content {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    color: #1E1E1E;
+  }
+
+  .rx-{{section.id}} .stamped-fa-star {
+    color: #184B44 !important;
+  }
+
+  .rx-{{section.id}} .stamped-container ul.stamped-tabs li {
+    color: #5F5E66 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-{{section.id}} .stamped-container ul.stamped-tabs li.active {
+    border-bottom: 3px solid #184B44 !important;
+    color: #184B44 !important;
+    font-weight: 500;
+  }
+
+  .rx-{{section.id}} .stamped-summary-actions-newreview:before,
+  .rx-{{section.id}} .stamped-summary-actions-newquestion:before {
+    {% comment %} font-family: unset !important;
+    box-shadow: unset !important; {% endcomment %}
+    display: none;
+  }
+
+  .rx-{{section.id}} .stamped-summary-actions-newquestion, 
+  .rx-{{section.id}} .stamped-summary-actions-newreview { 
+    background: #F5F8F1 !important;
+    {% comment %} border: 2px solid #184B44 !important; {% endcomment %}
+    border: none;
+    box-shadow: unset !important;
+    border-radius: 24px !important;
+    font-family: 'Josefin Sans';
+    font-style: normal !important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E1E1E !important;
+    padding: 10px 25px;
+  }
+
+  .rx-{{section.id}} .author {
+    color: #184B44 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-{{section.id}} .stamped-verified-badge {
+    color: #6CB177 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-{{section.id}} .review-location {
+    visibility: hidden;
+    height: 5px;
+  }
+
+  .rx-{{section.id}} .stamped-review-header-title {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .rx-{{section.id}} .stamped-review-content-body {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px !important;
+  }
+
+  .rx-{{section.id}} .stamped-review-header .created {
+    color: #5F5E66 !important;
+    font-size: 18px;
+  }
+
+  .rx-{{section.id}} .stamped-container[data-widget-show-product-variant=true] .stamped-review-product {
+    display: none !important;
+  }
+
+  .rx-{{section.id}} .stamped-review-footer {
+    display: none;
+  }
+
+  .rx-{{section.id}} .stamped-review-reply {
+    margin-top: 0;
+    border-left: 2px solid #e0e0e0
+  }
+
+  .rx-{{section.id}} .stamped-review-reply .stamped-review-header-title  {
+    color: #184B44 !important;
+    font-weight: 500;
+    text-transform: none;
+  }
+  
+  .rx-{{section.id}} .stamped-pagination.stamped-reviews-ul li a {
+    color: #1E1E1E !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+
+  }
+
+  .rx-{{section.id}} .stamped-pagination .page.active {
+    background: #F5F8F1;
+    border-radius: 8px;
+    text-decoration: none !important;
+  }
+
+</style>
+
+
+<div 
+  class="rx-{{section.id}}"
+  id="stamped-main-widget"   
+  data-product-id="{{ product.id }}"   
+  data-name="{{ product.title | escape }}"   
+  data-url="{{ shop.url }}{{ product.url }}"   
+  data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
+  data-description="{{ product.description | escape }}"   
+  data-product-sku="{{product.handle}}"
+  data-product-title="{{product.title}}" 
+  data-product-type="{{product.type}}">   
+  {{product.metafields.stamped.reviews}}   
+</div>
+
+<script>
+  
+</script>
+
+
+
+{%schema%}
+  {
+    "name": "RX-Stampped review",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "presets": [
+      {
+        "name": "RX-Stampped review"
+      }
+    ]
+  }
+{%endschema%}

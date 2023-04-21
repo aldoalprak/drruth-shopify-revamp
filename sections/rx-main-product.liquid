@@ -15,13 +15,14 @@
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      padding-bottom: 0px;
     }
     
     .rx-{{section.id}} .rx-review-price {
       display: flex;
       justify-content: space-between;
       margin-bottom: 50px;
+      margin-top: 0;
     }
 
     .rx-{{section.id}} .rx-qty-selector {
@@ -39,10 +40,111 @@
       margin: 0;
     }
 
+    .rx-{{section.id}} .product-form__buttons .button {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #1E1E1E;
+      background-color: white;
+      border: 2.7px solid #184B44;
+      border-radius: 24px;
+    }
+
     #Quantity-Form-{{ section.id }} {
       flex: 0 0 0;
     }
 
+    #Quantity-Form-{{ section.id }} .quantity{
+      border: 2.7px solid #184B44;
+      border-radius: 24px;
+    }
+
+    #Quantity-Form-{{ section.id }} .quantity .quantity__input{
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #1E1E1E;
+    }
+
+    .quantity:after {
+      bottom: unset;
+      left: unset;
+      border: unset;
+      box-shadow: unset;
+    }
+
+    .rx-{{section.id}} .rx_product__title {
+      font-family: 'BLT-Heirloom';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 40px;
+      color: #1E1E1E;
+      margin: 0;
+    }
+
+    .rx-{{section.id}} .rx_product__title p {
+      margin: 0;
+    }
+
+    .rx-{{section.id}} .rx_product__text {
+      margin: 0;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 150%;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #5F5E66;
+    }
+
+    .price__regular {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .price__regular .price-item--regular {
+      margin-right: 0;
+    }
+
+    .price__regular {
+      display: block;
+    }
+
+    .price--on-sale .price__regular {
+      display: none;
+    }
+
+    .price__sale {
+      display: none;
+    }
+
+    .price--on-sale .price__sale {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+      display: initial;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product__info-container .price--on-sale .price-item--regular {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+    }
     /* ===============Tab section============= */
 
     .rx-{{section.id}} .rx-product-title-tab {
@@ -96,13 +198,28 @@
       color: #1E1E1E;
     }
 
+
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
+    }
 
-      
+    @media screen and (max-width: 749px) {
+      .rx-{{section.id}} .rx-product-title-tab {
+        flex-direction: column;
+      }
+
+      .rx-{{section.id}} .rx-qty-selector {
+        display: block;
+      }
+
+      .rx-{{section.id}} .rx-buy-button-qty {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+      }
     }
   {%- endstyle -%}
 
@@ -158,39 +275,41 @@
               {% render block %}
             {%- when 'text' -%}
               <p
-                class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                class="rx_product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
-                <a href="{{ product.url }}" class="product__title">
+              <div class="rx_product__title" {{ block.shopify_attributes }}>
+                <p>{{ product.title | escape }}</p>
+                {% comment %} <a href="{{ product.url }}" class="rx_product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
                   </h2>
-                </a>
+                </a> {% endcomment %}
               </div>
             {%- when 'price' -%}
               <div class="rx-review-price">
-                <!-- Stamped - Begin Star Rating Badge -->
-                <div 
-                  class="stamped-product-reviews-badge stamped-main-badge" 
-                  data-id="{{ product.id }}" 
-                  data-product-sku="{{ product.handle }}" 
-                  data-product-title="{{product.title}}" 
-                  data-product-type="{{product.type}}" 
-                  style="display: block;">
-                  {{product.metafields.stamped.badge}}
-                </div>
-                <!-- Stamped - End Star Rating Badge -->
+                {% if  product.metafields.stamped.reviews_count != blank %}
+                  <!-- Stamped - Begin Star Rating Badge -->
+                  <div 
+                    class="stamped-product-reviews-badge stamped-main-badge" 
+                    data-id="{{ product.id }}" 
+                    data-product-sku="{{ product.handle }}" 
+                    data-product-title="{{product.title}}" 
+                    data-product-type="{{product.type}}" 
+                    style="display: block;">
+                    {{product.metafields.stamped.badge}}
+                  </div>
+                   <!-- Stamped - End Star Rating Badge -->
+                {% endif %}
+                  
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
                     use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
+                    show_badges: true
                   -%}
                 </div>
                
@@ -373,7 +492,7 @@
               
                 {% if block.settings.show_add_to_cart_button %}
                   <div class="rx-buy-button-qty">
-                  {%- render 'rx-buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+                  {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
                   </div>
                 {% endif %}
               </div>
@@ -405,7 +524,7 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-              {%- render 'rx-buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             
             {%- when 'icon-with-text' -%}
               {% render 'icon-with-text',
@@ -433,10 +552,10 @@
     
     <div class="rx-product-tab">
       <div class="rx-product-title-tab">
-        <button class="tablinks active" onclick="openCity(event, 'Description')">PRODUCT DESCRIPTION</button>
-        <button class="tablinks" onclick="openCity(event, 'Ingredients')">INGREDIENTS</button>
-        <button class="tablinks" onclick="openCity(event, 'Instructions')">INSTRUCTIONS</button>
-        <button class="tablinks" onclick="openCity(event, 'Shipping')">SHIPPING</button>
+        <button class="tablinks active" onclick="openTab(event, 'Description')">PRODUCT DESCRIPTION</button>
+        <button class="tablinks" onclick="openTab(event, 'Ingredients')">INGREDIENTS</button>
+        <button class="tablinks" onclick="openTab(event, 'Instructions')">INSTRUCTIONS</button>
+        <button class="tablinks" onclick="openTab(event, 'Shipping')">SHIPPING</button>
       </div>
       
       <div id="Description" class="tabcontent">
@@ -469,7 +588,7 @@
   {% endfor %}
 
   <script>
-    function openCity(evt, cityName) {
+    function openTab(evt, tabName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -480,8 +599,8 @@
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
 
-      console.log("city==>", cityName)
-      document.getElementById(cityName).style.display = "block";
+      console.log("tab==>", tabName)
+      document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
     }
   </script>
