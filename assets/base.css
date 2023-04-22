@@ -3321,9 +3321,9 @@ h2.pcosthead {
 .blogbodr {
   padding-bottom: 12%;
 }
-svg {
+/* svg {
   margin-left: 10px;
-}
+} */
 .arrow_flex svg{
   margin-left: 0px;
   width: 16px;
@@ -5724,5 +5724,8 @@ section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c5
   line-height: 40px;
   color: #1E1E1E;
   text-align: center;
+}
+.card-information span.caption-large.light {
+  display: none;
 }
 /* cls015 coachingmain end */
