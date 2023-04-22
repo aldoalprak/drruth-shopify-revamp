@@ -1,4 +1,4 @@
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'rx-section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -20,6 +20,14 @@
         display: block;
       }
     }
+
+    @media screen and (min-width: 750px) {
+      .custom-box {
+        width: auto;
+        max-width: 56rem;
+        min-width: 45rem;
+      }
+    }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -27,11 +35,77 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+  .section-{{section.id}} .rx_banner__heading {
+    font-family: "BLT-Heirloom";
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: {{section.settings.heading_color}};
+    margin: 0;
+  }
+
+  .section-{{section.id}} .rx_banner__text {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: {{section.settings.text_color}}
+  }
+
+  .section-{{section.id}} .rx_banner__buttons {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 7px 20px;
+    border-color: #FFFFFF;
+    max-width: 30rem;
+    margin:0;
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .section-{{section.id}} .banner--desktop-transparent .rx_banner__box {
+      background: transparent;
+      --color-foreground: 255, 255, 255;
+      --color-button: 255, 255, 255;
+      --color-button-text: 0, 0, 0;
+      max-width: 89rem;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .section-{{section.id}} .rx_banner__box.rx-container-bg {
+      background-color: {% if section.settings.show_text_box == true %} {{section.settings.container_bg}} {% endif %}
+    }
+
+    .section-{{section.id}} .custom-box.rx_banner__box {
+      width: auto;
+      max-width: 66rem;
+      min-width: 45rem;
+      padding: {% if section.settings.show_text_box == true %} 50px {% endif %};
+    }
+
+  }
+
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} .rx_read_more_arrow_img_banner {
+      display: {% if section.settings.show_arrow_mobile == "no" %} none {% endif %};
+    }
+  }
+
+
 {%- endstyle -%}
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner_img banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
@@ -93,21 +167,20 @@
       }}
     </div>
   {%- endif -%}
-  <div class=" banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{section.id}} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
+    <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              <span class="imghead">{{ block.settings.heading | escape }}</span>
-            </h2>
+            <p class="rx_banner__heading" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.heading | escape }}</span>
+            </p>
           {%- when 'text' -%}
-            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <span class="imagedes">{{ block.settings.text | escape }}</span>
+            <div class="rx_banner__text" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text | escape }}</span>
             </div>
           {%- when 'buttons' -%}
             <div
-              class="img_btn banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
@@ -117,29 +190,14 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                > 
-               
-                  {{- block.settings.button_label_1 | escape -}}
-            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
-</svg>
-                 
-                </a>
-              {%- endif -%}
-              {%- if block.settings.button_label_2 != blank -%}
-                <a
-                  {% if block.settings.button_link_2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link_2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                  class="{% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
-                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
-                  </svg>
-                  {{- block.settings.button_label_2 | escape -}}
+                  {{- block.settings.button_label_1 | escape -}}
+                  <img 
+                    id="rx_read_more_arrow_black"
+                    src="{% if section.settings.show_text_box == false %} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 {% else%} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191 {%endif%}"
+                    class="rx_read_more_arrow_img_banner"
+                  >
                 </a>
               {%- endif -%}
             </div>
@@ -151,7 +209,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.image-banner.name",
+  "name": "RX-Image Banner",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -254,6 +312,12 @@
       "label": "t:sections.image-banner.settings.show_text_box.label"
     },
     {
+      "type": "color",
+      "id": "container_bg",
+      "label": "Container Background Color",
+      "default": "#fff"
+    },
+    {
       "type": "select",
       "id": "desktop_content_alignment",
       "options": [
@@ -274,37 +338,36 @@
       "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
     },
     {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.image-banner.settings.color_scheme.info"
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000"
     },
     {
       "type": "header",
       "content": "t:sections.image-banner.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "show_arrow_mobile",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "yes",
+      "label": "Show arrow on mobile"
     },
     {
       "type": "select",
@@ -350,59 +413,19 @@
           "id": "heading",
           "default": "Image banner",
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
         }
       ]
     },
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "text",
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "body",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
-            },
-            {
-              "value": "subtitle",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
-            },
-            {
-              "value": "caption-with-letter-spacing",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
-            }
-          ],
-          "default": "body",
-          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
         }
       ]
     },
@@ -422,37 +445,13 @@
           "type": "url",
           "id": "button_link_1",
           "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.image-banner.presets.name",
+      "name": "RX-Image Banner",
       "blocks": [
         {
           "type": "heading"

@@ -5210,3 +5210,519 @@ p.pfeesdec {
   margin: 7% 0 0 0;
 }
 
+
+/* cls015 */
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff2?v=1679905146")format("woff2");
+}
+@font-face {
+  font-family: "BLT-Heirloom";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff?v=1679906015") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff2?v=1679906015")format("woff2");
+}
+@font-face {
+  font-family: "Caliway";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Caliway.woff?v=1679906015") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/MiConv.com__Caliway.woff2?v=1679906015")format("woff2");
+}
+
+.pcontainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.slidecontent{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
+ padding:0 15px; 
+}
+.shophead{
+font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+color: #1E1E1E;
+}
+.shopheap{
+  text-align: center;
+}
+.slideflex{
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+}
+.slidebg{
+background: #F5F8F1;
+border-radius: 24px;
+  margin:0 7px;
+  cursor: pointer;
+}
+.shopbhead{
+  font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 0px;
+text-transform: capitalize;
+color: #1E1E1E;
+      text-align: center;
+}
+.shopdes{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #1E1E1E;
+}
+.shop_block{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    min-height: 300px;
+}
+.shop_content{
+background: #F5F8F1;
+border-radius: 24px;
+width: 31.33%;
+}
+.shpo_space{
+  padding:0 5rem;
+}
+.slideflex  button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+  font-size:22px;
+  left: -2%;
+}
+.slideflex  button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    right: -2.5%;
+    top: 40%;
+    background: none;
+    border: none; 
+  font-size:22px;
+}
+.banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
+    background: transparent;
+    width: 50%;
+    margin-left: 10%;
+}
+.banner_img h2.banner__heading.h1 span {
+    font-family: 'Caliway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.banner_img .banner__text.body span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.banner_img a.button.button--primary {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: transparent;
+   border-radius: 24px;
+    border: 1px solid #fff!important;
+    padding: 8px 42px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.shopheadcon {
+    padding: 12%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-pos {
+  position: absolute;
+  top: 70%;
+  padding: 0 25px 5px 25px;
+}
+.slidevalue,.slidetype{
+  display:none;
+}
+.pcontainer h2.facet-filters__label.caption-large.text-body {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 11px; */
+  /* line-height: 30px; */
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.pcontainer .select svg.icon.icon-caret {
+  width: 14px;
+  height: 8px;
+}
+.banner__content .button ::after{
+border-radius: 24px;
+box-shadow: none!important;
+}
+.banner_img a.button.button--primary{
+  border: 2px solid #FFFFFF!important;
+}
+.button:before ,.button:after{
+  box-shadow: unset;
+}
+i.fa.fa-long-arrow-right {
+  font-size: 23px;
+  padding-left: 50%;
+  text-align: center;
+}
+label.facet-checkbox {
+  display: flex;
+  align-items: center;
+}
+.facet-checkbox > svg{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #939393
+}
+.facet-checkbox .icon-checkmark{
+  left: 0.2rem!important;
+  top: 1.4rem!important;
+  border: none;
+  height: 11px;
+  width: 11px;
+}
+.banner__buttons svg {
+  fill: white!important;
+  margin-left: 30px;
+}
+.banner__buttons svg path {
+  stroke: #fff;
+}
+.button:not([disabled]):hover::after{
+  box-shadow: none;
+}
+.button:focus-visible, .button:focus{
+  box-shadow: none;
+}
+h1.collection-hero__title.p_name {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1E1E1E;
+  text-align: center;
+}
+.product-count-vertical.light {
+  display: none;
+}
+.facets__disclosure-vertical.js-filter .spantext ,.pricetext{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color: #1E1E1E;
+}
+.product-grid-container .card-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 21px 0 0;
+}
+.product-grid-container span.caption-large.light {
+  margin-top: 0.7rem;
+}
+.product-grid-container .card__heading.h5{
+  display: flex;
+}
+
+element.style {
+  --ratio-percent: 195.1219512195122%;
+}
+.product-grid-container .card__inner {
+  width: 100%;
+  height: 300px;
+}
+.customerdetail {
+  display: flex;
+}
+.media.media--transparent.media--hover-effect img{
+  object-fit: cover;
+}
+#MainContent .section-template--14901330509889__product-grid-padding{
+  padding-top: 0px!important;
+}
+.slidecontent svg{
+  margin-left: 25%;
+  cursor:pointer;
+}
+img.deliveryicon {
+  opacity: 0;
+}
+.shop_content:nth-child(2)  img.deliveryicon {
+  opacity: 1;
+}
+ a.show-btn {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+  padding: 25px 0;
+  border: 2px solid #184B44;
+  border-radius: 24px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.facets-wrapper summary .icon-caret{
+  height: 8px;
+  width: 15px;
+}
+.mobile-facets__label > svg
+{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #939393
+}
+.mobile-facets__label .icon-checkmark{
+  width: 9px;
+  height: 9px;
+  border: none;
+}
+.product-card-wrapper .card{
+  box-shadow: none;
+}
+.facet-filters.sorting.caption {
+  background: #f5f8f1;
+  padding: 10px 10px;
+  border-radius: 24px;
+  background: #F5F8F1;
+  border-radius: 24px;
+}
+section#shopify-section-template--14901330509889__bf439973-440a-472f-9457-8fcc42a11409{
+  padding-top: 2%;
+}
+i.fa.fa-angle-left ,i.fa.fa-angle-right{
+  color: #184B44;
+}
+span.fa.fa-star.checked {
+  color: #184B44;
+}
+@media screen and (max-width: 991px) {
+  .slidecontent svg{
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .shop_block{
+    flex-wrap: wrap;
+  }
+  .shop_content {
+    width: 46%;
+    margin: 10px auto;
+    min-height: 250px;
+  }
+  .slidecontent svg{
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .shopdes {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .shopbhead{
+    font-size: 22px;
+  }
+  .shopheadcon {
+    padding: 15px;
+}
+
+}
+@media screen and (max-width: 748px) {
+  .banner__content span ,.banner__content .button {
+    color: black!important;
+} 
+.banner__buttons svg path {
+  stroke: #000;
+}
+.banner__content .button ::after{
+border-radius: 24px;
+}
+.banner_img a.button.button--primary{
+  border: 2px solid #000!important;
+}
+.slideflex button.drag.dogarrow2.slick-next.pull-right.slick-arrow{
+  right: -3.5%;
+}
+.slideflex button.drag.dogarrow1.slick-prev.pull-left.slick-arrow{
+  left: -4%;
+}
+.banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient{
+  width: 100%;
+  margin-left:0;
+}
+
+}
+@media screen and (max-width: 520px) {
+  .shop_block{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .banner_img h2.banner__heading.h1 span{
+    font-size: 28px;
+  }
+  .banner_img .banner__text.body span{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .shop_content {
+    width: 98%;
+    min-height: 250px;
+  }
+  .shophead{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .slideflex button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
+    left: -7%;
+}
+.slideflex button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+  right: -7.5%;
+}
+.banner__box{
+  padding:4rem 1rem;
+}
+.shpo_space{
+  padding: 0 3rem;
+}
+}
+
+/* ==========Custom code by 3rd party dev========== */
+@font-face {
+  font-family: "Oakley Script";
+  src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript.woff?v=1680271601") format("woff"),
+  url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript.woff2?v=1680271601") format("woff2");
+}
+
+.header__inline-menu {
+  font-family: "Josefin Sans";
+  font-size: 11px;
+  margin: 0;
+}
+
+.header__inline-menu  a {
+  font-size: 11px;
+  margin-right: 3px;
+  color: #1E1E1E;
+}
+
+.rx_read_more_btn_green {
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1E1E1E;
+  box-sizing: border-box;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  border-color: #184B44;
+  padding: 15px 20px;
+  letter-spacing: 0.2em;
+}
+
+#rx_read_more_arrow_black {
+  margin-left: 5px;
+}
+
+.rx_read_more_btn_white {
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 25.5px;
+  border-color: #FFFFFF;
+  padding: 12px 20px;
+  letter-spacing: 0.2em;
+}
+
+.rebuy-product-info {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.rx-icon-cart {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+/* cls015 coachingmain  */
+.customerdetail {
+  display: flex;
+  flex-direction: column;
+}
+section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c57cdbec p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c57cdbec h2.title.h1 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1E1E1E;
+  text-align: center;
+}
+/* cls015 coachingmain end */

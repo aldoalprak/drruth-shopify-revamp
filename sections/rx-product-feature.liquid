@@ -1,0 +1,344 @@
+{% style %}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  {{ section.settings.type_header_font | font_face: font_display: 'swap' }}
+
+  .feature-type1 {
+    font-family: {{ section.settings.type_header_font.family}};
+    font-weight: {{ section.settings.type_header_font.weight}};
+    background-color: {{ section.settings.section_bg_color }};
+    margin: 0;
+  }
+  .feature-type1 .container {
+    max-width: {{ section.settings.max_container_width}};
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+  .feature-type1 .box__image {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .feature-type1 .box__title {
+    font-size: {{ section.settings.feature_title_font_size }}px;
+    color: {{ section.settings.feature_title_color }};
+  }
+  .feature-type1 .box__description {
+    font-size: {{ section.settings.feature_text_font_size }}px;
+    color: {{ section.settings.feature_text_color }};
+  }
+  @media(max-width: 768px) {
+    .feature-type1 .container {
+      padding: 0 2rem;
+    }
+    .feature-type1 .box__title {
+      font-size: {{ section.settings.feature_title_font_mob_size }}px;
+    }
+    .feature-type1 .box__description {
+      font-size: {{ section.settings.feature_text_font_mob_size }}px;
+    }
+  }
+
+  .feature-type1 .wrapper-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature-type1 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    width: calc(100%/{{section.blocks.size}});
+    letter-spacing: 0.04em;
+    padding: 0 5px;
+  }
+
+  .feature-type1 .box__title {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E1E1E;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 160%;
+    
+  }
+
+  .feature-type1 .box__description {
+    text-align: center;
+    line-height: 160%;
+  }
+
+  @media(max-width: 1024px) {
+    .feature-type1 .wrapper-box {
+      flex-wrap: wrap;
+    }
+
+    .feature-type1 .box {
+      width: 50%;
+      padding: 20px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    {%- if section.settings.row_on_mobile -%}
+      .feature-type1 .wrapper-box {
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .feature-type1 .box {
+        width: 50%;
+        padding: 5px;
+      }
+    {%- else -%}
+      .feature-type1 .wrapper-box {
+        flex-direction: column;
+      }
+    {%- endif -%}
+
+
+    .feature-type1 .box {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+
+    .feature-type1 .box:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+{% endstyle %}
+
+<div class="container">
+  <div class="wrapper-box section-{{ section.id }}-padding">
+    {%- for block in section.blocks -%}
+      <div class="box">
+        {%- if block.settings.icon_url -%}
+          <a href="{{block.settings.icon_url}}">
+            <div class="box__image" style="width: {{block.settings.feature_image_width}};">
+              {%- if block.settings.feature_image and block.settings.feature_use_svg == false -%}
+                {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: section.settings.feature_title }}
+              {%- elsif block.settings.feature_use_svg == true -%}
+                {{ block.settings.feature_svg_code }}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag }}
+              {%- endif -%}
+            </div>
+          </a>
+        {%- else -%}
+          <div class="box__image" style="width: {{block.settings.feature_image_width}};">
+            {%- if block.settings.feature_image and block.settings.feature_use_svg == false -%}
+              {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: section.settings.feature_title }}
+            {%- elsif block.settings.feature_use_svg == true -%}
+              {{ block.settings.feature_svg_code }}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <div class="box__title">{{ block.settings.feature_title }}</div>
+        <div class="box__description">{{ block.settings.feature_text }}</div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "RX-Product Feature",
+    "tag": "section",
+    "class": "feature-type1",
+    "settings": [
+      {
+        "type": "header",
+        "content": "General Settings"
+      },
+      {
+        "type": "color",
+        "id": "feature_title_color",
+        "label": "Item Title Color",
+        "default": "#000"
+      },
+      {
+        "type": "range",
+        "id": "feature_title_font_size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Item Title Font Size",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "feature_title_font_mob_size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Mobile Item Title Font Size",
+        "default": 16
+      }, {
+        "type": "color",
+        "id": "feature_text_color",
+        "label": "Item Text Color",
+        "default": "#4B4B4B"
+      }, {
+        "type": "range",
+        "id": "feature_text_font_size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Item Text Font Size",
+        "default": 14
+      }, {
+        "type": "range",
+        "id": "feature_text_font_mob_size",
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Mobile Item Text Font Size",
+        "default": 14
+      }, {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      }, {
+        "type": "color",
+        "id": "section_bg_color",
+        "label": "Section Background Color",
+        "default": "#fff"
+      }, {
+        "type": "header",
+        "content": "Container Settings"
+      }, {
+        "type": "checkbox",
+        "id": "row_on_mobile",
+        "default": false,
+        "label": "Display features in one row on mobile"
+      }, {
+        "type": "text",
+        "id": "max_container_width",
+        "label": "Max Conainer Width",
+        "default": "120rem"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Feature item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "feature_title",
+            "label": "Item Title text",
+            "default": "Item Title"
+          },
+          {
+            "type": "text",
+            "id": "feature_text",
+            "label": "Item text (richtext)",
+            "default": "Item text"
+          },
+          {
+            "type": "image_picker",
+            "id": "feature_image",
+            "label": "Icon"
+          },
+          {
+            "type": "url",
+            "id": "icon_url",
+            "label": "Link"
+          }, {
+            "type": "text",
+            "id": "feature_image_width",
+            "label": "Item Image Width",
+            "default": "40px"
+          }, {
+            "type": "checkbox",
+            "id": "feature_use_svg",
+            "default": true,
+            "label": "Use vector svg code instead of image"
+          }, {
+            "type": "html",
+            "id": "feature_svg_code",
+            "label": "SVG vector image code here",
+            "default": "<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><rect x='2' y='2' width='46' height='46' style='fill:#DEDEDE;stroke:#555555;stroke-width:2'/><text x='50%' y='50%' font-size='18' text-anchor='middle' alignment-baseline='middle' font-family='monospace, sans-serif' fill='#555555'>50__50</text></svg>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "RX-Product Feature",
+        "blocks": [
+          {
+            "type": "image",
+            "settings": {
+              "feature_title": "Free shipping",
+              "feature_text": "Order today, receive tomorrow",
+              "feature_svg_code": "<svg class='icon icon--medium icon--type-truck' stroke-width='1' aria-hidden='true' focusable='false' role='presentation' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M15.64 6.92L9.5 5.12V4a.5.5 0 00-.5-.5H1a.5.5 0 00-.5.5v8.5c0 .28.22.5.5.5h1.27a2.1 2.1 0 004.06 0h3.94a2.1 2.1 0 004.06 0h1.17a.5.5 0 00.5-.5V7.4a.5.5 0 00-.36-.48zM4.3 13.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM6.33 12a2.1 2.1 0 00-4.06 0H1.5V4.5h7V12H6.33zm5.97 1.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM15 12h-.67a2.1 2.1 0 00-4.06 0H9.5V6.17l5.5 1.6V12z'></path></svg>"
+            }
+          }, {
+            "type": "image",
+            "settings": {
+              "feature_title": "Price-match guarantee",
+              "feature_text": "Safe money when ordering with us",
+              "feature_svg_code": "<svg class='icon icon--medium icon--type-price_tag' stroke-width='1' aria-hidden='true' focusable='false' role='presentation' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M7.59 1.34a1 1 0 01.7-.29h5.66a1 1 0 011 1v5.66a1 1 0 01-.3.7L7.6 15.5a1 1 0 01-1.42 0L.52 9.83a1 1 0 010-1.42l7.07-7.07zm6.36 6.37l-7.07 7.07-5.66-5.66L8.3 2.05h5.66v5.66z' fill-rule='evenodd'></path><path d='M9.7 6.3a1 1 0 101.42-1.42 1 1 0 00-1.41 1.41zM9 7a2 2 0 102.83-2.83A2 2 0 009 7z' fill-rule='evenodd'></path></svg>"
+
+            }
+          }, {
+            "type": "image",
+            "settings": {
+              "feature_title": "Hassle-free exchange",
+              "feature_text": "Receive a slip for exchanges",
+              "feature_svg_code": "<svg class='icon icon--medium icon--type-return' stroke-width='1' aria-hidden='true' focusable='false' role='presentation' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M9 .5a.5.5 0 000 1h1a4.5 4.5 0 110 9H2.2l3.15-3.15a.5.5 0 10-.7-.7l-4 4a.5.5 0 000 .7l4 4a.5.5 0 00.7-.7L2.21 11.5H10a5.5 5.5 0 100-11H9z'></path></svg>"
+            }
+          }, {
+            "type": "image",
+            "settings": {
+              "feature_title": "5.0 Google Reviews",
+              "feature_text": "Customer satisfaction #1 priority",
+              "feature_svg_code": "<svg class='icon icon--medium icon--type-star' stroke-width='1' aria-hidden='true' focusable='false' role='presentation' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 1c.21 0 .4.13.47.33l1.62 4.54 4.92.1a.5.5 0 01.29.9l-3.92 2.9 1.42 4.58a.5.5 0 01-.75.56L8 12.17 3.95 14.9a.5.5 0 01-.75-.56l1.42-4.58L.7 6.87a.5.5 0 01.29-.9l4.92-.1 1.62-4.54A.5.5 0 018 1zm0 2L6.74 6.52a.5.5 0 01-.46.33l-3.8.08L5.5 9.17a.5.5 0 01.18.55l-1.1 3.56 3.14-2.13a.5.5 0 01.56 0l3.15 2.13-1.1-3.56a.5.5 0 01.17-.55l3.02-2.23-3.8-.08a.5.5 0 01-.46-.33L8 2.99z'></path></svg>"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

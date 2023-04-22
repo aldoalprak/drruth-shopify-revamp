@@ -1,0 +1,88 @@
+{% style %}
+  .rx-{{section.id}}{
+    background-color: #f5f6f0;
+    margin-bottom:60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .rx-{{section.id}} .rx-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .rx-{{section.id}} .column-content {
+    float: left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .rx-{{section.id}} .column-content .checked-img {
+    width: 29px;
+    height: 29px;
+    margin-right: 20px;
+  }
+
+  .rx-{{section.id}} .column-content p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  
+
+
+  @media screen and (max-width: 768px){
+    .text_description {
+      max-width: 100%;
+    }
+
+  }
+{% endstyle %}
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="rx-{{section.id}}">
+  <div class="rx-row page-width">
+      
+    {% for block in section.blocks %} 
+      <div class="column-content">
+       <img class="checked-img" src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/checked.png?v=1681397070" />
+        <p>{{block.settings.text_description }}</p>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "RX-Component List",
+    "blocks": [
+  {
+    "type": "text",
+    "name": "Component",
+    "settings": [
+        {
+        "type": "text",
+        "id": "text_description",
+        "label": "Description",
+        "default": "Doctor of Veterinary Medicine (DVM)"
+      }
+    ]
+  }
+    ],
+    "presets": [
+      {
+        "name": "RX-Component List"
+        
+      }
+    ]
+  }
+{% endschema %}
+
