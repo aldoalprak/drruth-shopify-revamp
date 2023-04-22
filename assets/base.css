@@ -3496,7 +3496,8 @@ border-radius: 24px;
 
 /* end Stamped io */
 
-@media (min-width: 1024px) {
+
+/* @media (min-width: 1024px) {
   .product--thumbnail_slider {
     position: relative;
  }
@@ -3512,9 +3513,9 @@ border-radius: 24px;
     width: 150px;
     padding-right: 10px;
  }
-  /* .product--thumbnail_slider .slider-button {
+  .product--thumbnail_slider .slider-button {
     display: none !important;
- } */
+ } 
   .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up {
     padding: 0;
     display: block;
@@ -3522,4 +3523,4 @@ border-radius: 24px;
   .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
     width: 100%;
  }
-}
+} */

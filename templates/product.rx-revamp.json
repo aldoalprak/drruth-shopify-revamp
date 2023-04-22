@@ -93,17 +93,7 @@
         "padding_bottom": 60
       }
     },
-    "165394107800f68426": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "7da66150-f3e5-4a3d-97dc-ffd0ffc9de45": {
+    "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
       "settings": {
       }
@@ -245,41 +235,15 @@
         "title_color": "#000000",
         "price_color": "#000000"
       }
-    },
-    "1681974759178e6e05": {
-      "type": "apps",
-      "blocks": {
-        "28250fc9-f6d7-471e-89e5-0dfbbbd3ed94": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "take_questions": 2,
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "28250fc9-f6d7-471e-89e5-0dfbbbd3ed94"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "165394107800f68426",
-    "7da66150-f3e5-4a3d-97dc-ffd0ffc9de45",
+    "39913493-0614-47e8-91ba-767b9479a307",
     "0160467d-6f81-456d-840c-d702483cbcf3",
     "168197142519de76d5",
     "related-products",
     "1d09831f-d45e-4ae3-8c1d-489ed483a3a4",
-    "37d355bc-1320-4afc-b381-56eecc54e273",
-    "1681974759178e6e05"
+    "37d355bc-1320-4afc-b381-56eecc54e273"
   ]
 }

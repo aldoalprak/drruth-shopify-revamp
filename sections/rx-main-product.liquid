@@ -22,7 +22,11 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 50px;
-      margin-top: 0;
+      margin-top: 10px;
+    }
+
+    .rx-review-price .rx-stamped-color .stamped-badge .stamped-fa.stamped-fa-star {
+      color: #184B44 !important;
     }
 
     .rx-{{section.id}} .rx-qty-selector {
@@ -294,7 +298,7 @@
                 {% if  product.metafields.stamped.reviews_count != blank %}
                   <!-- Stamped - Begin Star Rating Badge -->
                   <div 
-                    class="stamped-product-reviews-badge stamped-main-badge" 
+                    class="rx-stamped-color stamped-product-reviews-badge stamped-main-badge" 
                     data-id="{{ product.id }}" 
                     data-product-sku="{{ product.handle }}" 
                     data-product-title="{{product.title}}" 
