@@ -712,7 +712,9 @@
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec": {
       "type": "featured-collection",
       "custom_css": [
-        ".rich-text__blocks {max-width: 90rem;}"
+        ".rich-text__blocks {max-width: 90rem;}",
+        " p {font-family: 'Josefin Sans'; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; color: #1E1E1E; width: 70%; margin: 0 auto; text-align: center;}",
+        "h2.title.h1 {font-family: 'BLT-Heirloom'; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1E1E1E; text-align: center;}"
       ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
