@@ -3496,31 +3496,3 @@ border-radius: 24px;
 
 /* end Stamped io */
 
-
-/* @media (min-width: 1024px) {
-  .product--thumbnail_slider {
-    position: relative;
- }
-  .product--thumbnail_slider media-gallery {
-    display: flex;
-    flex-direction: row-reverse;
- }
-
-  .product--thumbnail_slider .slider-mobile-gutter:not(.thumbnail-slider) {
-    width: calc(100% - 100px);
- }
-  .product--thumbnail_slider .thumbnail-slider {
-    width: 150px;
-    padding-right: 10px;
- }
-  .product--thumbnail_slider .slider-button {
-    display: none !important;
- } 
-  .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up {
-    padding: 0;
-    display: block;
- }
-  .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: 100%;
- }
-} */

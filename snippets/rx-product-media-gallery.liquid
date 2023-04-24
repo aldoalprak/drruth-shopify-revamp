@@ -43,19 +43,11 @@
   endif
 -%}
 
-{%style%}
-  /* .product--thumbnail_slider media-gallery #GalleryThumbnails-{{ section.id }}{{ id_append }}{
-    display: flex;
-    flex-direction: column;
-  } */
-
-{%endstyle%}
-
 <media-gallery
   id="MediaGallery-{{ section.id }}{{ id_append }}"
   role="region"
   {% if section.settings.enable_sticky_info %}
-    class="product__column-sticky"
+    class="product__column-sticky for_mobile"{% else %}class="product__column-sticky for_mobile"
   {% endif %}
   aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
   data-desktop-layout="{{ section.settings.gallery_layout }}"
@@ -306,3 +298,201 @@
     </slider-component>
   {%- endif -%}
 </media-gallery>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<div class="rx_media_wrapper for_desktop">
+  <div class="slider-galeria-thumbs">
+    {% for media in product.media %}
+    <div class="media_image"><img src="{{ media.src | img_url: 'small' }}"></div>
+    {% endfor %}
+  </div>
+
+  <div class="slider-galeria">
+    {% for media in product.media %}
+      {% render 'product-thumbnail',
+        media: media,
+        media_count: media_count,
+        position: media_position,
+        desktop_layout: section.settings.gallery_layout,
+        mobile_layout: section.settings.mobile_thumbnails,
+        loop: section.settings.enable_video_looping,
+        modal_id: section.id,
+        xr_button: true,
+        media_width: media_width,
+        media_fit: section.settings.media_fit,
+        constrain_to_viewport: section.settings.constrain_to_viewport,
+        lazy_load: lazy_load
+      %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+$(document).ready(function() {
+
+  $('.slider-galeria').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    infinite: false,
+    adaptiveHeight: true,
+    asNavFor: '.slider-galeria-thumbs'
+  });
+
+  $('.slider-galeria-thumbs').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    asNavFor: '.slider-galeria',
+    focusOnSelect: true,
+    vertical: true,
+    verticalSwiping: true,
+    prevArrow: '<svg class="rx-slick-prev-media-gallery" xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12" fill="none"> <path d="M1 11L15 1L29 11" stroke="#184B44" stroke-linecap="round"/> </svg>',
+    nextArrow: '<svg class="rx-slick-next-media-gallery" xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12" fill="none"> <path d="M1 1L15 11L29 1" stroke="#184B44" stroke-linecap="round"/> </svg>',
+    infinite: false
+  });
+
+});
+</script>
+
+<style>
+.rx_media_wrapper .slick-initialized .slick-slide {
+  display: block;
+  position: unset !important;
+}
+
+.rx_media_wrapper .slick-slide img {
+  display: block;
+  width: 100% ! important;
+}
+
+.rx_media_wrapper .slick-arrow.slick-disabled {
+  opacity: 0.5;
+}
+
+.rx_media_wrapper .slick-slide img {
+  display: block;
+  width: 100% !important;
+}
+
+.rx_media_wrapper svg.rx-slick-prev-media-gallery.slick-arrow.slick-disabled path {
+  stroke: #b1a8a8;
+}
+
+.rx_media_wrapper .slick-slider {
+  position: unset !important;
+}
+
+.rx_media_wrapper .media > img {
+  object-fit: contain;
+}
+
+
+.for_mobile{
+  display:none;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs {
+  float: left;
+  width: 16%;
+}
+
+.slider-galeria {
+/*   float: left;
+  width: 84%; */
+}
+
+.rx_media_wrapper .slider-galeria div, .slider-galeria-thumbs div {
+  outline: 0;
+}
+
+/* .slider-galeria span {
+  display: block;
+  height: 250px;
+  background: #000;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 250px;
+  margin: 0 10px 0 10px;
+  padding: 2%;
+  text-align: center;
+} */
+
+.slider-galeria-thumbs span {
+/*   display: block;
+  margin-bottom: 5px;
+  height: 55px;
+  background: #3498db;
+  color: #000;
+  font-size: 14px;
+  line-height: 55px;
+  text-align: center; */
+}
+
+.rx_media_wrapper .slider-galeria-thumbs .slick-current span {
+  background: #000;
+  color: #3498db;
+}
+
+.rx_media_wrapper .rx-slick-prev-media-gallery {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  outline: 0;
+  width: 22px;
+  height: auto;
+}
+
+.rx_media_wrapper .rx-slick-next-media-gallery {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 23px;
+  top: 5px;
+  height: auto;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs.slick-initialized.slick-slider.slick-vertical .slick-arrow {
+  position: relative;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs.slick-initialized.slick-slider.slick-vertical .slick-arrow:before {
+  color: #000;
+  font-size: 35px;
+}
+
+.rx_media_wrapper .slider-galeria {
+  position: unset !important;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs {
+    cursor: pointer;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs .slick-current.slick-active img {
+  border: 1px solid #000;
+  width: 100%;
+  border-radius: 20px !important;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs .slick-slide img {
+  width: 100%;
+}
+
+.rx_media_wrapper .slider-galeria-thumbs {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .for_mobile{
+    display:block;
+  }
+
+  .for_desktop{
+    display:none;
+  }
+}
+
+
+</style>

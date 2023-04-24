@@ -32,6 +32,23 @@
     color: #5F5E66;
   }
 
+  .rx-{{section.id}} .stamped-review-avatar {
+    background: #F5F8F1 !important;
+    color:#184B44 !important;
+   
+  }
+
+  .rx-{{section.id}} .stamped-review-avatar-content {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px !important;
+  }
+
+  .rx-{{section.id}} .stamped-review[data-verified=buyer] .stamped-review-avatar:before {
+    content: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/verifiedLogo.png?v=1682310178");
+  }
+
   .rx-{{section.id}} .stamped-content {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -79,6 +96,15 @@
     padding: 10px 25px;
   }
 
+   .stamped-summary-actions-newquestion:hover, 
+   .stamped-summary-actions-newreview:hover {
+    border: #184B44 2px solid;
+  }
+
+  .stamped-form-input.stamped-starrating a {
+    color: #184B44 !important;
+  }
+
   .rx-{{section.id}} .author {
     color: #184B44 !important;
     font-weight: 500;
@@ -107,6 +133,13 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 30px !important;
+  }
+
+  .stamped-review-header-byline {
+    font-size: 18px;
+    font-weight: 500 !important;
+    line-height: 30px !important;
+    color:  #184B44 !important;
   }
 
   .rx-{{section.id}} .stamped-review-header .created {
@@ -164,7 +197,12 @@
 </div>
 
 <script>
-  
+  const avatarContentList = document.querySelectorAll(".rx-{{section.id}} .stamped-review-avatar-content");
+  const authorList = document.getElementsByClassName("author");
+  for(let i=0; i< avatarContentList.length; i++ ) {
+    avatarContentList[i].innerHTML = authorList[i].innerHTML[0];
+  }
+
 </script>
 
 
