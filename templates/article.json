@@ -154,7 +154,6 @@
       ],
       "custom_css": [
         ".banner__text .imagedes {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; text-transform: uppercase; color: #ffffff;}",
-        ".banner__content {width: 100%;}",
         ".img_btn svg {display: none;}"
       ],
       "settings": {
