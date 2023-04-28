@@ -43,6 +43,10 @@
       margin: 0;
     }
 
+    .rx-{{section.id}} .product-form__buttons  {
+      margin-left:auto;
+    }
+
     .rx-{{section.id}} .product-form__buttons .button {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -60,6 +64,14 @@
       background-color: #184B44;
       color: white;
 
+    }
+
+    .rx-{{section.id}} .rx-qty-selector .quantity {
+      width: calc(10rem / var(--font-body-scale) + var(--inputs-border-width) * 2) !important;
+    }
+
+    .rx-{{section.id}} .rx-qty-selector .quantity__button {
+      width: calc(3rem / var(--font-body-scale)) !important;
     }
 
     #Quantity-Form-{{ section.id }} {
@@ -218,11 +230,72 @@
     #rx-recharge-atc .rc-widget {
       padding: 0;
     }
+
+    #rx-recharge-atc .rc-radio {
+      border-radius: 24px;
+      background: #F5F8F1;
+      border: none;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      text-align: center;
+      color: #1E1E1E;
+    }
+
+    #rx-recharge-atc .rc-radio.rc-radio--active {
+      border: 2px solid #184B44 !important;
+    }
+
+    #rx-recharge-atc .rc-radio .price-label{
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      color: #184B44;
+    }
+
+    #rx-recharge-atc .rc-selling-plans .rc-selling-plans-dropdown__label,
+    #rx-recharge-atc .rc-selling-plans .rc-selling-plans-dropdown__select
+    {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      color: #1E1E1E;
+
+    }
+
+    #rx-recharge-atc .rc-selling-plans .rc-selling-plans-dropdown__select {
+      border-radius: 10px;
+      border: 2px solid #184B44;
+      background: #fff;
+    }
+
+    #rx-recharge-atc .rc-button-group__options {
+      justify-content: space-between;
+
+    }
+
+    #rx-recharge-atc .rc-template__button-group .rc-radio {
+      max-width: 450px;
+    }
     /* =============== End Recharge section============= */
 
     .rx-{{section.id}} .product__tax.caption {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.3em;
+      color: #5F5E66;
       text-align: right;
     }
+
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
@@ -431,12 +504,12 @@
                   class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  {% comment %}
+                  
                   {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
                   {% # theme-check-disable %}
                   {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                   {% # theme-check-enable %}
-                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
+                  <label class="quantity__label form__label" style="display:none" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
                     <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
                       <span class="loading-overlay hidden">
@@ -455,7 +528,7 @@
                       <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                     </span>
                   </label>
-                  {%endcomment%}
+                  
 
                   <quantity-input class="quantity">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
@@ -551,9 +624,7 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-              <div class="rx-buy-button-qty">
-                {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-              </div>
+              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'icon-with-text' -%}
               {% render 'icon-with-text',
                 block: block
