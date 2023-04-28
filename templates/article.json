@@ -152,6 +152,9 @@
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-1",
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-2"
       ],
+      "custom_css": [
+        ".banner__text .imagedes{font-family: 'BLT-Heirloom'; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; text-transform: uppercase; color: #FFFFFF;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_2.png",
         "image_overlay_opacity": 0,
