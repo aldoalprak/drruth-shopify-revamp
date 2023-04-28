@@ -2,6 +2,73 @@
   "sections": {
     "dc950009-2513-4d64-a9df-bba38484bd87": {
       "type": "main-blog-custom",
+      "blocks": {
+        "cc7e5c1b-7843-4ba9-934e-cdfa9f46d77a": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "079fb543-5fa6-4d42-96fe-5547ad3f99c1": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "892d1aa7-203f-42ec-8cd3-803b848b1d02": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "930e1c46-19ca-4b69-b9d3-3f9075310628": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "3d7f83ae-944d-42fd-a9ef-aa1dd28179c6": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "a1efe9c5-045f-4cd9-9959-e3c896d2078f": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "4a6031b9-9447-4b36-8abb-dc6602e0e930": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "c7c2dc68-956a-465a-9119-a6a4ef66b222": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        },
+        "2afe311c-d20a-461a-8217-b019a6023772": {
+          "type": "block",
+          "settings": {
+            "blog_head": "blog topics"
+          }
+        }
+      },
+      "block_order": [
+        "cc7e5c1b-7843-4ba9-934e-cdfa9f46d77a",
+        "079fb543-5fa6-4d42-96fe-5547ad3f99c1",
+        "892d1aa7-203f-42ec-8cd3-803b848b1d02",
+        "930e1c46-19ca-4b69-b9d3-3f9075310628",
+        "3d7f83ae-944d-42fd-a9ef-aa1dd28179c6",
+        "a1efe9c5-045f-4cd9-9959-e3c896d2078f",
+        "4a6031b9-9447-4b36-8abb-dc6602e0e930",
+        "c7c2dc68-956a-465a-9119-a6a4ef66b222",
+        "2afe311c-d20a-461a-8217-b019a6023772"
+      ],
       "settings": {
         "blogtext": "Our blogs",
         "blogdes": "The most useful pet advice news."
