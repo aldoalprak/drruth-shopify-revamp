@@ -76,6 +76,9 @@
     },
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        "h1.title--primary {display: none;}"
+      ],
       "settings": {
         "layout": "grid",
         "show_image": true,
