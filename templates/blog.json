@@ -127,14 +127,22 @@
         "fe9b8e59-6cd6-4072-8d6d-881d9c2f8931": {
           "type": "collection",
           "settings": {
-            "castheadd": "March 6, 2023",
-            "castdess": "Lorem ipsum dolor sit amet consectetur",
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 6, 2023",
             "slideimg": "shopify:\/\/shop_images\/Image_5.png"
+          }
+        },
+        "68ead06f-5394-4929-b8f5-7aceb8eeb5fb": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "",
+            "castdess": ""
           }
         }
       },
       "block_order": [
-        "fe9b8e59-6cd6-4072-8d6d-881d9c2f8931"
+        "fe9b8e59-6cd6-4072-8d6d-881d9c2f8931",
+        "68ead06f-5394-4929-b8f5-7aceb8eeb5fb"
       ],
       "settings": {
       }
