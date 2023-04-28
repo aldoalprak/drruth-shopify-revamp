@@ -120,11 +120,30 @@
         "padding_top": 68,
         "padding_bottom": 52
       }
+    },
+    "a8e5b7b7-5f90-4034-9b2c-2148a6cd49dc": {
+      "type": "podcast_slider",
+      "blocks": {
+        "fe9b8e59-6cd6-4072-8d6d-881d9c2f8931": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "March 6, 2023",
+            "castdess": "Lorem ipsum dolor sit amet consectetur",
+            "slideimg": "shopify:\/\/shop_images\/Image_5.png"
+          }
+        }
+      },
+      "block_order": [
+        "fe9b8e59-6cd6-4072-8d6d-881d9c2f8931"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "dc950009-2513-4d64-a9df-bba38484bd87",
     "main",
-    "newsletter"
+    "newsletter",
+    "a8e5b7b7-5f90-4034-9b2c-2148a6cd49dc"
   ]
 }
