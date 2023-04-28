@@ -135,8 +135,9 @@
         "68ead06f-5394-4929-b8f5-7aceb8eeb5fb": {
           "type": "collection",
           "settings": {
-            "castheadd": "",
-            "castdess": ""
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 6, 2023",
+            "slideimg": "shopify:\/\/shop_images\/Image_5.png"
           }
         }
       },
