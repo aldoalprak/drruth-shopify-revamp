@@ -122,6 +122,7 @@
       "blocks": {
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
@@ -130,17 +131,17 @@
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
             "text_style": "body"
           }
         },
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "view Collections",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "view products",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
