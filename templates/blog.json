@@ -1,5 +1,12 @@
 {
   "sections": {
+    "dc950009-2513-4d64-a9df-bba38484bd87": {
+      "type": "main-blog-custom",
+      "settings": {
+        "blogtext": "Our blogs",
+        "blogdes": "The most useful pet advice news."
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -48,6 +55,7 @@
     }
   },
   "order": [
+    "dc950009-2513-4d64-a9df-bba38484bd87",
     "main",
     "newsletter"
   ]
