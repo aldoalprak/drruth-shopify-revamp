@@ -36,7 +36,6 @@
 
     .rx-{{section.id}} .rx-buy-button-qty {
       width: 100%;
-      margin-left: 20px;
       margin-top: auto;
     }
 
@@ -208,6 +207,22 @@
       color: #1E1E1E;
     }
 
+    /* =============== End Tab section============= */
+
+    /* =============== Recharge section============= */
+    #rx-recharge-atc {
+      width:100%;
+      margin-left: 20px;
+    }
+
+    #rx-recharge-atc .rc-widget {
+      padding: 0;
+    }
+    /* =============== End Recharge section============= */
+
+    .rx-{{section.id}} .product__tax.caption {
+      text-align: right;
+    }
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
@@ -501,9 +516,11 @@
                 </div>
               
                 {% if block.settings.show_add_to_cart_button %}
-                  <div class="rx-buy-button-qty">
+                  {% comment %} <div class="rx-buy-button-qty">
                   {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-                  </div>
+                  </div> {% endcomment %}
+
+                  <div id="rx-recharge-atc"></div>
                 {% endif %}
               </div>
             {%- when 'popup' -%}
@@ -534,8 +551,9 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-              {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-            
+              <div class="rx-buy-button-qty">
+                {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+              </div>
             {%- when 'icon-with-text' -%}
               {% render 'icon-with-text',
                 block: block
@@ -613,6 +631,12 @@
       document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
     }
+  </script>
+
+  <script>
+    
+    document.getElementById('rx-recharge-atc').appendChild(  document.getElementById(`RechargeWidget_{{product.id}}`) )
+
   </script>
 
   {% render 'product-media-modal' variant_images: variant_images %}

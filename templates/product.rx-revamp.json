@@ -33,16 +33,10 @@
             "show_add_to_cart_button": true
           }
         },
-        "e9848660-1c8b-4f0f-b8c1-c38dce78f164": {
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "{{product}}"
-          }
-        },
-        "880a5ead-be28-4912-b9d7-5a90d320fa21": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.\n<\/div>"
           }
         },
         "description": {
@@ -64,6 +58,18 @@
             "instructions_content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
             "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
           }
+        },
+        "87b6800d-0639-4f48-b6fd-18848b047f30": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "880a5ead-be28-4912-b9d7-5a90d320fa21": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -72,11 +78,12 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "e9848660-1c8b-4f0f-b8c1-c38dce78f164",
-        "880a5ead-be28-4912-b9d7-5a90d320fa21",
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d",
         "description",
         "caption",
-        "c50958db-6d62-42c8-8a47-729c390a856f"
+        "c50958db-6d62-42c8-8a47-729c390a856f",
+        "87b6800d-0639-4f48-b6fd-18848b047f30",
+        "880a5ead-be28-4912-b9d7-5a90d320fa21"
       ],
       "settings": {
         "enable_sticky_info": false,
