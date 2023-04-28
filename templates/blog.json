@@ -167,7 +167,7 @@
         "843b7f83-439c-4119-972c-b43752ed63ca"
       ],
       "custom_css": [
-        ".slidertexthead{text-align:center;}"
+        ".slidertexthead {text-align: center; margin-top:0;}"
       ],
       "settings": {
         "slidertext": "Our podcast"
