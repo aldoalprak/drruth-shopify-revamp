@@ -155,13 +155,13 @@
       "custom_css": [
         ".banner__text .imagedes {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; text-transform: uppercase; color: #ffffff;}",
         ".banner__content {width: 100%;}",
-        ".img_btn svg{display:none;}"
+        ".img_btn svg {display: none;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
