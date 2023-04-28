@@ -1,0 +1,60 @@
+<div class="blogmax_container">
+    <div class="blogcerflex">   
+        <div class="blog50">
+            <div class="certifiedcontent">
+                    <h2 class="bchead">{{section.settings.contents}}</h2>
+                    <p class="bcdes">{{section.settings.descri}}</p>
+                    <div class="certifiedbtn"><a href="{{section.settings.previwurl}}">{{section.settings.previwbtn}}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                            <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    </div>
+            </div>
+        </div>
+        <div class="blog50">
+           <img src="{{ section.settings.bcerti|img_url: '800x' }}">
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "blog_certified",
+  "tag": "section",
+  "class": "blog_certified",
+  "settings": [
+    
+     {
+      "type": "text",
+      "id": "contents",
+      "label": "Heading"
+    },
+  {
+      "type": "text",
+      "id": "descri",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "text",
+      "id": "previwbtn",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "previwurl",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "bcerti",
+      "label": "Image"
+    }
+  ],
+
+ "presets": [
+    {
+      "name": "blog_certified"
+    }
+  ]
+}
+{% endschema %}

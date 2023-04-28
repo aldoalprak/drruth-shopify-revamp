@@ -5729,3 +5729,222 @@ section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c5
   display: none;
 }
 /* cls015 coachingmain end */
+/* blog page start */
+.blogmax_container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h2.btext {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  text-align: center;
+  margin: 0;
+}
+p.blogdescription {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #1E1E1E;
+  margin: 10px 0;
+}
+.blogbg {
+  display: flex;
+  align-items: center;
+  background: #F5F8F1;
+  border-radius: 24px;
+  padding: 10px 0;
+  text-align: center;
+  justify-content: center;
+}
+.blogflex {
+  width: 18%;
+    margin: 1%;
+
+}
+.blogdetaill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h4.blogghead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  margin: 0;
+}
+.blogsvg {
+  margin-right: 10px;
+}
+.blog-articles{
+  display: flex!important;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.blog-articles__article.article {
+  width: 31%;
+  margin: 0 auto;
+}
+a.blogreadd {
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  margin: 13px;
+  padding: 0px 15px;
+}
+button.blogread {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  padding: 15px;
+}
+h3.card__heading.h2 a {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  margin: 10px 0;
+}
+.card__information{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.article-card__info.caption-with-letter-spacing.h5{
+  background: #FFFFFF;
+  border-radius: 24px 24px 0px 0px;
+ 
+  width: 90%;
+  margin: 0 auto;
+  padding: 21px 0 0 0;
+}
+.card__information{
+  position: relative;
+  top: -28%;
+}
+.article-card__info.caption-with-letter-spacing.h5 span {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #939393;
+}
+.blogcerflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog50 {
+  width: 48%;
+}
+
+.certifiedbtn a {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+p.bcdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+}
+.certifiedbtn{
+  border: 2px solid #184B44;
+border-radius: 25.5px;
+display: inline-block;
+padding: 10px 20px;
+}
+
+h2.bchead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1E1E1E;
+}
+.podcastslider button.drag.coacharrow.slick-prev.pull-left.slick-arrow{
+  top: 24%;
+}
+.podcastslider button.drag.coacharrow2.slick-next.pull-right.slick-arrow{
+  top: 24%;
+}
+h3.castdes{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #939393;
+margin: 0;
+}
+h2.casthead{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #1E1E1E;
+margin: 15px 0;
+}
+.podcastslider{
+  width: 100%;
+  margin: 0 auto;
+}
+.postcastdetail {
+  margin: 0 6px;
+}
+.podcastimg img{
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .blog-articles__article.article {
+    width: 47%;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width: 650px) {
+  .blog-articles__article.article {
+    width: 98%;
+    margin: 0 auto;
+}
+}
+/* blog page end */

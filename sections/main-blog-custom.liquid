@@ -1,0 +1,64 @@
+<div class="blogmax_container">
+    <div>
+            <div class="blogcontent">
+                <h2 class="btext">{{section.settings.blogtext}}</h2>
+                <p class="blogdescription">{{section.settings.blogdes}}</p>
+            </div>
+            <div class="blogdetaill">
+              {%- for block in section.blocks -%}
+          
+                  <div class="blogflex">
+                    <div class="blogbg">
+                        <div class="blogsvg">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+                          <path d="M10.5011 17C10.5011 17 -1.9989 8 1.40783 2C4.81456 -4 10.5011 5.5 10.5011 5.5C10.5011 5.5 17.6876 -3 19.5944 2C21.5011 7 10.5011 17 10.5011 17Z" fill="#184B44"/>
+                          </svg>
+                        </div>
+                        <h4 class="blogghead">{{block.settings.blog_head}}</h4>
+                        </div>
+                    </div>
+          
+              {%- endfor -%}
+            </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Blog_text",
+  "tag": "section",
+  "class": "Blog_text",
+  "settings": [
+    
+     {
+      "type": "text",
+      "id": "blogtext",
+      "label": "Heading"
+    },
+  {
+      "type": "text",
+      "id": "blogdes",
+      "label": "Sub Heading"
+    }
+  ],
+     "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+   
+       {
+    "type": "text",
+    "id": "blog_head",
+    "label": "Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "Blog_text"
+    }
+  ]
+}
+{% endschema %}
