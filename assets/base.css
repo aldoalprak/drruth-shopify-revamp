@@ -5775,6 +5775,7 @@ p.blogdescription {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 5%;
 }
 h4.blogghead {
   font-family: 'Josefin Sans';
@@ -5861,9 +5862,17 @@ text-align: center;
   justify-content: space-between;
 }
 .blog50 {
-  width: 48%;
+  width: 50%;
+  display: flex;
 }
-
+.certifiedcontent {
+  width: 68%;
+  margin-left: auto;
+  margin-right: 4%;
+}
+.blog50 img{
+  width: 100%;
+}
 .certifiedbtn a {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -5898,6 +5907,16 @@ h2.bchead {
     font-size: 30px;
     line-height: 40px;
     color: #1E1E1E;
+    padding-right: 10%;
+}
+.slidertexthead{
+  font-family: 'Oakley Script';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 57px;
+letter-spacing: 0.02em;
+color: #184B44;
 }
 .podcastslider button.drag.coacharrow.slick-prev.pull-left.slick-arrow{
   top: 24%;
@@ -5929,22 +5948,82 @@ margin: 15px 0;
   width: 100%;
   margin: 0 auto;
 }
+.certifiedcontent{
+  padding-top: 1px;
+}
+.blog50:first-child{
+  border-top: 2px solid #F5F8F1;
+}
 .postcastdetail {
   margin: 0 6px;
 }
 .podcastimg img{
   width: 100%;
 }
+
 @media only screen and (max-width: 991px) {
   .blog-articles__article.article {
     width: 47%;
     margin: 0 auto;
+}
+.certifiedcontent {
+  width: 90%;
+}
+.blogflex {
+  width: 25%;
+}
+}
+@media only screen and (max-width: 900px) {
+  .certifiedcontent {
+    width: 70%;
+    margin: 0 auto;
+}
+  .blog50{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .blogflex {
+    width: 31%;
+}
+h4.blogghead {
+  font-size: 16px;
 }
 }
 @media only screen and (max-width: 650px) {
   .blog-articles__article.article {
     width: 98%;
     margin: 0 auto;
+}
+}
+@media only screen and (max-width: 520px) {
+  .certifiedcontent {
+    width: 90%;
+    margin: 0 auto;
+  }
+.blogflex ,.slidertexthead{
+    width: 48%;
+}
+h2.btext{
+  font-size: 44px;
+
+}
+.podcastslider svg {
+  width: 12px;
+}
+p.blogdescription{
+  font-size: 24px;
+}
+.podcastslider button.drag.coacharrow.slick-prev.pull-left.slick-arrow{
+  left: -3%;
+}
+.podcastslider button.drag.coacharrow2.slick-next.pull-right.slick-arrow{
+  right: -3%;
+}
+}
+@media only screen and (max-width: 420px) {
+  h4.blogghead {
+    font-size: 14px;
 }
 }
 /* blog page end */

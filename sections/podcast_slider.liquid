@@ -3,6 +3,9 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <div class="blogmax_container">
+        <div class="sliderhead">
+            <h2 class="slidertexthead">{{section.settings.slidertext}}</h2>
+        </div>
         <div class="podcastslider">
             {% for block in section.blocks %}
                 <div class="postcastdetail">
@@ -23,7 +26,11 @@
     "name": "podcast_slider",
     "class":"podcast_slider",
     "settings": [
-      
+       {
+    "type": "text",
+    "id": "slidertext",
+    "label": "Heading"
+       }
 
     ],
     "blocks": [
