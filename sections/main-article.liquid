@@ -73,8 +73,9 @@
                 {% assign share_url = request.origin | append: article.url %}
                 {% render 'share-button', block: block, share_link: share_url %}
               </div>
-            {%- when 'reproduct' -%}
              <h2 class="recomtitle">{{section.settings.reccheaddd}}</h2>
+            {%- when 'reproduct' -%}
+            
              {%- assign product = block.settings.product -%}
                 <div class="premiumproductflex">
                     <div class="imagewrapper">
