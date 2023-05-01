@@ -34,6 +34,9 @@
         "share",
         "content"
       ],
+      "custom_css": [
+        ".article-template__hero-container {max-width: 1100px; margin: 0 auto; padding: 0 15px;}"
+      ],
       "settings": {
       }
     },
