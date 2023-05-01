@@ -37,7 +37,6 @@
       ],
       "custom_css": [
         "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
-        ".article-template__hero-container {width: 70%; margin-left: 0;}",
         "h1.article-template__title {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
         "span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}",
         ".article-template__content.rte {width: 70%; margin-left: 0;}",
@@ -228,6 +227,52 @@
         "reccomhead": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
         "reccombgimg": "shopify:\/\/shop_images\/Rectangle_2.png"
       }
+    },
+    "818200c6-1b90-4458-8618-a16af78c7ae5": {
+      "type": "Recommended",
+      "blocks": {
+        "dc660ad6-2996-4bcf-ac6c-a06922388a5a": {
+          "type": "collection",
+          "settings": {
+            "product": "10-day-sp-detox-balance™-program",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "cc8bc987-2dc6-4841-88fa-67a83c79bea3": {
+          "type": "collection",
+          "settings": {
+            "product": "activated-charcoal-560-mg-100-caps",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "44b5339f-f0c8-44d3-9b39-ea46ce6134f3": {
+          "type": "collection",
+          "settings": {
+            "product": "standardprocess-sp-detox-balance-10-day-program-kit-15010",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "1fd60a82-37c9-488f-9197-27266653f057": {
+          "type": "collection",
+          "settings": {
+            "product": "standardprocess-a-f-betafood-0825",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        }
+      },
+      "block_order": [
+        "dc660ad6-2996-4bcf-ac6c-a06922388a5a",
+        "cc8bc987-2dc6-4841-88fa-67a83c79bea3",
+        "44b5339f-f0c8-44d3-9b39-ea46ce6134f3",
+        "1fd60a82-37c9-488f-9197-27266653f057"
+      ],
+      "settings": {
+        "reccheaddd": ""
+      }
     }
   },
   "order": [
@@ -237,6 +282,7 @@
     "dbc32737-2b54-4e99-8762-e2b970f09437",
     "5249c4ee-f63c-4f10-938e-636a974f4bac",
     "2beb2408-8bdd-4306-bbdd-430b934f6672",
-    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0"
+    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0",
+    "818200c6-1b90-4458-8618-a16af78c7ae5"
   ]
 }
