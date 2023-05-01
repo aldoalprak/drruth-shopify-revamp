@@ -119,6 +119,7 @@
     },
     "dbc32737-2b54-4e99-8762-e2b970f09437": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-0": {
           "type": "heading",
@@ -172,6 +173,7 @@
     },
     "5249c4ee-f63c-4f10-938e-636a974f4bac": {
       "type": "about_image",
+      "disabled": true,
       "settings": {
         "ahead": "About Dr. Ruth",
         "asubhead": "",
@@ -180,6 +182,33 @@
         "bannerurl": "",
         "aboutimg": "shopify:\/\/shop_images\/Image_6.png"
       }
+    },
+    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0": {
+      "type": "reccombackimg",
+      "blocks": {
+        "f117ca44-17c1-4984-bec5-5c0ae48fb2ee": {
+          "type": "collection",
+          "settings": {
+            "reccomurl": "",
+            "reccomtext": "view products"
+          }
+        },
+        "de723165-864a-43e7-8f0a-f7c377492a17": {
+          "type": "collection",
+          "settings": {
+            "reccomurl": "",
+            "reccomtext": "view Collections"
+          }
+        }
+      },
+      "block_order": [
+        "f117ca44-17c1-4984-bec5-5c0ae48fb2ee",
+        "de723165-864a-43e7-8f0a-f7c377492a17"
+      ],
+      "settings": {
+        "reccomhead": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
+        "reccombgimg": "shopify:\/\/shop_images\/Rectangle_2.png"
+      }
     }
   },
   "order": [
@@ -187,6 +216,7 @@
     "newsletter",
     "4c859c93-5f29-4573-b035-1a649b0b3bfc",
     "dbc32737-2b54-4e99-8762-e2b970f09437",
-    "5249c4ee-f63c-4f10-938e-636a974f4bac"
+    "5249c4ee-f63c-4f10-938e-636a974f4bac",
+    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0"
   ]
 }
