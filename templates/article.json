@@ -27,22 +27,81 @@
           "type": "content",
           "settings": {
           }
+        },
+        "96a3e5d1-8c95-49fe-b3c9-e05440058d38": {
+          "type": "collection",
+          "settings": {
+            "reccomurl": "",
+            "reccomtext": "view Collections"
+          }
+        },
+        "ae0e2bf5-ed41-4c17-ac91-c54857c7c310": {
+          "type": "collection",
+          "settings": {
+            "reccomurl": "",
+            "reccomtext": "view products"
+          }
+        },
+        "3791f4df-12f9-496f-81aa-88bda0046b52": {
+          "type": "reproduct",
+          "settings": {
+            "product": "10-day-sp-detox-balance™-program",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "490e4d01-b722-4c80-a896-3aad7430bde9": {
+          "type": "reproduct",
+          "settings": {
+            "product": "standardprocess-sp-detox-balance-10-day-program-kit-15010",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "3b741501-bbca-472c-8766-8c049f25fcc8": {
+          "type": "reproduct",
+          "settings": {
+            "product": "standardprocess-sp-detox-balance-28-day-program-kit-15028",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
+        },
+        "25d844dc-93f6-4fa0-b675-39c369e02fd5": {
+          "type": "reproduct",
+          "settings": {
+            "product": "standardprocess-a-c-carbamide-0625",
+            "proquee": "What’s In Our Pet Multivitamins?",
+            "proanss": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat.Holistic Total Body Support for Cats and Dogs is an all-natural, glandular-based multivitamin designed around what a pet’s natural diet should be.."
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
-        "content"
+        "content",
+        "96a3e5d1-8c95-49fe-b3c9-e05440058d38",
+        "ae0e2bf5-ed41-4c17-ac91-c54857c7c310",
+        "3791f4df-12f9-496f-81aa-88bda0046b52",
+        "490e4d01-b722-4c80-a896-3aad7430bde9",
+        "3b741501-bbca-472c-8766-8c049f25fcc8",
+        "25d844dc-93f6-4fa0-b675-39c369e02fd5"
       ],
       "custom_css": [
         "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
         "h1.article-template__title {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
         "span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}",
-        ".article-template__content.rte {width: 70%; margin-left: 0;}",
         "img {border-radius: 24px;}"
       ],
       "settings": {
+        "reccheaddd": "",
+        "aboutcontent": "About Dr. Ruth",
+        "aboutdesscc": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "blogaurl": "",
+        "blogatext": "my story",
+        "blogaboutimg": "shopify:\/\/shop_images\/Image_6.png",
+        "reccomhead": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
+        "reccombgimg": "shopify:\/\/shop_images\/Rectangle_2.png"
       }
     },
     "newsletter": {
@@ -193,6 +252,7 @@
     },
     "2beb2408-8bdd-4306-bbdd-430b934f6672": {
       "type": "blogabout",
+      "disabled": true,
       "settings": {
         "aboutcontent": "About Dr. Ruth",
         "aboutdesscc": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
@@ -203,6 +263,7 @@
     },
     "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0": {
       "type": "reccombackimg",
+      "disabled": true,
       "blocks": {
         "f117ca44-17c1-4984-bec5-5c0ae48fb2ee": {
           "type": "collection",
@@ -230,6 +291,7 @@
     },
     "818200c6-1b90-4458-8618-a16af78c7ae5": {
       "type": "Recommended",
+      "disabled": true,
       "blocks": {
         "dc660ad6-2996-4bcf-ac6c-a06922388a5a": {
           "type": "collection",
