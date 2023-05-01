@@ -67,7 +67,7 @@
               >
                 {{ article.content }}
               </div>
-
+ {% render 'recommendedpro'%}
             {%- when 'share' -%}
               <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
                 {% assign share_url = request.origin | append: article.url %}
