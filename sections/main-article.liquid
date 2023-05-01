@@ -134,11 +134,9 @@
                             </div>
                     </div>
                 </div> 
-          {%- endcase -%}
-        {%- endfor -%}
-{% render 'reccomndedblog'%}
-<div class="">
-    <div class="reccommwidth">
+             {%- when 'reblogs' -%}
+             <div class="">
+            <div class="reccommwidth">
        
             <div class="reccomdedback" style="background-image:url('{{section.settings.reccombgimg  | img_url: 'master'}}'); ">
                <div class="rpadding">
@@ -146,17 +144,23 @@
                     <h2> {{section.settings.reccomhead}}</h2>
                     </div>
                     <div class="reccomflexbtn">
-                    {% for block in section.blocks %}
+                   
                             <div class="recconbor">
                                 <a class="review" href="{{block.settings.reccomurl}}">{{block.settings.reccomtext}}</a>
+                                </div>
+                                  <div class="recconbor">
+                                <a class="review" href="{{block.settings.reccomurl1}}">{{block.settings.reccomtext1}}</a>
                             </div>
-                    {% endfor %}
                     </div>
                 </div>
             </div>
         
     </div>
 </div>
+          {%- endcase -%}
+        {%- endfor -%}
+{% render 'reccomndedblog'%}
+
         <div class="article-template__back element-margin-top center">
           <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
             <span class="icon-wrap">{% render 'icon-arrow' %}</span>
@@ -654,7 +658,7 @@
     ]
   },
    {
-    "type": "collection",
+    "type": "reblogs",
     "name": "Collection",
     "limit":2,
     "settings": [
@@ -666,6 +670,16 @@
         {
         "type": "text",
         "id": "reccomtext",
+        "label": "Button"
+        },
+           {
+        "type": "url",
+        "id": "reccomurl1",
+        "label": "Link Text"
+        },
+        {
+        "type": "text",
+        "id": "reccomtext1",
         "label": "Button"
         }
     ]

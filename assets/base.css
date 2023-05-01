@@ -6054,12 +6054,28 @@ h2.proquee {
   padding: 0 15px;
 }
 .blogaboutcontent {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 .blogabout50 {
   width: 48%;
+}
+.blogbttn{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+text-decoration: none;
+color: #000000;
+padding: 16px 40px;
+}
+.blogbtn{
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
 }
 .blogabover {
   background: #FFFFFF;
@@ -6249,11 +6265,31 @@ h4.blogghead {
 .moreblogs ,.conwidth ,.blogabout50 {
   width: 100%;
 }
+.blogabover{
+      margin-left: 0%;
+    padding-right: 0;
+    margin-bottom: 10%;
+}
 }
 @media only screen and (max-width: 650px) {
   .blog-articles__article.article {
     width: 98%;
     margin: 0 auto;
+}
+}
+@media only screen and (max-width: 600px) {
+  .queandbtn {
+    width: 100%;
+}
+.imagewrapper {
+  width: 70%;
+}
+.rectexthead h2{
+  font-size: 18px;
+    line-height: 27px;
+}
+.blogabover h2{
+  font-size: 48px;
 }
 }
 @media only screen and (max-width: 520px) {
