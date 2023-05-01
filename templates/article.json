@@ -35,7 +35,8 @@
         "content"
       ],
       "custom_css": [
-        ".article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}"
+        "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
+        "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}"
       ],
       "settings": {
       }
