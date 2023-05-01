@@ -6076,6 +6076,8 @@ padding: 16px 40px;
 .blogbtn{
   border: 2px solid #184B44;
   border-radius: 25.5px;
+      display: inline;
+    padding: 18px 20px;
 }
 .blogabover {
   background: #FFFFFF;
