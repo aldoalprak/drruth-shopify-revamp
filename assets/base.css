@@ -6261,6 +6261,10 @@ color: #939393;
   .blogflex {
     width: 31%;
 }
+  .blogaa {
+    display: flex;
+    justify-content: center;
+}
 h4.blogghead {
   font-size: 16px;
 }
