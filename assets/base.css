@@ -6307,6 +6307,9 @@ width:100%;
 }
 .queandbtn {
   width: 100%;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .autname{
   width: 100%;
