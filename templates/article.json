@@ -36,7 +36,8 @@
       ],
       "custom_css": [
         "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
-        "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}"
+        "article.article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
+        "h1.article-template__title {font-family: 'BLT-Heirloom'; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}"
       ],
       "settings": {
       }
