@@ -227,6 +227,12 @@
         "reccomhead": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
         "reccombgimg": "shopify:\/\/shop_images\/Rectangle_2.png"
       }
+    },
+    "818200c6-1b90-4458-8618-a16af78c7ae5": {
+      "type": "Recommended",
+      "settings": {
+        "reccheaddd": ""
+      }
     }
   },
   "order": [
@@ -236,6 +242,7 @@
     "dbc32737-2b54-4e99-8762-e2b970f09437",
     "5249c4ee-f63c-4f10-938e-636a974f4bac",
     "2beb2408-8bdd-4306-bbdd-430b934f6672",
-    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0"
+    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0",
+    "818200c6-1b90-4458-8618-a16af78c7ae5"
   ]
 }
