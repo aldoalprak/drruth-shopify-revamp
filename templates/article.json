@@ -39,6 +39,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -70,10 +71,122 @@
         "padding_top": 68,
         "padding_bottom": 52
       }
+    },
+    "4c859c93-5f29-4573-b035-1a649b0b3bfc": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Dr. Ruth",
+            "heading_size": "h1"
+          }
+        },
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "my story",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-0",
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-1",
+        "template--14915186294849__4c859c93-5f29-4573-b035-1a649b0b3bfc-1682678679ceb6fc05-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_6.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "dbc32737-2b54-4e99-8762-e2b970f09437": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-1": {
+          "type": "text",
+          "settings": {
+            "text": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
+            "text_style": "body"
+          }
+        },
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "view Collections",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "view products",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-0",
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-1",
+        "template--14915186294849__dbc32737-2b54-4e99-8762-e2b970f09437-1682679059ff5ce0f9-2"
+      ],
+      "custom_css": [
+        ".banner__text .imagedes {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; text-transform: uppercase; color: #ffffff;}",
+        ".banner__box {max-width: 100rem !important; width: 100%;}",
+        ".img_btn svg {display: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "5249c4ee-f63c-4f10-938e-636a974f4bac": {
+      "type": "about_image",
+      "settings": {
+        "ahead": "About Dr. Ruth",
+        "asubhead": "",
+        "aboutdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "bannerbtn": "my story",
+        "bannerurl": "",
+        "aboutimg": "shopify:\/\/shop_images\/Image_6.png"
+      }
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "newsletter",
+    "4c859c93-5f29-4573-b035-1a649b0b3bfc",
+    "dbc32737-2b54-4e99-8762-e2b970f09437",
+    "5249c4ee-f63c-4f10-938e-636a974f4bac"
   ]
 }

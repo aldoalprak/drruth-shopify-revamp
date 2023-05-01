@@ -86,7 +86,7 @@
         "show_date": true,
         "show_author": false,
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 4
       }
     },
     "newsletter": {
@@ -166,7 +166,11 @@
         "ae8ac696-d04c-4dca-8243-23488665cff9",
         "843b7f83-439c-4119-972c-b43752ed63ca"
       ],
+      "custom_css": [
+        ".slidertexthead {text-align: center; margin-top: 0;}"
+      ],
       "settings": {
+        "slidertext": "Our podcast"
       }
     },
     "29f9fc92-7ad4-4c0f-a0c1-28ebf6b515b7": {
