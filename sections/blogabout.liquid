@@ -1,0 +1,61 @@
+<div class="blogaboucontainer">
+    <div class="blogaboutcontent">
+        <div class="blogabout50">
+              <div class="blogabover">
+                <h2>{{section.settings.aboutcontent}}</h2>
+                <p>{{section.settings.aboutdesscc}}</p>
+                <a href="{{block.settings.blogaurl}}">{{block.settings.blogatext}}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                    <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="black" stroke-linecap="round"/>
+                    </svg>
+                </a>
+              </div>
+        </div>
+        <div class="blogabout50">
+            <div class="blogaa">
+                    <img src="{{ section.settings.blogaboutimg|img_url: '800x' }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+"name": "blogabout",
+
+    "settings": [
+    {
+        "type": "text",
+        "id": "aboutcontent",
+        "label": "Heading"
+    },
+    {
+        "type": "text",
+        "id": "aboutdesscc",
+        "label": "Description"
+    },
+            {
+        "type": "url",
+        "id": "blogaurl",
+        "label": "Link Text"
+        },
+        {
+        "type": "text",
+        "id": "blogatext",
+        "label": "Button"
+        },
+        {
+        "type": "image_picker",
+        "id": "blogaboutimg",
+        "label": "Image"
+        }
+            
+    ],
+    "presets" : [
+    {
+    "name" : "blogabout"
+
+    }
+    ]
+}
+{% endschema %}

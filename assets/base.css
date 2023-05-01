@@ -5960,7 +5960,220 @@ margin: 15px 0;
 .podcastimg img{
   width: 100%;
 }
+.mbimg{
+  display:none;
+}
+.mobileshowtitle{
+  display: none;
+}
+.premiumprtitle{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #1E1E1E;
+}
+.preeprice{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #184B44;
+}
+.premiumproductflex {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+  width: 70%;
+}
+.recommhead {
+  width: 70%;
+  margin-left: 0;
+}
+.product-form__buttons .button--full-width{
+display: inline-block;
+width: auto;
+}
+.imagewrapper {
+  width: 35%;
+}
+.queandbtn {
+  width: 65%;
+}
 
+h2.recomtitle {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+p.proanss {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+h2.proquee {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.reccommbtnn{
+  border: 2px solid #184b44;
+  border-radius: 24px;
+  background: none;
+}
+.reccommbtnn  span{
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1e1e1e;
+}
+.blogaboucontainer {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.blogaboutcontent {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogabout50 {
+  width: 48%;
+}
+.blogabover {
+  background: #FFFFFF;
+  border-radius: 0px 24px 24px 0px;
+  position: relative;
+  z-index: 999;
+  right: -42px;
+  top: 0%;
+  margin-left: -17%;
+  padding-right: 18px;
+}
+.blogabover h2 {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  padding-top: 10%;
+  margin-bottom: 0;
+}
+.blogabover p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.recconbor {
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  margin: 0 4%;
+  padding: 0px 15px;
+}
+a.review {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 45px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.reccomflexbtn {
+  display: flex;
+  justify-content: center;
+}
+.rpadding {
+  padding: 12% 5px;
+}
+.premiumproduct{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.autname {
+  text-align: center;
+  width: 40%;
+  padding: 0 15px;
+  margin-top: -2.5%;
+  position: relative;
+  z-index: 999;
+  background: #FFFFFF;
+  border-radius: 24px 24px 0px 0px;
+  margin-right: auto;
+  margin-left: 13%;
+
+}
+.reccomdedback {
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: contain;
+}
+.reccommwidth {
+  width: 70%;
+}
+.rectexthead h2 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.article-template__hero-medium.media {
+  background: none!important;
+}
+.article-template__hero-medium.media img {
+  border-radius: 24px;
+}
+.article-template__back.element-margin-top.center {
+  display: none;
+}
+.autname span{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #939393;
+}
+.articleheadd{
+    width: 70%;
+    margin-left: 0;
+}
 @media only screen and (max-width: 991px) {
   .blog-articles__article.article {
     width: 47%;
