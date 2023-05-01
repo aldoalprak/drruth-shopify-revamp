@@ -6289,6 +6289,9 @@ h4.blogghead {
     justify-content: center;
     align-items: center;
 }
+  .premiumproductflex{
+width:100%;
+  }
 }
 @media only screen and (max-width: 650px) {
 /*   .blog-articles__article.article {
