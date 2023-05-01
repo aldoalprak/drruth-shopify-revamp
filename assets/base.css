@@ -6165,7 +6165,7 @@ a.review {
 }
 .reccomdedback {
   background-repeat: no-repeat;
-  height: 400px;
+  height: 100%;
   background-size: contain;
 }
 .rectexthead h2 {
@@ -6268,9 +6268,26 @@ h4.blogghead {
   width: 100%;
 }
 .blogabover{
-      margin-left: 0%;
-    padding-right: 0;
-    margin-bottom: 10%;
+  margin-left: -5%;
+  padding-right: 0;
+  margin-bottom: 10%;
+  margin-right: 9%;
+}
+.blogabover h2{
+  padding-top: 0%;
+
+  margin: 0;
+
+}
+.autname{
+  width: 70%;
+  left: 16%;
+}
+.d-flex_b{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }
 @media only screen and (max-width: 650px) {
@@ -6278,20 +6295,45 @@ h4.blogghead {
     width: 98%;
     margin: 0 auto;
 }
+.imagewrapper {
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.queandbtn {
+  width: 100%;
+}
+.autname{
+  width: 100%;
+  left: 0%;
+}
 }
 @media only screen and (max-width: 600px) {
-  .queandbtn {
-    width: 100%;
-}
-.imagewrapper {
-  width: 70%;
-}
+
 .rectexthead h2{
   font-size: 18px;
     line-height: 27px;
 }
 .blogabover h2{
   font-size: 48px;
+}
+
+.reccomflexbtn{
+  flex-wrap: wrap;
+}
+.recconbor{
+  width: 60%;
+  margin: 1%;
+
+}
+.rpadding {
+  padding: 7% 5px;
+
+}
+.reccomdedback{
+  background-size: cover;
 }
 }
 @media only screen and (max-width: 520px) {
@@ -6306,11 +6348,18 @@ h2.btext{
   font-size: 44px;
 
 }
+.recconbor {
+  width: 75%;
+}
 .podcastslider svg {
   width: 12px;
 }
 p.blogdescription{
   font-size: 24px;
+}
+h2.recomtitle{
+  font-size: 18px;
+    line-height: 27px;
 }
 .podcastslider button.drag.coacharrow.slick-prev.pull-left.slick-arrow{
   left: -3%;
@@ -6322,6 +6371,14 @@ p.blogdescription{
 @media only screen and (max-width: 420px) {
   h4.blogghead {
     font-size: 14px;
+}
+.blogaa img {
+  width: 100%;
+}
+}
+@media only screen and (max-width: 370px) {
+  .recconbor {
+    width: 90%;
 }
 }
 /* blog page end */
