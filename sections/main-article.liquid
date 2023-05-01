@@ -1,267 +1,474 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when '@app' -%}
-        <div class="page-width page-width--narrow">
-          {% render block %}
-        </div>
-      {%- when 'featured_image' -%}
-        {%- if article.image -%}
-          <div class="article-template__hero-container" {{ block.shopify_attributes }}>
-            <div
-              class="article-template__hero-{{ block.settings.image_height }} media"
-              itemprop="image"
-              {% if block.settings.image_height == 'adapt' and article.image %}
-                style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-              {% endif %}
-            >
-              <img
-                srcset="
-                  {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
-                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
-                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
-                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
-                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
-                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
-                  {{ article.image | image_url }} {{ article.image.width }}w
-                "
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                src="{{ article.image | image_url: width: 1100 }}"
-                loading="eager"
-                fetchpriority="high"
-                width="{{ article.image.width }}"
-                height="{{ article.image.height }}"
-                alt="{{ article.image.alt | escape }}"
-              >
-            </div>
-          </div>
-        {%- endif -%}
-
-      {%- when 'title' -%}
-      <div class="autname">
-       {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing " itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ article.author }}</span>
-            </span>
-          {%- endif -%}
-           {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing " itemprop="dateCreated pubdate datePublished">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-      </div>
-        <header class="page-width articleheadd page-width--narrow" {{ block.shopify_attributes }}>
-          <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
-         
-         
-        </header>
-
-      {%- when 'content' -%}
-        <div
-          class="article-template__content page-width page-width--narrow rte"
-          itemprop="articleBody"
-          {{ block.shopify_attributes }}
-        >
-          {{ article.content }}
-        </div>
-
-      {%- when 'share' -%}
-        <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
-          {% assign share_url = request.origin | append: article.url %}
-          {% render 'share-button', block: block, share_link: share_url %}
-        </div>
-    {%- endcase -%}
-  {%- endfor -%}
-
-  <div class="article-template__back element-margin-top center">
-    <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
-      <span class="icon-wrap">{% render 'icon-arrow' %}</span>
-      {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
-    </a>
-  </div>
-  {%- if blog.comments_enabled? -%}
-    <div class="article-template__comment-wrapper background-secondary">
-      <div id="comments" class="page-width page-width--narrow">
-        {%- if article.comments_count > 0 -%}
-          {%- assign anchorId = '#Comments-' | append: article.id -%}
-
-          <h2 id="Comments-{{ article.id }}" tabindex="-1">
-            {{ 'blogs.article.comments' | t: count: article.comments_count }}
-          </h2>
-          {% paginate article.comments by 5 %}
-            <div class="article-template__comments">
-              {%- if comment.status == 'pending' and comment.content -%}
-                <article id="{{ comment.id }}" class="article-template__comments-comment">
-                  {{ comment.content }}
-                  <footer class="right">
-                    <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span>
-                  </footer>
-                </article>
+<div class="recblogflex"> 
+    <div class="conwidth">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when '@app' -%}
+              <div class="page-width page-width--narrow">
+                {% render block %}
+              </div>
+      
+            {%- when 'featured_image' -%}
+              {%- if article.image -%}
+                <div class="article-template__hero-container" {{ block.shopify_attributes }}>
+                  <div
+                    class="article-template__hero-{{ block.settings.image_height }} media"
+                    itemprop="image"
+                    {% if block.settings.image_height == 'adapt' and article.image %}
+                      style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
+                    {% endif %}
+                  >
+                    <img
+                      srcset="
+                        {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                        {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                        {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                        {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                        {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                        {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                        {{ article.image | image_url }} {{ article.image.width }}w
+                      "
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                      src="{{ article.image | image_url: width: 1100 }}"
+                      loading="eager"
+                      fetchpriority="high"
+                      width="{{ article.image.width }}"
+                      height="{{ article.image.height }}"
+                      alt="{{ article.image.alt | escape }}"
+                    >
+                  </div>
+                </div>
               {%- endif -%}
 
-              {%- for comment in article.comments -%}
-                <article id="{{ comment.id }}" class="article-template__comments-comment">
-                  {{ comment.content }}
-                  <footer class="right">
-                    <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span
-                    ><span class="caption-with-letter-spacing">
-                      {{- comment.created_at | time_tag: format: 'date' -}}
-                    </span>
-                  </footer>
-                </article>
-              {%- endfor -%}
-              {% render 'pagination', paginate: paginate, anchor: anchorId %}
+            {%- when 'title' -%}
+            <div class="autname">
+            {%- if block.settings.blog_show_author -%}
+                  <span class="caption-with-letter-spacing " itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">{{ article.author }}</span>
+                  </span>
+                {%- endif -%}
+                {%- if block.settings.blog_show_date -%}
+                  <span class="circle-divider caption-with-letter-spacing " itemprop="dateCreated pubdate datePublished">
+                    {{- article.published_at | time_tag: format: 'date' -}}
+                  </span>
+                {%- endif -%}
             </div>
-          {% endpaginate %}
-        {%- endif -%}
-        {% form 'new_comment', article %}
-          {%- liquid
-            assign post_message = 'blogs.article.success'
-            if blog.moderated? and comment.status == 'unapproved'
-              assign post_message = 'blogs.article.success_moderated'
-            endif
-          -%}
-          <h2>{{ 'blogs.article.comment_form_title' | t }}</h2>
-          {%- if form.errors -%}
-            <div class="form__message" role="alert">
-              <h3 class="form-status caption-large text-body" tabindex="-1" autofocus>
-                {% render 'icon-error' %}
-                {{ 'templates.contact.form.error_heading' | t }}
-              </h3>
-            </div>
-            <ul class="form-status-list caption-large">
-              {%- for field in form.errors -%}
-                <li>
-                  <a href="#CommentForm-{{ field }}" class="link">
-                    {%- if form.errors.translated_fields[field] contains 'author' -%}
-                      {{ 'blogs.article.name' | t }}
-                    {%- elsif form.errors.translated_fields[field] contains 'body' -%}
-                      {{ 'blogs.article.message' | t }}
-                    {%- else -%}
-                      {{ form.errors.translated_fields[field] }}
-                    {%- endif -%}
-                    {{ form.errors.messages[field] }}
-                  </a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          {%- elsif form.posted_successfully? -%}
-            <div class="form-status-list form__message" role="status">
-              <h3 class="form-status" tabindex="-1" autofocus>
-                {% render 'icon-success' %}
-                {{ post_message | t }}
-              </h3>
-            </div>
-          {%- endif -%}
+              <header class="page-width articleheadd page-width--narrow" {{ block.shopify_attributes }}>
+                <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+              </header>
 
-          <div
-            {% if blog.moderated? == false %}
-              class="article-template__comments-fields"
-            {% endif %}
-          >
-            <div class="article-template__comment-fields">
-              <div class="field field--with-error">
-                <input
-                  type="text"
-                  name="comment[author]"
-                  id="CommentForm-author"
-                  class="field__input"
-                  autocomplete="name"
-                  value="{{ form.author }}"
-                  aria-required="true"
-                  required
-                  {% if form.errors contains 'author' %}
-                    aria-invalid="true"
-                    aria-describedby="CommentForm-author-error"
-                  {% endif %}
-                  placeholder="{{ 'blogs.article.name' | t }}"
-                >
-                <label class="field__label" for="CommentForm-author">
-                  {{- 'blogs.article.name' | t }}
-                  <span aria-hidden="true">*</span></label
-                >
-                {%- if form.errors contains 'author' -%}
-                  <small id="CommentForm-author-error">
-                    <span class="form__message">
-                      {%- render 'icon-error' -%}
-                      {{- 'blogs.article.name' | t }}
-                      {{ form.errors.messages.author }}.</span
-                    >
-                  </small>
-                {%- endif -%}
-              </div>
-              <div class="field field--with-error">
-                <input
-                  type="email"
-                  name="comment[email]"
-                  id="CommentForm-email"
-                  autocomplete="email"
-                  class="field__input"
-                  value="{{ form.email }}"
-                  autocorrect="off"
-                  autocapitalize="off"
-                  aria-required="true"
-                  required
-                  {% if form.errors contains 'email' %}
-                    aria-invalid="true"
-                    aria-describedby="CommentForm-email-error"
-                  {% endif %}
-                  placeholder="{{ 'blogs.article.email' | t }}"
-                >
-                <label class="field__label" for="CommentForm-email">
-                  {{- 'blogs.article.email' | t }}
-                  <span aria-hidden="true">*</span></label
-                >
-                {%- if form.errors contains 'email' -%}
-                  <small id="CommentForm-email-error">
-                    <span class="form__message">
-                      {%- render 'icon-error' -%}
-                      {{- 'blogs.article.email' | t }}
-                      {{ form.errors.messages.email }}.</span
-                    >
-                  </small>
-                {%- endif -%}
-              </div>
-            </div>
-            <div class="field field--with-error">
-              <textarea
-                rows="5"
-                name="comment[body]"
-                id="CommentForm-body"
-                class="text-area field__input"
-                aria-required="true"
-                required
-                {% if form.errors contains 'body' %}
-                  aria-invalid="true"
-                  aria-describedby="CommentForm-body-error"
-                {% endif %}
-                placeholder="{{ 'blogs.article.message' | t }}"
-              >{{ form.body }}</textarea>
-              <label class="form__label field__label" for="CommentForm-body">
-                {{- 'blogs.article.message' | t }}
-                <span aria-hidden="true">*</span></label
+            {%- when 'content' -%}
+              <div
+                class="article-template__content page-width page-width--narrow rte"
+                itemprop="articleBody"
+                {{ block.shopify_attributes }}
               >
+                {{ article.content }}
+              </div>
+
+            {%- when 'share' -%}
+              <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
+                {% assign share_url = request.origin | append: article.url %}
+                {% render 'share-button', block: block, share_link: share_url %}
+              </div>
+            {%- when 'reproduct' -%}
+             {%- assign product = block.settings.product -%}
+                <div class="premiumproductflex">
+                    <div class="imagewrapper">
+                        <div class="desktopimg">
+                            <img src="{{ product.featured_image | img_url: 'medium' }}">
+                        </div>
+                        <div class="desktoptitle">     
+                          <h2 class="premiumprtitle">{{ product.title | escape }}</h2>
+                          <h2 class="preeprice" >{% render 'price', product: product, price_class: '' %}</h2>
+                        </div>
+                    </div>
+                    <div class="queandbtn">
+                        <div class="quecontent">
+                                <h2 class="proquee">{{block.settings.proquee}}</h2>
+                                <p class="proanss">{{block.settings.proanss}}</h2>
+                        </div>
+                        <div class="product-form__buttons">
+                                {%- liquid
+                                    assign check_against_inventory = true
+                                    if product.selected_or_first_available_variant.inventory_management != 'shopify' or  product.selected_or_first_available_variant.inventory_policy == 'continue'
+                                    assign check_against_inventory = false
+                                    endif
+                                    if product.selected_or_first_available_variant.quantity_rule.min > product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
+                                    assign quantity_rule_soldout = true
+                                    endif
+                                -%}
+                                <button
+                                    id = "ProductSubmitButton-{{ section_id }}"
+                                    type="submit"
+                                    name="add"
+                                    class="reccommbtnn product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                                    {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
+                                    disabled
+                                    {% endif %}
+                                >
+                                    <span>
+                                    {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                                        {{ 'products.product.sold_out' | t }}
+                                    {%- else -%}
+                                        {{ 'products.product.add_to_cart' | t }}
+                                    {%- endif -%}
+                                    </span>
+                                    <div class="loading-overlay__spinner hidden">
+                                    <svg
+                                        aria-hidden="true"
+                                        focusable="false"
+                                        class="spinner"
+                                        viewBox="0 0 66 66"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                                    </svg>
+                                    </div>
+                                </button>
+                                {%- if block.settings.show_dynamic_checkout -%}
+                                    {{ form | payment_button }}
+                                {%- endif -%}
+                            </div>
+                    </div>
+                </div> 
+          {%- endcase -%}
+        {%- endfor -%}
+{% render 'reccomndedblog'%}
+<div class="">
+    <div class="reccommwidth">
+       
+            <div class="reccomdedback" style="background-image:url('{{section.settings.reccombgimg  | img_url: 'master'}}'); ">
+               <div class="rpadding">
+                     <div class="rectexthead">
+                    <h2> {{section.settings.reccomhead}}</h2>
+                    </div>
+                    <div class="reccomflexbtn">
+                    {% for block in section.blocks %}
+                            <div class="recconbor">
+                                <a class="review" href="{{block.settings.reccomurl}}">{{block.settings.reccomtext}}</a>
+                            </div>
+                    {% endfor %}
+                    </div>
+                </div>
             </div>
-            {%- if form.errors contains 'body' -%}
-              <small id="CommentForm-body-error">
-                <span class="form__message">
-                  {%- render 'icon-error' -%}
-                  {{- 'blogs.article.message' | t }}
-                  {{ form.errors.messages.body }}.</span
-                >
-              </small>
-            {%- endif -%}
-          </div>
-          {%- if blog.moderated? -%}
-            <p class="article-template__comment-warning caption">{{ 'blogs.article.moderated' | t }}</p>
-          {%- endif -%}
-          <input type="submit" class="button" value="{{ 'blogs.article.post' | t }}">
-        {% endform %}
-      </div>
+        
     </div>
-  {%- endif -%}
+</div>
+        <div class="article-template__back element-margin-top center">
+          <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
+            <span class="icon-wrap">{% render 'icon-arrow' %}</span>
+            {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+          </a>
+        </div>
+        {%- if blog.comments_enabled? -%}
+          <div class="article-template__comment-wrapper background-secondary">
+            <div id="comments" class="page-width page-width--narrow">
+              {%- if article.comments_count > 0 -%}
+                {%- assign anchorId = '#Comments-' | append: article.id -%}
+
+                <h2 id="Comments-{{ article.id }}" tabindex="-1">
+                  {{ 'blogs.article.comments' | t: count: article.comments_count }}
+                </h2>
+                {% paginate article.comments by 5 %}
+                  <div class="article-template__comments">
+                    {%- if comment.status == 'pending' and comment.content -%}
+                      <article id="{{ comment.id }}" class="article-template__comments-comment">
+                        {{ comment.content }}
+                        <footer class="right">
+                          <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span>
+                        </footer>
+                      </article>
+                    {%- endif -%}
+
+                    {%- for comment in article.comments -%}
+                      <article id="{{ comment.id }}" class="article-template__comments-comment">
+                        {{ comment.content }}
+                        <footer class="right">
+                          <span class="circle-divider caption-with-letter-spacing">{{ comment.author }}</span
+                          ><span class="caption-with-letter-spacing">
+                            {{- comment.created_at | time_tag: format: 'date' -}}
+                          </span>
+                        </footer>
+                      </article>
+                    {%- endfor -%}
+                    {% render 'pagination', paginate: paginate, anchor: anchorId %}
+                  </div>
+                {% endpaginate %}
+              {%- endif -%}
+              {% form 'new_comment', article %}
+                {%- liquid
+                  assign post_message = 'blogs.article.success'
+                  if blog.moderated? and comment.status == 'unapproved'
+                    assign post_message = 'blogs.article.success_moderated'
+                  endif
+                -%}
+                <h2>{{ 'blogs.article.comment_form_title' | t }}</h2>
+                {%- if form.errors -%}
+                  <div class="form__message" role="alert">
+                    <h3 class="form-status caption-large text-body" tabindex="-1" autofocus>
+                      {% render 'icon-error' %}
+                      {{ 'templates.contact.form.error_heading' | t }}
+                    </h3>
+                  </div>
+                  <ul class="form-status-list caption-large">
+                    {%- for field in form.errors -%}
+                      <li>
+                        <a href="#CommentForm-{{ field }}" class="link">
+                          {%- if form.errors.translated_fields[field] contains 'author' -%}
+                            {{ 'blogs.article.name' | t }}
+                          {%- elsif form.errors.translated_fields[field] contains 'body' -%}
+                            {{ 'blogs.article.message' | t }}
+                          {%- else -%}
+                            {{ form.errors.translated_fields[field] }}
+                          {%- endif -%}
+                          {{ form.errors.messages[field] }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- elsif form.posted_successfully? -%}
+                  <div class="form-status-list form__message" role="status">
+                    <h3 class="form-status" tabindex="-1" autofocus>
+                      {% render 'icon-success' %}
+                      {{ post_message | t }}
+                    </h3>
+                  </div>
+                {%- endif -%}
+
+                <div
+                  {% if blog.moderated? == false %}
+                    class="article-template__comments-fields"
+                  {% endif %}
+                >
+                  <div class="article-template__comment-fields">
+                    <div class="field field--with-error">
+                      <input
+                        type="text"
+                        name="comment[author]"
+                        id="CommentForm-author"
+                        class="field__input"
+                        autocomplete="name"
+                        value="{{ form.author }}"
+                        aria-required="true"
+                        required
+                        {% if form.errors contains 'author' %}
+                          aria-invalid="true"
+                          aria-describedby="CommentForm-author-error"
+                        {% endif %}
+                        placeholder="{{ 'blogs.article.name' | t }}"
+                      >
+                      <label class="field__label" for="CommentForm-author">
+                        {{- 'blogs.article.name' | t }}
+                        <span aria-hidden="true">*</span></label
+                      >
+                      {%- if form.errors contains 'author' -%}
+                        <small id="CommentForm-author-error">
+                          <span class="form__message">
+                            {%- render 'icon-error' -%}
+                            {{- 'blogs.article.name' | t }}
+                            {{ form.errors.messages.author }}.</span
+                          >
+                        </small>
+                      {%- endif -%}
+                    </div>
+                    <div class="field field--with-error">
+                      <input
+                        type="email"
+                        name="comment[email]"
+                        id="CommentForm-email"
+                        autocomplete="email"
+                        class="field__input"
+                        value="{{ form.email }}"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        aria-required="true"
+                        required
+                        {% if form.errors contains 'email' %}
+                          aria-invalid="true"
+                          aria-describedby="CommentForm-email-error"
+                        {% endif %}
+                        placeholder="{{ 'blogs.article.email' | t }}"
+                      >
+                      <label class="field__label" for="CommentForm-email">
+                        {{- 'blogs.article.email' | t }}
+                        <span aria-hidden="true">*</span></label
+                      >
+                      {%- if form.errors contains 'email' -%}
+                        <small id="CommentForm-email-error">
+                          <span class="form__message">
+                            {%- render 'icon-error' -%}
+                            {{- 'blogs.article.email' | t }}
+                            {{ form.errors.messages.email }}.</span
+                          >
+                        </small>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                  <div class="field field--with-error">
+                    <textarea
+                      rows="5"
+                      name="comment[body]"
+                      id="CommentForm-body"
+                      class="text-area field__input"
+                      aria-required="true"
+                      required
+                      {% if form.errors contains 'body' %}
+                        aria-invalid="true"
+                        aria-describedby="CommentForm-body-error"
+                      {% endif %}
+                      placeholder="{{ 'blogs.article.message' | t }}"
+                    >{{ form.body }}</textarea>
+                    <label class="form__label field__label" for="CommentForm-body">
+                      {{- 'blogs.article.message' | t }}
+                      <span aria-hidden="true">*</span></label
+                    >
+                  </div>
+                  {%- if form.errors contains 'body' -%}
+                    <small id="CommentForm-body-error">
+                      <span class="form__message">
+                        {%- render 'icon-error' -%}
+                        {{- 'blogs.article.message' | t }}
+                        {{ form.errors.messages.body }}.</span
+                      >
+                    </small>
+                  {%- endif -%}
+                </div>
+                {%- if blog.moderated? -%}
+                  <p class="article-template__comment-warning caption">{{ 'blogs.article.moderated' | t }}</p>
+                {%- endif -%}
+                <input type="submit" class="button" value="{{ 'blogs.article.post' | t }}">
+              {% endform %}
+            </div>
+          </div>
+        {%- endif -%}
+         
+    </div>
+    <div class="moreblogs">
+          {% for article in blog.articles limit:4 %}
+                  <li>
+                <div class="d-flex_b">
+                  <div class="text-dexore">
+                    <img src="{{ article.image.src | img_url: '256x256' }}" class="attachment-shop_single size-shop_single sp-post-image" alt="{{image.alt}}" >
+                </div>
+                  <div class="produc_tital">
+                      <a href="{{ article.url }}" class="product_slt txt_d_none"><span class="custom_prj product-title title_of_blog">{{ article.title }}</span></a>
+                  <div>
+                      
+                  </div>
+                  </div>
+                </div>
+              </li>
+          {% endfor %} 
+          <div class="contact50">
+              <h2 class="contcthead"> Send Us A Message</h2> 
+              {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+
+              <div class="color-{{ section.settings.color_scheme }} gradient">
+                <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+                  {%- if section.settings.heading != blank -%}
+                    <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">
+                      {{ section.settings.heading | escape }}
+                    </h2>
+                  {%- else -%}
+                    <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+                  {%- endif -%}
+                  {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+                    {%- if form.posted_successfully? -%}
+                      <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                        {% render 'icon-success' %}
+                        {{ 'templates.contact.form.post_success' | t }}
+                      </h2>
+                    {%- elsif form.errors -%}
+                      <div class="form__message">
+                        <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                          {% render 'icon-error' %}
+                          {{ 'templates.contact.form.error_heading' | t }}
+                        </h2>
+                      </div>
+                      <ul class="form-status-list caption-large" role="list">
+                        <li>
+                          <a href="#ContactForm-email" class="link">
+                            {{ form.errors.translated_fields.email | capitalize }}
+                            {{ form.errors.messages.email }}
+                          </a>
+                        </li>
+                      </ul>
+                    {%- endif -%}
+                      <div class="field">
+                        <input
+                          class="field__input"
+                          autocomplete="name"
+                          type="text"
+                          id="ContactForm-name"
+                          name="contact[{{ 'templates.contact.form.name' | t }}]"
+                          value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                          placeholder="{{ 'templates.contact.form.name' | t }}"
+                        >
+                        <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+                      </div>
+                    
+                    <div class="field">
+                      <input
+                        type="tel"
+                        id="ContactForm-phone"
+                        class="field__input"
+                        autocomplete="tel"
+                        name="contact[{{ 'templates.contact.form.phone' | t }}]"
+                        pattern="[0-9\-]*"
+                        value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                        placeholder="{{ 'templates.contact.form.phone' | t }}"
+                      >
+                      <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+                    </div>
+                    <div class="field field--with-error">
+                        <input
+                          autocomplete="email"
+                          type="email"
+                          id="ContactForm-email"
+                          class="field__input"
+                          name="contact[email]"
+                          spellcheck="false"
+                          autocapitalize="off"
+                          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                          aria-required="true"
+                          {% if form.errors contains 'email' %}
+                            aria-invalid="true"
+                            aria-describedby="ContactForm-email-error"
+                          {% endif %}
+                          placeholder="{{ 'templates.contact.form.email' | t }}"
+                        >
+                        <label class="field__label" for="ContactForm-email">
+                          {{- 'templates.contact.form.email' | t }}
+                          <span aria-hidden="true">*</span></label
+                        >
+                        {%- if form.errors contains 'email' -%}
+                          <small class="contact__field-error" id="ContactForm-email-error">
+                            <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                            <span class="form__message">
+                              {%- render 'icon-error' -%}
+                              {{- form.errors.translated_fields.email | capitalize }}
+                              {{ form.errors.messages.email -}}
+                            </span>
+                          </small>
+                        {%- endif -%}
+                      </div>
+                    <div class="contact__button sendbtn">
+                      <button type="submit" class="button">
+                        {{ 'templates.contact.form.send' | t  }}<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                  <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="black" stroke-linecap="round"/>
+                  </svg>
+                  </button>
+                    </div>
+                    {%- endform -%}
+                </div>
+              </div>
+          </div>
+    </div>
+</div>
 </article>
 
 <script type="application/ld+json">
@@ -300,7 +507,51 @@
   "name": "t:sections.main-article.name",
   "tag": "section",
   "class": "section",
+   "settings": [
+      {
+            "type": "text",
+            "id": "reccheaddd",
+            "label": "Title"
+          },
+      {
+          "type": "text",
+          "id": "aboutcontent",
+          "label": "Heading" 
+      },
+      {
+          "type": "text",
+          "id": "aboutdesscc",
+          "label": "Description"
+      },
+              {
+          "type": "url",
+          "id": "blogaurl",
+          "label": "Link Text"
+          },
+          {
+          "type": "text",
+          "id": "blogatext",
+          "label": "Button"
+          },
+          {
+          "type": "image_picker",
+          "id": "blogaboutimg",
+          "label": "Image"
+          },
+          {
+          "type": "text",
+          "id": "reccomhead",
+          "label": "Heading"
+      },  
+        {
+        "type": "image_picker",
+        "id": "reccombgimg",
+        "label": "Image"
+        }       
+    ],
+
   "blocks": [
+    
     {
       "type": "@app"
     },
@@ -380,7 +631,46 @@
           "content": "t:sections.main-article.blocks.share.settings.title_info.content"
         }
       ]
+    },
+     {
+    "type": "reproduct",
+    "name": "collection",
+    "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": " Product Image"
+        },
+    {
+        "type":"text",
+        "id":"proquee",
+        "label":"Questions"
+    },
+    {
+        "type":"text",
+        "id":"proanss",
+        "label":"Answer"
     }
+    ]
+  },
+   {
+    "type": "collection",
+    "name": "Collection",
+    "limit":2,
+    "settings": [
+           {
+        "type": "url",
+        "id": "reccomurl",
+        "label": "Link Text"
+        },
+        {
+        "type": "text",
+        "id": "reccomtext",
+        "label": "Button"
+        }
+    ]
+  }
+     
   ]
 }
 {% endschema %}

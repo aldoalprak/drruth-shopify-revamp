@@ -5990,7 +5990,7 @@ color: #184B44;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4%;
-  width: 70%;
+  width: 100%;
 }
 .recommhead {
   width: 70%;
@@ -6097,6 +6097,18 @@ h2.proquee {
   margin: 0 4%;
   padding: 0px 15px;
 }
+.article-template__hero-large.media {
+  background: none;
+}
+.recblogflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.conwidth {
+  width: 70%;
+  margin-left: 0;
+}
 a.review {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -6122,7 +6134,7 @@ a.review {
 }
 .autname {
   text-align: center;
-  width: 40%;
+  width: 50%;
   padding: 0 15px;
   margin-top: -2.5%;
   position: relative;
@@ -6130,16 +6142,13 @@ a.review {
   background: #FFFFFF;
   border-radius: 24px 24px 0px 0px;
   margin-right: auto;
-  margin-left: 13%;
+  left: 22%;
 
 }
 .reccomdedback {
   background-repeat: no-repeat;
   height: 400px;
   background-size: contain;
-}
-.reccommwidth {
-  width: 70%;
 }
 .rectexthead h2 {
   font-family: 'BLT-Heirloom';
@@ -6151,7 +6160,10 @@ a.review {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
+.sendbtn svg {
+  margin-right: -17%;
+  margin-left: 20%;
+}
 .article-template__hero-medium.media {
   background: none!important;
 }
@@ -6160,6 +6172,41 @@ a.review {
 }
 .article-template__back.element-margin-top.center {
   display: none;
+}
+.moreblogs li {
+  list-style: none;
+}
+.moreblogs {
+  width: 25%;
+}
+.d-flex_b {
+  margin-bottom: 5%;
+}
+span.custom_prj.product-title.title_of_blog {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.contcthead{
+  font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
+}
+.sendbtn button.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #184B44;
+  border-radius: 24px;
+  width: 100%;
+}
+a.product_slt.txt_d_none {
+  text-decoration: none;
 }
 .autname span{
   font-family: 'Josefin Sans';
@@ -6170,10 +6217,7 @@ line-height: 30px;
 text-align: center;
 color: #939393;
 }
-.articleheadd{
-    width: 70%;
-    margin-left: 0;
-}
+
 @media only screen and (max-width: 991px) {
   .blog-articles__article.article {
     width: 47%;
@@ -6201,6 +6245,9 @@ color: #939393;
 }
 h4.blogghead {
   font-size: 16px;
+}
+.moreblogs ,.conwidth ,.blogabout50 {
+  width: 100%;
 }
 }
 @media only screen and (max-width: 650px) {

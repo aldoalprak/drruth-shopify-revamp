@@ -1,0 +1,20 @@
+<div class="">
+    <div class="reccommwidth">
+       
+            <div class="reccomdedback" style="background-image:url('{{section.settings.reccombgimg  | img_url: 'master'}}'); ">
+               <div class="rpadding">
+                     <div class="rectexthead">
+                    <h2> {{section.settings.reccomhead}}</h2>
+                    </div>
+                    <div class="reccomflexbtn">
+                    {% for block in section.blocks %}
+                            <div class="recconbor">
+                                <a class="review" href="{{block.settings.reccomurl}}">{{block.settings.reccomtext}}</a>
+                            </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
