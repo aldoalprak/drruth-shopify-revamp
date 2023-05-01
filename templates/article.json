@@ -209,6 +209,16 @@
         "reccomhead": "RECOMMENDED FOR YOUR PETS AFTER EVERY VACCINE",
         "reccombgimg": "shopify:\/\/shop_images\/Rectangle_2.png"
       }
+    },
+    "2beb2408-8bdd-4306-bbdd-430b934f6672": {
+      "type": "blogabout",
+      "settings": {
+        "aboutcontent": "About Dr. Ruth",
+        "aboutdesscc": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "blogaurl": "",
+        "blogatext": "my story",
+        "blogaboutimg": "shopify:\/\/shop_images\/Image_6.png"
+      }
     }
   },
   "order": [
@@ -217,6 +227,7 @@
     "4c859c93-5f29-4573-b035-1a649b0b3bfc",
     "dbc32737-2b54-4e99-8762-e2b970f09437",
     "5249c4ee-f63c-4f10-938e-636a974f4bac",
-    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0"
+    "e41d0ea5-91ab-4785-b6a0-e5539d2bd6e0",
+    "2beb2408-8bdd-4306-bbdd-430b934f6672"
   ]
 }
