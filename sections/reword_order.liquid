@@ -1,0 +1,59 @@
+<div class="">
+      <div class="reoredr" style="background-image:url('{{section.settings.rewordorder | img_url:'master'}}');">                  
+              <div class="ordercont">
+                  <div class="reveorderconte ">
+                    <h2 class="rorderhead">{{section.settings.reordrhead }}</h2>
+                    <h2 class="rorderdes">{{section.settings.reorderdes}}</h2>
+                     <div class="reordebtn">
+                        <a href="{{ section.settings.reorderbtnurl }}" class="refferorder">{{ section.settings.reorderbtn }}<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                            <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div> 
+                  </div>
+
+              </div> 
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "reword_order",
+  "tag": "section",
+  "class": "reword_order",
+  "settings": [
+    {
+      "type": "text",
+      "id": "reordrhead",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "reorderdes",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "rewordorder",
+    "label": "Image"
+      },
+       {
+      "type": "text",
+      "id": "reorderbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "reorderbtnurl",
+      "label": "Button Link"
+    }
+  ],
+
+ "presets": [
+    {
+      "name": "reword_order"
+    }
+  ]
+}
+
+{% endschema %}
+ 

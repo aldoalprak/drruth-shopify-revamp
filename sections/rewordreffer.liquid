@@ -1,0 +1,42 @@
+<div class="">
+      <div class="rewbackg" style="background-image:url('{{section.settings.revaback | img_url:'master'}}');">                  
+              <div class="revereffcontent">
+                  <div class="refferconte">
+                    <h2 class="reverefferhead">{{section.settings.reverefe }}</h2>
+                    <h2 class="reverreffdesc">{{section.settings.reverreffs}}</h2>
+                  </div>
+              </div> 
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "rewordreffer",
+  "tag": "section",
+  "class": "rewordreffer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "reverefe",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "reverreffs",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "revaback",
+    "label": "Image"
+      }
+  ],
+
+ "presets": [
+    {
+      "name": "rewordreffer"
+    }
+  ]
+}
+
+{% endschema %}
+ 

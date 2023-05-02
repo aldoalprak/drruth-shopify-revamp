@@ -1,0 +1,76 @@
+<div class="">
+      <div class="rebanner" style="background-image:url('{{section.settings.rebanner | img_url:'master'}}');">                  
+              <div class="rebanercontent rewordmax_container">
+                  <div class="rebannerdetail ">
+                    <h2 class="rebanerhead">{{section.settings.rbanehead }}</h2>
+                    <div class="revebannerflex">
+                        <div class="revebannerdes">
+                            <h2 class="rebannerdes">{{section.settings.rebanneddes}}</h2>
+                        </div>
+                        <div class="rebannerbtn">
+                            <div class="rbannesign">
+                                <a href="{{ section.settings.rbannerurl }}" class="refferbannorder">{{ section.settings.rbannrbtn }}</a>
+                            </div>
+                            <div class="rbannesign2">
+                                <a href="{{ section.settings.rbannersuburl }}" class="refferbannorder">{{ section.settings.rbannrsubbtn }}
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+
+              </div> 
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "rewardbanner",
+  "tag": "section",
+  "class": "rewardbanner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "rbanehead",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "rebanneddes",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "rebanner",
+    "label": "Image"
+      },
+       {
+      "type": "text",
+      "id": "rbannrbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "rbannerurl",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "rbannrsubbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "rbannersuburl",
+      "label": "Button Link"
+    }
+  ],
+
+ "presets": [
+    {
+      "name": "rewardbanner"
+    }
+  ]
+}
+
+{% endschema %}
+ 

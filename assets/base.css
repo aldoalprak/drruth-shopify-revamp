@@ -5729,3 +5729,404 @@ section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c5
   display: none;
 }
 /* cls015 coachingmain end */
+/* Reward page start */
+.rewordmax_container{
+  max-width: 1100px;
+  margin:0 auto;
+  padding: 0 15px;
+}
+.rewardbg{
+  background: #F5F8F1;
+}
+.redetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.rflex {
+  width: 23%;
+  margin: 0 auto;
+}
+h4.rehead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h4.resubhead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.rblogbg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2.retext {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  text-align: center;
+}
+p.redecs {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.rewardpad {
+  padding: 1% 2%;
+}
+.rewbackg ,.rebanner{
+  background-attachment: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.revereffcontent {
+  padding: 5% 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ordercont{
+  padding: 8% 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.rebannerdetail {
+  width: 90%;
+  margin: 0 auto;
+}
+h2.reverefferhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 0;
+
+}
+h2.reverreffdesc {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.refferconte {
+  width: 65%;
+}
+a.refferorder {
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 25.5px;
+  padding: 10px 20px;
+}
+h2.rorderhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+h2.rorderdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.reordebtn a.refferorder svg{
+  margin-left: 13%;
+}
+h2.redempointhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #184B44;
+  text-align: center;
+}
+p.redempointhead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #231F20;
+    margin: 0;
+}
+.redemcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4% 0;
+}
+.redemspace {
+  width: 21%;
+  margin: 0 auto;
+  border: 2px solid #184B44;
+  border-radius: 24px;
+}
+h2.redemcon {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #184B44;
+  margin-bottom: 0;
+}
+h3.redemdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #184B44;
+  margin-top: 0;
+}
+h2.redersubtitl {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #231F20;
+}
+p.redemsubdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+}
+h2.rewordhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  text-align: center;
+  padding-top: 5%;
+  margin-bottom: 0 ;
+}
+p.rewardsub {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
+}
+.reworkcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.rewordworkspace {
+  width: 33%;
+  margin: 0 auto;
+}
+
+h2.reworktitlle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+h3.reworkdescc {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #1E1E1E;
+}
+.rebanercontent {
+  padding: 8% 0;
+}
+h2.rebanerhead {
+  font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  width: 20%;
+  margin-bottom: 0;
+}
+h2.rebannerdes {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+.revebannerdes {
+  width: 40%;
+}
+.revebannerflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+a.refferbannorder {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #184B44;
+  text-decoration: none;
+}
+.rbannesign {
+  background: #F5F8F1;
+  border: 2px solid #FFFFFF;
+  border-radius: 25.5px;
+  padding: 7px 70px;
+}
+.rbannesign2 {
+  border: 2px solid #FFFFFF;
+  border-radius: 25.5px;
+  padding: 7px 70px;
+  margin-left: 20px;
+}
+.rbannesign2 a.refferbannorder{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.rebannerbtn {
+  display: flex;
+  width: 60%;
+  padding-left: 10%;
+}
+@media screen and (max-width: 1100px) {
+  .rebannerbtn{
+    padding-left: 0%;
+  }
+}
+@media screen and (max-width: 991px) {
+  h2.rebanerhead{
+    width: 29%;
+  }
+  .rbannesign2 ,.rbannesign{
+    padding: 7px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .redemcontent ,.reworkcontent{
+    justify-content: space-between;
+  }
+  h2.rebanerhead {
+    width: 37%;
+}
+.revebannerdes {
+  width: 50%;
+}
+  .redemspace {
+    width: 30%;
+    margin: 1%;
+  }
+  .rebannerbtn{
+    width: 70%;
+  }
+  h2.redempointhead{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+  }
+  .rewordworkspace ,.h2.rewordhead {
+    width: 46%;
+    margin: 2%;
+}
+}
+@media screen and (max-width: 620px) {
+  .rebannerbtn {
+    width: 93%;
+}
+}
+@media screen and (max-width: 520px) {
+  .rewordworkspace {
+    width: 98%;
+    margin: 2%;
+}
+h2.rebanerhead {
+  width: 54%;
+}
+.revebannerdes {
+  width: 70%;
+}
+}
+@media screen and (max-width: 420px) {
+  
+  .redemspace {
+    width: 48%;
+    margin: 1%;
+  }
+}
+/* Reward page end */

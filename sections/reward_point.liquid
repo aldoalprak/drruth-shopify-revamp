@@ -1,0 +1,74 @@
+<div class="rewardbg">
+    <div class="rewordmax_container ">
+        <div class="rewardpad">
+            <div class="re-content">
+                <h2 class="retext">{{section.settings.retext}}</h2>
+                <p class="redecs">{{section.settings.redesc}}</p>
+            </div>
+            <div class="redetails">
+            {%- for block in section.blocks -%}
+        
+                <div class="rflex">
+                    <div class="rblogbg">
+                        <div class="blogsvg">
+                                   <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                        </div>
+                        <h4 class="rehead">{{block.settings.rehead}}</h4>
+                        <h4 class="resubhead">{{block.settings.resubhead}}</h4>
+                        </div>
+                    </div>
+        
+            {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "reward_point",
+  "tag": "section",
+  "class": "reward_point",
+  "settings": [
+    
+     {
+      "type": "text",
+      "id": "retext",
+      "label": "Heading"
+    },
+  {
+      "type": "text",
+      "id": "redesc",
+      "label": "Description"
+    }
+  ],
+     "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+     {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "rewardpoint"
+        },
+       {
+    "type": "text",
+    "id": "rehead",
+    "label": "Heading"
+      },
+      {
+    "type": "text",
+    "id": "resubhead",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "reward_point"
+    }
+  ]
+}
+{% endschema %}

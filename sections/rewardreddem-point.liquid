@@ -1,0 +1,79 @@
+<div class="rewordmax_container">
+    <div class="reddempoint">
+            <h2 class="redempointhead">{{section.settings.pohead}}</h2>
+            <p class="redempointhead">{{section.settings.poides}}</p>
+            <p class="redempointhead">{{section.settings.poisubdes}}</p>
+    </div>
+    <div class=" redemcontent">
+        {%- for block in section.blocks -%}
+                <div class="redemspace">
+                    <h2 class="redemcon">{{block.settings.redeid}}</h2>
+                    <h3 class="redemdes">{{block.settings.redemdesc}}</h3>
+                </div> 
+        {%- endfor -%}
+    </div>
+    <div class="redersubcontent">
+        <h2 class="redersubtitl">{{section.settings.rsubtitlte}}</h2>
+        <p class="redemsubdes">{{section.settings.rsubdes}}</p>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "rewardreddem-point",
+  "tag": "section",
+  "class": "rewardreddem-point",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pohead",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "poides",
+      "label": "Description"
+    }, 
+    {
+      "type": "text",
+      "id": "poisubdes",
+      "label": "Sub Heading"
+    }
+    , 
+      {
+      "type": "text",
+      "id": "rsubtitlte",
+      "label": "  Title"
+    },
+     {
+      "type": "text",
+      "id": "rsubdes",
+      "label": "Sub Title"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+      
+       {
+    "type": "text",
+    "id": "redeid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "redemdesc",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "rewardreddem-point"
+    }
+  ]
+}
+{% endschema %}

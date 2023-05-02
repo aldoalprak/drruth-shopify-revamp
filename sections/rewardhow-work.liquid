@@ -1,0 +1,61 @@
+<div class="rewordmax_container">
+    <div class="rewardwork">
+            <h2 class="rewordhead">{{section.settings.reworkhead}}</h2>
+            <p class="rewardsub">{{section.settings.rewworkdes}}</p>
+    </div>
+    <div class=" reworkcontent">
+        {%- for block in section.blocks -%}
+                <div class="rewordworkspace">
+                    <h2 class="reworktitlle">{{block.settings.reworktitle}}</h2>
+                    <h3 class="reworkdescc">{{block.settings.reworksubtitl}}</h3>
+                </div> 
+        {%- endfor -%}
+    </div>
+   
+</div>
+{% schema %} 
+{
+  "name": "rewardhow-work",
+  "tag": "section",
+  "class": "rewardhow-work",
+  "settings": [
+    {
+      "type": "text",
+      "id": "reworkhead",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "rewworkdes",
+      "label": "Description"
+    }
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+      
+       {
+    "type": "text",
+    "id": "reworktitle",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "reworksubtitl",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "rewardhow-work"
+    }
+  ]
+}
+{% endschema %}
