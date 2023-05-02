@@ -39,7 +39,7 @@
         ".article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
         "img {border-radius: 24px;}",
         "h1.article-template__title {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
-        "span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}"
+        ".article-template__content span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}"
       ],
       "settings": {
         "reccheaddd": "",
@@ -48,7 +48,10 @@
         "spancente": "A dog’s age (in years) x 7 = Age in “dog years.",
         "discdiffcont2": "”Your older dog & cat needs more care and consideration for the highest quality of life. What they can accomplish and how frequently they might need to visit your family veterinarian will depend on whether or not they have specific medical concerns.",
         "articlehead": "6 Useful Tips On Taking Care Of Your Elderly Dog",
-        "articleimg": "shopify:\/\/shop_images\/Image_7.png"
+        "articleimg": "shopify:\/\/shop_images\/Image_7.png",
+        "custbtnn": "read more",
+        "custbtnurl": "",
+        "morebl": "More Blogs"
       }
     },
     "newsletter": {
