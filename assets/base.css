@@ -6517,5 +6517,29 @@ h2.cuspremiumprtitle {
   color: #000000;
   text-transform: uppercase;
 }
+.moreblog{
+  font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+color: #000000;
+text-transform: capitalize;
+}
+.customarticle{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #1E1E1E;
+}
+.custombtn{
+  border: 2px solid #184B44;
+border-radius: 25.5px;
+}
 /* custom blog page end */
 /* blog page end */

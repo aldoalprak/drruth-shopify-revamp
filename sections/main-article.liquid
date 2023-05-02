@@ -363,6 +363,7 @@
          
     </div>
     <div class="moreblogs">
+    h2 class="moreblog">{{section.settings.morebl}}</h2>
           {% for article in blog.articles limit:4 %}
                   <li>
                 <div class="d-flex_b">
@@ -593,7 +594,12 @@
         "type": "image_picker",
         "id": "articleimg",
         "label": "Add Image"
-        }               
+        }  ,
+        {
+        "type": "text",
+        "id": "morebl",
+        "label": "Blog Title "
+        }              
     ],
 
   "blocks": [
