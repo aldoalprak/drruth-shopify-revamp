@@ -38,7 +38,8 @@
       "custom_css": [
         ".article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
         "img {border-radius: 24px;}",
-        "h1.article-template__title {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}"
+        "h1.article-template__title {font-family: \"BLT-Heirloom\"; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
+        "span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}"
       ],
       "settings": {
         "reccheaddd": "",
