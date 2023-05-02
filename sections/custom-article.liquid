@@ -2,7 +2,7 @@
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="recblogflex"> 
-    <div class="conwidth">
+    <div class="cusconwidth">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
@@ -87,7 +87,7 @@
                      <img src="{{ section.settings.articleimg|img_url: '800x' }}">
             </div>
             <div class="custombtn">
-                <a href="{{ block.settings.custbtnurl }}" class="customarticle">{{ block.settings.custbtnn }} 
+                <a href="{{ section.settings.custbtnurl }}" class="customarticle">{{ section.settings.custbtnn }} 
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
                         <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
                     </svg>
@@ -285,7 +285,7 @@
         {%- endif -%}
          
     </div>
-    <div class="moreblogs">
+    <div class="cusmoreblogs">
             <h2 class="moreblog">{{section.settings.morebl}}</h2>
           {% for article in blog.articles limit:4 %}
                 <li>

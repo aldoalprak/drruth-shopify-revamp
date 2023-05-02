@@ -58,7 +58,7 @@
               <header class="page-width articleheadd page-width--narrow" {{ block.shopify_attributes }}>
                 <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
               </header>
-
+              
             {%- when 'content' -%}
               <div
                 class="article-template__content page-width page-width--narrow rte"
@@ -66,6 +66,23 @@
                 {{ block.shopify_attributes }}
               >
                 {{ article.content }}
+              </div>
+              <div class="diffcontent">
+                  <h2>{{section.settings.difftext}}</h2>
+                  <p>{{section.settings.discdiffcont}}</p>
+                  <span>{{section.settings.spancente}}</span>
+                  <p>{{section.settings.discdiffcont2}}</p>
+                  <h2>{{section.settings.articlehead}}</h2>
+                    <div class="artimg">
+                      <img src="{{ section.settings.articleimg|img_url: '800x' }}">
+                    </div>
+                    <div class="custombtn">
+                <a href="{{ section.settings.custbtnurl }}" class="customarticle">{{ section.settings.custbtnn }} 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                        <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div> 
               </div>
           {% render 'recommendedpro'%}
             {%- when 'share' -%}
@@ -161,16 +178,7 @@
 </div>
           {%- endcase -%}
         {%- endfor -%}
-         <div class="diffcontent">
-            <h2>{{section.settings.difftext}}</h2>
-            <p>{{section.settings.discdiffcont}}</p>
-            <span>{{section.settings.spancente}}</span>
-             <p>{{section.settings.discdiffcont2}}</p>
-             <h2>{{section.settings.articlehead}}</h2>
-             <div class="artimg">
-                     <img src="{{ section.settings.articleimg|img_url: '800x' }}">
-            </div>
-       </div>
+        
 {% render 'reccomndedblog'%}
 
         <div class="article-template__back element-margin-top center">
@@ -265,7 +273,7 @@
                         type="text"
                         name="comment[author]"
                         id="CommentForm-author"
-                        class="field__input"
+                        class="field__input mainfiels"
                         autocomplete="name"
                         value="{{ form.author }}"
                         aria-required="true"
@@ -296,7 +304,7 @@
                         name="comment[email]"
                         id="CommentForm-email"
                         autocomplete="email"
-                        class="field__input"
+                        class="field__input mainfiels"
                         value="{{ form.email }}"
                         autocorrect="off"
                         autocapitalize="off"
@@ -328,7 +336,7 @@
                       rows="5"
                       name="comment[body]"
                       id="CommentForm-body"
-                      class="text-area field__input"
+                      class="text-area field__input mainfiels"
                       aria-required="true"
                       required
                       {% if form.errors contains 'body' %}
@@ -363,7 +371,7 @@
          
     </div>
     <div class="moreblogs">
-    h2 class="moreblog">{{section.settings.morebl}}</h2>
+    <h2 class="moreblog">{{section.settings.morebl}}</h2>
           {% for article in blog.articles limit:4 %}
                   <li>
                 <div class="d-flex_b">
@@ -417,7 +425,7 @@
                     {%- endif -%}
                       <div class="field">
                         <input
-                          class="field__input"
+                          class="field__input mainfiels"
                           autocomplete="name"
                           type="text"
                           id="ContactForm-name"
@@ -432,7 +440,7 @@
                       <input
                         type="tel"
                         id="ContactForm-phone"
-                        class="field__input"
+                        class="field__input mainfiels"
                         autocomplete="tel"
                         name="contact[{{ 'templates.contact.form.phone' | t }}]"
                         pattern="[0-9\-]*"
@@ -446,7 +454,7 @@
                           autocomplete="email"
                           type="email"
                           id="ContactForm-email"
-                          class="field__input"
+                          class="field__input mainfiels"
                           name="contact[email]"
                           spellcheck="false"
                           autocapitalize="off"
@@ -599,7 +607,17 @@
         "type": "text",
         "id": "morebl",
         "label": "Blog Title "
-        }              
+        } ,
+         {
+        "type": "url",
+    "id": "custbtnurl",
+    "label": "Button Link"
+       }   ,
+       {
+        "type": "text",
+    "id": "custbtnn",
+    "label": "Button"
+       }             
     ],
 
   "blocks": [
