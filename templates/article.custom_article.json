@@ -1,79 +1,108 @@
 {
-    "sections": {
-      "main": {
-        "type": "custom-article",
-        "blocks": {
-          "featured_image": {
-            "type": "featured_image",
-            "settings": {
-              "image_height": "large"
-            }
-          },
-          "title": {
-            "type": "title",
-            "settings": {
-              "blog_show_date": true,
-              "blog_show_author": false
-            }
-          },
-          "share": {
-            "type": "share",
-            "settings": {
-              "share_label": "Share"
-            }
-          },
-          "content": {
-            "type": "content",
-            "settings": {
-            }
+  "sections": {
+    "main": {
+      "type": "custom-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "large"
           }
         },
-        "block_order": [
-          "featured_image",
-          "title",
-          "share",
-          "content"
-        ],
-        "settings": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
         }
       },
-      "newsletter": {
-        "type": "newsletter",
-        "blocks": {
-          "heading": {
-            "type": "heading",
-            "settings": {
-              "heading": "Subscribe to our emails",
-              "heading_size": "h1"
-            }
-          },
-          "paragraph": {
-            "type": "paragraph",
-            "settings": {
-              "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-            }
-          },
-          "email-form": {
-            "type": "email_form",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "heading",
-          "paragraph",
-          "email-form"
-        ],
-        "settings": {
-          "color_scheme": "background-2",
-          "full_width": true,
-          "padding_top": 68,
-          "padding_bottom": 52
-        }
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+        "reccheaddd": "",
+        "difftext": "What age is a dog considered old?",
+        "discdiffcont": "Seniority among dogs varies..When little dogs are 11–12 years old, they are considered senior citizens in the canine society. At age 10, their stout companions turn into seniors. At age 8, their larger-sized coworkers are seniors. Finally, at age 7, their giant-breed peers are seniors.As a result, a Great Dane reaches old age far earlier than a Pomeranian.The most common theory comparing human and canine ages uses this equation:",
+        "spancente": "A dog’s age (in years) x 7 = Age in “dog years.",
+        "discdiffcont2": "”Your older dog & cat needs more care and consideration for the highest quality of life. What they can accomplish and how frequently they might need to visit your family veterinarian will depend on whether or not they have specific medical concerns.",
+        "articlehead": "6 Useful Tips On Taking Care Of Your Elderly Dog",
+        "articleimg": "shopify:\/\/shop_images\/Image_7.png"
       }
     },
-    "order": [
-      "main",
-      "newsletter"
-    ]
-  }
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "b8263c25-4c9c-48b3-980b-6ac0ea22c401": {
+      "type": "recommended_slider",
+      "blocks": {
+        "931876da-c94e-4a68-89b8-0099009a9265": {
+          "type": "collection",
+          "settings": {
+            "product": "10-day-sp-detox-balance™-program",
+            "productcus": "activated-charcoal-560-mg-100-caps",
+            "proquee1": "What’s In Our Pet Multivitamins?",
+            "proanss1": "The Holistic Total Body Support formula focuses on high-quality ingredients without a bunch of additives and fillers.We’ve carefully created a densely nutritious supplement that caters to all the health needs of a dog or cat."
+          }
+        }
+      },
+      "block_order": [
+        "931876da-c94e-4a68-89b8-0099009a9265"
+      ],
+      "settings": {
+        "reccheaddd1": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "b8263c25-4c9c-48b3-980b-6ac0ea22c401"
+  ]
+}
