@@ -5990,12 +5990,15 @@ color: #184B44;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4%;
-  width: 90%;
+  width: 100%;
 }
 .recommhead {
   width: 70%;
   margin-left: 0;
   margin-top: 5%;
+}
+a.product__title {
+  text-decoration: none;
 }
 .product-form__buttons .button--full-width{
 display: inline-block;
@@ -6243,6 +6246,18 @@ color: #939393;
     border: 2px solid #184B44;
     border-radius: 24px;
 }
+button.addCart {
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  background: white;
+  border: 2px solid #184B44;
+  border-radius: 24px;
+  padding: 10px 49px;
+  cursor: pointer;
+}
 .mainfiels{
   border: 2px solid #F5F8F1;
 border-radius: 24px;
@@ -6297,6 +6312,10 @@ h4.blogghead {
 
   margin: 0;
 
+}
+.diffcontent {
+  width: 97%;
+  margin: 0 auto;
 }
 .autname{
   width: 70%;
@@ -6387,6 +6406,7 @@ h2.recomtitle{
   font-size: 18px;
     line-height: 27px;
 }
+
 .podcastslider button.drag.coacharrow.slick-prev.pull-left.slick-arrow{
   left: -3%;
 }
@@ -6582,6 +6602,10 @@ input:focus ,input:hover ,input:focus-visible {
   width: 70%;
   margin-left: 0;
 }
+.preeprice span.visually-hidden.visually-hidden--inline {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .cusmoreblogs {
     width: 80%;
@@ -6622,6 +6646,10 @@ input:focus ,input:hover ,input:focus-visible {
 @media only screen and (max-width: 520px) {
   .cusimagewrapper,.cusquecontent {
     width: 98%;
+}
+.diffcontent {
+  width: 94%;
+  margin: 0 auto;
 }
 }
 @media only screen and (max-width: 420px) {
