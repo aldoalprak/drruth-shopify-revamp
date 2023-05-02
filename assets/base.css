@@ -6291,10 +6291,10 @@ h4.blogghead {
 }
 }
 @media only screen and (max-width: 650px) {
-  .blog-articles__article.article {
+  /* .blog-articles__article.article {
     width: 98%;
     margin: 0 auto;
-}
+} */
 .imagewrapper {
   width: 100%;
   display: flex;
@@ -6381,4 +6381,130 @@ h2.recomtitle{
     width: 90%;
 }
 }
+
+/* custom blog page start */
+.cus_d-flex_b{
+  display:flex;
+  flex-wrap:wra;
+}
+.cus-text-dexore{
+  width: 26%;
+}
+.cus-text-dexore img{
+  width: 100%;
+  border-radius: 24px;
+}
+.cus-produc_tital{
+  width: 60%;
+}
+.cus-contact50 {
+  background: #F5F8F1;
+  border-radius: 24px;
+  padding: 10px 20px;
+}
+.cus_color{
+  background: transparent;
+}
+.sendbtn1 button.button{
+  color: black;
+    border: 2px solid #184B44;
+    border-radius: 24px;
+    width: 100%;
+}
+input.cus_color {
+  border: 2px solid #184B44;
+  border-radius: 24px;
+}
+input:focus-visible {
+  outline:none;
+}
+.cuspremiumproductflex{
+  display: flex;
+  width: 100%;
+}
+.cusimagewrapper ,.cusquecontent ,.cusimagewrapper{
+  border: 2px solid #184B44;
+  border-radius: 24px;
+}
+h2.proqueecus {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  padding: 5%;
+}
+p.proansscus {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding: 7%;
+}
+h2.cuspremiumprtitle {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #1E1E1E;
+}
+.cuspreeprice {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #184B44;
+}
+.cusquecontent {
+  width: 26%;
+  margin: 2%;
+}
+.cusimagewrapper {
+  width: 26%;
+  margin: 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.premiumproduct{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.diffcontent h2 {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+.diffcontent p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.diffcontent span {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+/* custom blog page end */
 /* blog page end */

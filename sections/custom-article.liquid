@@ -44,7 +44,7 @@
 
             {%- when 'title' -%}
             <div class="autname">
-            {%- if block.settings.blog_show_author -%}
+                 {%- if block.settings.blog_show_author -%}
                   <span class="caption-with-letter-spacing " itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <span itemprop="name">{{ article.author }}</span>
                   </span>
@@ -67,101 +67,17 @@
               >
                 {{ article.content }}
               </div>
-          {% render 'recommendedpro'%}
+ 
             {%- when 'share' -%}
               <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
                 {% assign share_url = request.origin | append: article.url %}
                 {% render 'share-button', block: block, share_link: share_url %}
               </div>
             
-            {%- when 'reproduct' -%}
-            
-             {%- assign product = block.settings.product -%}
-                <div class="premiumproductflex">
-                    <div class="imagewrapper">
-                        <div class="desktopimg">
-                            <img src="{{ product.featured_image | img_url: 'medium' }}">
-                        </div>
-                        <div class="desktoptitle">     
-                          <h2 class="premiumprtitle">{{ product.title | escape }}</h2>
-                          <h2 class="preeprice" >{% render 'price', product: product, price_class: '' %}</h2>
-                        </div>
-                    </div>
-                    <div class="queandbtn">
-                        <div class="quecontent">
-                                <h2 class="proquee">{{block.settings.proquee}}</h2>
-                                <p class="proanss">{{block.settings.proanss}}</h2>
-                        </div>
-                        <div class="product-form__buttons">
-                                {%- liquid
-                                    assign check_against_inventory = true
-                                    if product.selected_or_first_available_variant.inventory_management != 'shopify' or  product.selected_or_first_available_variant.inventory_policy == 'continue'
-                                    assign check_against_inventory = false
-                                    endif
-                                    if product.selected_or_first_available_variant.quantity_rule.min > product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
-                                    assign quantity_rule_soldout = true
-                                    endif
-                                -%}
-                                <button
-                                    id = "ProductSubmitButton-{{ section_id }}"
-                                    type="submit"
-                                    name="add"
-                                    class=" product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-                                    {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
-                                    disabled
-                                    {% endif %}
-                                >
-                                    <span>
-                                    {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                                        {{ 'products.product.sold_out' | t }}
-                                    {%- else -%}
-                                        {{ 'products.product.add_to_cart' | t }}
-                                    {%- endif -%}
-                                    </span>
-                                    <div class="loading-overlay__spinner hidden">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        class="spinner"
-                                        viewBox="0 0 66 66"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                                    </svg>
-                                    </div>
-                                </button>
-                                {%- if block.settings.show_dynamic_checkout -%}
-                                    {{ form | payment_button }}
-                                {%- endif -%}
-                            </div>
-                    </div>
-                </div> 
-             {%- when 'reblogs' -%}
-             <div class="">
-            <div class="reccommwidth">
-       
-            <div class="reccomdedback" style="background-image:url('{{section.settings.reccombgimg  | img_url: 'master'}}'); ">
-               <div class="rpadding">
-                     <div class="rectexthead">
-                    <h2> {{section.settings.reccomhead}}</h2>
-                    </div>
-                    <div class="reccomflexbtn">
-                   
-                            <div class="recconbor">
-                                <a class="review" href="{{block.settings.reccomurl}}">{{block.settings.reccomtext}}</a>
-                                </div>
-                                  <div class="recconbor">
-                                <a class="review" href="{{block.settings.reccomurl1}}">{{block.settings.reccomtext1}}</a>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        
-    </div>
-</div>
+           
           {%- endcase -%}
         {%- endfor -%}
-         <div class="diffcontent">
+       <div class="diffcontent">
             <h2>{{section.settings.difftext}}</h2>
             <p>{{section.settings.discdiffcont}}</p>
             <span>{{section.settings.spancente}}</span>
@@ -171,7 +87,7 @@
                      <img src="{{ section.settings.articleimg|img_url: '800x' }}">
             </div>
        </div>
-{% render 'reccomndedblog'%}
+
 
         <div class="article-template__back element-margin-top center">
           <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
@@ -364,26 +280,23 @@
     </div>
     <div class="moreblogs">
           {% for article in blog.articles limit:4 %}
-                  <li>
-                <div class="d-flex_b">
-                  <div class="text-dexore">
-                    <img src="{{ article.image.src | img_url: '256x256' }}" class="attachment-shop_single size-shop_single sp-post-image" alt="{{image.alt}}" >
-                </div>
-                  <div class="produc_tital">
-                      <a href="{{ article.url }}" class="product_slt txt_d_none"><span class="custom_prj product-title title_of_blog">{{ article.title }}</span></a>
-                  <div>
-                      
-                  </div>
-                  </div>
-                </div>
-              </li>
+                <li>
+                    <div class="cus_d-flex_b">
+                        <div class="cus-text-dexore">
+                            <img src="{{ article.image.src | img_url: '256x256' }}" class="attachment-shop_single size-shop_single sp-post-image" alt="{{image.alt}}" >
+                        </div>
+                        <div class="cus-produc_tital">
+                            <a href="{{ article.url }}" class="product_slt txt_d_none"><span class="custom_prj product-title title_of_blog">{{ article.title }}</span></a>
+                        <div>  
+                    </div> 
+                </li>
           {% endfor %} 
-          <div class="contact50">
+          <div class="cus-contact50">
               <h2 class="contcthead"> Send Us A Message</h2> 
               {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 
-              <div class="color-{{ section.settings.color_scheme }} gradient">
+              <div class="cus_color">
                 <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
                   {%- if section.settings.heading != blank -%}
                     <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">
@@ -415,48 +328,27 @@
                       </ul>
                     {%- endif -%}
                       <div class="field">
-                        <input
-                          class="field__input"
-                          autocomplete="name"
-                          type="text"
-                          id="ContactForm-name"
-                          name="contact[{{ 'templates.contact.form.name' | t }}]"
+                        <input  class="field__input cus_color" autocomplete="full name" type="text"
+                          id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]"
                           value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-                          placeholder="{{ 'templates.contact.form.name' | t }}"
-                        >
+                          placeholder="{{ 'templates.contact.form.name' | t }}">
                         <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
                       </div>
                     
                     <div class="field">
-                      <input
-                        type="tel"
-                        id="ContactForm-phone"
-                        class="field__input"
-                        autocomplete="tel"
-                        name="contact[{{ 'templates.contact.form.phone' | t }}]"
-                        pattern="[0-9\-]*"
+                      <input  type="tel"id="ContactForm-phone"class="field__input cus_color"  autocomplete="tel"
+                        name="contact[{{ 'templates.contact.form.phone' | t }}]"   pattern="[0-9\-]*"
                         value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-                        placeholder="{{ 'templates.contact.form.phone' | t }}"
-                      >
+                        placeholder="{{ 'templates.contact.form.phone' | t }}">
                       <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
                     </div>
                     <div class="field field--with-error">
-                        <input
-                          autocomplete="email"
-                          type="email"
-                          id="ContactForm-email"
-                          class="field__input"
-                          name="contact[email]"
-                          spellcheck="false"
-                          autocapitalize="off"
-                          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-                          aria-required="true"
-                          {% if form.errors contains 'email' %}
-                            aria-invalid="true"
+                        <input autocomplete="email" type="email"id="ContactForm-email"  class="field__input cus_color"  name="contact[email]" spellcheck="false"
+                          autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                          aria-required="true" {% if form.errors contains 'email' %} aria-invalid="true"
                             aria-describedby="ContactForm-email-error"
                           {% endif %}
-                          placeholder="{{ 'templates.contact.form.email' | t }}"
-                        >
+                          placeholder="{{ 'templates.contact.form.email' | t }}" >
                         <label class="field__label" for="ContactForm-email">
                           {{- 'templates.contact.form.email' | t }}
                           <span aria-hidden="true">*</span></label
@@ -472,8 +364,8 @@
                           </small>
                         {%- endif -%}
                       </div>
-                    <div class="contact__button sendbtn">
-                      <button type="submit" class="button">
+                    <div class="contact__button sendbtn1 ">
+                      <button type="submit" class="button cus_color">
                         {{ 'templates.contact.form.send' | t  }}<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
                   <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="black" stroke-linecap="round"/>
                   </svg>
@@ -524,45 +416,10 @@
   "tag": "section",
   "class": "section",
    "settings": [
-      {
+        {
             "type": "text",
             "id": "reccheaddd",
             "label": "Title"
-          },
-      {
-          "type": "text",
-          "id": "aboutcontent",
-          "label": "Heading" 
-      },
-      {
-          "type": "text",
-          "id": "aboutdesscc",
-          "label": "Description"
-      },
-              {
-          "type": "url",
-          "id": "blogaurl",
-          "label": "Link Text"
-          },
-          {
-          "type": "text",
-          "id": "blogatext",
-          "label": "Button"
-          },
-          {
-          "type": "image_picker",
-          "id": "blogaboutimg",
-          "label": "Image"
-          },
-          {
-          "type": "text",
-          "id": "reccomhead",
-          "label": "Heading"
-      },  
-        {
-        "type": "image_picker",
-        "id": "reccombgimg",
-        "label": "Image"
         } ,
          {
             "type": "text",
@@ -583,8 +440,8 @@
             "type": "text",
             "id": "discdiffcont2",
             "label": "Sub  Discription"
-        },
-         {
+        }  ,
+        {
         "type": "text",
         "id": "articlehead",
         "label": "Add Heading"
@@ -593,11 +450,9 @@
         "type": "image_picker",
         "id": "articleimg",
         "label": "Add Image"
-        }               
+        }         
     ],
-
-  "blocks": [
-    
+  "blocks": [ 
     {
       "type": "@app"
     },
@@ -697,33 +552,6 @@
         "id":"proanss",
         "label":"Answer"
     }
-    ]
-  },
-   {
-    "type": "reblogs",
-    "name": "Collection",
-    "limit":2,
-    "settings": [
-           {
-        "type": "url",
-        "id": "reccomurl",
-        "label": "Link Text"
-        },
-        {
-        "type": "text",
-        "id": "reccomtext",
-        "label": "Button"
-        },
-           {
-        "type": "url",
-        "id": "reccomurl1",
-        "label": "Link Text"
-        },
-        {
-        "type": "text",
-        "id": "reccomtext1",
-        "label": "Button"
-        }
     ]
   }
      

@@ -1,0 +1,126 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<div class="premiumproduct">
+    <div class="recommhead">
+        <h2 class="recomtitle">{{section.settings.reccheaddd1}}</h2>
+    </div>
+    <div class="clsmaxcont ">
+        {% for block in section.blocks %}
+            {%- assign product = block.settings.product -%}
+            {%- assign productcus = block.settings.productcus -%}
+                <div class="cuspremiumproductflex  ">
+                        <div class="cusimagewrapper">
+                         <a href="{{ product.url }}" class="product__title">
+                            <div class="cusdesktopimg">
+                              
+                                   <img src="{{ product.featured_image | img_url: 'medium' }}">
+                               
+                            </div>
+                            <div class="cusdesktoptitle">     
+                                <h2 class="cuspremiumprtitle">{{ product.title | escape }}</h2>
+                                <h2 class="cuspreeprice" >{% render 'price', product: product, price_class: '' %}</h2>
+                            </div>  
+                         </a> 
+                        </div>
+                        <div class="cusquecontent">
+                                <h2 class="proqueecus">{{block.settings.proquee1}}</h2>
+                                <p class="proansscus">{{block.settings.proanss1}}</h2>
+                        </div>
+                        <div class="cusimagewrapper">
+                         <a href="{{ product.url }}" class="product__title">
+                            <div class="cusdesktopimg">
+                                <img src="{{ productcus.featured_image | img_url: 'medium' }}">
+                            </div>
+                            <div class="cusdesktoptitle">     
+                                <h2 class="cuspremiumprtitle">{{ product.title | escape }}</h2>
+                                <h2 class="cuspreeprice" >{% render 'price', product: product, price_class: '' %}</h2>
+                            </div>  
+                         </a>
+                        </div>
+                </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+"name": "recommended_slider",
+
+"settings": [
+  {
+          "type": "text",
+          "id": "reccheaddd1",
+          "label": "Title"
+        }
+        
+],
+           "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": " Product Image"
+        },
+         {
+          "type": "product",
+          "id": "productcus",
+          "label": " Product Image"
+        },
+    {
+        "type":"text",
+        "id":"proquee1",
+        "label":"Questions"
+    },
+    {
+        "type":"text",
+        "id":"proanss1",
+        "label":"Answer"
+    }
+    ]
+  }
+
+],
+
+"presets" : [
+{
+  "name" : "recommended_slider",
+  "category" : "premiumproduct"
+
+  }
+]
+}
+{% endschema %}
+<script>
+    $('.customslider').slick({
+        speed: 500,
+        autoplaySpeed: 2000,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        prevArrow:"<button type='button' class='drag coacharrow slick-prev pull-left'><svg xmlns='http://www.w3.org/2000/svg' width='19' height='46' viewBox='0 0 19 46' fill='none'><path d='M17.5 1L2 23L17.5 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        nextArrow:"<button type='button' class='drag coacharrow2  slick-next pull-right'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='46' viewBox='0 0 18 46' fill='none'><path d='M1 1L16.5 23L1 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+</script>
