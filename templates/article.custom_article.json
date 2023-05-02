@@ -36,7 +36,8 @@
         "content"
       ],
       "custom_css": [
-        ".article-template{max-width: 1100px; margin: 0 auto; padding: 0 15px;}"
+        ".article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
+        "img {border-radius: 24px;}"
       ],
       "settings": {
         "reccheaddd": "",
