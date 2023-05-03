@@ -44,7 +44,7 @@
     }
 
     .rx-{{section.id}} .product-form__buttons  {
-      margin-left:auto;
+      max-width: 100%;
     }
 
     .rx-{{section.id}} .product-form__buttons .button {
@@ -130,6 +130,10 @@
       font-weight: 500;
       font-size: 24px;
       line-height: 30px;
+    }
+
+    .price-item.price-item--regular {
+      color: #184B44;
     }
 
     .price__regular .price-item--regular {
@@ -224,7 +228,7 @@
     /* =============== Recharge section============= */
     #rx-recharge-atc {
       width:100%;
-      margin-left: 20px;
+      /* margin-left: 20px; */
     }
 
     #rx-recharge-atc .rc-widget {
@@ -282,6 +286,10 @@
     #rx-recharge-atc .rc-template__button-group .rc-radio {
       max-width: 450px;
     }
+
+    .rc-subscription-details {
+      display: none;
+    }
     /* =============== End Recharge section============= */
 
     .rx-{{section.id}} .product__tax.caption {
@@ -294,6 +302,25 @@
       letter-spacing: 0.3em;
       color: #5F5E66;
       text-align: right;
+    }
+
+    .rx-custom-price {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rx-price-line-through {
+      text-decoration: line-through;
+      color: #1E1E1E !important;
+    }
+
+    #rx-subs-price {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #184B44;
     }
 
 
@@ -403,13 +430,13 @@
                    <!-- Stamped - End Star Rating Badge -->
                 {% endif %}
                   
-                <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                {% comment %} <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
                     use_variant: true,
                     show_badges: true
                   -%}
-                </div>
+                </div> {% endcomment %}
                
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
@@ -592,10 +619,19 @@
                   {% comment %} <div class="rx-buy-button-qty">
                   {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
                   </div> {% endcomment %}
-
-                  <div id="rx-recharge-atc"></div>
+                  <div class="rx-custom-price">
+                    <div id="rx-subs-price"></div>
+                    <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                      {%- render 'price',
+                        product: product,
+                        use_variant: true,
+                        show_badges: true
+                      -%}
+                    </div>
+                  </div  >
                 {% endif %}
               </div>
+            <div id="rx-recharge-atc"></div>
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
@@ -698,16 +734,97 @@
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
 
-      console.log("tab==>", tabName)
+      
       document.getElementById(tabName).style.display = "block";
       evt.currentTarget.className += " active";
     }
   </script>
 
   <script>
-    
     document.getElementById('rx-recharge-atc').appendChild(  document.getElementById(`RechargeWidget_{{product.id}}`) )
+    
+    function waitForElm(selector) {
+      return new Promise(resolve => {
+          if (document.querySelector(selector)) {
+              return resolve(document.querySelector(selector));
+          }
+  
+          const observer = new MutationObserver(mutations => {
+              if (document.querySelector(selector)) {
+                  resolve(document.querySelector(selector));
+                  observer.disconnect();
+              }
+          });
+  
+          observer.observe(document.body, {
+              childList: true,
+              subtree: true
+          });
+      });
+    }
 
+    async function getSubsPrice() {
+      await waitForElm('.subscription-radio');
+      const subsPrice = document.getElementsByClassName("rc-radio subscription-radio")[0].querySelector(".price-label").innerHTML;
+      
+      let prevUrl = undefined;
+      setInterval(() => {
+        const currUrl = window.location.href;
+        const urlParams = new URLSearchParams(currUrl);
+        if (currUrl != prevUrl) {
+          // URL changed
+          prevUrl = currUrl;
+          const hasSellingPlanParam = urlParams.has("selling_plan")
+          
+          if(hasSellingPlanParam) {
+            document.getElementById("rx-subs-price").innerHTML= `${subsPrice} USD`
+            document.getElementById("rx-price-regular").classList.add("rx-price-line-through")
+          } else {
+            document.getElementById("rx-subs-price").innerHTML= "";
+            document.getElementById("rx-price-regular").classList.remove("rx-price-line-through")
+          }
+          
+        }
+      }, 60);
+
+    }
+    
+    async function hideSubsInfo() {
+      await waitForElm('.rc-subscription-details');
+      document.getElementsByClassName("rc-subscription-details")[0].style.display="none"
+    }
+
+    getSubsPrice();
+    hideSubsInfo();
+    
+
+    {% comment %} document.addEventListener('DOMContentLoaded', function () {
+      const container = document.getElementsByClassName("rc-radio subscription-radio")[0]
+      console.log("===>", container)
+    }) {% endcomment %}
+    {% comment %} const config = {
+      productId: {{product.id}}, // Required
+      injectionParent: 'form[action*="cart/add"]', // The node that will have the widget injected in
+      injectionMethod: 'prepend', // How will the widget be injected 
+      injectFn: (node, target) => {}, // Runs a custom injection function 
+      selectors: {
+        price: ['.my-price-selector'], // the selectors that will be updated based on subscription
+        variant: ['.variant-selector'] // The variants to watch for to update the subscription prices
+      }
+    };
+    window.ReChargeWidget.createWidget(config);
+
+    {% endcomment %}
+    {% comment %} document.addEventListener("DOMContentLoaded", function() {
+      var productData = window.ReChargeWidget.api.fetchProduct({{product.id}});
+
+      productData.then(
+        function(value) {console.log("=====>",value)}
+
+      ) 
+    }); {% endcomment %}
+    
+    
   </script>
 
   {% render 'product-media-modal' variant_images: variant_images %}

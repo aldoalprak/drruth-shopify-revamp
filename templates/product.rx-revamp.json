@@ -15,16 +15,9 @@
           "settings": {
           }
         },
-        "price": {
+        "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -75,8 +68,7 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
-        "variant_picker",
+        "751d134f-73fe-4141-86b2-938f1aeacb83",
         "quantity_selector",
         "0dd44047-53bd-4401-b151-a60aa1b52a8d",
         "description",
