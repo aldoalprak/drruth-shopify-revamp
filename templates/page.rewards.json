@@ -144,6 +144,62 @@
         "reworkhead": "How it  work?",
         "rewworkdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc. Consequat augue scelerisque dolor morbi pellentesque risus quis tortor. Ornare elit a."
       }
+    },
+    "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
+      "type": "reward_point",
+      "blocks": {
+        "3423afaf-6b0d-440b-9752-2f21fbe12d6d": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-facebook-1077041_1.png",
+            "rehead": "Like us on Facebook",
+            "resubhead": "30 points"
+          }
+        },
+        "617d9dcc-4bf3-486e-9239-a1e141aecba3": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-instagram-1077042_1.png",
+            "rehead": "Follow us on Instagram",
+            "resubhead": "50 POINTS"
+          }
+        },
+        "7b652a77-d985-4f7c-ab85-fd7309a8644a": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
+            "rehead": "Create an account",
+            "resubhead": "70 POINTS"
+          }
+        },
+        "2e3c2db4-e15e-4bf4-b563-b4aabb031d19": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-shopping-bag-2956820_1.png",
+            "rehead": "Purchases",
+            "resubhead": "1EUR=1POINT"
+          }
+        },
+        "0250ef9a-9b62-472d-943b-784d5ecf3fad": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-cake-4030962_1.png",
+            "rehead": "Birthday Reward",
+            "resubhead": "100 POINTS"
+          }
+        }
+      },
+      "block_order": [
+        "3423afaf-6b0d-440b-9752-2f21fbe12d6d",
+        "617d9dcc-4bf3-486e-9239-a1e141aecba3",
+        "7b652a77-d985-4f7c-ab85-fd7309a8644a",
+        "2e3c2db4-e15e-4bf4-b563-b4aabb031d19",
+        "0250ef9a-9b62-472d-943b-784d5ecf3fad"
+      ],
+      "settings": {
+        "retext": "How to earn points?",
+        "redesc": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper."
+      }
     }
   },
   "order": [
@@ -151,6 +207,7 @@
     "newsletter",
     "1655751929e34d4e57",
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
-    "a150e7da-3455-4f9b-bc95-cfc5dad22d26"
+    "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
+    "c7c10aca-5c84-401d-a8e2-1f086081ea38"
   ]
 }
