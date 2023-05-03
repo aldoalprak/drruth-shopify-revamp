@@ -5815,7 +5815,7 @@ p.redecs {
   margin: 0 auto;
 }
 .rebannerdetail {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 h2.reverefferhead {
@@ -5853,7 +5853,7 @@ a.refferorder {
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
-  padding: 10px 20px;
+  padding: 18px 20px;
 }
 h2.rorderhead {
   font-family: 'Oakley Script';
@@ -6060,14 +6060,44 @@ letter-spacing: 0.3em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+.reddempoint {
+  padding-top: 4%;
+}
 .rebannerbtn {
   display: flex;
   width: 60%;
   padding-left: 10%;
 }
+.blogsvg{
+  border: 2px solid #184B44;
+  width: 73px;
+height: 73px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.faqborder{
+    border-top: 1px solid #F5F8F1;
+    padding-top: 2%;
+    margin-top: 5%;
+
+}
+@media screen and (max-width: 1150px) {
+.rebannerdetail ,.redemwidth ,.ordercont{
+  width: 90%;
+}
+.rewardwork ,.reworkcontent ,.revereffcontent {
+  width: 90%;
+  margin: 0 auto;
+}
+}
 @media screen and (max-width: 1100px) {
   .rebannerbtn{
     padding-left: 0%;
+  }
+  .redetails{
+    width: 100%;
   }
 }
 @media screen and (max-width: 991px) {
@@ -6077,6 +6107,9 @@ color: #FFFFFF;
   .rbannesign2 ,.rbannesign{
     padding: 7px 50px;
   }
+  .rflex {
+    width: 30%;
+  }
 }
 @media screen and (max-width: 768px) {
   .redemcontent ,.reworkcontent{
@@ -6085,8 +6118,14 @@ color: #FFFFFF;
   h2.rebanerhead {
     width: 37%;
 }
+.wi90.accordion-container {
+  width: 90%;
+}
 .revebannerdes {
   width: 50%;
+}
+.rflex {
+  width: 48%;
 }
   .redemspace {
     width: 30%;
@@ -6095,11 +6134,14 @@ color: #FFFFFF;
   .rebannerbtn{
     width: 70%;
   }
-  h2.redempointhead{
+  h2.redempointhead ,h2.reverefferhead ,h2.rorderhead{
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 0;
   }
+  .refferconte {
+    width: 90%;
+}
   .rewordworkspace ,.h2.rewordhead {
     width: 46%;
     margin: 2%;
@@ -6121,12 +6163,37 @@ h2.rebanerhead {
 .revebannerdes {
   width: 70%;
 }
+.rebannerbtn {
+    width: 100%;
+}
+.refferconte {
+  width: 100%;
+}
+a.refferorder{
+  padding: 16px 42px;
+
+}
+}
+@media screen and (max-width: 440px) {
+  .rebannerbtn{
+    flex-wrap: wrap;
+  }
+  .rbannesign2{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .rbannesign{
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 420px) {
   
   .redemspace {
     width: 48%;
     margin: 1%;
+  }
+  .rflex {
+    width: 96%;
   }
 }
 /* Reward page end */
