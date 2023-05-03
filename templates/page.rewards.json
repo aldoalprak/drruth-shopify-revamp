@@ -218,6 +218,14 @@
         "retext": "How to earn points?",
         "redesc": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper."
       }
+    },
+    "67fac3fb-a3cd-4040-a8f4-512624058aca": {
+      "type": "rewordreffer",
+      "settings": {
+        "reverefe": "REFER A FRIEND",
+        "reverreffs": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper.",
+        "revaback": "shopify:\/\/shop_images\/pexels-chevanon-photography-1108099_1.png"
+      }
     }
   },
   "order": [
@@ -226,6 +234,7 @@
     "1655751929e34d4e57",
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
     "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
-    "c7c10aca-5c84-401d-a8e2-1f086081ea38"
+    "c7c10aca-5c84-401d-a8e2-1f086081ea38",
+    "67fac3fb-a3cd-4040-a8f4-512624058aca"
   ]
 }
