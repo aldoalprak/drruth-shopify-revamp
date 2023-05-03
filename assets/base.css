@@ -6079,9 +6079,13 @@ justify-content: center;
 }
 .faqborder{
     border-top: 1px solid #F5F8F1;
-    padding-top: 2%;
-    margin-top: 5%;
+    padding-top: 1%;
+    margin-top: 3%;
 
+}
+.reoredr {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 1150px) {
 .rebannerdetail ,.redemwidth ,.ordercont{
