@@ -1,104 +1,336 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-page",
-        "settings": {
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "newsletter": {
-        "type": "newsletter",
-        "blocks": {
-          "heading": {
-            "type": "heading",
-            "settings": {
-              "heading": "Subscribe to our emails",
-              "heading_size": "h1"
-            }
-          },
-          "paragraph": {
-            "type": "paragraph",
-            "settings": {
-              "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-            }
-          },
-          "email-form": {
-            "type": "email_form",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "heading",
-          "paragraph",
-          "email-form"
-        ],
-        "settings": {
-          "color_scheme": "background-2",
-          "full_width": true,
-          "padding_top": 68,
-          "padding_bottom": 52
-        }
-      },
-      "1655751929e34d4e57": {
-        "type": "collection-list",
-        "blocks": {
-          "16557519296bd204f0-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "herbsmith-products"
-            }
-          },
-          "16557519296bd204f0-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "standard-process-collection"
-            }
-          },
-          "16557519296bd204f0-2": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "animalbiome"
-            }
-          },
-          "aa1c3c69-2ce2-435d-81c8-18b114024961": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "assisi-loop-calmer-canine®"
-            }
-          },
-          "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": ""
-            }
-          }
-        },
-        "block_order": [
-          "16557519296bd204f0-0",
-          "16557519296bd204f0-1",
-          "16557519296bd204f0-2",
-          "aa1c3c69-2ce2-435d-81c8-18b114024961",
-          "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
-        ],
-        "settings": {
-          "title": "",
-          "heading_size": "h1",
-          "image_ratio": "square",
-          "columns_desktop": 3,
-          "color_scheme": "background-1",
-          "show_view_all": false,
-          "columns_mobile": "1",
-          "swipe_on_mobile": false,
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "order": [
-      "main",
-      "newsletter",
-      "1655751929e34d4e57"
-    ]
-  }
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d48c35de-9106-4995-aefa-b9b52ae4d3f9": {
+      "type": "rewardbanner",
+      "settings": {
+        "rbanehead": "Lorem ipsum dolor sit",
+        "rebanneddes": "Lorem ipsum dolor sit amet consectetur. Augue tortor vehicula nulla tempor. Tortor nibh metus non tincidunt enim.",
+        "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
+        "rbannrbtn": "sign in",
+        "rbannerurl": "\/",
+        "rbannrsubbtn": "sign up",
+        "rbannersuburl": ""
+      }
+    },
+    "a150e7da-3455-4f9b-bc95-cfc5dad22d26": {
+      "type": "rewardhow-work",
+      "blocks": {
+        "140f0be3-db79-4680-a7cc-4207a0004eb1": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "1. Create an Account",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "217d03e0-ee7b-4460-8c65-35ebefb823d2": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "2. Earn Points",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "1f44cd6e-6331-4c0b-ade5-918ea7514d3c": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "3. Redeem Points",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        }
+      },
+      "block_order": [
+        "140f0be3-db79-4680-a7cc-4207a0004eb1",
+        "217d03e0-ee7b-4460-8c65-35ebefb823d2",
+        "1f44cd6e-6331-4c0b-ade5-918ea7514d3c"
+      ],
+      "settings": {
+        "reworkhead": "How it  work?",
+        "rewworkdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc. Consequat augue scelerisque dolor morbi pellentesque risus quis tortor. Ornare elit a."
+      }
+    },
+    "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
+      "type": "reward_point",
+      "blocks": {
+        "3423afaf-6b0d-440b-9752-2f21fbe12d6d": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-facebook-1077041_1.png",
+            "rehead": "Like us on Facebook",
+            "resubhead": "30 points"
+          }
+        },
+        "617d9dcc-4bf3-486e-9239-a1e141aecba3": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-instagram-1077042_1.png",
+            "rehead": "Follow us on Instagram",
+            "resubhead": "50 POINTS"
+          }
+        },
+        "7b652a77-d985-4f7c-ab85-fd7309a8644a": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
+            "rehead": "Create an account",
+            "resubhead": "70 POINTS"
+          }
+        },
+        "2e3c2db4-e15e-4bf4-b563-b4aabb031d19": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-shopping-bag-2956820_1.png",
+            "rehead": "Purchases",
+            "resubhead": "1EUR=1POINT"
+          }
+        },
+        "0250ef9a-9b62-472d-943b-784d5ecf3fad": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-cake-4030962_1.png",
+            "rehead": "Birthday Reward",
+            "resubhead": "100 POINTS"
+          }
+        },
+        "af385b9a-b4c7-43a3-ac81-548037e30137": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
+            "rehead": "Leave a Video Review",
+            "resubhead": "250 POINTS"
+          }
+        },
+        "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
+            "rehead": "Refer a friend",
+            "resubhead": "100 POINTS"
+          }
+        }
+      },
+      "block_order": [
+        "3423afaf-6b0d-440b-9752-2f21fbe12d6d",
+        "617d9dcc-4bf3-486e-9239-a1e141aecba3",
+        "7b652a77-d985-4f7c-ab85-fd7309a8644a",
+        "2e3c2db4-e15e-4bf4-b563-b4aabb031d19",
+        "0250ef9a-9b62-472d-943b-784d5ecf3fad",
+        "af385b9a-b4c7-43a3-ac81-548037e30137",
+        "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e"
+      ],
+      "settings": {
+        "retext": "How to earn points?",
+        "redesc": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper."
+      }
+    },
+    "67fac3fb-a3cd-4040-a8f4-512624058aca": {
+      "type": "rewordreffer",
+      "settings": {
+        "reverefe": "REFER A FRIEND",
+        "reverreffs": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper.",
+        "revaback": "shopify:\/\/shop_images\/pexels-chevanon-photography-1108099_1.png"
+      }
+    },
+    "89052c38-33b9-4fa4-bd1a-a0fc3865849f": {
+      "type": "rewardreddem-point",
+      "blocks": {
+        "de30774c-3aff-468a-b83f-5c10893ff5b9": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "708399a8-6efd-4989-9538-cfda95410869": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "5c56c534-b387-497b-871c-943f9a645a22": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "1f0cbc39-1c42-489b-8e36-e01718daf2aa": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        }
+      },
+      "block_order": [
+        "de30774c-3aff-468a-b83f-5c10893ff5b9",
+        "708399a8-6efd-4989-9538-cfda95410869",
+        "5c56c534-b387-497b-871c-943f9a645a22",
+        "1f0cbc39-1c42-489b-8e36-e01718daf2aa"
+      ],
+      "settings": {
+        "pohead": "REEDEM YOUR POINTS",
+        "poides": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enjoy Exclusive discounts and great benefits that are tailored to your shopping desires with our hive Loyalty program that stands above any Rewards programs, brought for our honey loving enthusiasts and our loyal clients.",
+        "poisubdes": "From customer appreciation gifts to exclusive offers and gifts, we strive to offer the best Rewards program as our way of thanking you for helping us grow our hive throughout the entire globe.A nunc, enim, eu Lorem ipsum dolor sit amet,",
+        "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
+        "rsubdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc."
+      }
+    },
+    "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
+      "type": "reward_faq",
+      "blocks": {
+        "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What is one-to-one mentorship work? "
+          }
+        },
+        "8c6eaed6-2782-4203-8fe9-3fa532c91730": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What are the Q&A Weekly sessions? "
+          }
+        },
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        }
+      },
+      "block_order": [
+        "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf",
+        "8c6eaed6-2782-4203-8fe9-3fa532c91730",
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8"
+      ],
+      "settings": {
+        "mfaqhead": "FAQS"
+      }
+    },
+    "7140c7be-0909-434a-9dba-f7758017807c": {
+      "type": "reword_order",
+      "settings": {
+        "reordrhead": "get 10% of your first order",
+        "reorderdes": "Join our email list for exclusive offers and the latest news.",
+        "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
+        "reorderbtn": "email",
+        "reorderbtnurl": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
+    "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
+    "c7c10aca-5c84-401d-a8e2-1f086081ea38",
+    "67fac3fb-a3cd-4040-a8f4-512624058aca",
+    "89052c38-33b9-4fa4-bd1a-a0fc3865849f",
+    "a1eeca7e-aded-4d45-9de0-6496d50a1e13",
+    "7140c7be-0909-434a-9dba-f7758017807c"
+  ]
+}
