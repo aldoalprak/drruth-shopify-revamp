@@ -229,6 +229,42 @@
     },
     "89052c38-33b9-4fa4-bd1a-a0fc3865849f": {
       "type": "rewardreddem-point",
+      "blocks": {
+        "de30774c-3aff-468a-b83f-5c10893ff5b9": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "708399a8-6efd-4989-9538-cfda95410869": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "5c56c534-b387-497b-871c-943f9a645a22": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        },
+        "1f0cbc39-1c42-489b-8e36-e01718daf2aa": {
+          "type": "block",
+          "settings": {
+            "redeid": "5 AED OFF",
+            "redemdesc": "500 POINTS"
+          }
+        }
+      },
+      "block_order": [
+        "de30774c-3aff-468a-b83f-5c10893ff5b9",
+        "708399a8-6efd-4989-9538-cfda95410869",
+        "5c56c534-b387-497b-871c-943f9a645a22",
+        "1f0cbc39-1c42-489b-8e36-e01718daf2aa"
+      ],
       "settings": {
         "pohead": "REEDEM YOUR POINTS",
         "poides": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enjoy Exclusive discounts and great benefits that are tailored to your shopping desires with our hive Loyalty program that stands above any Rewards programs, brought for our honey loving enthusiasts and our loyal clients.",
