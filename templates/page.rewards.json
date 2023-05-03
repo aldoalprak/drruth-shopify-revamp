@@ -272,6 +272,43 @@
         "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
         "rsubdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc."
       }
+    },
+    "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
+      "type": "reward_faq",
+      "blocks": {
+        "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What is one-to-one mentorship work? "
+          }
+        },
+        "8c6eaed6-2782-4203-8fe9-3fa532c91730": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What are the Q&A Weekly sessions? "
+          }
+        },
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        }
+      },
+      "block_order": [
+        "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf",
+        "8c6eaed6-2782-4203-8fe9-3fa532c91730",
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8"
+      ],
+      "settings": {
+        "mfaqhead": "FAQS"
+      }
     }
   },
   "order": [
@@ -282,6 +319,7 @@
     "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
     "c7c10aca-5c84-401d-a8e2-1f086081ea38",
     "67fac3fb-a3cd-4040-a8f4-512624058aca",
-    "89052c38-33b9-4fa4-bd1a-a0fc3865849f"
+    "89052c38-33b9-4fa4-bd1a-a0fc3865849f",
+    "a1eeca7e-aded-4d45-9de0-6496d50a1e13"
   ]
 }
