@@ -226,6 +226,16 @@
         "reverreffs": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper.",
         "revaback": "shopify:\/\/shop_images\/pexels-chevanon-photography-1108099_1.png"
       }
+    },
+    "89052c38-33b9-4fa4-bd1a-a0fc3865849f": {
+      "type": "rewardreddem-point",
+      "settings": {
+        "pohead": "REEDEM YOUR POINTS",
+        "poides": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enjoy Exclusive discounts and great benefits that are tailored to your shopping desires with our hive Loyalty program that stands above any Rewards programs, brought for our honey loving enthusiasts and our loyal clients.",
+        "poisubdes": "From customer appreciation gifts to exclusive offers and gifts, we strive to offer the best Rewards program as our way of thanking you for helping us grow our hive throughout the entire globe.A nunc, enim, eu Lorem ipsum dolor sit amet,",
+        "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
+        "rsubdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc."
+      }
     }
   },
   "order": [
@@ -235,6 +245,7 @@
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
     "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
     "c7c10aca-5c84-401d-a8e2-1f086081ea38",
-    "67fac3fb-a3cd-4040-a8f4-512624058aca"
+    "67fac3fb-a3cd-4040-a8f4-512624058aca",
+    "89052c38-33b9-4fa4-bd1a-a0fc3865849f"
   ]
 }
