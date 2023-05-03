@@ -109,12 +109,48 @@
         "rbannrsubbtn": "sign up",
         "rbannersuburl": ""
       }
+    },
+    "a150e7da-3455-4f9b-bc95-cfc5dad22d26": {
+      "type": "rewardhow-work",
+      "blocks": {
+        "140f0be3-db79-4680-a7cc-4207a0004eb1": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "1. Create an Account",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "217d03e0-ee7b-4460-8c65-35ebefb823d2": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "2. Earn Points",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "1f44cd6e-6331-4c0b-ade5-918ea7514d3c": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "3. Redeem Points",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        }
+      },
+      "block_order": [
+        "140f0be3-db79-4680-a7cc-4207a0004eb1",
+        "217d03e0-ee7b-4460-8c65-35ebefb823d2",
+        "1f44cd6e-6331-4c0b-ade5-918ea7514d3c"
+      ],
+      "settings": {
+        "reworkhead": "How it  work?",
+        "rewworkdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc. Consequat augue scelerisque dolor morbi pellentesque risus quis tortor. Ornare elit a."
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
     "1655751929e34d4e57",
-    "d48c35de-9106-4995-aefa-b9b52ae4d3f9"
+    "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
+    "a150e7da-3455-4f9b-bc95-cfc5dad22d26"
   ]
 }
