@@ -333,6 +333,14 @@
             "faqid": "",
             "faqbtn": "How do I check my points balance?"
           }
+        },
+        "50197b77-a866-4c84-822f-5de2acd24250": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "The points you earn in the Happy Paws Rewards Program do not expire as long as you remain an active member of the program.",
+            "faqid": "",
+            "faqbtn": "Do my points expire?"
+          }
         }
       },
       "block_order": [
@@ -341,7 +349,8 @@
         "fae00ea1-9ea8-4d8e-80eb-9495972411e8",
         "c9f3f596-7914-4766-852a-7ea83fe662d7",
         "7087d56c-8090-44c3-80ff-81cad57cedf5",
-        "d239c617-b77f-4070-96f6-7c599c3e621c"
+        "d239c617-b77f-4070-96f6-7c599c3e621c",
+        "50197b77-a866-4c84-822f-5de2acd24250"
       ],
       "settings": {
         "mfaqhead": "FAQS"
