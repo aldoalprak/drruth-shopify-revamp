@@ -242,26 +242,27 @@
         "de30774c-3aff-468a-b83f-5c10893ff5b9": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$5 USD OFF",
+            "redemdesc": "500 PAWS"
           }
         },
         "708399a8-6efd-4989-9538-cfda95410869": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$10 USD",
+            "redemdesc": "1000 PAWS"
           }
         },
         "5c56c534-b387-497b-871c-943f9a645a22": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$15 USD",
+            "redemdesc": "1500 PAWS"
           }
         },
         "1f0cbc39-1c42-489b-8e36-e01718daf2aa": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "redeid": "5 AED OFF",
             "redemdesc": "500 POINTS"
@@ -275,11 +276,11 @@
         "1f0cbc39-1c42-489b-8e36-e01718daf2aa"
       ],
       "settings": {
-        "pohead": "REEDEM YOUR POINTS",
-        "poides": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enjoy Exclusive discounts and great benefits that are tailored to your shopping desires with our hive Loyalty program that stands above any Rewards programs, brought for our honey loving enthusiasts and our loyal clients.",
+        "pohead": "Redeem your loyalty points and get rewards",
+        "poides": "Once you've accumulated enough points in the Happy Paws Rewards Program, you can redeem them for rewards! To redeem your loyalty points, simply log into your rewards account on our website or mobile app, and browse the rewards catalog. You'll find a variety of rewards to choose from, such as discounts on purchases, free products, and exclusive merchandise. Simply select the reward that you want to redeem, and follow the instructions to claim it.",
         "poisubdes": "From customer appreciation gifts to exclusive offers and gifts, we strive to offer the best Rewards program as our way of thanking you for helping us grow our hive throughout the entire globe.A nunc, enim, eu Lorem ipsum dolor sit amet,",
         "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
-        "rsubdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc."
+        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward, it will be added to your account, and you can use it on your next purchase or whenever you're ready.*Terms & Conditions apply* Check our rewards policy"
       }
     },
     "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
