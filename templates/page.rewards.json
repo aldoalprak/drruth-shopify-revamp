@@ -440,10 +440,10 @@
     "7140c7be-0909-434a-9dba-f7758017807c": {
       "type": "reword_order",
       "settings": {
-        "reordrhead": "get 10% of your first order",
-        "reorderdes": "Join our email list for exclusive offers and the latest news.",
+        "reordrhead": "Happy Paws Affiliates Program",
+        "reorderdes": "Earn a 10% commission on every sale made through your unique referral link.",
         "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
-        "reorderbtn": "email",
+        "reorderbtn": "JOIN NOW",
         "reorderbtnurl": ""
       }
     }
