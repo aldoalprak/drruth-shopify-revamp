@@ -196,6 +196,14 @@
             "resubhead": "50  PAWS"
           }
         },
+        "4276520b-69e2-4507-8489-f31d8927c082": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
+            "rehead": "Leave a Video Review",
+            "resubhead": "100 PAWS"
+          }
+        },
         "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e": {
           "type": "block",
           "settings": {
@@ -212,6 +220,7 @@
         "2e3c2db4-e15e-4bf4-b563-b4aabb031d19",
         "0250ef9a-9b62-472d-943b-784d5ecf3fad",
         "af385b9a-b4c7-43a3-ac81-548037e30137",
+        "4276520b-69e2-4507-8489-f31d8927c082",
         "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e"
       ],
       "settings": {
