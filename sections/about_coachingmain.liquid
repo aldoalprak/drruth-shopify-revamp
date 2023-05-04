@@ -1,0 +1,69 @@
+<div class=""> 
+    <div class="cmax_container">
+        
+           <div class="bannerflex">
+        <div class="review40">
+            <div class="previewimg">
+                <img src="{{ section.settings.reviewimg|img_url: '800x' }}">
+            </div>
+        </div>
+        <div class="review60 publickbg">
+              <h2 class="previewtext1">{{section.settings.prevhead}}</h2>
+                <h3 class="peviewsub1">{{section.settings.prevdes}}</h3>
+                <div class="bannerbtn1"><a href="{{section.settings.previwurl}}">{{section.settings.previwbtn}}
+                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+                    </a>
+                </div>
+                
+                
+              
+
+        </div>
+    </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "about_coachingmain",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    
+    {
+    "type": "image_picker",
+    "id": "reviewimg",
+    "label": "Image"
+      },
+     {
+      "type": "text",
+      "id": "prevhead",
+      "label": "Heading"
+    },
+  {
+      "type": "text",
+      "id": "prevdes",
+      "label": "Sub Heading"
+    },
+     
+     {
+      "type": "text",
+      "id": "previwbtn",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "previwurl",
+      "label": "Button Link"
+    }
+  ],
+  
+ "presets": [
+    {
+      "name": "about_coachingmain"
+    }
+  ]
+}
+{% endschema %}

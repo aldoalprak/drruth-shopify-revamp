@@ -1,0 +1,67 @@
+<div class=" imgorder">
+    <div class="imgdflex">
+            <div class="text60">
+                <div class="textdes60">
+                    <p class="certified">{{section.settings.textdesc}}</p>
+                </div>
+            </div>
+             <div class="text40">
+                <div class="text40img">
+                      <img src="{{ section.settings.about2img|img_url: '800x' }}">
+                </div>
+            </div>
+    </div>
+        <div class="imgdflex">
+         <div class="text40">
+                <div class="text40img">
+                      <img src="{{ section.settings.about2img2|img_url: '800x' }}">
+                </div>
+            </div>
+            <div class="text60">
+                <div class="textdes60">
+                    <p class="certified">{{section.settings.textdesc2}}</p>
+                    <p class="certified2">{{section.settings.textdesc3}}</p>
+                </div>
+            </div>
+            
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "img_with_text2",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    
+      {
+      "type": "text",
+      "id": "textdesc",
+      "label": "Description"
+    },   {
+        "type":"image_picker",
+        "id":"about2img",
+        "label":"Image"
+      },
+       
+      {
+      "type": "text",
+      "id": "textdesc2",
+      "label": "Description"
+    }, {
+      "type": "text",
+      "id": "textdesc3",
+      "label": "Description"
+    },   {
+        "type":"image_picker",
+        "id":"about2img2",
+        "label":"Image"
+      }
+  ],
+  
+ "presets": [
+    {
+      "name": "img_with_text2"
+    }
+  ]
+}
+{% endschema %}

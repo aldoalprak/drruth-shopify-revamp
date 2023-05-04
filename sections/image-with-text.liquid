@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-<div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+<div class="imgpage_width image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
@@ -39,10 +39,10 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="image-with-text__text-item grid__item">
+    <div class="image-with-text__text-item grid__item image_content">
       <div
         id="ImageWithText--{{ section.id }}"
-        class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
+        class="image-with-text__content second_imgcontent  image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
       >
         {%- for block in section.blocks -%}
           {% case block.type %}
@@ -72,7 +72,9 @@
                   class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  {{ block.settings.button_label | escape }}
+                  {{ block.settings.button_label | escape }}<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"></path>
+                            </svg>
                 </a>
               {%- endif -%}
           {%- endcase -%}
@@ -327,7 +329,7 @@
     {
       "type": "caption",
       "name": "t:sections.image-with-text.blocks.caption.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "text",

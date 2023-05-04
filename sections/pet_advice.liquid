@@ -1,0 +1,108 @@
+<div class="cmax_container advicemax_flex">
+        <div class="course_detail1">
+        <h2 class="courseheadd">{{section.settings.coursehead}}</h2>
+        </div>
+        <div class="course_flex ">
+            {% for block in section.blocks %}
+                    <div class="cslidedetail">
+                        <div class="cslidetext">
+                            <div class="coursing">
+                                <img src="{{ block.settings.cousimg|img_url: '800x' }}">
+                            </div>
+                            <div class="slidewidth">
+                                <h3 class="slidertext">{{block.settings.courtext}}</h3>
+                            </div>
+                        </div>
+                            <div class="linkslide">
+                                <h2 class="linkdetail">{{block.settings.linktext}}</h2>
+                             
+                                    <div class="advice_btn">
+                                        <a class="linkpagge" href="{{ block.settings.linkiid}}">{{block.settings.linktextbtn}}
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                                                <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                                                </svg>
+                                        </a>
+                                    </div>
+                            </div>
+                            
+                        
+                    </div>
+                {% endfor %}
+            
+            
+        </div>
+        <div class="advice_btn1">
+                    <a class="linkpagge1" href="{{ section.settings.moreadviceid}}">{{section.settings.moreadvicebtn}}
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                            <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                            </svg>
+                    </a>
+            </div>
+    </div>
+
+
+{% schema %}
+  {
+    "name": "pet_advice",
+    "settings": [
+          {
+    "type": "text",
+    "id": "coursehead",
+    "label": "Heading"
+      },  
+      {
+    "type": "url",
+    "id": "moreadviceid",
+    "label": "Link Text"
+      },
+       {
+    "type": "text",
+    "id": "moreadvicebtn",
+    "label": "Button"
+      }
+
+    ],
+    "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+     
+
+       {
+    "type": "image_picker",
+    "id": "cousimg",
+    "label": "Image"
+      },
+         {
+    "type": "text",
+    "id": "courtext",
+    "label": "Detail"
+      },
+       {
+    "type": "text",
+    "id": "linktext",
+    "label": "Slider Heading"
+      },
+       {
+    "type": "url",
+    "id": "linkiid",
+    "label": "Link Text"
+      },
+       {
+    "type": "text",
+    "id": "linktextbtn",
+    "label": "Button"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "pet_advice"
+    }
+    ]
+  }
+{% endschema %}
+
+

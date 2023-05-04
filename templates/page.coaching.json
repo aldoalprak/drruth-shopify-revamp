@@ -1,0 +1,718 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fce23f7e-28b3-405c-9a54-2f6af4058e92": {
+      "type": "banner",
+      "settings": {
+        "bannerhead": "Become a Holistic Pet Health Coach in 16 weeks.",
+        "bdes": "Make your own hours, Work from home, or be a digital nomad. Love what you do. Love who you work with. Make a difference in people and pet's lives.",
+        "bannerbtn": "apply now",
+        "bannerurl": "",
+        "video_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA"
+      }
+    },
+    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb": {
+      "type": "coaching_blog",
+      "blocks": {
+        "07127d75-a3ed-476f-80be-c69bd17297c8": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Become an expert in pet health",
+            "c_desc": "By taking a health pet coach course, you can gain the knowledge and skills necessary to become an expert in pet health."
+          }
+        },
+        "0b9f9eaf-68e4-4a92-bb3a-1b15a355386e": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Make a positive impact",
+            "c_desc": "Working as a health pet coach can be a fulfilling career that allows individuals to make a positive impact on the lives of pets and their owners."
+          }
+        },
+        "63507159-9680-4ce3-8341-622f0c62be7e": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Growing industry",
+            "c_desc": "As more pet owners prioritize the health and well-being of their pets, the demand for health pet coaches is likely to grow."
+          }
+        },
+        "fa86129e-8588-4d2e-a95a-ca14cd4380c0": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/Group_9a9b65a9-2f70-4695-9a4b-7675871e1897.png",
+            "c_head": "Affordable investment",
+            "c_desc": "By gaining the knowledge and skills necessary to become a health pet coach, users can potentially earn a good living doing something they love."
+          }
+        }
+      },
+      "block_order": [
+        "07127d75-a3ed-476f-80be-c69bd17297c8",
+        "0b9f9eaf-68e4-4a92-bb3a-1b15a355386e",
+        "63507159-9680-4ce3-8341-622f0c62be7e",
+        "fa86129e-8588-4d2e-a95a-ca14cd4380c0"
+      ],
+      "settings": {
+        "c_head": ""
+      }
+    },
+    "0b2b993d-62f4-4b29-8ab4-1ea759935f23": {
+      "type": "benefits",
+      "blocks": {
+        "f0242a03-ae91-4490-9d86-cab0b1cb59e8": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "The science of pet health and illness",
+            "benefit_desc": "Learn why dogs and cats have cancer and other chronic diseases at alarming rates, with up-to-date information that makes a massive impact on pet health without harming them later."
+          }
+        },
+        "b8f5a422-a545-4be6-9238-0bdc293545ef": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Using food as a healing tool",
+            "benefit_desc": "Food is more than just fuel, and knowing how to give the right kind of fuel, nutrients, and combinations for an individual dog or cat is critical to their health. A pet's best health starts in the bowl."
+          }
+        },
+        "3f54386b-e0bd-4705-8e29-84580b65ea6f": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Dr. Ruth's 30+ years of knowledge",
+            "benefit_desc": "Use Dr. Ruth's 30+ years of knowledge in Traditional Chinese Medicine, Functional Medicine, and conventional veterinary medicine to support your client's pets. Dr. Ruth will have your bach during the program and afterward with coaching calls."
+          }
+        },
+        "bfcdb2a1-1ae3-4d82-892e-e57ab7e93e0e": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Easy-to-follow written plans for your clients",
+            "benefit_desc": "Learn how to develop lifestyle action plans in easy-to-follow and implement steps for your client's pet. Dr. Ruth's proprietary protocols will be at your disposal to make simple, clear, and easy-to-follow written plans for your clients."
+          }
+        },
+        "37036987-acdf-470a-9c13-88becd59238e": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Supplement plans",
+            "benefit_desc": "Learn how to develop safe and effective supplement plans for specific health struggles, using high-quality products at the optimal dose."
+          }
+        },
+        "0909c1a4-1cb2-4061-a9e2-0195769b11ec": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Icon_Stroke_2789f33e-9341-489c-badb-829bda4ad4f9.png",
+            "benefit_head": "Business Blueprint",
+            "benefit_desc": "You are building a business that serves you and your clients. You'll get a business blueprint with step-by-step guides to set up your coaching practice, market, and create the life you have always wanted."
+          }
+        }
+      },
+      "block_order": [
+        "f0242a03-ae91-4490-9d86-cab0b1cb59e8",
+        "b8f5a422-a545-4be6-9238-0bdc293545ef",
+        "3f54386b-e0bd-4705-8e29-84580b65ea6f",
+        "bfcdb2a1-1ae3-4d82-892e-e57ab7e93e0e",
+        "37036987-acdf-470a-9c13-88becd59238e",
+        "0909c1a4-1cb2-4061-a9e2-0195769b11ec"
+      ],
+      "settings": {
+        "bhead": "Benefits",
+        "bsubhead": "What you will definitely achieve in this course"
+      }
+    },
+    "d0ddca7e-3a18-471b-86c5-787bb70a9335": {
+      "type": "coaching_work",
+      "blocks": {
+        "63b738a5-99a7-41a9-aa86-09f55ceb315a": {
+          "type": "block",
+          "settings": {
+            "stepid": "step 1",
+            "stepcontent": "Apply ONLINE",
+            "btnurl": ""
+          }
+        },
+        "71f07bc5-3c9b-4168-8dba-d8c9fca474b2": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_38dd097b-4d95-4674-adf4-217ce760326e.png",
+            "stepid": "step 2",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "fac135f7-9986-4fdd-bfc2-2ed55d73eb7a": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_1_19395330-692b-4c40-a698-eaf5bcab7533.png",
+            "stepid": "step 3",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "489440f5-9c44-4594-9057-dada0cc53e02": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_2_e1442272-4856-42b1-aedc-24debd315439.png",
+            "stepid": "step 4",
+            "stepcontent": "We will Review Your Application",
+            "btnurl": ""
+          }
+        },
+        "cc25ff37-7346-4dde-b1ee-a8f21673bd19": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_3_c5951f47-4bf6-4bd2-97f4-0a6618229d73.png",
+            "stepid": "step 5",
+            "stepcontent": "Coaching",
+            "btnurl": ""
+          }
+        },
+        "dde36976-d2e0-40a2-b955-bb3b86313983": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_4_77878c52-de4b-42b6-b41a-f0548f54bd58.png",
+            "stepid": "step 6",
+            "stepcontent": "TAKE THE FINAL EXAM",
+            "btnurl": ""
+          }
+        },
+        "7ebcd55f-cfb4-4c07-aa13-efcff76b24ba": {
+          "type": "block",
+          "settings": {
+            "iconimg": "shopify:\/\/shop_images\/Frame_4_77878c52-de4b-42b6-b41a-f0548f54bd58.png",
+            "stepid": "step 7",
+            "stepcontent": "Graduate",
+            "btnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "63b738a5-99a7-41a9-aa86-09f55ceb315a",
+        "71f07bc5-3c9b-4168-8dba-d8c9fca474b2",
+        "fac135f7-9986-4fdd-bfc2-2ed55d73eb7a",
+        "489440f5-9c44-4594-9057-dada0cc53e02",
+        "cc25ff37-7346-4dde-b1ee-a8f21673bd19",
+        "dde36976-d2e0-40a2-b955-bb3b86313983",
+        "7ebcd55f-cfb4-4c07-aa13-efcff76b24ba"
+      ],
+      "settings": {
+        "w_head": "How it works",
+        "w_subhead": "Be a part of Holistic Pet Health Coach",
+        "workiimg": "shopify:\/\/shop_images\/Rectangle_11.png",
+        "workbtn": "apply now",
+        "workbtnurl": ""
+      }
+    },
+    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492": {
+      "type": "program_cost",
+      "blocks": {
+        "636721ac-9785-4de0-a204-a08bde25a3e2": {
+          "type": "block",
+          "settings": {
+            "cost_head": "One Time Payment",
+            "cost_price": "5000$",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        },
+        "85b6891b-760a-47a8-955f-2c9e8f94605e": {
+          "type": "block",
+          "settings": {
+            "cost_head": "4 <br>installments",
+            "cost_price": "1.250$ <span>\/ month <\/span>",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        },
+        "dfaf855a-4d63-455c-a98e-6b5fa6e58e85": {
+          "type": "block",
+          "settings": {
+            "cost_head": "16  <br> Installaments",
+            "cost_price": "312$ <span>\/ month <\/span>",
+            "cost_desc": "Take a private mini-course after the course is over",
+            "cost_btn": "apply now",
+            "cost_btnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "636721ac-9785-4de0-a204-a08bde25a3e2",
+        "85b6891b-760a-47a8-955f-2c9e8f94605e",
+        "dfaf855a-4d63-455c-a98e-6b5fa6e58e85"
+      ],
+      "settings": {
+        "pro_head": "Program Cost",
+        "pro_desc": "The value you get in return is more than that"
+      }
+    },
+    "e64f7efe-6139-4263-b9f8-16419150f58c": {
+      "type": "testimonial",
+      "blocks": {
+        "7ec0be87-673f-42fe-8d1a-62102309c5ba": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        },
+        "596ad6d2-d17a-4f5a-9877-ee37b361fa8a": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        },
+        "0a3596b8-fd43-4cd5-ba4a-d6d3af2c492e": {
+          "type": "block",
+          "settings": {
+            "test_url": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "textid": "DR. LAURA COCHRANE",
+            "tescontent": "DOCTOR OF VETERINARY MEDICINE"
+          }
+        }
+      },
+      "block_order": [
+        "7ec0be87-673f-42fe-8d1a-62102309c5ba",
+        "596ad6d2-d17a-4f5a-9877-ee37b361fa8a",
+        "0a3596b8-fd43-4cd5-ba4a-d6d3af2c492e"
+      ],
+      "settings": {
+        "testhead": "Testimonies",
+        "testdes": "From Certified Pet Health Coaches"
+      }
+    },
+    "e07772b4-950c-4165-b739-b426614c98b4": {
+      "type": "public_review",
+      "settings": {
+        "p_head": "Public Reviews",
+        "p_desc": "From our happy clients",
+        "reviewimg": "shopify:\/\/shop_images\/Rectangle_12.png",
+        "prevhead": "This is life-changing",
+        "prevdes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+        "prevdes1": "Michael Daily",
+        "prevdes2": "Certified Pet Health Coach",
+        "previwbtn": "APPLY NOW",
+        "previwurl": ""
+      }
+    },
+    "944007ca-ba62-403f-b576-35fbc3bf3b6c": {
+      "type": "coaching_slider",
+      "blocks": {
+        "f4f37548-4a1d-44c8-967b-0724c73a3dfc": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "I love it!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "94631850-a986-43a2-83c4-ec003cde2ce9": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Appreciated!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "e901e247-0b7d-4dae-a4d2-45bcc21a7a83": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Always remember!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "6284f2d0-b1d2-4063-b41f-63b5e184ce54": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "I love it!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        },
+        "2cc90de5-7ea6-42ae-a101-0c59d1a6ff67": {
+          "type": "collection",
+          "settings": {
+            "slidehead": "Appreciated!",
+            "slidedes": "Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food.",
+            "slideimg": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "slideimgtext": "Pam Hayes"
+          }
+        }
+      },
+      "block_order": [
+        "f4f37548-4a1d-44c8-967b-0724c73a3dfc",
+        "94631850-a986-43a2-83c4-ec003cde2ce9",
+        "e901e247-0b7d-4dae-a4d2-45bcc21a7a83",
+        "6284f2d0-b1d2-4063-b41f-63b5e184ce54",
+        "2cc90de5-7ea6-42ae-a101-0c59d1a6ff67"
+      ],
+      "settings": {
+      }
+    },
+    "c2ff712b-ca33-4c77-b74c-a17e8c5e65fd": {
+      "type": "about_image",
+      "settings": {
+        "ahead": "About",
+        "asubhead": "Dr.Ruth",
+        "aboutdes": "Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.",
+        "bannerbtn": "learn more",
+        "bannerurl": "",
+        "aboutimg": "shopify:\/\/shop_images\/Rectangle_8.png"
+      }
+    },
+    "db2d9524-4734-4624-b9ee-87aaa9024165": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "50f665d1-da96-48f8-a946-63ba685194ee": {
+          "type": "caption",
+          "settings": {
+            "caption": "About",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr.Ruth",
+            "heading_size": "h1"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, GI Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "50f665d1-da96-48f8-a946-63ba685194ee",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-0",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-1",
+        "template--14906073120833__db2d9524-4734-4624-b9ee-87aaa9024165-16806763133cbb0940-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_8.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8f1dd386-70e7-4807-b51b-853290f6ea71": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The opportunity to become a professional pet Pet Health Coach  has come very close to you",
+            "heading_size": "h1"
+          }
+        },
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-1": {
+          "type": "text",
+          "settings": {
+            "text": "Pet care has never been easier.",
+            "text_style": "body"
+          }
+        },
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE COURSE",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-0",
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-1",
+        "template--14906073120833__8f1dd386-70e7-4807-b51b-853290f6ea71-1680676622b711ccfa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_16.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "08bd4137-1e8d-4d49-b887-227278ef56c4": {
+      "type": "coaching_work",
+      "disabled": true,
+      "settings": {
+        "w_head": "",
+        "w_subhead": "",
+        "workbtn": "",
+        "workbtnurl": ""
+      }
+    },
+    "d21f02ea-62bd-46c6-8076-7176048dba79": {
+      "type": "course_slider",
+      "blocks": {
+        "8ffb80ec-b436-41fa-a65c-0ddd927be993": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "See more"
+          }
+        },
+        "28738869-2355-42f1-afec-6608ddbae845": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        },
+        "ffdfdbf7-c8cf-4ce5-af6e-c64559f23021": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        },
+        "92f70e15-b18f-4e27-b4a4-715cac301f4c": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "See more"
+          }
+        },
+        "56db5721-def0-413a-8cdd-dbcb55f150b2": {
+          "type": "collection",
+          "settings": {
+            "cousimg": "shopify:\/\/shop_images\/Rectangle_13.png",
+            "courtext": "WEEK 1",
+            "linktext": "7 Natural Remedies For Kidney Disease",
+            "linkiid": "",
+            "linktextbtn": "March 6, 2023"
+          }
+        }
+      },
+      "block_order": [
+        "8ffb80ec-b436-41fa-a65c-0ddd927be993",
+        "28738869-2355-42f1-afec-6608ddbae845",
+        "ffdfdbf7-c8cf-4ce5-af6e-c64559f23021",
+        "92f70e15-b18f-4e27-b4a4-715cac301f4c",
+        "56db5721-def0-413a-8cdd-dbcb55f150b2"
+      ],
+      "settings": {
+        "coursehead": "General Course Outline",
+        "coursedes": "What you will be taught in the course"
+      }
+    },
+    "347490cc-e819-4deb-b25f-a0dea83866ce": {
+      "type": "the_number",
+      "blocks": {
+        "9900eaeb-3fbf-4620-8c19-606a22287808": {
+          "type": "block",
+          "settings": {
+            "numid": "+30 YEARS",
+            "nubcontent": "YEARS OF PERSONAL TRAINING"
+          }
+        },
+        "a3e8fdf8-e008-4a31-8f75-5d258dbe65e8": {
+          "type": "block",
+          "settings": {
+            "numid": "+500",
+            "nubcontent": "SUCCESSFUL COACHES GRADUATED"
+          }
+        },
+        "4450a464-8772-490c-886f-19dbb5a9ee01": {
+          "type": "block",
+          "settings": {
+            "numid": "300",
+            "nubcontent": "Pet served"
+          }
+        }
+      },
+      "block_order": [
+        "9900eaeb-3fbf-4620-8c19-606a22287808",
+        "a3e8fdf8-e008-4a31-8f75-5d258dbe65e8",
+        "4450a464-8772-490c-886f-19dbb5a9ee01"
+      ],
+      "settings": {
+        "number_head": "The numbers",
+        "backimg": "shopify:\/\/shop_images\/Rectangle_17_5cd46d43-a4d9-4c39-9d45-1fe0db1569be.png"
+      }
+    },
+    "3fda3ebc-fcc4-491d-b8d7-58472145d1e6": {
+      "type": "public_review",
+      "disabled": true,
+      "settings": {
+        "p_head": "",
+        "p_desc": "",
+        "prevhead": "",
+        "prevdes": "",
+        "prevdes1": "",
+        "prevdes2": "",
+        "previwbtn": "",
+        "previwurl": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "fce23f7e-28b3-405c-9a54-2f6af4058e92",
+    "b39c1adc-a690-45c5-a39e-c5e47b2d8acb",
+    "0b2b993d-62f4-4b29-8ab4-1ea759935f23",
+    "d0ddca7e-3a18-471b-86c5-787bb70a9335",
+    "2f6fd057-f6ae-4b15-a28b-0d6fcc973492",
+    "e64f7efe-6139-4263-b9f8-16419150f58c",
+    "e07772b4-950c-4165-b739-b426614c98b4",
+    "944007ca-ba62-403f-b576-35fbc3bf3b6c",
+    "c2ff712b-ca33-4c77-b74c-a17e8c5e65fd",
+    "db2d9524-4734-4624-b9ee-87aaa9024165",
+    "8f1dd386-70e7-4807-b51b-853290f6ea71",
+    "08bd4137-1e8d-4d49-b887-227278ef56c4",
+    "d21f02ea-62bd-46c6-8076-7176048dba79",
+    "347490cc-e819-4deb-b25f-a0dea83866ce",
+    "3fda3ebc-fcc4-491d-b8d7-58472145d1e6"
+  ]
+}

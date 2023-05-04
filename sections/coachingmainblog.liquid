@@ -1,0 +1,77 @@
+<div class="cmax_container">
+    <div class="">
+    <p>{{section.settings.c_head}}</p>
+     <div class="c_flex">
+        {%- for block in section.blocks -%}
+           
+                <div class="flexwidth2">
+                <img src="{{block.settings.blogimg |img_url:'800x'}}" class="blogimg">
+                    <h4 class="cblogtext">{{block.settings.c_head}}</h4>
+                    <p class="blogdes">{{block.settings.c_desc}}</p>
+                </div>
+          
+        {%- endfor -%}
+        
+          </div>
+          <div class="blogbodrafter1">
+            <a href="{{section.settings.program_link1 }}" class="btnspace1">{{section.settings.pro_btn1 }} 
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+            </a>
+        </div>  
+    </div>
+</div>
+{% schema %}
+{
+  "name": "coaching_mainblog",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "c_head",
+      "label": "Heading"
+    },
+        {
+        "type": "text",
+    "id": "pro_btn1",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "program_link1",
+    "label": "Button Link"
+       }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit": 6,
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"blogimg",
+        "label":"Image"
+      },
+       {
+    "type": "text",
+    "id": "c_head",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "c_desc",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "coaching_mainblog"
+    }
+  ]
+}
+{% endschema %}

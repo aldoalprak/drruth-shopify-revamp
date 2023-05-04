@@ -1,0 +1,93 @@
+<div class="publickbg">
+    <div class="cmax_container">
+      <div class="arrowpaddingspace">
+        <div class="arrowheight">
+                {% for block in section.blocks %}
+                   <div class="arrorrad">
+                        <div>
+                            <h2 class="arrowtext">{{block.settings.arrowhead}}</h2>
+                        </div>
+                        <div class="arrow_flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+                            <path d="M12 7L-6.52533e-07 13.9282L-4.68497e-08 0.0717964L12 7Z" fill="#184B44"/>
+                            </svg>
+                            <h2 class="arrowheaddes">{{block.settings.arrowdes}}</h2>
+                        </div>
+                    </div>
+                 {% endfor %}
+         
+        </div>
+       
+      </div>
+         <div class="arroww_btn">
+                <a class="arrowlink" href="{{ section.settings.arrowid}}">{{section.settings.arrowtextbtn}}
+                       <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+                </a>
+            </div>
+       
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "modulearrow",
+    "settings": [
+          {
+    "type": "url",
+    "id": "arrowid",
+    "label": "Link Text"
+      },
+       {
+    "type": "text",
+    "id": "arrowtextbtn",
+    "label": "Button"
+      }
+  
+    ],
+    "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+   
+
+         {
+    "type": "text",
+    "id": "arrowhead",
+    "label": "Heading"
+      },
+       {
+    "type": "text",
+    "id": "arrowdes",
+    "label": "Sub Heading"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "modulearrow"
+    }
+    ]
+  }
+{% endschema %}
+<style>  ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #184B44; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>

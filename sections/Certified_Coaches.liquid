@@ -1,0 +1,115 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="cmax_container">
+    <div class="testidetail">
+        <h2 class="testheadd">{{section.settings.testhead}}</h2>
+        <h3 class="certifiedtext">{{section.settings.testdes}}</h3>
+    </div>
+    <div class="testimonialflex1">
+        {%- for block in section.blocks -%}
+            <div class="testvideo">
+                <div class="video-container">
+                    <iframe id="testvideo" class="testvideo" src="{{ block.settings.test_url1 }}" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+                <div class="testwidth">
+                    <h2 class="testihead">{{ block.settings.textid}}</h2>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+    <div class="blogbodr2">
+        <a href="{{ section.settings.coachurl }}" class="btnspace1">{{ section.settings.coachbtn }} 
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+        </a>
+    </div> 
+</div>
+{% schema %} 
+{
+  "name": "Certified_Coaches",
+  "tag": "section",
+  "class": "section video_slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "testhead",
+      "label": "Heading"
+    }
+    ,  {
+      "type": "text",
+      "id": "testdes",
+      "label": "Sub Heading"
+    } ,
+    {
+        "type": "text",
+    "id": "coachbtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "coachurl",
+    "label": "Button Link"
+       }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+     {
+      "type": "url",
+      "id": "test_url1",
+      "label": "Video URL"
+    },
+       {
+    "type": "text",
+    "id": "textid",
+    "label": "Heading"
+      }
+      
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "Certified_Coaches"
+    }
+  ]
+}
+{% endschema %}
+<script>
+    $('.testimonialflex1').slick({
+        speed: 500,
+        autoplaySpeed: 2000,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        prevArrow:"<button type='button' class='drag coacharrow slick-prev pull-left'><svg xmlns='http://www.w3.org/2000/svg' width='19' height='46' viewBox='0 0 19 46' fill='none'><path d='M17.5 1L2 23L17.5 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        nextArrow:"<button type='button' class='drag coacharrow2  slick-next pull-right'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='46' viewBox='0 0 18 46' fill='none'><path d='M1 1L16.5 23L1 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+</script>

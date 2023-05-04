@@ -1,0 +1,59 @@
+<div class="cmax_container">
+    <div class="">
+    <p>{{section.settings.c_head}}</p>
+     <div class="c_flex">
+        {%- for block in section.blocks -%}
+           
+                <div class="flexwidth">
+                <img src="{{block.settings.blogimg |img_url:'800x'}}" class="blogimg">
+                    <h4 class="cblogtext">{{block.settings.c_head}}</h4>
+                    <p class="blogdes">{{block.settings.c_desc}}</p>
+                </div>
+          
+        {%- endfor -%}
+          </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "coaching_blog",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "c_head",
+      "label": "Heading"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit": 4,
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"blogimg",
+        "label":"Image"
+      },
+       {
+    "type": "text",
+    "id": "c_head",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "c_desc",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "coaching_blog"
+    }
+  ]
+}
+{% endschema %}

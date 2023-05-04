@@ -1,0 +1,99 @@
+<div class="publickbg">
+    <div class="cmax_container">
+            <div class="costcontent">
+                    <h2 class="pcosthead">{{section.settings.pro_head}}</h2>
+                 
+            </div>
+            <div class="flex-fees">
+                   <p class="pfeesdec">{{section.settings.pro_desc}}</p>
+                   <p class="pfeesdec">{{section.settings.pro_desc1}}</p>
+            </div>
+    </div>
+</div>
+    <div class="cmax_container">
+            <div class="pcostflex">
+                {%- for block in section.blocks -%}
+                    <div class="costpart1">
+                        <h2>{{block.settings.cost_num}} </h2>
+                        <h2>{{block.settings.cost_head}} </h2>
+                        <h3>{{block.settings.cost_price}}</h3>
+                        <p>{{block.settings.cost_desc}}</p>
+                        <div class="blogbodr1">
+                            <a href="{{ block.settings.cost_btnurl }}" class="btnspace">{{ block.settings.cost_btn }} 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+                            </a>
+                        </div> 
+                    </div>
+                {%- endfor -%}
+            </div>
+    
+</div>
+{% schema %}
+{
+  "name": "Program fees",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pro_head",
+      "label": "Heading"
+    },{
+         "type": "text",
+      "id": "pro_desc",
+      "label": "Description"
+    },{
+         "type": "text",
+      "id": "pro_desc1",
+      "label": "Description"
+    }
+  ],
+     "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+        {
+    "type": "text",
+    "id": "cost_num",
+    "label": "Number"
+      },
+        {
+    "type": "text",
+    "id": "cost_head",
+    "label": "Heading"
+      },
+      
+          {
+    "type": "text",
+    "id": "cost_price",
+    "label": "Price"
+      },
+       {
+    "type": "text",
+    "id": "cost_desc",
+    "label": "Description"
+       },
+       {
+        "type": "text",
+    "id": "cost_btn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "cost_btnurl",
+    "label": "Button Link"
+       }
+
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "Program fees"
+    }
+  ]
+}
+{% endschema %}

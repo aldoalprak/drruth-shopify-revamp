@@ -1,0 +1,128 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <div class="">
+        <div class="course_flex">
+            <div class="course_detail">
+                <h2 class="">{{section.settings.coursehead}}</h2>
+                <h3 class="">{{section.settings.coursedes}}</h3>
+            </div>
+            <div class="courseslider">
+                {% for block in section.blocks %}
+                    <div class="cslidedetail">
+                        <div class="cslidetext">
+                            <div class="coursing">
+                                <img src="{{ block.settings.cousimg|img_url: '800x' }}">
+                            </div>
+                            <div class="slidewidth">
+                                <h3 class="slidertext">{{block.settings.courtext}}</h3>
+                            </div>
+                        </div>
+                            <div class="linkslide">
+                                <h2 class="linkdetail">{{block.settings.linktext}}</h2>
+                                <a class="linkpagge" href="{{ block.settings.linkiid}}">{{block.settings.linktextbtn}}</a>
+                            </div>
+                        
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+{% schema %}
+  {
+    "name": "course_slider",
+    "settings": [
+          {
+    "type": "text",
+    "id": "coursehead",
+    "label": "Heading"
+      },
+          {
+    "type": "text",
+    "id": "coursedes",
+    "label": "Description"
+      }
+
+    ],
+    "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+     
+
+       {
+    "type": "image_picker",
+    "id": "cousimg",
+    "label": "Image"
+      },
+         {
+    "type": "text",
+    "id": "courtext",
+    "label": "Detail"
+      },
+       {
+    "type": "text",
+    "id": "linktext",
+    "label": "Slider Heading"
+      },
+       {
+    "type": "url",
+    "id": "linkiid",
+    "label": "Link Text"
+      },
+       {
+    "type": "text",
+    "id": "linktextbtn",
+    "label": "Button"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "course_slider"
+    }
+    ]
+  }
+{% endschema %}
+
+
+<script>
+  
+    $('.courseslider').slick({
+       speed: 500,
+        autoplaySpeed: 2000,
+      arrows: true,
+       dots: false,
+    infinite: false,
+    slidesToShow: 2.5,
+    slidesToScroll: 1,
+       autoplay: true,
+      prevArrow:"<button type='button' class='courseprev  slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+      nextArrow:"<button type='button' class='coursenext  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+       responsive: [
+    
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2.5,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+  });
+</script>

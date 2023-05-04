@@ -1,0 +1,68 @@
+<div class="publickbg" style="margin-top: 5%;">
+    <div class="cmax_container publicflex">
+        <div class="programtext">
+            <h2>{{section.settings.programhead}}</h2>
+        </div>
+        <div class="programflex">
+             {% for block in section.blocks %}
+                <div class="program50">
+                    <h2 class="programheadtext">{{block.settings.aftertext}}</h2>
+                    <p class="programdestext">{{block.settings.afterdesc}}</p>
+                </div>
+               {% endfor %}
+        </div>
+        <div class="blogbodrafter">
+            <a href="{{section.settings.program_link }}" class="btnspace">{{section.settings.pro_btn }} 
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+</svg>
+            </a>
+        </div> 
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "after_program",
+    "settings": [
+          {
+    "type": "text",
+    "id": "programhead",
+    "label": "Heading"
+      },
+      {
+        "type": "text",
+    "id": "pro_btn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "program_link",
+    "label": "Button Link"
+       }
+    ],
+    "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+     
+         {
+    "type": "text",
+    "id": "aftertext",
+    "label": "Heading"
+      },
+       {
+    "type": "text",
+    "id": "afterdesc",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "after_program"
+    }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,64 @@
+<div class="cmax_container ">
+    <div class="answerwidth">
+            
+        {% for block in section.blocks %}
+            <div class="ansquess">
+                <div class=" anslab">
+                    <label for="text">{{block.settings.labelname}} </label>
+                </div>
+                <div class="queinput">
+                    <input type="text" name="text" id="" placeholder="{{block.settings.answer}}" required>
+                </div>
+            </div>
+
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "question",
+    "settings": [
+       
+    ],
+    "blocks": [
+  {
+    "type": "Question",
+    "name": "Question",
+    "settings": [
+     
+       {
+    "type": "text",
+    "id": "labelname",
+    "label": "Question"
+      },
+       {
+    "type": "text",
+    "id": "answer",
+    "label": "Answer"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "question"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+ .queinput {
+    border: 1px solid #184B44;
+    border-radius: 19px;
+    padding: 16px;
+    margin: 10px 0;
+    }
+    .queinput input[type="text"] {
+    border: none;
+    width: 100%;
+}
+.ansquess{
+        margin-top: 2%;
+}
+</style>

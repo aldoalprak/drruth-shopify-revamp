@@ -1,0 +1,84 @@
+<div class="cmax_container">
+  
+    <div class="workcontent">
+        <h2 class="cworkhead">{{section.settings.workhead1}}</h2>
+        <h2 class="cworkdes">{{section.settings.worksub}}</h2>
+    </div>
+      
+                       
+    <div class="cworkflex">
+        {% for block in section.blocks %}
+           
+              
+                    <div class="cworkfle25">
+                    <div class="paddingdev">
+                       <div class="imgflexxx">
+                            <h2 class="bworkhedd">{{block.settings.bworkhead}}</h2> 
+                            {% if block.settings.workimg !=blank %}
+                                 <img src="{{block.settings.workimg |img_url:'800x'}}" class="paetimg">
+                            {% endif %}
+                        </div>
+                        <p class="bworkdess">{{block.settings.bworkdes}}</p>
+                        </div>
+                    
+            </div>
+        {% endfor %}
+                 
+
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "work coachingmain",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "workhead1",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "worksub",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "workback",
+    "label": "Image"
+      }
+  ],
+"blocks": [
+  {
+    "type": "blogs",
+    "name": "blogs",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"workimg",
+        "label":"Image"
+      },
+         
+       {
+    "type": "text",
+    "id": "bworkhead",
+    "label": "Blog Heading"
+      },
+      
+       {
+    "type": "text",
+    "id": "bworkdes",
+    "label": "Blog Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "work coachingmain"
+    }
+  ]
+}
+
+{% endschema %}

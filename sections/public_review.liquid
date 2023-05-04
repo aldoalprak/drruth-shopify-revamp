@@ -1,0 +1,91 @@
+<div class="publickbg"> 
+    <div class="cmax_container">
+        <div class="">
+            <h2 class="previewhead">{{section.settings.p_head}}</h2>
+            <p class="previewdes">{{section.settings.p_desc}}</p>
+        </div>
+           <div class="bannerflex">
+        <div class="review40">
+            <div class="previewimg">
+                <img src="{{ section.settings.reviewimg|img_url: '800x' }}">
+            </div>
+        </div>
+        <div class="review60">
+              <h2 class="previewtext">{{section.settings.prevhead}}</h2>
+                <h3 class="peviewsub">{{section.settings.prevdes}}</h3>
+                <h3 class="peviewsub1">{{section.settings.prevdes1}}</h3>
+                <h3 class="peviewsub2">{{section.settings.prevdes2}}</h3>
+                <div class="bannerbtn"><a href="{{section.settings.previwurl}}">{{section.settings.previwbtn}}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                
+              
+
+        </div>
+    </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Public review",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "p_head",
+      "label": "Heading"
+    },{
+         "type": "text",
+      "id": "p_desc",
+      "label": "Description"
+    },
+    {
+    "type": "image_picker",
+    "id": "reviewimg",
+    "label": "Image"
+      },
+     {
+      "type": "text",
+      "id": "prevhead",
+      "label": "Heading"
+    },
+  {
+      "type": "text",
+      "id": "prevdes",
+      "label": "Sub Heading"
+    },
+     {
+      "type": "text",
+      "id": "prevdes1",
+      "label": "Name"
+    },
+     {
+      "type": "text",
+      "id": "prevdes2",
+      "label": "Sub Text"
+    },
+     {
+      "type": "text",
+      "id": "previwbtn",
+      "label": "Button"
+    },
+    {
+      "type": "url",
+      "id": "previwurl",
+      "label": "Button Link"
+    }
+  ],
+  
+ "presets": [
+    {
+      "name": "Public review"
+    }
+  ]
+}
+{% endschema %}

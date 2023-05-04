@@ -1,0 +1,123 @@
+<div class=" " style="background-color: #F5F8F1;">
+    <div class="max-containers ">
+          <div><h2 class="numhead">{{ section.settings.numhead }}</h2></div>
+          <div class="numflex">
+                {% for block in section.blocks %}
+                    <div class="num25">
+                          <div class="num-bor"><h2 class="nummar">{{ block.settings.numhead}}</h2>
+                              <p class="numtext">{{ block.settings.numtext }}</p>
+                          </div>
+                    </div>
+                {% endfor %}
+          </div>
+    </div>
+  
+</div>
+{% schema %}
+  {
+    "name": "Legecy",
+    "settings": [
+      {
+       "type": "text",
+    "id": "numhead",
+    "label": "Heading"
+        }
+    ],
+      "blocks": [
+      {
+    "type": "Blog",
+    "name": "Blog",
+    "settings": [
+            {
+     "type": "text",
+    "id": "numhead",
+    "label": "number"
+      },
+           {
+     "type": "text",
+    "id": "numtext",
+    "label": "Title"
+      }
+    ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Legecy"
+        
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+ .numflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+  .num25{
+    width:33.33%;
+    text-align: center;
+  }
+  .num-bor{
+    border-right:2px solid #184B44;
+    padding-right: 20px;
+    padding:2% 0
+  }
+  .nummar{
+        margin: auto 0;
+   font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+color: #1E1E1E;
+  }
+ h2.numhead {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    padding: 4% 0;
+        text-align: center;
+    margin-bottom:0;
+}
+  .numtext{
+       
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+
+  }
+   .bornum{
+      border-bottom:2px solid rgb(221 220 205);
+     display:none
+   }
+   .bornum{
+      border-bottom:2px solid rgb(221 220 205);
+   }
+   .numflex .num25:nth-last-child(1) .num-bor{
+      border:none;
+      }
+ @media screen and (max-width: 768px) {
+        .num25 {
+        width: 50%;
+        }
+       .numflex .num25:nth-child(even) .num-bor{
+      border:none;
+      }
+  
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

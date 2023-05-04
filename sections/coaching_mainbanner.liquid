@@ -1,0 +1,43 @@
+<div>
+    <div>
+        <div class="mbannerimg" style="background-image:url('{{section.settings.mbannerimg |img_url:'medium' }}');">
+        
+            <div class="textspace">
+             
+                <h2  class="mbannerdes">{{section.settings.mbannerdes}}</h2>
+                   <h2  class="mbannertext">{{section.settings.mbannerhead}}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %} 
+{
+  "name": "coaching_mainbanner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "mbannerhead",
+      "label": "Heading"
+    }
+    ,
+      {
+      "type": "text",
+      "id": "mbannerdes",
+      "label": "Description"
+    },   {
+        "type":"image_picker",
+        "id":"mbannerimg",
+        "label":"Image"
+      }
+  ],
+  
+ "presets": [
+    {
+      "name": "coaching_mainbanner"
+    }
+  ]
+}
+{% endschema %}

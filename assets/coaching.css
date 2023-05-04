@@ -1,0 +1,2243 @@
+
+/* coaching page start */
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff?v=1679905146") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/JosefinSans-Medium.woff2?v=1679905146")format("woff2");
+  }
+  @font-face {
+    font-family: 'BLT-Heirloom';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff?v=1679906015") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blt-heirloom-light.woff2?v=1679906015")format("woff2");
+  }
+  @font-face {
+    font-family: 'Caliway';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Caliway.woff?v=1679906015") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/MiConv.com__Caliway.woff2?v=1679906015")format("woff2");
+  }
+  @font-face {
+    font-family: 'Corinthia';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Corinthia-Regular.woff?v=1680495367") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Corinthia-Regular.woff2?v=1680495367")format("woff2");
+  }
+  @font-face {
+    font-family: 'Dancing Script';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/DancingScript-Regular.woff?v=1680694720") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/DancingScript-Regular.woff2?v=1680694720")format("woff2");
+  }
+  @font-face {
+    font-family: 'Oakley Script';
+    src: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript_55cadd4d-d08a-48c8-8440-ef1c0b9cfa69.woff?v=1681561193") format("woff"),
+    url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/OakleyScript_9cabb162-8317-4d42-9949-2db0fe5ae16e.woff2?v=1681561210")format("woff2");
+  }
+  .cblogtext{
+   
+      margin-bottom: 6px;
+      /* margin-top: 12%; */
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #1E1E1E;
+  }
+  
+  .blogdes{
+  padding: 0 6%;
+  margin: 4px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+  }
+  .cmax_container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .c_flex ,.benefit_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .flexwidth {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  h2.bhead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+    text-align: center;
+    margin: 0;
+  }
+  p.bdes {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #131620;
+   margin-bottom: 20px;
+  }
+  .benefitblog {
+    width: 32%;
+    background: #F5F8F1;
+    border-radius: 25px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 13px 0;
+  }
+  h3.benefithead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin:5% 0;
+  }
+  p.benefitdes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #3C4467;
+    margin: -10px;
+    padding: 0 4%;
+    margin-top: -2px;
+  }
+  .image_content .image-with-text__heading{
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  .image_content .body p{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3C4467;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  .image_content .subtitle--small{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3C4467;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  }
+  .image_content .subtitle--medium{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3C4467;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  .image_content .button {
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #49AF78;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  opacity: 1;
+  background: #FFFFFF;
+  border-radius: 24px;
+  border-color: #49AF78!important;
+  cursor: pointer;
+  margin-bottom: 5%;
+  }
+  .imgpage_width .image-with-text__content{
+    padding: 4rem 3rem 0rem;
+  }
+  .publickbg {
+    background-color: #F5F8F1;
+  }
+  div#shopify-section-template--14904342773825__ba36e6d2-4eb0-4d9a-b30a-5de56865a594 {
+    background-color: #F5F8F1;
+    margin-top: 0;
+  }
+  h2.previewhead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+    margin: 2px 0;
+      padding-top: 4%;
+  }
+  p.previewdes {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #131620;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+    margin-bottom: 7%;
+  }
+  .h2.pcosthead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    text-align: center;
+    color: #49AF78;
+    padding-top: 4%;
+  }
+  p.pcostdes {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #131620;
+    margin: 15px 0 25px 0;
+    padding: 0 35%;
+  }
+  .pcostflex {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 4%;
+  }
+  .costpart {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 2%;
+  }
+  .costpart {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 0% 4%;
+    width: 31%;
+  }
+  .costpart h2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #232323;
+  }
+  .costpart h3 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #69A36E;
+  }
+  .costpart p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+  }
+  .blogbodr a {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #49AF78;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #49AF78;
+    padding: 14px 26px;
+  }
+  .costpart span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+  }
+  h2.pcosthead {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+   text-align: center;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    padding-top: 4%;
+    margin-bottom: 2%;
+  }
+  .blogbodr {
+    padding-bottom: 12%;
+  }
+  svg {
+    margin-left: 10px;
+  }
+  .arrow_flex svg{
+    margin-left: 0px;
+    width: 16px;
+    margin-right: 10px;
+  }
+  /* span.imghead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    color: #FFFFFF;
+  } */
+  span.imagedes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E2E4E9;
+  }
+  .img_btn.banner__buttons {
+    border-radius: 8px;
+    opacity: 1;
+  }
+  .img_btn.banner__buttons a {
+  cursor: pointer;
+    opacity: 1;
+    background: transparent;
+    padding: 20px 26px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 25.5px;
+  }
+  
+  .second_imgcontent  p.image-with-text__text.image-with-text__text--caption.subtitle.subtitle--medium.subtitle {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+  }
+  .review40 {
+    width: 45%;
+  }
+  .review60 {
+    width: 55%;
+      padding: 2%;
+      position: relative;
+      right: 3%;
+      margin: auto 0;
+      border-radius: 30px;
+      padding-right: 8%;
+      padding-left: 5%;
+      padding-bottom: 8%;
+  }
+  h2.previewtext {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+  }
+  h3.peviewsub {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+  }
+  h3.peviewsub1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+  }
+  h3.peviewsub2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+  }
+  .second_imgcontent{
+    padding: 0 20% 0 5%;
+  }
+  h2.workhead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+    text-align: center;
+    margin: 0;
+  }
+  h3.workshead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    color: #131620;
+    text-align: center;
+    margin: 5px 0 25px 0;
+  }
+  .work_content {
+    margin-top: 6%;
+  }
+  .workflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .work40 {
+    width: 40%;
+  }
+  .work60 {
+    width: 60%;
+  }
+  img.workimg ,.previewimg img ,.abooutimg img {
+    width: 100%;
+  }
+  .workblock {
+    background: #F5F8F1;
+    border-radius: 24px;
+    margin: 3% 0;
+  }
+  .c_workcontent {
+    padding: 0px 10% 0 4%;
+  }
+  .workspace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5%;
+  }
+  .cworkimg {
+    padding: 2%;
+    margin-top: 20%;
+  }
+  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead{
+    font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 .img_btn.banner__buttons a{
+    padding: 12px 16px;
+  }
+  section#shopify-section-template--14904342773825__2f6fd057-f6ae-4b15-a28b-0d6fcc973492 {
+    margin-top: 0!important;
+  }
+  h2.step_detail {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #66C392;
+    width: 15%;
+      display: flex;
+      justify-content: start;
+  }
+  h3.stepsubhead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 65%;
+  }
+  .workbordbtn {
+    display: flex;
+    margin: 2% 0;
+  }
+  a.worksbtnn {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #49AF78;
+    border-radius: 10px;
+    border: 1px solid #49AF78;
+    padding: 20px 35px;
+  }
+  h2.numbercontent {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+    text-align: center;
+    padding: 5% 0 3% 0;
+  }
+  h2.numbernum {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  h3.numcontent {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 15%;
+    text-transform: uppercase;
+  }
+  .numpart {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .numberwidth {
+    width: 33.33%;
+  }
+  .numberimage {
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .bannerflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 0;
+  }
+  .banner40 {
+      width: 35%;
+      position: relative;
+      left: 5%;
+      background: #fff;
+      margin: auto 0;
+      border-radius: 30px;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 5%;
+      padding-right: 7%;
+  }
+  .banner60 {
+      width: 65%;
+  }
+  h2.bannerhead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2D334D;
+  }
+  h3.bannersub {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3C4467;
+    margin-top: -18px;
+  }
+  iframe#video {
+    width: 100%;
+    height: 650px;
+    border-radius: 32px;
+  }
+  .bannerbtn a {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #49AF78;
+    text-decoration: none;
+    padding: 18px 26px;
+    border-radius: 10px;
+    border: 1px solid #49AF78;
+  
+  }
+  i.fa.fa-angle-left ,i.fa.fa-angle-right{
+    font-size: 40px;
+    color: #3C4467;
+  }
+  .bannerbtn {
+    margin-bottom: 5%;
+    margin-top: 30px;
+  }
+  .testimonialflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -5%;
+  margin-top: 4%;
+  }
+  .testvideo {
+    width: 32.5%;
+    position: relative;
+  }
+  iframe#testvideo {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+  }
+  .testwidth {
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0px 0px;
+    width: 80%;
+    margin: 0 auto;
+    bottom:-7%;
+    left:15%;
+  }
+  h3.testides {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #131620;
+    text-align: center;
+  }
+  h2.testihead {
+   text-align: center;
+    padding-top: 2%;
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  
+  }
+  h2.testheadd {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #184B44;
+  }
+  h3.testsubhead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0 25px 0;
+    color: #131620;
+  }
+  
+  .image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet.image-with-text__grid--reverse{
+    margin: 6% 0;
+  }
+  .image-with-text__text-item.grid__item.image_content {
+    padding-left: 15%;
+  }
+  .image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--middle.grid__item {
+    width: 40%;
+  }
+  .image-with-text__text.rte.body {
+    padding-right: 14%;
+  }
+  div#Banner-template--14904342773825__8f1dd386-70e7-4807-b51b-853290f6ea71 {
+    margin-top: 6%;
+  }
+  .banner__text.body {
+    margin: 3% 0 1% 0;
+  }
+  /* slider start */
+  .parterimg{
+    display: flex;
+    border-top: 1px solid #CCEBDB;
+    align-items: center;
+    padding-top: 2%;
+  }
+  .parterimg h3 {
+    margin-left: 15px;
+  }
+  .sliderhead{
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    color: #131620;
+  }
+  .sliderdes{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3C4467;
+  }
+  .sliderdetail{
+   padding: 2%;
+  }
+  button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -2%;
+  }
+  button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left:-2%;
+  }
+  button.drag.dogarrow2.slick-next.pull-right.slick-arrow,button.drag.dogarrow1.slick-prev.pull-left.slick-arrow{
+    border-radius: 50%;
+    border: 1px solid #3C4467;
+    width: 56px;
+    height: 56px;
+    background: none;
+  }
+  /* slider end */
+  /* course slider start */
+  .course_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .course_detail {
+    width: 20%;
+    margin-left: 2%;
+    margin-top: -15%;
+  }
+  .course_detail h3{
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 40px;
+  color: #131620;
+  margin-top: -10%;
+  }
+  .courseslider.slick-initialized.slick-slider {
+    width: 75%;
+  }
+  button.courseprev.slick-prev.pull-left.slick-arrow {
+      position: absolute;
+      top: 50%;
+      left: -30%;
+  }
+  button.coursenext.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: -23%;
+  }
+  button.courseprev.slick-prev.pull-left.slick-arrow ,button.coursenext.slick-next.pull-right.slick-arrow{
+    width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 1px solid #3C4467;
+      background: none;
+      margin-top: 2%;
+  }
+  .coursing img{
+    border-radius: 16px;
+    width: 100%;
+    padding: 0 3%;
+   
+  }
+  h3.slidertext{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+   color: #D9D9D9;
+  padding: 2%;
+  }
+  h2.linkdetail{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+   text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  color: #1E1E1E;
+  padding: 0px 12% 0% 4%;
+  
+  }
+  a.linkpagge{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  text-decoration: none;
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  display: inline;
+  padding: 14px 20px;
+  }
+  .slidewidth{
+      background: #FFFFFF;
+      border-radius: 24px 24px 0px 0px;
+      position: relative;
+      width: 80%;
+      margin: -10% auto 0;
+  }
+  .linkslide{
+    /*margin-top: 4%;
+    padding: 6%  0;*/
+  }
+  /* course slider end */
+  .benefittext {
+    margin-top: 4%;
+  }
+  .cslidedetail{
+    position: relative;
+    width: 32%;
+  }
+  .aboutflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8%;
+  }
+  .about70 {
+    width: 60%;
+    position: relative;
+    left: 5%;
+    background: #fff;
+    margin: auto 0;
+    border-radius: 30px;
+    padding-right: 10%;
+    padding-left: 2%;
+  }
+  .about30 {
+    width: 40%;
+  }
+  h2.abhead {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    margin-bottom: -4%;
+    color: #49AF78;
+  }
+  .banner__box {
+    max-width: 65rem!important;
+  }
+  h2.aboutsub {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+  }
+  h3.aboutdes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3C4467;
+  
+    padding-right: 12%;
+  }
+  @media only screen and (max-width: 1320px) {
+    button.courseprev.slick-prev.pull-left.slick-arrow ,button.coursenext.slick-next.pull-right.slick-arrow{
+      margin-top: 4%;}
+    }
+  @media only screen and (max-width: 1280px) {
+    .c_workcontent {
+      padding: 0 2%;
+    }
+    button.courseprev.slick-prev.pull-left.slick-arrow ,button.coursenext.slick-next.pull-right.slick-arrow{
+      margin-top: 7%;
+    }
+  }
+  @media only screen and (max-width: 1160px) {
+    button.courseprev.slick-prev.pull-left.slick-arrow ,button.coursenext.slick-next.pull-right.slick-arrow{
+      margin-top: 10%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .arrow_flex svg{
+      width: 50px;
+      margin-left: 0;
+    }
+    .course_detail h3{
+      margin-top: 0%;
+    }
+    .course_detail h2{
+      margin-top: 10%;
+      margin-bottom: 10px;
+    }
+    p.pcostdes{
+      padding: 0px 27%;
+    }
+    .pcostflex {
+       flex-wrap: wrap;
+    }
+    .costpart{
+      width:48%;
+      margin: 10px auto;
+    }
+    .work40 ,.work60{
+      width:100%;
+    }
+    .banner40{
+      padding-left: 0%;
+    }
+    .testvideo {
+      width: 48%;
+    }
+    .courseslider.slick-initialized.slick-slider {
+      width: 100%;
+    }
+    .course_detail{
+      width: 100%;
+      text-align: center;
+    }
+    .flexwidth {
+      width: 31%;
+    }
+    .review60 ,.review40{
+      width:100%;
+    }
+    .imgorder .imgdflex:nth-child(1) .text60{
+      order:1
+    }
+    .review60{
+      right: 0;
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    .benefitblog{
+      width: 48%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    button.drag.dogarrow2.slick-next.pull-right.slick-arrow,button.drag.dogarrow1.slick-prev.pull-left.slick-arrow{
+      width: 36px;
+      height: 36px;
+    }
+  
+    i.fa.fa-angle-left ,i.fa.fa-angle-right{
+      font-size: 18px;
+    }
+    h2.step_detail ,h3.stepsubhead {
+       font-size: 15px;
+    }
+    .numberwidth {
+      width: 45%;
+      padding: 0 5%;
+  }
+  .banner40 ,.banner60 {
+    width: 100%;
+  }
+  .banner60{
+    order:1;
+  }
+  .banner40{
+    order:2;
+    padding-right: 6%;
+    left: 0%;
+  }
+  .about70 ,.about30{
+    width:100%;
+  }
+  .about30{
+    order:1;
+  }
+  .about70{
+    order: 2;
+  }
+  .arrowheight {
+    width: 80%;
+  }
+  
+  }
+  @media only screen and (max-width: 749px) {
+   
+    span.imghead ,#shopify-section-template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead {
+      color: #000!important;
+      /* font-size: 50px; */
+  }
+      span.imagedes{
+        color: #414245;
+      }
+      p.benefitdes{
+        font-size: 14px;
+      line-height: 22px;
+      }
+      h3.benefithead{
+        font-size: 14px;
+      line-height: 21px;
+      }
+  }
+  @media only screen and (max-width: 620px) {
+  
+    p.pcostdes{
+      padding: 0px 14%;
+    }
+    .costpart{
+      width:95%;
+      margin: 10px auto;
+    }
+    h2.numbernum{
+      font-size: 45px;
+    }
+    h2.bhead{
+      font-size: 50px;
+    }
+    p.bdes{
+      font-size: 22px;
+    }
+    .flexwidth {
+      width: 46%;
+  }
+  
+  }
+  @media only screen and (max-width: 540px) {
+    h2.step_detail ,h3.stepsubhead {
+      font-size: 11px;
+   }
+   .testvideo {
+    width: 96%;
+    margin: 0 auto;
+  }
+  h2.previewhead{
+    font-size: 52px;
+  }
+  p.previewdes{
+    font-size: 22px;
+  }
+  .arrowheight {
+    width: 98%;
+  }
+  }
+  @media only screen and (max-width: 420px) {
+    p.pcostdes {
+      padding: 0px 0%;
+  }
+    span.imghead{
+      font-size: 44px;
+      line-height: 40px;
+    }
+    .workspace {
+      flex-direction: column;
+  }
+  .num25 {
+    width: 90%;
+    margin: 2%;
+  }
+  .num-bor {
+    border-right:none;
+  }
+  
+  .textspace {
+    width: 100%;}
+  h2.step_detail, h3.stepsubhead{
+    margin: 0;
+  }
+  h3.stepsubhead{
+    line-height: 18px;
+  }
+  .workbordbtn{
+    justify-content: center;
+  }
+  .numberwidth {
+    width: 95%;
+    padding: 0 5%;
+  }
+  .benefitblog {
+    width: 100%;
+  }
+  .flexwidth {
+    width: 100%;
+  }
+  h2.bannerhead ,h2.previewtext{
+    font-size: 32px;
+    line-height: 38px;
+  }
+  h3.bannersub ,h3.peviewsub ,h3.peviewsub ,h3.peviewsub{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .costpart h3{
+    font-size: 32px;
+  }
+  .costpart h2{
+    font-size: 34px;
+    line-height: 38px;
+  }
+  h3.stepsubhead{
+    width: 100%;
+    text-align: center;
+  }
+  .workblock {
+    padding: 2%;
+  }
+  }
+  /* coaching page end */
+  .banner__box.content-container.content-container--full-width-mobile.color-inverse.gradient {
+    background: transparent;
+  }
+  .c_flex {
+    margin-top: 7%;
+  }
+  .course_flex{
+    margin: 8% 0;
+  }
+  .numberimage{
+    margin: 5% 0;
+  }
+  p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium.caption-with-letter-spacing {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+    text-transform: capitalize;
+  }
+  .course_detail h2 {
+    font-family: 'Corinthia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 54px;
+    color: #49AF78;
+  }
+  .parterimg img{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  }
+  .parterimg  h3{
+    font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #131620;
+  }
+  .blockk11 {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .c_workcontent .workblock:hover{
+    transform: scale(1.05);
+  }
+  .workblock{
+    transition: all 0.2s;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 14px;
+  }
+  /*coaching main page start*/
+  .mbannerimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  h2.mbannertext{
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  h2.mbannerdes{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+  .textspace {
+    width: 70%;
+    margin: 0 0 0 auto;
+    padding: 10% 13%;
+  }
+  .imgdflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+  }
+  .text60 {
+    width: 60%;
+  }
+  .text40 {
+    width: 40%;
+  }
+  p.certified ,p.certified2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    padding: 2% 10% 0 10%;
+    padding-right: 16%;
+  }
+  .text60:nth-child(2) {
+    border-bottom: 2px solid #F5F8F1;
+  }
+  p.certified2 {
+    padding-top: 0;
+  }
+  .c_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flexwidth2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+  }
+  .flex-fees {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  p.pfeesdec {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+      text-align: left;
+      margin: 15px 0 25px 0;
+      padding: 0px 3%;
+      width: 50%;
+      padding-bottom: 3%;
+  }
+  .costpart1 h2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    border-bottom: 1px solid #184B44;
+  }
+  .costpart1 h3 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #184B44;
+    text-align: center;
+    margin: 0;
+  }
+  .costpart1 h3 span{
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    color: #184B44;
+    text-align: center;
+    margin: 0;
+  }
+  .costpart1 p {
+   font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E1E1E;
+    padding-bottom: 20%;
+  }
+  .blogbodr1 a {
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 14px 26px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  .costpart1 {
+    background: #FFFFFF;
+    border: 2px solid #184B44;
+    border-radius: 24px;
+    padding: 2% 3%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .blogbodr1 {
+    position: absolute;
+    bottom: 10%;
+  }
+  .course_detail1 {
+    font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #184B44;
+      text-align: center;
+      border-top: 2px solid #F5F8F1;
+  }
+  h2.courseheadd {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+  }
+  .course_flex{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .advice_btn {
+   text-align: center;
+  }
+  .advicemax_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .advice_btn1 {
+   text-align: center;
+   padding-top: 3%;
+  }
+  a.linkpagge1{
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 18px 38px;
+  text-decoration: none;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  }
+  
+  .programtext h2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #184B44;
+    padding: 10% 0 5% 0;
+    text-align: center;
+  }
+  .program50 {
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 46%;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  h2.programheadtext {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #184B44;
+  }
+  p.programdestext {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    padding: 2% 9%;
+  }
+    .programflex {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+  .blogbodrafter {
+      border: 2px solid #184B44;
+      border-radius: 25.5px;
+      display: inline-block;
+      margin: 3% 0;
+      padding: 5px 20px;
+  }
+  .blogbodrafter a.btnspace {
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    padding: 20px 20px;
+  }
+  .publicflex{
+    display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  h2.moduletext {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+  }
+  h2.moduledesc {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #184B44;
+    text-align: center;
+  }
+  .testimonialflex1{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .testvideo{
+    margin: 0 20px;
+   
+  }
+  button.drag.coacharrow.slick-prev.pull-left.slick-arrow {
+    top: 50%;
+    position: absolute;
+    left: -4%;
+  }
+  button.drag.coacharrow.slick-prev.pull-left.slick-arrow ,button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+    background: none;
+    border: none;
+  }
+  button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+  }
+  .set a svg {
+    float: right;
+  }
+  h3.certifiedtext{
+      width: 68%;
+      margin: 2% auto;
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      color: #1E1E1E;
+  }
+  .blogbodr2 a {
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 14px 26px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  .blogbodr2 {
+    position: relative;
+    bottom: 10%;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+  }
+  h2.previewtext1 {
+   
+    text-align: left;
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+  }
+  h3.peviewsub1 {
+  
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #1E1E1E;
+    padding-bottom: 5%;
+  }
+  section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+  }
+  .bannerbtn1 a {
+  
+    text-decoration: none;
+  
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  .arrow_flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .bannerbtn1 {
+   display: inline;
+   padding: 10px 26px;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+  }
+  .arrowheight {
+    width: 55%;
+    margin: 0 auto;
+    min-height: 400px;
+    overflow-y: scroll;
+    height: 600px;
+  }
+  .arrorrad {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 12px;
+  }
+  h2.arrowtext {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #184B44;
+    margin: 0;
+  }
+  h2.arrowheaddes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin: 0;
+  }
+  a.arrowlink {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .arroww_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+  }
+  .testimonialflex1{
+    width: 90%;
+    max-width: 0 auto;
+  }
+  a.collered {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  .workcontent {
+    text-align: center;
+    border-top: 2px solid #F5F8F1;
+  }
+  .slideimage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+  }
+  .cworkhead{
+    font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #184B44;
+  margin-bottom: 0;
+  }
+  .cworkdes{
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #184B44;
+    margin: 8px;
+  }
+  .cworkflex {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+  .cworkfle25{
+    width: 25%;
+  }
+  .cworkfle25:nth-child(4){
+    border-radius: 0px 0px 85px 0px;
+  }
+  .cworkfle25:nth-child(5) .imgflexxx {
+    border-left: 2px solid #184B44;
+     border-radius: 50px 0 0 50px;
+    border-bottom: 2px solid #184B44;
+    border-top: 2px solid #184B44;
+  }
+  .cworkfle25:nth-child(5) p.bworkdess {
+    border-top: none;
+  }
+  .cworkfle25:nth-child(1) {
+      border-bottom: none;
+  }
+  .cworkfle25:nth-last-child(-n+4) .imgflexxx {
+    padding-top: 40px;
+  }
+  
+  .bworkdess {
+    margin: 0px;
+    padding: 10px 30px 45px;
+    height: 175px;
+  }
+  h2.bworkhedd {
+    padding-left: 33px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #184B44;
+  }
+  .cworkfle25 {
+    border-bottom: 2px solid #184B44;
+  }
+  .cworkfle25:nth-child(4) .bworkdess{
+    border-right: 2px solid #184B44;
+    border-radius: 0px 85px 85px 0px;
+  }
+  /* .paddingdev{
+    padding: 0 3%;
+  } */
+  p.bworkdess {
+    /* border-top: 1px solid #000; */
+    border-top: 2px solid #184B44;
+    border-image: linear-gradient(to right, #fff 5%);
+  }
+  .imgflexxx{
+    display: flex;
+  }
+  .linkslide {
+    padding-bottom: 10%;
+    margin-top: -4%;
+  }
+  .arrowpaddingspace{
+    padding: 3% 0;
+  }
+  .cworkfle25:nth-last-child(-n+4){
+    border-bottom: none; 
+  }
+  h2.faqhead {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+  }
+  section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .banner__box {
+    max-width: 80rem!important;
+  }
+  section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead{
+    font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  }
+  section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca .rich-text__blocks{
+    max-width: 100rem;
+  }
+  section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca h2.rich-text__heading.rte.h1 span{
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    margin: 0;
+  }
+  section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca .rich-text__text.rte p {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 75%;
+    text-align: center;
+    margin: -2% auto;
+  }
+  section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary{
+    background: transparent;
+      color: #000;
+      border: 2px solid #184B44;
+      border-radius: 25.5px;
+      margin-top: 6%;
+      cursor: pointer;
+  }
+  section#shopify-section-template--14909103046721__b13a7b3e-709c-47aa-b070-2d93f659adca a.button.button--primary {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+  }
+  .text40:nth-child(1) .text40img img{
+    min-height: 500px;
+  }
+  .text60:nth-child(1){
+    border-top: 2px solid #F5F8F1;
+  }
+  section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+  }
+  section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c57cdbec h2.title.h1 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+  }
+  section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c57cdbec .collection__description.body.rte p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .text40img img{
+    width:100%;
+    display: flex;
+  }
+  .blogbodrafter1 {
+    text-align: center;
+    padding-bottom: 3%;
+      padding-top: 2%;
+  }
+  a.btnspace1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #1E1E1E;
+  }
+  section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  p.bworkdess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1E1E1E;
+  }
+  section#shopify-section-template--14909103046721__143fd103-6dd8-40ee-a3e0-7880c57cdbec h2.title.h1{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #1E1E1E;
+  margin-top: -4%;
+  }
+  div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  section#shopify-section-template--14909103046721__143fd103-6dd8-40ee-a3e0-7880c57cdbec .collection__description.body.rte p{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center; 
+  color: #1E1E1E;
+  width: 66%;
+      margin: 0 auto;
+  }
+  div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead .banner__text.body span.imagedes{
+    font-family: 'Oakley Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  }
+   .cworkfle25:first-child  p.bworkdess{
+    width: 92%;
+    margin-left: auto;
+  }
+  
+  .cworkfle25:last-child  p.bworkdess{
+    width: 92%;
+    margin-right: auto;
+  }
+  @media only screen and (max-width: 1324px) {
+    .bworkdess{
+      padding: 10px 19px 49px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    p.bworkdess{
+      line-height: 24px;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    h2.bworkhedd{
+      font-size: 14px;
+    }
+    .ratinconain.multipleitems.slick-initialized.slick-slider.slick-dotted{
+      width: 90%;
+    }
+    img.paetimg {
+      margin-top: -6%;
+  }
+  }
+  @media only screen and (max-width: 991px) {
+    .arrowheight{
+      width: 75%;
+    }
+    .text60 ,.text40{
+      width: 100%;
+    }
+    .text40img img{
+      order: 1;
+    }
+    .flexwidth2 {
+      width: 50%;
+    }
+    .costpart1{
+      width: 46%;
+      margin: 2%;
+    }
+    .cslidedetail{
+      width: 48%;
+    }
+    .advice_btn{
+      margin: 0% 5%;
+    }
+    .accordion-container{
+      width: 75%;
+    }
+  }
+  @media only screen and (max-width: 892px) {
+    h2.bworkhedd {
+      font-size: 12px;
+  }
+  p.bworkdess {
+      line-height: 21px;
+  }
+  }
+  @media only screen and (max-width: 800px) {
+    p.bworkdess,.cworkfle25:nth-child(5) .imgflexxx{
+      border-top:none;
+    }
+    .cworkfle25:nth-child(4) .bworkdess{
+  
+      border-right: none;
+    }
+    .cworkfle25:nth-child(5) .imgflexxx{
+      border-left: none;
+      border-bottom: none;
+    }
+    .cworkfle25{
+      border-bottom: none;
+    }
+    .cworkfle25{
+      width: 32%;
+    }
+    .cworkfle25:nth-last-child(-n+4) .imgflexxx{
+      padding-top: 0;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    h2.previewtext1, section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead,
+    h2.numhead ,h2.starheadreview ,h2.courseheadd,h2.faqhead ,h2.testheadd ,
+    section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span ,.cworkhead ,
+    section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span,
+    div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead{
+      font-size: 50px!important;;
+    }
+    .program50{
+      width: 98%;
+      margin: 2% 0;
+    }
+    .textspace {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 748px) {
+    .banner__box {
+      max-width: 90rem;
+  }
+    span.imagedes{
+      font-size: 34px;
+      line-height: 41px;
+    }
+    section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead ,
+    section#shopify-section-template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead,span.imagedes{
+      color:#000!important;
+    }
+   div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 span.imghead ,
+   div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4  .img_btn.banner__buttons a {
+      color: #000!important;
+    }
+    .img_btn.banner__buttons a{
+      color: #000;
+      border: 2px solid #000;
+    }
+    .cworkfle25{
+      width: 48%;
+    }
+    div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 .img_btn.banner__buttons a{
+      border: 2px solid #000;
+    }
+    div#Banner-template--14909103046721__39e112cd-4e94-4716-a728-90d799f169b4 .img_btn.banner__buttons a path {
+      stroke: #000;
+  }
+    }
+  @media only screen and (max-width: 620px) {
+    p.pfeesdec{
+      width: 100%;
+    }
+    .cslidedetail{
+      width: 100%;
+    }
+    .accordion-container{
+      width: 85%;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .flexwidth2{
+      width: 100%;
+    }
+    .costpart1{
+      width: 98%;
+    }
+    .accordion-container{
+      width: 92%;
+    }
+    .arrowheight {
+      width: 100%;
+  }
+  .collection__description.body.rte p{
+    width: 100%;
+  }
+  }
+  @media only screen and (max-width: 420px) {
+    .cworkfle25{
+      width: 98%;
+    }
+    button.drag.coacharrow2.slick-next.pull-right.slick-arrow {
+     
+      right: -7%;
+    }
+    .accordion-container{
+      width: 90%!important;
+    }
+  h2.previewtext1,h2.testheadd , section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .imghead, h2.numhead, h2.starheadreview, h2.courseheadd, h2.faqhead, section#shopify-section-template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, .cworkhead, section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489d9a302 h2.rich-text__heading.rte.h1 span, div#Banner-template--14909103046721__afd88067-dfac-441e-8adf-28a7d84bd11d span.imghead {
+      font-size: 40px!important;
+      line-height: 46px;
+  }
+  .bworkdessimg {
+    padding: 10px 12px 35px;
+    height: 100px;
+  }
+  h3.certifiedtext{
+    width: 96%;
+  }
+  section#shopify-section-template--14909520412737__143fd103-6dd8-40ee-a3e0-7880c57cdbec .collection__description.body.rte p{
+    width: 90%;
+  }
+  .accordion-container{
+    width: 90%;
+  }
+    .set{
+          margin: 3% 0px!important;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    a.linkpagge1{
+      padding: 12px 25px;
+      font-size: 11px;
+    }
+  }
+  .displaynone{
+    display: none;
+  }
+  .costpart1 h2:first-child {
+    border-bottom: none;
+    margin-bottom: -28px;
+  }
+  .testvideo {
+    height: 300px;
+    min-height: 300px;
+    width: 100%;
+  }
+  .py{
+    
+    padding: 5% 0 0% 0;
+  
+  }
+  .customerdetail {
+    display: flex;
+    flex-direction: column;
+}
+  .color-background-1.isolate.gradient {
+    margin-top: -3%;
+    padding-top: 0;
+  }
+  
+  p.pfeesdec {
+    padding: 0 4% 3%;
+  }
+  .slick-dots {
+    margin: 7% 0 0 0;
+  }
+  section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c57cdbec p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c57cdbec h2.title.h1 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1E1E1E;
+    text-align: center;
+}
+  

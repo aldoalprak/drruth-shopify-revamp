@@ -1,0 +1,105 @@
+<div>
+    <div class="work_content">
+            <h2 class="workhead">{{section.settings.w_head}}</h2>
+            <h3 class="workshead">{{section.settings.w_subhead}}</h3>
+    </div>
+    <div class="workflex">
+        <div class="work40">
+            <div class="cworkimg">  
+                <img src="{{section.settings.workiimg |img_url:'medium'}}" class="workimg">
+            </div>
+        </div>
+        <div class="work60">
+            <div class=" c_workcontent">
+                {%- for block in section.blocks -%}
+                    <div class="workblock">
+                        <div class="workspace">
+                            {% if block.settings.iconimg !=blank %}
+                                 <img src="{{block.settings.iconimg |img_url:'800x'}}" class="paetimg">
+                            {% endif %}
+                                 <h2 class="step_detail">{{block.settings.stepid}}</h2>
+                                 <h3 class="stepsubhead">{{block.settings.stepcontent}}</h3>
+                                 <a href="{{block.settings.btnurl}}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00042 1.75C5.55662 1.75 5.19685 1.41421 5.19685 1C5.19685 0.585786 5.55662 0.25 6.00042 0.25H14.5718C15.0156 0.25 15.3754 0.585786 15.3754 1V9C15.3754 9.41421 15.0156 9.75 14.5718 9.75C14.128 9.75 13.7683 9.41421 13.7683 9V2.81066L2.28291 13.5303C1.9691 13.8232 1.46031 13.8232 1.14649 13.5303C0.832679 13.2374 0.832679 12.7626 1.14649 12.4697L12.6319 1.75H6.00042Z" fill="#49AF78"/>
+                                    </svg>
+                                </a>
+                        </div>  
+                    </div>
+                {%- endfor -%}
+                <div class="workbordbtn">
+                    <a href="{{ section.settings.workbtnurl }}" class="worksbtnn">{{ section.settings.workbtn }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
+                    </svg></a>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "coaching_work",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "w_head",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "w_subhead",
+      "label": "Sub Heading"
+    }
+    ,   {
+        "type":"image_picker",
+        "id":"workiimg",
+        "label":"Image"
+      },
+       {
+      "type": "text",
+      "id": "workbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "workbtnurl",
+      "label": "Button Link"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"iconimg",
+        "label":"Image"
+      },
+       {
+    "type": "text",
+    "id": "stepid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "stepcontent",
+    "label": "Sub Heading"
+      }
+      , {
+    "type": "url",
+    "id": "btnurl",
+    "label": "Page Link"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "coaching_work"
+    }
+  ]
+}
+{% endschema %}

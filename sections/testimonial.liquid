@@ -1,0 +1,68 @@
+<div class="cmax_container">
+        <div class="testidetail">
+            <h2 class="testheadd">{{section.settings.testhead}}</h2>
+            <h3 class="testsubhead">{{section.settings.testdes}}</h3>
+        </div>
+        <div class="testimonialflex">
+            {%- for block in section.blocks -%}
+            <div class="testvideo">
+                <div class="video-container">
+                    <iframe id="testvideo" class="testvideo" src="{{ block.settings.test_url }}" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+                <div class="testwidth">
+                    <h2 class="testihead">{{ block.settings.textid}}</h2>
+                    <h3 class="testides">{{ block.settings.tescontent}}</h3>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+</div>
+{% schema %} 
+{
+  "name": "testimonial",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "testhead",
+      "label": "Heading"
+    }
+    ,  {
+      "type": "text",
+      "id": "testdes",
+      "label": "Sub Heading"
+    } 
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+     {
+      "type": "url",
+      "id": "test_url",
+      "label": "Video URL"
+    },
+       {
+    "type": "text",
+    "id": "textid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "tescontent",
+    "label": "Sub Heading"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "testimonial"
+    }
+  ]
+}
+{% endschema %}

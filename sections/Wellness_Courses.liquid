@@ -1,0 +1,125 @@
+<div class="collist">
+  <h1 class="headtext">{{ section.settings.colltex }}</h1>
+
+    <div class="colflex " style="padding-bottom:{{ section.settings.bottomspac }}px;  padding-top:{{ section.settings.topspac }}px;">
+      {%- assign collection = collections[section.settings.collection] -%}
+      {%- assign gridlimit= section.settings.colrange -%}
+      {% for product in collection.products limit:section.settings.colrange%}
+      
+      <div class="collaa {%  if section.settings.collselect =="1" %} col30  {% endif %} {%  if section.settings.collselect =="2" %} col25  {% endif %} {%  if section.settings.collselect =="3" %} col20  {% endif %}  {%  if section.settings.mobilewidth =="1" %} col100  {% endif %} {%  if section.settings.mobilewidth =="2" %} col50  {% endif %}">
+           <div class="productimages">
+                <img src="{{ product.featured_image | img_url: 'medium' }}" >    
+          </div>
+          <h3 class="colltitle">{{ product.title }}</h3>
+          <h4>{{ product.price | money}}</h4>
+      </div>  
+    {% endfor %}
+  </div>
+</div>
+
+
+ {% schema %}
+  {
+  "name": "Wellness_Courses",
+  "settings": [
+{
+"type":"text",
+  "id":"colltex",
+  "label": "Heading"
+},
+  {
+     "id": "collection",
+   "type": "collection",
+    "label": "collection"
+  },{
+     "type" : "range",
+      "id" : "colrange",
+      "default":6,
+      "min":2,
+      "label": "range of product",
+      "max":10
+  },{
+    "type":"select",
+    "id":"collselect",
+    "label":"Collection image width",
+    "options":[
+      {
+      "value":"1",
+      "label":"3"
+      },
+        {
+      "value":"2",
+      "label":"4"
+      },  {
+      "value":"3",
+      "label":"2"
+      }
+    ]
+  }
+  ],
+ 
+  "presets" : [
+  {
+    "name" : "Wellness_Courses",
+    "category" : "collection_page"
+
+    }
+  ]
+  }
+  {% endschema %}
+
+{% stylesheet %}
+  .smalltext{
+font-size:20px;
+  }
+  .mediumtext{
+    font-size:34px;
+  }
+  .largetext{
+    font-size:60px;
+  }
+h1.headtext {
+    text-align: center;
+}
+.colflex{
+display: flex;
+  flex-wrap:wrap;
+}
+  .colpart {
+width: 100%;
+    display: flex;
+    flex-wrap: wrap;}
+
+  .col30{
+    width:30%;
+  }
+  .col25{
+    width: 25%;
+  }
+  .col20{
+    width:50%;
+  }
+  .squereimg{
+    width:400px;
+    height:400px;
+  }
+  .potraitimg{
+    filter: blur(1.5px);}
+  .col50{
+    width:50%;
+  }
+  .col100{
+width:100%;
+  }
+   @media screen and (max-width: 750px) {
+     .col100{
+      width:100%;
+      }
+      .col50{
+      width:50%;
+      }
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
