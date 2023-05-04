@@ -34,11 +34,13 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
