@@ -719,14 +719,14 @@
       
       <div id="Instructions" class="tabcontent">
         <div class="product_tab_content">
-          {%- if block.settings.is_image_instruction -%}
+          {%- if product.metafields.custom.revamp_instruction != blank -%}
+            {{block.settings.instructions_content}}
+          {%- else -%}
             {{block.settings.instructions_content_image | image_url: width: 500
               | image_tag:
                 loading: 'lazy',
                 width: 500
             }}
-          {%- else -%}
-            {{block.settings.instructions_content}}
           {%- endif -%}
         </div >
       </div>     
@@ -1183,12 +1183,6 @@
           "type": "richtext",
           "id": "ingredients_content",
           "label": "Ingredients Content"
-        },
-        {
-          "type": "checkbox",
-          "id": "is_image_instruction",
-          "label": "Using Image for Instruction",
-          "default": false
         },
         {
           "type": "richtext",
