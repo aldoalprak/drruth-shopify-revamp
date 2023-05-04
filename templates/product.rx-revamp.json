@@ -50,7 +50,9 @@
           "type": "rx_product_tab",
           "settings": {
             "ingredients_content": "<p>{{ product.metafields.custom.revamp_ingredients | metafield_tag }}<\/p>",
-            "instructions_content": "{{ product.metafields.custom.revamp_instruction | metafield_tag }}",
+            "is_image_instruction": false,
+            "instructions_content": "<p>{{ product.metafields.custom.revamp_instruction | metafield_tag }}<\/p>",
+            "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
             "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
           }
         },
