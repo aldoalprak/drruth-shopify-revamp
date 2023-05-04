@@ -305,16 +305,25 @@
         "fae00ea1-9ea8-4d8e-80eb-9495972411e8": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "You can earn loyalty points by making purchases at our store, referring friends, leaving reviews, and following us on social media. Each activity earns you a certain number of points, which can be redeemed for rewards.",
             "faqid": "",
-            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+            "faqbtn": "How do I harvest loyalty points in the Happy Paws Rewards Program?"
+          }
+        },
+        "c9f3f596-7914-4766-852a-7ea83fe662d7": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "You can redeem your points for a variety of rewards, such as discounts on purchases, free products, and exclusive merchandise. Simply log in to your rewards account to browse the rewards catalog and select the reward you want.",
+            "faqid": "",
+            "faqbtn": "What can I do with my loyalty points?"
           }
         }
       },
       "block_order": [
         "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf",
         "8c6eaed6-2782-4203-8fe9-3fa532c91730",
-        "fae00ea1-9ea8-4d8e-80eb-9495972411e8"
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8",
+        "c9f3f596-7914-4766-852a-7ea83fe662d7"
       ],
       "settings": {
         "mfaqhead": "FAQS"
