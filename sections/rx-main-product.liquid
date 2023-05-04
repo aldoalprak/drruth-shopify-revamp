@@ -719,7 +719,15 @@
       
       <div id="Instructions" class="tabcontent">
         <div class="product_tab_content">
-          {{block.settings.instructions_content}}
+          {%- if block.settings.is_image_instruction -%}
+            {{block.settings.instructions_content_image | image_url: width: 500
+              | image_tag:
+                loading: 'lazy',
+                width: 500
+            }}
+          {%- else -%}
+            {{block.settings.instructions_content}}
+          {%- endif -%}
         </div >
       </div>     
       
@@ -1177,9 +1185,20 @@
           "label": "Ingredients Content"
         },
         {
+          "type": "checkbox",
+          "id": "is_image_instruction",
+          "label": "Using Image for Instruction",
+          "default": false
+        },
+        {
           "type": "richtext",
           "id": "instructions_content",
           "label": "Instructions Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "instructions_content_image",
+          "label": "Instructions Content Image"
         },
         {
           "type": "richtext",
