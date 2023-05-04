@@ -397,6 +397,14 @@
             "faqid": "",
             "faqbtn": "What happens to my loyalty points if I return a product?"
           }
+        },
+        "68823fb4-5224-4fe9-96f4-8f9a995bd1af": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can earn points for writing product reviews, as long as they meet our guidelines and are approved by our team.",
+            "faqid": "",
+            "faqbtn": "Can I earn points for writing product reviews?"
+          }
         }
       },
       "block_order": [
@@ -413,7 +421,8 @@
         "1e13df3f-15d3-41b8-822c-3b49e5adc275",
         "2028af59-225e-4815-ac65-48b2ddc87c46",
         "3afb10bf-cb52-4771-a172-9655fe9b8dc0",
-        "d6ed0aeb-7256-46a4-b649-e929d9d7de94"
+        "d6ed0aeb-7256-46a4-b649-e929d9d7de94",
+        "68823fb4-5224-4fe9-96f4-8f9a995bd1af"
       ],
       "settings": {
         "mfaqhead": "FAQS"
