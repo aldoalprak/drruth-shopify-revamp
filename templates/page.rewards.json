@@ -317,13 +317,22 @@
             "faqid": "",
             "faqbtn": "What can I do with my loyalty points?"
           }
+        },
+        "7087d56c-8090-44c3-80ff-81cad57cedf5": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "There is no limit to the number of points you can earn in the Happy Paws Rewards Program. The more you engage with our brand, the more points you'll earn.",
+            "faqid": "",
+            "faqbtn": "Is there a limit to the number of loyalty points I can earn?"
+          }
         }
       },
       "block_order": [
         "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf",
         "8c6eaed6-2782-4203-8fe9-3fa532c91730",
         "fae00ea1-9ea8-4d8e-80eb-9495972411e8",
-        "c9f3f596-7914-4766-852a-7ea83fe662d7"
+        "c9f3f596-7914-4766-852a-7ea83fe662d7",
+        "7087d56c-8090-44c3-80ff-81cad57cedf5"
       ],
       "settings": {
         "mfaqhead": "FAQS"
