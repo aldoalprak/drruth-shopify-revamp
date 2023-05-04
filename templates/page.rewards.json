@@ -357,6 +357,14 @@
             "faqid": "",
             "faqbtn": "Are there any fees associated with the Happy Paws Rewards Program?"
           }
+        },
+        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "To earn points for referring a friend, simply share your unique referral link with them. When they make their first purchase using your link, you'll earn a certain number of points.",
+            "faqid": "",
+            "faqbtn": "How do I earn points for referring a friend?"
+          }
         }
       },
       "block_order": [
@@ -368,7 +376,8 @@
         "d239c617-b77f-4070-96f6-7c599c3e621c",
         "50197b77-a866-4c84-822f-5de2acd24250",
         "1cad2b0e-2057-45af-8302-9daecfb35ada",
-        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6"
+        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6",
+        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab"
       ],
       "settings": {
         "mfaqhead": "FAQS"
