@@ -389,6 +389,14 @@
             "faqid": "",
             "faqbtn": "Can I combine rewards or use them with other promotions?"
           }
+        },
+        "d6ed0aeb-7256-46a4-b649-e929d9d7de94": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If you return a product, any points earned for that purchase will be deducted from your rewards account balance.",
+            "faqid": "",
+            "faqbtn": "What happens to my loyalty points if I return a product?"
+          }
         }
       },
       "block_order": [
@@ -404,7 +412,8 @@
         "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab",
         "1e13df3f-15d3-41b8-822c-3b49e5adc275",
         "2028af59-225e-4815-ac65-48b2ddc87c46",
-        "3afb10bf-cb52-4771-a172-9655fe9b8dc0"
+        "3afb10bf-cb52-4771-a172-9655fe9b8dc0",
+        "d6ed0aeb-7256-46a4-b649-e929d9d7de94"
       ],
       "settings": {
         "mfaqhead": "FAQS"
