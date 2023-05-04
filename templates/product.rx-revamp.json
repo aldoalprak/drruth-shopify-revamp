@@ -49,8 +49,8 @@
         "c50958db-6d62-42c8-8a47-729c390a856f": {
           "type": "rx_product_tab",
           "settings": {
-            "ingredients_content": "{{ product.metafields.custom.revamp_ingredients | metafield_tag }}",
-            "instructions_content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
+            "ingredients_content": "<p>{{ product.metafields.custom.revamp_ingredients | metafield_tag }}<\/p>",
+            "instructions_content": "{{ product.metafields.custom.revamp_instruction | metafield_tag }}",
             "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
           }
         },
