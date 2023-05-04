@@ -341,6 +341,22 @@
             "faqid": "",
             "faqbtn": "Do my points expire?"
           }
+        },
+        "1cad2b0e-2057-45af-8302-9daecfb35ada": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, points are non-transferable and can only be used by the member who earned them.",
+            "faqid": "",
+            "faqbtn": "Can I share my points with someone else?"
+          }
+        },
+        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, there are no fees associated with the Happy Paws Rewards Program. It is a free program that rewards our loyal customers.",
+            "faqid": "",
+            "faqbtn": "Are there any fees associated with the Happy Paws Rewards Program?"
+          }
         }
       },
       "block_order": [
@@ -350,7 +366,9 @@
         "c9f3f596-7914-4766-852a-7ea83fe662d7",
         "7087d56c-8090-44c3-80ff-81cad57cedf5",
         "d239c617-b77f-4070-96f6-7c599c3e621c",
-        "50197b77-a866-4c84-822f-5de2acd24250"
+        "50197b77-a866-4c84-822f-5de2acd24250",
+        "1cad2b0e-2057-45af-8302-9daecfb35ada",
+        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6"
       ],
       "settings": {
         "mfaqhead": "FAQS"
