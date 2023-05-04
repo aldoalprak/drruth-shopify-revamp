@@ -179,11 +179,16 @@
     text-decoration: none !important;
   }
 
+  .rx-{{section.id}} div.stamped-container[data-widget-style], 
+  .rx-{{section.id}} div[data-widget-style] div.stamped-container {
+    max-width: 1100px !important;
+  }
+
 </style>
 
 
 <div 
-  class="rx-{{section.id}} page-width"
+  class="rx-{{section.id}}"
   id="stamped-main-widget"   
   data-product-id="{{ product.id }}"   
   data-name="{{ product.title | escape }}"   
