@@ -116,22 +116,22 @@
         "140f0be3-db79-4680-a7cc-4207a0004eb1": {
           "type": "block",
           "settings": {
-            "reworktitle": "1. Create an Account",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "1. CREATE AN ACCOUNT",
+            "reworksubtitl": "You can sign up for the program online. It's free to join, and you will receive 50 PAWS just for creating the account."
           }
         },
         "217d03e0-ee7b-4460-8c65-35ebefb823d2": {
           "type": "block",
           "settings": {
-            "reworktitle": "2. Earn Points",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "2. EARN PAWS",
+            "reworksubtitl": "For every dollar you spend at our pet store, you'll earn one PAW. The more you spend, the more PAWS you'll earn!"
           }
         },
         "1f44cd6e-6331-4c0b-ade5-918ea7514d3c": {
           "type": "block",
           "settings": {
-            "reworktitle": "3. Redeem Points",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "3. REDEEM PAWS",
+            "reworksubtitl": "Once you've accumulated enough PAWS, you can redeem them for discounts on future purchases."
           }
         }
       },
