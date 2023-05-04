@@ -405,6 +405,14 @@
             "faqid": "",
             "faqbtn": "Can I earn points for writing product reviews?"
           }
+        },
+        "b8f66249-d9d9-49f0-ba2b-d26ef3ab2d9a": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We'll notify you via email or through our mobile app when new rewards become available, so be sure to keep an eye out for updates!",
+            "faqid": "",
+            "faqbtn": "How do I know when new rewards are available?"
+          }
         }
       },
       "block_order": [
@@ -422,7 +430,8 @@
         "2028af59-225e-4815-ac65-48b2ddc87c46",
         "3afb10bf-cb52-4771-a172-9655fe9b8dc0",
         "d6ed0aeb-7256-46a4-b649-e929d9d7de94",
-        "68823fb4-5224-4fe9-96f4-8f9a995bd1af"
+        "68823fb4-5224-4fe9-96f4-8f9a995bd1af",
+        "b8f66249-d9d9-49f0-ba2b-d26ef3ab2d9a"
       ],
       "settings": {
         "mfaqhead": "FAQS"
