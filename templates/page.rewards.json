@@ -365,6 +365,30 @@
             "faqid": "",
             "faqbtn": "How do I earn points for referring a friend?"
           }
+        },
+        "1e13df3f-15d3-41b8-822c-3b49e5adc275": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Unfortunately, points cannot be earned for past purchases made before joining the Happy Paws Rewards Program.",
+            "faqid": "",
+            "faqbtn": "Can I earn loyalty points for past purchases?"
+          }
+        },
+        "2028af59-225e-4815-ac65-48b2ddc87c46": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If you forgot to provide your rewards account information at the time of purchase, you may still be able to earn points by contacting our customer service team and providing your purchase information.",
+            "faqid": "",
+            "faqbtn": "What if I forgot to provide my rewards account information at the time of purchase?"
+          }
+        },
+        "3afb10bf-cb52-4771-a172-9655fe9b8dc0": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "The terms and conditions of each reward may vary, but generally rewards cannot be combined with other promotions or discounts.",
+            "faqid": "",
+            "faqbtn": "Can I combine rewards or use them with other promotions?"
+          }
         }
       },
       "block_order": [
@@ -377,7 +401,10 @@
         "50197b77-a866-4c84-822f-5de2acd24250",
         "1cad2b0e-2057-45af-8302-9daecfb35ada",
         "3e965fd6-d7bd-47cc-99b3-28b5faadecd6",
-        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab"
+        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab",
+        "1e13df3f-15d3-41b8-822c-3b49e5adc275",
+        "2028af59-225e-4815-ac65-48b2ddc87c46",
+        "3afb10bf-cb52-4771-a172-9655fe9b8dc0"
       ],
       "settings": {
         "mfaqhead": "FAQS"
