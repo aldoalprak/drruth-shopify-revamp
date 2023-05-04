@@ -184,24 +184,24 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-cake-4030962_1.png",
-            "rehead": "Birthday Reward",
-            "resubhead": "100 POINTS"
+            "rehead": "Birthday Reward ",
+            "resubhead": "50 PAWS"
           }
         },
         "af385b9a-b4c7-43a3-ac81-548037e30137": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
-            "rehead": "Leave a Video Review",
-            "resubhead": "250 POINTS"
+            "rehead": "Write a Review ",
+            "resubhead": "50  PAWS"
           }
         },
         "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
-            "rehead": "Refer a friend",
-            "resubhead": "100 POINTS"
+            "rehead": "Refer a Friend ",
+            "resubhead": "60 PAWS"
           }
         }
       },
