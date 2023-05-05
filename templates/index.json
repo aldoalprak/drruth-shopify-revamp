@@ -25,7 +25,6 @@
         },
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/drruth2.jpg",
             "height": "medium",
@@ -38,15 +37,14 @@
             "grid_type": "type1",
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "center",
-            "heading": "Join a Community of Pet Lovers",
-            "description": "<p>Connect with other like-minded pet owners and receive ongoing support and guidance.<\/p>",
-            "button_label": "JOIN THE COMMUNITY",
+            "heading": "Explore Our Holistic Pet Health Blog",
+            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
+            "button_label": "READ MORE",
             "button_link": ""
           }
         },
         "2548be85-ca59-4cac-91f4-82dd357a90d6": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/drruth4_4475c1e4-4589-4d7e-9eb6-38ebc3bea3fd.jpg",
             "height": "medium",
@@ -59,10 +57,10 @@
             "grid_type": "type1",
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "center",
-            "heading": "Tune in to Our Holistic Pet Care Podcast",
-            "description": "<p>Stay up-to-date on the latest trends and insights in holistic pet care with our informative and engaging podcast.<\/p>",
-            "button_label": "LISTEN NOW",
-            "button_link": ""
+            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
+            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
           }
         }
       },
