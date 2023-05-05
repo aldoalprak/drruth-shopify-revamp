@@ -110,6 +110,12 @@
         "rbannersuburl": ""
       }
     },
+    "5714fa08-4d14-4062-8528-d10eca9d8316": {
+      "type": "get-reward",
+      "settings": {
+        "rewarddes": "Get rewarded for taking care of your furry friends with Dr. Ruth Roberts’ Happy Paws Rewards Program! This program is designed to benefit loyal pet parents with exclusive rewards such as cashback reward program, free products and exclusive merchandise by harvesting loyalty points. Why not join today and start earning rewards for every purchase you make?"
+      }
+    },
     "a150e7da-3455-4f9b-bc95-cfc5dad22d26": {
       "type": "rewardhow-work",
       "blocks": {
@@ -142,7 +148,9 @@
       ],
       "settings": {
         "reworkhead": "How it works? ",
-        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of our Happy Paws Rewards Program, you'll harvest loyalty points: referred to as PAWS,  and receive cashback for every purchase you make to help your furry friend live a healthier life. "
+        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of our Happy Paws Rewards Program, you'll harvest loyalty points: referred to as PAWS,  and receive cashback for every purchase you make to help your furry friend live a healthier life. ",
+        "howbtn": "",
+        "howbtnurl": ""
       }
     },
     "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
@@ -280,7 +288,9 @@
         "poides": "Once you've accumulated enough points in the Happy Paws Rewards Program, you can redeem them for rewards! To redeem your loyalty points, simply log into your rewards account on our website or mobile app, and browse the rewards catalog. You'll find a variety of rewards to choose from, such as discounts on purchases, free products, and exclusive merchandise. Simply select the reward that you want to redeem, and follow the instructions to claim it.",
         "poisubdes": "From customer appreciation gifts to exclusive offers and gifts, we strive to offer the best Rewards program as our way of thanking you for helping us grow our hive throughout the entire globe.A nunc, enim, eu Lorem ipsum dolor sit amet,",
         "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
-        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward, it will be added to your account, and you can use it on your next purchase or whenever you're ready.*Terms & Conditions apply* Check our rewards policy"
+        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward, it will be added to your account, and you can use it on your next purchase or whenever you're ready.*Terms & Conditions apply* Check our rewards policy",
+        "rttitl11": "",
+        "rtitle12": ""
       }
     },
     "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
@@ -453,6 +463,7 @@
     "newsletter",
     "1655751929e34d4e57",
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9",
+    "5714fa08-4d14-4062-8528-d10eca9d8316",
     "a150e7da-3455-4f9b-bc95-cfc5dad22d26",
     "c7c10aca-5c84-401d-a8e2-1f086081ea38",
     "67fac3fb-a3cd-4040-a8f4-512624058aca",
