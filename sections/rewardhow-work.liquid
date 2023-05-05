@@ -1,4 +1,4 @@
-<div class="rewordmax_container">
+<div class="rewordmax_container howrewardflex">
     <div class="rewardwork">
             <h2 class="rewordhead">{{section.settings.reworkhead}}</h2>
             <p class="rewardsub">{{section.settings.rewworkdes}}</p>
@@ -11,6 +11,13 @@
                 </div> 
         {%- endfor -%}
     </div>
+    <div class="howworkbtn">
+        <a href="{{ section.settings.howbtnurl }}" class="howworkorder">{{ section.settings.howbtn }}
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+          </svg>
+        </a>
+    </div> 
    
 </div>
 {% schema %} 
@@ -28,6 +35,16 @@
       "type": "text",
       "id": "rewworkdes",
       "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "howbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "howbtnurl",
+      "label": "Button Link"
     }
    
   ],

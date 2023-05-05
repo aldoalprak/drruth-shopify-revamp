@@ -1,0 +1,44 @@
+<div class="rewardbgbottom">
+    <div class="rewordmax_container">
+        <div class="rewarddes">
+            <p>{{section.settings.rewarddes}}</p>
+        </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "get-reward",
+  "tag": "section",
+  "class": "get-reward",
+  "settings": [
+    
+       {
+      "type": "text",
+      "id": "rewarddes",
+      "label": "Description"
+    }
+    ],
+ "presets": [
+    {
+      "name": "get-reward"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.rewardbgbottom{
+    background: #F5F8F1;
+}
+.rewarddes p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    margin: 0;
+    padding: 10% 0;
+}
+
+</style>

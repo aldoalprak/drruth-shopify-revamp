@@ -15,6 +15,8 @@
     <div class="redersubcontent">
         <h2 class="redersubtitl">{{section.settings.rsubtitlte}}</h2>
         <p class="redemsubdes">{{section.settings.rsubdes}}</p>
+        <h2 class="redertitlle">{{section.settings.rttitl11}}</h2>
+        <h2 class="redertitlle11">{{section.settings.rtitle12}}</h2>
     </div>
 </div>
 {% schema %} 
@@ -48,6 +50,16 @@
       "type": "text",
       "id": "rsubdes",
       "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "rttitl11",
+      "label": "Sub-Title1"
+    },
+    {
+      "type": "text",
+      "id": "rtitle12",
+      "label": "Sub-Title2"
     }
   ],
    "blocks": [
@@ -78,3 +90,24 @@
   ]
 }
 {% endschema %}
+<style>
+h2.redertitlle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin-bottom:0;
+    margin-top: 3%;
+}
+h2.redertitlle11 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+        margin-top: 0;
+}
+</style>

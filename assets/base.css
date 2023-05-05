@@ -4811,6 +4811,7 @@ h2.faqhead {
   letter-spacing: 0.02em;
   color: #184B44;
   text-align: center;
+  margin-bottom: 2%;
 }
 section#shopify-section-template--14909103046721__2681002e-3476-48db-92c0-2576d4ecdb80 .banner__box {
   max-width: 80rem!important;
@@ -5744,11 +5745,11 @@ section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c5
   flex-wrap: wrap;
   align-items: center;
   width: 90%;
-  margin: 0 auto;
+  margin: 2% auto 4% 0; 
 }
 .rflex {
   width: 23%;
-  margin: 0 auto;
+  margin: 2% auto 0 auto;
 }
 h4.rehead {
   font-family: 'Josefin Sans';
@@ -5785,6 +5786,7 @@ h2.retext {
   line-height: 57px;
   letter-spacing: 0.02em;
   color: #184B44;
+  margin-bottom: 2%;
   text-align: center;
 }
 p.redecs {
@@ -5825,7 +5827,7 @@ h2.reverefferhead {
   font-size: 64px;
   line-height: 57px;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: capitalize  ;
   color: #FFFFFF;
   margin-bottom: 0;
 
@@ -5839,7 +5841,7 @@ h2.reverreffdesc {
   color: #FFFFFF;
 }
 .refferconte {
-  width: 65%;
+  width: 75%;
 }
 a.refferorder {
   text-decoration: none;
@@ -5853,7 +5855,7 @@ a.refferorder {
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
-  padding: 18px 20px;
+  padding: 18px 50px 18px 20px;
 }
 h2.rorderhead {
   font-family: 'Oakley Script';
@@ -5862,7 +5864,7 @@ h2.rorderhead {
   font-size: 64px;
   line-height: 57px;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #FFFFFF;
   margin: 0;
 }
@@ -5884,9 +5886,10 @@ h2.redempointhead {
   font-size: 64px;
   line-height: 57px;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #184B44;
   text-align: center;
+  margin-bottom: 2%;
 }
 p.redempointhead {
     font-family: 'Josefin Sans';
@@ -5901,10 +5904,10 @@ p.redempointhead {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 4% 0;
+  margin: 4% 0;width: 90%;
 }
 .redemspace {
-  width: 21%;
+  width: 27%;padding: 1% 0  ;
   margin: 0 auto;
   border: 2px solid #184B44;
   border-radius: 24px;
@@ -5971,10 +5974,9 @@ p.rewardsub {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 5%;
 }
 .rewordworkspace {
-  width: 33%;
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -6086,6 +6088,31 @@ justify-content: center;
 .reoredr {
   background-repeat: no-repeat;
   background-size: cover;
+}
+.howworkbtn {
+  border: 2px solid #184B44;
+  border-radius: 25.5px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+a.howworkorder {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px 56px;
+  line-height: 48px;
+
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+.howrewardflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1150px) {
 .rebannerdetail ,.redemwidth ,.ordercont{
