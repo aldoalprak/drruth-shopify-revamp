@@ -101,8 +101,8 @@
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9": {
       "type": "rewardbanner",
       "settings": {
-        "rbanehead": "Lorem ipsum dolor sit",
-        "rebanneddes": "Lorem ipsum dolor sit amet consectetur. Augue tortor vehicula nulla tempor. Tortor nibh metus non tincidunt enim.",
+        "rbanehead": "Happy Paws Rewards Program",
+        "rebanneddes": "Caring for your pet just got more rewarding! With Dr. Ruth Roberts Happy Paws Rewards Program Harvest Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner! Get rewarded for taking care of your furry friends with Dr. Ruth Roberts’ Happy Paws Rewards Program! This program is designed to benefit loyal pet parents with exclusive rewards such as cashback reward program, free products and exclusive merchandise by harvesting loyalty points. Why not join today and start earning rewards for every purchase you make?",
         "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
         "rbannrbtn": "sign in",
         "rbannerurl": "\/",
@@ -116,22 +116,22 @@
         "140f0be3-db79-4680-a7cc-4207a0004eb1": {
           "type": "block",
           "settings": {
-            "reworktitle": "1. Create an Account",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "1. CREATE AN ACCOUNT",
+            "reworksubtitl": "You can sign up for the program online. It's free to join, and you will receive 50 PAWS just for creating the account."
           }
         },
         "217d03e0-ee7b-4460-8c65-35ebefb823d2": {
           "type": "block",
           "settings": {
-            "reworktitle": "2. Earn Points",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "2. EARN PAWS",
+            "reworksubtitl": "For every dollar you spend at our pet store, you'll earn one PAW. The more you spend, the more PAWS you'll earn!"
           }
         },
         "1f44cd6e-6331-4c0b-ade5-918ea7514d3c": {
           "type": "block",
           "settings": {
-            "reworktitle": "3. Redeem Points",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "3. REDEEM PAWS",
+            "reworksubtitl": "Once you've accumulated enough PAWS, you can redeem them for discounts on future purchases."
           }
         }
       },
@@ -141,8 +141,8 @@
         "1f44cd6e-6331-4c0b-ade5-918ea7514d3c"
       ],
       "settings": {
-        "reworkhead": "How it  work?",
-        "rewworkdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc. Consequat augue scelerisque dolor morbi pellentesque risus quis tortor. Ornare elit a."
+        "reworkhead": "How it works? ",
+        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of our Happy Paws Rewards Program, you'll harvest loyalty points: referred to as PAWS,  and receive cashback for every purchase you make to help your furry friend live a healthier life. "
       }
     },
     "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
@@ -153,55 +153,63 @@
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-facebook-1077041_1.png",
             "rehead": "Like us on Facebook",
-            "resubhead": "30 points"
+            "resubhead": "30 PAWS"
           }
         },
         "617d9dcc-4bf3-486e-9239-a1e141aecba3": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-instagram-1077042_1.png",
-            "rehead": "Follow us on Instagram",
-            "resubhead": "50 POINTS"
+            "rehead": "Follow Us on Instagram",
+            "resubhead": "30 PAWS"
           }
         },
         "7b652a77-d985-4f7c-ab85-fd7309a8644a": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
-            "rehead": "Create an account",
-            "resubhead": "70 POINTS"
+            "rehead": "Create an Account",
+            "resubhead": "70 PAWS"
           }
         },
         "2e3c2db4-e15e-4bf4-b563-b4aabb031d19": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-shopping-bag-2956820_1.png",
-            "rehead": "Purchases",
-            "resubhead": "1EUR=1POINT"
+            "rehead": "Make a purchase",
+            "resubhead": "$1 USD = 1 PAW"
           }
         },
         "0250ef9a-9b62-472d-943b-784d5ecf3fad": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-cake-4030962_1.png",
-            "rehead": "Birthday Reward",
-            "resubhead": "100 POINTS"
+            "rehead": "Birthday Reward ",
+            "resubhead": "50 PAWS"
           }
         },
         "af385b9a-b4c7-43a3-ac81-548037e30137": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
+            "rehead": "Write a Review ",
+            "resubhead": "50  PAWS"
+          }
+        },
+        "4276520b-69e2-4507-8489-f31d8927c082": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
             "rehead": "Leave a Video Review",
-            "resubhead": "250 POINTS"
+            "resubhead": "100 PAWS"
           }
         },
         "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e": {
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
-            "rehead": "Refer a friend",
-            "resubhead": "100 POINTS"
+            "rehead": "Refer a Friend ",
+            "resubhead": "60 PAWS"
           }
         }
       },
@@ -212,18 +220,19 @@
         "2e3c2db4-e15e-4bf4-b563-b4aabb031d19",
         "0250ef9a-9b62-472d-943b-784d5ecf3fad",
         "af385b9a-b4c7-43a3-ac81-548037e30137",
+        "4276520b-69e2-4507-8489-f31d8927c082",
         "27e45485-9eaa-45ab-82a2-e0ae3c1d8f7e"
       ],
       "settings": {
-        "retext": "How to earn points?",
-        "redesc": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper."
+        "retext": "How to earn PAWS? ",
+        "redesc": "The Happy Paws Rewards Program is designed to make sure that our loyal pet owners are well rewarded. With the Happy Paws Rewards Program, you can earn PAWS for every purchase you make at our store, as well as for other activities like referring friends, and leaving reviews. These PAWS can be redeemed for discounts on future purchases, free products, and other exclusive rewards. We're excited to offer this program to our customers and look forward to rewarding you for being a responsible pet owner."
       }
     },
     "67fac3fb-a3cd-4040-a8f4-512624058aca": {
       "type": "rewordreffer",
       "settings": {
-        "reverefe": "REFER A FRIEND",
-        "reverreffs": "Lorem ipsum dolor sit amet consectetur. Commodo elementum nisi in neque quam elementum cursus facilisis in. Ultrices donec ut neque neque senectus massa malesuada. Sed tellus in eros amet morbi. Vestibulum gravida suspendisse integer eget. Vitae maecenas et feugiat et venenatis tempus volutpat. Luctus odio viverra ac at nec faucibus dictum semper.",
+        "reverefe": "Refer a friend ",
+        "reverreffs": "Do you know a fellow pet parent who's always looking for high-quality pet supplements? Refer them to Happy Paws and get rewarded by harvesting loyalty points in our Happy Paws Cashback Rewards Program. For every first purchase by a pet parent you refer to, you'll earn PAWS that you can use to get discounts on your next purchase or redeem for other exclusive rewards. Plus, your friend will also get to enjoy the benefits of the Happy Paws Rewards Program, earning PAWS for their purchases and receiving special offers and promotions. It's a win-win situation for both you and your friend, so start referring today and earn some PAWS while you're at it!",
         "revaback": "shopify:\/\/shop_images\/pexels-chevanon-photography-1108099_1.png"
       }
     },
@@ -233,26 +242,27 @@
         "de30774c-3aff-468a-b83f-5c10893ff5b9": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$5 USD OFF",
+            "redemdesc": "500 PAWS"
           }
         },
         "708399a8-6efd-4989-9538-cfda95410869": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$10 USD",
+            "redemdesc": "1000 PAWS"
           }
         },
         "5c56c534-b387-497b-871c-943f9a645a22": {
           "type": "block",
           "settings": {
-            "redeid": "5 AED OFF",
-            "redemdesc": "500 POINTS"
+            "redeid": "$15 USD",
+            "redemdesc": "1500 PAWS"
           }
         },
         "1f0cbc39-1c42-489b-8e36-e01718daf2aa": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "redeid": "5 AED OFF",
             "redemdesc": "500 POINTS"
@@ -266,11 +276,11 @@
         "1f0cbc39-1c42-489b-8e36-e01718daf2aa"
       ],
       "settings": {
-        "pohead": "REEDEM YOUR POINTS",
-        "poides": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enjoy Exclusive discounts and great benefits that are tailored to your shopping desires with our hive Loyalty program that stands above any Rewards programs, brought for our honey loving enthusiasts and our loyal clients.",
+        "pohead": "Redeem your loyalty points and get rewards",
+        "poides": "Once you've accumulated enough points in the Happy Paws Rewards Program, you can redeem them for rewards! To redeem your loyalty points, simply log into your rewards account on our website or mobile app, and browse the rewards catalog. You'll find a variety of rewards to choose from, such as discounts on purchases, free products, and exclusive merchandise. Simply select the reward that you want to redeem, and follow the instructions to claim it.",
         "poisubdes": "From customer appreciation gifts to exclusive offers and gifts, we strive to offer the best Rewards program as our way of thanking you for helping us grow our hive throughout the entire globe.A nunc, enim, eu Lorem ipsum dolor sit amet,",
         "rsubtitlte": "REDeEM YOUR POINTS at checkout!",
-        "rsubdes": "Lorem ipsum dolor sit amet consectetur. Hac faucibus sit dignissim at faucibus vel iaculis tellus. Elit convallis magna commodo amet tristique diam ultrices in at. Dictum vivamus ullamcorper felis lobortis adipiscing facilisis. Ac varius pellentesque pellentesque semper nunc."
+        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward, it will be added to your account, and you can use it on your next purchase or whenever you're ready.*Terms & Conditions apply* Check our rewards policy"
       }
     },
     "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
@@ -279,32 +289,149 @@
         "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "The Dr. Ruth Roberts’ Happy Paws Rewards Program is a loyalty program designed to reward our loyal customers for taking care of their pets’ wellness and health.",
             "faqid": "",
-            "faqbtn": "What is one-to-one mentorship work? "
+            "faqbtn": "What is the Happy Paws Rewards Program?"
           }
         },
         "8c6eaed6-2782-4203-8fe9-3fa532c91730": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "You can join the Happy Paws Rewards Program by signing up online. Simply provide your name, email address, and any other required information to start earning rewards.",
             "faqid": "",
-            "faqbtn": "What are the Q&A Weekly sessions? "
+            "faqbtn": "How do I join the Happy Paws Rewards Program?"
           }
         },
         "fae00ea1-9ea8-4d8e-80eb-9495972411e8": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "You can earn loyalty points by making purchases at our store, referring friends, leaving reviews, and following us on social media. Each activity earns you a certain number of points, which can be redeemed for rewards.",
             "faqid": "",
-            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+            "faqbtn": "How do I harvest loyalty points in the Happy Paws Rewards Program?"
+          }
+        },
+        "c9f3f596-7914-4766-852a-7ea83fe662d7": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "You can redeem your points for a variety of rewards, such as discounts on purchases, free products, and exclusive merchandise. Simply log in to your rewards account to browse the rewards catalog and select the reward you want.",
+            "faqid": "",
+            "faqbtn": "What can I do with my loyalty points?"
+          }
+        },
+        "7087d56c-8090-44c3-80ff-81cad57cedf5": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "There is no limit to the number of points you can earn in the Happy Paws Rewards Program. The more you engage with our brand, the more points you'll earn.",
+            "faqid": "",
+            "faqbtn": "Is there a limit to the number of loyalty points I can earn?"
+          }
+        },
+        "d239c617-b77f-4070-96f6-7c599c3e621c": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "A: You can check your points balance by logging in to your rewards account online or on our mobile app. Your points balance will be displayed on the rewards dashboard.",
+            "faqid": "",
+            "faqbtn": "How do I check my points balance?"
+          }
+        },
+        "50197b77-a866-4c84-822f-5de2acd24250": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "The points you earn in the Happy Paws Rewards Program do not expire as long as you remain an active member of the program.",
+            "faqid": "",
+            "faqbtn": "Do my points expire?"
+          }
+        },
+        "1cad2b0e-2057-45af-8302-9daecfb35ada": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, points are non-transferable and can only be used by the member who earned them.",
+            "faqid": "",
+            "faqbtn": "Can I share my points with someone else?"
+          }
+        },
+        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, there are no fees associated with the Happy Paws Rewards Program. It is a free program that rewards our loyal customers.",
+            "faqid": "",
+            "faqbtn": "Are there any fees associated with the Happy Paws Rewards Program?"
+          }
+        },
+        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "To earn points for referring a friend, simply share your unique referral link with them. When they make their first purchase using your link, you'll earn a certain number of points.",
+            "faqid": "",
+            "faqbtn": "How do I earn points for referring a friend?"
+          }
+        },
+        "1e13df3f-15d3-41b8-822c-3b49e5adc275": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Unfortunately, points cannot be earned for past purchases made before joining the Happy Paws Rewards Program.",
+            "faqid": "",
+            "faqbtn": "Can I earn loyalty points for past purchases?"
+          }
+        },
+        "2028af59-225e-4815-ac65-48b2ddc87c46": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If you forgot to provide your rewards account information at the time of purchase, you may still be able to earn points by contacting our customer service team and providing your purchase information.",
+            "faqid": "",
+            "faqbtn": "What if I forgot to provide my rewards account information at the time of purchase?"
+          }
+        },
+        "3afb10bf-cb52-4771-a172-9655fe9b8dc0": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "The terms and conditions of each reward may vary, but generally rewards cannot be combined with other promotions or discounts.",
+            "faqid": "",
+            "faqbtn": "Can I combine rewards or use them with other promotions?"
+          }
+        },
+        "d6ed0aeb-7256-46a4-b649-e929d9d7de94": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If you return a product, any points earned for that purchase will be deducted from your rewards account balance.",
+            "faqid": "",
+            "faqbtn": "What happens to my loyalty points if I return a product?"
+          }
+        },
+        "68823fb4-5224-4fe9-96f4-8f9a995bd1af": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can earn points for writing product reviews, as long as they meet our guidelines and are approved by our team.",
+            "faqid": "",
+            "faqbtn": "Can I earn points for writing product reviews?"
+          }
+        },
+        "b8f66249-d9d9-49f0-ba2b-d26ef3ab2d9a": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We'll notify you via email or through our mobile app when new rewards become available, so be sure to keep an eye out for updates!",
+            "faqid": "",
+            "faqbtn": "How do I know when new rewards are available?"
           }
         }
       },
       "block_order": [
         "94c2faa9-9bbf-40e0-9d29-b397ba2ddaaf",
         "8c6eaed6-2782-4203-8fe9-3fa532c91730",
-        "fae00ea1-9ea8-4d8e-80eb-9495972411e8"
+        "fae00ea1-9ea8-4d8e-80eb-9495972411e8",
+        "c9f3f596-7914-4766-852a-7ea83fe662d7",
+        "7087d56c-8090-44c3-80ff-81cad57cedf5",
+        "d239c617-b77f-4070-96f6-7c599c3e621c",
+        "50197b77-a866-4c84-822f-5de2acd24250",
+        "1cad2b0e-2057-45af-8302-9daecfb35ada",
+        "3e965fd6-d7bd-47cc-99b3-28b5faadecd6",
+        "43e4aec9-d88d-48ee-9fd7-bdf181aa84ab",
+        "1e13df3f-15d3-41b8-822c-3b49e5adc275",
+        "2028af59-225e-4815-ac65-48b2ddc87c46",
+        "3afb10bf-cb52-4771-a172-9655fe9b8dc0",
+        "d6ed0aeb-7256-46a4-b649-e929d9d7de94",
+        "68823fb4-5224-4fe9-96f4-8f9a995bd1af",
+        "b8f66249-d9d9-49f0-ba2b-d26ef3ab2d9a"
       ],
       "settings": {
         "mfaqhead": "FAQS"
@@ -313,10 +440,10 @@
     "7140c7be-0909-434a-9dba-f7758017807c": {
       "type": "reword_order",
       "settings": {
-        "reordrhead": "get 10% of your first order",
-        "reorderdes": "Join our email list for exclusive offers and the latest news.",
+        "reordrhead": "Happy Paws Affiliates Program",
+        "reorderdes": "Earn a 10% commission on every sale made through your unique referral link.",
         "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
-        "reorderbtn": "email",
+        "reorderbtn": "JOIN NOW",
         "reorderbtnurl": ""
       }
     }
