@@ -721,12 +721,14 @@
         <div class="product_tab_content">
           {%- if product.metafields.custom.revamp_instruction != blank -%}
             {{block.settings.instructions_content}}
-          {%- else -%}
+          {%- elsif if  product.metafields.custom.revamp_instruction_image != blank-%}
             {{block.settings.instructions_content_image | image_url: width: 500
               | image_tag:
                 loading: 'lazy',
                 width: 500
             }}
+          {%- else -%}
+            <p></p>
           {%- endif -%}
         </div >
       </div>     
