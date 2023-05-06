@@ -261,6 +261,16 @@
         "afffaqbtn": "learn more",
         "affaqurl": ""
       }
+    },
+    "78624dc2-84f9-4cfa-910b-8fb91908a1b1": {
+      "type": "reword_order",
+      "settings": {
+        "reordrhead": "get 10% of your first order",
+        "reorderdes": "Join our email list for exclusive offers and the latest news.",
+        "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
+        "reorderbtn": "email",
+        "reorderbtnurl": ""
+      }
     }
   },
   "order": [
@@ -272,6 +282,7 @@
     "14344ee5-e775-4532-916a-9fd39507dca1",
     "0fa81b89-378e-4db6-b61b-7c08bcde9479",
     "6a71e337-32ab-49c3-bb32-9946d20250ed",
-    "4549672f-831b-40be-806c-6108ae362ecf"
+    "4549672f-831b-40be-806c-6108ae362ecf",
+    "78624dc2-84f9-4cfa-910b-8fb91908a1b1"
   ]
 }
