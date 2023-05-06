@@ -154,6 +154,40 @@
         "howbtn": "button",
         "howbtnurl": ""
       }
+    },
+    "0fa81b89-378e-4db6-b61b-7c08bcde9479": {
+      "type": "affiliate-iconblock",
+      "blocks": {
+        "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_8.png",
+            "afficonsubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "202a0da8-8ff7-4c0f-90b3-f51388c78c04": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_10.png",
+            "afficonsubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "1b43b53f-1f87-4039-9b54-e4f190fb5fcf": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_9.png",
+            "afficonsubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        }
+      },
+      "block_order": [
+        "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27",
+        "202a0da8-8ff7-4c0f-90b3-f51388c78c04",
+        "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
+      ],
+      "settings": {
+        "afficonhead": ""
+      }
     }
   },
   "order": [
@@ -162,6 +196,7 @@
     "1655751929e34d4e57",
     "ef19d89c-189d-45a1-ac1f-7395d0135cef",
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af",
-    "14344ee5-e775-4532-916a-9fd39507dca1"
+    "14344ee5-e775-4532-916a-9fd39507dca1",
+    "0fa81b89-378e-4db6-b61b-7c08bcde9479"
   ]
 }
