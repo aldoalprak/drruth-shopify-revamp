@@ -1,19 +1,21 @@
-<div class="rewordmax_container howrewardflex">
-    <div class="rewardwork">
-            <h2 class="rewordhead">{{section.settings.afficonhead}}</h2>
-    </div>
-    <div class=" afficoncontent">
-        {%- for block in section.blocks -%}
-                <div class="rewordworkspace">
-                    <div class="affsvgicon">
-                        <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
-                    </div>
-                    <h3 class="reworkdescc">{{block.settings.afficonsubtitl}}</h3>
-                </div> 
-        {%- endfor -%}
-    </div>
+<div class="bortop">
+    <div class="rewordmax_container howrewardflex">
+        <div class="rewardwork">
+                <h2 class="rewordhead">{{section.settings.afficonhead}}</h2>
+        </div>
+        <div class=" afficoncontent">
+            {%- for block in section.blocks -%}
+                    <div class="rewordworkspace">
+                        <div class="affsvgicon">
+                            <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                        </div>
+                        <h3 class="reworkdescc">{{block.settings.afficonsubtitl}}</h3>
+                    </div> 
+            {%- endfor -%}
+        </div>
    
    
+    </div>
 </div>
 {% schema %} 
 {
@@ -57,6 +59,12 @@
 }
 {% endschema %}
 <style>
+.bortop{
+    border-top: 1px solid #F5F8F1;
+}
+.rewardwork {
+    margin-top: 4%;
+}
 .afficoncontent{
         display: flex;
     flex-wrap: wrap;

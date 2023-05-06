@@ -5875,7 +5875,7 @@ h2.rorderdes {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #FFFFFF;margin-bottom: 3%;
 }
 .reordebtn a.refferorder svg{
   margin-left: 13%;
@@ -5961,7 +5961,7 @@ h2.rewordhead {
   color: #184B44;
   text-align: center;
   padding-top: 5%;
-  margin-bottom: 0 ;
+  margin-bottom: 10px;
 }
 p.rewardsub {
   font-family: 'Josefin Sans';
