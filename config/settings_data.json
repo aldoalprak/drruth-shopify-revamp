@@ -231,6 +231,52 @@
       },
       "describe": {
         "type": "describe",
+        "blocks": {
+          "e8274d1f-360e-4989-8571-73e4043832c4": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am a pet owner looking to improve the health and wellness of my own pets."
+            }
+          },
+          "7a171e71-562b-45f0-9061-434bc22f55d5": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am a professional working in the pet care industry (e.g. veterinarian, pet sitter, dog walker, groomer, pet day care, etc.)"
+            }
+          },
+          "15ab1a00-c558-429e-99cc-08ebb26c580e": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am a pet trainer or behaviorist."
+            }
+          },
+          "48d51d91-2c26-435b-9cf6-3ebc9a26dd68": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am interested in pursuing a career as a pet health coach."
+            }
+          },
+          "d373ec88-50ca-4ba6-a2d3-39ee26245efd": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am a volunteer at an animal shelter or rescue organization. Other (please specify)."
+            }
+          },
+          "e5c65594-483b-415d-b751-a8b983841ab6": {
+            "type": "Radio",
+            "settings": {
+              "describeradio": "I am a holistic health practitioner looking to expand my knowledge to include pet health."
+            }
+          }
+        },
+        "block_order": [
+          "e8274d1f-360e-4989-8571-73e4043832c4",
+          "7a171e71-562b-45f0-9061-434bc22f55d5",
+          "15ab1a00-c558-429e-99cc-08ebb26c580e",
+          "48d51d91-2c26-435b-9cf6-3ebc9a26dd68",
+          "d373ec88-50ca-4ba6-a2d3-39ee26245efd",
+          "e5c65594-483b-415d-b751-a8b983841ab6"
+        ],
         "settings": {
           "describehead": "What best describes you?",
           "describedesa": "please check all that apply  (1 of 8)"
