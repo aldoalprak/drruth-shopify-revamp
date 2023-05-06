@@ -109,12 +109,21 @@
         "affbannrsubbtn": "button",
         "affbannersuburl": ""
       }
+    },
+    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
+      "type": "affiliate-richtext",
+      "settings": {
+        "affrichtitle": "Lorem ipsum dolor sit amet consectetur. In commodo commodo quisque eget nunc donec augue integer ut.",
+        "affrichhead": "Lorem ipsum dolor sit amet",
+        "rewarddes": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo leo mauris pharetra magna. Eget gravida nec laoreet sodales tincidunt. Etiam arcu libero sociis cursus. Pharetra iaculis sollicitudin non iaculis viverra."
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
     "1655751929e34d4e57",
-    "ef19d89c-189d-45a1-ac1f-7395d0135cef"
+    "ef19d89c-189d-45a1-ac1f-7395d0135cef",
+    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af"
   ]
 }
