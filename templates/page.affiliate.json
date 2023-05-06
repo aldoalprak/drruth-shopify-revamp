@@ -120,6 +120,34 @@
     },
     "14344ee5-e775-4532-916a-9fd39507dca1": {
       "type": "rewardhow-work",
+      "blocks": {
+        "049a7ad1-17b7-4138-8b6f-8a49ec40fca9": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 1",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "07c6fca2-e84a-4002-be1a-31d94f4a8206": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 1",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        },
+        "0bae6c9b-4859-432b-8457-6a3a1d14a364": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 1",
+            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+          }
+        }
+      },
+      "block_order": [
+        "049a7ad1-17b7-4138-8b6f-8a49ec40fca9",
+        "07c6fca2-e84a-4002-be1a-31d94f4a8206",
+        "0bae6c9b-4859-432b-8457-6a3a1d14a364"
+      ],
       "settings": {
         "reworkhead": "Lorem ipsum dolor sit amet",
         "rewworkdes": "",
