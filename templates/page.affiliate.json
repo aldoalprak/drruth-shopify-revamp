@@ -147,7 +147,8 @@
         "0bae6c9b-4859-432b-8457-6a3a1d14a364"
       ],
       "custom_css": [
-        "h2.reworktitlle{text-align:center;}"
+        "h2.reworktitlle {text-align: center;}",
+        "h3.reworkdescc{text-align:center;}"
       ],
       "settings": {
         "reworkhead": "Lorem ipsum dolor sit amet",
