@@ -188,6 +188,39 @@
       "settings": {
         "afficonhead": ""
       }
+    },
+    "6a71e337-32ab-49c3-bb32-9946d20250ed": {
+      "type": "aff-img-text",
+      "blocks": {
+        "3fb09566-8492-4f1e-9c2d-0676fb8d2c38": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png"
+          }
+        },
+        "9d75e536-77c4-46cf-a65e-0a1f3d6748fe": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/Frame_7.png"
+          }
+        },
+        "04c2f0be-1cc1-4821-989b-573c5aaccedc": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/Vector_6.png"
+          }
+        }
+      },
+      "block_order": [
+        "3fb09566-8492-4f1e-9c2d-0676fb8d2c38",
+        "9d75e536-77c4-46cf-a65e-0a1f3d6748fe",
+        "04c2f0be-1cc1-4821-989b-573c5aaccedc"
+      ],
+      "settings": {
+        "affimghead": "Lorem ipsum dolor sit amet consectetur",
+        "affimgdes": "Lorem ipsum dolor sit amet consectetur. At diam viverra aliquet habitasse turpis. Ligula magna egestas ac consequat elementum quis convallis massa. Tellus maecenas nullam fames id mi facilisis ultrices malesuada in. Sed tortor id at nulla ut ultricies.",
+        "affimgbg": "shopify:\/\/shop_images\/Image_4.png"
+      }
     }
   },
   "order": [
@@ -197,6 +230,7 @@
     "ef19d89c-189d-45a1-ac1f-7395d0135cef",
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af",
     "14344ee5-e775-4532-916a-9fd39507dca1",
-    "0fa81b89-378e-4db6-b61b-7c08bcde9479"
+    "0fa81b89-378e-4db6-b61b-7c08bcde9479",
+    "6a71e337-32ab-49c3-bb32-9946d20250ed"
   ]
 }
