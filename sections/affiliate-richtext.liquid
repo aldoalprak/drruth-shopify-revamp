@@ -1,0 +1,95 @@
+<div class="rewordmax_container">
+        <div class="afftitle">
+                 <h2 class="affittle">{{section.settings.affrichtitle}}</h2>
+        </div>
+</div>
+<div class="rewardbgbottom">
+    <div class="rewordmax_container">
+        <div class="affrichpadd">
+            <h2 class="affrichhead">{{section.settings.affrichhead}}</h2>
+            <p>{{section.settings.rewarddes}}</p>
+        </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "affiliate-richtext",
+  "tag": "section",
+  "class": "affiliate-richtext",
+  "settings": [
+    {
+      "type": "text",
+      "id": "affrichtitle",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "affrichhead",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "rewarddes",
+      "label": "Description"
+    }
+    ],
+ "presets": [
+    {
+      "name": "affiliate-richtext"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.rewardbgbottom{
+    background: #F5F8F1;
+}
+.rewarddes p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    margin: 0;
+    padding: 10% 0;
+}
+.affrichpadd {
+    padding: 10% 0;
+}
+.affrichpadd p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 72%;
+    margin: 0 auto;
+}
+h2.affittle {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+h2.affrichhead {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1E1E1E;
+    margin: 16px;
+}
+</style>

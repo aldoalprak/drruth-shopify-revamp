@@ -1,0 +1,151 @@
+<div class=" ">
+    <div class="afficonflex">
+        <div class="affwidth50 bgclass">
+                <div class="affimgcontent">
+                    <div class="affconpadd">
+                        <h2 class="affimghead">{{section.settings.affimghead}}</h2>
+                        <p class="affimgdes">{{section.settings.affimgdes}}</p>
+                    </div>
+                    <div class=" affimgiconwith">
+                        {%- for block in section.blocks -%}
+                            <div class="affimgsvg">
+                                <img src="{{ block.settings.affimgicon | img_url: 'medium' }}" alt="">
+                            </div>
+                        {%- endfor -%}
+                    </div>
+                </div>
+        </div>
+        <div class="affwidth50">
+            <div class="affwidthback">
+                <img src="{{ section.settings.affimgbg | img_url: 'medium' }}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "aff-img-text",
+  "tag": "section",
+  "class": "aff-img-text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "affimghead",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "affimgdes",
+      "label": "Description"
+    },
+    {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "affimgbg"
+        }
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+      
+     {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "affimgicon"
+        }
+    
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "aff-img-text"
+    }
+  ]
+}
+{% endschema %}
+<style>
+h2.affimghead {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1E1E1E;
+    padding-right: 27%;
+}
+.affwidthback{
+    display:flex;
+}
+p.affimgdes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    padding-right: 6%;
+}
+.afficonflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.affwidth50 {
+    width: 50%;
+}
+.affwidthback img{
+    width:100%;
+        min-height: 400px;
+}
+.affwidth50.bgclass{
+    background: #F5F8F1;
+    display: flex;
+}
+.affimgcontent {
+    width: 70%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.affimgiconwith {
+    display: flex;
+    align-items: center;
+}
+.affimgsvg{
+        margin: 0 10px;
+}
+@media screen and (max-width: 1400px) {
+    .affimgcontent {
+    width: 80%;
+    }
+}
+@media screen and (max-width: 1230px) {
+     .affimgcontent {
+    width: 90%;
+    }
+   
+} 
+@media screen and (max-width: 850px) {
+    .affwidth50 {
+    width: 100%;
+}
+.affwidth50.bgclass{
+    order:2;
+}
+.affwidthback img{
+    height:auto;
+}
+}
+@media screen and (max-width: 520px) {
+    .affimgcontent {
+    width: 98%;
+}
+}
+</style>

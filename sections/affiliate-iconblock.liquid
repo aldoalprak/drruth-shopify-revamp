@@ -1,0 +1,76 @@
+<div class="rewordmax_container howrewardflex">
+    <div class="rewardwork">
+            <h2 class="rewordhead">{{section.settings.afficonhead}}</h2>
+    </div>
+    <div class=" afficoncontent">
+        {%- for block in section.blocks -%}
+                <div class="rewordworkspace">
+                    <div class="affsvgicon">
+                        <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                    </div>
+                    <h3 class="reworkdescc">{{block.settings.afficonsubtitl}}</h3>
+                </div> 
+        {%- endfor -%}
+    </div>
+   
+   
+</div>
+{% schema %} 
+{
+  "name": "affiliate-iconblock",
+  "tag": "section",
+  "class": "affiliate-iconblock",
+  "settings": [
+    {
+      "type": "text",
+      "id": "afficonhead",
+      "label": "Heading"
+    }
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+      
+     {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "rewardpoint"
+        },
+      {
+    "type": "text",
+    "id": "afficonsubtitl",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "affiliate-iconblock"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.afficoncontent{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        margin-top: 3%;
+        margin-bottom:5%;
+}
+.affsvgicon {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 520px) {
+    h2.rewordhead{
+        font-size:38px;
+    }
+}
+</style>

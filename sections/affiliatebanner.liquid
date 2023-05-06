@@ -1,0 +1,122 @@
+<div class="">
+      <div class="rebanner" style="background-image:url('{{section.settings.rebanner | img_url:'master'}}');">                  
+              <div class="rebanercontent rewordmax_container">
+                  <div class="rebannerdetail ">
+                    <h2 class="affbanerhead">{{section.settings.rbanehead }}</h2>
+                    
+                        <div class="revebannerdes">
+                            <h2 class="affbannerdes">{{section.settings.rebanneddes}}</h2>
+                        </div>
+                        <div class="affbannerbtn">
+                            
+                            <div class="affbanersign">
+                                <a href="{{ section.settings.affbannersuburl }}" class="">{{ section.settings.affbannrsubbtn }}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                                        <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div> 
+                  </div>
+
+              </div> 
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "affiliatebanner",
+  "tag": "section",
+  "class": "affiliatebanner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "rbanehead",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "rebanneddes",
+      "label": "Sub Heading"
+    },
+   {
+    "type": "image_picker",
+    "id": "rebanner",
+    "label": "Image"
+      },
+       {
+      "type": "text",
+      "id": "rbannrbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "rbannerurl",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "affbannrsubbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "affbannersuburl",
+      "label": "Button Link"
+    }
+  ],
+
+ "presets": [
+    {
+      "name": "affiliatebanner"
+    }
+  ]
+}
+
+{% endschema %}
+<style>
+h2.affbanerhead{
+        font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 22%;
+    margin-bottom: 0;
+}
+h2.affbannerdes {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 5%;
+
+}
+.affbannerbtn{
+    display:flex;
+}
+.affbanersign{
+    border: 2px solid #FFFFFF;
+    border-radius: 25.5px;
+   padding: 7px 40px 7px 30px;
+}
+.affbanersign a {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+        text-decoration: none;
+}
+.affbanersign svg{
+        margin-left: 50px;
+}
+</style>
+ 
