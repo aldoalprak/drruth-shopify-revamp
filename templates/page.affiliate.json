@@ -221,6 +221,46 @@
         "affimgdes": "Lorem ipsum dolor sit amet consectetur. At diam viverra aliquet habitasse turpis. Ligula magna egestas ac consequat elementum quis convallis massa. Tellus maecenas nullam fames id mi facilisis ultrices malesuada in. Sed tortor id at nulla ut ultricies.",
         "affimgbg": "shopify:\/\/shop_images\/Image_4.png"
       }
+    },
+    "4549672f-831b-40be-806c-6108ae362ecf": {
+      "type": "affiliate",
+      "blocks": {
+        "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What is one-to-one mentorship work? "
+          }
+        },
+        "ecde324b-ce9f-4f7a-b7fe-446baf62e751": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What are the Q&A Weekly sessions? "
+          }
+        },
+        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        }
+      },
+      "block_order": [
+        "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3",
+        "ecde324b-ce9f-4f7a-b7fe-446baf62e751",
+        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad"
+      ],
+      "settings": {
+        "addhead": "Lorem ipsum dolor sit amet consectetur. In commodo commodo quisque eget nunc donec augue integer ut.",
+        "mfaqhead": "FAQS",
+        "afffaqbtn": "learn more",
+        "affaqurl": ""
+      }
     }
   },
   "order": [
@@ -231,6 +271,7 @@
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af",
     "14344ee5-e775-4532-916a-9fd39507dca1",
     "0fa81b89-378e-4db6-b61b-7c08bcde9479",
-    "6a71e337-32ab-49c3-bb32-9946d20250ed"
+    "6a71e337-32ab-49c3-bb32-9946d20250ed",
+    "4549672f-831b-40be-806c-6108ae362ecf"
   ]
 }
