@@ -3,7 +3,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-<div class="rewordmax_container ">
+<div class="rewordmax_container afffaqflex">
 <div class="affborde">
   <h2 class="affhead">{{section.settings.addhead}}</h2>
 </div>
@@ -35,7 +35,7 @@
         
 </div>
     <div class="afficibtn">
-            <a href="{{ section.settings.affaqurl }}" class="howworkorder">{{ section.settings.afffaqbtn }}
+            <a href="{{ section.settings.affaqurl }}" class="howworkorder afffaqbtn">{{ section.settings.afffaqbtn }}
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
                     <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
                 </svg>
@@ -101,6 +101,9 @@
 }
 {% endschema %}
 <style>
+.wi90.accordion-container .set{
+margin:3% 0;
+}
 h2.affhead {
     font-family: 'BLT-Heirloom';
     font-style: normal;
@@ -122,7 +125,6 @@ h2.affhead {
   
 }
 .afficibtn{
-        width: 30%;
     margin: 0 auto;
     border: 2px solid #184B44;
     border-radius: 25.5px;
@@ -137,13 +139,16 @@ h2.affhead {
   padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
 }
+.afffaqflex{
+    display: flex;
+    flex-direction: column;
+}
 .set{
   position: relative;
-  width: 95%;
+  width: 100%;
   height: auto;
  background: #F5F8F1;
 border-radius: 24px;
-margin: 3%;
 }
 .wi90.accordion-container .set > a {
 padding: 4% 4%;
@@ -191,8 +196,28 @@ color: #1E1E1E;
     line-height: 30px;
     color: #1E1E1E;
 }
+
+@media screen and (max-width: 520px){
+    h2.affhead{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .affborde{
+        width:98%;
+    }
+}
+@media screen and (max-width: 420px){
+    a.howworkorder.afffaqbtn{
+        padding: 0px 48px;
+    }
+}
+@media screen and (max-width: 320px){
+    a.howworkorder.afffaqbtn {
+    padding: 0px 28px;
+}
+}
 </style>
-<script>
+<script> 
 $(document).ready(function() {
    
   $(".set > a").on("click", function(e) {

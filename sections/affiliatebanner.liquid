@@ -4,7 +4,7 @@
                   <div class="rebannerdetail ">
                     <h2 class="affbanerhead">{{section.settings.rbanehead }}</h2>
                     
-                        <div class="revebannerdes">
+                        <div class="revebannerdes affbenner">
                             <h2 class="affbannerdes">{{section.settings.rebanneddes}}</h2>
                         </div>
                         <div class="affbannerbtn">
@@ -43,16 +43,7 @@
     "id": "rebanner",
     "label": "Image"
       },
-       {
-      "type": "text",
-      "id": "rbannrbtn",
-      "label": "Button"
-    },
-     {
-      "type": "url",
-      "id": "rbannerurl",
-      "label": "Button Link"
-    },
+      
     {
       "type": "text",
       "id": "affbannrsubbtn",
@@ -117,6 +108,24 @@ h2.affbannerdes {
 }
 .affbanersign svg{
         margin-left: 50px;
+}
+@media screen and (max-width: 991px) {
+  h2.affbanerhead{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 768px){
+.revebannerdes.affbenner {
+    width: 80%;
+}
+}
+@media screen and (max-width: 620px){
+.revebannerdes.affbenner {
+    width: 80%;
+}
+h2.affbanerhead {
+    width: 65%;
+}
 }
 </style>
  
