@@ -103,9 +103,7 @@
       "settings": {
         "rbanehead": "Lorem ipsum dolor sit",
         "rebanneddes": "Lorem ipsum dolor sit amet consectetur.",
-        "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
-        "rbannrbtn": "",
-        "rbannerurl": "",
+        "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
         "affbannrsubbtn": "button",
         "affbannersuburl": ""
       }
@@ -148,6 +146,10 @@
         "07c6fca2-e84a-4002-be1a-31d94f4a8206",
         "0bae6c9b-4859-432b-8457-6a3a1d14a364"
       ],
+      "custom_css": [
+        "h2.reworktitlle {text-align: center;}",
+        "h3.reworkdescc {text-align: center;}"
+      ],
       "settings": {
         "reworkhead": "Lorem ipsum dolor sit amet",
         "rewworkdes": "",
@@ -186,7 +188,7 @@
         "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
       ],
       "settings": {
-        "afficonhead": ""
+        "afficonhead": "Lorem ipsum dolor sit amet"
       }
     },
     "6a71e337-32ab-49c3-bb32-9946d20250ed": {
