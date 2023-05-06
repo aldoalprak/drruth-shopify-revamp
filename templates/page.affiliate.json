@@ -148,7 +148,7 @@
       ],
       "custom_css": [
         "h2.reworktitlle {text-align: center;}",
-        "h3.reworkdescc{text-align:center;}"
+        "h3.reworkdescc {text-align: center;}"
       ],
       "settings": {
         "reworkhead": "Lorem ipsum dolor sit amet",
@@ -188,7 +188,7 @@
         "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
       ],
       "settings": {
-        "afficonhead": ""
+        "afficonhead": "Lorem ipsum dolor sit amet"
       }
     },
     "6a71e337-32ab-49c3-bb32-9946d20250ed": {
