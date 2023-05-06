@@ -2,59 +2,80 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
+    "b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd": {
+      "type": "rx-rich-text",
       "blocks": {
-        "heading": {
+        "template--14898486280257__b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd-1683205563f3e19933-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading": "<p>Book a Session<\/p>"
           }
         },
-        "paragraph": {
-          "type": "paragraph",
+        "c805630b-650c-4828-a411-6f6787d74214": {
+          "type": "caption",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
+            "caption": "FILL OUT THE FORM BELOW AND I'LL GET BACK TO YOU WITHIN 48 HOURS!"
           }
         }
       },
       "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
+        "template--14898486280257__b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd-1683205563f3e19933-0",
+        "c805630b-650c-4828-a411-6f6787d74214"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
         "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "e269a92a-d415-48e5-81af-de2ed3d26423": {
+      "type": "rx-contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "78640aa1-5398-49e4-acaf-4132e75b97af": {
+      "type": "rx-banner-text-v2",
+      "blocks": {
+        "ffd5c83d-676b-4d97-83cb-5ca7de87434e": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ffd5c83d-676b-4d97-83cb-5ca7de87434e"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/Image_4.png",
+        "heading": "",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>",
+        "content2": "",
+        "layout": "text_first"
       }
     }
   },
   "order": [
     "main",
-    "form",
-    "newsletter"
+    "b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd",
+    "e269a92a-d415-48e5-81af-de2ed3d26423",
+    "78640aa1-5398-49e4-acaf-4132e75b97af"
   ]
 }

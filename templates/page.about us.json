@@ -117,31 +117,31 @@
         "ca8dfa28-dce9-4131-bd91-675d5427991e": {
           "type": "text",
           "settings": {
-            "maintext": "Doctor of Veterinary Medicine (DVM)"
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
           }
         },
         "a753ac19-9be2-475d-8234-62bc15299e62": {
           "type": "text",
           "settings": {
-            "maintext": "Certified Veterinary Food Therapy (CVFT)"
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
           }
         },
         "9fe41f38-6a53-4888-a340-72395aaa6d91": {
           "type": "text",
           "settings": {
-            "maintext": "Certified Veterinary Acupuncturist (CVA)"
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
           }
         },
         "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5": {
           "type": "text",
           "settings": {
-            "maintext": "Natural Animal Nutrition (NAN)"
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
           }
         },
         "40f8a5be-52bb-4753-848a-d6031b4ce24b": {
           "type": "text",
           "settings": {
-            "maintext": "Certified Veterinary Chinese Herbology (CVH)"
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
           }
         }
       },
@@ -225,7 +225,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/coachingmain1"
           }
         }
       },

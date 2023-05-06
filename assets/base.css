@@ -5665,6 +5665,7 @@ border-radius: 24px;
   border-color: #184B44;
   padding: 15px 20px;
   letter-spacing: 0.2em;
+  cursor: pointer;
 }
 
 #rx_read_more_arrow_black {
