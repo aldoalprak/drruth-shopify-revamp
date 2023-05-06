@@ -232,8 +232,8 @@
       "describe": {
         "type": "describe",
         "settings": {
-          "describehead": "",
-          "describedesa": ""
+          "describehead": "What best describes you?",
+          "describedesa": "please check all that apply  (1 of 8)"
         }
       },
       "question": {
