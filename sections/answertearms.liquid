@@ -10,6 +10,16 @@
 
         </div>
         <div class="alignbtn">
+          <div class=" appbtnss">
+            <button type="submit" class="appbtnspacess">
+              {{ 'templates.contact.form.send' | t }}
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+              </svg>
+            </button>
+        </div>
+      </div>
+        <div class="alignbtn">
             <div class="appbtnss">
                 <a href="{{ section.settings.formurl }}" class="appbtnspacess">{{ section.settings.formbtn }} 
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
@@ -94,6 +104,22 @@ a.appbtnspacess {
     display: flex;
         padding: 15px 20px;
     align-items: center;
+}
+button.appbtnspacess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    display: flex;
+        padding: 15px 20px;
+    align-items: center;
+        background: transparent;
+        border: none;
 }
 .appbtnss {
     border: 2px solid #184B44;
