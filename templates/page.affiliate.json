@@ -117,6 +117,15 @@
         "affrichhead": "Lorem ipsum dolor sit amet",
         "rewarddes": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo leo mauris pharetra magna. Eget gravida nec laoreet sodales tincidunt. Etiam arcu libero sociis cursus. Pharetra iaculis sollicitudin non iaculis viverra."
       }
+    },
+    "14344ee5-e775-4532-916a-9fd39507dca1": {
+      "type": "rewardhow-work",
+      "settings": {
+        "reworkhead": "Lorem ipsum dolor sit amet",
+        "rewworkdes": "",
+        "howbtn": "button",
+        "howbtnurl": ""
+      }
     }
   },
   "order": [
@@ -124,6 +133,7 @@
     "newsletter",
     "1655751929e34d4e57",
     "ef19d89c-189d-45a1-ac1f-7395d0135cef",
-    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af"
+    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af",
+    "14344ee5-e775-4532-916a-9fd39507dca1"
   ]
 }
