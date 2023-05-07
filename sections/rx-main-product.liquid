@@ -713,7 +713,13 @@
       
       <div id="Ingredients" class="tabcontent">
         <div class="product_tab_content">
-          {{block.settings.ingredients_content}}
+          {%- if product.metafields.custom.revamp_ingredients != blank -%}
+            {{block.settings.ingredients_content}}
+          {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
+            {{product.metafields.my_fields._1_badge_text_4}}
+          {%- else -%}
+            <p></p>
+          {%- endif -%}
         </div>
       </div>
       
@@ -727,6 +733,8 @@
                 loading: 'lazy',
                 width: 500
             }}
+          {%- elsif product.metafields.my_fields._1_badge_text_3 != blank -%}
+            {{product.metafields.my_fields._1_badge_text_3}}
           {%- else -%}
             <p></p>
           {%- endif -%}
