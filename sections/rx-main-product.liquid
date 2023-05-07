@@ -797,7 +797,7 @@
       const regularPrice = document.getElementsByClassName("rc-radio onetime-radio")[0].querySelector(".price-label").innerHTML;
       const isRegPriceEqualSubPrice = subsPrice == regularPrice ? true : false
       let prevUrl = undefined;
-      console.log("regpr==", isRegPriceEqualSubPrice)
+      
       setInterval(() => {
         const currUrl = new URL(window.location.href);
         const urlParams = new URLSearchParams(currUrl.search);
