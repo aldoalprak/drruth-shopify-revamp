@@ -794,17 +794,19 @@
     async function getSubsPrice() {
       await waitForElm('.subscription-radio');
       const subsPrice = document.getElementsByClassName("rc-radio subscription-radio")[0].querySelector(".price-label").innerHTML;
-      
+      const regularPrice = document.getElementsByClassName("rc-radio onetime-radio")[0].querySelector(".price-label").innerHTML;
+      const isRegPriceEqualSubPrice = subsPrice == regularPrice ? true : false
       let prevUrl = undefined;
+      console.log("regpr==", isRegPriceEqualSubPrice)
       setInterval(() => {
-        const currUrl = window.location.href;
-        const urlParams = new URLSearchParams(currUrl);
+        const currUrl = new URL(window.location.href);
+        const urlParams = new URLSearchParams(currUrl.search);
         if (currUrl != prevUrl) {
           // URL changed
           prevUrl = currUrl;
           const hasSellingPlanParam = urlParams.has("selling_plan")
           
-          if(hasSellingPlanParam) {
+          if(hasSellingPlanParam && !isRegPriceEqualSubPrice) {
             document.getElementById("rx-subs-price").innerHTML= `${subsPrice} USD`
             document.getElementById("rx-price-regular").classList.add("rx-price-line-through")
           } else {
