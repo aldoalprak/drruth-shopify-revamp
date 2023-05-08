@@ -139,12 +139,28 @@
             "reworktitle": "Step 3",
             "reworksubtitl": "Once approved, you can share your unique referral link with your audience."
           }
+        },
+        "46de3f7a-dc68-474c-af8f-7855954b952b": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 4",
+            "reworksubtitl": "Earn a 10% commission on every sale made through your referral link."
+          }
+        },
+        "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 5",
+            "reworksubtitl": "Track your earnings and optimize your marketing strategy using our real-time reporting and analytics."
+          }
         }
       },
       "block_order": [
         "049a7ad1-17b7-4138-8b6f-8a49ec40fca9",
         "07c6fca2-e84a-4002-be1a-31d94f4a8206",
-        "0bae6c9b-4859-432b-8457-6a3a1d14a364"
+        "0bae6c9b-4859-432b-8457-6a3a1d14a364",
+        "46de3f7a-dc68-474c-af8f-7855954b952b",
+        "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14"
       ],
       "custom_css": [
         "h2.reworktitlle {text-align: center;}",
