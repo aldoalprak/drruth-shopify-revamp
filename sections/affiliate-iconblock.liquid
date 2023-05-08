@@ -9,6 +9,7 @@
                         <div class="affsvgicon">
                             <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
                         </div>
+                        <h2 class="reworkdeshesd">{{block.settings.afficonheadtitl}}</h3>
                         <h3 class="reworkdescc">{{block.settings.afficonsubtitl}}</h3>
                     </div> 
             {%- endfor -%}
@@ -42,6 +43,11 @@
           "label": "Select Image",
           "id": "rewardpoint"
         },
+          {
+    "type": "text",
+    "id": "afficonheadtitl",
+    "label": "Heading"
+      },
       {
     "type": "text",
     "id": "afficonsubtitl",
@@ -59,6 +65,16 @@
 }
 {% endschema %}
 <style>
+h2.reworkdeshesd {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+}
 .bortop{
     border-top: 1px solid #F5F8F1;
 }
@@ -75,6 +91,9 @@
 .affsvgicon {
     display: flex;
     justify-content: center;
+}
+.afficoncontent .rewordworkspace .reworkdescc{
+  text-align: center;
 }
 @media screen and (max-width: 520px) {
     h2.rewordhead{
