@@ -1,0 +1,130 @@
+<div class="rewordmax_container">
+        <div class="petblogcontent">
+            <h2>{{section.settings.labelourb}}</h2>
+        </div>
+        <div class="petblogflex">
+            <div class="petblog50">
+                <div class="petblogimg">
+                    <img src="{{ section.settings.petblogimg|img_url: '800x' }}">
+                </div>
+            </div>
+            <div class="petblog50">
+                <div class="petblogdes">
+                    <h2>{{section.settings.prtblsubdes}}</h2>
+                    <h3>{{section.settings.prtblogdate}}</h3>
+                    <p>{{section.settings.prtblogdes}}</p>
+                </div>
+            </div>
+        </div>
+</div>
+{% schema %}
+  {
+    "name": "pet_ourblog",
+    "class":"pet_ourblog",
+    "settings": [
+         {
+    "type": "text",
+    "id": "labelourb",
+    "label": "Heading"
+      } ,
+       {
+        "type":"image_picker",
+        "id":"petblogimg",
+        "label":"Image"
+      },
+      {
+    "type": "text",
+    "id": "prtblsubdes",
+    "label": "Heading Blog"
+      } ,
+      {
+    "type": "text",
+    "id": "prtblogdate",
+    "label": "Sub Heading"
+      } ,
+        {
+    "type": "text",
+    "id": "prtblogdes",
+    "label": "Descriptio"
+      } 
+    ],
+    "presets": [
+    {
+    "name": "pet_ourblog"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+.petblogcontent h2 {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.petblogflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.petblog50 {
+    width: 48%;
+    margin: 0 auto;
+}
+.petblogimg img {
+    width: 100%;
+}
+.petblogdes {
+    padding: 2% 6%;
+}
+.petblogdes h2 {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.petblogdes h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+    margin: 0;
+}
+.petblogdes p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+@media screen and (max-width: 992px) { 
+    .petblog50{
+        width:98%;
+    }
+ }
+ @media screen and (max-width: 420px) { 
+    .petblogcontent h2{
+        font-size: 38px;
+    }
+    .petblogdes h2{
+            font-size: 23px;
+            line-height: 33px;
+    }
+    .petblogdes p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+ }
+</style>
