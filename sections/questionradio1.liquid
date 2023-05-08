@@ -1,0 +1,90 @@
+<div class="cmax_container pyspace">
+        <div class="answerwidth"> 
+            <div class="anslab">
+                <label for="text">{{section.settings.labelque}} </label>
+            </div>
+            <div class="radiocontant">
+
+                {% for block in section.blocks %}
+                    <div class="radiolabel"> 
+                        <label>   <input type='radio' name="content{{ section.id }}"/> {{block.settings.qradio}} </label>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+</div>
+{% schema %}
+  {
+    "name": "questionradio",
+    "settings": [
+         {
+    "type": "text",
+    "id": "labelque",
+    "label": "Question"
+      } 
+    ],
+    "blocks": [
+  {
+    "type": "Radio",
+    "name": "Radio ",
+    "settings": [
+     
+       {
+    "type": "text",
+    "id": "qradio",
+    "label": "content"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "questionradio"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+    .anslab {
+        background: #F5F8F1;
+        border-radius: 24px;
+        padding: 16px 12px;
+        padding-left: 2%;
+    }
+    .anslab label{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #1E1E1E;
+    }
+    .radiocontant{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1E1E1E;
+        padding-left: 3%;
+        margin-bottom: 1%;
+    }
+    .radiolabel{
+        margin-top: 8px;
+    }
+    .pyspace{
+        padding-top: 1%;
+    }
+    @media only screen and (max-width: 520px) {
+    .radiocontant {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .anslab label{
+         font-size: 14px;
+        line-height: 24px;
+    }
+}
+</style>
