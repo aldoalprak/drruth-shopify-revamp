@@ -246,35 +246,62 @@
         "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "The Happy Paws Affiliate Program is a partnership program that focuses on promoting pet health and wellness, where affiliates can earn a commission on sales generated through their exclusive referral link for our range of natural pet supplements, pet wellness courses, and our comprehensive Holistic Pet Health Coaching Program.",
             "faqid": "",
-            "faqbtn": "What is one-to-one mentorship work? "
+            "faqbtn": "What is the Happy Paws Affiliate Program?"
           }
         },
         "ecde324b-ce9f-4f7a-b7fe-446baf62e751": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "Anyone can join our program, whether you are a pet owner, pet blogger, social media influencer, a pet groomer, vet, vet technician or simply someone who loves promoting high-quality pet products.",
             "faqid": "",
-            "faqbtn": "What are the Q&A Weekly sessions? "
+            "faqbtn": "Who can join the Happy Paws Affiliate Program?"
           }
         },
         "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:",
+            "faqdes": "Affiliates earn a 10% commission on all sales made through their referral linkn",
             "faqid": "",
-            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+            "faqbtn": "How much commission do affiliates earn?"
+          }
+        },
+        "890bba72-8c78-4dcf-acc8-492eb8e2a479": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Signing up is quick and easy. Simply visit our affiliate sign-up page and fill in your details. Once you are approved, you will receive your unique referral link and marketing materials to start promoting our products.",
+            "faqid": "",
+            "faqbtn": "How do I join the Happy Paws Affiliate Program?"
+          }
+        },
+        "c1c6e62e-6f82-4e3a-8c46-500656ff03a1": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We pay our affiliates through PayPal on a monthly basis, provided that the commission balance reaches the minimum threshold of $25.",
+            "faqid": "",
+            "faqbtn": "How do I get paid for my commissions?"
+          }
+        },
+        "aa1cc560-518e-4d9f-aeed-1df1a25977a2": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can promote our products on social media platforms such as Facebook, Instagram, Twitter, and others. Just be sure to follow our guidelines and terms of service.",
+            "faqid": "",
+            "faqbtn": "Can I promote Happy Paws products on my social media accounts?"
           }
         }
       },
       "block_order": [
         "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3",
         "ecde324b-ce9f-4f7a-b7fe-446baf62e751",
-        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad"
+        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad",
+        "890bba72-8c78-4dcf-acc8-492eb8e2a479",
+        "c1c6e62e-6f82-4e3a-8c46-500656ff03a1",
+        "aa1cc560-518e-4d9f-aeed-1df1a25977a2"
       ],
       "settings": {
-        "addhead": "Lorem ipsum dolor sit amet consectetur. In commodo commodo quisque eget nunc donec augue integer ut.",
+        "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
         "mfaqhead": "FAQS",
         "afffaqbtn": "learn more",
         "affaqurl": ""
