@@ -163,7 +163,7 @@
         "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14"
       ],
       "custom_css": [
-        "h2.reworktitlle {text-align: center; font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 30px;line-height: 40px;text-align: center;color: #000000;}",
+        "h2.reworktitlle {margin-bottom:0 font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
         "h3.reworkdescc {text-align: center;}"
       ],
       "settings": {
