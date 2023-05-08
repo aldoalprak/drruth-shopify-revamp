@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "rx-main-product",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -15,152 +15,79 @@
           "settings": {
           }
         },
-        "price": {
+        "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
           "settings": {
-          }
-        },
-        "bab97cb3-0858-4368-b053-fb0237faa5f8": {
-          "type": "text",
-          "settings": {
-            "text": "Choose a purchase plan:",
-            "text_style": "body"
-          }
-        },
-        "dec055ac-4cf4-4524-93dd-0c939da6d041": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
-        "9f15ed3d-04f7-4107-a0b9-9614372d72fc": {
-          "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
-          "settings": {
-            "heading": "Sezzle Widget",
-            "font_size": 14,
-            "font_family": "inherit"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+            "show_add_to_cart_button": true
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
-            "show_dynamic_checkout": true
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
           }
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },
-        "5adda2de-d77e-4de4-8212-bd7114ce8a8e": {
-          "type": "text",
-          "disabled": true,
+        "c50958db-6d62-42c8-8a47-729c390a856f": {
+          "type": "rx_product_tab",
           "settings": {
-            "text": "{{ product.metafields.my_fields._1_badge_text_2.value }}",
-            "text_style": "body"
+            "ingredients_content": "<p>{{ product.metafields.custom.revamp_ingredients | metafield_tag }}<\/p>",
+            "instructions_content": "<p>{{ product.metafields.custom.revamp_instruction | metafield_tag }}<\/p>",
+            "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
+            "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
           }
         },
-        "b5aa1bf5-4a86-4b19-872d-4e4655121ae8": {
-          "type": "text",
+        "87b6800d-0639-4f48-b6fd-18848b047f30": {
+          "type": "buy_buttons",
           "settings": {
-            "text": "{{ product.metafields.my_fields._1_badge_text_1.value }}",
-            "text_style": "body"
+            "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "de5b580a-4af6-4649-b73a-1c3435f66540": {
+        "880a5ead-be28-4912-b9d7-5a90d320fa21": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n<\/span>\n<!-- Stamped - End Star Rating Badge --><br>"
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "collapsible-content-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingredients",
-            "icon": "plant",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-content-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Direction for Use",
-            "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-content-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "content": "<p>Standard Shipping 3-5 business days<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-content-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Return policy",
-            "icon": "return",
-            "content": "",
-            "page": ""
+            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.\n<\/div>"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "price",
-        "bab97cb3-0858-4368-b053-fb0237faa5f8",
-        "dec055ac-4cf4-4524-93dd-0c939da6d041",
-        "variant_picker",
-        "9f15ed3d-04f7-4107-a0b9-9614372d72fc",
+        "751d134f-73fe-4141-86b2-938f1aeacb83",
         "quantity_selector",
-        "buy_buttons",
-        "caption",
-        "5adda2de-d77e-4de4-8212-bd7114ce8a8e",
-        "b5aa1bf5-4a86-4b19-872d-4e4655121ae8",
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d",
         "description",
-        "de5b580a-4af6-4649-b73a-1c3435f66540",
-        "share",
-        "collapsible-content-0",
-        "collapsible-content-1",
-        "collapsible-content-2",
-        "collapsible-content-3"
+        "caption",
+        "c50958db-6d62-42c8-8a47-729c390a856f",
+        "87b6800d-0639-4f48-b6fd-18848b047f30",
+        "880a5ead-be28-4912-b9d7-5a90d320fa21"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -168,163 +95,53 @@
         "padding_bottom": 60
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "39913493-0614-47e8-91ba-767b9479a307": {
+      "type": "rx-review",
       "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 72
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "disabled": true,
+    "0160467d-6f81-456d-840c-d702483cbcf3": {
+      "type": "rx-rich-text",
       "blocks": {
-        "column-0": {
-          "type": "column",
+        "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "<p>You may also like<\/p>"
           }
         }
       },
       "block_order": [
-        "column-0",
-        "column-1",
-        "column-2",
-        "column-3"
+        "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 52,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
-    "167485362532a4560b": {
+    "168197142519de76d5": {
       "type": "apps",
       "blocks": {
-        "49e7633c-e1ee-48ae-9a19-0e39cd4df6ff": {
+        "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "72366",
+            "id": "84689",
             "product_id_enabled": true,
             "collection_id_enabled": false
           }
         }
       },
       "block_order": [
-        "49e7633c-e1ee-48ae-9a19-0e39cd4df6ff"
+        "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d"
+      ],
+      "custom_css": [
+        ".rebuy-widget .rebuy-product-block .rebuy-product-actions {display: none; margin: 0 !important;}",
+        ".rebuy-widget {padding: 0 !important;}"
       ],
       "settings": {
         "include_margins": true
@@ -332,6 +149,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -346,15 +164,88 @@
         "padding_top": 36,
         "padding_bottom": 24
       }
+    },
+    "1d09831f-d45e-4ae3-8c1d-489ed483a3a4": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "2710cfd8-d296-47f6-99ee-3c193be58794": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our courses<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2710cfd8-d296-47f6-99ee-3c193be58794"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "37d355bc-1320-4afc-b381-56eecc54e273": {
+      "type": "rx-product-list",
+      "blocks": {
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-2": {
+          "type": "Product",
+          "settings": {
+            "product_block": "the-original-crockpet-diet-membership"
+          }
+        },
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-0": {
+          "type": "Product",
+          "settings": {
+            "product_block": "1986957"
+          }
+        },
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1": {
+          "type": "Product",
+          "settings": {
+            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
+          }
+        },
+        "785b1a70-42f4-4ec9-ad76-4a0d37da8b36": {
+          "type": "Product",
+          "settings": {
+            "product_block": "gut-instincts-natural-digestion-gi-health"
+          }
+        }
+      },
+      "block_order": [
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-2",
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-0",
+        "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1",
+        "785b1a70-42f4-4ec9-ad76-4a0d37da8b36"
+      ],
+      "settings": {
+        "title_font": "assistant_n4",
+        "title_font_size": 40,
+        "font": "assistant_n4",
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "1200px",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": true,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "title_color": "#000000",
+        "price_color": "#000000"
+      }
     }
   },
   "order": [
     "main",
-    "rich-text",
-    "multicolumn",
-    "video",
-    "newsletter",
+    "39913493-0614-47e8-91ba-767b9479a307",
+    "0160467d-6f81-456d-840c-d702483cbcf3",
+    "168197142519de76d5",
     "related-products",
-    "167485362532a4560b"
+    "1d09831f-d45e-4ae3-8c1d-489ed483a3a4",
+    "37d355bc-1320-4afc-b381-56eecc54e273"
   ]
 }

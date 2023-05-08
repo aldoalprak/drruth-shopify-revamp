@@ -40,7 +40,7 @@
             "heading": "Explore Our Holistic Pet Health Blog",
             "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
             "button_label": "READ MORE",
-            "button_link": ""
+            "button_link": "shopify:\/\/blogs\/news"
           }
         },
         "2548be85-ca59-4cac-91f4-82dd357a90d6": {
@@ -665,7 +665,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SUBMIT YOUR APPLICATION",
-            "button_link_1": "shopify:\/\/pages\/application-form"
+            "button_link_1": "shopify:\/\/pages\/application-form-1"
           }
         }
       },
