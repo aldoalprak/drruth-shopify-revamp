@@ -346,6 +346,22 @@
             "faqid": "",
             "faqbtn": "What happens if a customer returns a product that I referred them to?"
           }
+        },
+        "7d5c79ed-6633-4d33-8bbb-81dff8359128": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can change the marketing materials you use at any time, and we encourage our affiliates to test different materials to find what works best for them.",
+            "faqid": "",
+            "faqbtn": "Can I change the marketing materials I use once I've started promoting Happy Paws products?"
+          }
+        },
+        "42e2751e-fd52-4769-93b0-b547b87b0092": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We offer dedicated support to all our affiliates, including access to our support team and a range of resources to help you succeed in promoting our products.If you have any further questions about our Affiliate Program, please don't hesitate to contact us.",
+            "faqid": "",
+            "faqbtn": "What kind of support do you offer to your affiliates?"
+          }
         }
       },
       "block_order": [
@@ -361,7 +377,9 @@
         "876d2a40-8f05-4430-89e7-cc154b70ea77",
         "c2006c23-be94-436d-97be-5ab0f3345bb9",
         "6fb090ed-b0f6-414c-bb44-9ef754f1661e",
-        "78f47e34-e66d-49ac-9ef5-f5b239959388"
+        "78f47e34-e66d-49ac-9ef5-f5b239959388",
+        "7d5c79ed-6633-4d33-8bbb-81dff8359128",
+        "42e2751e-fd52-4769-93b0-b547b87b0092"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
