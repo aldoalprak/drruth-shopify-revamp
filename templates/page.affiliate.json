@@ -123,21 +123,21 @@
           "type": "block",
           "settings": {
             "reworktitle": "Step 1",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworksubtitl": "Click on the \"Sign Up\" button to create your account and fill out the application form."
           }
         },
         "07c6fca2-e84a-4002-be1a-31d94f4a8206": {
           "type": "block",
           "settings": {
-            "reworktitle": "Step 1",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "Step 2",
+            "reworksubtitl": "Our team will review your application and notify you of your approval status via email."
           }
         },
         "0bae6c9b-4859-432b-8457-6a3a1d14a364": {
           "type": "block",
           "settings": {
-            "reworktitle": "Step 1",
-            "reworksubtitl": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo l"
+            "reworktitle": "Step 3",
+            "reworksubtitl": "Once approved, you can share your unique referral link with your audience."
           }
         }
       },
