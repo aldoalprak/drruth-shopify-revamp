@@ -5664,7 +5664,7 @@ border-radius: 24px;
   border-radius: 25.5px;
   border-color: #184B44;
   padding: 15px 20px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   cursor: pointer;
 }
 
@@ -5682,8 +5682,8 @@ border-radius: 24px;
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
   border-color: #FFFFFF;
-  padding: 12px 20px;
-  letter-spacing: 0.2em;
+  padding: 15px 25px;
+  letter-spacing: 0.3em;
 }
 
 .rebuy-product-info {

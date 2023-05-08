@@ -1,0 +1,334 @@
+{
+  "sections": {
+    "0d6aef21-f073-427a-831f-9cda41c3f103": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14918065750081__0d6aef21-f073-427a-831f-9cda41c3f103-16835393372863b854-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "My life’s mission is to help you give your pet a better life, one that is full of many happy, healthy years."
+          }
+        },
+        "template--14918065750081__0d6aef21-f073-427a-831f-9cda41c3f103-16835393372863b854-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BOOK DR. RUTH  ",
+            "button_link_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14918065750081__0d6aef21-f073-427a-831f-9cda41c3f103-16835393372863b854-0",
+        "template--14918065750081__0d6aef21-f073-427a-831f-9cda41c3f103-16835393372863b854-2"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/banner-speaker.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "container_bg": "#ffffff",
+        "desktop_content_alignment": "center",
+        "heading_color": "#ffffff",
+        "text_color": "#000000",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "146d9d9c-4456-4230-9ae3-5f6b4dcd342d": {
+      "type": "rx-product-feature",
+      "blocks": {
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-0": {
+          "type": "image",
+          "settings": {
+            "feature_title": ".",
+            "feature_text": ".",
+            "feature_image": "shopify:\/\/shop_images\/image_1_e732c2b8-d5d8-4938-a775-9710ac42848f.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-truck\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M15.64 6.92L9.5 5.12V4a.5.5 0 00-.5-.5H1a.5.5 0 00-.5.5v8.5c0 .28.22.5.5.5h1.27a2.1 2.1 0 004.06 0h3.94a2.1 2.1 0 004.06 0h1.17a.5.5 0 00.5-.5V7.4a.5.5 0 00-.36-.48zM4.3 13.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM6.33 12a2.1 2.1 0 00-4.06 0H1.5V4.5h7V12H6.33zm5.97 1.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM15 12h-.67a2.1 2.1 0 00-4.06 0H9.5V6.17l5.5 1.6V12z\"><\/path><\/svg>"
+          }
+        },
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-1": {
+          "type": "image",
+          "settings": {
+            "feature_title": ".",
+            "feature_text": ".",
+            "feature_image": "shopify:\/\/shop_images\/image_2_e91d9c3a-57f1-4138-bbf7-037ee189f2ae.png",
+            "icon_url": "",
+            "feature_image_width": "148px",
+            "feature_use_svg": false,
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-price_tag\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M7.59 1.34a1 1 0 01.7-.29h5.66a1 1 0 011 1v5.66a1 1 0 01-.3.7L7.6 15.5a1 1 0 01-1.42 0L.52 9.83a1 1 0 010-1.42l7.07-7.07zm6.36 6.37l-7.07 7.07-5.66-5.66L8.3 2.05h5.66v5.66z\" fill-rule=\"evenodd\"><\/path><path d=\"M9.7 6.3a1 1 0 101.42-1.42 1 1 0 00-1.41 1.41zM9 7a2 2 0 102.83-2.83A2 2 0 009 7z\" fill-rule=\"evenodd\"><\/path><\/svg>"
+          }
+        },
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-2": {
+          "type": "image",
+          "settings": {
+            "feature_title": ".",
+            "feature_text": ".",
+            "feature_image": "shopify:\/\/shop_images\/image_3_be696d88-7daa-49b7-8310-f7ddff248feb.png",
+            "icon_url": "",
+            "feature_image_width": "148px",
+            "feature_use_svg": false,
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-return\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M9 .5a.5.5 0 000 1h1a4.5 4.5 0 110 9H2.2l3.15-3.15a.5.5 0 10-.7-.7l-4 4a.5.5 0 000 .7l4 4a.5.5 0 00.7-.7L2.21 11.5H10a5.5 5.5 0 100-11H9z\"><\/path><\/svg>"
+          }
+        },
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-3": {
+          "type": "image",
+          "settings": {
+            "feature_title": ".",
+            "feature_text": ".",
+            "feature_image": "shopify:\/\/shop_images\/image_4_cea46eae-7ed6-41e0-8edb-5af0c2e4d024.png",
+            "icon_url": "",
+            "feature_image_width": "148px",
+            "feature_use_svg": false,
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-star\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M8 1c.21 0 .4.13.47.33l1.62 4.54 4.92.1a.5.5 0 01.29.9l-3.92 2.9 1.42 4.58a.5.5 0 01-.75.56L8 12.17 3.95 14.9a.5.5 0 01-.75-.56l1.42-4.58L.7 6.87a.5.5 0 01.29-.9l4.92-.1 1.62-4.54A.5.5 0 018 1zm0 2L6.74 6.52a.5.5 0 01-.46.33l-3.8.08L5.5 9.17a.5.5 0 01.18.55l-1.1 3.56 3.14-2.13a.5.5 0 01.56 0l3.15 2.13-1.1-3.56a.5.5 0 01.17-.55l3.02-2.23-3.8-.08a.5.5 0 01-.46-.33L8 2.99z\"><\/path><\/svg>"
+          }
+        },
+        "0525a7c0-ce63-4f57-850d-113a45a13c17": {
+          "type": "image",
+          "settings": {
+            "feature_title": ".",
+            "feature_text": ".",
+            "feature_image": "shopify:\/\/shop_images\/image_5_064cc5dd-4b25-443c-97f6-42cac2560451.png",
+            "icon_url": "",
+            "feature_image_width": "148px",
+            "feature_use_svg": false,
+            "feature_svg_code": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"50\" height=\"50\"><rect x=\"2\" y=\"2\" width=\"46\" height=\"46\" style=\"fill:#DEDEDE;stroke:#555555;stroke-width:2\"><\/rect><text x=\"50%\" y=\"50%\" font-size=\"18\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-family=\"monospace, sans-serif\" fill=\"#555555\">50__50<\/text><\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-0",
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-1",
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-2",
+        "template--14918065750081__146d9d9c-4456-4230-9ae3-5f6b4dcd342d-1683547989affc6f79-3",
+        "0525a7c0-ce63-4f57-850d-113a45a13c17"
+      ],
+      "settings": {
+        "feature_title_color": "#000000",
+        "feature_title_font_size": 16,
+        "feature_title_font_mob_size": 16,
+        "feature_text_color": "#4b4b4b",
+        "feature_text_font_size": 14,
+        "feature_text_font_mob_size": 14,
+        "type_header_font": "assistant_n4",
+        "section_bg_color": "#ffffff",
+        "row_on_mobile": false,
+        "max_container_width": "120rem",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "c42ce00d-0127-4e84-8703-eb0a3852168d": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14918065750081__c42ce00d-0127-4e84-8703-eb0a3852168d-1683552682edfa242a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your Ultimate Destination for the Holistic Wellness of Your pet <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14918065750081__c42ce00d-0127-4e84-8703-eb0a3852168d-1683552682edfa242a-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "db04c4f4-51de-4290-a61a-0abfc410e04c": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/Mask_group.png",
+        "heading": "",
+        "caption": "",
+        "content": "<p>Dr. Ruth Roberts is a highly experienced veterinarian with over 35 years of practice in Western Veterinary Medicine, as well as a strong background in the Integrative Holistic Health treatment approach. She is dedicated to helping pets live healthier and happier lives through her holistic approach to veterinary medicine, which combines the best of both Western and Eastern medicine practices.<br\/><\/p>",
+        "content2": "<p>As a Certified Veterinary Acupuncturist, Certified Veterinary Chinese Herbologist, and Certified Veterinary Food Therapist, Dr. Ruth has successfully treated a wide range of pet health issues, from kidney disease and gastrointestinal illnesses to allergies and cancer. She has developed a natural approach to healing that is gentle yet effective, tailored to each pet's unique health profile.<br\/><\/p>",
+        "image_max_height": "450px",
+        "layout": "image_first"
+      }
+    },
+    "f9fb3a53-9eb1-4eea-a835-ffd7ec21df39": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14918065750081__f9fb3a53-9eb1-4eea-a835-ffd7ec21df39-1683552682edfa242a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn How to Design The Healthiest Diet For Your Pet With Dr. Ruth Roberts <\/p>"
+          }
+        },
+        "d227801f-d1e8-4d6c-a5a0-d4d9ffe4482d": {
+          "type": "caption",
+          "settings": {
+            "caption": "In addition to her veterinary practice, Dr. Ruth is also an accomplished author and keynote speaker. She is the creator of The Original CrockPET Diet™, a balanced and healthy pet food that she recommends to all her clients. Her expertise in holistic pet care has been featured in various publications and media outlets, and she has been a guest speaker at numerous conferences and events."
+          }
+        },
+        "3186e5dc-e8e9-468a-a4ee-c410382c808a": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--14918065750081__f9fb3a53-9eb1-4eea-a835-ffd7ec21df39-1683552682edfa242a-1",
+        "d227801f-d1e8-4d6c-a5a0-d4d9ffe4482d",
+        "3186e5dc-e8e9-468a-a4ee-c410382c808a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "unset",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3b5fb840-2543-469c-ba98-033ed0869e06": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "f4eebe75-0e3a-413a-ab26-09dfc49f6181": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover The Path Towards Becoming A Certified Holistic Pet Health Coach with Dr. Ruth Roberts<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f4eebe75-0e3a-413a-ab26-09dfc49f6181"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "076f80ac-eb59-4ff5-8321-5e4abc4978de": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/Mask_group-3.png",
+        "heading": "",
+        "caption": "",
+        "content": "<p>Dr. Ruth is also the founder of a Certified Holistic Pet Health Coach program, which is designed to teach individuals how to become experts in holistic pet health and wellness. This program is ideal for pet owners, animal lovers, and veterinary professionals who want to expand their knowledge and learn how to promote optimal health for pets using holistic and natural remedies. The program covers a range of topics, including holistic nutrition, acupuncture, herbal therapy, and lifestyle modifications to improve pets' health and wellness. By completing this program, graduates can become certified holistic pet health coaches and help pet parents create customized health and wellness plans for their furry friends. <br\/><\/p>",
+        "content2": "",
+        "image_max_height": "350px",
+        "layout": "text_first"
+      }
+    },
+    "939ed13e-8961-40fb-be57-ecbc1f35dd30": {
+      "type": "Certified_Coaches",
+      "blocks": {
+        "2f041b2b-6910-44af-8f65-bd68d739ba9f": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "Event 1"
+          }
+        },
+        "9ec9a24a-b07a-40d3-9150-7759caa575ab": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "EVENt 2"
+          }
+        },
+        "b9986e22-885d-4152-bf37-0e4434d740c2": {
+          "type": "block",
+          "settings": {
+            "test_url1": "https:\/\/www.youtube.com\/embed\/yAoLSRbwxL8",
+            "textid": "EVENT 3"
+          }
+        }
+      },
+      "block_order": [
+        "2f041b2b-6910-44af-8f65-bd68d739ba9f",
+        "9ec9a24a-b07a-40d3-9150-7759caa575ab",
+        "b9986e22-885d-4152-bf37-0e4434d740c2"
+      ],
+      "settings": {
+        "testhead": "",
+        "testdes": "",
+        "coachbtn": "MORE VIDEOS",
+        "coachurl": "https:\/\/youtube.com"
+      }
+    },
+    "08f4812f-8c18-4709-b30b-791c74af60a2": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14918065750081__08f4812f-8c18-4709-b30b-791c74af60a2-16835599759930cded-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact us to book Dr. Ruth<\/p>"
+          }
+        },
+        "template--14918065750081__08f4812f-8c18-4709-b30b-791c74af60a2-16835599759930cded-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>for your event and learn more about how she can help you and your pets live your best lives.<br\/><\/p>"
+          }
+        },
+        "4da11df7-aac4-4585-9950-3cae30c6194e": {
+          "type": "caption",
+          "settings": {
+            "caption": "Dr. Ruth is passionate about empowering others to take a more active role in their pets' health and wellness and is committed to spreading the knowledge of holistic veterinary medicine. If you are looking for a speaker for your next event, Dr. Ruth Roberts is an excellent choice. With her extensive knowledge and experience in holistic pet care, she can provide valuable insights and practical advice to pet owners and veterinary professionals alike. "
+          }
+        }
+      },
+      "block_order": [
+        "template--14918065750081__08f4812f-8c18-4709-b30b-791c74af60a2-16835599759930cded-0",
+        "template--14918065750081__08f4812f-8c18-4709-b30b-791c74af60a2-16835599759930cded-1",
+        "4da11df7-aac4-4585-9950-3cae30c6194e"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9cc2521b-12ca-4655-b108-a017d41eefd6": {
+      "type": "rx-contact-form-v2",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "0d6aef21-f073-427a-831f-9cda41c3f103",
+    "146d9d9c-4456-4230-9ae3-5f6b4dcd342d",
+    "c42ce00d-0127-4e84-8703-eb0a3852168d",
+    "db04c4f4-51de-4290-a61a-0abfc410e04c",
+    "f9fb3a53-9eb1-4eea-a835-ffd7ec21df39",
+    "3b5fb840-2543-469c-ba98-033ed0869e06",
+    "076f80ac-eb59-4ff5-8321-5e4abc4978de",
+    "939ed13e-8961-40fb-be57-ecbc1f35dd30",
+    "08f4812f-8c18-4709-b30b-791c74af60a2",
+    "9cc2521b-12ca-4655-b108-a017d41eefd6"
+  ]
+}
