@@ -322,6 +322,30 @@
             "faqid": "",
             "faqbtn": "Are there any costs involved in joining the Happy Paws Affiliate Program?"
           }
+        },
+        "c2006c23-be94-436d-97be-5ab0f3345bb9": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We provide our affiliates with access to a user-friendly dashboard where you can track your earnings, referrals, clicks, and other key metrics in real-time.",
+            "faqid": "",
+            "faqbtn": "How do I track my commission earnings and referrals?"
+          }
+        },
+        "6fb090ed-b0f6-414c-bb44-9ef754f1661e": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, using your own referral link to purchase products for yourself is not allowed and will result in the commission being voided.",
+            "faqid": "",
+            "faqbtn": "Can I use my own referral link to purchase Happy Paws products for myself?"
+          }
+        },
+        "78f47e34-e66d-49ac-9ef5-f5b239959388": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If a customer returns a product, the commission for that sale will be deducted from your earnings.",
+            "faqid": "",
+            "faqbtn": "What happens if a customer returns a product that I referred them to?"
+          }
         }
       },
       "block_order": [
@@ -334,7 +358,10 @@
         "44438e7f-bc8a-40ff-8125-f9e125e5a677",
         "03ba806c-21cd-4d5c-804f-7e21267d7b6a",
         "5d636acb-defc-420d-82ba-d2d730f32047",
-        "876d2a40-8f05-4430-89e7-cc154b70ea77"
+        "876d2a40-8f05-4430-89e7-cc154b70ea77",
+        "c2006c23-be94-436d-97be-5ab0f3345bb9",
+        "6fb090ed-b0f6-414c-bb44-9ef754f1661e",
+        "78f47e34-e66d-49ac-9ef5-f5b239959388"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
