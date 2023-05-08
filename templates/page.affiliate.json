@@ -111,7 +111,7 @@
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
       "type": "affiliate-richtext",
       "settings": {
-        "affrichtitle": "Lorem ipsum dolor sit amet consectetur. In commodo commodo quisque eget nunc donec augue integer ut.",
+        "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
         "affrichhead": "Lorem ipsum dolor sit amet",
         "rewarddes": "Lorem ipsum dolor sit amet consectetur. Dictum suspendisse neque pretium cum faucibus euismod. Eget commodo leo mauris pharetra magna. Eget gravida nec laoreet sodales tincidunt. Etiam arcu libero sociis cursus. Pharetra iaculis sollicitudin non iaculis viverra."
       }
@@ -152,7 +152,9 @@
       ],
       "settings": {
         "reworkhead": "Lorem ipsum dolor sit amet",
-        "rewworkdes": ""
+        "rewworkdes": "",
+        "howbtn": "",
+        "howbtnurl": ""
       }
     },
     "0fa81b89-378e-4db6-b61b-7c08bcde9479": {
