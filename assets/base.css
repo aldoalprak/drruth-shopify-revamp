@@ -5856,7 +5856,7 @@ a.refferorder {
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
-  padding: 18px 50px 18px 20px;
+  padding: 18px 10px 18px 20px;
 }
 h2.rorderhead {
   font-family: 'Oakley Script';
@@ -5878,7 +5878,7 @@ h2.rorderdes {
   color: #FFFFFF;margin-bottom: 3%;
 }
 .reordebtn a.refferorder svg{
-  margin-left: 13%;
+  margin-left: 16%;
 }
 h2.redempointhead {
   font-family: 'Oakley Script';
@@ -6101,7 +6101,7 @@ a.howworkorder {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  padding: 20px 56px;
+  padding:7px 15px 7px 22px;
   line-height: 48px;
 
   letter-spacing: 0.3em;
