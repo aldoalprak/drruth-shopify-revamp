@@ -290,6 +290,38 @@
             "faqid": "",
             "faqbtn": "Can I promote Happy Paws products on my social media accounts?"
           }
+        },
+        "44438e7f-bc8a-40ff-8125-f9e125e5a677": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We provide a range of high-quality marketing materials, including banners, images, and text links. You can choose the materials that best fit your style and audience.",
+            "faqid": "",
+            "faqbtn": "What kind of marketing materials do you provide?"
+          }
+        },
+        "03ba806c-21cd-4d5c-804f-7e21267d7b6a": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, you do not need to have a website to join our program. However, having a website or blog can help you promote our products more effectively and reach a larger audience.",
+            "faqid": "",
+            "faqbtn": "Do I need to have a website to join the Happy Paws Affiliate Program?"
+          }
+        },
+        "5d636acb-defc-420d-82ba-d2d730f32047": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We aim to review and approve all affiliate applications within 24-48 hours. Once your account is approved, you will receive an email notification with further instructions.",
+            "faqid": "",
+            "faqbtn": "How long does it take for my affiliate account to be approved?"
+          }
+        },
+        "876d2a40-8f05-4430-89e7-cc154b70ea77": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, there are no costs involved in joining our program. It is completely free to sign up and start promoting our products. The commission transaction fees will be covered by you.",
+            "faqid": "",
+            "faqbtn": "Are there any costs involved in joining the Happy Paws Affiliate Program?"
+          }
         }
       },
       "block_order": [
@@ -298,7 +330,11 @@
         "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad",
         "890bba72-8c78-4dcf-acc8-492eb8e2a479",
         "c1c6e62e-6f82-4e3a-8c46-500656ff03a1",
-        "aa1cc560-518e-4d9f-aeed-1df1a25977a2"
+        "aa1cc560-518e-4d9f-aeed-1df1a25977a2",
+        "44438e7f-bc8a-40ff-8125-f9e125e5a677",
+        "03ba806c-21cd-4d5c-804f-7e21267d7b6a",
+        "5d636acb-defc-420d-82ba-d2d730f32047",
+        "876d2a40-8f05-4430-89e7-cc154b70ea77"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
