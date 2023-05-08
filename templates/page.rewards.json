@@ -129,7 +129,7 @@
         "217d03e0-ee7b-4460-8c65-35ebefb823d2": {
           "type": "block",
           "settings": {
-            "reworktitle": "2. EARN PAWS",
+            "reworktitle": "2.EARN PAWS",
             "reworksubtitl": "For every dollar you spend at our pet store, you'll earn one PAW. The more you spend, the more PAWS you'll earn!"
           }
         },
@@ -137,7 +137,7 @@
           "type": "block",
           "settings": {
             "reworktitle": "3. REDEEM PAWS",
-            "reworksubtitl": "Once you've accumulated enough PAWS, you can redeem them for discounts on future purchases."
+            "reworksubtitl": "Once you've accumulated enough PAWS, you can redeem them for discounts on future purchases"
           }
         }
       },
