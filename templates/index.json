@@ -3,46 +3,6 @@
     "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
       "type": "rx-img-with-text-slider",
       "blocks": {
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mainpic.png",
-            "height": "medium",
-            "desktop_image_width": "medium",
-            "layout": "text_first",
-            "desktop_title_alignment": "center",
-            "desktop_content_alignment": "center",
-            "desktop_button_alignment": "center",
-            "content_layout": "overlap",
-            "grid_type": "type1",
-            "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "center",
-            "heading": "Transform Your Pet's Health",
-            "description": "<p>Discover the power of holistic veterinary care with our expert coaching and support<\/p>",
-            "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/coachingmain1"
-          }
-        },
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mainpic_d587ca50-35d4-49d9-8a5a-faaf578da7ab.png",
-            "height": "medium",
-            "desktop_image_width": "medium",
-            "layout": "text_first",
-            "desktop_title_alignment": "center",
-            "desktop_content_alignment": "center",
-            "desktop_button_alignment": "center",
-            "content_layout": "overlap",
-            "grid_type": "type1",
-            "show_arrow_mobile": "no",
-            "mobile_content_alignment": "center",
-            "heading": "Explore Our Holistic Pet Health Blog",
-            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
-            "button_label": "READ MORE",
-            "button_link": "shopify:\/\/blogs\/news"
-          }
-        },
         "2548be85-ca59-4cac-91f4-82dd357a90d6": {
           "type": "slide",
           "settings": {
@@ -62,12 +22,94 @@
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
           }
+        },
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "center",
+            "heading": "Explore Our Holistic Pet Health Blog",
+            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
+            "button_label": "READ MORE",
+            "button_link": "shopify:\/\/blogs\/news"
+          }
+        },
+        "128fe0cd-e843-4c0f-a4e6-c53cc35d02a9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Tune in to Our Holistic Pet Care Podcast",
+            "description": "<p>Stay up-to-date on the latest trends and insights in holistic pet care with our informative and engaging podcast<\/p>",
+            "button_label": "LISTEN NOW",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        },
+        "d82819d7-33cf-46bc-b16c-4f2cf78298ad": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Join a Community of Pet Lovers",
+            "description": "<p>Connect with other like-minded pet owners and receive ongoing support and guidance<\/p>",
+            "button_label": "Join The Community",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        },
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Transform Your Pet's Health",
+            "description": "<p>Discover the power of holistic veterinary care with our expert coaching and support<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/coachingmain1"
+          }
         }
       },
       "block_order": [
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0",
+        "2548be85-ca59-4cac-91f4-82dd357a90d6",
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1",
-        "2548be85-ca59-4cac-91f4-82dd357a90d6"
+        "128fe0cd-e843-4c0f-a4e6-c53cc35d02a9",
+        "d82819d7-33cf-46bc-b16c-4f2cf78298ad",
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0"
       ],
       "settings": {
         "desktopMaxWidth": "100%",
