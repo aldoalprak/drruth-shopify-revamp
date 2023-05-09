@@ -112,7 +112,7 @@
 
   #RX_ImageWithText--{{ section.id }} {
     background-color: #F5F8F1;
-    padding: 95px 65px;
+    padding: 95px 10px;
   }
 
   .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--top {
@@ -361,6 +361,8 @@
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
   </div>
 </div>
 
@@ -435,7 +437,7 @@
     slides[autoSlideIndex_IWT-1].style.display = "block";
     dots[autoSlideIndex_IWT-1].className += " active";
 
-    setTimeout(autoShowSlides_IWT, 5000); // Change image every 5 seconds
+    setTimeout(autoShowSlides_IWT, 8000); // Change image every 5 seconds
   }
 
 </script>
