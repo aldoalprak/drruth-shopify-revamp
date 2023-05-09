@@ -75,7 +75,7 @@
             "desktop_button_alignment": "center",
             "content_layout": "overlap",
             "grid_type": "type1",
-            "show_arrow_mobile": "yes",
+            "show_arrow_mobile": "no",
             "mobile_content_alignment": "center",
             "heading": "Join a Community of Pet Lovers",
             "description": "<p>Connect with other like-minded pet owners and receive ongoing support and guidance<\/p>",
@@ -331,7 +331,7 @@
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "",
+            "id": "82543",
             "product_id_enabled": true,
             "collection_id_enabled": false
           }
