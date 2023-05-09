@@ -111,7 +111,7 @@
     background: none;
   }
 
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 920px) {
     #Banner-{{ section.id }} .rx_read_more_arrow_img_banner {
       display: {% if section.settings.show_arrow_mobile == "no" %} none {% endif %};
     }
@@ -128,8 +128,21 @@
     #Banner-{{ section.id }}  .rx_read_more_btn_white img {
       content: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191")
     }
+
+    #Banner-{{ section.id }} .rx_banner__heading {
+      color: #000;
+    }
+    
+    #Banner-{{ section.id }} .custom-box {
+      position: relative;
+    }
   }
 
+  @media screen and (max-width: 920px) and (min-width: 760px) {
+    #Banner-{{ section.id }} .custom-box {
+      transform: translateY(35%);
+    }
+  }
 
 {%- endstyle -%}
 
