@@ -146,6 +146,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -275,6 +276,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -287,7 +289,7 @@
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "82543",
+            "id": "",
             "product_id_enabled": true,
             "collection_id_enabled": false
           }
@@ -327,6 +329,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
@@ -357,6 +360,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -539,7 +543,7 @@
         "be385a9f-59a1-4ca7-a60f-623c1ef343fb": {
           "type": "caption",
           "settings": {
-            "caption": "Dr. Ruth Roberts offers a variety of courses on dogs and cats wellness. The courses are designed to educate pet owners on various topics related to pet health and wellness, including nutrition, exercise, and behavior. These courses are perfect for pet owners who want to learn more about how to care for their pets in a holistic way."
+            "caption": "\" Dr. Ruth Roberts provides a range of courses that promote total pet wellness of both cats and dogs. These courses are specifically designed to equip pet owners with knowledge on a variety of topics related to pet health and wellness, such as nutrition, exercise, and behavior. By enrolling in these courses, pet owners can gain valuable insights into how to care for their pets in a holistic manner, ensuring that their pets receive the best possible care for their overall health and happiness.\""
           }
         }
       },
@@ -552,6 +556,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 0
@@ -754,6 +759,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 4
@@ -835,6 +841,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -875,6 +882,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
