@@ -1,0 +1,232 @@
+  <div class="topborder"></div> 
+<div class="rewordmax_container main">
+        <div class="petviddetail">
+            <h2 class="petvheadd">{{section.settings.petvhead}}</h2>
+          
+        </div>
+       
+        <div class="slider audio-for">
+            
+            {%- for block in section.blocks -%}
+                <div class="petviddd">  
+                    <div class="petvideo50">
+                      <div class="audiobaner" style="background-image:url('{{block.settings.audiobanner | img_url:'master'}}');"> 
+                        <audio controls>
+                        <source src="{{ block.settings.petvideourl }}" type="audio/mpeg">
+                        </audio> 
+                          
+                    </div>
+                    </div>
+                    <div class="petvideo50">
+                        <div class="petaudioeowidth">
+                        <h2 class="petaudiohead">{{ block.settings.petviid}}</h2>
+                        </div>
+                        <div class="petvidtitle">
+                            <h3 class="petvaudiott text-left">{{ block.settings.petvideocontent}}</h3>
+                            <h3 class="petaudiottdess text-left">{{ block.settings.petvideocontentdesss}}</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            {%- endfor -%}
+            
+        </div>
+        <div class="slider petvideoflex audio-nav">
+            {%- for block in section.blocks -%}
+            <div class="petadvicevideo">
+                  <div class="audiobaner" style="background-image:url('{{block.settings.audiobanner | img_url:'master'}}');"> 
+                        <audio controls>
+                        <source src="{{ block.settings.petvideourl }}" type="audio/mpeg">
+                        </audio> 
+                          
+                    </div>
+              <div class="petvidtitle">
+                  <h3 class="petvaudiott">{{ block.settings.petvideocontent}}</h3>
+                </div>
+                <div class="petaudioeowidth">
+                        <h2 class="petaudiohead">{{ block.settings.petviid}}</h2>
+                </div>
+                
+              
+            </div>
+            {%- endfor -%}
+        </div>
+          <div class="petvideobtn">
+
+            <a href="{{ section.settings.petaudiurl }}" class="btnspace1">{{ section.settings.petaudiobtn }} 
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
+                    <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"/>
+                </svg>
+            </a>
+        </div> 
+</div>
+{% schema %} 
+{
+  "name": "pet_audio",
+  "tag": "section",
+  "class": "pet_audio",
+  "settings": [
+    {
+      "type": "text",
+      "id": "petvhead",
+      "label": "Heading"
+    }, {
+        "type": "text",
+    "id": "petaudiobtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "petaudiurl",
+    "label": "Button Link"
+       }
+    
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+     {
+      "type": "url",
+      "id": "petvideourl",
+      "label": "Video URL"
+    },
+   {
+    "type": "image_picker",
+    "id": "audiobanner",
+    "label": "Image"
+      },
+       {
+    "type": "text",
+    "id": "petviid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "petvideocontent",
+    "label": "Sub Heading"
+      },
+      {
+    "type": "text",
+    "id": "petvideocontentdesss",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "pet_audio"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.topborder{
+    border-top: 1px solid #F5F8F1;
+}
+h2.petaudiohead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+    margin-bottom: 0;
+}
+button.drag.petvideo2.slick-next.pull-right.slick-arrow {
+    top: 21%;
+        right: -15px;
+}
+button.drag.petvideo.slick-prev.pull-left.slick-arrow {
+    top: 94%;
+    left: -2%;
+}
+h3.petvaudiott {
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #1E1E1E;
+margin-bottom:8px;
+}
+h3.petaudiottdess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+.audiobaner{
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.audiobaner audio {
+    position: absolute;
+    bottom: 15px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+@media screen and (max-width: 420px) { 
+  h2.petvheadd{
+  font-size: 38px;
+    line-height: 48px;
+  }
+  h3.petvaudiott{
+        font-size: 23px;
+        line-height: 33px;
+  }
+  h3.petaudiottdess{
+     font-size: 15px;
+    line-height: 26px;
+  }
+}
+</style>
+<script>
+ $('.audio-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   dots: false,
+   fade: true,
+      arrows:true,
+        prevArrow:"<button type='button' class='drag petvideo slick-prev pull-left'><svg xmlns='http://www.w3.org/2000/svg' width='19' height='46' viewBox='0 0 19 46' fill='none'><path d='M17.5 1L2 23L17.5 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        
+   asNavFor: '.audio-nav'
+ });
+ $('.audio-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.audio-for',
+   dots: false,
+   arrows:true,
+     nextArrow:"<button type='button' class='drag petvideo2  slick-next pull-right'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='46' viewBox='0 0 18 46' fill='none'><path d='M1 1L16.5 23L1 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+       
+   focusOnSelect: true,
+   responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+ });
+  
+</script>

@@ -1,0 +1,303 @@
+ 
+<div class="topborder"></div> 
+<div class="rewordmax_container main">
+        <div class="petviddetail">
+            <h2 class="petvheadd">{{section.settings.petvhead}}</h2>
+          
+        </div>
+        <div class="slider webinar-for">
+            
+            {%- for block in section.blocks -%}
+                <div class="petviddd">  
+                    <div class="petvideo50">
+                        <div class="video-container">
+                            <iframe id="testvideo" class="testvideo" src="{{ block.settings.webinarvurl }}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="petvideo50">
+                        <div class="petwebinarvid webinar">
+                            <h2 class="petwebinarhead">{{ block.settings.petviid}}</h2>
+                        </div>
+                        <div class="petvidtitle">
+                            <h3 class="webinartitle">{{ block.settings.webinartitle}}</h3>
+                            <h3 class="webinardesc">{{ block.settings.webinardesc}}</h3>
+                        </div>
+                        <div class="petwebinarbtn">
+
+                            <a href="{{ block.settings.petvidbtnurl }}" class="btnspace1">{{ block.settings.petvideobtn }} 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
+                                    <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            {%- endfor -%}
+            
+        </div>
+        <div class="slider petvideoflex webinar-nav">
+            {%- for block in section.blocks -%}
+            <div class="petadvicevideo webinarvideo">
+                  <div class="pettitlweb">
+                    <h2 class="petwebinarhead">{{ block.settings.petviid}}</h2>
+                </div>
+               
+                <div class="petvidtitle">
+                  <h3 class="webinartitle">{{ block.settings.webinartitle}}</h3>
+                   <h3 class="webinardesc">{{ block.settings.webinardesc}}</h3>
+                </div>
+                <div class="petvideobtn">
+
+                    <a href="{{ block.settings.petvidbtnurl }}" class="btnspace1">{{ block.settings.petvideobtn }} 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
+                            <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div> 
+            </div>
+            {%- endfor -%}
+        </div>
+        <div class="petvideobtn">
+
+            <a href="{{ section.settings.webinarurl }}" class="btnspace1">{{ section.settings.wevinarbtn }} 
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
+                    <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"/>
+                </svg>
+            </a>
+        </div> 
+</div>
+{% schema %} 
+{
+  "name": "pet_webinar",
+  "tag": "section",
+  "class": "pet_webinar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "petvhead",
+      "label": "Heading"
+    },
+      {
+        "type": "text",
+    "id": "wevinarbtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "webinarurl",
+    "label": "Button Link"
+       }
+    
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+     {
+      "type": "url",
+      "id": "webinarvurl",
+      "label": "Video URL"
+    },
+       {
+    "type": "text",
+    "id": "petviid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "webinartitle",
+    "label": "Sub Heading"
+      },
+      {
+    "type": "text",
+    "id": "webinardesc",
+    "label": "Description"
+      },
+        {
+        "type": "text",
+    "id": "petvideobtn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "petvidbtnurl",
+    "label": "Button Link"
+       }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "pet_webinar"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.petviddd{
+    position:relative;
+}
+.petwebinarvid.webinar{
+        position: absolute;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+}
+iframe#testvideo{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    margin: 0;
+}
+.petadvicevideo.webinarvideo {
+    padding: 0 1%;
+}
+h2.petvheadd {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+}
+.petvideo50 .webinartitle{
+    font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+color: #1E1E1E;
+}
+.petwebinarbtn{
+    margin-bottom: 30px;
+}
+.petvideo50 {
+    width: 48%;
+    float: left;
+}
+.petvideo50:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+        padding-left: 5%;
+}
+.petadvicevideo.webinarvideo {
+    background: #F5F8F1;
+border-radius: 24px;
+margin:10px;
+padding:20px;
+}
+.petwebinarhead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1E1E1E;
+    margin:10px 0;
+}
+    h3.webinartitle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    margin:10px 0;
+}
+.petadvicevideo.webinarvideo {
+    width:30%;
+}
+button.drag.webinar.slick-next.pull-right.slick-arrow{
+        top: 41%;
+    right: -15px;
+}
+h3.webinardesc {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin:10px 0;
+}
+.petvideoflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.petvideobtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-top:5%;
+}
+
+.petwebinarvid.webinar .petwebinarhead {
+  position: absolute;
+    background: white;
+    padding: 10px;
+    margin:0;
+}
+@media screen and (max-width: 768px) { 
+    .petvideo50{
+        width:94%;
+        margin:0 2%;
+    }
+   
+    button.drag.petvideo.slick-prev.pull-left.slick-arrow {
+    left: 0px;
+}
+}
+@media screen and (max-width: 768px) {
+   
+}
+
+</style>
+<script>
+ $('.webinar-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   dots: false,
+   fade: true,
+      arrows:true,
+        prevArrow:"<button type='button' class='drag petvideo slick-prev pull-left'><svg xmlns='http://www.w3.org/2000/svg' width='19' height='46' viewBox='0 0 19 46' fill='none'><path d='M17.5 1L2 23L17.5 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+        
+   asNavFor: '.webinar-nav'
+ });
+ $('.webinar-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.webinar-for',
+   dots: false,
+   arrows:true,
+     nextArrow:"<button type='button' class='drag webinar  slick-next pull-right'><svg xmlns='http://www.w3.org/2000/svg' width='18' height='46' viewBox='0 0 18 46' fill='none'><path d='M1 1L16.5 23L1 45' stroke='#184B44' stroke-width='2' stroke-linecap='round'/></svg></button>",
+   focusOnSelect: true,
+   responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+         {
+      breakpoint: 620,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+ });
+  
+</script>

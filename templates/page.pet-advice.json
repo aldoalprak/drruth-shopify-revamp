@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8104cc31-1a02-403b-90ea-53954e6bd34c": {
+      "type": "pet_ourblog",
+      "settings": {
+        "labelourb": "Our blogs",
+        "petblogimg": "shopify:\/\/shop_images\/Image_11_494e7369-274b-4bd2-8036-6679fe3ddf19.png",
+        "prtblsubdes": "The Best Supplement For Your Aging Cat Or Dog",
+        "prtblogdate": "Dr. Ruth | March 6, 2023",
+        "prtblogdes": "Your older dog needs more care and consideration for the highest quality of life. What they can accomplish and how frequently they might need to visit your family veterinarian will depend on whether or not they have certain medical concerns—spending time with your dog\/cat benefits social contact and mental stimulation."
+      }
+    },
+    "b776f135-5555-4110-baf1-a19a930b1410": {
+      "type": "pet-blog",
+      "custom_css": [
+        "p {display: none;}",
+        ".card__information {display: flex; flex-direction: column;}",
+        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; text-transform: uppercase; color: #1e1e1e;}",
+        ".card__inner .card__content {display: none;}",
+        ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; position: absolute; bottom: 34px; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3c81f4e7-9d44-4850-985b-56f21e5816e9": {
+      "type": "pet-audio",
+      "blocks": {
+        "e5427fea-f2b0-4c4b-b4a6-d147d587a028": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "http:\/\/pd.npr.org\/anon.npr-mp3\/npr\/codeswitch\/2016\/08\/20160803_codeswitch_11b.mp3",
+            "audiobanner": "shopify:\/\/shop_images\/Image_12_afcd795f-463b-48a1-9c36-fdf4ade9af10.png",
+            "petviid": "March 6, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit."
+          }
+        },
+        "fb6144e7-5270-43b7-8ac5-d7ef7f18a6ac": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "http:\/\/pd.npr.org\/anon.npr-mp3\/npr\/codeswitch\/2016\/08\/20160803_codeswitch_11b.mp3",
+            "audiobanner": "shopify:\/\/shop_images\/Image_12_afcd795f-463b-48a1-9c36-fdf4ade9af10.png",
+            "petviid": "March 7, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur77",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.77"
+          }
+        },
+        "869eb4e5-6416-48c4-971f-1b68977171c3": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "http:\/\/pd.npr.org\/anon.npr-mp3\/npr\/codeswitch\/2016\/08\/20160803_codeswitch_11b.mp3",
+            "audiobanner": "shopify:\/\/shop_images\/Image_12_afcd795f-463b-48a1-9c36-fdf4ade9af10.png",
+            "petviid": "March 6, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit."
+          }
+        },
+        "786b22a0-7bd5-4b43-b30b-214744b43a61": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "http:\/\/pd.npr.org\/anon.npr-mp3\/npr\/codeswitch\/2016\/08\/20160803_codeswitch_11b.mp3",
+            "audiobanner": "shopify:\/\/shop_images\/Image_12_afcd795f-463b-48a1-9c36-fdf4ade9af10.png",
+            "petviid": "March 6, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit."
+          }
+        }
+      },
+      "block_order": [
+        "e5427fea-f2b0-4c4b-b4a6-d147d587a028",
+        "fb6144e7-5270-43b7-8ac5-d7ef7f18a6ac",
+        "869eb4e5-6416-48c4-971f-1b68977171c3",
+        "786b22a0-7bd5-4b43-b30b-214744b43a61"
+      ],
+      "settings": {
+        "petvhead": "Our podcast",
+        "petaudiobtn": "all podcast",
+        "petaudiurl": ""
+      }
+    },
+    "836a1838-39d3-4804-9b8f-570cc2fbf531": {
+      "type": "pet_webinar",
+      "blocks": {
+        "d1a2ff61-a549-44be-8c9c-f852ae9bc144": {
+          "type": "block",
+          "settings": {
+            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 6, 2023",
+            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
+            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "ca2c3611-0f8f-495b-bd4b-b9c18b445aff": {
+          "type": "block",
+          "settings": {
+            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 7, 2023",
+            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
+            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "4f66d978-c74d-4cbf-9827-76e65b784f02": {
+          "type": "block",
+          "settings": {
+            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 8, 2023",
+            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
+            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "f04c347a-abce-4d4f-bc71-62e1b38240e9": {
+          "type": "block",
+          "settings": {
+            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 9, 2023",
+            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
+            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "d1a2ff61-a549-44be-8c9c-f852ae9bc144",
+        "ca2c3611-0f8f-495b-bd4b-b9c18b445aff",
+        "4f66d978-c74d-4cbf-9827-76e65b784f02",
+        "f04c347a-abce-4d4f-bc71-62e1b38240e9"
+      ],
+      "settings": {
+        "petvhead": "Webinars",
+        "wevinarbtn": "all webinars",
+        "webinarurl": ""
+      }
+    },
+    "54622c8f-3f1b-48e3-a24e-b5c8cd560f29": {
+      "type": "pet_video",
+      "blocks": {
+        "fc3a6d8a-578f-40c3-aba2-5efd26c305b8": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 6, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "53165b96-789f-4d61-86cc-0ee7f9c68450": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 7, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "1c348941-662e-4410-8246-4b175e5cc5c1": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 8, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        },
+        "1f91b1ad-94c8-45fb-a588-7b44448fbff5": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 9, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc3a6d8a-578f-40c3-aba2-5efd26c305b8",
+        "53165b96-789f-4d61-86cc-0ee7f9c68450",
+        "1c348941-662e-4410-8246-4b175e5cc5c1",
+        "1f91b1ad-94c8-45fb-a588-7b44448fbff5"
+      ],
+      "settings": {
+        "petvhead": "VIDEOS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "8104cc31-1a02-403b-90ea-53954e6bd34c",
+    "b776f135-5555-4110-baf1-a19a930b1410",
+    "3c81f4e7-9d44-4850-985b-56f21e5816e9",
+    "836a1838-39d3-4804-9b8f-570cc2fbf531",
+    "54622c8f-3f1b-48e3-a24e-b5c8cd560f29"
+  ]
+}
