@@ -11,7 +11,7 @@
 
   .rx-{{section.id}} .container .rx-image {
     max-width: 680px;
-    max-height: 450px;
+    max-height: {{section.settings.image_max_height}};
     width: 50%;
   }
 
@@ -140,6 +140,12 @@
         "type": "richtext",
         "id": "content2",
         "label": "Second Content"
+      },
+      {
+        "type": "text",
+        "id": "image_max_height",
+        "label": "Image Max Height",
+        "default": "450px"
       },
       {
         "type": "select",

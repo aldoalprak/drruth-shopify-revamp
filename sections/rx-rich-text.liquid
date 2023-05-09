@@ -50,11 +50,21 @@
     text-align: {{section.settings.caption_alignment}} !important;
   }
 
+  .rx-{{section.id}} .img-container {
+    text-align: center;
+  }
+
   .rx-{{section.id}} .rx-image {
-    width: 100%;
+    width: {{section.settings.image_width}};
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .rx-{{section.id}} .rx-image {
+      width: 100%;
+    }
   }
 
   @media screen and (min-width: 990px) {
@@ -135,11 +145,11 @@
       {%- case block.type -%}
         {%- when 'image_picker' -%}
           {%- if block.settings.image != blank -%}
-            <div class="page-width">
+            <div class="img-container page-width">
               <img
                 class="rx-image"
                 src="{{ block.settings.image | image_url: width: 1000, crop: 'center' }}"
-                sizes="100%"
+                sizes="10%"
                 loading="lazy"
               >
           </div>
@@ -224,6 +234,12 @@
       "id": "section_bg_color",
       "label": "Section Background Color",
       "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "image_width",
+      "label": "Image Width",
+      "default": "100%"
     },
     {
       "type": "checkbox",
