@@ -1,0 +1,303 @@
+
+<style>
+  .rx-{{section.id}} {
+    margin-bottom: 20px;
+  }
+
+  .rx-{{section.id}} .collapsible {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    max-width: 1100px;
+    border-top: 1px solid #184B44;
+    padding-bottom: 1px;
+    padding-right: 150px;
+
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .rx-{{section.id}} .collabsible-arrow {
+    height: 9px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .rx-{{section.id}} .collapsible-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rx-{{section.id}}
+  
+  .rx-{{section.id}} .active, .rx-{{section.id}} .collapsible:hover {
+    background-color: "";
+  }
+  
+  .rx-{{section.id}} .content {
+    padding: 0 0;
+    display: none;
+    overflow: hidden;
+  }
+
+  {% comment %} =======Image with text====== {% endcomment %}
+
+  .rx-{{section.id}} .container {
+    display: flex;
+    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%};
+    margin-bottom: 30px;
+  }
+
+  .rx-{{section.id}} .container .rx-image {
+    max-width: 680px;
+    width: 50%;
+  }
+
+  .rx-{{section.id}} .container .rx-text {
+    {% comment %} width: 55%; {% endcomment %}
+    padding-left: {% if section.settings.layout == "text_first" %} 110px {%else%} 50px {%endif%};
+    padding-right: {% if section.settings.layout == "text_first" %} 50px {%else%} 110px {%endif%};;
+    {% comment %} margin: auto; {% endcomment %}
+    text-align: justify;
+  }
+
+  .rx-{{section.id}} .container .rx-text .rx-text-desc {
+    max-width: 600px;
+  }
+
+
+  .rx-{{section.id}}  .rx-text .rx-text-desc .imgText_content,
+  .rx-{{section.id}}  .rx-text .rx-text-desc ul {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .rx-{{section.id}} ul {
+    list-style-image: url('https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Polygon.png?v=1683609530');
+    padding-left: 20px;
+  }
+
+  @media screen and (max-width: 950px) {
+    .rx-{{section.id}} .container {
+      flex-direction: column;
+    } 
+
+    .rx-{{section.id}} .container .rx-image {
+      width: 100%;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .rx-{{section.id}} .container .rx-text {
+      width: 100%;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: auto;
+    }
+
+    .rx-{{section.id}} .container .rx-text .rx-text-desc {
+      margin: auto;
+    }
+
+    .rx-{{section.id}} .collapsible {
+      padding-right: 0;
+      padding-left: 15px;
+    }
+
+    
+    .rx-{{section.id}}  #collabsible-arrow {
+      display: none;
+    }
+  
+  }
+
+ 
+</style>
+
+<div class="rx-{{section.id}}">
+
+  {%- for block in section.blocks -%}
+    <div class="collapsible page-width collapsible-layout">
+      <p>{{block.settings.collabsible_menu}}</p>
+      <img 
+        class="collabsible-arrow"
+        id="collabsible-arrow"
+        style="display: block;"
+        src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/long-arrow-green.png?v=1683597346"
+      >
+    </div>
+    <div class="content">
+      <div class="container">
+        <img
+          class="rx-image"
+          src="{{ block.settings.rx_image_banner | image_url: width: 1500, crop: 'center' }}"
+          sizes="100%"
+          loading="lazy"
+          style="max-height:{{block.settings.image_max_height}};"
+        >
+        {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
+          
+        <div class="rx-text"> 
+          <div class="rx-text-desc">
+            <p class="imgText_content">{{block.settings.content | replace: 'p>', 'span>'}}</p>
+            <br>
+            <p class="imgText_content">{{block.settings.content2 | replace: 'p>', 'span>'}}</p>
+          </div>
+          
+          <a
+            {% if block.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ block.settings.button_link }}"
+            {% endif %}
+            class="rx_read_more_btn_green"
+          >
+            {{ block.settings.button_label | escape }}
+            <img 
+              id="rx_read_more_arrow_black"
+              class="rx_read_more_arrow_img_with_text"
+              src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
+            >
+          </a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  {%- endfor -%}
+
+ 
+
+  
+  
+
+  {% comment %} <button type="button" class="collapsible">Open Section 2</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button type="button" class="collapsible">Open Section 3</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div> {% endcomment %}
+</div>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var arrow = document.getElementsByClassName("collabsible-arrow")
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      var arrow = this.children[1];
+      
+      if(arrow.style.display === "block"){
+        arrow.style.display = "none";
+      } else {
+        arrow.style.display = "block";
+      }
+
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+{% schema %}
+  {
+    "name": "RX-Collapsible",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+     
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Image With Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "rx_image_banner",
+            "label": "image"
+          },
+          {
+            "type": "text",
+            "id": "collabsible_menu",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "First Content"
+          },
+          {
+            "type": "richtext",
+            "id": "content2",
+            "label": "Second Content"
+          },
+          {
+            "type": "text",
+            "id": "image_max_height",
+            "label": "Image Max Height",
+            "default": "986px"
+          },
+          {
+            "type": "select",
+            "id": "layout",
+            "options": [
+              {
+                "value": "image_first",
+                "label": "Image First"
+              },
+              {
+                "value": "text_first",
+                "label": "Text First"
+              }
+            ],
+            "default": "image_first",
+            "label": "Layout",
+            "info": "t:sections.image-with-text.settings.layout.info"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Button label",
+            "label": "Button label"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "RX-Collapsible"
+      }
+    ]
+  }
+
+{% endschema %}

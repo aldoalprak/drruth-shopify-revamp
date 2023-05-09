@@ -144,7 +144,7 @@
         "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "db04c4f4-51de-4290-a61a-0abfc410e04c": {
@@ -194,7 +194,7 @@
         "image_width": "unset",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "3b5fb840-2543-469c-ba98-033ed0869e06": {
@@ -217,8 +217,8 @@
         "section_bg_color": "#ffffff",
         "image_width": "100%",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "076f80ac-eb59-4ff5-8321-5e4abc4978de": {
@@ -263,6 +263,9 @@
         "9ec9a24a-b07a-40d3-9150-7759caa575ab",
         "b9986e22-885d-4152-bf37-0e4434d740c2"
       ],
+      "custom_css": [
+        ".slick-dots {display: none;}"
+      ],
       "settings": {
         "testhead": "",
         "testdes": "",
@@ -305,7 +308,7 @@
         "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "9cc2521b-12ca-4655-b108-a017d41eefd6": {
@@ -314,8 +317,153 @@
         "heading": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
-        "padding_top": 12,
+        "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "dfd5e0b8-658d-4d18-85eb-9a8afb7a5d3c": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "303278d8-bc2d-4392-87c2-d0de4100f0f5": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Keynote Topics by Dr. Ruth<\/p>"
+          }
+        },
+        "4f321820-3154-454c-a3d2-f40b0b255f40": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Expert Insights for Holistic Pet Health<br\/><\/p>"
+          }
+        },
+        "5d4cee85-d55c-4b8a-aff5-7f0ce7dcea1a": {
+          "type": "caption",
+          "settings": {
+            "caption": "From Whole Food Diets to Traditional Chinese Veterinary Medicine and More - Tap into Dr. Ruth's Wealth of Experience as a Keynote Speaker on a Range of Topics for Optimal Pet Health."
+          }
+        }
+      },
+      "block_order": [
+        "303278d8-bc2d-4392-87c2-d0de4100f0f5",
+        "4f321820-3154-454c-a3d2-f40b0b255f40",
+        "5d4cee85-d55c-4b8a-aff5-7f0ce7dcea1a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "ca0c59bb-2d80-4170-9d37-833a328f0ca3": {
+      "type": "rx-collapsible",
+      "blocks": {
+        "66044dad-1eff-4c5f-bd8b-e807f50aa317": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Why Pet Parents Need Holistic Pet Health Coaches",
+            "content": "<p>Why Pet Parents Need Holistic Pet Health Coaches: With the shortage of veterinary medicine experts, discover the importance of hiring a trusted guide, such as a holistic pet health coach, to navigate health challenges and maintain optimal pet health for the well-being of your furry friends.<\/p><ul><li>The Veterinary Medicine Shortage: Understanding the reality of the current shortage and its projected impact until 2030<\/li><\/ul><p><\/p><ul><li>Limitations of Conventional Medicine: Exploring the challenges and limitations of conventional approaches to chronic health issues in pets<\/li><\/ul><p><\/p><ul><li>Navigating Your Pet's Medical Condition: How to effectively understand and manage your dog or cat's health condition when your vet is limited on time<\/li><\/ul><p><\/p><ul><li>Becoming Your Pet's Best Ally: The importance of hiring a trusted guide, such as a holistic pet health coach, to help navigate health challenges and maintain optimal health for your pet<\/li><\/ul><p><\/p><ul><li>Case Studies: Real-life examples of how hiring a holistic pet health coach can make a positive impact on your pet's health and well-being<\/li><\/ul><p><\/p><ul><li>Q&A Session: Interactive discussion and problem-solving for addressing specific concerns and questions related to hiring a holistic pet health coach<\/li><\/ul><p><\/p><ul><li>Key Takeaways: Practical tips and strategies for pet parents to be proactive in managing their pet's health, and the benefits of hiring a holistic pet health coach as a valuable resource in their pet's healthcare journey.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "6cf814f5-9988-477c-88de-aaa7e79bd990": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Traditional Chinese Veterinary Medicine (TCVM) basics for Dogs & Cats",
+            "content": "<p>Explore the ancient wisdom of TCVM and how it can be applied to support your pet's health, including concepts of Yin and Yang, five elements, and using food as medicine.<\/p><ul><li>Overview of Traditional Chinese Veterinary Medicine as a centuries-old system of medicine for supporting dogs and cats<\/li><\/ul><p><\/p><ul><li>Understanding the concepts of Yin and Yang, 5 elements, and more in TCVM<\/li><\/ul><p><\/p><ul><li>Exploring how to apply these TCVM concepts to support the health of dogs and cats with food<\/li><\/ul><p><\/p><ul><li>Practical tips on incorporating TCVM principles into your pet's diet to promote optimal health<\/li><\/ul><p><\/p><ul><li>Case studies and examples showcasing the effectiveness of TCVM in supporting dogs and cats through food-based approaches.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "06943aaf-9a24-465c-a812-79c42a44394d": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Autoimmune disease in Dogs & Cats",
+            "content": "<p>Understand the triggers and impacts of autoimmune diseases in pets, and discover how food and supplements can restore immune function and promote balance for optimal pet health.<\/p><ul><li>Understanding the basics of autoimmune disease and how it occurs when the body attacks itself<\/li><\/ul><p><\/p><ul><li>Identifying triggers that can activate the immune system in dogs and cats<\/li><\/ul><p><\/p><ul><li>Exploring the role of food and supplements in restoring balance to immune function<\/li><\/ul><p><\/p><ul><li>Practical strategies for using nutrition and supplements to manage autoimmune disease in pets<\/li><\/ul><p><\/p><ul><li>Case studies and examples illustrating the successful use of food and supplements to support immune health in dogs and cats with autoimmune conditions.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "e8b2a3f9-cdbd-4ec0-a98d-9d9b1c095839": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Gut Health in Dogs & Cats",
+            "content": "<p>Discover the crucial role of gut health in overall pet health, and learn how to use whole foods, probiotics, and supplements to improve your pet's microbiome and support their digestive system.<\/p><ul><li>Understanding the significance of gut health in overall pet health and how it impacts overall well-being<\/li><\/ul><p><\/p><ul><li>Debunking the notion of Leaky Gut syndrome as a fringe diagnosis and highlighting its relevance in veterinary medicine<\/li><\/ul><p><\/p><ul><li>Exploring the role of whole foods, probiotics, and other supplements in promoting a healthy microbiome in pets<\/li><\/ul><p><\/p><ul><li>Practical strategies for improving gut health in dogs and cats through dietary modifications and supplementation<\/li><\/ul><p><\/p><ul><li>Case studies and examples showcasing successful approaches to shifting the pet's microbiome into a healthier state for improved overall health and well-being.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "c5e532d5-c3e2-4658-9fc5-0f76c8520f00": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Kidney Health in Dogs & Cats",
+            "content": "<p>Gain insights into understanding lab values, stages of kidney disease, and conventional approaches for supporting pets with kidney issues, along with utilizing homemade whole food diets and supplements for improved pet well-being.<\/p><ul><li>Understanding basic lab values and diagnostic indicators for assessing kidney health in pets<\/li><\/ul><p><\/p><ul><li>Exploring the 4 International Renal Interest Society (IRIS) stages and how to determine the stage of kidney disease in your pet<\/li><\/ul><p><\/p><ul><li>Understanding conventional approaches for supporting pets with kidney disease, including medications and treatments<\/li><\/ul><p><\/p><ul><li>Learning how to create a homemade whole food diet tailored to support pets with kidney disease at any stage<\/li><\/ul><p><\/p><ul><li>Discussing the use of supplements and other holistic approaches to improve the well-being and quality of life for pets with kidney disease<\/li><\/ul><p><\/p><ul><li>Case studies and examples showcasing successful approaches to managing kidney health in dogs and cats through nutrition and holistic care.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "367c7ff8-6e40-41e4-a934-78fa729eedac": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Practice management for Holistic Small Animal Veterinarians",
+            "content": "<p>Enhance your veterinary practice with efficient staff management, improved scheduling, and enhanced staff satisfaction and confidence through the implementation of SOPs (Standard Operating Procedures).<\/p><ul><li>Maximizing Staff Efficiency: Leveraging SOPs (Standard Operating Procedures) to streamline workflow and improve productivity<\/li><\/ul><p><\/p><ul><li>Effective Schedule Design: Strategies for optimizing staff utilization and patient flow in a holistic veterinary practice<\/li><\/ul><p><\/p><ul><li>Enhancing Staff Satisfaction and Confidence: Techniques for fostering a positive work environment, empowering team members, and promoting professional growth<\/li><\/ul><p><\/p><ul><li>Case Studies: Real-world examples showcasing successful practice management strategies in holistic small animal veterinary settings<\/li><\/ul><p><\/p><ul><li>Q&A Session: Interactive discussion and problem-solving for addressing specific practice management challenges and concerns<\/li><\/ul><p><\/p><ul><li>Key Takeaways: Practical tips and strategies for enhancing practice efficiency, staff satisfaction, and overall success in a holistic veterinary practice setting.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "a7e6566c-a0a0-4a5b-a289-9a93cac60488": {
+          "type": "slide",
+          "settings": {
+            "rx_image_banner": "shopify:\/\/shop_images\/Mask_group_a859cb79-05e8-4da3-b98b-27d43d63fa60.png",
+            "collabsible_menu": "Whole-food cooked diet for Dogs & Cats",
+            "content": "<p>Learn the benefits of feeding your furry friends a whole-food cooked diet, including reducing inflammation, improving digestive health, and customizing meals for specific pet needs.<\/p><ul><li>Introduction to the inflammatory effects of conventional kibble and canned food<\/li><\/ul><p><\/p><ul><li>Understanding the link between inflammation and chronic diseases in pets<\/li><\/ul><p><\/p><ul><li>Exploring the benefits of whole foods in reducing inflammation and improving digestive tract, liver, and endocrine system function in pets<\/li><\/ul><p><\/p><ul><li>Practical tips on how to modify whole food diets to meet the specific needs of dogs and cats<\/li><\/ul><p><\/p><ul><li>Discussion on batch cooking and freezing for convenient whole food feeding options for pets.<\/li><\/ul>",
+            "content2": "",
+            "image_max_height": "450px",
+            "layout": "image_first",
+            "button_label": "BOOK DR. RUTH",
+            "button_link": "shopify:\/\/pages\/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "66044dad-1eff-4c5f-bd8b-e807f50aa317",
+        "6cf814f5-9988-477c-88de-aaa7e79bd990",
+        "06943aaf-9a24-465c-a812-79c42a44394d",
+        "e8b2a3f9-cdbd-4ec0-a98d-9d9b1c095839",
+        "c5e532d5-c3e2-4658-9fc5-0f76c8520f00",
+        "367c7ff8-6e40-41e4-a934-78fa729eedac",
+        "a7e6566c-a0a0-4a5b-a289-9a93cac60488"
+      ],
+      "settings": {
       }
     }
   },
@@ -329,6 +477,8 @@
     "076f80ac-eb59-4ff5-8321-5e4abc4978de",
     "939ed13e-8961-40fb-be57-ecbc1f35dd30",
     "08f4812f-8c18-4709-b30b-791c74af60a2",
-    "9cc2521b-12ca-4655-b108-a017d41eefd6"
+    "9cc2521b-12ca-4655-b108-a017d41eefd6",
+    "dfd5e0b8-658d-4d18-85eb-9a8afb7a5d3c",
+    "ca0c59bb-2d80-4170-9d37-833a328f0ca3"
   ]
 }
