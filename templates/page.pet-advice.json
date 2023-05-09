@@ -246,6 +246,28 @@
         "wevinarbtn": "all webinars",
         "webinarurl": ""
       }
+    },
+    "54622c8f-3f1b-48e3-a24e-b5c8cd560f29": {
+      "type": "pet_video",
+      "blocks": {
+        "fc3a6d8a-578f-40c3-aba2-5efd26c305b8": {
+          "type": "block",
+          "settings": {
+            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petviid": "March 6, 2023",
+            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
+            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petvideobtn": "watch video",
+            "petvidbtnurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc3a6d8a-578f-40c3-aba2-5efd26c305b8"
+      ],
+      "settings": {
+        "petvhead": "VIDEOS"
+      }
     }
   },
   "order": [
@@ -255,6 +277,7 @@
     "8104cc31-1a02-403b-90ea-53954e6bd34c",
     "b776f135-5555-4110-baf1-a19a930b1410",
     "3c81f4e7-9d44-4850-985b-56f21e5816e9",
-    "836a1838-39d3-4804-9b8f-570cc2fbf531"
+    "836a1838-39d3-4804-9b8f-570cc2fbf531",
+    "54622c8f-3f1b-48e3-a24e-b5c8cd560f29"
   ]
 }
