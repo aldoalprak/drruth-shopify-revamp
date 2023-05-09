@@ -29,7 +29,7 @@
             "image": "shopify:\/\/shop_images\/mainpic_d587ca50-35d4-49d9-8a5a-faaf578da7ab.png",
             "height": "medium",
             "desktop_image_width": "medium",
-            "layout": "image_first",
+            "layout": "text_first",
             "desktop_title_alignment": "center",
             "desktop_content_alignment": "center",
             "desktop_button_alignment": "center",
@@ -46,10 +46,10 @@
         "2548be85-ca59-4cac-91f4-82dd357a90d6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mainpic_d587ca50-35d4-49d9-8a5a-faaf578da7ab.png",
+            "image": "shopify:\/\/shop_images\/mainpic.png",
             "height": "medium",
             "desktop_image_width": "medium",
-            "layout": "image_first",
+            "layout": "text_first",
             "desktop_title_alignment": "center",
             "desktop_content_alignment": "center",
             "desktop_button_alignment": "center",
@@ -58,7 +58,7 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "center",
             "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
-            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion.<\/p>",
+            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion<\/p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
           }
