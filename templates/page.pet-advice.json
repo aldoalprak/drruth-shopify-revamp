@@ -98,6 +98,16 @@
         "padding_bottom": 36
       }
     },
+    "8104cc31-1a02-403b-90ea-53954e6bd34c": {
+      "type": "pet_ourblog",
+      "settings": {
+        "labelourb": "Our blogs",
+        "petblogimg": "shopify:\/\/shop_images\/Image_11_494e7369-274b-4bd2-8036-6679fe3ddf19.png",
+        "prtblsubdes": "The Best Supplement For Your Aging Cat Or Dog",
+        "prtblogdate": "Dr. Ruth | March 6, 2023",
+        "prtblogdes": "Your older dog needs more care and consideration for the highest quality of life. What they can accomplish and how frequently they might need to visit your family veterinarian will depend on whether or not they have certain medical concerns—spending time with your dog\/cat benefits social contact and mental stimulation."
+      }
+    },
     "b776f135-5555-4110-baf1-a19a930b1410": {
       "type": "pet-blog",
       "custom_css": [
@@ -126,6 +136,7 @@
     "main",
     "newsletter",
     "1655751929e34d4e57",
+    "8104cc31-1a02-403b-90ea-53954e6bd34c",
     "b776f135-5555-4110-baf1-a19a930b1410"
   ]
 }
