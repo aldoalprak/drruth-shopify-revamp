@@ -660,6 +660,39 @@
         "name": "Blog posts"
       }
     },
+    "pet-blog": {
+      "name": "pet-advice-blog",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        },
+        "blog": {
+          "label": "Blog"
+        },
+        "post_limit": {
+          "label": "Number of blog posts to show"
+        },
+        "columns_desktop": {
+          "label": "Number of columns on desktop"
+        },
+        "show_view_all": {
+          "label": "Enable \"View all\" button if blog includes more blog posts than shown"
+        },
+        "show_image": {
+          "label": "Show featured image",
+          "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+        },
+        "show_date": {
+          "label": "Show date"
+        },
+        "show_author": {
+          "label": "Show author"
+        }
+      },
+      "presets": {
+        "name": "pet-advice-blog"
+      }
+    },
     "featured-collection": {
       "name": "Featured collection",
       "settings": {
