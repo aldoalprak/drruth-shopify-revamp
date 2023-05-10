@@ -3,6 +3,86 @@
     "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
       "type": "rx-img-with-text-slider",
       "blocks": {
+        "2548be85-ca59-4cac-91f4-82dd357a90d6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
+            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        },
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "center",
+            "heading": "Explore Our Holistic Pet Health Blog",
+            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
+            "button_label": "READ MORE",
+            "button_link": "shopify:\/\/blogs\/news"
+          }
+        },
+        "128fe0cd-e843-4c0f-a4e6-c53cc35d02a9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "heading": "Tune in to Our Holistic Pet Care Podcast",
+            "description": "<p>Stay up-to-date on the latest trends and insights in holistic pet care with our informative and engaging podcast<\/p>",
+            "button_label": "LISTEN NOW",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        },
+        "d82819d7-33cf-46bc-b16c-4f2cf78298ad": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mainpic.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "center",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "center",
+            "heading": "Join a Community of Pet Lovers",
+            "description": "<p>Connect with other like-minded pet owners and receive ongoing support and guidance<\/p>",
+            "button_label": "JOIN THE COMMUNITY",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+          }
+        },
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0": {
           "type": "slide",
           "settings": {
@@ -18,56 +98,18 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "center",
             "heading": "Transform Your Pet's Health",
-            "description": "<p>Discover the power of holistic pet care with our expert coaching and support<\/p>",
+            "description": "<p>Discover the power of holistic veterinary care with our expert coaching and support<\/p>",
             "button_label": "LEARN MORE",
             "button_link": "shopify:\/\/pages\/coachingmain1"
-          }
-        },
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/drruth2.jpg",
-            "height": "medium",
-            "desktop_image_width": "medium",
-            "layout": "image_first",
-            "desktop_title_alignment": "center",
-            "desktop_content_alignment": "center",
-            "desktop_button_alignment": "center",
-            "content_layout": "overlap",
-            "grid_type": "type1",
-            "show_arrow_mobile": "no",
-            "mobile_content_alignment": "center",
-            "heading": "Explore Our Holistic Pet Health Blog",
-            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
-            "button_label": "READ MORE",
-            "button_link": "shopify:\/\/blogs\/news"
-          }
-        },
-        "2548be85-ca59-4cac-91f4-82dd357a90d6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/drruth4_4475c1e4-4589-4d7e-9eb6-38ebc3bea3fd.jpg",
-            "height": "medium",
-            "desktop_image_width": "medium",
-            "layout": "image_first",
-            "desktop_title_alignment": "center",
-            "desktop_content_alignment": "center",
-            "desktop_button_alignment": "center",
-            "content_layout": "overlap",
-            "grid_type": "type1",
-            "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "center",
-            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
-            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion.<\/p>",
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
           }
         }
       },
       "block_order": [
-        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0",
+        "2548be85-ca59-4cac-91f4-82dd357a90d6",
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1",
-        "2548be85-ca59-4cac-91f4-82dd357a90d6"
+        "128fe0cd-e843-4c0f-a4e6-c53cc35d02a9",
+        "d82819d7-33cf-46bc-b16c-4f2cf78298ad",
+        "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0"
       ],
       "settings": {
         "desktopMaxWidth": "100%",
@@ -146,6 +188,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -275,6 +318,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -327,6 +371,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
@@ -357,6 +402,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -539,7 +585,7 @@
         "be385a9f-59a1-4ca7-a60f-623c1ef343fb": {
           "type": "caption",
           "settings": {
-            "caption": "Dr. Ruth Roberts offers a variety of courses on dogs and cats wellness. The courses are designed to educate pet owners on various topics related to pet health and wellness, including nutrition, exercise, and behavior. These courses are perfect for pet owners who want to learn more about how to care for their pets in a holistic way."
+            "caption": "\" Dr. Ruth Roberts provides a range of courses that promote total pet wellness of both cats and dogs. These courses are specifically designed to equip pet owners with knowledge on a variety of topics related to pet health and wellness, such as nutrition, exercise, and behavior. By enrolling in these courses, pet owners can gain valuable insights into how to care for their pets in a holistic manner, ensuring that their pets receive the best possible care for their overall health and happiness.\""
           }
         }
       },
@@ -552,6 +598,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 0
@@ -703,7 +750,7 @@
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With Holistic Pet Care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<br\/><\/p>"
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>"
           }
         },
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2": {
@@ -754,6 +801,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 4
@@ -835,6 +883,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -875,6 +924,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
