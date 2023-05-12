@@ -557,6 +557,9 @@
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89",
         "5840cdfe-58d3-4503-87a5-a0b4415826dd"
       ],
+      "custom_css": [
+        "span{color: #184B44;}"
+      ],
       "settings": {
         "pro_head": "Program Fees ",
         "pro_desc": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints.",
