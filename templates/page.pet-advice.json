@@ -194,7 +194,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 6, 2023",
+            "petviid": "March 6, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -205,7 +205,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 7, 2023",
+            "petviid": "March 7, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -216,7 +216,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 8, 2023",
+            "petviid": "March 8, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -227,7 +227,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 9, 2023",
+            "petviid": "March 9, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
