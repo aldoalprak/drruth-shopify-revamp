@@ -662,7 +662,7 @@
       "custom_css": [
         ".imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #ffffff;}",
         "h2.banner__heading.h1 {margin-left: -5%;}",
-        ".banner_img a.button.button--primary{font-family: 'Josefin Sans';font-style: normal;font-weight: 600;font-size: 14px;line-height: 21px;letter-spacing: 0.2em;text-transform: uppercase;color: #FFFFFF;}"
+        ".banner_img a.button.button--primary {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; padding: 8px 40px; opacity: 1; cursor: pointer; letter-spacing: 0.2em; text-transform: uppercase; color: #ffffff;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_1.png",
