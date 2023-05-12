@@ -156,7 +156,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "h3 a{text-align:left;}"
+        "h3 a {text-align: left;}"
       ],
       "settings": {
         "products_per_page": 9,
@@ -496,8 +496,8 @@
         "31676a7d-3f04-42b4-a644-a4855f1f823e": {
           "type": "blogs",
           "settings": {
-            "bhead": "Delivery",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "High-quality products",
+            "bdes": "Our pet supplements and products are made from the finest natural ingredients and are formulated to promote pet health and wellness."
           }
         },
         "43313def-158e-4b20-ba09-62ce3e81aec4": {
