@@ -181,6 +181,9 @@
         "869eb4e5-6416-48c4-971f-1b68977171c3",
         "786b22a0-7bd5-4b43-b30b-214744b43a61"
       ],
+      "custom_css": [
+        ".pet_audio {border-top: 1px solid #f5f8f1;}"
+      ],
       "settings": {
         "petvhead": "Our podcast",
         "petaudiobtn": "all podcast",
