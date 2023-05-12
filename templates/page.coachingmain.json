@@ -22,14 +22,14 @@
         "template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80-1681376700e830d692-0": {
           "type": "heading",
           "settings": {
-            "heading": "Design Your Dream Career and Lifestyle:",
+            "heading": "Design Your Dream Career and Lifestyle",
             "heading_size": "h1"
           }
         },
         "template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80-1681376700e830d692-1": {
           "type": "text",
           "settings": {
-            "text": "Transform Your Passion for Pets into a Career",
+            "text": "Transform  your passion for pet health & wellness into a meaningful and rewarding career",
             "text_style": "body"
           }
         },
@@ -713,8 +713,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".rich-text__blocks {max-width: 90rem;}",
-        " p {font-family: 'Josefin Sans'; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; color: #1E1E1E; width: 70%; margin: 0 auto; text-align: center;}",
-        "h2.title.h1 {font-family: 'BLT-Heirloom'; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1E1E1E; text-align: center;}"
+        "p {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; color: #1e1e1e; width: 70%; margin: 0 auto; text-align: center;}",
+        "h2.title.h1 {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1e1e1e; text-align: center;}"
       ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
