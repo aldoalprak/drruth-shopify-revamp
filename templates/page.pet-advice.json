@@ -113,9 +113,9 @@
       "custom_css": [
         "p {display: none;}",
         ".card__information {display: flex; flex-direction: column;}",
-        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; text-transform: uppercase; color: #1e1e1e;}",
-        ".card__inner .card__content {display: none;}",
-        ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; position: absolute; bottom: 34px; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}"
+        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; color: #1e1e1e;}",
+        ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; bottom: 34px; position: absolute; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}",
+        ".card__inner .card__content {display: none;}"
       ],
       "settings": {
         "heading": "",
@@ -181,6 +181,9 @@
         "869eb4e5-6416-48c4-971f-1b68977171c3",
         "786b22a0-7bd5-4b43-b30b-214744b43a61"
       ],
+      "custom_css": [
+        ".pet_audio {border-top: 1px solid #f5f8f1;}"
+      ],
       "settings": {
         "petvhead": "Our podcast",
         "petaudiobtn": "all podcast",
@@ -194,7 +197,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 6, 2023",
+            "petviid": "March 6, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -205,7 +208,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 7, 2023",
+            "petviid": "March 7, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -216,7 +219,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 8, 2023",
+            "petviid": "March 8, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
@@ -227,7 +230,7 @@
           "type": "block",
           "settings": {
             "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 9, 2023",
+            "petviid": "March 9, <br>2023",
             "webinartitle": "Lorem ipsum dolor sit amet consectetur",
             "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",

@@ -155,8 +155,11 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 a {text-align: left;}"
+      ],
       "settings": {
-        "products_per_page": 12,
+        "products_per_page": 9,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -168,7 +171,8 @@
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "rating": 5
       }
     },
     "1631859338560c9b4a": {
@@ -492,22 +496,22 @@
         "31676a7d-3f04-42b4-a644-a4855f1f823e": {
           "type": "blogs",
           "settings": {
-            "bhead": "Delivery",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "High-quality products",
+            "bdes": "Our pet supplements and products are made from the finest natural ingredients and are formulated to promote pet health and wellness."
           }
         },
         "43313def-158e-4b20-ba09-62ce3e81aec4": {
           "type": "blogs",
           "settings": {
-            "bhead": "Payment",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "Get rewarded for your loyalty",
+            "bdes": "We value our loyal customers. The more you shop and engage with us, the more rewards you can earn with our Happy Paws program."
           }
         },
         "1eb8ccb4-52ef-4221-a35c-e0788bae722c": {
           "type": "blogs",
           "settings": {
-            "bhead": "Delivery",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "Wide selection",
+            "bdes": "Our shop offers a wide variety of products to suit every pet's needs and preferences. Whether you have a dog, cat, or a horse, we have something for everyone."
           }
         }
       },
@@ -554,11 +558,16 @@
         "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-1",
         "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-2"
       ],
+      "custom_css": [
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {width: 60%;}",
+        ".banner__buttons svg {fill: #fff !important; margin-left: 100px;}",
+        ".banner_img a.button.button--primary {padding: 8px 20px; text-transform: capitalize;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",

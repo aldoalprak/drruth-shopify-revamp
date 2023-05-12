@@ -380,7 +380,7 @@
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
       "custom_css": [
-        "p.programdestext {padding: 2% 9%;}"
+        "p.programdestext {padding: 4% 9%; border-top: 2px solid #f5f8f1;}"
       ],
       "settings": {
         "programhead": "After the program ",
@@ -501,7 +501,7 @@
         "862bb4c9-9a88-4417-b839-8bcef59174be"
       ],
       "custom_css": [
-        ".slick-dots {margin: 7% 0 0 0;}"
+        ".slick-dots {margin: -2% 0;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
@@ -649,6 +649,10 @@
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1",
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2"
       ],
+      "custom_css": [
+        ".imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #ffffff;}",
+        "h2.banner__heading.h1 {margin-left: -5%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_1.png",
         "image_overlay_opacity": 0,
@@ -698,7 +702,8 @@
         "template--14909520412737__38bceb66-17fa-4539-8d15-e78489d9a302-1681458562ecbf9e30-2"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width: 90rem;}"
+        ".rich-text__blocks {max-width: 90rem;}",
+        "span {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #184b44;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -714,7 +719,8 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 90rem;}",
         "p {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; color: #1e1e1e; width: 70%; margin: 0 auto; text-align: center;}",
-        "h2.title.h1 {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1e1e1e; text-align: center;}"
+        "h2.title.h1 {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1e1e1e; text-align: center;}",
+        ".caption-with-letter-spacing.light {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 11px; line-height: 30px; color: #1e1e1e; margin: 0;}"
       ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
@@ -732,7 +738,7 @@
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
@@ -888,7 +894,7 @@
         "492b13c9-3577-4748-bf9b-be89d133fe19": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:                                                                1.Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets. 2.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.3.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.4.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income. 5.E-commerce supplement business: Create an e-commerce business selling supplements for pets.6.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.7.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.8.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.9.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.10.Influencer: Build a following on social media and become an influencer in the pet health industry.11.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:<br>                                                                1.Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets. <br>  2.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.<br>3.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.<br>4.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income. <br>5.E-commerce supplement business: Create an e-commerce business selling supplements for pets.<br>6.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.<br>7.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.<br>8.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.<br>9.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.<br>10.Influencer: Build a following on social media and become an influencer in the pet health industry.<br>11.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
             "faqid": "",
             "faqbtn": "What will I learn from this certification?"
           }
@@ -896,7 +902,7 @@
         "90a7e8c3-d1b1-4bc5-b701-62703e8fd38d": {
           "type": "collection",
           "settings": {
-            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include: <br>                                                                1.Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets. <br>2.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.<br>3.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.<br>4.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income.<br> 5.E-commerce supplement business: Create an e-commerce business selling supplements for pets.<br>6.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.<br>7.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.<br>8.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.<br>9.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.<br>10.Influencer: Build a following on social media and become an influencer in the pet health industry.<br>11.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
+            "faqdes": "As a Certified Holistic Pet Health Coach, you have a wide range of career options available to you. Some of the things you can do include:                                                                1.Coach clients 1-on-1: Work with pet owners to develop personalized holistic health plans for their pets.   2.Group coaching programs: Offer group coaching programs for puppies, kittens, seniors, and new pet parents to help them learn about holistic pet care.3.Group cooking classes: Host group cooking classes using The Original CrockPet Diet to teach pet owners how to prepare healthy, homemade meals for their pets.4.Make and sell pet food: Create and sell The Original CrockPet Diet food made for individual pets, which can be a great source of income. 5.E-commerce supplement business: Create an e-commerce business selling supplements for pets.6.Online coaching programs: Develop and run online evergreen coaching programs to help pet owners learn about holistic pet care.7.Workshops: Host workshops to teach pet owners the basics of a holistic pet lifestyle, including nutrition, exercise, and stress management.8.Public speaking: Become a public speaker in the pet health industry, sharing your knowledge and expertise with others.9.Media and Television: Become an expert in homecooked pet nutrition and provide support to local veterinary practices. You can also host podcasts, YouTube channels, or other media to reach a wider audience.10.Influencer: Build a following on social media and become an influencer in the pet health industry.11.Community Programs: Start exciting programs in your community, such as volunteering at animal shelters, hosting pet health fairs, or working with local pet stores to promote holistic pet care.",
             "faqid": "",
             "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
           }

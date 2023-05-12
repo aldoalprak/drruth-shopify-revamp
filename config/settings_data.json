@@ -45,7 +45,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "center",
-    "card_color_scheme": "inverse",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 12,
@@ -288,35 +288,35 @@
           "5d63545c-caf9-489f-8378-69b81ec04f8f": {
             "type": "Question",
             "settings": {
-              "labelname": "Why do you think Holistic Pet Health Coaching is a good fit for you? * (2 of 8)",
+              "labelname": "Why do you think Holistic Pet Health Coaching is a good fit for you? <span>* (2 of 8)<\/span>",
               "answer": ""
             }
           },
           "6260fe64-f425-4fa1-8e65-c2103e17cfa8": {
             "type": "Question",
             "settings": {
-              "labelname": "Tell me a story about your most loved pet? * (3 of 8)",
+              "labelname": "Tell me a story about your most loved pet? * <span>(3 of 8)<\/span>",
               "answer": ""
             }
           },
           "0c2e6db6-21da-4d24-825b-bd1ccf677ef6": {
             "type": "Question",
             "settings": {
-              "labelname": "What will make you a great Pet Health Coach? * (4 of 8)",
+              "labelname": "What will make you a great Pet Health Coach? * <span>(4 of 8)<\/span>",
               "answer": ""
             }
           },
           "4f733575-baaf-4280-88ac-72beea4ec2bc": {
             "type": "Question",
             "settings": {
-              "labelname": "What’s your life\/work experience? * (5 of 8)",
+              "labelname": "What’s your life\/work experience? *<span> (5 of 8)<\/span>",
               "answer": ""
             }
           },
           "d0e19503-b57e-45d5-8c19-286e4fc677cb": {
             "type": "Question",
             "settings": {
-              "labelname": "Did you participate in Holistic Health Coaching Programs of any kind before? (6 of 8)",
+              "labelname": "Did you participate in Holistic Health Coaching Programs of any kind before? <span>(6 of 8)<\/span>",
               "answer": ""
             }
           }
@@ -364,6 +364,31 @@
       },
       "answertearms": {
         "type": "answertearms",
+        "blocks": {
+          "88979496-f035-4ad0-888a-9d05891a192e": {
+            "type": "condition",
+            "settings": {
+              "ansteram": "Terms and Conditions: By checking this box, I agree to abide by the terms and conditions of this program, as outlined in the program agreement. I understand that failure to comply with these terms and conditions may result in termination of my participation in the program without a refund."
+            }
+          },
+          "e56d769d-d1ac-455f-b587-887736df4280": {
+            "type": "condition",
+            "settings": {
+              "ansteram": "Privacy Policy: By checking this box, I acknowledge that I have read, understood, and agree to the Privacy Policy of this program. I understand that my personal information will be collected, used, and disclosed in accordance with the Privacy Policy. I further consent to receiving marketing materials and updates from the program."
+            }
+          },
+          "470e657f-1afb-4782-8aa3-d5bd6932d394": {
+            "type": "condition",
+            "settings": {
+              "ansteram": "SMS\/MMS Policy: By checking this box, I consent to receiving SMS\/MMS messages from the program regarding program updates, marketing materials, and other communications related to the program. I understand that standard messaging rates may apply depending on my mobile carrier plan, and I am responsible for any charges incurred. I also understand that I can opt out of these messages at any time by replying with the word \"STOP\" to the received message."
+            }
+          }
+        },
+        "block_order": [
+          "88979496-f035-4ad0-888a-9d05891a192e",
+          "e56d769d-d1ac-455f-b587-887736df4280",
+          "470e657f-1afb-4782-8aa3-d5bd6932d394"
+        ],
         "settings": {
         }
       },
