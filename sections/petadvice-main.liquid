@@ -1,0 +1,115 @@
+<div class="rewordmax_container">
+  <div class="clsimgtxt">
+    {%- for block in section.blocks %}
+      <div class="clsimgtxtiner">
+        <img class="" src="{{ block.settings.image | img_url:'master'}}">
+        <h2 class="iclsimgtxt-title">{{ block.settings.heading }}</h2>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+{
+"name": "petadvice-main",
+"class":"petadvice-main",
+
+"settings": [
+    
+  {
+          "id" : "heading1",
+          "type" : "text",
+          "label" : "ALTEREGO",
+          "default" : "Heading"
+        }
+
+
+
+
+],
+"blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "settings" : [
+    {
+      "id": "image",
+      "type":"image_picker",
+      "label" : "Image"
+      },
+     {
+          "id" : "heading",
+          "type" : "text",
+          "label" : "ALTEREGO",
+          "default" : "Heading"
+        }
+
+
+
+  ]
+  }
+
+  ],
+"presets" : [
+{
+  "name" : "petadvice-main",
+  "category" : "petadvice-main"
+
+  }
+]
+}
+{% endschema %}
+
+<style>
+  .rewordmax_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  .clsimgtxtiner {
+    background: #F5F8F1;
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 18%;
+  align-items: center;
+  margin:0 8px;
+}
+  .clsimgtxt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+  h2.iclsimgtxt-title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.clsimgtxtiner img{
+  width:19px;
+  height:16px;
+}
+  @media(max-width:991px){
+    .clsimgtxtiner {
+    width: 30%;
+    margin: 0 10px 10px;
+}
+  }
+   @media(max-width:640px){
+    .clsimgtxtiner {
+    width: 38%;
+}
+.clsimgtxtiner:last-child{
+   width: 60%;
+}
+  }
+    @media(max-width:420px){
+      .clsimgtxtiner:last-child{
+   width: 80%;
+}
+    }
+</style>
