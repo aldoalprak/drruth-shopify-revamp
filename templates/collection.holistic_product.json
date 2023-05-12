@@ -561,7 +561,7 @@
       "custom_css": [
         ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {width: 60%;}",
         ".banner__buttons svg {fill: #fff !important; margin-left: 100px;}",
-        ".banner_img a.button.button--primary {padding: 8px 20px;}"
+        ".banner_img a.button.button--primary {padding: 8px 20px; text-transform: capitalize;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
