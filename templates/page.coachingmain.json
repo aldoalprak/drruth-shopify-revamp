@@ -560,7 +560,7 @@
         "5840cdfe-58d3-4503-87a5-a0b4415826dd"
       ],
       "custom_css": [
-        "span {color: #184b44; font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 18px;line-height: 40px;color: #184B44;}"
+        "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}"
       ],
       "settings": {
         "pro_head": "Program Fees ",
