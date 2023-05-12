@@ -155,6 +155,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 a{text-align:left;}"
+      ],
       "settings": {
         "products_per_page": 9,
         "columns_desktop": 3,
