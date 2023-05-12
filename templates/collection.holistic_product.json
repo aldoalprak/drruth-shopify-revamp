@@ -558,6 +558,9 @@
         "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-1",
         "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-2"
       ],
+      "custom_css": [
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient{width:60%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
         "image_overlay_opacity": 0,
