@@ -113,8 +113,8 @@
       "custom_css": [
         "p {display: none;}",
         ".card__information {display: flex; flex-direction: column;}",
-        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; text-transform: capitalize; color: #1e1e1e;}",
-        ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; bottom: 34px; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}",
+        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; color: #1e1e1e;}",
+        ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; bottom: 34px; position: absolute; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}",
         ".card__inner .card__content {display: none;}"
       ],
       "settings": {
