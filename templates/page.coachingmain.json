@@ -380,7 +380,7 @@
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
       "custom_css": [
-        "p.programdestext {padding: 4% 9%; border-top: 2px solid #F5F8F1;}"
+        "p.programdestext {padding: 4% 9%; border-top: 2px solid #f5f8f1;}"
       ],
       "settings": {
         "programhead": "After the program ",
@@ -501,7 +501,7 @@
         "862bb4c9-9a88-4417-b839-8bcef59174be"
       ],
       "custom_css": [
-        ".slick-dots {margin: 7% 0 0 0;}"
+        ".slick-dots {margin: -2% 0;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
@@ -648,6 +648,9 @@
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-0",
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-1",
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2"
+      ],
+      "custom_css": [
+        ".imghead{font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 30px;line-height: 40px;text-align: center;color: #FFFFFF;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_1.png",
