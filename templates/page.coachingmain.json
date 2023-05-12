@@ -719,7 +719,8 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 90rem;}",
         "p {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; color: #1e1e1e; width: 70%; margin: 0 auto; text-align: center;}",
-        "h2.title.h1 {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1e1e1e; text-align: center;}"
+        "h2.title.h1 {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; color: #1e1e1e; text-align: center;}",
+        ".caption-with-letter-spacing.light {font-family: 'Josefin Sans'; font-style: normal; font-weight: 500; font-size: 11px; line-height: 30px; color: #1E1E1E; margin: 0;}"
       ],
       "settings": {
         "title": "Dr. Ruth Pet Wellness Courses ",
