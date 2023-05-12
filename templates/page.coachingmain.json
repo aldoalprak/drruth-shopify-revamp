@@ -532,7 +532,7 @@
           "settings": {
             "cost_num": "4",
             "cost_head": "Monthly Installments",
-            "cost_price": "$1500 \/ 4 months",
+            "cost_price": "$1500 \/ <span>4 months<\/span>",
             "costmont": "",
             "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
             "cost_btn": "Apply Now",
@@ -544,7 +544,7 @@
           "settings": {
             "cost_num": "16",
             "cost_head": "Weekly Installments",
-            "cost_price": "$367 \/ 15 week",
+            "cost_price": "$367 \/ <span>15 week<\/span>",
             "costmont": "",
             "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
             "cost_btn": "Apply Now",
