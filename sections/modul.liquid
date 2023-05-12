@@ -7,6 +7,9 @@
                    <p class="pfeesdec">{{section.settings.moduledesc}}</p>
                    <p class="pfeesdec">{{section.settings.moduledesc1}}</p>
             </div>
+            <diV class="moduleparagr">
+              <p class="modelepara">{{section.settings.modulepare}}</p>
+             </div>
   </div>
 {% schema %}
   {
@@ -20,6 +23,11 @@
     "type": "text",
     "id": "m_des",
     "label": "Description"
+      },
+       {
+    "type": "text",
+    "id": "modulepare",
+    "label": "Sub Text"
       },
       {
          "type": "text",
@@ -40,3 +48,24 @@
     ]
   }
 {% endschema %}
+<style>
+p.modelepara {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    width: 80%;
+    margin: 0 auto;
+}
+h2.moduletext{
+  margin-bottom: 10px;
+}
+.modulecontent {
+    margin-top: 8%;
+}
+.moduleparagr {
+    margin-bottom: 6%;
+}
+</style>

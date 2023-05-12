@@ -1,9 +1,10 @@
+
 <div class="rewordmax_container howrewardflex">
     <div class="rewardwork">
             <h2 class="rewordhead">{{section.settings.reworkhead}}</h2>
             <p class="rewardsub">{{section.settings.rewworkdes}}</p>
     </div>
-    <div class=" reworkcontent">
+    <div class=" reworkcontent" style="    border-bottom: 1px solid #F5F8F1;width: 100%;">
         {%- for block in section.blocks -%}
                 <div class="rewordworkspace">
                     <h2 class="reworktitlle">{{block.settings.reworktitle}}</h2>
@@ -75,3 +76,8 @@
   ]
 }
 {% endschema %}
+<style>
+.howworkorder svg{
+margin-left:100px;
+}
+</style>

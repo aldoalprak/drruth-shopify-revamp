@@ -157,7 +157,7 @@
 
 .product-card-wrapper .card,
 .contains-card--product {
-  --border-radius: var(--product-card-corner-radius);
+  /* --border-radius: var(--product-card-corner-radius); */
   --border-width: var(--product-card-border-width);
   --border-opacity: var(--product-card-border-opacity);
   --shadow-horizontal-offset: var(--product-card-shadow-horizontal-offset);
@@ -3381,7 +3381,7 @@ cursor: pointer;
   width: 55%;
     padding: 2%;
     position: relative;
-    right: 3%;
+    right: 1%;
     margin: auto 0;
     border-radius: 30px;
     padding-right: 8%;
@@ -3658,7 +3658,7 @@ margin-top: 4%;
 iframe#testvideo {
   width: 100%;
   height: 300px;
-  border-radius: 12px;
+  border-radius: 24px;
 }
 .testwidth {
   position: absolute;
@@ -3867,7 +3867,7 @@ padding: 14px 20px;
     border-radius: 24px 24px 0px 0px;
     position: relative;
     width: 80%;
-    margin: -10% auto 0;
+    margin: -14% auto 0;
 }
 .linkslide{
   /*margin-top: 4%;
@@ -4269,8 +4269,8 @@ p.certified ,p.certified2 {
   font-size: 18px;
   line-height: 30px;
   color: #1E1E1E;
-  padding: 2% 10% 0 10%;
-  padding-right: 16%;
+  padding: 2% 14% 0 4%;
+  /* padding-right: 16%; */
 }
 .text60:nth-child(2) {
   border-bottom: 2px solid #F5F8F1;
@@ -4440,7 +4440,7 @@ color: #1E1E1E;
   font-size: 30px;
   line-height: 40px;
   color: #184B44;
-  padding: 10% 0 5% 0;
+  padding: 10% 0 0% 0;
   text-align: center;
 }
 .program50 {
@@ -4575,7 +4575,7 @@ h3.certifiedtext{
 .blogbodr2 {
   position: relative;
   bottom: 10%;
-  padding: 3% 0;
+  padding: 4% 0;
   display: flex;
   justify-content: center;
 }
@@ -4588,7 +4588,7 @@ h2.previewtext1 {
   font-size: 64px;
   line-height: 57px;
   letter-spacing: 0.02em;
-  color: #184B44;
+  color: #184B44;margin-bottom: 10px;
 }
 h3.peviewsub1 {
 
@@ -4645,7 +4645,7 @@ section#shopify-section-template--14909103046721__38bceb66-17fa-4539-8d15-e78489
   background: #FFFFFF;
   border-radius: 24px;
   padding: 10px;
-  margin: 12px;
+  margin: 12px;margin-right: 6%;
 }
 h2.arrowtext {
   font-family: 'Josefin Sans';
@@ -5257,7 +5257,7 @@ color: #1E1E1E;
 }
 .slideflex{
   display: flex;
-  width: 96%;
+  width: 95%;
   margin: 0 auto;
 }
 .slidebg{
@@ -5271,7 +5271,7 @@ border-radius: 24px;
 font-style: normal;
 font-weight: 300;
 font-size: 30px;
-line-height: 0px;
+line-height: 29px;margin-bottom: 10px;
 text-transform: capitalize;
 color: #1E1E1E;
       text-align: center;
@@ -5297,21 +5297,21 @@ border-radius: 24px;
 width: 31.33%;
 }
 .shpo_space{
-  padding:0 5rem;
+  padding:0 5rem;margin-bottom: 5%;
 }
 .slideflex  button.drag.dogarrow1.slick-prev.pull-left.slick-arrow {
     background: none;
     border: none;
     position: absolute;
-    top: 35%;
+    top: 50%;
     z-index: 999;
   font-size:22px;
-  left: -2%;
+  left: -4%;
 }
 .slideflex  button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
     position: absolute;
     right: -2.5%;
-    top: 40%;
+    top: 50%;
     background: none;
     border: none; 
   font-size:22px;
@@ -5347,7 +5347,7 @@ width: 31.33%;
     background: transparent;
    border-radius: 24px;
     border: 1px solid #fff!important;
-    padding: 8px 42px;
+    padding: 8px 40px;
   opacity: 1;
   cursor: pointer;
 }
@@ -5374,7 +5374,7 @@ width: 31.33%;
   font-weight: 500;
   /* font-size: 11px; */
   /* line-height: 30px; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #1E1E1E;
 }
 .pcontainer .select svg.icon.icon-caret {
@@ -5745,12 +5745,12 @@ section#shopify-section-template--14911683133505__143fd103-6dd8-40ee-a3e0-7880c5
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 90%;
-  margin: 2% auto 4% 0; 
+  width: 100%;
+  margin:2%  auto 4% auto; 
 }
 .rflex {
-  width: 23%;
-  margin: 2% auto 0 auto;
+  width: 25%;
+  /* margin: 2% auto 0 auto; */
 }
 h4.rehead {
   font-family: 'Josefin Sans';
@@ -5828,7 +5828,7 @@ h2.reverefferhead {
   font-size: 64px;
   line-height: 57px;
   letter-spacing: 0.02em;
-  text-transform: capitalize  ;
+  text-transform: math-auto;
   color: #FFFFFF;
   margin-bottom: 0;
 
@@ -5961,7 +5961,7 @@ h2.rewordhead {
   color: #184B44;
   text-align: center;
   padding-top: 5%;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 p.rewardsub {
   font-family: 'Josefin Sans';
@@ -5969,7 +5969,7 @@ p.rewardsub {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #1E1E1E;
+  color: #1E1E1E;margin-bottom: 0;
 }
 .reworkcontent{
     display: flex;
@@ -5978,7 +5978,7 @@ p.rewardsub {
 }
 .rewordworkspace {
   width: 30%;
-  margin: 0 auto;
+ margin: auto;
 }
 
 h2.reworktitlle {
@@ -5987,7 +5987,7 @@ h2.reworktitlle {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #000000;
 }
 h3.reworkdescc {
@@ -6045,12 +6045,12 @@ a.refferbannorder {
   background: #F5F8F1;
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
-  padding: 7px 70px;
+  padding: 7px 90px 7px 25px;
 }
 .rbannesign2 {
   border: 2px solid #FFFFFF;
   border-radius: 25.5px;
-  padding: 7px 70px;
+  padding: 7px 90px 7px 25px;
   margin-left: 20px;
 }
 .rbannesign2 a.refferbannorder{
@@ -6229,3 +6229,8 @@ a.refferorder{
   }
 }
 /* Reward page end */
+.article-card__image.media.media--hover-effect {
+  border-radius: 20px;
+}.card__inner.color-background-2.gradient.ratio {
+  background: #08708a00;
+}

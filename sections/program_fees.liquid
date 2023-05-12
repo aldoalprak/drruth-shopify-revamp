@@ -16,7 +16,7 @@
                     <div class="costpart1">
                         <h2>{{block.settings.cost_num}} </h2>
                         <h2>{{block.settings.cost_head}} </h2>
-                        <h3>{{block.settings.cost_price}}</h3>
+                        <h3>{{block.settings.cost_price}}<span>{{block.settings.costmont}}</span></h3>
                         <p>{{block.settings.cost_desc}}</p>
                         <div class="blogbodr1">
                             <a href="{{ block.settings.cost_btnurl }}" class="btnspace">{{ block.settings.cost_btn }} 
@@ -70,6 +70,11 @@
     "type": "text",
     "id": "cost_price",
     "label": "Price"
+      },
+         {
+    "type": "text",
+    "id": "costmont",
+    "label": "Month"
       },
        {
     "type": "text",

@@ -2,6 +2,7 @@
     <div class="cmax_container publicflex">
         <div class="programtext">
             <h2>{{section.settings.programhead}}</h2>
+            <h3 class="subheadafter">{{section.settings.programsubhead}}</h3>
         </div>
         <div class="programflex">
              {% for block in section.blocks %}
@@ -28,6 +29,11 @@
     "type": "text",
     "id": "programhead",
     "label": "Heading"
+      },
+        {
+    "type": "text",
+    "id": "programsubhead",
+    "label": "Sub-Heading"
       },
       {
         "type": "text",
@@ -66,3 +72,19 @@
     ]
   }
 {% endschema %}
+<style>
+h3.subheadafter {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #184B44;
+    margin-top: 0;
+    padding-bottom: 3%;
+}
+.programtext h2{
+  margin-bottom:0;
+}
+</style>

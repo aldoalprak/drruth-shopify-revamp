@@ -103,6 +103,7 @@
 <style>
 .wi90.accordion-container .set{
 margin:3% 0;
+
 }
 h2.affhead {
     font-family: 'BLT-Heirloom';
@@ -123,7 +124,9 @@ h2.affhead {
  width:65%;
   height: auto;
   margin: 10px auto;
-  
+ max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .afficibtn{
     margin: 0 auto;
@@ -144,15 +147,51 @@ h2.affhead {
     display: flex;
     flex-direction: column;
 }
-..affborde{
+.affborde{
         margin-top: 5%;
+}
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #184B44; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 .set{
   position: relative;
-  width: 100%;
+  width: 95%;
   height: auto;
  background: #F5F8F1;
 border-radius: 24px;
+}
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #184B44; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 .wi90.accordion-container .set > a {
 padding: 4% 4%;
