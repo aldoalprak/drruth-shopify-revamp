@@ -98,6 +98,56 @@
         "padding_bottom": 36
       }
     },
+    "1408af62-d6c1-4a8b-924e-373937384510": {
+      "type": "petadvice-main",
+      "blocks": {
+        "cdf6bc16-afca-432b-a894-37df39b0e3b8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
+            "heading": "Blogs"
+          }
+        },
+        "a64ad7d8-1933-459e-9ba1-d8dc192ff02e": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
+            "heading": "Podcast"
+          }
+        },
+        "c73b44fb-9d1d-415f-9a2a-d32b3b3e9978": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
+            "heading": "video"
+          }
+        },
+        "f61bc112-9522-411d-82ef-394782bfaccc": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
+            "heading": "Webinars"
+          }
+        },
+        "7abf0653-7abd-42ef-affa-1ab57d62adc8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
+            "heading": "DOWNLOADABLES"
+          }
+        }
+      },
+      "block_order": [
+        "cdf6bc16-afca-432b-a894-37df39b0e3b8",
+        "a64ad7d8-1933-459e-9ba1-d8dc192ff02e",
+        "c73b44fb-9d1d-415f-9a2a-d32b3b3e9978",
+        "f61bc112-9522-411d-82ef-394782bfaccc",
+        "7abf0653-7abd-42ef-affa-1ab57d62adc8"
+      ],
+      "settings": {
+        "heading1": ""
+      }
+    },
     "8104cc31-1a02-403b-90ea-53954e6bd34c": {
       "type": "pet_ourblog",
       "settings": {
@@ -313,6 +363,7 @@
     "main",
     "newsletter",
     "1655751929e34d4e57",
+    "1408af62-d6c1-4a8b-924e-373937384510",
     "8104cc31-1a02-403b-90ea-53954e6bd34c",
     "b776f135-5555-4110-baf1-a19a930b1410",
     "3c81f4e7-9d44-4850-985b-56f21e5816e9",
