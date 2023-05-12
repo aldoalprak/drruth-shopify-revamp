@@ -503,15 +503,15 @@
         "43313def-158e-4b20-ba09-62ce3e81aec4": {
           "type": "blogs",
           "settings": {
-            "bhead": "Payment",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "Get rewarded for your loyalty",
+            "bdes": "We value our loyal customers. The more you shop and engage with us, the more rewards you can earn with our Happy Paws program."
           }
         },
         "1eb8ccb4-52ef-4221-a35c-e0788bae722c": {
           "type": "blogs",
           "settings": {
-            "bhead": "Delivery",
-            "bdes": "Lorem ipsum dolor sit amet consectetur."
+            "bhead": "Wide selection",
+            "bdes": "Our shop offers a wide variety of products to suit every pet's needs and preferences. Whether you have a dog, cat, or a horse, we have something for everyone."
           }
         }
       },
