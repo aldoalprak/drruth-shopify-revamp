@@ -650,7 +650,8 @@
         "template--14909520412737__39e112cd-4e94-4716-a728-90d799f169b4-1681458859df109715-2"
       ],
       "custom_css": [
-        ".imghead{font-family: 'BLT-Heirloom';font-style: normal;font-weight: 300;font-size: 30px;line-height: 40px;text-align: center;color: #FFFFFF;}"
+        ".imghead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #ffffff;}",
+        "h2.banner__heading.h1 {margin-left: -5%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_1.png",
