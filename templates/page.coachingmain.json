@@ -504,7 +504,8 @@
       ],
       "custom_css": [
         ".slick-dots {margin: 2% 0 -1% 0;}",
-        "button.drag.coacharrow.slick-prev.pull-left.slick-arrow {top: 50%; position: absolute; left: 0%;}"
+        "button.drag.coacharrow.slick-prev.pull-left.slick-arrow {top: 50%; position: absolute; left: 0%;}",
+        "button.drag.coacharrow2.slick-next.pull-right.slick-arrow {position: absolute; top: 50%; right: -3%;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
