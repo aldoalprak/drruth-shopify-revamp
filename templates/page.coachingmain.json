@@ -503,7 +503,7 @@
         "862bb4c9-9a88-4417-b839-8bcef59174be"
       ],
       "custom_css": [
-        ".slick-dots {margin: -2% 0;}"
+        ".slick-dots {margin: 2% 0 -1% 0;}"
       ],
       "settings": {
         "testhead": "Our Certified Coaches",
