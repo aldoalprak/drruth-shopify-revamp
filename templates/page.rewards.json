@@ -112,6 +112,7 @@
     },
     "5714fa08-4d14-4062-8528-d10eca9d8316": {
       "type": "get-reward",
+      "disabled": true,
       "settings": {
         "rewarddes": "Get rewarded for taking care of your furry friends with Dr. Ruth Roberts’ Happy Paws Rewards Program! This program is designed to benefit loyal pet parents with exclusive rewards such as cashback reward program, free products and exclusive merchandise by harvesting loyalty points. Why not join today and start earning rewards for every purchase you make?"
       }
@@ -147,7 +148,7 @@
         "1f44cd6e-6331-4c0b-ade5-918ea7514d3c"
       ],
       "settings": {
-        "reworkhead": "How it works? ",
+        "reworkhead": "How it works?",
         "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of Dr. Ruth Roberts Happy Paws Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
         "howbtn": "JOIN NOW",
         "howbtnurl": ""
@@ -288,7 +289,9 @@
         "poides": "Once you've accumulated enough points in the Dr. Ruth Roberts’ Happy Paws Rewards Program, you can redeem them for rewards or cashback to use in our store! To redeem your loyalty PAWS, simply log into your rewards account on our website or mobile app, and browse the rewards catalog. You'll find a variety of rewards to choose from, such as discounts on purchases, free products, and exclusive merchandise. Simply select the reward that you want to redeem, and follow the instructions to claim it.",
         "poisubdes": "",
         "rsubtitlte": "",
-        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward or cashback, it will be added to your account, and you can use it on your next purchase at Dr. Ruth Roberts’ store whenever you're ready."
+        "rsubdes": "Some rewards may require that you have a minimum number of points before you can redeem them, while others may have limited availability, so be sure to check the details before redeeming your points. Once you've claimed your reward or cashback, it will be added to your account, and you can use it on your next purchase at Dr. Ruth Roberts’ store whenever you're ready.",
+        "rttitl11": "",
+        "rtitle12": ""
       }
     },
     "a1eeca7e-aded-4d45-9de0-6496d50a1e13": {
