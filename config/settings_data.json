@@ -288,7 +288,7 @@
           "5d63545c-caf9-489f-8378-69b81ec04f8f": {
             "type": "Question",
             "settings": {
-              "labelname": "Why do you think Holistic Pet Health Coaching is a good fit for you? * (2 of 8)",
+              "labelname": "Why do you think Holistic Pet Health Coaching is a good fit for you? <span>* (2 of 8)<\/span>",
               "answer": ""
             }
           },
