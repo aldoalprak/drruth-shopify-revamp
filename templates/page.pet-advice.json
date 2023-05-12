@@ -111,8 +111,6 @@
     "b776f135-5555-4110-baf1-a19a930b1410": {
       "type": "pet-blog",
       "custom_css": [
-        "p {display: none;}",
-        ".card__information {display: flex; flex-direction: column;}",
         "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; text-transform: uppercase; color: #1e1e1e;}",
         ".card__inner .card__content {display: none;}",
         ".article-card__image.media.media--hover-effect {border-radius: 20px;}",
