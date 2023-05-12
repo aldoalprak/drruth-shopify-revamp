@@ -380,7 +380,7 @@
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae"
       ],
       "custom_css": [
-        "p.programdestext {padding: 2% 9%;}"
+        "p.programdestext {padding: 4% 9%; border-top: 2px solid #F5F8F1;}"
       ],
       "settings": {
         "programhead": "After the program ",
