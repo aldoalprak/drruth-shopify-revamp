@@ -719,7 +719,7 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 90rem;}",
         "span {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 100px; letter-spacing: 0.02em; color: #184b44;}",
-        "@media screen and (max-width: 520px) {span{font-size:35px; line-height:55px; }}"
+        "@media screen and (max-width: 520px) {span {font-size: 45px; line-height: 55px; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
