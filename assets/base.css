@@ -6337,12 +6337,12 @@ padding: 10px 0;
     margin: 0 5%;
   }
 }
-@media screen and (max-width: 989px){
-  .slider.slider--tablet{
-    overflow-x: inherit!important;
+
+@media screen and (max-width: 749px) {
+  #shopify-section-template--14918559367233__b776f135-5555-4110-baf1-a19a930b1410 .article-card__info{
+    bottom: 26px;
   }
 }
-
 @media screen and (max-width: 910px) {
   .shpo_space{
     padding: 0px 2rem;
