@@ -157,7 +157,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "h3 a {text-align: left;}",
-        ".price-item{font-family: 'Josefin Sans';font-style: normal;font-weight: 600;font-size: 15px;line-height: 22px;letter-spacing: 0.04em;text-transform: uppercase;color: #184B44;}"
+        ".price-item {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 15px; line-height: 22px; letter-spacing: 0.04em; text-transform: uppercase; color: #184b44;}"
       ],
       "settings": {
         "products_per_page": 9,
