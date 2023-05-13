@@ -101,7 +101,8 @@
     "ef19d89c-189d-45a1-ac1f-7395d0135cef": {
       "type": "affiliatebanner",
       "custom_css": [
-        "h2.affbanerhead {width: 35%;}"
+        "h2.affbanerhead {width: 35%;}",
+        "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%;}}"
       ],
       "settings": {
         "rbanehead": "Happy Paws Affiliate Program ",
