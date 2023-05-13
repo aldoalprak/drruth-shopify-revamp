@@ -752,7 +752,7 @@
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
