@@ -612,8 +612,7 @@
       ],
       "custom_css": [
         "h1.confirmedetail {text-align: left; width: 70%;}",
-        ".starflex {align-items: baseline;}",
-        "button.drag.dogarrow2.slick-next.pull-right.slick-arrow {right: 0% !important;}"
+        ".starflex {align-items: baseline;}"
       ],
       "settings": {
         "starreviewhead": "What our graduates say"
