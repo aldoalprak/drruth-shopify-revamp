@@ -205,7 +205,7 @@
       "settings": {
         "c_head": "",
         "pro_btn1": "apply now",
-        "program_link1": ""
+        "program_link1": "shopify:\/\/pages\/application-form-1"
       }
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
@@ -391,7 +391,7 @@
         "programhead": "After the program ",
         "programsubhead": "Join our network of certified Holistic Pet Health Coaches",
         "pro_btn": "Apply Now",
-        "program_link": ""
+        "program_link": "shopify:\/\/pages\/application-form-1"
       }
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
@@ -465,7 +465,7 @@
         ".arrowheight {height: 600px;}"
       ],
       "settings": {
-        "arrowid": "",
+        "arrowid": "shopify:\/\/pages\/application-form-1",
         "arrowtextbtn": "Apply Now"
       }
     },
