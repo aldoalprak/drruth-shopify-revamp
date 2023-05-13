@@ -523,7 +523,8 @@
         "1eb8ccb4-52ef-4221-a35c-e0788bae722c"
       ],
       "custom_css": [
-        ".shopbhead{padding:0 10%;}"
+        ".shopbhead {padding: 0 10%;}",
+        "@media screen and (max-width: 1000px) {.shopbhead{padding:0; }}"
       ],
       "settings": {
         "shop_head": ""
