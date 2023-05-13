@@ -957,6 +957,9 @@
         "befddf47-7829-4037-89e2-b0ee3ac326a6",
         "0a857dad-e342-4738-baa6-fec93ce79ecf"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 520px) {.set >a{font-size:16px; } }"
+      ],
       "settings": {
         "mfaqhead": "FAQS"
       }
