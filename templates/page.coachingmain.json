@@ -613,7 +613,7 @@
       "custom_css": [
         "h1.confirmedetail {text-align: left; width: 70%;}",
         ".starflex {align-items: baseline;}",
-        "button.drag.dogarrow2.slick-next.pull-right.slick-arrow {right: -2!important;}"
+        "button.drag.dogarrow2.slick-next.pull-right.slick-arrow {right: -2%!important;}"
       ],
       "settings": {
         "starreviewhead": "What our graduates say"
