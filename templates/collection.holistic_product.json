@@ -158,7 +158,7 @@
       "custom_css": [
         "h3 a {text-align: left;}",
         ".price-item {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 15px; line-height: 22px; letter-spacing: 0.04em; text-transform: uppercase; color: #184b44;}",
-        ".full-unstyled-link{font-family: 'Josefin Sans';font-style: normal;font-weight: 500;font-size: 14px;line-height: 20px;letter-spacing: 0.04em;color: #1E1E1E;}"
+        ".full-unstyled-link {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 14px; line-height: 20px; letter-spacing: 0.04em; color: #1e1e1e;}"
       ],
       "settings": {
         "products_per_page": 9,
@@ -521,6 +521,9 @@
         "31676a7d-3f04-42b4-a644-a4855f1f823e",
         "43313def-158e-4b20-ba09-62ce3e81aec4",
         "1eb8ccb4-52ef-4221-a35c-e0788bae722c"
+      ],
+      "custom_css": [
+        ".shopbhead{padding:0 10%;}"
       ],
       "settings": {
         "shop_head": ""
