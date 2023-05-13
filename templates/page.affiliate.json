@@ -114,7 +114,7 @@
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
       "type": "affiliate-richtext",
       "custom_css": [
-        "h2.affrichhead{color: #184B44;}"
+        "h2.affrichhead {color: #184b44;}"
       ],
       "settings": {
         "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
@@ -389,6 +389,9 @@
         "78f47e34-e66d-49ac-9ef5-f5b239959388",
         "7d5c79ed-6633-4d33-8bbb-81dff8359128",
         "42e2751e-fd52-4769-93b0-b547b87b0092"
+      ],
+      "custom_css": [
+        ".accordion-container{min-width:320px;}"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
