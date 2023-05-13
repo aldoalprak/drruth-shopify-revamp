@@ -237,7 +237,7 @@
       ],
       "custom_css": [
         ".pet_audio {border-top: 1px solid #f5f8f1;}",
-        ".petadvicevideo.slick-slide{margin:0 10px;}"
+        ".petadvicevideo.slick-slide {margin: 0 10px;}"
       ],
       "settings": {
         "petvhead": "Our podcast",
@@ -360,7 +360,7 @@
         "1f91b1ad-94c8-45fb-a588-7b44448fbff5"
       ],
       "settings": {
-        "petvhead": "VIDEOS"
+        "petvhead": "Videos"
       }
     }
   },
