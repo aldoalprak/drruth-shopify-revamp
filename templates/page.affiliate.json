@@ -393,7 +393,8 @@
         "42e2751e-fd52-4769-93b0-b547b87b0092"
       ],
       "custom_css": [
-        ".accordion-container {max-height: 320px;}"
+        ".accordion-container {max-height: 320px;}",
+        "@media screen and (max-width: 440px{.howworkorder svg{margin-left:22px;} }"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
