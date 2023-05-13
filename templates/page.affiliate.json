@@ -100,16 +100,24 @@
     },
     "ef19d89c-189d-45a1-ac1f-7395d0135cef": {
       "type": "affiliatebanner",
+      "custom_css": [
+        "h2.affbanerhead {width: 35%;}",
+        "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%; }}",
+        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; }}"
+      ],
       "settings": {
-        "rbanehead": "Lorem ipsum dolor sit",
-        "rebanneddes": "Lorem ipsum dolor sit amet consectetur.",
+        "rbanehead": "Happy Paws Affiliate Program ",
+        "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link. ",
         "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
-        "affbannrsubbtn": "button",
+        "affbannrsubbtn": "sing up",
         "affbannersuburl": ""
       }
     },
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
       "type": "affiliate-richtext",
+      "custom_css": [
+        "h2.affrichhead {color: #184b44;}"
+      ],
       "settings": {
         "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
         "affrichhead": "Who can join our affiliate program?",
@@ -163,7 +171,7 @@
         "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14"
       ],
       "custom_css": [
-        "h2.reworktitlle {margin-bottom:0 ;font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
+        "h2.reworktitlle {margin-bottom: 0; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
         "h3.reworkdescc {text-align: center;}"
       ],
       "settings": {
@@ -383,6 +391,10 @@
         "78f47e34-e66d-49ac-9ef5-f5b239959388",
         "7d5c79ed-6633-4d33-8bbb-81dff8359128",
         "42e2751e-fd52-4769-93b0-b547b87b0092"
+      ],
+      "custom_css": [
+        ".accordion-container {max-height: 320px;}",
+        "@media screen and (max-width: 440px{.howworkorder svg{margin-left:22px;} }"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",

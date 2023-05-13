@@ -106,7 +106,7 @@
       "custom_css": [
         ".rich-text__buttons a.button.button--primary {background: transparent; border: 2px solid #184b44; border-radius: 25.5px; cursor: pointer; opacity: 1; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 21px; letter-spacing: 0.3em; text-transform: uppercase; color: #1e1e1e;}",
         "h2.rich-text__heading.rte.h1 span {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; text-align: center; color: #1e1e1e; margin: 0;}",
-        "p {margin-top: -2%; opacity: 1; color: #1e1e1e;}"
+        "p {margin-top: -2%; opacity: 1; color: #1e1e1e; margin-bottom: 2%;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -119,9 +119,12 @@
     },
     "2716545e-36c5-4506-88db-ba56fdea439b": {
       "type": "application",
+      "custom_css": [
+        "svg {margin-left: 60px;}"
+      ],
       "settings": {
-        "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program: A",
-        "appdesc": "Comprehensive Training in Pet Health and Wellness",
+        "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program:",
+        "appdesc": "A Comprehensive Training in Pet Health and Wellness",
         "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
         "applbtn": "Apply Now",
         "appbtnurl": ""
@@ -504,7 +507,7 @@
       ],
       "custom_css": [
         ".slick-dots {margin: 2% 0 -1% 0;}",
-        "button.drag.coacharrow.slick-prev.pull-left.slick-arrow {top: 50%; position: absolute; left: -2%;}",
+        "button.drag.coacharrow.slick-prev.pull-left.slick-arrow {top: 50%; position: absolute; left: -1%;}",
         "button.drag.coacharrow2.slick-next.pull-right.slick-arrow {position: absolute; top: 50%; right: -3%;}"
       ],
       "settings": {
@@ -714,7 +717,8 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 90rem;}",
-        "span {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 100px; letter-spacing: 0.02em; color: #184b44;}"
+        "span {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 100px; letter-spacing: 0.02em; color: #184b44;}",
+        "@media screen and (max-width: 520px) {span {font-size: 45px; line-height: 55px; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -749,7 +753,7 @@
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
@@ -832,6 +836,9 @@
         "726aff34-506f-4fd1-9a97-fea2447ab27d",
         "397d9678-611b-4419-bc44-d5d5a64f819f",
         "0af2e652-cf0e-47c7-81e6-ed39917a1a62"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "numhead": "Honoring a Legacy of Compassionate Care"
@@ -949,6 +956,9 @@
         "0c402c11-3358-45bb-8046-921224f28492",
         "befddf47-7829-4037-89e2-b0ee3ac326a6",
         "0a857dad-e342-4738-baa6-fec93ce79ecf"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 520px) {.set > a {font-size: 16px; }}"
       ],
       "settings": {
         "mfaqhead": "FAQS"

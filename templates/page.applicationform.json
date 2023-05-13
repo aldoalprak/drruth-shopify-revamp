@@ -297,9 +297,10 @@
         "00844289-9324-48ee-9586-a12c6ed64fd3",
         "f2f997a4-9f57-46a2-9910-bb0e2242d7a4"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 440px) {.appbtnspacess svg{margin-left:130px;}}"
+      ],
       "settings": {
-        "formbtn": "apply now",
-        "formurl": ""
       }
     }
   },
