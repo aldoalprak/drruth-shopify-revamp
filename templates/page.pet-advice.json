@@ -145,7 +145,7 @@
         "7abf0653-7abd-42ef-affa-1ab57d62adc8"
       ],
       "custom_css": [
-        ".clsimgtxt{margin-top:5%;}"
+        ".clsimgtxt {margin-top: 5%;}"
       ],
       "settings": {
         "heading1": "",
@@ -236,7 +236,8 @@
         "786b22a0-7bd5-4b43-b30b-214744b43a61"
       ],
       "custom_css": [
-        ".pet_audio {border-top: 1px solid #f5f8f1;}"
+        ".pet_audio {border-top: 1px solid #f5f8f1;}",
+        ".petadvicevideo.slick-slide{margin:0 10px;}"
       ],
       "settings": {
         "petvhead": "Our podcast",
