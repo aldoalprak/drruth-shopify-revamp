@@ -110,7 +110,7 @@
         "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link. ",
         "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
         "affbannrsubbtn": "sing up",
-        "affbannersuburl": ""
+        "affbannersuburl": "shopify:\/\/pages\/contact-us"
       }
     },
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
@@ -394,7 +394,7 @@
       ],
       "custom_css": [
         ".accordion-container {max-height: 320px;}",
-        "@media screen and (max-width: 440px{.howworkorder svg{margin-left:22px;} }"
+        "@media screen and {.howworkorder svg {margin-left: 22px; }}"
       ],
       "settings": {
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
