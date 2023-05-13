@@ -101,7 +101,7 @@
     "ef19d89c-189d-45a1-ac1f-7395d0135cef": {
       "type": "affiliatebanner",
       "custom_css": [
-        "h2.affbanerhead{width:35%;}"
+        "h2.affbanerhead {width: 35%;}"
       ],
       "settings": {
         "rbanehead": "Happy Paws Affiliate Program ",
@@ -113,6 +113,9 @@
     },
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
       "type": "affiliate-richtext",
+      "custom_css": [
+        "h2.affrichhead{color: #184B44;}"
+      ],
       "settings": {
         "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
         "affrichhead": "Who can join our affiliate program?",
