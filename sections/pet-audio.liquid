@@ -5,7 +5,7 @@
           
         </div>
        
-        <div class="slider audio-for">
+        <div class="slider audio-for sliderforwidth">
             
             {%- for block in section.blocks -%}
                 <div class="petviddd">  
@@ -140,8 +140,8 @@ button.drag.petvideo2.slick-next.pull-right.slick-arrow {
         right: -15px;
 }
 button.drag.petvideo.slick-prev.pull-left.slick-arrow {
-    top: 94%;
-    left: -2%;
+  top: 95%!important;
+    left: 0%!important;
 }
 h3.petvaudiott {
     font-family: 'Josefin Sans';
@@ -217,14 +217,14 @@ h3.petaudiottdess {
    focusOnSelect: true,
    responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 991,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
       }
     },
          {
-      breakpoint: 520,
+      breakpoint: 620,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

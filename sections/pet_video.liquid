@@ -5,7 +5,7 @@
             <h2 class="petvheadd">{{section.settings.petvhead}}</h2>
           
         </div>
-        <div class="slider slider-for">
+        <div class="slider slider-for videforwidth">
             
             {%- for block in section.blocks -%}
                 <div class="petviddd">  
@@ -199,7 +199,10 @@ color: #1E1E1E;
 .petvideoflex{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
+    margin:0 auto;
     justify-content: space-between;
+        margin-top: 6%;
 }
 .petadvicevideo{
      width: 32.5%;
@@ -214,8 +217,8 @@ color: #1E1E1E;
     position:relative;
 }
 button.drag.petvideo.slick-prev.pull-left.slick-arrow {
-    top: 94%;
-    left: -2%;
+    top: 95%!important;
+    left: 0%!important;
 }
 button.drag.petvideo2.slick-next.pull-right.slick-arrow {
     top: 21%;
@@ -257,7 +260,6 @@ color: #000000;
     line-height: 26px;
   }
 }
-
 </style>
 <script>
  $('.slider-for').slick({
@@ -281,14 +283,14 @@ color: #000000;
    focusOnSelect: true,
    responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 991,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
       }
     },
          {
-      breakpoint: 520,
+      breakpoint: 620,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

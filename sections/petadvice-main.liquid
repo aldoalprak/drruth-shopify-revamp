@@ -4,6 +4,7 @@
       <div class="clsimgtxtiner">
         <img class="" src="{{ block.settings.image | img_url:'master'}}">
         <h2 class="iclsimgtxt-title">{{ block.settings.heading }}</h2>
+        <h2 class="valuepet">{{ block.settings.valuepet }}</h2>
       </div>
     {% endfor %}
   </div>
@@ -15,12 +16,16 @@
 
 "settings": [
     
-  {
-          "id" : "heading1",
-          "type" : "text",
-          "label" : "ALTEREGO",
-          "default" : "Heading"
-        }
+    {
+      "id" : "heading1",
+      "type" : "text",
+      "label" : "Heading"
+    },
+    {
+         "id" : "valuepet",
+      "type" : "text",
+      "label" : "value"
+    }
 
 
 

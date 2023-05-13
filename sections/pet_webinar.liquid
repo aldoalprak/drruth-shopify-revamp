@@ -5,7 +5,7 @@
             <h2 class="petvheadd">{{section.settings.petvhead}}</h2>
           
         </div>
-        <div class="slider webinar-for">
+        <div class="slider webinar-for webinarforwidth">
             
             {%- for block in section.blocks -%}
                 <div class="petviddd">  
@@ -232,7 +232,10 @@ h3.webinardesc {
 .petvideoflex{
     display: flex;
     flex-wrap: wrap;
+      width:100%;
+    margin:0 auto;
     justify-content: space-between;
+        margin-top: 6%;
 }
 .petvideobtn {
     display: flex;
@@ -257,6 +260,11 @@ h3.webinardesc {
     left: 0px;
 }
 }
+@media screen and (max-width: 640px) { 
+  a.btnspace1{
+    padding:15px 18px;
+  }
+  }
 @media screen and (max-width: 520px) { 
   .petvheadd{
     font-size:45px;
@@ -266,7 +274,6 @@ h3.webinardesc {
     line-height: 33px;
   }
   }
-
 </style>
 <script>
  $('.webinar-for').slick({
