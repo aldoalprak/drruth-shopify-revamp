@@ -524,7 +524,8 @@
       ],
       "custom_css": [
         ".shopbhead {padding: 0 10%;}",
-        "@media screen and (max-width: 1000px) {.shopbhead{padding:0; }}"
+        "@media screen and (max-width: 1100px) {.shop_block{margin-left:0; } }",
+        "@media screen and (max-width: 1000px) {.shopbhead {padding: 0; }}"
       ],
       "settings": {
         "shop_head": ""
