@@ -100,6 +100,9 @@
     },
     "d48c35de-9106-4995-aefa-b9b52ae4d3f9": {
       "type": "rewardbanner",
+      "custom_css": [
+        "@media screen and (max-width: 450px){.rbannesign{margin-right:15px;}}"
+      ],
       "settings": {
         "rbanehead": "Happy Paws Rewards Program",
         "rebanneddes": "Caring for your pet just got more rewarding! With Dr. Ruth Roberts Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
