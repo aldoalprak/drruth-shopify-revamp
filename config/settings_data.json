@@ -278,7 +278,7 @@
           "e5c65594-483b-415d-b751-a8b983841ab6"
         ],
         "settings": {
-          "describehead": "What best describes you?",
+          "describehead": "1.What best describes you?",
           "describedesa": "please check all that apply  (1 of 8)"
         }
       },
@@ -288,35 +288,35 @@
           "5d63545c-caf9-489f-8378-69b81ec04f8f": {
             "type": "Question",
             "settings": {
-              "labelname": "Why do you think Holistic Pet Health Coaching is a good fit for you? <span>* (2 of 8)<\/span>",
+              "labelname": "2.Why do you think Holistic Pet Health Coaching is a good fit for you? <span>* (2 of 8)<\/span>",
               "answer": ""
             }
           },
           "6260fe64-f425-4fa1-8e65-c2103e17cfa8": {
             "type": "Question",
             "settings": {
-              "labelname": "Tell me a story about your most loved pet? * <span>(3 of 8)<\/span>",
+              "labelname": "3.Tell me a story about your most loved pet? * <span>(3 of 8)<\/span>",
               "answer": ""
             }
           },
           "0c2e6db6-21da-4d24-825b-bd1ccf677ef6": {
             "type": "Question",
             "settings": {
-              "labelname": "What will make you a great Pet Health Coach? * <span>(4 of 8)<\/span>",
+              "labelname": "4.What will make you a great Pet Health Coach? * <span>(4 of 8)<\/span>",
               "answer": ""
             }
           },
           "4f733575-baaf-4280-88ac-72beea4ec2bc": {
             "type": "Question",
             "settings": {
-              "labelname": "What’s your life\/work experience? *<span> (5 of 8)<\/span>",
+              "labelname": "5.What’s your life\/work experience? *<span> (5 of 8)<\/span>",
               "answer": ""
             }
           },
           "d0e19503-b57e-45d5-8c19-286e4fc677cb": {
             "type": "Question",
             "settings": {
-              "labelname": "Did you participate in Holistic Health Coaching Programs of any kind before? <span>(6 of 8)<\/span>",
+              "labelname": "6.Did you participate in Holistic Health Coaching Programs of any kind before? <span>(6 of 8)<\/span>",
               "answer": ""
             }
           }
@@ -359,7 +359,7 @@
           "f39fca5d-2fe3-456e-957b-180ac09bc02f"
         ],
         "settings": {
-          "labelque": "Are you pursuing a career improvement out of this program? (7 of 8)"
+          "labelque": "7.Are you pursuing a career improvement out of this program? (7 of 8)"
         }
       },
       "answertearms": {
@@ -427,7 +427,7 @@
           "8601a694-4f2c-46c4-acf0-b48d18068880"
         ],
         "settings": {
-          "labelque": "Which of the following financial options is the best fit for you? * (8 of 8)"
+          "labelque": "8.Which of the following financial options is the best fit for you? * (8 of 8)"
         }
       }
     },
