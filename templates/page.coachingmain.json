@@ -444,15 +444,22 @@
         "ff04dba7-725e-4dc4-957e-2948743e1b40": {
           "type": "collection",
           "settings": {
-            "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions ",
-            "arrowdes": "This module will cover the complex relationship between pet behavior and health, including strategies for addressing common behavioral issues."
+            "arrowhead": "Module 5: Gut",
+            "arrowdes": "You'll learn about the gut microbiome and how it impacts overall pet health, including strategies for supporting a healthy gut."
           }
         },
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f": {
           "type": "collection",
           "settings": {
-            "arrowhead": "8. Graduate",
-            "arrowdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+            "arrowhead": "Module 6: Liver",
+            "arrowdes": "This module will cover the role of the liver in pet health and how to support its function through nutrition and other holistic approaches."
+          }
+        },
+        "74a4745d-4bcf-43a4-b74d-c31870994dc2": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 7: Kidney",
+            "arrowdes": "You'll learn about the importance of kidney health in pets and how to support this vital organ through diet and other holistic approaches."
           }
         }
       },
@@ -462,7 +469,8 @@
         "ca3009d9-bba7-41c0-b65a-c8e4f369d55c",
         "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40",
         "ff04dba7-725e-4dc4-957e-2948743e1b40",
-        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
+        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f",
+        "74a4745d-4bcf-43a4-b74d-c31870994dc2"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
