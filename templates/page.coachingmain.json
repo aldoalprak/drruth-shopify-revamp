@@ -880,25 +880,26 @@
         "moreadvicebtn": "More Pet Advice"
       }
     },
-    "7e483d4c-197f-4814-84d6-92e415442a8e": {
-      "type": "pet-blog",
+    "3b140490-f824-42b7-8536-9e41489695dc": {
+      "type": "featured-blog",
       "custom_css": [
         "p {display: none;}",
-        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; color: #1e1e1e;}",
+        ".card__information {display: flex; flex-direction: column;}",
+        "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; letter-spacing: 0.04em; color: #1e1e1e;}",
         ".article-card__info {font-family: \"Josefin Sans\"; font-size: 16px; font-weight: 500; text-align: center; color: #939393; background: #fff; bottom: 34px; position: absolute; border-radius: 24px 24px 0px 0px; left: 8px; right: 8px;}",
-        ".card__inner .card__content {display: none;}",
-        ".blog__title{font-family: Oakley Script; font-style: normal; font-weight: 400; font-size: 64px; color: #184b44;}"
+        ".card__inner .card__content {display: none;}"
       ],
       "settings": {
-        "heading": "pet-advice-Blog posts",
+        "heading": "Pet Advice By Dr. Ruth",
+        "heading_size": "h1",
         "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "post_limit": 4,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_image": true,
         "show_date": true,
         "show_author": true,
-        "show_view_all": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1073,7 +1074,7 @@
     "38bceb66-17fa-4539-8d15-e78489d9a302",
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
-    "7e483d4c-197f-4814-84d6-92e415442a8e",
+    "3b140490-f824-42b7-8536-9e41489695dc",
     "30ace1ca-bbad-44e0-a045-05023c6a4cf3",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
     "abac2943-5dc6-496b-8f08-447111465127",
