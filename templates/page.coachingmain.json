@@ -475,6 +475,20 @@
             "arrowhead": "Module 9: Business Logistics\/Essentials",
             "arrowdes": "You'll learn about the business side of pet health coaching, including legal and financial considerations."
           }
+        },
+        "4b3a9fd2-1394-43fe-ad83-5f888f5131be": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 10: Skin",
+            "arrowdes": "This module will cover common skin issues in pets and how to support healthy skin through nutrition and other holistic approaches."
+          }
+        },
+        "de9a7910-5839-46c1-9042-6913a70cab59": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 11: Musculoskeletal ",
+            "arrowdes": "You'll learn about the musculoskeletal system and how to support healthy bones, joints, and muscles in pets."
+          }
         }
       },
       "block_order": [
@@ -486,7 +500,9 @@
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f",
         "74a4745d-4bcf-43a4-b74d-c31870994dc2",
         "11b55bec-ee1a-4d81-9437-4b6ca2b40345",
-        "dfae8885-54db-44ba-b361-8d860820ce07"
+        "dfae8885-54db-44ba-b361-8d860820ce07",
+        "4b3a9fd2-1394-43fe-ad83-5f888f5131be",
+        "de9a7910-5839-46c1-9042-6913a70cab59"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
