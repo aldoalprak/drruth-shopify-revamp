@@ -2,6 +2,7 @@
         <div class="appbg">
                 <div class="appcontent">
                         <h2 class="apconhead">{{section.settings.apphead}}</h2>
+                        <h2 class="subappconhead">{{section.settings.subappconhead}}</h2>
                         <h2 class="apconhead2">{{section.settings.appdesc}}</h2>
                 </div>
         </div>
@@ -32,6 +33,11 @@
     "type": "text",
     "id": "apphead",
     "label": "Heading"
+      },
+       {
+    "type": "text",
+    "id": "subappconhead",
+    "label": "Sub-Heading"
       },
           {
     "type": "text",
@@ -104,6 +110,15 @@ h2.apconhead2{
   border-radius: 24px;
   border: 1px solid #184B44;
   padding: 12px 200px 12px 27px
+}
+.subappconhead{
+    font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+color: #1E1E1E;
 }
 input:focus-visible {
   outline: none;
@@ -186,6 +201,9 @@ p.appcontctdes {
     .app40 input{
             padding: 12px 130px 12px 27px
     }
+    .subappconhead{
+        font-size:18px;
+        line-height:28px;    }
 }
 @media only screen and (max-width: 320px) {
     .app40 input {
