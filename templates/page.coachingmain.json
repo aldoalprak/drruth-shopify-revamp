@@ -489,6 +489,13 @@
             "arrowhead": "Module 11: Musculoskeletal ",
             "arrowdes": "You'll learn about the musculoskeletal system and how to support healthy bones, joints, and muscles in pets."
           }
+        },
+        "775b3205-87a2-456e-862f-3e9732004407": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions",
+            "arrowdes": "This module will cover the complex relationship between pet behavior and health, including strategies for addressing common behavioral issues."
+          }
         }
       },
       "block_order": [
@@ -502,7 +509,8 @@
         "11b55bec-ee1a-4d81-9437-4b6ca2b40345",
         "dfae8885-54db-44ba-b361-8d860820ce07",
         "4b3a9fd2-1394-43fe-ad83-5f888f5131be",
-        "de9a7910-5839-46c1-9042-6913a70cab59"
+        "de9a7910-5839-46c1-9042-6913a70cab59",
+        "775b3205-87a2-456e-862f-3e9732004407"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
