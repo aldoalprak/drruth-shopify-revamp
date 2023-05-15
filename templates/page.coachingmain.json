@@ -259,7 +259,7 @@
           "type": "blogs",
           "settings": {
             "bworkhead": "7. Exam",
-            "bworkdes": "After completing the coaching sessions, you'll take an exam to assess your understanding of the material covered in the program."
+            "bworkdes": "After completing the coaching sessions, you'll take an exam to assess your understanding of the material covered in the program"
           }
         },
         "d2374833-7a00-4a74-9aeb-5722d0d93572": {
@@ -360,6 +360,8 @@
       "settings": {
         "workhead1": "How it Works",
         "worksub": "During the program",
+        "cworksutext": "The Path to Holistic Pet Health Coaching Certification",
+        "cworkdessubhead": "From application to graduation, our program offers a comprehensive journey towards becoming a certified holistic pet health coach. In this guide, we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path",
         "workback": "shopify:\/\/shop_images\/Vector_3.png"
       }
     },
@@ -370,14 +372,14 @@
           "type": "collection",
           "settings": {
             "aftertext": "Dr. Ruth Referral Program",
-            "afterdesc": "After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their pets. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services."
+            "afterdesc": "After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic wellness and primary care services for their pet."
           }
         },
         "d8d9e195-a5bd-4b4b-b033-7cf0e68bd9ae": {
           "type": "collection",
           "settings": {
             "aftertext": "Dr. Ruth Live Q&A Sessions",
-            "afterdesc": "We follow up with graduates on a weekly basis via live Q&A sessions run by Dr. Ruth. All graduates will have free access to the Q&A sessions for a year after graduation ensuring that graduates have ample time to take advantage of this resource and continue to refine their knowledge and skills <br>The Q&A sessions are a great way for graduates of the program to stay connected and continue to learn and develop their skills as Certified Holistic Pet Health Coaches. "
+            "afterdesc": "We follow up with graduates on a weekly basis via live Q&A sessions run by Dr. Ruth. All graduates will have free access to the Q&A sessions for a year after graduation ensuring that graduates have ample time to take advantage of this resource and continue to refine their knowledge and skillsThe Q&A sessions are a great way for graduates of the program to stay connected and continue to learn and develop their skills as Certified Holistic Pet Health Coaches."
           }
         }
       },
@@ -389,8 +391,8 @@
         "p.programdestext {padding: 4% 9%; border-top: 2px solid #f5f8f1;}"
       ],
       "settings": {
-        "programhead": "After the program ",
-        "programsubhead": "Join our network of certified Holistic Pet Health Coaches",
+        "programhead": "After the program",
+        "programsubhead": "Join Our Network of Certified Holistic Pet Health Coaches",
         "pro_btn": "Apply Now",
         "program_link": "shopify:\/\/pages\/application-form-1"
       }
@@ -401,9 +403,9 @@
         "p.pfeesdec {padding: 0 4% 3%;}"
       ],
       "settings": {
-        "m_head": "What Will You Learn ",
+        "m_head": " What Will You Learn:  Our Comprehensive Curriculum",
         "m_des": "",
-        "modulepare": "The key outcome of this program is to prepare you to become a compassionate and knowledgeable Holistic Pet Health Coach. You’re expected to master various modalities and resources we provide throughout the program. As a certified pet health coach, you will have the skills and knowledge necessary to provide comprehensive guidance and support to pet owners such as: determine the best healing protocol for each pet, create customized natural care wellness for dogs and cats, and empower pet owners to make informed decisions regarding their pet's health and wellness with natural methods and remedies.",
+        "modulepare": "The key outcome of this program is to prepare you to become a compassionate and knowledgeable Holistic Pet Health Coach. You’re expected to master various modalities and resources we provide throughout the program. By the end of the program, you will gain the skills and knowledge necessary to provide comprehensive guidance and support to pet owners such as: determine the best healing protocol for each pet, create customized natural care wellness for dogs and cats, and empower pet owners to make informed decisions regarding their pet's health and wellness with natural methods and remedies.<br><br>You'll participate in two integration weeks, where you'll have the opportunity to practice your skills to develop your knowledge and understanding of holistic veterinary care. These integration weeks provide a valuable opportunity to gain hands-on experience in the field.  Our course curriculum includes the following modules:",
         "moduledesc": "",
         "moduledesc1": ""
       }
@@ -414,43 +416,99 @@
         "0ae4d3be-10a5-4b2e-aa89-24c5ad567f0c": {
           "type": "collection",
           "settings": {
-            "arrowhead": "Module 8: Endocrine ",
-            "arrowdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+            "arrowhead": "Module 1: Welcome to the Program + Pet Health Coaching Essentials",
+            "arrowdes": "This module will introduce you to the program and provide an overview of the skills and knowledge you'll need to become an effective Holistic Pet Health Coach."
           }
         },
         "cc988c70-c407-41a6-91be-284d9adea322": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 2: Marketing your Business",
+            "arrowdes": "In this module, you'll learn how to effectively market your business and attract new clients."
+          }
+        },
+        "ca3009d9-bba7-41c0-b65a-c8e4f369d55c": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 3: Ipets approach  ",
+            "arrowdes": "You'll learn about the innovative and integrative Ipets approach to pet health, which takes into account the whole pet, including physical, mental, and emotional health."
+          }
+        },
+        "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 4: Food  ",
+            "arrowdes": "This module will cover the importance of nutrition in pet health, including how to create balanced and healthy diets for dogs and cats."
+          }
+        },
+        "ff04dba7-725e-4dc4-957e-2948743e1b40": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 5: Gut",
+            "arrowdes": "You'll learn about the gut microbiome and how it impacts overall pet health, including strategies for supporting a healthy gut."
+          }
+        },
+        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 6: Liver",
+            "arrowdes": "This module will cover the role of the liver in pet health and how to support its function through nutrition and other holistic approaches."
+          }
+        },
+        "74a4745d-4bcf-43a4-b74d-c31870994dc2": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 7: Kidney",
+            "arrowdes": "You'll learn about the importance of kidney health in pets and how to support this vital organ through diet and other holistic approaches."
+          }
+        },
+        "11b55bec-ee1a-4d81-9437-4b6ca2b40345": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 8: Endocrine",
+            "arrowdes": "This module will cover the endocrine system and how it impacts cats and dogs health, including strategies for supporting healthy hormonal balance."
+          }
+        },
+        "dfae8885-54db-44ba-b361-8d860820ce07": {
           "type": "collection",
           "settings": {
             "arrowhead": "Module 9: Business Logistics\/Essentials",
             "arrowdes": "You'll learn about the business side of pet health coaching, including legal and financial considerations."
           }
         },
-        "ca3009d9-bba7-41c0-b65a-c8e4f369d55c": {
+        "4b3a9fd2-1394-43fe-ad83-5f888f5131be": {
           "type": "collection",
           "settings": {
-            "arrowhead": "Module 10: Skin ",
+            "arrowhead": "Module 10: Skin",
             "arrowdes": "This module will cover common skin issues in pets and how to support healthy skin through nutrition and other holistic approaches."
           }
         },
-        "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40": {
+        "de9a7910-5839-46c1-9042-6913a70cab59": {
           "type": "collection",
           "settings": {
-            "arrowhead": "Module 11: Musculoskeletal  ",
+            "arrowhead": "Module 11: Musculoskeletal ",
             "arrowdes": "You'll learn about the musculoskeletal system and how to support healthy bones, joints, and muscles in pets."
           }
         },
-        "ff04dba7-725e-4dc4-957e-2948743e1b40": {
+        "775b3205-87a2-456e-862f-3e9732004407": {
           "type": "collection",
           "settings": {
-            "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions ",
+            "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions",
             "arrowdes": "This module will cover the complex relationship between pet behavior and health, including strategies for addressing common behavioral issues."
           }
         },
-        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f": {
+        "71bfa68b-c05a-4d07-b1a6-387c20dec54b": {
           "type": "collection",
           "settings": {
-            "arrowhead": "8. Graduate",
-            "arrowdes": "Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field."
+            "arrowhead": "Module 13: Cancer",
+            "arrowdes": "You'll learn about the impact of cancer on pet health and how to support dogs and cats and their owners through diagnosis, treatment, and recovery."
+          }
+        },
+        "eba4833e-b4c1-4a68-b60c-029de541c5b5": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 14: Autoimmune Disease",
+            "arrowdes": "This module will cover autoimmune diseases in pets and how to support pets through holistic approaches that address underlying immune dysfunction."
           }
         }
       },
@@ -460,7 +518,15 @@
         "ca3009d9-bba7-41c0-b65a-c8e4f369d55c",
         "d8a1598e-b7b6-4c60-b9b9-b30d48e3fc40",
         "ff04dba7-725e-4dc4-957e-2948743e1b40",
-        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f"
+        "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f",
+        "74a4745d-4bcf-43a4-b74d-c31870994dc2",
+        "11b55bec-ee1a-4d81-9437-4b6ca2b40345",
+        "dfae8885-54db-44ba-b361-8d860820ce07",
+        "4b3a9fd2-1394-43fe-ad83-5f888f5131be",
+        "de9a7910-5839-46c1-9042-6913a70cab59",
+        "775b3205-87a2-456e-862f-3e9732004407",
+        "71bfa68b-c05a-4d07-b1a6-387c20dec54b",
+        "eba4833e-b4c1-4a68-b60c-029de541c5b5"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
@@ -532,7 +598,7 @@
             "costmont": "",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         },
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
@@ -540,11 +606,11 @@
           "settings": {
             "cost_num": "4",
             "cost_head": "Monthly Installments",
-            "cost_price": "$1500 \/ <span>4 months<\/span>",
+            "cost_price": "$1500 \/ 4 months",
             "costmont": "",
             "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         },
         "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
@@ -552,11 +618,11 @@
           "settings": {
             "cost_num": "16",
             "cost_head": "Weekly Installments",
-            "cost_price": "$367 \/ <span>15 week<\/span>",
+            "cost_price": "$367 \/ 15 week",
             "costmont": "",
             "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         }
       },
@@ -569,7 +635,7 @@
         "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}"
       ],
       "settings": {
-        "pro_head": "Program Fees ",
+        "pro_head": "Fees and Installments",
         "pro_desc": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints.",
         "pro_desc1": "By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!"
       }
