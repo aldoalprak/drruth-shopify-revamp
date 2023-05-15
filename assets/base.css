@@ -3246,7 +3246,7 @@ p.pcostdes {
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 5%;
+/*   padding-bottom: 5%; */
   padding-top: 4%;
 }
 .costpart {
@@ -6366,3 +6366,6 @@ padding: 10px 0;
 #shopify-section-template--14912894828609__7e483d4c-197f-4814-84d6-92e415442a8e .blog__title{
 text-align: center;
     width: 100%;}
+.posterm {
+    padding-bottom: 5%;
+}
