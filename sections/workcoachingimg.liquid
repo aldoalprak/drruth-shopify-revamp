@@ -3,6 +3,8 @@
     <div class="workcontent">
         <h2 class="cworkhead">{{section.settings.workhead1 }}</h2>
         <h2 class="cworkdes">{{section.settings.worksub}}</h2>
+        <h2 class="cworksutext">{{section.settings.cworksutext}}</h2>
+        <h2 class="cworkdessubhead">{{section.settings.cworkdessubhead}}</h2>
     </div> 
       
        <div class="workbackimg" style="background-image:url('{{section.settings.workback | img_url:'master'}}');">                  
@@ -40,6 +42,16 @@
       "type": "text",
       "id": "worksub",
       "label": "Sub Heading"
+    },
+     {
+      "type": "text",
+      "id": "cworksutext",
+      "label": "Title"
+    },
+     {
+      "type": "text",
+      "id": "cworkdessubhead",
+      "label": "Sub Title"
     },
    {
     "type": "image_picker",
@@ -91,6 +103,27 @@
   background-size: contain;
   margin-top: -5%;
 }
+.cworksutext{
+  font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+    margin: 0;
+}
+.cworkdessubhead{
+      font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E1E1E;
+    margin: 0;
+}
+
 .cworkfleximg {
     display: flex;
     flex-wrap: wrap;
