@@ -598,7 +598,7 @@
             "costmont": "",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": "shopify:\/\/pages\/application-form"
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         },
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
@@ -606,11 +606,11 @@
           "settings": {
             "cost_num": "4",
             "cost_head": "Monthly Installments",
-            "cost_price": "$1500 \/ <span>4 months<\/span>",
+            "cost_price": "$1500 \/ 4 months",
             "costmont": "",
             "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         },
         "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
@@ -618,11 +618,11 @@
           "settings": {
             "cost_num": "16",
             "cost_head": "Weekly Installments",
-            "cost_price": "$367 \/ <span>15 week<\/span>",
+            "cost_price": "$367 \/ 15 week",
             "costmont": "",
             "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
           }
         }
       },
