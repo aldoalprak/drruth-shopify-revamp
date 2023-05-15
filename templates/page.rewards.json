@@ -108,9 +108,9 @@
         "rebanneddes": "Caring for your pet just got more rewarding! With Dr. Ruth Roberts Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
         "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
         "rbannrbtn": "sign in",
-        "rbannerurl": "shopify:\/\/pages\/application-form",
+        "rbannerurl": "\/account\/login?return_url=%2Faccount",
         "rbannrsubbtn": "sign up",
-        "rbannersuburl": "shopify:\/\/pages\/application-form"
+        "rbannersuburl": "\/account\/login?return_url=%2Faccount"
       }
     },
     "5714fa08-4d14-4062-8528-d10eca9d8316": {
@@ -154,7 +154,7 @@
         "reworkhead": "How it works?",
         "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of Dr. Ruth Roberts Happy Paws Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
         "howbtn": "JOIN NOW",
-        "howbtnurl": ""
+        "howbtnurl": "\/account\/login?return_url=%2Faccount"
       }
     },
     "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
@@ -461,7 +461,7 @@
         "reorderdes": "Earn a 10% commission on every sale made through your unique referral link.",
         "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
         "reorderbtn": "JOIN NOW",
-        "reorderbtnurl": ""
+        "reorderbtnurl": "\/account\/login?return_url=%2Faccount"
       }
     }
   },
