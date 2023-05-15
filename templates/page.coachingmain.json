@@ -580,8 +580,8 @@
         "button.drag.coacharrow2.slick-next.pull-right.slick-arrow {position: absolute; top: 50%; right: -3%;}"
       ],
       "settings": {
-        "testhead": "Our Certified Coaches",
-        "testdes": "Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. ",
+        "testhead": "Meet Our Certified Coaches",
+        "testdes": "Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance.",
         "coachbtn": "Book A Consultation",
         "coachurl": ""
       }
@@ -633,7 +633,7 @@
       ],
       "custom_css": [
         "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}",
-        "li{margin-top:0;}"
+        "li {margin-top: 0;}"
       ],
       "settings": {
         "pro_head": "Fees and Installments",
