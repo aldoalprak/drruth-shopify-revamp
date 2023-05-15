@@ -542,14 +542,14 @@
         "38195b89-c865-4325-9e62-7666ddf91009": {
           "type": "block",
           "settings": {
-            "test_url1": "https:\/\/www.youtube.com\/watch?v=6QfDRjZEksw",
+            "test_url1": "https:\/\/www.youtube.com\/embed\/6QfDRjZEksw",
             "textid": "Michael Daly"
           }
         },
         "604c309d-b3da-4af9-96fe-bd624e1c5de9": {
           "type": "block",
           "settings": {
-            "test_url1": "https:\/\/www.youtube.com\/watch?v=YwQQnfh_dyA",
+            "test_url1": "",
             "textid": "Jessica Fisher"
           }
         },
@@ -688,7 +688,7 @@
         ".starflex {align-items: baseline;}"
       ],
       "settings": {
-        "starreviewhead": "What our graduates say"
+        "starreviewhead": "What Our Graduates Say"
       }
     },
     "ce91651f-d904-47c1-8141-db2c7becf9a1": {
