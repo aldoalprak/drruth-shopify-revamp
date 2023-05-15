@@ -837,6 +837,7 @@
     },
     "fad21f59-0695-4b4c-bb8a-ce71573b549d": {
       "type": "pet_advice",
+      "disabled": true,
       "blocks": {
         "412e195d-9ccf-45bf-8988-0f2c0db9f77b": {
           "type": "collection",
