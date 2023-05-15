@@ -496,6 +496,13 @@
             "arrowhead": "Module 12: Brain\/Behaviour\/Neurological\/Emotions",
             "arrowdes": "This module will cover the complex relationship between pet behavior and health, including strategies for addressing common behavioral issues."
           }
+        },
+        "71bfa68b-c05a-4d07-b1a6-387c20dec54b": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 13: Cancer",
+            "arrowdes": "You'll learn about the impact of cancer on pet health and how to support dogs and cats and their owners through diagnosis, treatment, and recovery."
+          }
         }
       },
       "block_order": [
@@ -510,7 +517,8 @@
         "dfae8885-54db-44ba-b361-8d860820ce07",
         "4b3a9fd2-1394-43fe-ad83-5f888f5131be",
         "de9a7910-5839-46c1-9042-6913a70cab59",
-        "775b3205-87a2-456e-862f-3e9732004407"
+        "775b3205-87a2-456e-862f-3e9732004407",
+        "71bfa68b-c05a-4d07-b1a6-387c20dec54b"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
