@@ -811,9 +811,9 @@
         ".caption-with-letter-spacing.light {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 11px; line-height: 30px; color: #1e1e1e; margin: 0;}"
       ],
       "settings": {
-        "title": "Dr. Ruth Pet Wellness Courses ",
+        "title": "Dr. Ruth Pet Wellness Courses",
         "heading_size": "h1",
-        "description": "<p>Dr. Ruth Roberts is passionate about promoting holistic health and wellness for pets, and she offers a range of resources beyond the certified holistic pet health coach program. Explore her courses and discover how you can further your education and passion for pet wellness.<br\/><\/p>",
+        "description": "<p>Dr. Ruth Roberts is passionate about promoting holistic health and wellness for pets, and she offers a range of resources beyond the certified holistic pet health coach program. Explore her courses and discover how you can further your education and passion for pet wellness.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
