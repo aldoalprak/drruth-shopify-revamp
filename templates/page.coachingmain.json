@@ -598,7 +598,7 @@
             "costmont": "",
             "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
             "cost_btn": "Apply Now",
-            "cost_btnurl": ""
+            "cost_btnurl": "shopify:\/\/pages\/application-form"
           }
         },
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
