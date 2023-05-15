@@ -8,6 +8,9 @@
                    <p class="pfeesdec">{{section.settings.pro_desc}}</p>
                    <p class="pfeesdec">{{section.settings.pro_desc1}}</p>
             </div>
+            <div class="slexprofess">
+                  <p class="pfeesdec  pre100">{{section.settings.proo_des}}</p>
+            </div>
     </div>
 </div>
     <div class="cmax_container">
@@ -21,12 +24,17 @@
                         <div class="blogbodr1">
                             <a href="{{ block.settings.cost_btnurl }}" class="btnspace">{{ block.settings.cost_btn }} 
                             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
-</svg>
+                              <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                            </svg>
                             </a>
                         </div> 
                     </div>
                 {%- endfor -%}
+            </div>
+            <div class="posterm">
+              <ul>
+                <li class="profeeterm">{{section.settings.profeeterm}}</li>
+              </ul>
             </div>
     
 </div>
@@ -102,3 +110,18 @@
   ]
 }
 {% endschema %}
+<style>
+.pfeesdec.pre100{
+  width:100%!important;
+}
+.profeeterm{
+  font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1e1e1e;
+    text-align: left;
+
+}
+</style>
