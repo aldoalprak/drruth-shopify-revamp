@@ -468,6 +468,13 @@
             "arrowhead": "Module 8: Endocrine",
             "arrowdes": "This module will cover the endocrine system and how it impacts cats and dogs health, including strategies for supporting healthy hormonal balance."
           }
+        },
+        "dfae8885-54db-44ba-b361-8d860820ce07": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 9: Business Logistics\/Essentials",
+            "arrowdes": "You'll learn about the business side of pet health coaching, including legal and financial considerations."
+          }
         }
       },
       "block_order": [
@@ -478,7 +485,8 @@
         "ff04dba7-725e-4dc4-957e-2948743e1b40",
         "e64aa2da-b2c2-4b63-b225-e2bd5a0f8d2f",
         "74a4745d-4bcf-43a4-b74d-c31870994dc2",
-        "11b55bec-ee1a-4d81-9437-4b6ca2b40345"
+        "11b55bec-ee1a-4d81-9437-4b6ca2b40345",
+        "dfae8885-54db-44ba-b361-8d860820ce07"
       ],
       "custom_css": [
         ".arrowheight {height: 600px;}"
