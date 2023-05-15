@@ -882,6 +882,9 @@
     },
     "3b140490-f824-42b7-8536-9e41489695dc": {
       "type": "featured-blog",
+      "custom_css": [
+        "p{display:none;}"
+      ],
       "settings": {
         "heading": "Pet Advice By Dr. Ruth",
         "heading_size": "h1",
