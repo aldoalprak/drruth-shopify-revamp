@@ -900,10 +900,10 @@
     "053fe5bc-9a28-4717-93c7-0635073e2e49": {
       "type": "rx-blog",
       "custom_css": [
-        ".blog__title {font-family: Oakley Script; font-weight: 400; font-size: 64px; color: #184b44; text-align:center; }"
+        ".blog__title {font-family: Oakley Script; font-weight: 400; font-size: 64px; color: #184b44; text-align: center;}"
       ],
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Pet Advice By Dr. Ruth ",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 3,
