@@ -1009,7 +1009,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "BOOK CONSULTATION",
-            "button_link_1": ""
+            "button_link_1": "shopify:\/\/pages\/contact-us"
           }
         }
       },
