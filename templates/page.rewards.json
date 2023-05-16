@@ -105,7 +105,7 @@
       ],
       "settings": {
         "rbanehead": "Happy Paws Rewards Program",
-        "rebanneddes": "Caring for your pet just got more rewarding! With Dr. Ruth Roberts Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
+        "rebanneddes": "Caring for your pet just got more rewarding! With <strong>Dr. Ruth Roberts<\/strong> Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
         "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
         "rbannrbtn": "sign in",
         "rbannerurl": "\/account\/login?return_url=%2Faccount",
@@ -152,9 +152,9 @@
       ],
       "settings": {
         "reworkhead": "How it works?",
-        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of Dr. Ruth Roberts Happy Paws Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
+        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of<strong> Dr. Ruth Roberts Happy Paws <\/strong>Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
         "howbtn": "JOIN NOW",
-        "howbtnurl": "\/account\/login?return_url=%2Faccount"
+        "howbtnurl": "shopify:\/\/pages\/contact-us"
       }
     },
     "c7c10aca-5c84-401d-a8e2-1f086081ea38": {
@@ -343,7 +343,7 @@
         "d239c617-b77f-4070-96f6-7c599c3e621c": {
           "type": "collection",
           "settings": {
-            "faqdes": "A: You can check your points balance by logging in to your rewards account online or on our mobile app. Your points balance will be displayed on the rewards dashboard.",
+            "faqdes": "You can check your points balance by logging in to your rewards account online or on our mobile app. Your points balance will be displayed on the rewards dashboard.",
             "faqid": "",
             "faqbtn": "How do I check my points balance?"
           }
@@ -461,7 +461,7 @@
         "reorderdes": "Earn a 10% commission on every sale made through your unique referral link.",
         "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
         "reorderbtn": "JOIN NOW",
-        "reorderbtnurl": "\/account\/login?return_url=%2Faccount"
+        "reorderbtnurl": "shopify:\/\/pages\/contact-us"
       }
     }
   },

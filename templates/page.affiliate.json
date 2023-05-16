@@ -103,14 +103,16 @@
       "custom_css": [
         "h2.affbanerhead {width: 35%;}",
         "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%; }}",
-        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; }}"
+        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; } .affbannerbtn {flex-wrap: wrap;} .affbanersign {margin-bottom: 2%;}}"
       ],
       "settings": {
-        "rbanehead": "Happy Paws Affiliate Program ",
-        "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link. ",
+        "rbanehead": "Happy Paws Affiliate Program  ",
+        "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link.",
         "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
-        "affbannrsubbtn": "sing up",
-        "affbannersuburl": "\/account\/login?return_url=%2Faccount"
+        "affbannrsubbtn": "sign in",
+        "affbannersuburl": "\/account\/login?return_url=%2Faccount",
+        "affbannrsub1btn": "sign up",
+        "affbannersub1url": "\/account\/login?return_url=%2Faccount"
       }
     },
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
@@ -120,7 +122,7 @@
       ],
       "settings": {
         "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
-        "affrichhead": "Who can join our affiliate program?",
+        "affrichhead": "Who can join our affiliate program? ",
         "rewarddes": "Our Happy Paws Affiliate Program by Dr. Ruth Roberts is open to anyone who is passionate about promoting pet health and wellness! Whether you're a pet parent, a pet blogger, pet social media influencer, pet shop owner, or simply a vet or a vet technician with a strong network, you're welcome to join our program."
       }
     },
@@ -213,6 +215,10 @@
         "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27",
         "202a0da8-8ff7-4c0f-90b3-f51388c78c04",
         "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
+      ],
+      "custom_css": [
+        "h2.rewordhead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #1e1e1e;}",
+        "@media screen and (max-width: 520px) {h2.rewordhead {font-size: 22px !important; line-height: 30px; }}"
       ],
       "settings": {
         "afficonhead": "Promote Pet Health and Wellness with Happy Paws Affiliate Program"
