@@ -103,7 +103,7 @@
       "custom_css": [
         "h2.affbanerhead {width: 35%;}",
         "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%; }}",
-        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; } .affbannerbtn {flex-wrap: wrap;} .affbanersign {margin-bottom: 2%;}}"
+        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; } .affbannerbtn {flex-wrap: wrap; } .affbanersign {margin-bottom: 2%; }}"
       ],
       "settings": {
         "rbanehead": "Happy Paws Affiliate Program  ",
@@ -230,19 +230,22 @@
         "3fb09566-8492-4f1e-9c2d-0676fb8d2c38": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png"
+            "affimgicon": "shopify:\/\/shop_images\/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png",
+            "affimgurl": "https:\/\/www.facebook.com\/crockpetdiet"
           }
         },
         "9d75e536-77c4-46cf-a65e-0a1f3d6748fe": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/Frame_7.png"
+            "affimgicon": "shopify:\/\/shop_images\/Frame_7.png",
+            "affimgurl": ""
           }
         },
         "04c2f0be-1cc1-4821-989b-573c5aaccedc": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/Vector_6.png"
+            "affimgicon": "shopify:\/\/shop_images\/Vector_6.png",
+            "affimgurl": ""
           }
         }
       },
