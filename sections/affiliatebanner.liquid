@@ -7,16 +7,16 @@
                         <div class="revebannerdes affbenner">
                             <h2 class="affbannerdes">{{section.settings.rebanneddes}}</h2>
                         </div>
-                        <div class="affbannerbtn">
-                            
+                    <div class="affbannerbtn">
                             <div class="affbanersign">
-                                <a href="{{ section.settings.affbannersuburl }}" class="">{{ section.settings.affbannrsubbtn }}
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-                                        <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
-                                    </svg>
+                                <a href="{{ section.settings.affbannersuburl }}" class="refferbannorder">{{ section.settings.affbannrsubbtn }}</a>
+                            </div>
+                            <div class="affbanersiup">
+                                <a href="{{ section.settings.affbannrsub1url }}" class="refferbannorder">{{ section.settings.affbannrsub1btn }}
                                 </a>
                             </div>
                         </div> 
+                        
                   </div>
 
               </div> 
@@ -52,6 +52,16 @@
      {
       "type": "url",
       "id": "affbannersuburl",
+      "label": "Button Link"
+    },
+     {
+      "type": "text",
+      "id": "affbannrsub1btn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "affbannersub1url",
       "label": "Button Link"
     }
   ],
