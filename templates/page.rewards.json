@@ -105,7 +105,7 @@
       ],
       "settings": {
         "rbanehead": "Happy Paws Rewards Program",
-        "rebanneddes": "Caring for your pet just got more rewarding! With <strong>Dr. Ruth Roberts<\/strong> Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
+        "rebanneddes": "Caring for your pet just got more rewarding! With Dr. Ruth Roberts Happy Paws Rewards Program Earn Loyalty Points and Enjoy Exclusive Benefits for Being a Loyal Pet Owner!",
         "rebanner": "shopify:\/\/shop_images\/pexels-johann-1254140_1.png",
         "rbannrbtn": "sign in",
         "rbannerurl": "\/account\/login?return_url=%2Faccount",
@@ -152,7 +152,7 @@
       ],
       "settings": {
         "reworkhead": "How it works?",
-        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of<strong> Dr. Ruth Roberts Happy Paws <\/strong>Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
+        "rewworkdes": "We believe that owning a pet should be a rewarding experience, which is why we offer our loyal pet parents some exclusive rewards and benefits. As a member of Dr. Ruth Roberts Happy Paws Pet Rewards Program, you'll earn loyalty points: referred to as PAWS and receive cashback or Paws for every purchase you make to help your furry friend live a healthier life.",
         "howbtn": "JOIN NOW",
         "howbtnurl": "shopify:\/\/pages\/contact-us"
       }
@@ -164,6 +164,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-facebook-1077041_1.png",
+            "rewaimgurl": "https:\/\/www.facebook.com\/crockpetdiet",
             "rehead": "Like us on Facebook",
             "resubhead": "30 PAWS"
           }
@@ -172,6 +173,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-instagram-1077042_1.png",
+            "rewaimgurl": "https:\/\/www.instagram.com\/dr.ruthroberts\/",
             "rehead": "Follow Us on Instagram",
             "resubhead": "30 PAWS"
           }
@@ -180,6 +182,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
+            "rewaimgurl": "\/account\/login?return_url=%2Faccount",
             "rehead": "Create an Account",
             "resubhead": "70 PAWS"
           }
@@ -188,6 +191,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-shopping-bag-2956820_1.png",
+            "rewaimgurl": "",
             "rehead": "Make a purchase",
             "resubhead": "$1 USD = 1 PAW"
           }
@@ -196,6 +200,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-cake-4030962_1.png",
+            "rewaimgurl": "",
             "rehead": "Birthday Reward ",
             "resubhead": "50 PAWS"
           }
@@ -204,6 +209,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
+            "rewaimgurl": "",
             "rehead": "Write a Review ",
             "resubhead": "50  PAWS"
           }
@@ -212,6 +218,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-rating-6718166_1.png",
+            "rewaimgurl": "",
             "rehead": "Leave a Video Review",
             "resubhead": "100 PAWS"
           }
@@ -220,6 +227,7 @@
           "type": "block",
           "settings": {
             "rewardpoint": "shopify:\/\/shop_images\/free-icon-verified-account-3611355_1.png",
+            "rewaimgurl": "",
             "rehead": "Refer a Friend ",
             "resubhead": "60 PAWS"
           }
