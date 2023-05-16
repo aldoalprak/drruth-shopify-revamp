@@ -671,7 +671,7 @@
         ".blogbodr1 {margin-top: 5%;}",
         "@media screen and (max-width: 620px) {.blogbodr1 a {padding: 14px 6px; }}",
         "@media screen and (max-width: 520px) {.blogbodr1 a {padding: 14px 20px; }}",
-        "@media screen and (max-width: 400px) {.shop_content {min-height:; }}"
+        "@media screen and (max-width: 400px) {.shop_content {min-height: 300px; } }"
       ],
       "settings": {
         "shop_head": ""
