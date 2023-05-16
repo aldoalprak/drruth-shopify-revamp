@@ -668,7 +668,8 @@
         "@media screen and (max-width: 1100px) {.shop_block {margin-left: 0; }}",
         "@media screen and (max-width: 1000px) {.shopbhead {padding: 0; }}",
         ".shop-pos {display: flex; flex-direction: column; align-items: center;}",
-        ".blogbodr1 {margin-top: 5%;}"
+        ".blogbodr1 {margin-top: 5%;}",
+        "@media screen and (max-width: 620px) {.blogbodr1 a{padding: 14px 6px; }}"
       ],
       "settings": {
         "shop_head": ""
