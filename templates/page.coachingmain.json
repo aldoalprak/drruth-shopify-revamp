@@ -638,7 +638,8 @@
       ],
       "custom_css": [
         "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}",
-        "li {margin-top: 0;}"
+        "li {margin-top: 0;}",
+        ".posterm{display: flex; justify-content: center;}"
       ],
       "settings": {
         "pro_head": "Fees and Installments",
