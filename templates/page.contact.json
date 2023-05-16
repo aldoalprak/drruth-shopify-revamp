@@ -33,6 +33,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 8
@@ -55,7 +56,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/coachingmain1"
           }
         }
       },
