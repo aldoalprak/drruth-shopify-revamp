@@ -601,9 +601,7 @@
             "cost_head": "Advanced Payment",
             "cost_price": "$5000",
             "costmont": "",
-            "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required.",
-            "cost_btn": "Apply Now",
-            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
+            "cost_desc": "Pay in full for $5000 (one-time fee). You will pay $5,000 all at once, then no additional payments will be required."
           }
         },
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89": {
@@ -613,9 +611,7 @@
             "cost_head": "Monthly Installments",
             "cost_price": "$1500 \/ 4 months",
             "costmont": "",
-            "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month.",
-            "cost_btn": "Apply Now",
-            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
+            "cost_desc": "The program's total cost $6000. You will pay $1,500 admission fees, then $1,500 per month."
           }
         },
         "5840cdfe-58d3-4503-87a5-a0b4415826dd": {
@@ -625,9 +621,7 @@
             "cost_head": "Weekly Installments",
             "cost_price": "$367 \/ 15 week",
             "costmont": "",
-            "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week.",
-            "cost_btn": "Apply Now",
-            "cost_btnurl": "shopify:\/\/pages\/application-form-1"
+            "cost_desc": "The program's total cost is $6005. You will pay $500 admission fees, then $367 per week."
           }
         }
       },
@@ -639,14 +633,16 @@
       "custom_css": [
         "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}",
         "li {margin-top: 0;}",
-        ".posterm{display: flex; justify-content: center;}"
+        ".posterm {display: flex; justify-content: center; flex-direction: column; align-items: center;}"
       ],
       "settings": {
         "pro_head": "Fees and Installments",
         "pro_desc": "",
         "pro_desc1": "",
         "proo_des": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to start your career without worrying about financial constraints. By becoming a certified holistic pet health coach, you'll be able to positively impact the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!",
-        "profeeterm": "Terms and Conditions Apply"
+        "profeeterm": "Terms and Conditions Apply",
+        "cost_btn": "",
+        "cost_btnurl": ""
       }
     },
     "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
