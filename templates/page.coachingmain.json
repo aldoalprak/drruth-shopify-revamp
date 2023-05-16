@@ -8,14 +8,6 @@
         "padding_bottom": 36
       }
     },
-    "fab95617-1970-4910-b24c-2af5f2aa16b1": {
-      "type": "coaching_mainbanner",
-      "disabled": true,
-      "settings": {
-        "mbannerhead": "",
-        "mbannerdes": ""
-      }
-    },
     "2681002e-3476-48db-92c0-2576d4ecdb80": {
       "type": "image-banner",
       "blocks": {
@@ -905,6 +897,25 @@
         "padding_bottom": 36
       }
     },
+    "053fe5bc-9a28-4717-93c7-0635073e2e49": {
+      "type": "rx-blog",
+      "custom_css": [
+        ".blog__title {font-family: Oakley Script; font-weight: 400; font-size: 64px; color: #184b44; text-align:center; }"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "30ace1ca-bbad-44e0-a045-05023c6a4cf3": {
       "type": "Legacy",
       "blocks": {
@@ -1056,7 +1067,6 @@
   },
   "order": [
     "main",
-    "fab95617-1970-4910-b24c-2af5f2aa16b1",
     "2681002e-3476-48db-92c0-2576d4ecdb80",
     "b13a7b3e-709c-47aa-b070-2d93f659adca",
     "2716545e-36c5-4506-88db-ba56fdea439b",
@@ -1076,6 +1086,7 @@
     "143fd103-6dd8-40ee-a3e0-7880c57cdbec",
     "fad21f59-0695-4b4c-bb8a-ce71573b549d",
     "7e483d4c-197f-4814-84d6-92e415442a8e",
+    "053fe5bc-9a28-4717-93c7-0635073e2e49",
     "30ace1ca-bbad-44e0-a045-05023c6a4cf3",
     "f8da2a61-1c6a-43d0-8e0d-d1b351eb39db",
     "abac2943-5dc6-496b-8f08-447111465127",
