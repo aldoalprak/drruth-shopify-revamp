@@ -7,7 +7,7 @@
           "type": "slider",
           "settings": {
             "slide_text": "Pet device System Supported",
-            "slide_type": "",
+            "slide_type": "Pet device System Supported",
             "slide_val": "Allergy Support"
           }
         },
