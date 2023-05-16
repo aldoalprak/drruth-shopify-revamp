@@ -11,23 +11,63 @@
         </div>
         <div class="alignbtn">
           <div class=" appbtnss">
-            <button type="submit" class="appbtnspacess">
-<!--                {{ 'templates.contact.form.send' | t }} -->
-             apply now
-              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-                <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
-              </svg>
-            </button>
-        </div>
+              <button type="submit" class="appbtnspacess">
+ 
+              apply now
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                  <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+                </svg>
+              </button>
+          </div>
       </div>
-        
+      
+        <div class="modal">
+            <div class="modal-content">
+                
+                <div>
+                    
+                      <input type="hidden" class="modaltop" value="{{ section.settings.modaltop }}" />
+                      <input type="hidden" class="modalsub" value="{{ section.settings.modalsub }}" />
+                      <input type="hidden" class="modaldes" value="{{ section.settings.modaldes }}" />
+                      <input type="hidden" class="button_home" value="{{ section.settings.button_home }}" />
+                      <input type="hidden" class="homeurl" value="{{ shop.url }}{{ section.settings.homeurl }}" />
+
+                </div>                   
+            </div>
+        </div>
+    
 </div>
 
 {% schema %}
   {
     "name": "answertearms",
     "settings": [
-   
+      {
+         "type" : "text", 
+          "id" : "modaltop",
+         "label" : "Popup Heading"
+        },
+      {
+          "id" : "modalsub",
+          "type" : "text",
+          "label" : "Popup Sub-Heading"
+        },
+         {
+             "type" : "text",
+          "id" : "modaldes",
+       
+          "label" : "Popup Description"
+        },
+      {
+        "type" : "text",
+       "id" : "button_home",
+         "label" : "Popup-Button"
+      },
+       {
+         "type" : "url",
+        "id" : "homeurl",
+       "label" : "Popup-Button-link"
+      }
     ],
     "blocks": [
   {
@@ -130,4 +170,56 @@ button.appbtnspacess {
     width: 100%;
     }
 }
+h2.model-title {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+p.model-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+p.model-des {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.notify_btn {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    display: inline-block;
+}
+.notify_btn {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+.notify_btn_all {
+    display: flex;
+    justify-content: center;
+}
+
 </style>
