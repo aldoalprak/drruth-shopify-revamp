@@ -58,6 +58,70 @@
             "slide_type": "Pet device System Supported",
             "slide_val": "Ear Support"
           }
+        },
+        "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Energy Support"
+          }
+        },
+        "c87258ea-13bf-4613-97d4-e7e257d264c7": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "General Immune Support"
+          }
+        },
+        "fdb600d7-1608-4be9-ad50-7ccdc9d79f50": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Heart support"
+          }
+        },
+        "597ae537-69a5-4161-8657-dc463ac3477c": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Heart support"
+          }
+        },
+        "aa00118e-9637-4ef8-9268-93412fcb5a45": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Inflammation Support"
+          }
+        },
+        "f61e2815-d780-43e1-b691-f106f89200d6": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Kidney Support"
+          }
+        },
+        "7c83ab62-7769-4ff6-93df-dac21f806032": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Liver support"
+          }
+        },
+        "4047f92a-42e0-4aca-a63e-87db7fc2fea4": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Oral Health Support"
+          }
         }
       },
       "block_order": [
@@ -67,7 +131,15 @@
         "41be0c2f-3d9f-4ebc-9710-ed0a3787b146",
         "dd15fd8d-b530-4050-bbaf-70e9b0087659",
         "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7",
-        "2ea3c12d-8333-42da-a858-d8ce008e0640"
+        "2ea3c12d-8333-42da-a858-d8ce008e0640",
+        "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b",
+        "c87258ea-13bf-4613-97d4-e7e257d264c7",
+        "fdb600d7-1608-4be9-ad50-7ccdc9d79f50",
+        "597ae537-69a5-4161-8657-dc463ac3477c",
+        "aa00118e-9637-4ef8-9268-93412fcb5a45",
+        "f61e2815-d780-43e1-b691-f106f89200d6",
+        "7c83ab62-7769-4ff6-93df-dac21f806032",
+        "4047f92a-42e0-4aca-a63e-87db7fc2fea4"
       ],
       "settings": {
         "shop_head": "Shop by health concern and life stages"
