@@ -4378,10 +4378,10 @@ p.pfeesdec {
   align-items: center;
   position: relative;
 }
-.blogbodr1 {
+/* .blogbodr1 {
   position: absolute;
   bottom: 10%;
-}
+} */
 .course_detail1 {
   font-family: 'Oakley Script';
 font-style: normal;
