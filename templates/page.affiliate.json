@@ -214,6 +214,9 @@
         "202a0da8-8ff7-4c0f-90b3-f51388c78c04",
         "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
       ],
+      "custom_css": [
+        "h2.rewordhead {font-family: 'BLT-Heirloom'; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #1E1E1E;}"
+      ],
       "settings": {
         "afficonhead": "Promote Pet Health and Wellness with Happy Paws Affiliate Program"
       }
