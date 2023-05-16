@@ -357,6 +357,9 @@
         "ae32819f-4325-4726-a3b8-aff8450e78c5",
         "38438828-3fae-4207-b1b4-2a65e3093ed5"
       ],
+      "custom_css": [
+        ".cworksutext{font-size: 18px; line-height: 30px;}"
+      ],
       "settings": {
         "workhead1": "How it Works",
         "worksub": "During the program",
