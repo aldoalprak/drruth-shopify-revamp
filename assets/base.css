@@ -5353,7 +5353,7 @@ width: 32.33%;
 }
 
 .shopheadcon {
-    padding: 12%;
+/*     padding: 12%; */
     position: relative;
     display: flex;
     flex-direction: column;
