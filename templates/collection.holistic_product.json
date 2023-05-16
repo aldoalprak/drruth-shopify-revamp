@@ -30,17 +30,33 @@
         "41be0c2f-3d9f-4ebc-9710-ed0a3787b146": {
           "type": "slider",
           "settings": {
-            "slide_text": "Shop Pain Management & Joint Support",
-            "slide_type": "Active Ingredients",
-            "slide_val": "Magnesium"
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Cancer support"
           }
         },
         "dd15fd8d-b530-4050-bbaf-70e9b0087659": {
           "type": "slider",
           "settings": {
-            "slide_text": "Shop Pain Management & Joint Support",
-            "slide_type": "Bundle\/Kit",
-            "slide_val": "Bundle"
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Detox Support"
+          }
+        },
+        "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Digestive (GI) Support"
+          }
+        },
+        "2ea3c12d-8333-42da-a858-d8ce008e0640": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Ear Support"
           }
         }
       },
@@ -49,7 +65,9 @@
         "ff0fe0c0-cd60-4dcd-a9f4-12e4813aef8a",
         "6bfbfa35-c205-4c78-897d-72bf9f7841cf",
         "41be0c2f-3d9f-4ebc-9710-ed0a3787b146",
-        "dd15fd8d-b530-4050-bbaf-70e9b0087659"
+        "dd15fd8d-b530-4050-bbaf-70e9b0087659",
+        "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7",
+        "2ea3c12d-8333-42da-a858-d8ce008e0640"
       ],
       "settings": {
         "shop_head": "Shop by health concern and life stages"
