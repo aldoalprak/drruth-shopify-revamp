@@ -21,13 +21,7 @@
                         <h2>{{block.settings.cost_head}} </h2>
                         <h3>{{block.settings.cost_price}}<span>{{block.settings.costmont}}</span></h3>
                         <p>{{block.settings.cost_desc}}</p>
-                        <div class="blogbodr1">
-                            <a href="{{ block.settings.cost_btnurl }}" class="btnspace">{{ block.settings.cost_btn }} 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-                              <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
-                            </svg>
-                            </a>
-                        </div> 
+                        
                     </div>
                 {%- endfor -%}
             </div>
@@ -35,6 +29,13 @@
               <ul>
                 <li class="profeeterm">{{section.settings.profeeterm}}</li>
               </ul>
+              <div class="blogbodr1">
+                            <a href="{{ section.settings.cost_btnurl }}" class="btnspace">{{ section.settings.cost_btn }} 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                              <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+                            </svg>
+                            </a>
+                        </div> 
             </div>
     
 </div>
@@ -66,7 +67,17 @@
          "type": "text",
       "id": "profeeterm",
       "label": "Condition"
-    }
+    },
+    {
+        "type": "text",
+    "id": "cost_btn",
+    "label": "Button"
+       },
+        {
+        "type": "url",
+    "id": "cost_btnurl",
+    "label": "Button Link"
+       }
   ],
      "blocks": [
   {
@@ -98,17 +109,8 @@
     "type": "text",
     "id": "cost_desc",
     "label": "Description"
-       },
-       {
-        "type": "text",
-    "id": "cost_btn",
-    "label": "Button"
-       },
-        {
-        "type": "url",
-    "id": "cost_btnurl",
-    "label": "Button Link"
        }
+       
 
     ]
   }
