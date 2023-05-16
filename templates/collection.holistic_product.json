@@ -6,9 +6,9 @@
         "48572696-b895-4231-934a-b67869f4f393": {
           "type": "slider",
           "settings": {
-            "slide_text": "Shop Pain Management & Joint Support",
-            "slide_type": "Product type",
-            "slide_val": "Cat"
+            "slide_text": "Pet device System Supported",
+            "slide_type": "",
+            "slide_val": "Allergy Support"
           }
         },
         "ff0fe0c0-cd60-4dcd-a9f4-12e4813aef8a": {
@@ -524,7 +524,7 @@
       ],
       "custom_css": [
         ".shopbhead {padding: 0 10%;}",
-        "@media screen and (max-width: 1100px) {.shop_block{margin-left:0; } }",
+        "@media screen and (max-width: 1100px) {.shop_block {margin-left: 0; }}",
         "@media screen and (max-width: 1000px) {.shopbhead {padding: 0; }}"
       ],
       "settings": {
