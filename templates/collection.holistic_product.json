@@ -122,6 +122,46 @@
             "slide_type": "Pet device System Supported",
             "slide_val": "Oral Health Support"
           }
+        },
+        "ff179595-84cf-4dc8-86f9-19b51235a7e9": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Respiratory Support"
+          }
+        },
+        "d7dc5cfb-eb13-4bb1-84ac-44c0dcff29ae": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Skin and Coat Support"
+          }
+        },
+        "f9ea5ce3-9528-4111-bb47-5a6f10983b7e": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Thyroid Support"
+          }
+        },
+        "b051e3b0-d04a-46d9-b072-c397ffa0f578": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Urinary Tract Support"
+          }
+        },
+        "12db348e-5b71-4b4d-bcf1-fee74bd24759": {
+          "type": "slider",
+          "settings": {
+            "slide_text": "Pet device System Supported",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Vaccinosis Support"
+          }
         }
       },
       "block_order": [
@@ -139,7 +179,12 @@
         "aa00118e-9637-4ef8-9268-93412fcb5a45",
         "f61e2815-d780-43e1-b691-f106f89200d6",
         "7c83ab62-7769-4ff6-93df-dac21f806032",
-        "4047f92a-42e0-4aca-a63e-87db7fc2fea4"
+        "4047f92a-42e0-4aca-a63e-87db7fc2fea4",
+        "ff179595-84cf-4dc8-86f9-19b51235a7e9",
+        "d7dc5cfb-eb13-4bb1-84ac-44c0dcff29ae",
+        "f9ea5ce3-9528-4111-bb47-5a6f10983b7e",
+        "b051e3b0-d04a-46d9-b072-c397ffa0f578",
+        "12db348e-5b71-4b4d-bcf1-fee74bd24759"
       ],
       "settings": {
         "shop_head": "Shop by health concern and life stages"
