@@ -876,6 +876,7 @@
     },
     "7e483d4c-197f-4814-84d6-92e415442a8e": {
       "type": "pet-blog",
+      "disabled": true,
       "custom_css": [
         "p {display: none;}",
         "h3.card__heading.h2 {order: 2; position: absolute; font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; text-align: center; color: #1e1e1e;}",
