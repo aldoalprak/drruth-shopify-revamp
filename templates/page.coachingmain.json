@@ -351,7 +351,7 @@
         "38438828-3fae-4207-b1b4-2a65e3093ed5"
       ],
       "custom_css": [
-        ".cworksutext {font-size: 18px; line-height: 30px;}"
+        ".cworksutext {font-family: 'Josefin Sans'; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-transform: uppercase; color: #184B44; margin-top: 0; padding-bottom: 1%; text-align: center;}"
       ],
       "settings": {
         "workhead1": "How it Works",
@@ -901,7 +901,7 @@
     "053fe5bc-9a28-4717-93c7-0635073e2e49": {
       "type": "rx-blog",
       "custom_css": [
-        ".blog__title {font-family: Oakley Script; font-weight: 400; font-size: 64px; color: #184b44; text-align: center; width:100%;}"
+        ".blog__title {font-family: Oakley Script; font-weight: 400; font-size: 64px; color: #184b44; text-align: center; width: 100%;}"
       ],
       "settings": {
         "heading": "Pet Advice By Dr. Ruth ",
