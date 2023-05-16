@@ -45,6 +45,7 @@
         },
         "128fe0cd-e843-4c0f-a4e6-c53cc35d02a9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/mainpic.png",
             "height": "medium",
@@ -65,6 +66,7 @@
         },
         "d82819d7-33cf-46bc-b16c-4f2cf78298ad": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/mainpic.png",
             "height": "medium",
