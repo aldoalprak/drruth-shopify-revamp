@@ -11,7 +11,9 @@
                 <div class="rflex">
                     <div class="rblogbg">
                         <div class="blogsvg">
-                                   <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                                 <a href="{{block.settings.rewaimgurl}}">
+                                      <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                                  </a>
                         </div>
                         <h4 class="rehead">{{block.settings.rehead}}</h4>
                         <h4 class="resubhead">{{block.settings.resubhead}}</h4>
@@ -50,6 +52,11 @@
           "type": "image_picker",
           "label": "Select Image",
           "id": "rewardpoint"
+        },
+         {
+          "type": "url",
+          "label": "Image Link",
+          "id": "rewaimgurl"
         },
        {
     "type": "text",

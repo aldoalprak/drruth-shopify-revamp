@@ -9,7 +9,9 @@
                     <div class=" affimgiconwith">
                         {%- for block in section.blocks -%}
                             <div class="affimgsvg">
-                                <img src="{{ block.settings.affimgicon | img_url: 'medium' }}" alt="">
+                                <a href="{{block.settings.affimgurl}}">
+                                    <img src="{{ block.settings.affimgicon | img_url: 'medium' }}" alt="">
+                                </a>
                             </div>
                         {%- endfor -%}
                     </div>
@@ -56,6 +58,11 @@
           "type": "image_picker",
           "label": "Select Image",
           "id": "affimgicon"
+        },
+        {
+          "type": "url",
+          "label": "Image Link",
+          "id": "affimgurl"
         }
     
     ]
