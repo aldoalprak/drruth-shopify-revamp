@@ -103,7 +103,7 @@
       "custom_css": [
         "h2.affbanerhead {width: 35%;}",
         "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%; }}",
-        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; }}"
+        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; } .affbannerbtn {flex-wrap: wrap;} .affbanersign {margin-bottom: 2%;}}"
       ],
       "settings": {
         "rbanehead": "Happy Paws Affiliate Program  ",
