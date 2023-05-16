@@ -390,6 +390,11 @@
           "470e657f-1afb-4782-8aa3-d5bd6932d394"
         ],
         "settings": {
+          "modaltop": "Thank you",
+          "modalsub": "for applying to our Holistic Pet Health Program by Dr. Ruth Roberts! We appreciate your interest in our program and the opportunity to help you achieve your goals.",
+          "modaldes": "We have received your application and our team is currently reviewing it. If you meet the requirements for the program, one of our team members will reach out to you to schedule an interview.",
+          "button_home": "back to home page",
+          "homeurl": "\/"
         }
       },
       "questionradio1": {
