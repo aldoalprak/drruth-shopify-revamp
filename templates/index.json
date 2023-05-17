@@ -575,37 +575,6 @@
         "section_padding_bottom_mobile": 50
       }
     },
-    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56": {
-      "type": "rx-rich-text",
-      "blocks": {
-        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Pet Wellness Courses <br\/><\/p>"
-          }
-        },
-        "be385a9f-59a1-4ca7-a60f-623c1ef343fb": {
-          "type": "caption",
-          "settings": {
-            "caption": "\" Dr. Ruth Roberts provides a range of courses that promote total pet wellness of both cats and dogs. These courses are specifically designed to equip pet owners with knowledge on a variety of topics related to pet health and wellness, such as nutrition, exercise, and behavior. By enrolling in these courses, pet owners can gain valuable insights into how to care for their pets in a holistic manner, ensuring that their pets receive the best possible care for their overall health and happiness.\""
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0",
-        "be385a9f-59a1-4ca7-a60f-623c1ef343fb"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "caption_alignment": "center",
-        "section_bg_color": "#ffffff",
-        "image_width": "100%",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d": {
       "type": "rx-img-with-text",
       "blocks": {
@@ -650,6 +619,37 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 88
+      }
+    },
+    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Pet Wellness Courses <br\/><\/p>"
+          }
+        },
+        "be385a9f-59a1-4ca7-a60f-623c1ef343fb": {
+          "type": "caption",
+          "settings": {
+            "caption": "\" Dr. Ruth Roberts provides a range of courses that promote total pet wellness of both cats and dogs. These courses are specifically designed to equip pet owners with knowledge on a variety of topics related to pet health and wellness, such as nutrition, exercise, and behavior. By enrolling in these courses, pet owners can gain valuable insights into how to care for their pets in a holistic manner, ensuring that their pets receive the best possible care for their overall health and happiness.\""
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0",
+        "be385a9f-59a1-4ca7-a60f-623c1ef343fb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "40e124d8-821b-4b01-8eb8-2482449db53a": {
@@ -1047,8 +1047,8 @@
     "0816fc52-33ac-4b35-81ac-4c842628750a",
     "df6ff21b-835d-453a-ab12-a99160479690",
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
-    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
+    "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "40e124d8-821b-4b01-8eb8-2482449db53a",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
