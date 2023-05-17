@@ -6473,3 +6473,13 @@ text-align: center;
 @media screen and (max-width:799px){
   .custom-model-inner{margin-top: 45px;}
 }
+@media screen and (max-width:991px){
+  .custom-model-inner{
+    width: 600px;
+  }
+}
+@media screen and (max-width:768px){
+  .custom-model-inner{
+    width: 500px;
+  }
+}
