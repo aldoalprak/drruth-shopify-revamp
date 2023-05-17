@@ -20,21 +20,7 @@
               </button>
           </div>
       </div>
-      
-        <div class="modal">
-            <div class="modal-content">
-                
-                <div>
-                    
-                      <input type="hidden" class="modaltop" value="{{ section.settings.modaltop }}" />
-                      <input type="hidden" class="modalsub" value="{{ section.settings.modalsub }}" />
-                      <input type="hidden" class="modaldes" value="{{ section.settings.modaldes }}" />
-                      <input type="hidden" class="button_home" value="{{ section.settings.button_home }}" />
-                      <input type="hidden" class="homeurl" value="{{ shop.url }}{{ section.settings.homeurl }}" />
-
-                </div>                   
-            </div>
-        </div>
+      {%- render 'thankyou' -%}
     
 </div>
 
@@ -204,22 +190,22 @@ p.model-des {
     border-radius: 25.5px;
     display: inline-block;
 }
-.notify_btn {
-    font-family: 'Josefin Sans';
+.notify_btn a {
+   font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 150%;
+    line-height: 40px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: #1E1E1E;
     text-decoration: none;
-    padding: 10px 20px;
-    cursor:pointer;
-}
-.notify_btn_all {
-    display: flex;
-    justify-content: center;
+    padding: 14px 20px;
+    cursor: pointer;
 }
 
+.notify_btn svg{
+    margin-left: 20px;
+
+}
 </style>
