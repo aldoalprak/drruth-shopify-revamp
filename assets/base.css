@@ -6458,6 +6458,7 @@ text-align: center;
   z-index: 99;
   font-size: 30px;
   color: #fff;
+  margin-top: 3%;
 }
 
 @media screen and (min-width:800px){
