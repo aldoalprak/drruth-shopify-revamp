@@ -606,49 +606,6 @@
         "padding_bottom": 0
       }
     },
-    "40e124d8-821b-4b01-8eb8-2482449db53a": {
-      "type": "rx-product-list",
-      "blocks": {
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0": {
-          "type": "Product",
-          "settings": {
-            "product_block": "the-original-crockpet-diet-membership"
-          }
-        },
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
-          "type": "Product",
-          "settings": {
-            "product_block": "1986957"
-          }
-        },
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
-          "type": "Product",
-          "settings": {
-            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0",
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1",
-        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2"
-      ],
-      "settings": {
-        "title_font": "assistant_n4",
-        "title_font_size": 40,
-        "font": "assistant_n4",
-        "desktopColumns": "3",
-        "tabletColumns": "2",
-        "desktopMaxWidth": "1100px",
-        "tabletMaxWidth": "1100px",
-        "mobileMaxWidth": "100%",
-        "autoPlay": false,
-        "auto_hide_arrow": false,
-        "container_bgcolor": "#ffffff",
-        "title_color": "#1e1e1e",
-        "price_color": "#184b44"
-      }
-    },
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d": {
       "type": "rx-img-with-text",
       "blocks": {
@@ -693,6 +650,49 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 88
+      }
+    },
+    "40e124d8-821b-4b01-8eb8-2482449db53a": {
+      "type": "rx-product-list",
+      "blocks": {
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0": {
+          "type": "Product",
+          "settings": {
+            "product_block": "the-original-crockpet-diet-membership"
+          }
+        },
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
+          "type": "Product",
+          "settings": {
+            "product_block": "1986957"
+          }
+        },
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
+          "type": "Product",
+          "settings": {
+            "product_block": "plant-mushroom-benefits-for-pets-guide-by-angela-ardolino"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1",
+        "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2"
+      ],
+      "settings": {
+        "title_font": "assistant_n4",
+        "title_font_size": 40,
+        "font": "assistant_n4",
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "1100px",
+        "tabletMaxWidth": "1100px",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "title_color": "#1e1e1e",
+        "price_color": "#184b44"
       }
     },
     "42a0c8a2-518d-4af7-81cd-2253cf91765e": {
@@ -1048,8 +1048,8 @@
     "df6ff21b-835d-453a-ab12-a99160479690",
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
-    "40e124d8-821b-4b01-8eb8-2482449db53a",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
+    "40e124d8-821b-4b01-8eb8-2482449db53a",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
     "41def7a6-c370-4591-a416-a22b442ac6d4",
