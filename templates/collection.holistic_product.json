@@ -62,7 +62,7 @@
         "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Energy Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Energy Support"
           }
@@ -70,7 +70,7 @@
         "c87258ea-13bf-4613-97d4-e7e257d264c7": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "General Immune Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "General Immune Support"
           }
