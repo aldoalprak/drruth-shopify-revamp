@@ -527,7 +527,7 @@
         ".arrowheight {height: 600px;}"
       ],
       "settings": {
-        "arrowid": "shopify:\/\/pages\/application-form-1",
+        "arrowid": "shopify:\/\/pages\/application-form",
         "arrowtextbtn": "Apply Now"
       }
     },
