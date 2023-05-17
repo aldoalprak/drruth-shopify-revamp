@@ -302,7 +302,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
@@ -672,7 +672,7 @@
         "@media screen and (max-width: 620px) {.blogbodr1 a {padding: 14px 6px; }}",
         "@media screen and (max-width: 520px) {.blogbodr1 a {padding: 14px 20px; }}",
         "@media screen and (max-width: 400px) {.shop_content {min-height: 300px; }}",
-        ".blogbodr1 a{padding: 14px 24px!important;}"
+        ".blogbodr1 a {padding: 14px 24px !important;}"
       ],
       "settings": {
         "shop_head": ""
