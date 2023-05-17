@@ -308,9 +308,14 @@
 </html>
 <script>
 
-$(".appbtnspacess").on('click', function() {
-  $(".custom-model-main").addClass('model-open');
-}); 
+$(document).ready(function() {
+   $urlhref = window.location.href;
+  console.log($urlhref);
+    if($urlhref.split("/")[4] == "application-form?contact_posted=true#ContactForm" ){
+      $(".custom-model-main").addClass('model-open');
+    }
+
+});
 $(".close-btn, .bg-overlay").click(function(){
   $(".custom-model-main").removeClass('model-open');
 });
