@@ -351,7 +351,7 @@
         "38438828-3fae-4207-b1b4-2a65e3093ed5"
       ],
       "custom_css": [
-        ".cworksutext {font-family: 'Josefin Sans'; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-transform: uppercase; color: #184B44; margin-top: 0; padding-bottom: 1%; text-align: center;}"
+        ".cworksutext {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-transform: uppercase; color: #184b44; margin-top: 0; padding-bottom: 1%; text-align: center;}"
       ],
       "settings": {
         "workhead1": "How it Works",
@@ -715,7 +715,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "APPLY TO THE PROGRAM",
-            "button_link_1": "shopify:\/\/pages\/contact-us",
+            "button_link_1": "shopify:\/\/pages\/application-form-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
