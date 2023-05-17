@@ -6406,7 +6406,7 @@ text-align: center;
 }
 .pop-up-content-wrap {
   padding: 0 8%;
-  margin-top: 5%;
+  margin-top: 6%;
     margin-bottom: 6%;
     display: flex;
     flex-direction: column;
@@ -6458,6 +6458,7 @@ text-align: center;
   z-index: 99;
   font-size: 30px;
   color: #fff;
+  margin-top: 3%;
 }
 
 @media screen and (min-width:800px){
