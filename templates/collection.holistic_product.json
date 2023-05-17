@@ -30,7 +30,7 @@
         "41be0c2f-3d9f-4ebc-9710-ed0a3787b146": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Cancer support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Cancer support"
           }
@@ -38,7 +38,7 @@
         "dd15fd8d-b530-4050-bbaf-70e9b0087659": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Detox Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Detox Support"
           }
@@ -46,7 +46,7 @@
         "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Digestive (GI) Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Digestive (GI) Support"
           }
@@ -54,7 +54,7 @@
         "2ea3c12d-8333-42da-a858-d8ce008e0640": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Ear Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Ear Support"
           }
