@@ -78,7 +78,7 @@
         "fdb600d7-1608-4be9-ad50-7ccdc9d79f50": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Heart support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Heart support"
           }
@@ -86,7 +86,7 @@
         "597ae537-69a5-4161-8657-dc463ac3477c": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Heart support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Heart support"
           }
@@ -94,7 +94,7 @@
         "aa00118e-9637-4ef8-9268-93412fcb5a45": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Inflammation Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Inflammation Support"
           }
@@ -102,7 +102,7 @@
         "f61e2815-d780-43e1-b691-f106f89200d6": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Kidney Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Kidney Support"
           }
@@ -110,7 +110,7 @@
         "7c83ab62-7769-4ff6-93df-dac21f806032": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Liver support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Liver support"
           }
@@ -118,7 +118,7 @@
         "4047f92a-42e0-4aca-a63e-87db7fc2fea4": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Oral Health Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Oral Health Support"
           }
@@ -126,7 +126,7 @@
         "ff179595-84cf-4dc8-86f9-19b51235a7e9": {
           "type": "slider",
           "settings": {
-            "slide_text": "Pet device System Supported",
+            "slide_text": "Respiratory Support",
             "slide_type": "Pet device System Supported",
             "slide_val": "Respiratory Support"
           }
