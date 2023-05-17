@@ -307,18 +307,47 @@
   </body>
 </html>
 <script>
-
 $(document).ready(function() {
    $urlhref = window.location.href;
   console.log($urlhref);
-    if($urlhref.split("/")[4] == "application-form?contact_posted=true#ContactForm" ){
-      $(".custom-model-main").addClass('model-open');
-    }
+if($urlhref.split("/")[4] == "application-form?contact_posted=true#ContactForm" ){
+   
+  $(".custom-model-main").addClass('model-open');
+
+}
 
 });
+
 $(".close-btn, .bg-overlay").click(function(){
   $(".custom-model-main").removeClass('model-open');
 });
 
+$(document).ready(function() {
+  $(".redetails .rflex .blogsvg").last().addClass('last');
+  $(".last").click(function() {
+      $urlhref = window.location.href;
+  console.log($urlhref)
+  // Check if the navigator.share method is available
+  if (navigator.share) {
+    // Call the navigator.share method
+    navigator.share({
+      title: 'CodePen Demo',
+      text: 'Check out this awesome demo on CodePen!',
+      url: window.location.href
+    })
+    .then(function() {
+      // Sharing succeeded
+      console.log('Shared successfully!');
+    })
+    .catch(function(error) {
+      // Sharing failed
+      console.error('Error sharing:', error);
+    });
+  } else {
+    // Sharing not supported
+    console.log('Sharing not supported');
+  }
+});
+});
 
 </script>
