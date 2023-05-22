@@ -713,21 +713,21 @@
       
       <div id="Ingredients" class="tabcontent">
         <div class="product_tab_content">
-            {{block.settings.ingredients_content}}
-            <p></p>
-         
+          {{block.settings.ingredients_content}}
         </div>
       </div>
       
       <div id="Instructions" class="tabcontent">
         <div class="product_tab_content">
+          {%- if product.metafields.custom.revamp_instruction != blank -%}
             {{block.settings.instructions_content}}
+          {%- else -%}
             {{block.settings.instructions_content_image | image_url: width: 500
               | image_tag:
                 loading: 'lazy',
                 width: 500
             }}
-            <p></p>
+          {%- endif -%}
         </div >
       </div>     
       
@@ -784,19 +784,17 @@
     async function getSubsPrice() {
       await waitForElm('.subscription-radio');
       const subsPrice = document.getElementsByClassName("rc-radio subscription-radio")[0].querySelector(".price-label").innerHTML;
-      const regularPrice = document.getElementsByClassName("rc-radio onetime-radio")[0].querySelector(".price-label").innerHTML;
-      const isRegPriceEqualSubPrice = subsPrice == regularPrice ? true : false
-      let prevUrl = undefined;
       
+      let prevUrl = undefined;
       setInterval(() => {
-        const currUrl = new URL(window.location.href);
-        const urlParams = new URLSearchParams(currUrl.search);
+        const currUrl = window.location.href;
+        const urlParams = new URLSearchParams(currUrl);
         if (currUrl != prevUrl) {
           // URL changed
           prevUrl = currUrl;
           const hasSellingPlanParam = urlParams.has("selling_plan")
           
-          if(hasSellingPlanParam && !isRegPriceEqualSubPrice) {
+          if(hasSellingPlanParam) {
             document.getElementById("rx-subs-price").innerHTML= `${subsPrice} USD`
             document.getElementById("rx-price-regular").classList.add("rx-price-line-through")
           } else {
