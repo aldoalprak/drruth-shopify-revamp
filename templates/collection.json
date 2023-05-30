@@ -40,7 +40,7 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "one-stop-pet-shop"
+            "collection": "pet-products"
           }
         }
       },
