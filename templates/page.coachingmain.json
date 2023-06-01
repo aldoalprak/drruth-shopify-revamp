@@ -122,7 +122,7 @@
         "appdesc": "",
         "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
         "applbtn": "Apply Now",
-        "appbtnurl": "shopify:\/\/pages\/application-form"
+        "appbtnurl": "shopify:\/\/pages\/application-form-old"
       }
     },
     "5d6ce464-4822-4265-978d-865c15a291eb": {
@@ -198,7 +198,7 @@
       "settings": {
         "c_head": "",
         "pro_btn1": "apply now",
-        "program_link1": "shopify:\/\/pages\/application-form"
+        "program_link1": "shopify:\/\/pages\/application-form-old"
       }
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
@@ -389,7 +389,7 @@
         "programhead": "After the program",
         "programsubhead": "Join Our Network of Certified Holistic Pet Health Coaches",
         "pro_btn": "Apply Now",
-        "program_link": "shopify:\/\/pages\/application-form"
+        "program_link": "shopify:\/\/pages\/application-form-old"
       }
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
@@ -527,7 +527,7 @@
         ".arrowheight {height: 600px;}"
       ],
       "settings": {
-        "arrowid": "shopify:\/\/pages\/application-form",
+        "arrowid": "shopify:\/\/pages\/application-form-old",
         "arrowtextbtn": "Apply Now"
       }
     },
@@ -633,7 +633,7 @@
         "proo_des": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to start your career without worrying about financial constraints. By becoming a certified holistic pet health coach, you'll be able to positively impact the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!",
         "profeeterm": "Terms and Conditions Apply",
         "cost_btn": "apply now",
-        "cost_btnurl": "shopify:\/\/pages\/application-form"
+        "cost_btnurl": "shopify:\/\/pages\/application-form-old"
       }
     },
     "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
@@ -714,7 +714,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "APPLY TO THE PROGRAM",
-            "button_link_1": "shopify:\/\/pages\/application-form",
+            "button_link_1": "shopify:\/\/pages\/application-form-old",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
