@@ -1,0 +1,192 @@
+<script
+  async
+  src="https://{{ shop.metafields.rapid-search.storeFrontScriptDomain }}/resultpage.js?shop={{ shop.permanent_domain }}"
+></script>
+
+<div class="rps-results page-width">
+  <div class="rps-skeleton-container">
+    <div class="rps-skeleton-results-page-header-wrapper">
+      <div class="rps-skeleton-line"></div>
+      <div class="rps-skeleton-line"></div>
+    </div>
+
+    <div class="rps-skeleton-result-page-body-container">
+      <div class="rps-skeleton-filter-menu-container">
+        <div class="rps-skeleton-line"></div>
+        <div class="rps-skeleton-line"></div>
+      </div>
+
+      <div class="rps-skeleton-main-content-container">
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+        <div class="rps-skeleton-product-container">
+          <div class="rps-skeleton-product-image"></div>
+          <div class="rps-skeleton-line"></div>
+          <div class="rps-skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .rps-skeleton-container {
+    display: grid;
+    border-radius: 3px;
+    max-width: 1200px;
+    grid-gap: 30px;
+    margin: 0 auto;
+  }
+
+  .rps-results div:empty {
+    display: initial;
+  }
+
+  .rps-skeleton-results-page-header-wrapper {
+    display: grid;
+    height: 73px;
+    background: white;
+    grid-template-columns: 1fr max-content;
+    grid-gap: 20px;
+    align-items: center;
+    border-radius: 3px;
+    padding: 10px 20px;
+  }
+
+  .rps-skeleton-filter-menu-container {
+    overflow: hidden;
+    padding: 20px;
+    display: grid;
+    background: white;
+    grid-gap: 20px;
+    border-radius: 3px;
+    height: max-content;
+  }
+
+  .rps-skeleton-result-page-body-container {
+    display: grid;
+    grid-gap: 30px;
+    align-items: flex-start;
+    grid-template-columns: minmax(200px, 250px) 1fr;
+  }
+
+  .rps-skeleton-main-content-container {
+    display: grid;
+    grid-gap: 1px;
+    border-radius: 3px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .rps-skeleton-product-container {
+    background: white;
+    display: grid;
+    grid-gap: 10px;
+    height: max-content;
+    padding: 20px;
+  }
+
+  .rps-skeleton-product-container .rps-skeleton-product-image {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    background-image: linear-gradient(90deg, #f4f4f4 0px, rgba(229, 229, 229, 0.8) 40px, #f4f4f4 80px);
+    background-size: 600px;
+    animation: shine-rps-skeleton-product-image 2s infinite ease-out;
+  }
+
+  .rps-skeleton-results-page-header-wrapper .rps-skeleton-line {
+    max-width: 200px;
+  }
+
+  .rps-skeleton-results-page-header-wrapper .rps-skeleton-line ~ .rps-skeleton-line {
+    width: 200px;
+  }
+
+  .rps-skeleton-line {
+    height: 16px;
+    border-radius: 7px;
+    background-image: linear-gradient(90deg, #f4f4f4 0px, rgba(229, 229, 229, 0.8) 40px, #f4f4f4 80px);
+    background-size: 600px;
+    animation: shine-lines 2s infinite ease-out;
+  }
+
+  .rps-skeleton-product-container .rps-skeleton-line ~ .rps-skeleton-line {
+    width: 100px;
+  }
+
+  @keyframes shine-lines {
+    0% {
+      background-position: -100px;
+    }
+    40%,
+    100% {
+      background-position: 140px;
+    }
+  }
+
+  @keyframes shine-rps-skeleton-product-image {
+    0% {
+      background-position: -32px;
+    }
+    40%,
+    100% {
+      background-position: 208px;
+    }
+  }
+
+  @media all and (max-width: 992px) {
+    .rps-skeleton-filter-menu-container {
+      display: none;
+    }
+
+    .rps-skeleton-result-page-body-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .rps-skeleton-main-content-container {
+      grid-template-columns: repeat(3, minmax(100px, 1fr));
+    }
+  }
+
+  @media all and (max-width: 576px) {
+    .rps-skeleton-main-content-container {
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+  }
+
+  @media all and (max-width: 400px) {
+    .rps-skeleton-main-content-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
