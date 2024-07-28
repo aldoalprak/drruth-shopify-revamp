@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
@@ -120,7 +129,6 @@
     },
     "745fe7da-4576-486b-b400-3c9f3079872e": {
       "type": "rx-img-with-text",
-      "disabled": true,
       "blocks": {
         "c01b4b51-d767-424e-bc41-445ac521fb38": {
           "type": "heading",
@@ -148,6 +156,7 @@
         "6ebf0dcb-bf41-4a48-b22c-94f9a660ac66",
         "9595813e-6667-48b4-aa12-1452080b757b"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/mainpic_d587ca50-35d4-49d9-8a5a-faaf578da7ab.png",
         "height": "medium",
@@ -506,7 +515,6 @@
     },
     "2b1d20ae-49de-4e39-ab92-d62ff31188a4": {
       "type": "rx-collections-list",
-      "disabled": true,
       "blocks": {
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-0": {
           "type": "Collection",
@@ -565,6 +573,7 @@
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2",
         "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-5"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "rgba(0,0,0,0)",
         "card_color": "#f5f8f1",
@@ -664,7 +673,7 @@
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {
           "type": "Product",
           "settings": {
-            "product_block": "1986957"
+            "product_block": "gut-health-starter-kit"
           }
         },
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-2": {
@@ -909,7 +918,6 @@
     },
     "8960ec65-5cef-4d84-b887-aa69c09a76a9": {
       "type": "rx-rich-text",
-      "disabled": true,
       "blocks": {
         "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0": {
           "type": "heading",
@@ -921,6 +929,7 @@
       "block_order": [
         "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -934,7 +943,6 @@
     },
     "e3511e10-8d71-4ec1-a035-4c3a079b8d90": {
       "type": "rx-podcast-list",
-      "disabled": true,
       "blocks": {
         "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-0": {
           "type": "Podcast",
@@ -969,6 +977,7 @@
         "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-1",
         "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-2"
       ],
+      "disabled": true,
       "settings": {
         "title_font": "assistant_n4",
         "title_font_size": 40,
