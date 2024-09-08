@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1644361594fa530990": {
@@ -65,7 +74,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Bundle Now",
-            "button_link": "shopify:\/\/products\/chill-the-itch-itchy-skin-relief-for-dogs-cats"
+            "button_link": "shopify:\/\/products\/itchy-skin-relief-for-dogs-cats"
           }
         }
       },
@@ -116,7 +125,6 @@
     },
     "1631859338560c9b4a": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1631859338560c9b4a-0": {
           "type": "featured_collection",
@@ -142,6 +150,7 @@
         "1631859338560c9b4a-1",
         "1631859338560c9b4a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "SHOP MORE",
         "heading_size": "h1",
@@ -195,7 +204,6 @@
     },
     "1644346673ab5cde9c": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1644346673215909db-0": {
           "type": "column",
@@ -250,6 +258,7 @@
         "7e2f260b-9426-4f80-b237-654daa7af150",
         "851298dd-4488-4c37-bd0a-47c632e1f888"
       ],
+      "disabled": true,
       "settings": {
         "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
         "heading_size": "h1",
@@ -269,7 +278,6 @@
     },
     "1644362911e27a17cd": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1644362911ff49262e-0": {
           "type": "column",
@@ -328,6 +336,7 @@
         "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
         "b5900dc0-f343-402a-9fe7-0eb98426b80b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Holistic Veterinary Care Packages",
         "heading_size": "h1",
@@ -347,7 +356,6 @@
     },
     "16451372445fbe7db4": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1645137244617a2009-0": {
           "type": "heading",
@@ -373,6 +381,7 @@
         "1645137244617a2009-1",
         "1645137244617a2009-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
