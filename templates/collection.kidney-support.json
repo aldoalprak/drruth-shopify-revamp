@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -116,7 +125,7 @@
         "16454756786ef745d9-7"
       ],
       "settings": {
-        "product": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+        "product": "the-original-crockpet-diet-recipe",
         "color_scheme": "accent-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -145,7 +154,6 @@
     },
     "1631859338560c9b4a": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1631859338560c9b4a-0": {
           "type": "featured_collection",
@@ -171,6 +179,7 @@
         "1631859338560c9b4a-1",
         "1631859338560c9b4a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "SHOP MORE",
         "heading_size": "h1",
@@ -186,7 +195,6 @@
     },
     "164434556097d46afd": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1644345560ae71793c-0": {
           "type": "heading",
@@ -216,6 +224,7 @@
         "1644345560ae71793c-1",
         "1644345560ae71793c-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -309,7 +318,6 @@
     },
     "1644362911e27a17cd": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1644362911ff49262e-0": {
           "type": "column",
@@ -369,6 +377,7 @@
         "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
         "b5900dc0-f343-402a-9fe7-0eb98426b80b"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -425,7 +434,6 @@
     },
     "16451372445fbe7db4": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1645137244617a2009-0": {
           "type": "heading",
@@ -451,6 +459,7 @@
         "1645137244617a2009-1",
         "1645137244617a2009-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
