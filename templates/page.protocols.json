@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "dd0627fe-0396-47f2-aa7d-c437fbf15907": {
@@ -36,7 +45,7 @@
         "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dr._Ruth_Roberts_Angela_Ardolino_the_holistic_duo_ca7207a7-c18b-4c00-bf19-c5ecad639c2a.png",
+        "image": "shopify://shop_images/Dr._Ruth_Roberts_Angela_Ardolino_the_holistic_duo_ca7207a7-c18b-4c00-bf19-c5ecad639c2a.png",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -86,7 +95,7 @@
         "cc99839f-4fdf-45ca-9ee6-e6b0ef2d6d3e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gastrointestinal-support"
+            "collection": "digestive-support-for-pets"
           }
         },
         "c9e247fc-2246-47e6-83f4-ca0158ebd80f": {
@@ -168,7 +177,7 @@
         "45ceb5a6-9a6e-4e86-b31b-efeda236bdc3"
       ],
       "settings": {
-        "title": "We made it easy for you to know what type of support you and your pet should get based on his\/her current condition.",
+        "title": "We made it easy for you to know what type of support you and your pet should get based on his/her current condition.",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -229,7 +238,7 @@
         "69b427fb-183d-45cb-9548-b5c125455e0a"
       ],
       "settings": {
-        "title": "Give your dog & cat the care & affection it deserves w\/ our top-quality nutritional supplements from Standard Process",
+        "title": "Give your dog & cat the care & affection it deserves w/ our top-quality nutritional supplements from Standard Process",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -262,7 +271,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Book A Consult",
-            "button_link_1": "https:\/\/drruthroberts.com\/certified-holistic-pet-health-coaches\/",
+            "button_link_1": "https://drruthroberts.com/certified-holistic-pet-health-coaches/",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -276,7 +285,7 @@
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman_and_dog_on_the_beach.jpg",
+        "image": "shopify://shop_images/woman_and_dog_on_the_beach.jpg",
         "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -301,7 +310,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our VIP email list for exclusive pet care tips from our veterinary * holistic pet care expert Dr. Ruth Roberts <\/p>"
+            "text": "<p>Join our VIP email list for exclusive pet care tips from our veterinary * holistic pet care expert Dr. Ruth Roberts </p>"
           }
         },
         "email-form": {

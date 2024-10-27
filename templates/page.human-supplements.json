@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "dd0627fe-0396-47f2-aa7d-c437fbf15907": {
@@ -36,7 +45,7 @@
         "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/root-vegetable-salad.jpg",
+        "image": "shopify://shop_images/root-vegetable-salad.jpg",
         "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -128,7 +137,6 @@
     },
     "d9814347-ec3a-4357-bb8f-c4423922c28b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-0": {
           "type": "heading",
@@ -148,7 +156,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Book A Consult",
-            "button_link_1": "https:\/\/drruthroberts.com\/certified-holistic-pet-health-coaches\/",
+            "button_link_1": "https://drruthroberts.com/certified-holistic-pet-health-coaches/",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -161,8 +169,9 @@
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-1",
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman_and_dog_on_the_beach.jpg",
+        "image": "shopify://shop_images/woman_and_dog_on_the_beach.jpg",
         "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -176,7 +185,6 @@
     },
     "a1dcd6d6-0738-402f-bfec-56f09d6583b8": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-0": {
           "type": "featured_collection",
@@ -205,7 +213,7 @@
         "cc99839f-4fdf-45ca-9ee6-e6b0ef2d6d3e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gastrointestinal-support"
+            "collection": "digestive-support-for-pets"
           }
         },
         "c9e247fc-2246-47e6-83f4-ca0158ebd80f": {
@@ -258,8 +266,9 @@
         "c8255492-a9a3-4eaf-ae83-f68f86f67dd6",
         "7e42e020-8ffe-44af-b5a5-aa468086ae14"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Here's a collection of all our pet care protocols, from Allergy, G.I problems, Kidney Disease, Liver Disease, Cancer and many more. We made it easy for you to know what type of support you and your pet should get based on his\/her current condition.",
+        "title": "Here's a collection of all our pet care protocols, from Allergy, G.I problems, Kidney Disease, Liver Disease, Cancer and many more. We made it easy for you to know what type of support you and your pet should get based on his/her current condition.",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -277,14 +286,14 @@
         "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Contact Us:<\/p>",
+            "heading": "<p>Contact Us:</p>",
             "heading_size": "h1"
           }
         },
         "template--14870887661633__1c47f32e-aaec-450a-b8dd-b07b56bbf055-1674139819768fef2c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you need help selecting the products for a specific condition, email support@drruthroberts.com or call 213-394-2923<\/p>"
+            "text": "<p>If you need help selecting the products for a specific condition, email support@drruthroberts.com or call 213-394-2923</p>"
           }
         }
       },
