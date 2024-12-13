@@ -1,6 +1,15 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Frame.png",
+    "logo": "shopify://shop_images/Frame.png",
     "logo_width": 120,
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#08708a",
@@ -86,8 +95,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_facebook_link": "https:\/\/facebook.com\/shopify",
-    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_facebook_link": "https://facebook.com/shopify",
+    "social_instagram_link": "http://instagram.com/shopify",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -108,7 +117,7 @@
             "settings": {
               "text": "New! Shop MycoDog Mushrooms For Your Dog",
               "color_scheme": "accent-1",
-              "link": "https:\/\/shop.drruthroberts.com\/collections\/mycodog-mushrooms-for-dogs"
+              "link": "https://shop.drruthroberts.com/collections/mycodog-mushrooms-for-dogs"
             }
           },
           "e1770a70-d299-486e-8192-16f36df50528": {
@@ -135,8 +144,7 @@
           "e1770a70-d299-486e-8192-16f36df50528",
           "159f6696-b0fe-4f83-8c66-b372b30b0e45"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -156,7 +164,7 @@
             "type": "text",
             "settings": {
               "heading": "ABOUT DR. RUTH",
-              "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p><p><a href=\"https:\/\/drruthroberts.com\/about\/\" title=\"https:\/\/drruthroberts.com\/about\/\">\"Learn More About Me\"<\/a><\/p><p>email us at support@drruthroberts.com<\/p><p>or call us at<\/p><p>+1 213 394 2923<\/p>"
+              "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".</p><p><a href=\"https://drruthroberts.com/about/\" title=\"https://drruthroberts.com/about/\">\"Learn More About Me\"</a></p><p>email us at support@drruthroberts.com</p><p>or call us at</p><p>+1 213 394 2923</p>"
             }
           },
           "image": {
@@ -185,7 +193,7 @@
             "type": "text",
             "settings": {
               "heading": "Disclaimer",
-              "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.<\/p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”<\/p>"
+              "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.</p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”</p>"
             }
           }
         },
@@ -309,7 +317,7 @@
           "4f733575-baaf-4280-88ac-72beea4ec2bc": {
             "type": "Question",
             "settings": {
-              "labelname": "What’s your life\/work experience? * (5 of 8)",
+              "labelname": "What’s your life/work experience? * (5 of 8)",
               "answer": ""
             }
           },
@@ -328,8 +336,7 @@
           "4f733575-baaf-4280-88ac-72beea4ec2bc",
           "d0e19503-b57e-45d5-8c19-286e4fc677cb"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "questionradio": {
         "type": "questionradio",
@@ -364,8 +371,7 @@
       },
       "answertearms": {
         "type": "answertearms",
-        "settings": {
-        }
+        "settings": {}
       },
       "questionradio1": {
         "type": "questionradio1",
@@ -406,24 +412,20 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "700586049715161363": {
-        "type": "shopify:\/\/apps\/wholesale-bear-bulk-discount\/blocks\/widget\/eb441192-490b-4556-9dae-73986103f3a2",
+        "type": "shopify://apps/wholesale-bear-bulk-discount/blocks/widget/eb441192-490b-4556-9dae-73986103f3a2",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7612553728132747764": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/net-promoter-score-form-modal/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "email": "",
@@ -437,7 +439,7 @@
         }
       },
       "4697538150380142411": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/reviews-popup/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "layout": "horizontal",
@@ -461,13 +463,12 @@
         }
       },
       "8764476057892802672": {
-        "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1575957009345749421": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "show_avatar": true,
@@ -492,24 +493,17 @@
           "with_photos": false
         }
       },
-      "1368681638829982627": {
-        "type": "shopify:\/\/apps\/rapid-search\/blocks\/app-embed\/bd827795-feaa-41a8-9219-2b83f238aa7d",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7385302900728337613": {
-        "type": "shopify:\/\/apps\/deposits-split-payments-depo\/blocks\/app-embed\/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "5149645339031002760": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
         "settings": {
           "async": false
         }
+      },
+      "5182184951224911228": {
+        "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -622,7 +616,7 @@
       "sold_out_badge_color_scheme": "inverse",
       "accent_icons": "text",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": "100",
       "social_twitter_link": "",
       "social_facebook_link": "",
