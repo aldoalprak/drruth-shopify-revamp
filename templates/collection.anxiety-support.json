@@ -87,8 +87,7 @@
         },
         "16452292688412faa2-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "16452292688412faa2-4": {
           "type": "variant_picker",
@@ -98,8 +97,7 @@
         },
         "16452292688412faa2-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "16452292688412faa2-6": {
           "type": "buy_buttons",
@@ -125,7 +123,7 @@
         "16452292688412faa2-7"
       ],
       "settings": {
-        "product": "calm-your-pet",
+        "product": "ultimate-calm-your-pet",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -436,8 +434,7 @@
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
