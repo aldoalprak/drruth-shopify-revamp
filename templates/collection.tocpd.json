@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "f4156b02-58f8-4813-b327-a53a91c7ff6e": {
@@ -38,7 +47,7 @@
         "template--14821481873473__f4156b02-58f8-4813-b327-a53a91c7ff6e-1673893119791070bd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tocpdd_1440_x_560_px_1-opt.webp",
+        "image": "shopify://shop_images/tocpdd_1440_x_560_px_1-opt.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -91,7 +100,7 @@
         "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Your best friend's dog deserves the healthiest diet, just like everyone else in his family. Dogs & cats love the Original Crockpet recipes, and we’re thrilled to share them with your best friends. <\/p><p>The Original Crockpet Diet is a complete and balanced diet that provides high-quality nutrition for dogs & cats of all sizes and breeds, no matter their activity level or age.<\/p>",
+            "text": "<p>Your best friend's dog deserves the healthiest diet, just like everyone else in his family. Dogs & cats love the Original Crockpet recipes, and we’re thrilled to share them with your best friends. </p><p>The Original Crockpet Diet is a complete and balanced diet that provides high-quality nutrition for dogs & cats of all sizes and breeds, no matter their activity level or age.</p>",
             "text_style": "body"
           }
         },
@@ -99,7 +108,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Now!",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+            "button_link": "shopify://products/the-original-crockpet-diet-membership"
           }
         }
       },
@@ -109,7 +118,7 @@
         "template--14821481873473__a77fe201-e779-4f85-ac95-8134b40498d8-167050883619ad5925-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/38470326_10216934414214374_593562569046753280_n.jpg",
+        "image": "shopify://shop_images/38470326_10216934414214374_593562569046753280_n.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -128,21 +137,21 @@
         "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>TOCPD20<\/p>",
+            "heading": "<p>TOCPD20</p>",
             "heading_size": "h1"
           }
         },
         "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-1": {
           "type": "text",
           "settings": {
-            "text": "<p>*use the code upon check-out.<\/p>"
+            "text": "<p>*use the code upon check-out.</p>"
           }
         },
         "template--14821481873473__9e977c56-a2e6-4f78-acbb-4b99ab67e1da-167050883686550326-2": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "https:\/\/shop.drruthroberts.com\/discount\/TOCPD20?redirect=%2Fcollections%2Fcrockpet-diet",
+            "button_link": "https://shop.drruthroberts.com/discount/TOCPD20?redirect=%2Fcollections%2Fcrockpet-diet",
             "button_style_secondary": false
           }
         }
@@ -184,14 +193,12 @@
         },
         "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-5": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821481873473__f0abf99c-d232-49ec-9e05-6ddec20debed-16704532764d527828-6": {
           "type": "buy_buttons",
@@ -231,21 +238,21 @@
         "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/starter_kit.jpg",
+            "image": "shopify://shop_images/starter_kit.jpg",
             "title": "TOCPC Starter Kit For Cat & Dog",
-            "text": "<p>Let’s enhance the health of your pets with tailored recipes and specially selected supplements, all required for a balanced diet. Order your 150-days to a year’s worth of supplies of supplements and vitamins and become the best furrbaby parent.<\/p>",
+            "text": "<p>Let’s enhance the health of your pets with tailored recipes and specially selected supplements, all required for a balanced diet. Order your 150-days to a year’s worth of supplies of supplements and vitamins and become the best furrbaby parent.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/the-complete-crockpet-diet-starter-kit-for-cats"
+            "link": "https://shop.drruthroberts.com/products/the-complete-crockpet-diet-starter-kit-for-cats"
           }
         },
         "template--14821481873473__088e1906-2943-47c5-a516-e118d48e5877-167045332961834e2f-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/refill_kit.jpg",
+            "image": "shopify://shop_images/refill_kit.jpg",
             "title": "TOCPD Refill Kit for Cats & Dog",
-            "text": "<p>The Complete CrockPet Refill Kit is a fast and efficient way to keep your furry friend's diet on target and complete & balanced, with the best possible ingredients and supplements needed to balance it. <\/p><p> (Does not include slow cooker)<\/p>",
+            "text": "<p>The Complete CrockPet Refill Kit is a fast and efficient way to keep your furry friend's diet on target and complete & balanced, with the best possible ingredients and supplements needed to balance it. </p><p> (Does not include slow cooker)</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/the-complete-crockpet-refill-kit-for-cats-dogs"
+            "link": "https://shop.drruthroberts.com/products/the-complete-crockpet-refill-kit-for-cats-dogs"
           }
         }
       },
@@ -276,14 +283,14 @@
         "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Optimize your pet’s best health and achieve wholly balanced nutrition. <\/p>",
+            "heading": "<p>Optimize your pet’s best health and achieve wholly balanced nutrition. </p>",
             "heading_size": "h2"
           }
         },
         "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The Holistic Total Body Support is perfectly formulated to complement The Original CrockPET Diet & is also a recommended supplement for dogs eating any other diet.<\/p>"
+            "text": "<p>The Holistic Total Body Support is perfectly formulated to complement The Original CrockPET Diet & is also a recommended supplement for dogs eating any other diet.</p>"
           }
         },
         "template--14821481873473__97f68048-498f-4269-aaa9-cc7e97cdcf37-167050883686550326-2": {
@@ -333,8 +340,7 @@
         },
         "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-4": {
           "type": "variant_picker",
@@ -344,8 +350,7 @@
         },
         "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-6": {
           "type": "buy_buttons",
@@ -371,7 +376,7 @@
         "template--14821481873473__c84599a7-55cb-438e-8419-61f78398d203-16704532764d527828-7"
       ],
       "settings": {
-        "product": "holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
+        "product": "holistic-total-body-support-for-cats-and-dogs",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -383,7 +388,7 @@
     "ac39471c-3aad-4261-954a-849a01372618": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ensure overall health of your furry family member w\/ our top-grade supplement bundles.",
+        "title": "Ensure overall health of your furry family member w/ our top-grade supplement bundles.",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
