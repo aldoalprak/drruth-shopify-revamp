@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1644361594fa530990": {
@@ -22,7 +22,7 @@
         "164436159488e9de81-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If your pet has severe allergies and is itchy, try this effective protocol to reduce circulating histamines. Quercetin paired with nettles, powerful herbal antihistamines, and Omega 3 Fatty Acids (O3FA) have been shown to stabilize the itch-inducing histamine molecule, helping to improve your pet’s comfort.<\/p>",
+            "text": "<p>If your pet has severe allergies and is itchy, try this effective protocol to reduce circulating histamines. Quercetin paired with nettles, powerful herbal antihistamines, and Omega 3 Fatty Acids (O3FA) have been shown to stabilize the itch-inducing histamine molecule, helping to improve your pet’s comfort.</p>",
             "text_style": "body"
           }
         },
@@ -30,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Allergy Brochure",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/%5BSensitive+Skin%5D+Supplement+Brochure.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/%5BSensitive+Skin%5D+Supplement+Brochure.pdf"
           }
         }
       },
@@ -40,7 +40,7 @@
         "164436159488e9de81-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_460808f2-0175-4325-9466-ed0dd936c712.png",
+        "image": "shopify://shop_images/3_460808f2-0175-4325-9466-ed0dd936c712.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -66,7 +66,7 @@
         "164522826959604e49-1": {
           "type": "text",
           "settings": {
-            "text": "<p>For pets with itchy skin, allergy and to calm the fire naturally.<br\/><\/p><p><em><strong>Hista-Paws For Cats And Dogs<\/strong><\/em><\/p><p><em><strong>Vitality- Mushroom Supplement<\/strong><\/em><\/p><p><em><strong>Omega Pawz- Omega 3 Fatty Acids<\/strong><\/em><\/p>",
+            "text": "<p>For pets with itchy skin, allergy and to calm the fire naturally.<br/></p><p><em><strong>Hista-Paws For Cats And Dogs</strong></em></p><p><em><strong>Vitality- Mushroom Supplement</strong></em></p><p><em><strong>Omega Pawz- Omega 3 Fatty Acids</strong></em></p>",
             "text_style": "body"
           }
         },
@@ -74,7 +74,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Bundle Now",
-            "button_link": "shopify:\/\/products\/itchy-skin-relief-for-dogs-cats"
+            "button_link": "shopify://products/the-ultimate-itchy-skin-relief-for-dogs-cats"
           }
         }
       },
@@ -84,7 +84,7 @@
         "164522826959604e49-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/12_6b203ac2-5d10-486f-af03-6774b3193bd7.png",
+        "image": "shopify://shop_images/12_6b203ac2-5d10-486f-af03-6774b3193bd7.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -170,14 +170,14 @@
         "1644345560ae71793c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>A Healthy Gut, is a Happy Pet<\/p>",
+            "heading": "<p>A Healthy Gut, is a Happy Pet</p>",
             "heading_size": "h1"
           }
         },
         "1644345560ae71793c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Rebuilding the gut is the place to start. As you strengthen the gut, you reduce the chances your pet will absorb allergens from what she is eating, grooming off of herself, and otherwise ingesting.<br\/><br\/>Though it may not make sense to work on improving gut function to reduce allergic disease, 70% of the immune system is in the gut. If your pet has taken antibiotics, steroids, or other potent anti-allergy meds, the normal microbiome has been destroyed.<\/p><p>I use the products above for all my consulting clients, to get fantastic health outcomes. I've recommended them for years, and use them for my own pets to keep their health and immune function top notch. <\/p>"
+            "text": "<p>Rebuilding the gut is the place to start. As you strengthen the gut, you reduce the chances your pet will absorb allergens from what she is eating, grooming off of herself, and otherwise ingesting.<br/><br/>Though it may not make sense to work on improving gut function to reduce allergic disease, 70% of the immune system is in the gut. If your pet has taken antibiotics, steroids, or other potent anti-allergy meds, the normal microbiome has been destroyed.</p><p>I use the products above for all my consulting clients, to get fantastic health outcomes. I've recommended them for years, and use them for my own pets to keep their health and immune function top notch. </p>"
           }
         },
         "1644345560ae71793c-2": {
@@ -185,7 +185,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Book now!",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package/",
             "button_style_secondary": false
           }
         }
@@ -209,7 +209,7 @@
           "type": "column",
           "settings": {
             "title": "Multivitamin ",
-            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "",
             "link": ""
           }
@@ -218,7 +218,7 @@
           "type": "column",
           "settings": {
             "title": "Fish Oil",
-            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "text": "<p><em><strong> </strong></em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. </p>",
             "link_label": "",
             "link": ""
           }
@@ -227,7 +227,7 @@
           "type": "column",
           "settings": {
             "title": "Probiotics",
-            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. </p>",
             "link_label": "",
             "link": ""
           }
@@ -236,7 +236,7 @@
           "type": "column",
           "settings": {
             "title": "Antioxidants",
-            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. </p>",
             "link_label": "",
             "link": ""
           }
@@ -245,7 +245,7 @@
           "type": "column",
           "settings": {
             "title": "Turmeric",
-            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. </p>",
             "link_label": "",
             "link": ""
           }
@@ -304,7 +304,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -314,7 +314,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -323,7 +323,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -367,13 +367,12 @@
         "1645137244617a2009-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -402,14 +401,14 @@
         "1644363585f56cc491-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/p>"
+            "text": "<p>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</p>"
           }
         },
         "1644363585f56cc491-2": {
           "type": "button",
           "settings": {
             "button_label": "Read more",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package",
             "button_style_secondary": false
           }
         }
