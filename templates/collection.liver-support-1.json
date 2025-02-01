@@ -87,8 +87,7 @@
         },
         "template--14821462376513__30a236e1-6772-4f15-9216-9c2e01f4e40a-16759559784ad701c6-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821462376513__30a236e1-6772-4f15-9216-9c2e01f4e40a-16759559784ad701c6-4": {
           "type": "variant_picker",
@@ -98,8 +97,7 @@
         },
         "template--14821462376513__30a236e1-6772-4f15-9216-9c2e01f4e40a-16759559784ad701c6-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14821462376513__30a236e1-6772-4f15-9216-9c2e01f4e40a-16759559784ad701c6-6": {
           "type": "buy_buttons",
@@ -241,7 +239,7 @@
             "title": "Multivitamin ",
             "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify://products/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+            "link": "shopify://products/holistic-total-body-support-for-cats-and-dogs"
           }
         },
         "1644346673215909db-1": {
@@ -327,8 +325,7 @@
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
