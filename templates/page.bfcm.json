@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -32,7 +41,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "GIVINGBACK10",
-            "button_link_1": "https:\/\/shop.drruthroberts.com\/discount\/GIVINGBACK10",
+            "button_link_1": "https://shop.drruthroberts.com/discount/GIVINGBACK10",
             "button_style_secondary_1": true,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -46,7 +55,7 @@
         "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BFCM_SALE_2_7a454232-6b23-41f3-a39f-7d8ab8ffed66.jpg",
+        "image": "shopify://shop_images/BFCM_SALE_2_7a454232-6b23-41f3-a39f-7d8ab8ffed66.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -64,14 +73,14 @@
         "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Here's Your Black Friday Treat 🎉<\/p>",
+            "heading": "<p>Here's Your Black Friday Treat 🎉</p>",
             "heading_size": "h2"
           }
         },
         "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>These Are The Deals You’ve Been Waiting For <\/p><p>Use code<strong> GIVINGBACK10<\/strong> upon checkout to get 10% off our holistic supplements & courses! <\/p>"
+            "text": "<p>These Are The Deals You’ve Been Waiting For </p><p>Use code<strong> GIVINGBACK10</strong> upon checkout to get 10% off our holistic supplements & courses! </p>"
           }
         },
         "template--14841728761921__a7aeba3d-757c-4979-b093-2611f67ccaa3-1669135430e703475c-2": {
@@ -128,8 +137,7 @@
         },
         "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-4": {
           "type": "variant_picker",
@@ -139,8 +147,7 @@
         },
         "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-6": {
           "type": "buy_buttons",
@@ -167,7 +174,7 @@
         "template--14841728761921__71d2e1f7-132b-4230-bffc-2711fb42fe54-1668612001da43260d-7"
       ],
       "settings": {
-        "product": "holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
+        "product": "holistic-total-body-support-for-cats-and-dogs",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -208,14 +215,12 @@
         },
         "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-5": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14841728761921__c5202985-92b6-458e-9df1-9a8886eeb8e6-1669120577ee54e62a-6": {
           "type": "buy_buttons",
@@ -256,31 +261,31 @@
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fidospore_b5b5e1b7-cc6b-4c35-90bf-6e91ba16b834.jpg",
+            "image": "shopify://shop_images/Fidospore_b5b5e1b7-cc6b-4c35-90bf-6e91ba16b834.jpg",
             "title": "FidoSpore",
-            "text": "<p>FidoSpore™ is the first probiotic supplement clinically shown to support digestive health in dogs.<\/p>",
+            "text": "<p>FidoSpore™ is the first probiotic supplement clinically shown to support digestive health in dogs.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/fidospore?_pos=1&_sid=ff1c5ae4c&_ss=r"
+            "link": "https://shop.drruthroberts.com/products/fidospore?_pos=1&_sid=ff1c5ae4c&_ss=r"
           }
         },
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_3.jpg",
+            "image": "shopify://shop_images/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_3.jpg",
             "title": "Arthri-Pawz",
-            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.<\/p>",
+            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/arthrosoothe-120-vcaps?_pos=1&_psq=art&_ss=e&_v=1.0"
+            "link": "https://shop.drruthroberts.com/products/arthrosoothe-120-vcaps?_pos=1&_psq=art&_ss=e&_v=1.0"
           }
         },
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_2.jpg",
+            "image": "shopify://shop_images/WHOLE_BODY_NUTRITION_ENDOCRINE_SUPPORT_800_x_800_px_2.jpg",
             "title": "Hista-Paws",
-            "text": "<p>The best selling allergy relief supplement for cats & dogs that contains quercetin & nettles that works better than apoquel.<\/p>",
+            "text": "<p>The best selling allergy relief supplement for cats & dogs that contains quercetin & nettles that works better than apoquel.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
+            "link": "https://shop.drruthroberts.com/products/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
           }
         }
       },
@@ -334,7 +339,7 @@
         "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2"
       ],
       "settings": {
-        "title": "Give your pet the goodness of wholly balanced nutrition w\/ our top-grade multivitamins from Standard Process.",
+        "title": "Give your pet the goodness of wholly balanced nutrition w/ our top-grade multivitamins from Standard Process.",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -352,7 +357,7 @@
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Header_1.jpg",
+            "image": "shopify://shop_images/Early-Bird-_-Testimonials_Header_1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -362,41 +367,41 @@
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-1_1.jpg",
+            "image": "shopify://shop_images/Early-Bird-_-Testimonials_Body-1_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
+            "link": "https://shop.drruthroberts.com/products/quercetin-nettles-90-caps?_pos=1&_psq=hista&_ss=e&_v=1.0"
           }
         },
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-2_1.jpg",
+            "image": "shopify://shop_images/Early-Bird-_-Testimonials_Body-2_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews?_pos=1&_sid=9a0c389c5&_ss=r"
+            "link": "https://shop.drruthroberts.com/products/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews?_pos=1&_sid=9a0c389c5&_ss=r"
           }
         },
         "c5318569-8288-4701-8a2b-c395252eb4fa": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-3_1.jpg",
+            "image": "shopify://shop_images/Early-Bird-_-Testimonials_Body-3_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/standardprocess-pneumotrophin-pmg-6900?_pos=1&_psq=pneum&_ss=e&_v=1.0"
+            "link": "https://shop.drruthroberts.com/products/standardprocess-pneumotrophin-pmg-6900?_pos=1&_psq=pneum&_ss=e&_v=1.0"
           }
         },
         "dbb4c90f-3c91-4275-954f-23f3af6a04f6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Early-Bird-_-Testimonials_Body-4_1.jpg",
+            "image": "shopify://shop_images/Early-Bird-_-Testimonials_Body-4_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/standardprocess-adrenal-desiccated-0850?_pos=1&_psq=adrenal&_ss=e&_v=1.0"
+            "link": "https://shop.drruthroberts.com/products/standardprocess-adrenal-desiccated-0850?_pos=1&_psq=adrenal&_ss=e&_v=1.0"
           }
         }
       },
@@ -462,7 +467,7 @@
         "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BFCM-Open-C.jpg",
+        "image": "shopify://shop_images/BFCM-Open-C.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "bottom-center",

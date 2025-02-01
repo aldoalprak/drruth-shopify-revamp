@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1644361594fa530990": {
@@ -13,7 +22,7 @@
         "164436159488e9de81-1": {
           "type": "text",
           "settings": {
-            "text": "<p>An ounce of prevention is worth a pound of cure. Staying healthy takes effort, and when your pet is healthy this protocol is simply part of the daily routine. Eat, Move, Meditate, Reduce Inflammation, & Keep The Gut Healthy.<\/p><p>This collection of supplements to keep your pets healthy empower pet owners to care for their animals in the same way they care for themselves. <\/p>",
+            "text": "<p>An ounce of prevention is worth a pound of cure. Staying healthy takes effort, and when your pet is healthy this protocol is simply part of the daily routine. Eat, Move, Meditate, Reduce Inflammation, & Keep The Gut Healthy.</p><p>This collection of supplements to keep your pets healthy empower pet owners to care for their animals in the same way they care for themselves. </p>",
             "text_style": "body"
           }
         },
@@ -21,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Keep My Pet Healthy Brochure",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/%5BPet+Wellness%5D+Supplement+Brochure.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/%5BPet+Wellness%5D+Supplement+Brochure.pdf"
           }
         }
       },
@@ -31,7 +40,7 @@
         "164436159488e9de81-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/7_5e51eab0-16a0-4a7d-acc5-7807a8033909.png",
+        "image": "shopify://shop_images/7_5e51eab0-16a0-4a7d-acc5-7807a8033909.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -57,7 +66,7 @@
         "164522826959604e49-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover how to improve your pet’s digestion and immunity with this crash course that reveals little-known facts about your dog or cat’s dietary needs.<\/p><p><\/p><p>The Original CrockPet Diet is highly customizable and can be tailored to fit your pet's health needs and even their preferences.  <\/p>",
+            "text": "<p>Discover how to improve your pet’s digestion and immunity with this crash course that reveals little-known facts about your dog or cat’s dietary needs.</p><p></p><p>The Original CrockPet Diet is highly customizable and can be tailored to fit your pet's health needs and even their preferences.  </p>",
             "text_style": "body"
           }
         },
@@ -65,7 +74,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get The Recipe Now",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+            "button_link": "shopify://products/the-original-crockpet-diet-membership"
           }
         }
       },
@@ -75,7 +84,7 @@
         "164522826959604e49-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/The_Original_Crockpet_Diet_recipe_ebook_2.jpg",
+        "image": "shopify://shop_images/The_Original_Crockpet_Diet_recipe_ebook_2.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -117,7 +126,6 @@
     },
     "1631859338560c9b4a": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1631859338560c9b4a-0": {
           "type": "featured_collection",
@@ -143,6 +151,7 @@
         "1631859338560c9b4a-1",
         "1631859338560c9b4a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "SHOP MORE",
         "heading_size": "h1",
@@ -162,14 +171,14 @@
         "1644345560ae71793c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Your Pet's Best Health Starts In A Bowl<\/p>",
+            "heading": "<p>Your Pet's Best Health Starts In A Bowl</p>",
             "heading_size": "h1"
           }
         },
         "1644345560ae71793c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Enhance your dog or cat’s health with essential supplements and vitamins that counteract diseases, so that you can enjoy your time with your pet.<\/p><p>We have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.<\/p>"
+            "text": "<p>Enhance your dog or cat’s health with essential supplements and vitamins that counteract diseases, so that you can enjoy your time with your pet.</p><p>We have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.</p>"
           }
         },
         "1644345560ae71793c-2": {
@@ -177,7 +186,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Book now!",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package/",
             "button_style_secondary": false
           }
         }
@@ -200,51 +209,51 @@
         "1644346673215909db-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/22_021ec101-093c-4b42-b781-feabf8925764.jpg",
+            "image": "shopify://shop_images/22_021ec101-093c-4b42-b781-feabf8925764.jpg",
             "title": "Multivitamin ",
-            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+            "link": "shopify://products/holistic-total-body-support-for-cats-and-dogs"
           }
         },
         "1644346673215909db-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RuthNewFishOil-1.webp",
+            "image": "shopify://shop_images/RuthNewFishOil-1.webp",
             "title": "Fish Oil",
-            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "text": "<p><em><strong> </strong></em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/crockpet-fish-oil-supplement"
+            "link": "shopify://products/crockpet-fish-oil-supplement"
           }
         },
         "1644346673215909db-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20.jpg",
+            "image": "shopify://shop_images/20.jpg",
             "title": "Probiotics",
-            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/fidospore-by-microlabs-digestive-probiotic-for-pets"
+            "link": "shopify://products/fidospore-by-microlabs-digestive-probiotic-for-pets"
           }
         },
         "7e2f260b-9426-4f80-b237-654daa7af150": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ClarityBottle.png",
+            "image": "shopify://shop_images/ClarityBottle.png",
             "title": "Antioxidants",
-            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. </p>",
             "link_label": "SHOP NOW",
-            "link": "https:\/\/shop.drruthroberts.com\/products\/clarity-mushrooms-for-dogs-mushroom-extract-adaptogen-tincture"
+            "link": "https://shop.drruthroberts.com/products/clarity-mushrooms-for-dogs-mushroom-extract-adaptogen-tincture"
           }
         },
         "851298dd-4488-4c37-bd0a-47c632e1f888": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/turmeric_with_bioperine.jpg",
+            "image": "shopify://shop_images/turmeric_with_bioperine.jpg",
             "title": "Turmeric",
-            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/turmeric-with-bioperine®-organic-coconut-oil-for-cats-dogs-60-chews"
+            "link": "shopify://products/turmeric-with-bioperine®-organic-coconut-oil-for-cats-dogs-60-chews"
           }
         }
       },
@@ -274,7 +283,6 @@
     },
     "1644362911e27a17cd": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1644362911ff49262e-0": {
           "type": "column",
@@ -301,7 +309,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -311,7 +319,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -320,7 +328,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -333,6 +341,7 @@
         "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
         "b5900dc0-f343-402a-9fe7-0eb98426b80b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Holistic Veterinary Care Packages",
         "heading_size": "h1",
@@ -352,7 +361,6 @@
     },
     "16451372445fbe7db4": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1645137244617a2009-0": {
           "type": "heading",
@@ -364,13 +372,12 @@
         "1645137244617a2009-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -378,6 +385,7 @@
         "1645137244617a2009-1",
         "1645137244617a2009-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -398,14 +406,14 @@
         "1644363585f56cc491-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/p>"
+            "text": "<p>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</p>"
           }
         },
         "1644363585f56cc491-2": {
           "type": "button",
           "settings": {
             "button_label": "Read more",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package",
             "button_style_secondary": false
           }
         }

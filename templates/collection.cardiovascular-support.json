@@ -169,7 +169,7 @@
             "title": "Multivitamin ",
             "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "SHOP NOW",
-            "link": "shopify://products/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+            "link": "shopify://products/holistic-total-body-support-for-cats-and-dogs"
           }
         },
         "1644346673215909db-1": {
@@ -255,8 +255,7 @@
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
