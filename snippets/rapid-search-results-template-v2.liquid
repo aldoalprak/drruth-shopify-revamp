@@ -1,31 +1,35 @@
 {% assign rps_metafields = shop.metafields['rapid-search'] %}
 {% assign rps_settings = rps_metafields.rpsSettings %}
-{% assign rps_results_enabled = false %}
-{% assign rps_theme_settings = rps_settings.shopify_public_settings.filters_on_collection_themes
-  | where: 'theme_id', theme.id
-  | first
-%}
 
-{% if collection or search and rps_settings.enabled_resultpage == true and rps_theme_settings.product_snapshot_type == 'original' %}
+{% capture theme_id %}{{ theme.id }}{% endcapture %}
+{% assign rps_theme_settings = rps_settings.shopify_public_settings.theme_settings[theme_id] %}
+
+{% if collection and rps_theme_settings.collection_page_enabled == true %}
+  {% assign collection_page_enabled = true %}
+{% endif %}
+
+{% if search and rps_theme_settings.search_results_page_enabled == true and rps_theme_settings.product_card_design == 'original' %}
+  {% assign search_results_page_enabled = true %}
+{% endif %}
+
+{% if collection_page_enabled or search_results_page_enabled %}
   {% assign rps_results_enabled = true %}
 {% endif %}
 
-{% if rps_theme_settings.product_snapshot_type != 'original' %}
+{% if rps_theme_settings.product_card_design != 'original' %}
   {% assign is_non_original_snapshot = true %}
 {% endif %}
 
-{% if rps_theme_settings.product_snapshot_type == 'original' and rps_theme_settings.assets_updated != null %}
+{% if rps_theme_settings.product_card_design == 'original' and rps_theme_settings.assets_updated != null %}
   {% assign is_original_snapshot_with_updated_assets = true %}
 {% endif %}
 
-{% assign should_load_snapshot = false %}
 {% if is_non_original_snapshot or is_original_snapshot_with_updated_assets %}
   {% assign should_load_snapshot = true %}
 {% endif %}
 
 {% if content_for_header contains rps_metafields.storeFrontScriptDomain
-  and rps_settings.shopify_public_settings.foc_v2_migrated != true
-  and rps_theme_settings.enabled == true
+  and rps_settings.shopify_public_settings.foc_v2_migrated == true
   and rps_settings.enabled == true
   and rps_settings.limit_exceeded == false
   and rps_settings.last_import != false
