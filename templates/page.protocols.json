@@ -125,7 +125,7 @@
         "7e42e020-8ffe-44af-b5a5-aa468086ae14": {
           "type": "featured_collection",
           "settings": {
-            "collection": "supplements-for-senior-dog"
+            "collection": "supplements-for-senior-dog-cat"
           }
         },
         "c119bda2-0e54-4dbe-af6b-12f43029d6f8": {
@@ -315,8 +315,7 @@
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
