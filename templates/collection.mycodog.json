@@ -715,7 +715,7 @@
         "0574c7aa-73e1-4698-bf97-1ee564ef6732": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cancer-support"
+            "collection": "holistic-recovery-protocol"
           }
         },
         "be130b3e-47c3-4b08-802f-4115a3ccdb14": {
@@ -796,32 +796,6 @@
     },
     "1675715890674599c5": {
       "type": "apps",
-      "blocks": {
-        "ad921292-4030-4dab-a23b-58e937d88e8e": {
-          "type": "shopify://apps/stamped-reviews/blocks/carousel/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "title": "Real Reviews from Real Customers",
-            "auto_play": false,
-            "take": 30,
-            "color_title": "#08708a",
-            "color_star": "#ff9900",
-            "color_text": "#2e2a39",
-            "color_link": "#08708a",
-            "review_ids": "",
-            "product_ids": "6935395762241, 6935399039041, 6935398613057",
-            "category": "",
-            "product_brand": "Your Natural Dog",
-            "tags": "",
-            "min_rating": "4",
-            "fill_empty": false,
-            "random": false,
-            "with_photos": false
-          }
-        }
-      },
-      "block_order": [
-        "ad921292-4030-4dab-a23b-58e937d88e8e"
-      ],
       "settings": {
         "include_margins": true
       }
