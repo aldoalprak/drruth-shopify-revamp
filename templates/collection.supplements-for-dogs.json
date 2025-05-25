@@ -307,8 +307,7 @@
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -346,7 +345,7 @@
         "0574c7aa-73e1-4698-bf97-1ee564ef6732": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cancer-support"
+            "collection": "holistic-recovery-protocol"
           }
         },
         "be130b3e-47c3-4b08-802f-4115a3ccdb14": {
