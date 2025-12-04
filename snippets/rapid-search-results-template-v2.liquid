@@ -28,7 +28,17 @@
   {% assign should_load_snapshot = true %}
 {% endif %}
 
-{% if content_for_header contains rps_metafields.storeFrontScriptDomain
+{% if content_for_header contains rps_metafields.storeFrontScriptDomain %}
+  {% assign rps_installed = true %}
+{% endif %}
+
+{% if rps_installed %}
+  <script type="application/json" id="rpsSectionSettingsScript">
+    {{ section.settings | json }}
+  </script>
+{% endif %}
+
+{% if rps_installed
   and rps_settings.enabled == true
   and rps_settings.limit_exceeded == false
   and rps_settings.last_import != false
@@ -37,28 +47,65 @@
   and should_load_snapshot == true
 %}
   {% if search %}
-    {% assign search_title = 'templates.search.title' | t %}
+    {% liquid
+      assign search_title = 'templates.search.title' | t
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'search.general.title' | t
+      endif
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'content.search_results' | t
+      endif
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'general.search.title' | t
+      endif
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'search.heading' | t
+      endif
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'general.search.title_results' | t
+      endif
+      
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'names.search_results' | t
+      endif
 
-    {% if search_title contains 'missing' %}
-      {% assign search_title = 'Search Results' %}
-    {% endif %}
+      if search_title == blank or search_title contains 'missing'
+        assign search_title = 'Search Results'
+      endif
+    %}
 
     <h1 class="rps-results-page-title">{{ search_title }}</h1>
   {% endif %}
-
-  <script type="application/json" id="rpsSectionSettingsScript">
-    {{ section.settings | json }}
-  </script>
 
   <script type="application/json" id="rpsCartInfo">
     {{ cart | json }}
   </script>
 
-  <style>
-    {% if rps_theme_settings.theme_version == 2 %}
-    #shopify-section-{{ section.id }} > *:not(.rps-results):not(.rps-results-page-title) {
-      display: none !important;
+  {% if collection %}
+  <script type="application/json" id="rpsCollectionInfo">
+    {
+      "id": {{ collection.id | json }},
+      "handle": {{ collection.handle | json }},
+      "title": {{ collection.title | json }},
+      "default_sort_by": {{ collection.default_sort_by | json }}
     }
+  </script>
+  {% endif %}
+
+  <style id="rps-theme-section-style-{{ section.id }}">
+    {% if rps_theme_settings.theme_version == 2 %}
+      #shopify-section-template{{ section.id }}__search.shopify-section .search-page__header {
+        display: none !important;
+      }
+
+      #shopify-section-{{ section.id }} > *:not(.rps-results):not(.rps-results-page-title) {
+        display: none !important;
+      }
     {% endif %}
 
     .rps-results-page-title {
@@ -75,7 +122,7 @@
   {% render 'rapid-search-results-skeleton' %}
 
   {% if rps_theme_settings.theme_version == 1 %}
-    <script>
+    <script id="rps-theme-section-script-{{ section.id }}">
       function rpsHideSiblingsExceptTarget(targetElement) {
         if (!targetElement) return;
 
